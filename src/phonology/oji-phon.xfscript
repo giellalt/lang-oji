@@ -8,10 +8,12 @@ ch | j |
 s | z | sh | zh |
 m | n |
 w | y |
-%>
+%> | %^ !standard m-boundary, person pre-stem boundary
 ] ;
 
+!###############
 !Natural Classes
+!###############
 
 define VShort [ a | i | o ] ;
 
@@ -21,13 +23,93 @@ define NasalTrig [ n [ h | s | y ] ] ;
 
 define VNas [ VLong ( NasalTrig ) ] ;
 
-define Vowels [ VShort | VLong | VNas ] ;
+define Vowel [ VShort | VLong | VNas ] ;
 
+define Obs [ p | t | k | ' | b | d | g | ch | j | s | z | sh | zh ] ;
+
+define Nas [ m | n ] ;
+
+define Glide [ w | y ] ;
+
+define Son [ Nas | Glide ] ;
+
+define Cons [ Son | Obs ] ;
+
+define NonConsShort [ Glide | VShort ] ;
+
+define TDS [ t | d | s ] ; !targets of palatalization
+
+define MorphemeBound [ %> | %^ ] ;
+
+!###############
 !Rules
+!###############
 
-define NasDel n -> 0 || _ %> Cns ;
+!this rule bled itself historically
+!never applied in sub-minimal words
+!minimality was tricky.
+!   SS sequences permitted no deletion (glides or vowels)
+!       SSG could have been optimal iambic foot if codas contributed morae!
+!       so there might have been a nuanced notion of minimality
+!   SL sequences permitted glide deletion
+!   L sequences permitted glide deletion
 
+define ApocopeHist NonConsShort -> 0 || _ .#. ;
+
+!There is an alternative analysis of apocope, but it is hairy
+!need to specify inflected verb
+!is bled by [n] deletion in Odawa (Piggott 1974)
+
+define ApocopeMod VShort -> 0 || _ .#. ;
+
+!Part of a conspiracy against vowel hiatus
+!Also possible for V1 in V1V2 to delete
+!Not totally confident that environment covers all cases (necessary, not sufficient)
+
+define HiatusDel VShort -> 0 || VLong _ ;
+
+define HiatusPre 0 -> d || %^ _ Vowel ;
+
+!as Vowel is currently defined /aansaa/ will trigger epenthesis
+!Miikka!
+
+define HiatusEpen 0 -> ' || Vowel _ Vowel ;
+
+!The weirdo rule
+!traceable to VwV becoming oo in Proto-Alg (Goddard 1972?)
+!   o<*w@ 
+!but there must have been some sort of reanalysis
+!otherwise why coalesce when there is now an epenthetic d?
+!This is the other rule that refers to the prefix-stem boundary
+
+define OLengthen o -> oo || ^ _ ; 
+
+!Kaye 1973 (71?) As I recall there was a morpheme boundary in at least one rule
+
+define Coalescence1 awi -> oo || _ ;
+
+define Coalsecence2 awi -> aa || _ k ;
+
+!yarg! how to just specify a feature that changes and keep the rest
+!want t->ch, d->j, s->sh
+!am I sure that d->j? did z->zh?
+!s->sh is pretty rare, counter-fed by i<*e. Valentine transcribes with S
+
+define Palatalization1 TDS -> [ ch | j | sh ] || _ i ;
+
+!now we get to some fun stuff.
+!n<*l alternates with zh, but n<*n does not
+!i<*i triggers the alternation, but i<*e does not
+!Bloomfield transcribed the palatalizing ns as "N". Valentine too.
+!not sure if he had a special symbol for the different i's
+!we can recapitulate history here, or have a lot of lex exceptions
+
+define Paltalization2 n -> zh || _ i ;
+
+!###############
 !Composing the grammar
+!###############
+
 !todo
 
   
