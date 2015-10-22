@@ -82,7 +82,7 @@ define HiatusEpen 0 -> ' || Vowel _ Vowel ;
 !otherwise why coalesce when there is now an epenthetic d?
 !This is the other rule that refers to the prefix-stem boundary
 
-define OLengthen o -> oo || ^ _ ; 
+define OLengthen o -> oo || %^ _ ; 
 
 !Kaye 1973 (71?) As I recall there was a morpheme boundary in at least one rule
 
