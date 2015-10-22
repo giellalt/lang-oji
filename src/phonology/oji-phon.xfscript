@@ -1,7 +1,7 @@
 !twolc files cannot be used with traditional phonological rules
 !so we need to make a .xfscript file instead
 
-define Sigma [ a | e | i | o | aa | ii | oo |
+define Sigma [ a | e | i | o | a a | i i | o o |
 p | t | k | ' |
 b | d | g |
 ch | j |
@@ -17,7 +17,7 @@ w | y |
 
 define VShort [ a | i | o ] ;
 
-define VLong [ aa | e | ii | oo ] ;
+define VLong [ a a | e | i i | o o ] ;
 
 define NasalTrig [ n [ h | s | y ] ] ;
 
@@ -25,7 +25,7 @@ define VNas [ VLong ( NasalTrig ) ] ;
 
 define Vowel [ VShort | VLong | VNas ] ;
 
-define Obs [ p | t | k | ' | b | d | g | ch | j | s | z | sh | zh ] ;
+define Obs [ p | t | k | ' | b | d | g | c h | j | s | z | s h | z h ] ;
 
 define Nas [ m | n ] ;
 
@@ -82,13 +82,13 @@ define HiatusEpen 0 -> ' || Vowel _ Vowel ;
 !otherwise why coalesce when there is now an epenthetic d?
 !This is the other rule that refers to the prefix-stem boundary
 
-define OLengthen o -> oo || %^ _ ; 
+define OLengthen o -> o o || %^ _ ; 
 
 !Kaye 1973 (71?) As I recall there was a morpheme boundary in at least one rule
 
-define Coalescence1 awi -> oo || _ ;
+define Coalescence1 a w i -> o o || _ ;
 
-define Coalsecence2 awi -> aa || _ k ;
+define Coalsecence2 a w i -> a a || _ k ;
 
 !yarg! how to just specify a feature that changes and keep the rest
 !want t->ch, d->j, s->sh
@@ -110,7 +110,21 @@ define Paltalization2 n -> zh || _ i ;
 !Composing the grammar
 !###############
 
-!todo
+
+read regex [ 
+    ApocopeHist       ! NonConsShort -> 0 || _ .#. ;
+.o. ApocopeMod        ! VShort -> 0 || _ .#. ;
+.o. HiatusDel         ! VShort -> 0 || VLong _ ;
+.o. HiatusPre         ! 0 -> d || %^ _ Vowel ;
+.o. HiatusEpen        ! 0 -> ' || Vowel _ Vowel ;
+.o. OLengthen         ! o -> o o || %^ _ ; 
+.o. Coalescence1      ! a w i -> o o || _ ;
+.o. Coalsecence2      ! a w i -> a a || _ k ;
+.o. Palatalization1   ! TDS -> [ ch | j | sh ] || _ i ;
+.o. Paltalization2    ! n -> zh || _ i ;
+
+] ;
+
 
   
  
