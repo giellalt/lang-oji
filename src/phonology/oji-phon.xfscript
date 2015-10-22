@@ -90,21 +90,51 @@ define Coalescence1 a w i -> o o || _ ;
 
 define Coalsecence2 a w i -> a a || _ k ;
 
+!-----
+!controversial abstract phonology
+!some of these rules use, or should use, segments that are not yet in Sigma
+!-----
+
 !yarg! how to just specify a feature that changes and keep the rest
 !want t->ch, d->j, s->sh
-!am I sure that d->j? did z->zh?
 !s->sh is pretty rare, counter-fed by i<*e. Valentine transcribes with S
+!does non-alternating /s/ come from a different historical source?
+!or were they all before *e?
 
+!S not in Sigma
 define Palatalization1 TDS -> [ ch | j | sh ] || _ i ;
 
 !now we get to some fun stuff.
 !n<*l alternates with zh, but n<*n does not
 !i<*i triggers the alternation, but i<*e does not
 !Bloomfield transcribed the palatalizing ns as "N". Valentine too.
-!not sure if he had a special symbol for the different i's
+!no special transcription for i<*e since it didn't alternate in the daughter langs
 !we can recapitulate history here, or have a lot of lex exceptions
+!Valentine states that only n<*l<*T alternates
+!Kiparsky-Piggott in 70's stated that n<*l<*T and n<*l<*l alternate
 
-define Paltalization2 n -> zh || _ i ;
+!l not in Sigma
+define Palatalization2Hist l -> zh || _ i ;
+
+define Palatalization2Mod n -> zh || _ i ;
+
+!i%<e not in Sigma
+!is this how to define in all environments?
+
+define LowShortRaising i%<e -> i || _ ;
+
+!What happened to *sy?
+define Palatalization3 [d | t | l ] y -> [ j | ch | zh ] || _ ; 
+
+!-----
+!end controversial abstract phonology
+!-----
+
+!Valentine 2001 'linking vowel'. There are others.
+!The discussion on 339 almost makes it sound like [i] epenthesis follows syncope
+!But I don't think that is right (and it can be read as it preceding too)
+
+define LowEpenthesis 0 -> a || Nasal _ Nasal ;
 
 !###############
 !Composing the grammar
