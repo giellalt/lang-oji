@@ -1,11 +1,32 @@
-!twolc files cannot be used with traditional phonological rules
-!so we need to make a .xfscript file instead
+
+! Morphophonology for Ojibwe
+! ==========================
+
+
+
+! Usage for checking this file without a lexicon:
+! cd main/langs/oji/src/phonology
+! make
+! echo wordform | lookup oji-phon.lookup.xfst
+! (or eventually 
+! just the lookup command, and feed forms, or 
+! cat file |  lookup oji-phon.lookup.xfst
+
+! Note:
+! Letter should be written with space inbetween
+! Insertion rules (0 -> a) must be written [..] -> a)
+! Empty context is unstated (writing || _ ; is illegal)
+! Remember to declare rules in the composing secion at the end
+! Rules are ordered in the composing section
+! Remember the purpose of the file: to map lexicon via morphophonology to wordform
+
+! Definitions
 
 define Sigma [ a | e | i | o | a a | i i | o o |
-p | t | k | ' |
+p | t | k | %' |
 b | d | g |
 ch | j |
-s | z | sh | zh |
+s | z | s h | z h |
 m | n |
 w | y |
 %> | %^ !standard m-boundary, person pre-stem boundary
@@ -25,7 +46,7 @@ define VNas [ VLong ( NasalTrig ) ] ;
 
 define Vowel [ VShort | VLong | VNas ] ;
 
-define Obs [ p | t | k | ' | b | d | g | c h | j | s | z | s h | z h ] ;
+define Obs [ p | t | k | %' | b | d | g | c h | j | s | z | s h | z h ] ;
 
 define Nas [ m | n ] ;
 
@@ -39,7 +60,7 @@ define NonConsShort [ Glide | VShort ] ;
 
 define TDS [ t | d | s ] ; !targets of palatalization
 
-define MorphemeBound [ %> | %^ ] ;
+define MorphemeBound [ %> | %^ | %< ] ;
 
 !###############
 !Rules
@@ -68,12 +89,12 @@ define ApocopeMod VShort -> 0 || _ .#. ;
 
 define HiatusDel VShort -> 0 || VLong _ ;
 
-define HiatusPre 0 -> d || %^ _ Vowel ;
+define HiatusPre [..] -> d || %^ _ Vowel ;
 
 !as Vowel is currently defined /aansaa/ will trigger epenthesis
 !Miikka!
 
-define HiatusEpen 0 -> ' || Vowel _ Vowel ;
+define HiatusEpen [..] -> %' || Vowel _ Vowel ;
 
 !The weirdo rule
 !traceable to VwV becoming oo in Proto-Alg (Goddard 1972?)
@@ -86,7 +107,7 @@ define OLengthen o -> o o || %^ _ ;
 
 !Kaye 1973 (71?) As I recall there was a morpheme boundary in at least one rule
 
-define Coalescence1 a w i -> o o || _ ;
+define Coalescence1 a w i -> o o ;
 
 define Coalsecence2 a w i -> a a || _ k ;
 
@@ -102,7 +123,7 @@ define Coalsecence2 a w i -> a a || _ k ;
 !or were they all before *e?
 
 !S not in Sigma
-define Palatalization1 TDS -> [ ch | j | sh ] || _ i ;
+define Palatalization1 TDS -> [ c h | j | s h ] || _ i ;
 
 !now we get to some fun stuff.
 !n<*l alternates with zh, but n<*n does not
@@ -114,17 +135,17 @@ define Palatalization1 TDS -> [ ch | j | sh ] || _ i ;
 !Kiparsky-Piggott in 70's stated that n<*l<*T and n<*l<*l alternate
 
 !l not in Sigma
-define Palatalization2Hist l -> zh || _ i ;
+define Palatalization2Hist l -> z h || _ i ;
 
-define Palatalization2Mod n -> zh || _ i ;
+define Palatalization2Mod n -> z h || _ i ;
 
 !i%<e not in Sigma
 !is this how to define in all environments?
 
-define LowShortRaising i%<e -> i || _ ;
+define LowShortRaising i %< e -> i  ;
 
 !What happened to *sy?
-define Palatalization3 [d | t | l ] y -> [ j | ch | zh ] || _ ; 
+define Palatalization3 [d | t | l ] y -> [ j | c h | z h ] ; 
 
 !-----
 !end controversial abstract phonology
@@ -151,7 +172,11 @@ read regex [
 .o. Coalescence1      ! a w i -> o o || _ ;
 .o. Coalsecence2      ! a w i -> a a || _ k ;
 .o. Palatalization1   ! TDS -> [ ch | j | sh ] || _ i ;
-.o. Paltalization2    ! n -> zh || _ i ;
+.o. Palatalization2Hist  
+.o. Palatalization2Mod
+.o. LowShortRaising  
+.o. Palatalization3  
+.o. LowEpenthesis    
 
 ] ;
 
