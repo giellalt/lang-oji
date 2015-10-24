@@ -14,6 +14,7 @@
 
 ! Note:
 ! Letter should be written with space inbetween
+! Except for multicharacter symbols, which must be declared in your lexc file
 ! Insertion rules (0 -> a) must be written [..] -> a)
 ! Empty context is unstated (writing || _ ; is illegal)
 ! Remember to declare rules in the composing secion at the end
@@ -60,7 +61,7 @@ define NonConsShort [ Glide | VShort ] ;
 
 define TDS [ t | d | s ] ; !targets of palatalization
 
-define MorphemeBound [ %> | %^ | %< ] ;
+define MorphemeBound [ %> | %^ ] ;
 
 !###############
 !Rules
@@ -124,6 +125,7 @@ define Coalsecence2 a w i -> a a || _ k ;
 
 !S not in Sigma
 define Palatalization1 TDS -> [ c h | j | s h ] || _ i ;
+!t -> c h || _ i ,, d -> j || _ i ,, s -> s h || _ i ;
 
 !now we get to some fun stuff.
 !n<*l alternates with zh, but n<*n does not
@@ -155,7 +157,7 @@ define Palatalization3 [d | t | l ] y -> [ j | c h | z h ] ;
 !The discussion on 339 almost makes it sound like [i] epenthesis follows syncope
 !But I don't think that is right (and it can be read as it preceding too)
 
-define LowEpenthesis 0 -> a || Nasal _ Nasal ;
+define LowEpenthesis [..] -> a || Nasal _ Nasal ;
 
 !###############
 !Composing the grammar
