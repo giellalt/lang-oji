@@ -1,0 +1,59 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  
+  Noun - amiskw - ok : # -m animate noun, beaver # quite unsure about the diminutives
+     amisk+N+AN+Sg: amisk
+     amisk+N+AN+Pl: amiskwak
+     amisk+N+AN+Loc: amiskonâhk
+     amisk+N+AN+Sg+Obv: amiskwa
+     amisk+N+AN+Der/Dim+N+AN+Sg: [amiskos, amiskosis] 
+     amisk+N+AN+Der/Dim+N+AN+Pl: [amiskosak, amiskosisak]
+     
+     amisk+N+AN+Sg+Px1Sg: nitamiskom
+     amisk+N+AN+Sg+Px2Sg: kitamiskom
+     amisk+N+AN+Sg+Px3Sg+Obv: otamiskoma
+     amisk+N+AN+Sg+Px4Sg+Obv: otamiskomiyiwa
+     amisk+N+AN+Sg+Px1Pl: nitamiskominân
+     amisk+N+AN+Sg+Px12Pl: kitamiskominaw
+     amisk+N+AN+Sg+Px2Pl: kitamiskomiwâw
+     amisk+N+AN+Sg+Px3Pl+Obv: otamiskomiwâwa
+     amisk+N+AN+Sg+Px4Pl+Obv: otamiskomiyiwa
+     
+     amisk+N+AN+Pl+Px1Sg: nitamiskomak
+     amisk+N+AN+Pl+Px2Sg: kitamiskomak
+     amisk+N+AN+Pl+Px3Sg+Obv: otamiskoma
+     amisk+N+AN+Pl+Px4Sg+Obv: otamiskomiyiwa
+     amisk+N+AN+Pl+Px1Pl: nitamiskominânak
+     amisk+N+AN+Pl+Px12Pl: kitamiskominawak
+     amisk+N+AN+Pl+Px2Pl: kitamiskomiwâwak
+     amisk+N+AN+Pl+Px3Pl+Obv: otamiskomiwâwa
+     amisk+N+AN+Pl+Px4Pl+Obv: otamiskomiyiwa
+     
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px1Sg: nicamiskomis 
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px2Sg: kicamiskomis
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px3Sg+Obv: ocamiskomisa
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px4Sg+Obv: ocamiskomisiyiwa
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px1Pl: nicamiskomisinân
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px12Pl: kicamiskomisinaw
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px2Pl: kicamiskomisiwâw
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px3Pl+Obv: ocamiskomisiwâwa
+     amisk+N+AN+Der/Dim+N+AN+Sg+Px4Pl+Obv: ocamiskomisiyiwa
+     
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px1Sg: nicamiskomisak
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px2Sg: kicamiskomisak
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px3Sg+Obv: ocamiskomisa
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px4Sg+Obv: ocamiskomisiyiwa
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px1Pl: nicamiskomisinânak
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px12Pl: kicamiskomisinawak
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px2Pl: kicamiskomisiwâwak
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px3Pl+Obv: ocamiskomisiwâwa
+     amisk+N+AN+Der/Dim+N+AN+Pl+Px4Pl+Obv: ocamiskomisiyiwa
+     
