@@ -1,0 +1,2577 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  NA - VLONG - aamoo - NoExtra :
+
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+
+     #Isolation form
+     aamoo: aamoo
+     
+     #Values from slots numbered: 1
+     +Px1aamoo: niaamoo
+     +Px2aamoo: giaamoo
+     +Px3aamoo: oaamoo
+     
+     #Values from slots numbered: 2
+     aamoo+Dim: aamooens
+     aamoo+Con: aamooenh
+     
+     #Values from slots numbered: 3
+     aamoo+Pos: aamooim
+     
+     #Values from slots numbered: 4
+     aamoo+Pej: aamooish
+     
+     #Values from slots numbered: 5
+     aamoo+Pos1Pl: aamooinaan
+     aamoo+PosPl: aamooiwaa
+     aamoo+PosObv: aamooini
+     
+     #Values from slots numbered: 6
+     aamoo+Pret: aamooiban
+     aamoo+VocPl: aamoo***idig, idog***
+     
+     #Values from slots numbered: 7
+     aamoo+Obv: aamooan
+     aamoo+Pl: aamooag
+     aamoo+Loc: aamooing
+     
+     #Values from slots numbered: 1, 2
+     +Px1aamoo+Dim: niaamooens
+     +Px1aamoo+Con: niaamooenh
+     +Px2aamoo+Dim: giaamooens
+     +Px2aamoo+Con: giaamooenh
+     +Px3aamoo+Dim: oaamooens
+     +Px3aamoo+Con: oaamooenh
+     
+     #Values from slots numbered: 1, 3
+     +Px1aamoo+Pos: niaamooim
+     +Px2aamoo+Pos: giaamooim
+     +Px3aamoo+Pos: oaamooim
+     
+     #Values from slots numbered: 1, 4
+     +Px1aamoo+Pej: niaamooish
+     +Px2aamoo+Pej: giaamooish
+     +Px3aamoo+Pej: oaamooish
+     
+     #Values from slots numbered: 1, 5
+     +Px1aamoo+Pos1Pl: niaamooinaan
+     +Px1aamoo+PosPl: niaamooiwaa
+     +Px1aamoo+PosObv: niaamooini
+     +Px2aamoo+Pos1Pl: giaamooinaan
+     +Px2aamoo+PosPl: giaamooiwaa
+     +Px2aamoo+PosObv: giaamooini
+     +Px3aamoo+Pos1Pl: oaamooinaan
+     +Px3aamoo+PosPl: oaamooiwaa
+     +Px3aamoo+PosObv: oaamooini
+     
+     #Values from slots numbered: 1, 6
+     +Px1aamoo+Pret: niaamooiban
+     +Px1aamoo+VocPl: niaamoo***idig, idog***
+     +Px2aamoo+Pret: giaamooiban
+     +Px2aamoo+VocPl: giaamoo***idig, idog***
+     +Px3aamoo+Pret: oaamooiban
+     +Px3aamoo+VocPl: oaamoo***idig, idog***
+     
+     #Values from slots numbered: 1, 7
+     +Px1aamoo+Obv: niaamooan
+     +Px1aamoo+Pl: niaamooag
+     +Px1aamoo+Loc: niaamooing
+     +Px2aamoo+Obv: giaamooan
+     +Px2aamoo+Pl: giaamooag
+     +Px2aamoo+Loc: giaamooing
+     +Px3aamoo+Obv: oaamooan
+     +Px3aamoo+Pl: oaamooag
+     +Px3aamoo+Loc: oaamooing
+     
+     #Values from slots numbered: 2, 3
+     aamoo+Dim+Pos: aamooensim
+     aamoo+Con+Pos: aamooenhim
+     
+     #Values from slots numbered: 2, 4
+     aamoo+Dim+Pej: aamooensish
+     aamoo+Con+Pej: aamooenhish
+     
+     #Values from slots numbered: 2, 5
+     aamoo+Dim+Pos1Pl: aamooensinaan
+     aamoo+Dim+PosPl: aamooensiwaa
+     aamoo+Dim+PosObv: aamooensini
+     aamoo+Con+Pos1Pl: aamooenhinaan
+     aamoo+Con+PosPl: aamooenhiwaa
+     aamoo+Con+PosObv: aamooenhini
+     
+     #Values from slots numbered: 2, 6
+     aamoo+Dim+Pret: aamooensiban
+     aamoo+Dim+VocPl: aamooens***idig, idog***
+     aamoo+Con+Pret: aamooenhiban
+     aamoo+Con+VocPl: aamooenh***idig, idog***
+     
+     #Values from slots numbered: 2, 7
+     aamoo+Dim+Obv: aamooensan
+     aamoo+Dim+Pl: aamooensag
+     aamoo+Dim+Loc: aamooensing
+     aamoo+Con+Obv: aamooenhan
+     aamoo+Con+Pl: aamooenhag
+     aamoo+Con+Loc: aamooenhing
+     
+     #Values from slots numbered: 3, 4
+     aamoo+Pos+Pej: aamooimish
+     
+     #Values from slots numbered: 3, 5
+     aamoo+Pos+Pos1Pl: aamooiminaan
+     aamoo+Pos+PosPl: aamooimiwaa
+     aamoo+Pos+PosObv: aamooimini
+     
+     #Values from slots numbered: 3, 6
+     aamoo+Pos+Pret: aamooimiban
+     aamoo+Pos+VocPl: aamooim***idig, idog***
+     
+     #Values from slots numbered: 3, 7
+     aamoo+Pos+Obv: aamooiman
+     aamoo+Pos+Pl: aamooimag
+     aamoo+Pos+Loc: aamooiming
+     
+     #Values from slots numbered: 4, 5
+     aamoo+Pej+Pos1Pl: aamooishinaan
+     aamoo+Pej+PosPl: aamooishiwaa
+     aamoo+Pej+PosObv: aamooishini
+     
+     #Values from slots numbered: 4, 6
+     aamoo+Pej+Pret: aamooishiban
+     aamoo+Pej+VocPl: aamooish***idig, idog***
+     
+     #Values from slots numbered: 4, 7
+     aamoo+Pej+Obv: aamooishan
+     aamoo+Pej+Pl: aamooishag
+     aamoo+Pej+Loc: aamooishing
+     
+     #Values from slots numbered: 5, 6
+     aamoo+Pos1Pl+Pret: aamooinaaniban
+     aamoo+Pos1Pl+VocPl: aamooinaan***idig, idog***
+     aamoo+PosPl+Pret: aamooiwaaiban
+     aamoo+PosPl+VocPl: aamooiwaa***idig, idog***
+     aamoo+PosObv+Pret: aamooiniiban
+     aamoo+PosObv+VocPl: aamooini***idig, idog***
+     
+     #Values from slots numbered: 5, 7
+     aamoo+Pos1Pl+Obv: aamooinaanan
+     aamoo+Pos1Pl+Pl: aamooinaanag
+     aamoo+Pos1Pl+Loc: aamooinaaning
+     aamoo+PosPl+Obv: aamooiwaaan
+     aamoo+PosPl+Pl: aamooiwaaag
+     aamoo+PosPl+Loc: aamooiwaaing
+     aamoo+PosObv+Obv: aamooinian
+     aamoo+PosObv+Pl: aamooiniag
+     aamoo+PosObv+Loc: aamooiniing
+     
+     #Values from slots numbered: 6, 7
+     aamoo+Pret+Obv: aamooibanan
+     aamoo+Pret+Pl: aamooibanag
+     aamoo+Pret+Loc: aamooibaning
+     aamoo+VocPl+Obv: aamoo***idig, idog***an
+     aamoo+VocPl+Pl: aamoo***idig, idog***ag
+     aamoo+VocPl+Loc: aamoo***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3
+     +Px1aamoo+Dim+Pos: niaamooensim
+     +Px1aamoo+Con+Pos: niaamooenhim
+     +Px2aamoo+Dim+Pos: giaamooensim
+     +Px2aamoo+Con+Pos: giaamooenhim
+     +Px3aamoo+Dim+Pos: oaamooensim
+     +Px3aamoo+Con+Pos: oaamooenhim
+     
+     #Values from slots numbered: 1, 2, 4
+     +Px1aamoo+Dim+Pej: niaamooensish
+     +Px1aamoo+Con+Pej: niaamooenhish
+     +Px2aamoo+Dim+Pej: giaamooensish
+     +Px2aamoo+Con+Pej: giaamooenhish
+     +Px3aamoo+Dim+Pej: oaamooensish
+     +Px3aamoo+Con+Pej: oaamooenhish
+     
+     #Values from slots numbered: 1, 2, 5
+     +Px1aamoo+Dim+Pos1Pl: niaamooensinaan
+     +Px1aamoo+Dim+PosPl: niaamooensiwaa
+     +Px1aamoo+Dim+PosObv: niaamooensini
+     +Px1aamoo+Con+Pos1Pl: niaamooenhinaan
+     +Px1aamoo+Con+PosPl: niaamooenhiwaa
+     +Px1aamoo+Con+PosObv: niaamooenhini
+     +Px2aamoo+Dim+Pos1Pl: giaamooensinaan
+     +Px2aamoo+Dim+PosPl: giaamooensiwaa
+     +Px2aamoo+Dim+PosObv: giaamooensini
+     +Px2aamoo+Con+Pos1Pl: giaamooenhinaan
+     +Px2aamoo+Con+PosPl: giaamooenhiwaa
+     +Px2aamoo+Con+PosObv: giaamooenhini
+     +Px3aamoo+Dim+Pos1Pl: oaamooensinaan
+     +Px3aamoo+Dim+PosPl: oaamooensiwaa
+     +Px3aamoo+Dim+PosObv: oaamooensini
+     +Px3aamoo+Con+Pos1Pl: oaamooenhinaan
+     +Px3aamoo+Con+PosPl: oaamooenhiwaa
+     +Px3aamoo+Con+PosObv: oaamooenhini
+     
+     #Values from slots numbered: 1, 2, 6
+     +Px1aamoo+Dim+Pret: niaamooensiban
+     +Px1aamoo+Dim+VocPl: niaamooens***idig, idog***
+     +Px1aamoo+Con+Pret: niaamooenhiban
+     +Px1aamoo+Con+VocPl: niaamooenh***idig, idog***
+     +Px2aamoo+Dim+Pret: giaamooensiban
+     +Px2aamoo+Dim+VocPl: giaamooens***idig, idog***
+     +Px2aamoo+Con+Pret: giaamooenhiban
+     +Px2aamoo+Con+VocPl: giaamooenh***idig, idog***
+     +Px3aamoo+Dim+Pret: oaamooensiban
+     +Px3aamoo+Dim+VocPl: oaamooens***idig, idog***
+     +Px3aamoo+Con+Pret: oaamooenhiban
+     +Px3aamoo+Con+VocPl: oaamooenh***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 7
+     +Px1aamoo+Dim+Obv: niaamooensan
+     +Px1aamoo+Dim+Pl: niaamooensag
+     +Px1aamoo+Dim+Loc: niaamooensing
+     +Px1aamoo+Con+Obv: niaamooenhan
+     +Px1aamoo+Con+Pl: niaamooenhag
+     +Px1aamoo+Con+Loc: niaamooenhing
+     +Px2aamoo+Dim+Obv: giaamooensan
+     +Px2aamoo+Dim+Pl: giaamooensag
+     +Px2aamoo+Dim+Loc: giaamooensing
+     +Px2aamoo+Con+Obv: giaamooenhan
+     +Px2aamoo+Con+Pl: giaamooenhag
+     +Px2aamoo+Con+Loc: giaamooenhing
+     +Px3aamoo+Dim+Obv: oaamooensan
+     +Px3aamoo+Dim+Pl: oaamooensag
+     +Px3aamoo+Dim+Loc: oaamooensing
+     +Px3aamoo+Con+Obv: oaamooenhan
+     +Px3aamoo+Con+Pl: oaamooenhag
+     +Px3aamoo+Con+Loc: oaamooenhing
+     
+     #Values from slots numbered: 1, 3, 4
+     +Px1aamoo+Pos+Pej: niaamooimish
+     +Px2aamoo+Pos+Pej: giaamooimish
+     +Px3aamoo+Pos+Pej: oaamooimish
+     
+     #Values from slots numbered: 1, 3, 5
+     +Px1aamoo+Pos+Pos1Pl: niaamooiminaan
+     +Px1aamoo+Pos+PosPl: niaamooimiwaa
+     +Px1aamoo+Pos+PosObv: niaamooimini
+     +Px2aamoo+Pos+Pos1Pl: giaamooiminaan
+     +Px2aamoo+Pos+PosPl: giaamooimiwaa
+     +Px2aamoo+Pos+PosObv: giaamooimini
+     +Px3aamoo+Pos+Pos1Pl: oaamooiminaan
+     +Px3aamoo+Pos+PosPl: oaamooimiwaa
+     +Px3aamoo+Pos+PosObv: oaamooimini
+     
+     #Values from slots numbered: 1, 3, 6
+     +Px1aamoo+Pos+Pret: niaamooimiban
+     +Px1aamoo+Pos+VocPl: niaamooim***idig, idog***
+     +Px2aamoo+Pos+Pret: giaamooimiban
+     +Px2aamoo+Pos+VocPl: giaamooim***idig, idog***
+     +Px3aamoo+Pos+Pret: oaamooimiban
+     +Px3aamoo+Pos+VocPl: oaamooim***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 7
+     +Px1aamoo+Pos+Obv: niaamooiman
+     +Px1aamoo+Pos+Pl: niaamooimag
+     +Px1aamoo+Pos+Loc: niaamooiming
+     +Px2aamoo+Pos+Obv: giaamooiman
+     +Px2aamoo+Pos+Pl: giaamooimag
+     +Px2aamoo+Pos+Loc: giaamooiming
+     +Px3aamoo+Pos+Obv: oaamooiman
+     +Px3aamoo+Pos+Pl: oaamooimag
+     +Px3aamoo+Pos+Loc: oaamooiming
+     
+     #Values from slots numbered: 1, 4, 5
+     +Px1aamoo+Pej+Pos1Pl: niaamooishinaan
+     +Px1aamoo+Pej+PosPl: niaamooishiwaa
+     +Px1aamoo+Pej+PosObv: niaamooishini
+     +Px2aamoo+Pej+Pos1Pl: giaamooishinaan
+     +Px2aamoo+Pej+PosPl: giaamooishiwaa
+     +Px2aamoo+Pej+PosObv: giaamooishini
+     +Px3aamoo+Pej+Pos1Pl: oaamooishinaan
+     +Px3aamoo+Pej+PosPl: oaamooishiwaa
+     +Px3aamoo+Pej+PosObv: oaamooishini
+     
+     #Values from slots numbered: 1, 4, 6
+     +Px1aamoo+Pej+Pret: niaamooishiban
+     +Px1aamoo+Pej+VocPl: niaamooish***idig, idog***
+     +Px2aamoo+Pej+Pret: giaamooishiban
+     +Px2aamoo+Pej+VocPl: giaamooish***idig, idog***
+     +Px3aamoo+Pej+Pret: oaamooishiban
+     +Px3aamoo+Pej+VocPl: oaamooish***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 7
+     +Px1aamoo+Pej+Obv: niaamooishan
+     +Px1aamoo+Pej+Pl: niaamooishag
+     +Px1aamoo+Pej+Loc: niaamooishing
+     +Px2aamoo+Pej+Obv: giaamooishan
+     +Px2aamoo+Pej+Pl: giaamooishag
+     +Px2aamoo+Pej+Loc: giaamooishing
+     +Px3aamoo+Pej+Obv: oaamooishan
+     +Px3aamoo+Pej+Pl: oaamooishag
+     +Px3aamoo+Pej+Loc: oaamooishing
+     
+     #Values from slots numbered: 1, 5, 6
+     +Px1aamoo+Pos1Pl+Pret: niaamooinaaniban
+     +Px1aamoo+Pos1Pl+VocPl: niaamooinaan***idig, idog***
+     +Px1aamoo+PosPl+Pret: niaamooiwaaiban
+     +Px1aamoo+PosPl+VocPl: niaamooiwaa***idig, idog***
+     +Px1aamoo+PosObv+Pret: niaamooiniiban
+     +Px1aamoo+PosObv+VocPl: niaamooini***idig, idog***
+     +Px2aamoo+Pos1Pl+Pret: giaamooinaaniban
+     +Px2aamoo+Pos1Pl+VocPl: giaamooinaan***idig, idog***
+     +Px2aamoo+PosPl+Pret: giaamooiwaaiban
+     +Px2aamoo+PosPl+VocPl: giaamooiwaa***idig, idog***
+     +Px2aamoo+PosObv+Pret: giaamooiniiban
+     +Px2aamoo+PosObv+VocPl: giaamooini***idig, idog***
+     +Px3aamoo+Pos1Pl+Pret: oaamooinaaniban
+     +Px3aamoo+Pos1Pl+VocPl: oaamooinaan***idig, idog***
+     +Px3aamoo+PosPl+Pret: oaamooiwaaiban
+     +Px3aamoo+PosPl+VocPl: oaamooiwaa***idig, idog***
+     +Px3aamoo+PosObv+Pret: oaamooiniiban
+     +Px3aamoo+PosObv+VocPl: oaamooini***idig, idog***
+     
+     #Values from slots numbered: 1, 5, 7
+     +Px1aamoo+Pos1Pl+Obv: niaamooinaanan
+     +Px1aamoo+Pos1Pl+Pl: niaamooinaanag
+     +Px1aamoo+Pos1Pl+Loc: niaamooinaaning
+     +Px1aamoo+PosPl+Obv: niaamooiwaaan
+     +Px1aamoo+PosPl+Pl: niaamooiwaaag
+     +Px1aamoo+PosPl+Loc: niaamooiwaaing
+     +Px1aamoo+PosObv+Obv: niaamooinian
+     +Px1aamoo+PosObv+Pl: niaamooiniag
+     +Px1aamoo+PosObv+Loc: niaamooiniing
+     +Px2aamoo+Pos1Pl+Obv: giaamooinaanan
+     +Px2aamoo+Pos1Pl+Pl: giaamooinaanag
+     +Px2aamoo+Pos1Pl+Loc: giaamooinaaning
+     +Px2aamoo+PosPl+Obv: giaamooiwaaan
+     +Px2aamoo+PosPl+Pl: giaamooiwaaag
+     +Px2aamoo+PosPl+Loc: giaamooiwaaing
+     +Px2aamoo+PosObv+Obv: giaamooinian
+     +Px2aamoo+PosObv+Pl: giaamooiniag
+     +Px2aamoo+PosObv+Loc: giaamooiniing
+     +Px3aamoo+Pos1Pl+Obv: oaamooinaanan
+     +Px3aamoo+Pos1Pl+Pl: oaamooinaanag
+     +Px3aamoo+Pos1Pl+Loc: oaamooinaaning
+     +Px3aamoo+PosPl+Obv: oaamooiwaaan
+     +Px3aamoo+PosPl+Pl: oaamooiwaaag
+     +Px3aamoo+PosPl+Loc: oaamooiwaaing
+     +Px3aamoo+PosObv+Obv: oaamooinian
+     +Px3aamoo+PosObv+Pl: oaamooiniag
+     +Px3aamoo+PosObv+Loc: oaamooiniing
+     
+     #Values from slots numbered: 1, 6, 7
+     +Px1aamoo+Pret+Obv: niaamooibanan
+     +Px1aamoo+Pret+Pl: niaamooibanag
+     +Px1aamoo+Pret+Loc: niaamooibaning
+     +Px1aamoo+VocPl+Obv: niaamoo***idig, idog***an
+     +Px1aamoo+VocPl+Pl: niaamoo***idig, idog***ag
+     +Px1aamoo+VocPl+Loc: niaamoo***idig, idog***ing
+     +Px2aamoo+Pret+Obv: giaamooibanan
+     +Px2aamoo+Pret+Pl: giaamooibanag
+     +Px2aamoo+Pret+Loc: giaamooibaning
+     +Px2aamoo+VocPl+Obv: giaamoo***idig, idog***an
+     +Px2aamoo+VocPl+Pl: giaamoo***idig, idog***ag
+     +Px2aamoo+VocPl+Loc: giaamoo***idig, idog***ing
+     +Px3aamoo+Pret+Obv: oaamooibanan
+     +Px3aamoo+Pret+Pl: oaamooibanag
+     +Px3aamoo+Pret+Loc: oaamooibaning
+     +Px3aamoo+VocPl+Obv: oaamoo***idig, idog***an
+     +Px3aamoo+VocPl+Pl: oaamoo***idig, idog***ag
+     +Px3aamoo+VocPl+Loc: oaamoo***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4
+     aamoo+Dim+Pos+Pej: aamooensimish
+     aamoo+Con+Pos+Pej: aamooenhimish
+     
+     #Values from slots numbered: 2, 3, 5
+     aamoo+Dim+Pos+Pos1Pl: aamooensiminaan
+     aamoo+Dim+Pos+PosPl: aamooensimiwaa
+     aamoo+Dim+Pos+PosObv: aamooensimini
+     aamoo+Con+Pos+Pos1Pl: aamooenhiminaan
+     aamoo+Con+Pos+PosPl: aamooenhimiwaa
+     aamoo+Con+Pos+PosObv: aamooenhimini
+     
+     #Values from slots numbered: 2, 3, 6
+     aamoo+Dim+Pos+Pret: aamooensimiban
+     aamoo+Dim+Pos+VocPl: aamooensim***idig, idog***
+     aamoo+Con+Pos+Pret: aamooenhimiban
+     aamoo+Con+Pos+VocPl: aamooenhim***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 7
+     aamoo+Dim+Pos+Obv: aamooensiman
+     aamoo+Dim+Pos+Pl: aamooensimag
+     aamoo+Dim+Pos+Loc: aamooensiming
+     aamoo+Con+Pos+Obv: aamooenhiman
+     aamoo+Con+Pos+Pl: aamooenhimag
+     aamoo+Con+Pos+Loc: aamooenhiming
+     
+     #Values from slots numbered: 2, 4, 5
+     aamoo+Dim+Pej+Pos1Pl: aamooensishinaan
+     aamoo+Dim+Pej+PosPl: aamooensishiwaa
+     aamoo+Dim+Pej+PosObv: aamooensishini
+     aamoo+Con+Pej+Pos1Pl: aamooenhishinaan
+     aamoo+Con+Pej+PosPl: aamooenhishiwaa
+     aamoo+Con+Pej+PosObv: aamooenhishini
+     
+     #Values from slots numbered: 2, 4, 6
+     aamoo+Dim+Pej+Pret: aamooensishiban
+     aamoo+Dim+Pej+VocPl: aamooensish***idig, idog***
+     aamoo+Con+Pej+Pret: aamooenhishiban
+     aamoo+Con+Pej+VocPl: aamooenhish***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 7
+     aamoo+Dim+Pej+Obv: aamooensishan
+     aamoo+Dim+Pej+Pl: aamooensishag
+     aamoo+Dim+Pej+Loc: aamooensishing
+     aamoo+Con+Pej+Obv: aamooenhishan
+     aamoo+Con+Pej+Pl: aamooenhishag
+     aamoo+Con+Pej+Loc: aamooenhishing
+     
+     #Values from slots numbered: 2, 5, 6
+     aamoo+Dim+Pos1Pl+Pret: aamooensinaaniban
+     aamoo+Dim+Pos1Pl+VocPl: aamooensinaan***idig, idog***
+     aamoo+Dim+PosPl+Pret: aamooensiwaaiban
+     aamoo+Dim+PosPl+VocPl: aamooensiwaa***idig, idog***
+     aamoo+Dim+PosObv+Pret: aamooensiniiban
+     aamoo+Dim+PosObv+VocPl: aamooensini***idig, idog***
+     aamoo+Con+Pos1Pl+Pret: aamooenhinaaniban
+     aamoo+Con+Pos1Pl+VocPl: aamooenhinaan***idig, idog***
+     aamoo+Con+PosPl+Pret: aamooenhiwaaiban
+     aamoo+Con+PosPl+VocPl: aamooenhiwaa***idig, idog***
+     aamoo+Con+PosObv+Pret: aamooenhiniiban
+     aamoo+Con+PosObv+VocPl: aamooenhini***idig, idog***
+     
+     #Values from slots numbered: 2, 5, 7
+     aamoo+Dim+Pos1Pl+Obv: aamooensinaanan
+     aamoo+Dim+Pos1Pl+Pl: aamooensinaanag
+     aamoo+Dim+Pos1Pl+Loc: aamooensinaaning
+     aamoo+Dim+PosPl+Obv: aamooensiwaaan
+     aamoo+Dim+PosPl+Pl: aamooensiwaaag
+     aamoo+Dim+PosPl+Loc: aamooensiwaaing
+     aamoo+Dim+PosObv+Obv: aamooensinian
+     aamoo+Dim+PosObv+Pl: aamooensiniag
+     aamoo+Dim+PosObv+Loc: aamooensiniing
+     aamoo+Con+Pos1Pl+Obv: aamooenhinaanan
+     aamoo+Con+Pos1Pl+Pl: aamooenhinaanag
+     aamoo+Con+Pos1Pl+Loc: aamooenhinaaning
+     aamoo+Con+PosPl+Obv: aamooenhiwaaan
+     aamoo+Con+PosPl+Pl: aamooenhiwaaag
+     aamoo+Con+PosPl+Loc: aamooenhiwaaing
+     aamoo+Con+PosObv+Obv: aamooenhinian
+     aamoo+Con+PosObv+Pl: aamooenhiniag
+     aamoo+Con+PosObv+Loc: aamooenhiniing
+     
+     #Values from slots numbered: 2, 6, 7
+     aamoo+Dim+Pret+Obv: aamooensibanan
+     aamoo+Dim+Pret+Pl: aamooensibanag
+     aamoo+Dim+Pret+Loc: aamooensibaning
+     aamoo+Dim+VocPl+Obv: aamooens***idig, idog***an
+     aamoo+Dim+VocPl+Pl: aamooens***idig, idog***ag
+     aamoo+Dim+VocPl+Loc: aamooens***idig, idog***ing
+     aamoo+Con+Pret+Obv: aamooenhibanan
+     aamoo+Con+Pret+Pl: aamooenhibanag
+     aamoo+Con+Pret+Loc: aamooenhibaning
+     aamoo+Con+VocPl+Obv: aamooenh***idig, idog***an
+     aamoo+Con+VocPl+Pl: aamooenh***idig, idog***ag
+     aamoo+Con+VocPl+Loc: aamooenh***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5
+     aamoo+Pos+Pej+Pos1Pl: aamooimishinaan
+     aamoo+Pos+Pej+PosPl: aamooimishiwaa
+     aamoo+Pos+Pej+PosObv: aamooimishini
+     
+     #Values from slots numbered: 3, 4, 6
+     aamoo+Pos+Pej+Pret: aamooimishiban
+     aamoo+Pos+Pej+VocPl: aamooimish***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 7
+     aamoo+Pos+Pej+Obv: aamooimishan
+     aamoo+Pos+Pej+Pl: aamooimishag
+     aamoo+Pos+Pej+Loc: aamooimishing
+     
+     #Values from slots numbered: 3, 5, 6
+     aamoo+Pos+Pos1Pl+Pret: aamooiminaaniban
+     aamoo+Pos+Pos1Pl+VocPl: aamooiminaan***idig, idog***
+     aamoo+Pos+PosPl+Pret: aamooimiwaaiban
+     aamoo+Pos+PosPl+VocPl: aamooimiwaa***idig, idog***
+     aamoo+Pos+PosObv+Pret: aamooiminiiban
+     aamoo+Pos+PosObv+VocPl: aamooimini***idig, idog***
+     
+     #Values from slots numbered: 3, 5, 7
+     aamoo+Pos+Pos1Pl+Obv: aamooiminaanan
+     aamoo+Pos+Pos1Pl+Pl: aamooiminaanag
+     aamoo+Pos+Pos1Pl+Loc: aamooiminaaning
+     aamoo+Pos+PosPl+Obv: aamooimiwaaan
+     aamoo+Pos+PosPl+Pl: aamooimiwaaag
+     aamoo+Pos+PosPl+Loc: aamooimiwaaing
+     aamoo+Pos+PosObv+Obv: aamooiminian
+     aamoo+Pos+PosObv+Pl: aamooiminiag
+     aamoo+Pos+PosObv+Loc: aamooiminiing
+     
+     #Values from slots numbered: 3, 6, 7
+     aamoo+Pos+Pret+Obv: aamooimibanan
+     aamoo+Pos+Pret+Pl: aamooimibanag
+     aamoo+Pos+Pret+Loc: aamooimibaning
+     aamoo+Pos+VocPl+Obv: aamooim***idig, idog***an
+     aamoo+Pos+VocPl+Pl: aamooim***idig, idog***ag
+     aamoo+Pos+VocPl+Loc: aamooim***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6
+     aamoo+Pej+Pos1Pl+Pret: aamooishinaaniban
+     aamoo+Pej+Pos1Pl+VocPl: aamooishinaan***idig, idog***
+     aamoo+Pej+PosPl+Pret: aamooishiwaaiban
+     aamoo+Pej+PosPl+VocPl: aamooishiwaa***idig, idog***
+     aamoo+Pej+PosObv+Pret: aamooishiniiban
+     aamoo+Pej+PosObv+VocPl: aamooishini***idig, idog***
+     
+     #Values from slots numbered: 4, 5, 7
+     aamoo+Pej+Pos1Pl+Obv: aamooishinaanan
+     aamoo+Pej+Pos1Pl+Pl: aamooishinaanag
+     aamoo+Pej+Pos1Pl+Loc: aamooishinaaning
+     aamoo+Pej+PosPl+Obv: aamooishiwaaan
+     aamoo+Pej+PosPl+Pl: aamooishiwaaag
+     aamoo+Pej+PosPl+Loc: aamooishiwaaing
+     aamoo+Pej+PosObv+Obv: aamooishinian
+     aamoo+Pej+PosObv+Pl: aamooishiniag
+     aamoo+Pej+PosObv+Loc: aamooishiniing
+     
+     #Values from slots numbered: 4, 6, 7
+     aamoo+Pej+Pret+Obv: aamooishibanan
+     aamoo+Pej+Pret+Pl: aamooishibanag
+     aamoo+Pej+Pret+Loc: aamooishibaning
+     aamoo+Pej+VocPl+Obv: aamooish***idig, idog***an
+     aamoo+Pej+VocPl+Pl: aamooish***idig, idog***ag
+     aamoo+Pej+VocPl+Loc: aamooish***idig, idog***ing
+     
+     #Values from slots numbered: 5, 6, 7
+     aamoo+Pos1Pl+Pret+Obv: aamooinaanibanan
+     aamoo+Pos1Pl+Pret+Pl: aamooinaanibanag
+     aamoo+Pos1Pl+Pret+Loc: aamooinaanibaning
+     aamoo+Pos1Pl+VocPl+Obv: aamooinaan***idig, idog***an
+     aamoo+Pos1Pl+VocPl+Pl: aamooinaan***idig, idog***ag
+     aamoo+Pos1Pl+VocPl+Loc: aamooinaan***idig, idog***ing
+     aamoo+PosPl+Pret+Obv: aamooiwaaibanan
+     aamoo+PosPl+Pret+Pl: aamooiwaaibanag
+     aamoo+PosPl+Pret+Loc: aamooiwaaibaning
+     aamoo+PosPl+VocPl+Obv: aamooiwaa***idig, idog***an
+     aamoo+PosPl+VocPl+Pl: aamooiwaa***idig, idog***ag
+     aamoo+PosPl+VocPl+Loc: aamooiwaa***idig, idog***ing
+     aamoo+PosObv+Pret+Obv: aamooiniibanan
+     aamoo+PosObv+Pret+Pl: aamooiniibanag
+     aamoo+PosObv+Pret+Loc: aamooiniibaning
+     aamoo+PosObv+VocPl+Obv: aamooini***idig, idog***an
+     aamoo+PosObv+VocPl+Pl: aamooini***idig, idog***ag
+     aamoo+PosObv+VocPl+Loc: aamooini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     +Px1aamoo+Dim+Pos+Pej: niaamooensimish
+     +Px1aamoo+Con+Pos+Pej: niaamooenhimish
+     +Px2aamoo+Dim+Pos+Pej: giaamooensimish
+     +Px2aamoo+Con+Pos+Pej: giaamooenhimish
+     +Px3aamoo+Dim+Pos+Pej: oaamooensimish
+     +Px3aamoo+Con+Pos+Pej: oaamooenhimish
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     +Px1aamoo+Dim+Pos+Pos1Pl: niaamooensiminaan
+     +Px1aamoo+Dim+Pos+PosPl: niaamooensimiwaa
+     +Px1aamoo+Dim+Pos+PosObv: niaamooensimini
+     +Px1aamoo+Con+Pos+Pos1Pl: niaamooenhiminaan
+     +Px1aamoo+Con+Pos+PosPl: niaamooenhimiwaa
+     +Px1aamoo+Con+Pos+PosObv: niaamooenhimini
+     +Px2aamoo+Dim+Pos+Pos1Pl: giaamooensiminaan
+     +Px2aamoo+Dim+Pos+PosPl: giaamooensimiwaa
+     +Px2aamoo+Dim+Pos+PosObv: giaamooensimini
+     +Px2aamoo+Con+Pos+Pos1Pl: giaamooenhiminaan
+     +Px2aamoo+Con+Pos+PosPl: giaamooenhimiwaa
+     +Px2aamoo+Con+Pos+PosObv: giaamooenhimini
+     +Px3aamoo+Dim+Pos+Pos1Pl: oaamooensiminaan
+     +Px3aamoo+Dim+Pos+PosPl: oaamooensimiwaa
+     +Px3aamoo+Dim+Pos+PosObv: oaamooensimini
+     +Px3aamoo+Con+Pos+Pos1Pl: oaamooenhiminaan
+     +Px3aamoo+Con+Pos+PosPl: oaamooenhimiwaa
+     +Px3aamoo+Con+Pos+PosObv: oaamooenhimini
+     
+     #Values from slots numbered: 1, 2, 3, 6
+     +Px1aamoo+Dim+Pos+Pret: niaamooensimiban
+     +Px1aamoo+Dim+Pos+VocPl: niaamooensim***idig, idog***
+     +Px1aamoo+Con+Pos+Pret: niaamooenhimiban
+     +Px1aamoo+Con+Pos+VocPl: niaamooenhim***idig, idog***
+     +Px2aamoo+Dim+Pos+Pret: giaamooensimiban
+     +Px2aamoo+Dim+Pos+VocPl: giaamooensim***idig, idog***
+     +Px2aamoo+Con+Pos+Pret: giaamooenhimiban
+     +Px2aamoo+Con+Pos+VocPl: giaamooenhim***idig, idog***
+     +Px3aamoo+Dim+Pos+Pret: oaamooensimiban
+     +Px3aamoo+Dim+Pos+VocPl: oaamooensim***idig, idog***
+     +Px3aamoo+Con+Pos+Pret: oaamooenhimiban
+     +Px3aamoo+Con+Pos+VocPl: oaamooenhim***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 7
+     +Px1aamoo+Dim+Pos+Obv: niaamooensiman
+     +Px1aamoo+Dim+Pos+Pl: niaamooensimag
+     +Px1aamoo+Dim+Pos+Loc: niaamooensiming
+     +Px1aamoo+Con+Pos+Obv: niaamooenhiman
+     +Px1aamoo+Con+Pos+Pl: niaamooenhimag
+     +Px1aamoo+Con+Pos+Loc: niaamooenhiming
+     +Px2aamoo+Dim+Pos+Obv: giaamooensiman
+     +Px2aamoo+Dim+Pos+Pl: giaamooensimag
+     +Px2aamoo+Dim+Pos+Loc: giaamooensiming
+     +Px2aamoo+Con+Pos+Obv: giaamooenhiman
+     +Px2aamoo+Con+Pos+Pl: giaamooenhimag
+     +Px2aamoo+Con+Pos+Loc: giaamooenhiming
+     +Px3aamoo+Dim+Pos+Obv: oaamooensiman
+     +Px3aamoo+Dim+Pos+Pl: oaamooensimag
+     +Px3aamoo+Dim+Pos+Loc: oaamooensiming
+     +Px3aamoo+Con+Pos+Obv: oaamooenhiman
+     +Px3aamoo+Con+Pos+Pl: oaamooenhimag
+     +Px3aamoo+Con+Pos+Loc: oaamooenhiming
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     +Px1aamoo+Dim+Pej+Pos1Pl: niaamooensishinaan
+     +Px1aamoo+Dim+Pej+PosPl: niaamooensishiwaa
+     +Px1aamoo+Dim+Pej+PosObv: niaamooensishini
+     +Px1aamoo+Con+Pej+Pos1Pl: niaamooenhishinaan
+     +Px1aamoo+Con+Pej+PosPl: niaamooenhishiwaa
+     +Px1aamoo+Con+Pej+PosObv: niaamooenhishini
+     +Px2aamoo+Dim+Pej+Pos1Pl: giaamooensishinaan
+     +Px2aamoo+Dim+Pej+PosPl: giaamooensishiwaa
+     +Px2aamoo+Dim+Pej+PosObv: giaamooensishini
+     +Px2aamoo+Con+Pej+Pos1Pl: giaamooenhishinaan
+     +Px2aamoo+Con+Pej+PosPl: giaamooenhishiwaa
+     +Px2aamoo+Con+Pej+PosObv: giaamooenhishini
+     +Px3aamoo+Dim+Pej+Pos1Pl: oaamooensishinaan
+     +Px3aamoo+Dim+Pej+PosPl: oaamooensishiwaa
+     +Px3aamoo+Dim+Pej+PosObv: oaamooensishini
+     +Px3aamoo+Con+Pej+Pos1Pl: oaamooenhishinaan
+     +Px3aamoo+Con+Pej+PosPl: oaamooenhishiwaa
+     +Px3aamoo+Con+Pej+PosObv: oaamooenhishini
+     
+     #Values from slots numbered: 1, 2, 4, 6
+     +Px1aamoo+Dim+Pej+Pret: niaamooensishiban
+     +Px1aamoo+Dim+Pej+VocPl: niaamooensish***idig, idog***
+     +Px1aamoo+Con+Pej+Pret: niaamooenhishiban
+     +Px1aamoo+Con+Pej+VocPl: niaamooenhish***idig, idog***
+     +Px2aamoo+Dim+Pej+Pret: giaamooensishiban
+     +Px2aamoo+Dim+Pej+VocPl: giaamooensish***idig, idog***
+     +Px2aamoo+Con+Pej+Pret: giaamooenhishiban
+     +Px2aamoo+Con+Pej+VocPl: giaamooenhish***idig, idog***
+     +Px3aamoo+Dim+Pej+Pret: oaamooensishiban
+     +Px3aamoo+Dim+Pej+VocPl: oaamooensish***idig, idog***
+     +Px3aamoo+Con+Pej+Pret: oaamooenhishiban
+     +Px3aamoo+Con+Pej+VocPl: oaamooenhish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 7
+     +Px1aamoo+Dim+Pej+Obv: niaamooensishan
+     +Px1aamoo+Dim+Pej+Pl: niaamooensishag
+     +Px1aamoo+Dim+Pej+Loc: niaamooensishing
+     +Px1aamoo+Con+Pej+Obv: niaamooenhishan
+     +Px1aamoo+Con+Pej+Pl: niaamooenhishag
+     +Px1aamoo+Con+Pej+Loc: niaamooenhishing
+     +Px2aamoo+Dim+Pej+Obv: giaamooensishan
+     +Px2aamoo+Dim+Pej+Pl: giaamooensishag
+     +Px2aamoo+Dim+Pej+Loc: giaamooensishing
+     +Px2aamoo+Con+Pej+Obv: giaamooenhishan
+     +Px2aamoo+Con+Pej+Pl: giaamooenhishag
+     +Px2aamoo+Con+Pej+Loc: giaamooenhishing
+     +Px3aamoo+Dim+Pej+Obv: oaamooensishan
+     +Px3aamoo+Dim+Pej+Pl: oaamooensishag
+     +Px3aamoo+Dim+Pej+Loc: oaamooensishing
+     +Px3aamoo+Con+Pej+Obv: oaamooenhishan
+     +Px3aamoo+Con+Pej+Pl: oaamooenhishag
+     +Px3aamoo+Con+Pej+Loc: oaamooenhishing
+     
+     #Values from slots numbered: 1, 2, 5, 6
+     +Px1aamoo+Dim+Pos1Pl+Pret: niaamooensinaaniban
+     +Px1aamoo+Dim+Pos1Pl+VocPl: niaamooensinaan***idig, idog***
+     +Px1aamoo+Dim+PosPl+Pret: niaamooensiwaaiban
+     +Px1aamoo+Dim+PosPl+VocPl: niaamooensiwaa***idig, idog***
+     +Px1aamoo+Dim+PosObv+Pret: niaamooensiniiban
+     +Px1aamoo+Dim+PosObv+VocPl: niaamooensini***idig, idog***
+     +Px1aamoo+Con+Pos1Pl+Pret: niaamooenhinaaniban
+     +Px1aamoo+Con+Pos1Pl+VocPl: niaamooenhinaan***idig, idog***
+     +Px1aamoo+Con+PosPl+Pret: niaamooenhiwaaiban
+     +Px1aamoo+Con+PosPl+VocPl: niaamooenhiwaa***idig, idog***
+     +Px1aamoo+Con+PosObv+Pret: niaamooenhiniiban
+     +Px1aamoo+Con+PosObv+VocPl: niaamooenhini***idig, idog***
+     +Px2aamoo+Dim+Pos1Pl+Pret: giaamooensinaaniban
+     +Px2aamoo+Dim+Pos1Pl+VocPl: giaamooensinaan***idig, idog***
+     +Px2aamoo+Dim+PosPl+Pret: giaamooensiwaaiban
+     +Px2aamoo+Dim+PosPl+VocPl: giaamooensiwaa***idig, idog***
+     +Px2aamoo+Dim+PosObv+Pret: giaamooensiniiban
+     +Px2aamoo+Dim+PosObv+VocPl: giaamooensini***idig, idog***
+     +Px2aamoo+Con+Pos1Pl+Pret: giaamooenhinaaniban
+     +Px2aamoo+Con+Pos1Pl+VocPl: giaamooenhinaan***idig, idog***
+     +Px2aamoo+Con+PosPl+Pret: giaamooenhiwaaiban
+     +Px2aamoo+Con+PosPl+VocPl: giaamooenhiwaa***idig, idog***
+     +Px2aamoo+Con+PosObv+Pret: giaamooenhiniiban
+     +Px2aamoo+Con+PosObv+VocPl: giaamooenhini***idig, idog***
+     +Px3aamoo+Dim+Pos1Pl+Pret: oaamooensinaaniban
+     +Px3aamoo+Dim+Pos1Pl+VocPl: oaamooensinaan***idig, idog***
+     +Px3aamoo+Dim+PosPl+Pret: oaamooensiwaaiban
+     +Px3aamoo+Dim+PosPl+VocPl: oaamooensiwaa***idig, idog***
+     +Px3aamoo+Dim+PosObv+Pret: oaamooensiniiban
+     +Px3aamoo+Dim+PosObv+VocPl: oaamooensini***idig, idog***
+     +Px3aamoo+Con+Pos1Pl+Pret: oaamooenhinaaniban
+     +Px3aamoo+Con+Pos1Pl+VocPl: oaamooenhinaan***idig, idog***
+     +Px3aamoo+Con+PosPl+Pret: oaamooenhiwaaiban
+     +Px3aamoo+Con+PosPl+VocPl: oaamooenhiwaa***idig, idog***
+     +Px3aamoo+Con+PosObv+Pret: oaamooenhiniiban
+     +Px3aamoo+Con+PosObv+VocPl: oaamooenhini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 5, 7
+     +Px1aamoo+Dim+Pos1Pl+Obv: niaamooensinaanan
+     +Px1aamoo+Dim+Pos1Pl+Pl: niaamooensinaanag
+     +Px1aamoo+Dim+Pos1Pl+Loc: niaamooensinaaning
+     +Px1aamoo+Dim+PosPl+Obv: niaamooensiwaaan
+     +Px1aamoo+Dim+PosPl+Pl: niaamooensiwaaag
+     +Px1aamoo+Dim+PosPl+Loc: niaamooensiwaaing
+     +Px1aamoo+Dim+PosObv+Obv: niaamooensinian
+     +Px1aamoo+Dim+PosObv+Pl: niaamooensiniag
+     +Px1aamoo+Dim+PosObv+Loc: niaamooensiniing
+     +Px1aamoo+Con+Pos1Pl+Obv: niaamooenhinaanan
+     +Px1aamoo+Con+Pos1Pl+Pl: niaamooenhinaanag
+     +Px1aamoo+Con+Pos1Pl+Loc: niaamooenhinaaning
+     +Px1aamoo+Con+PosPl+Obv: niaamooenhiwaaan
+     +Px1aamoo+Con+PosPl+Pl: niaamooenhiwaaag
+     +Px1aamoo+Con+PosPl+Loc: niaamooenhiwaaing
+     +Px1aamoo+Con+PosObv+Obv: niaamooenhinian
+     +Px1aamoo+Con+PosObv+Pl: niaamooenhiniag
+     +Px1aamoo+Con+PosObv+Loc: niaamooenhiniing
+     +Px2aamoo+Dim+Pos1Pl+Obv: giaamooensinaanan
+     +Px2aamoo+Dim+Pos1Pl+Pl: giaamooensinaanag
+     +Px2aamoo+Dim+Pos1Pl+Loc: giaamooensinaaning
+     +Px2aamoo+Dim+PosPl+Obv: giaamooensiwaaan
+     +Px2aamoo+Dim+PosPl+Pl: giaamooensiwaaag
+     +Px2aamoo+Dim+PosPl+Loc: giaamooensiwaaing
+     +Px2aamoo+Dim+PosObv+Obv: giaamooensinian
+     +Px2aamoo+Dim+PosObv+Pl: giaamooensiniag
+     +Px2aamoo+Dim+PosObv+Loc: giaamooensiniing
+     +Px2aamoo+Con+Pos1Pl+Obv: giaamooenhinaanan
+     +Px2aamoo+Con+Pos1Pl+Pl: giaamooenhinaanag
+     +Px2aamoo+Con+Pos1Pl+Loc: giaamooenhinaaning
+     +Px2aamoo+Con+PosPl+Obv: giaamooenhiwaaan
+     +Px2aamoo+Con+PosPl+Pl: giaamooenhiwaaag
+     +Px2aamoo+Con+PosPl+Loc: giaamooenhiwaaing
+     +Px2aamoo+Con+PosObv+Obv: giaamooenhinian
+     +Px2aamoo+Con+PosObv+Pl: giaamooenhiniag
+     +Px2aamoo+Con+PosObv+Loc: giaamooenhiniing
+     +Px3aamoo+Dim+Pos1Pl+Obv: oaamooensinaanan
+     +Px3aamoo+Dim+Pos1Pl+Pl: oaamooensinaanag
+     +Px3aamoo+Dim+Pos1Pl+Loc: oaamooensinaaning
+     +Px3aamoo+Dim+PosPl+Obv: oaamooensiwaaan
+     +Px3aamoo+Dim+PosPl+Pl: oaamooensiwaaag
+     +Px3aamoo+Dim+PosPl+Loc: oaamooensiwaaing
+     +Px3aamoo+Dim+PosObv+Obv: oaamooensinian
+     +Px3aamoo+Dim+PosObv+Pl: oaamooensiniag
+     +Px3aamoo+Dim+PosObv+Loc: oaamooensiniing
+     +Px3aamoo+Con+Pos1Pl+Obv: oaamooenhinaanan
+     +Px3aamoo+Con+Pos1Pl+Pl: oaamooenhinaanag
+     +Px3aamoo+Con+Pos1Pl+Loc: oaamooenhinaaning
+     +Px3aamoo+Con+PosPl+Obv: oaamooenhiwaaan
+     +Px3aamoo+Con+PosPl+Pl: oaamooenhiwaaag
+     +Px3aamoo+Con+PosPl+Loc: oaamooenhiwaaing
+     +Px3aamoo+Con+PosObv+Obv: oaamooenhinian
+     +Px3aamoo+Con+PosObv+Pl: oaamooenhiniag
+     +Px3aamoo+Con+PosObv+Loc: oaamooenhiniing
+     
+     #Values from slots numbered: 1, 2, 6, 7
+     +Px1aamoo+Dim+Pret+Obv: niaamooensibanan
+     +Px1aamoo+Dim+Pret+Pl: niaamooensibanag
+     +Px1aamoo+Dim+Pret+Loc: niaamooensibaning
+     +Px1aamoo+Dim+VocPl+Obv: niaamooens***idig, idog***an
+     +Px1aamoo+Dim+VocPl+Pl: niaamooens***idig, idog***ag
+     +Px1aamoo+Dim+VocPl+Loc: niaamooens***idig, idog***ing
+     +Px1aamoo+Con+Pret+Obv: niaamooenhibanan
+     +Px1aamoo+Con+Pret+Pl: niaamooenhibanag
+     +Px1aamoo+Con+Pret+Loc: niaamooenhibaning
+     +Px1aamoo+Con+VocPl+Obv: niaamooenh***idig, idog***an
+     +Px1aamoo+Con+VocPl+Pl: niaamooenh***idig, idog***ag
+     +Px1aamoo+Con+VocPl+Loc: niaamooenh***idig, idog***ing
+     +Px2aamoo+Dim+Pret+Obv: giaamooensibanan
+     +Px2aamoo+Dim+Pret+Pl: giaamooensibanag
+     +Px2aamoo+Dim+Pret+Loc: giaamooensibaning
+     +Px2aamoo+Dim+VocPl+Obv: giaamooens***idig, idog***an
+     +Px2aamoo+Dim+VocPl+Pl: giaamooens***idig, idog***ag
+     +Px2aamoo+Dim+VocPl+Loc: giaamooens***idig, idog***ing
+     +Px2aamoo+Con+Pret+Obv: giaamooenhibanan
+     +Px2aamoo+Con+Pret+Pl: giaamooenhibanag
+     +Px2aamoo+Con+Pret+Loc: giaamooenhibaning
+     +Px2aamoo+Con+VocPl+Obv: giaamooenh***idig, idog***an
+     +Px2aamoo+Con+VocPl+Pl: giaamooenh***idig, idog***ag
+     +Px2aamoo+Con+VocPl+Loc: giaamooenh***idig, idog***ing
+     +Px3aamoo+Dim+Pret+Obv: oaamooensibanan
+     +Px3aamoo+Dim+Pret+Pl: oaamooensibanag
+     +Px3aamoo+Dim+Pret+Loc: oaamooensibaning
+     +Px3aamoo+Dim+VocPl+Obv: oaamooens***idig, idog***an
+     +Px3aamoo+Dim+VocPl+Pl: oaamooens***idig, idog***ag
+     +Px3aamoo+Dim+VocPl+Loc: oaamooens***idig, idog***ing
+     +Px3aamoo+Con+Pret+Obv: oaamooenhibanan
+     +Px3aamoo+Con+Pret+Pl: oaamooenhibanag
+     +Px3aamoo+Con+Pret+Loc: oaamooenhibaning
+     +Px3aamoo+Con+VocPl+Obv: oaamooenh***idig, idog***an
+     +Px3aamoo+Con+VocPl+Pl: oaamooenh***idig, idog***ag
+     +Px3aamoo+Con+VocPl+Loc: oaamooenh***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     +Px1aamoo+Pos+Pej+Pos1Pl: niaamooimishinaan
+     +Px1aamoo+Pos+Pej+PosPl: niaamooimishiwaa
+     +Px1aamoo+Pos+Pej+PosObv: niaamooimishini
+     +Px2aamoo+Pos+Pej+Pos1Pl: giaamooimishinaan
+     +Px2aamoo+Pos+Pej+PosPl: giaamooimishiwaa
+     +Px2aamoo+Pos+Pej+PosObv: giaamooimishini
+     +Px3aamoo+Pos+Pej+Pos1Pl: oaamooimishinaan
+     +Px3aamoo+Pos+Pej+PosPl: oaamooimishiwaa
+     +Px3aamoo+Pos+Pej+PosObv: oaamooimishini
+     
+     #Values from slots numbered: 1, 3, 4, 6
+     +Px1aamoo+Pos+Pej+Pret: niaamooimishiban
+     +Px1aamoo+Pos+Pej+VocPl: niaamooimish***idig, idog***
+     +Px2aamoo+Pos+Pej+Pret: giaamooimishiban
+     +Px2aamoo+Pos+Pej+VocPl: giaamooimish***idig, idog***
+     +Px3aamoo+Pos+Pej+Pret: oaamooimishiban
+     +Px3aamoo+Pos+Pej+VocPl: oaamooimish***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 7
+     +Px1aamoo+Pos+Pej+Obv: niaamooimishan
+     +Px1aamoo+Pos+Pej+Pl: niaamooimishag
+     +Px1aamoo+Pos+Pej+Loc: niaamooimishing
+     +Px2aamoo+Pos+Pej+Obv: giaamooimishan
+     +Px2aamoo+Pos+Pej+Pl: giaamooimishag
+     +Px2aamoo+Pos+Pej+Loc: giaamooimishing
+     +Px3aamoo+Pos+Pej+Obv: oaamooimishan
+     +Px3aamoo+Pos+Pej+Pl: oaamooimishag
+     +Px3aamoo+Pos+Pej+Loc: oaamooimishing
+     
+     #Values from slots numbered: 1, 3, 5, 6
+     +Px1aamoo+Pos+Pos1Pl+Pret: niaamooiminaaniban
+     +Px1aamoo+Pos+Pos1Pl+VocPl: niaamooiminaan***idig, idog***
+     +Px1aamoo+Pos+PosPl+Pret: niaamooimiwaaiban
+     +Px1aamoo+Pos+PosPl+VocPl: niaamooimiwaa***idig, idog***
+     +Px1aamoo+Pos+PosObv+Pret: niaamooiminiiban
+     +Px1aamoo+Pos+PosObv+VocPl: niaamooimini***idig, idog***
+     +Px2aamoo+Pos+Pos1Pl+Pret: giaamooiminaaniban
+     +Px2aamoo+Pos+Pos1Pl+VocPl: giaamooiminaan***idig, idog***
+     +Px2aamoo+Pos+PosPl+Pret: giaamooimiwaaiban
+     +Px2aamoo+Pos+PosPl+VocPl: giaamooimiwaa***idig, idog***
+     +Px2aamoo+Pos+PosObv+Pret: giaamooiminiiban
+     +Px2aamoo+Pos+PosObv+VocPl: giaamooimini***idig, idog***
+     +Px3aamoo+Pos+Pos1Pl+Pret: oaamooiminaaniban
+     +Px3aamoo+Pos+Pos1Pl+VocPl: oaamooiminaan***idig, idog***
+     +Px3aamoo+Pos+PosPl+Pret: oaamooimiwaaiban
+     +Px3aamoo+Pos+PosPl+VocPl: oaamooimiwaa***idig, idog***
+     +Px3aamoo+Pos+PosObv+Pret: oaamooiminiiban
+     +Px3aamoo+Pos+PosObv+VocPl: oaamooimini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 5, 7
+     +Px1aamoo+Pos+Pos1Pl+Obv: niaamooiminaanan
+     +Px1aamoo+Pos+Pos1Pl+Pl: niaamooiminaanag
+     +Px1aamoo+Pos+Pos1Pl+Loc: niaamooiminaaning
+     +Px1aamoo+Pos+PosPl+Obv: niaamooimiwaaan
+     +Px1aamoo+Pos+PosPl+Pl: niaamooimiwaaag
+     +Px1aamoo+Pos+PosPl+Loc: niaamooimiwaaing
+     +Px1aamoo+Pos+PosObv+Obv: niaamooiminian
+     +Px1aamoo+Pos+PosObv+Pl: niaamooiminiag
+     +Px1aamoo+Pos+PosObv+Loc: niaamooiminiing
+     +Px2aamoo+Pos+Pos1Pl+Obv: giaamooiminaanan
+     +Px2aamoo+Pos+Pos1Pl+Pl: giaamooiminaanag
+     +Px2aamoo+Pos+Pos1Pl+Loc: giaamooiminaaning
+     +Px2aamoo+Pos+PosPl+Obv: giaamooimiwaaan
+     +Px2aamoo+Pos+PosPl+Pl: giaamooimiwaaag
+     +Px2aamoo+Pos+PosPl+Loc: giaamooimiwaaing
+     +Px2aamoo+Pos+PosObv+Obv: giaamooiminian
+     +Px2aamoo+Pos+PosObv+Pl: giaamooiminiag
+     +Px2aamoo+Pos+PosObv+Loc: giaamooiminiing
+     +Px3aamoo+Pos+Pos1Pl+Obv: oaamooiminaanan
+     +Px3aamoo+Pos+Pos1Pl+Pl: oaamooiminaanag
+     +Px3aamoo+Pos+Pos1Pl+Loc: oaamooiminaaning
+     +Px3aamoo+Pos+PosPl+Obv: oaamooimiwaaan
+     +Px3aamoo+Pos+PosPl+Pl: oaamooimiwaaag
+     +Px3aamoo+Pos+PosPl+Loc: oaamooimiwaaing
+     +Px3aamoo+Pos+PosObv+Obv: oaamooiminian
+     +Px3aamoo+Pos+PosObv+Pl: oaamooiminiag
+     +Px3aamoo+Pos+PosObv+Loc: oaamooiminiing
+     
+     #Values from slots numbered: 1, 3, 6, 7
+     +Px1aamoo+Pos+Pret+Obv: niaamooimibanan
+     +Px1aamoo+Pos+Pret+Pl: niaamooimibanag
+     +Px1aamoo+Pos+Pret+Loc: niaamooimibaning
+     +Px1aamoo+Pos+VocPl+Obv: niaamooim***idig, idog***an
+     +Px1aamoo+Pos+VocPl+Pl: niaamooim***idig, idog***ag
+     +Px1aamoo+Pos+VocPl+Loc: niaamooim***idig, idog***ing
+     +Px2aamoo+Pos+Pret+Obv: giaamooimibanan
+     +Px2aamoo+Pos+Pret+Pl: giaamooimibanag
+     +Px2aamoo+Pos+Pret+Loc: giaamooimibaning
+     +Px2aamoo+Pos+VocPl+Obv: giaamooim***idig, idog***an
+     +Px2aamoo+Pos+VocPl+Pl: giaamooim***idig, idog***ag
+     +Px2aamoo+Pos+VocPl+Loc: giaamooim***idig, idog***ing
+     +Px3aamoo+Pos+Pret+Obv: oaamooimibanan
+     +Px3aamoo+Pos+Pret+Pl: oaamooimibanag
+     +Px3aamoo+Pos+Pret+Loc: oaamooimibaning
+     +Px3aamoo+Pos+VocPl+Obv: oaamooim***idig, idog***an
+     +Px3aamoo+Pos+VocPl+Pl: oaamooim***idig, idog***ag
+     +Px3aamoo+Pos+VocPl+Loc: oaamooim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6
+     +Px1aamoo+Pej+Pos1Pl+Pret: niaamooishinaaniban
+     +Px1aamoo+Pej+Pos1Pl+VocPl: niaamooishinaan***idig, idog***
+     +Px1aamoo+Pej+PosPl+Pret: niaamooishiwaaiban
+     +Px1aamoo+Pej+PosPl+VocPl: niaamooishiwaa***idig, idog***
+     +Px1aamoo+Pej+PosObv+Pret: niaamooishiniiban
+     +Px1aamoo+Pej+PosObv+VocPl: niaamooishini***idig, idog***
+     +Px2aamoo+Pej+Pos1Pl+Pret: giaamooishinaaniban
+     +Px2aamoo+Pej+Pos1Pl+VocPl: giaamooishinaan***idig, idog***
+     +Px2aamoo+Pej+PosPl+Pret: giaamooishiwaaiban
+     +Px2aamoo+Pej+PosPl+VocPl: giaamooishiwaa***idig, idog***
+     +Px2aamoo+Pej+PosObv+Pret: giaamooishiniiban
+     +Px2aamoo+Pej+PosObv+VocPl: giaamooishini***idig, idog***
+     +Px3aamoo+Pej+Pos1Pl+Pret: oaamooishinaaniban
+     +Px3aamoo+Pej+Pos1Pl+VocPl: oaamooishinaan***idig, idog***
+     +Px3aamoo+Pej+PosPl+Pret: oaamooishiwaaiban
+     +Px3aamoo+Pej+PosPl+VocPl: oaamooishiwaa***idig, idog***
+     +Px3aamoo+Pej+PosObv+Pret: oaamooishiniiban
+     +Px3aamoo+Pej+PosObv+VocPl: oaamooishini***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 5, 7
+     +Px1aamoo+Pej+Pos1Pl+Obv: niaamooishinaanan
+     +Px1aamoo+Pej+Pos1Pl+Pl: niaamooishinaanag
+     +Px1aamoo+Pej+Pos1Pl+Loc: niaamooishinaaning
+     +Px1aamoo+Pej+PosPl+Obv: niaamooishiwaaan
+     +Px1aamoo+Pej+PosPl+Pl: niaamooishiwaaag
+     +Px1aamoo+Pej+PosPl+Loc: niaamooishiwaaing
+     +Px1aamoo+Pej+PosObv+Obv: niaamooishinian
+     +Px1aamoo+Pej+PosObv+Pl: niaamooishiniag
+     +Px1aamoo+Pej+PosObv+Loc: niaamooishiniing
+     +Px2aamoo+Pej+Pos1Pl+Obv: giaamooishinaanan
+     +Px2aamoo+Pej+Pos1Pl+Pl: giaamooishinaanag
+     +Px2aamoo+Pej+Pos1Pl+Loc: giaamooishinaaning
+     +Px2aamoo+Pej+PosPl+Obv: giaamooishiwaaan
+     +Px2aamoo+Pej+PosPl+Pl: giaamooishiwaaag
+     +Px2aamoo+Pej+PosPl+Loc: giaamooishiwaaing
+     +Px2aamoo+Pej+PosObv+Obv: giaamooishinian
+     +Px2aamoo+Pej+PosObv+Pl: giaamooishiniag
+     +Px2aamoo+Pej+PosObv+Loc: giaamooishiniing
+     +Px3aamoo+Pej+Pos1Pl+Obv: oaamooishinaanan
+     +Px3aamoo+Pej+Pos1Pl+Pl: oaamooishinaanag
+     +Px3aamoo+Pej+Pos1Pl+Loc: oaamooishinaaning
+     +Px3aamoo+Pej+PosPl+Obv: oaamooishiwaaan
+     +Px3aamoo+Pej+PosPl+Pl: oaamooishiwaaag
+     +Px3aamoo+Pej+PosPl+Loc: oaamooishiwaaing
+     +Px3aamoo+Pej+PosObv+Obv: oaamooishinian
+     +Px3aamoo+Pej+PosObv+Pl: oaamooishiniag
+     +Px3aamoo+Pej+PosObv+Loc: oaamooishiniing
+     
+     #Values from slots numbered: 1, 4, 6, 7
+     +Px1aamoo+Pej+Pret+Obv: niaamooishibanan
+     +Px1aamoo+Pej+Pret+Pl: niaamooishibanag
+     +Px1aamoo+Pej+Pret+Loc: niaamooishibaning
+     +Px1aamoo+Pej+VocPl+Obv: niaamooish***idig, idog***an
+     +Px1aamoo+Pej+VocPl+Pl: niaamooish***idig, idog***ag
+     +Px1aamoo+Pej+VocPl+Loc: niaamooish***idig, idog***ing
+     +Px2aamoo+Pej+Pret+Obv: giaamooishibanan
+     +Px2aamoo+Pej+Pret+Pl: giaamooishibanag
+     +Px2aamoo+Pej+Pret+Loc: giaamooishibaning
+     +Px2aamoo+Pej+VocPl+Obv: giaamooish***idig, idog***an
+     +Px2aamoo+Pej+VocPl+Pl: giaamooish***idig, idog***ag
+     +Px2aamoo+Pej+VocPl+Loc: giaamooish***idig, idog***ing
+     +Px3aamoo+Pej+Pret+Obv: oaamooishibanan
+     +Px3aamoo+Pej+Pret+Pl: oaamooishibanag
+     +Px3aamoo+Pej+Pret+Loc: oaamooishibaning
+     +Px3aamoo+Pej+VocPl+Obv: oaamooish***idig, idog***an
+     +Px3aamoo+Pej+VocPl+Pl: oaamooish***idig, idog***ag
+     +Px3aamoo+Pej+VocPl+Loc: oaamooish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 5, 6, 7
+     +Px1aamoo+Pos1Pl+Pret+Obv: niaamooinaanibanan
+     +Px1aamoo+Pos1Pl+Pret+Pl: niaamooinaanibanag
+     +Px1aamoo+Pos1Pl+Pret+Loc: niaamooinaanibaning
+     +Px1aamoo+Pos1Pl+VocPl+Obv: niaamooinaan***idig, idog***an
+     +Px1aamoo+Pos1Pl+VocPl+Pl: niaamooinaan***idig, idog***ag
+     +Px1aamoo+Pos1Pl+VocPl+Loc: niaamooinaan***idig, idog***ing
+     +Px1aamoo+PosPl+Pret+Obv: niaamooiwaaibanan
+     +Px1aamoo+PosPl+Pret+Pl: niaamooiwaaibanag
+     +Px1aamoo+PosPl+Pret+Loc: niaamooiwaaibaning
+     +Px1aamoo+PosPl+VocPl+Obv: niaamooiwaa***idig, idog***an
+     +Px1aamoo+PosPl+VocPl+Pl: niaamooiwaa***idig, idog***ag
+     +Px1aamoo+PosPl+VocPl+Loc: niaamooiwaa***idig, idog***ing
+     +Px1aamoo+PosObv+Pret+Obv: niaamooiniibanan
+     +Px1aamoo+PosObv+Pret+Pl: niaamooiniibanag
+     +Px1aamoo+PosObv+Pret+Loc: niaamooiniibaning
+     +Px1aamoo+PosObv+VocPl+Obv: niaamooini***idig, idog***an
+     +Px1aamoo+PosObv+VocPl+Pl: niaamooini***idig, idog***ag
+     +Px1aamoo+PosObv+VocPl+Loc: niaamooini***idig, idog***ing
+     +Px2aamoo+Pos1Pl+Pret+Obv: giaamooinaanibanan
+     +Px2aamoo+Pos1Pl+Pret+Pl: giaamooinaanibanag
+     +Px2aamoo+Pos1Pl+Pret+Loc: giaamooinaanibaning
+     +Px2aamoo+Pos1Pl+VocPl+Obv: giaamooinaan***idig, idog***an
+     +Px2aamoo+Pos1Pl+VocPl+Pl: giaamooinaan***idig, idog***ag
+     +Px2aamoo+Pos1Pl+VocPl+Loc: giaamooinaan***idig, idog***ing
+     +Px2aamoo+PosPl+Pret+Obv: giaamooiwaaibanan
+     +Px2aamoo+PosPl+Pret+Pl: giaamooiwaaibanag
+     +Px2aamoo+PosPl+Pret+Loc: giaamooiwaaibaning
+     +Px2aamoo+PosPl+VocPl+Obv: giaamooiwaa***idig, idog***an
+     +Px2aamoo+PosPl+VocPl+Pl: giaamooiwaa***idig, idog***ag
+     +Px2aamoo+PosPl+VocPl+Loc: giaamooiwaa***idig, idog***ing
+     +Px2aamoo+PosObv+Pret+Obv: giaamooiniibanan
+     +Px2aamoo+PosObv+Pret+Pl: giaamooiniibanag
+     +Px2aamoo+PosObv+Pret+Loc: giaamooiniibaning
+     +Px2aamoo+PosObv+VocPl+Obv: giaamooini***idig, idog***an
+     +Px2aamoo+PosObv+VocPl+Pl: giaamooini***idig, idog***ag
+     +Px2aamoo+PosObv+VocPl+Loc: giaamooini***idig, idog***ing
+     +Px3aamoo+Pos1Pl+Pret+Obv: oaamooinaanibanan
+     +Px3aamoo+Pos1Pl+Pret+Pl: oaamooinaanibanag
+     +Px3aamoo+Pos1Pl+Pret+Loc: oaamooinaanibaning
+     +Px3aamoo+Pos1Pl+VocPl+Obv: oaamooinaan***idig, idog***an
+     +Px3aamoo+Pos1Pl+VocPl+Pl: oaamooinaan***idig, idog***ag
+     +Px3aamoo+Pos1Pl+VocPl+Loc: oaamooinaan***idig, idog***ing
+     +Px3aamoo+PosPl+Pret+Obv: oaamooiwaaibanan
+     +Px3aamoo+PosPl+Pret+Pl: oaamooiwaaibanag
+     +Px3aamoo+PosPl+Pret+Loc: oaamooiwaaibaning
+     +Px3aamoo+PosPl+VocPl+Obv: oaamooiwaa***idig, idog***an
+     +Px3aamoo+PosPl+VocPl+Pl: oaamooiwaa***idig, idog***ag
+     +Px3aamoo+PosPl+VocPl+Loc: oaamooiwaa***idig, idog***ing
+     +Px3aamoo+PosObv+Pret+Obv: oaamooiniibanan
+     +Px3aamoo+PosObv+Pret+Pl: oaamooiniibanag
+     +Px3aamoo+PosObv+Pret+Loc: oaamooiniibaning
+     +Px3aamoo+PosObv+VocPl+Obv: oaamooini***idig, idog***an
+     +Px3aamoo+PosObv+VocPl+Pl: oaamooini***idig, idog***ag
+     +Px3aamoo+PosObv+VocPl+Loc: oaamooini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     aamoo+Dim+Pos+Pej+Pos1Pl: aamooensimishinaan
+     aamoo+Dim+Pos+Pej+PosPl: aamooensimishiwaa
+     aamoo+Dim+Pos+Pej+PosObv: aamooensimishini
+     aamoo+Con+Pos+Pej+Pos1Pl: aamooenhimishinaan
+     aamoo+Con+Pos+Pej+PosPl: aamooenhimishiwaa
+     aamoo+Con+Pos+Pej+PosObv: aamooenhimishini
+     
+     #Values from slots numbered: 2, 3, 4, 6
+     aamoo+Dim+Pos+Pej+Pret: aamooensimishiban
+     aamoo+Dim+Pos+Pej+VocPl: aamooensimish***idig, idog***
+     aamoo+Con+Pos+Pej+Pret: aamooenhimishiban
+     aamoo+Con+Pos+Pej+VocPl: aamooenhimish***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 7
+     aamoo+Dim+Pos+Pej+Obv: aamooensimishan
+     aamoo+Dim+Pos+Pej+Pl: aamooensimishag
+     aamoo+Dim+Pos+Pej+Loc: aamooensimishing
+     aamoo+Con+Pos+Pej+Obv: aamooenhimishan
+     aamoo+Con+Pos+Pej+Pl: aamooenhimishag
+     aamoo+Con+Pos+Pej+Loc: aamooenhimishing
+     
+     #Values from slots numbered: 2, 3, 5, 6
+     aamoo+Dim+Pos+Pos1Pl+Pret: aamooensiminaaniban
+     aamoo+Dim+Pos+Pos1Pl+VocPl: aamooensiminaan***idig, idog***
+     aamoo+Dim+Pos+PosPl+Pret: aamooensimiwaaiban
+     aamoo+Dim+Pos+PosPl+VocPl: aamooensimiwaa***idig, idog***
+     aamoo+Dim+Pos+PosObv+Pret: aamooensiminiiban
+     aamoo+Dim+Pos+PosObv+VocPl: aamooensimini***idig, idog***
+     aamoo+Con+Pos+Pos1Pl+Pret: aamooenhiminaaniban
+     aamoo+Con+Pos+Pos1Pl+VocPl: aamooenhiminaan***idig, idog***
+     aamoo+Con+Pos+PosPl+Pret: aamooenhimiwaaiban
+     aamoo+Con+Pos+PosPl+VocPl: aamooenhimiwaa***idig, idog***
+     aamoo+Con+Pos+PosObv+Pret: aamooenhiminiiban
+     aamoo+Con+Pos+PosObv+VocPl: aamooenhimini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 5, 7
+     aamoo+Dim+Pos+Pos1Pl+Obv: aamooensiminaanan
+     aamoo+Dim+Pos+Pos1Pl+Pl: aamooensiminaanag
+     aamoo+Dim+Pos+Pos1Pl+Loc: aamooensiminaaning
+     aamoo+Dim+Pos+PosPl+Obv: aamooensimiwaaan
+     aamoo+Dim+Pos+PosPl+Pl: aamooensimiwaaag
+     aamoo+Dim+Pos+PosPl+Loc: aamooensimiwaaing
+     aamoo+Dim+Pos+PosObv+Obv: aamooensiminian
+     aamoo+Dim+Pos+PosObv+Pl: aamooensiminiag
+     aamoo+Dim+Pos+PosObv+Loc: aamooensiminiing
+     aamoo+Con+Pos+Pos1Pl+Obv: aamooenhiminaanan
+     aamoo+Con+Pos+Pos1Pl+Pl: aamooenhiminaanag
+     aamoo+Con+Pos+Pos1Pl+Loc: aamooenhiminaaning
+     aamoo+Con+Pos+PosPl+Obv: aamooenhimiwaaan
+     aamoo+Con+Pos+PosPl+Pl: aamooenhimiwaaag
+     aamoo+Con+Pos+PosPl+Loc: aamooenhimiwaaing
+     aamoo+Con+Pos+PosObv+Obv: aamooenhiminian
+     aamoo+Con+Pos+PosObv+Pl: aamooenhiminiag
+     aamoo+Con+Pos+PosObv+Loc: aamooenhiminiing
+     
+     #Values from slots numbered: 2, 3, 6, 7
+     aamoo+Dim+Pos+Pret+Obv: aamooensimibanan
+     aamoo+Dim+Pos+Pret+Pl: aamooensimibanag
+     aamoo+Dim+Pos+Pret+Loc: aamooensimibaning
+     aamoo+Dim+Pos+VocPl+Obv: aamooensim***idig, idog***an
+     aamoo+Dim+Pos+VocPl+Pl: aamooensim***idig, idog***ag
+     aamoo+Dim+Pos+VocPl+Loc: aamooensim***idig, idog***ing
+     aamoo+Con+Pos+Pret+Obv: aamooenhimibanan
+     aamoo+Con+Pos+Pret+Pl: aamooenhimibanag
+     aamoo+Con+Pos+Pret+Loc: aamooenhimibaning
+     aamoo+Con+Pos+VocPl+Obv: aamooenhim***idig, idog***an
+     aamoo+Con+Pos+VocPl+Pl: aamooenhim***idig, idog***ag
+     aamoo+Con+Pos+VocPl+Loc: aamooenhim***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6
+     aamoo+Dim+Pej+Pos1Pl+Pret: aamooensishinaaniban
+     aamoo+Dim+Pej+Pos1Pl+VocPl: aamooensishinaan***idig, idog***
+     aamoo+Dim+Pej+PosPl+Pret: aamooensishiwaaiban
+     aamoo+Dim+Pej+PosPl+VocPl: aamooensishiwaa***idig, idog***
+     aamoo+Dim+Pej+PosObv+Pret: aamooensishiniiban
+     aamoo+Dim+Pej+PosObv+VocPl: aamooensishini***idig, idog***
+     aamoo+Con+Pej+Pos1Pl+Pret: aamooenhishinaaniban
+     aamoo+Con+Pej+Pos1Pl+VocPl: aamooenhishinaan***idig, idog***
+     aamoo+Con+Pej+PosPl+Pret: aamooenhishiwaaiban
+     aamoo+Con+Pej+PosPl+VocPl: aamooenhishiwaa***idig, idog***
+     aamoo+Con+Pej+PosObv+Pret: aamooenhishiniiban
+     aamoo+Con+Pej+PosObv+VocPl: aamooenhishini***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 5, 7
+     aamoo+Dim+Pej+Pos1Pl+Obv: aamooensishinaanan
+     aamoo+Dim+Pej+Pos1Pl+Pl: aamooensishinaanag
+     aamoo+Dim+Pej+Pos1Pl+Loc: aamooensishinaaning
+     aamoo+Dim+Pej+PosPl+Obv: aamooensishiwaaan
+     aamoo+Dim+Pej+PosPl+Pl: aamooensishiwaaag
+     aamoo+Dim+Pej+PosPl+Loc: aamooensishiwaaing
+     aamoo+Dim+Pej+PosObv+Obv: aamooensishinian
+     aamoo+Dim+Pej+PosObv+Pl: aamooensishiniag
+     aamoo+Dim+Pej+PosObv+Loc: aamooensishiniing
+     aamoo+Con+Pej+Pos1Pl+Obv: aamooenhishinaanan
+     aamoo+Con+Pej+Pos1Pl+Pl: aamooenhishinaanag
+     aamoo+Con+Pej+Pos1Pl+Loc: aamooenhishinaaning
+     aamoo+Con+Pej+PosPl+Obv: aamooenhishiwaaan
+     aamoo+Con+Pej+PosPl+Pl: aamooenhishiwaaag
+     aamoo+Con+Pej+PosPl+Loc: aamooenhishiwaaing
+     aamoo+Con+Pej+PosObv+Obv: aamooenhishinian
+     aamoo+Con+Pej+PosObv+Pl: aamooenhishiniag
+     aamoo+Con+Pej+PosObv+Loc: aamooenhishiniing
+     
+     #Values from slots numbered: 2, 4, 6, 7
+     aamoo+Dim+Pej+Pret+Obv: aamooensishibanan
+     aamoo+Dim+Pej+Pret+Pl: aamooensishibanag
+     aamoo+Dim+Pej+Pret+Loc: aamooensishibaning
+     aamoo+Dim+Pej+VocPl+Obv: aamooensish***idig, idog***an
+     aamoo+Dim+Pej+VocPl+Pl: aamooensish***idig, idog***ag
+     aamoo+Dim+Pej+VocPl+Loc: aamooensish***idig, idog***ing
+     aamoo+Con+Pej+Pret+Obv: aamooenhishibanan
+     aamoo+Con+Pej+Pret+Pl: aamooenhishibanag
+     aamoo+Con+Pej+Pret+Loc: aamooenhishibaning
+     aamoo+Con+Pej+VocPl+Obv: aamooenhish***idig, idog***an
+     aamoo+Con+Pej+VocPl+Pl: aamooenhish***idig, idog***ag
+     aamoo+Con+Pej+VocPl+Loc: aamooenhish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 5, 6, 7
+     aamoo+Dim+Pos1Pl+Pret+Obv: aamooensinaanibanan
+     aamoo+Dim+Pos1Pl+Pret+Pl: aamooensinaanibanag
+     aamoo+Dim+Pos1Pl+Pret+Loc: aamooensinaanibaning
+     aamoo+Dim+Pos1Pl+VocPl+Obv: aamooensinaan***idig, idog***an
+     aamoo+Dim+Pos1Pl+VocPl+Pl: aamooensinaan***idig, idog***ag
+     aamoo+Dim+Pos1Pl+VocPl+Loc: aamooensinaan***idig, idog***ing
+     aamoo+Dim+PosPl+Pret+Obv: aamooensiwaaibanan
+     aamoo+Dim+PosPl+Pret+Pl: aamooensiwaaibanag
+     aamoo+Dim+PosPl+Pret+Loc: aamooensiwaaibaning
+     aamoo+Dim+PosPl+VocPl+Obv: aamooensiwaa***idig, idog***an
+     aamoo+Dim+PosPl+VocPl+Pl: aamooensiwaa***idig, idog***ag
+     aamoo+Dim+PosPl+VocPl+Loc: aamooensiwaa***idig, idog***ing
+     aamoo+Dim+PosObv+Pret+Obv: aamooensiniibanan
+     aamoo+Dim+PosObv+Pret+Pl: aamooensiniibanag
+     aamoo+Dim+PosObv+Pret+Loc: aamooensiniibaning
+     aamoo+Dim+PosObv+VocPl+Obv: aamooensini***idig, idog***an
+     aamoo+Dim+PosObv+VocPl+Pl: aamooensini***idig, idog***ag
+     aamoo+Dim+PosObv+VocPl+Loc: aamooensini***idig, idog***ing
+     aamoo+Con+Pos1Pl+Pret+Obv: aamooenhinaanibanan
+     aamoo+Con+Pos1Pl+Pret+Pl: aamooenhinaanibanag
+     aamoo+Con+Pos1Pl+Pret+Loc: aamooenhinaanibaning
+     aamoo+Con+Pos1Pl+VocPl+Obv: aamooenhinaan***idig, idog***an
+     aamoo+Con+Pos1Pl+VocPl+Pl: aamooenhinaan***idig, idog***ag
+     aamoo+Con+Pos1Pl+VocPl+Loc: aamooenhinaan***idig, idog***ing
+     aamoo+Con+PosPl+Pret+Obv: aamooenhiwaaibanan
+     aamoo+Con+PosPl+Pret+Pl: aamooenhiwaaibanag
+     aamoo+Con+PosPl+Pret+Loc: aamooenhiwaaibaning
+     aamoo+Con+PosPl+VocPl+Obv: aamooenhiwaa***idig, idog***an
+     aamoo+Con+PosPl+VocPl+Pl: aamooenhiwaa***idig, idog***ag
+     aamoo+Con+PosPl+VocPl+Loc: aamooenhiwaa***idig, idog***ing
+     aamoo+Con+PosObv+Pret+Obv: aamooenhiniibanan
+     aamoo+Con+PosObv+Pret+Pl: aamooenhiniibanag
+     aamoo+Con+PosObv+Pret+Loc: aamooenhiniibaning
+     aamoo+Con+PosObv+VocPl+Obv: aamooenhini***idig, idog***an
+     aamoo+Con+PosObv+VocPl+Pl: aamooenhini***idig, idog***ag
+     aamoo+Con+PosObv+VocPl+Loc: aamooenhini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6
+     aamoo+Pos+Pej+Pos1Pl+Pret: aamooimishinaaniban
+     aamoo+Pos+Pej+Pos1Pl+VocPl: aamooimishinaan***idig, idog***
+     aamoo+Pos+Pej+PosPl+Pret: aamooimishiwaaiban
+     aamoo+Pos+Pej+PosPl+VocPl: aamooimishiwaa***idig, idog***
+     aamoo+Pos+Pej+PosObv+Pret: aamooimishiniiban
+     aamoo+Pos+Pej+PosObv+VocPl: aamooimishini***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 5, 7
+     aamoo+Pos+Pej+Pos1Pl+Obv: aamooimishinaanan
+     aamoo+Pos+Pej+Pos1Pl+Pl: aamooimishinaanag
+     aamoo+Pos+Pej+Pos1Pl+Loc: aamooimishinaaning
+     aamoo+Pos+Pej+PosPl+Obv: aamooimishiwaaan
+     aamoo+Pos+Pej+PosPl+Pl: aamooimishiwaaag
+     aamoo+Pos+Pej+PosPl+Loc: aamooimishiwaaing
+     aamoo+Pos+Pej+PosObv+Obv: aamooimishinian
+     aamoo+Pos+Pej+PosObv+Pl: aamooimishiniag
+     aamoo+Pos+Pej+PosObv+Loc: aamooimishiniing
+     
+     #Values from slots numbered: 3, 4, 6, 7
+     aamoo+Pos+Pej+Pret+Obv: aamooimishibanan
+     aamoo+Pos+Pej+Pret+Pl: aamooimishibanag
+     aamoo+Pos+Pej+Pret+Loc: aamooimishibaning
+     aamoo+Pos+Pej+VocPl+Obv: aamooimish***idig, idog***an
+     aamoo+Pos+Pej+VocPl+Pl: aamooimish***idig, idog***ag
+     aamoo+Pos+Pej+VocPl+Loc: aamooimish***idig, idog***ing
+     
+     #Values from slots numbered: 3, 5, 6, 7
+     aamoo+Pos+Pos1Pl+Pret+Obv: aamooiminaanibanan
+     aamoo+Pos+Pos1Pl+Pret+Pl: aamooiminaanibanag
+     aamoo+Pos+Pos1Pl+Pret+Loc: aamooiminaanibaning
+     aamoo+Pos+Pos1Pl+VocPl+Obv: aamooiminaan***idig, idog***an
+     aamoo+Pos+Pos1Pl+VocPl+Pl: aamooiminaan***idig, idog***ag
+     aamoo+Pos+Pos1Pl+VocPl+Loc: aamooiminaan***idig, idog***ing
+     aamoo+Pos+PosPl+Pret+Obv: aamooimiwaaibanan
+     aamoo+Pos+PosPl+Pret+Pl: aamooimiwaaibanag
+     aamoo+Pos+PosPl+Pret+Loc: aamooimiwaaibaning
+     aamoo+Pos+PosPl+VocPl+Obv: aamooimiwaa***idig, idog***an
+     aamoo+Pos+PosPl+VocPl+Pl: aamooimiwaa***idig, idog***ag
+     aamoo+Pos+PosPl+VocPl+Loc: aamooimiwaa***idig, idog***ing
+     aamoo+Pos+PosObv+Pret+Obv: aamooiminiibanan
+     aamoo+Pos+PosObv+Pret+Pl: aamooiminiibanag
+     aamoo+Pos+PosObv+Pret+Loc: aamooiminiibaning
+     aamoo+Pos+PosObv+VocPl+Obv: aamooimini***idig, idog***an
+     aamoo+Pos+PosObv+VocPl+Pl: aamooimini***idig, idog***ag
+     aamoo+Pos+PosObv+VocPl+Loc: aamooimini***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6, 7
+     aamoo+Pej+Pos1Pl+Pret+Obv: aamooishinaanibanan
+     aamoo+Pej+Pos1Pl+Pret+Pl: aamooishinaanibanag
+     aamoo+Pej+Pos1Pl+Pret+Loc: aamooishinaanibaning
+     aamoo+Pej+Pos1Pl+VocPl+Obv: aamooishinaan***idig, idog***an
+     aamoo+Pej+Pos1Pl+VocPl+Pl: aamooishinaan***idig, idog***ag
+     aamoo+Pej+Pos1Pl+VocPl+Loc: aamooishinaan***idig, idog***ing
+     aamoo+Pej+PosPl+Pret+Obv: aamooishiwaaibanan
+     aamoo+Pej+PosPl+Pret+Pl: aamooishiwaaibanag
+     aamoo+Pej+PosPl+Pret+Loc: aamooishiwaaibaning
+     aamoo+Pej+PosPl+VocPl+Obv: aamooishiwaa***idig, idog***an
+     aamoo+Pej+PosPl+VocPl+Pl: aamooishiwaa***idig, idog***ag
+     aamoo+Pej+PosPl+VocPl+Loc: aamooishiwaa***idig, idog***ing
+     aamoo+Pej+PosObv+Pret+Obv: aamooishiniibanan
+     aamoo+Pej+PosObv+Pret+Pl: aamooishiniibanag
+     aamoo+Pej+PosObv+Pret+Loc: aamooishiniibaning
+     aamoo+Pej+PosObv+VocPl+Obv: aamooishini***idig, idog***an
+     aamoo+Pej+PosObv+VocPl+Pl: aamooishini***idig, idog***ag
+     aamoo+Pej+PosObv+VocPl+Loc: aamooishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl: niaamooensimishinaan
+     +Px1aamoo+Dim+Pos+Pej+PosPl: niaamooensimishiwaa
+     +Px1aamoo+Dim+Pos+Pej+PosObv: niaamooensimishini
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl: niaamooenhimishinaan
+     +Px1aamoo+Con+Pos+Pej+PosPl: niaamooenhimishiwaa
+     +Px1aamoo+Con+Pos+Pej+PosObv: niaamooenhimishini
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl: giaamooensimishinaan
+     +Px2aamoo+Dim+Pos+Pej+PosPl: giaamooensimishiwaa
+     +Px2aamoo+Dim+Pos+Pej+PosObv: giaamooensimishini
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl: giaamooenhimishinaan
+     +Px2aamoo+Con+Pos+Pej+PosPl: giaamooenhimishiwaa
+     +Px2aamoo+Con+Pos+Pej+PosObv: giaamooenhimishini
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl: oaamooensimishinaan
+     +Px3aamoo+Dim+Pos+Pej+PosPl: oaamooensimishiwaa
+     +Px3aamoo+Dim+Pos+Pej+PosObv: oaamooensimishini
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl: oaamooenhimishinaan
+     +Px3aamoo+Con+Pos+Pej+PosPl: oaamooenhimishiwaa
+     +Px3aamoo+Con+Pos+Pej+PosObv: oaamooenhimishini
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     +Px1aamoo+Dim+Pos+Pej+Pret: niaamooensimishiban
+     +Px1aamoo+Dim+Pos+Pej+VocPl: niaamooensimish***idig, idog***
+     +Px1aamoo+Con+Pos+Pej+Pret: niaamooenhimishiban
+     +Px1aamoo+Con+Pos+Pej+VocPl: niaamooenhimish***idig, idog***
+     +Px2aamoo+Dim+Pos+Pej+Pret: giaamooensimishiban
+     +Px2aamoo+Dim+Pos+Pej+VocPl: giaamooensimish***idig, idog***
+     +Px2aamoo+Con+Pos+Pej+Pret: giaamooenhimishiban
+     +Px2aamoo+Con+Pos+Pej+VocPl: giaamooenhimish***idig, idog***
+     +Px3aamoo+Dim+Pos+Pej+Pret: oaamooensimishiban
+     +Px3aamoo+Dim+Pos+Pej+VocPl: oaamooensimish***idig, idog***
+     +Px3aamoo+Con+Pos+Pej+Pret: oaamooenhimishiban
+     +Px3aamoo+Con+Pos+Pej+VocPl: oaamooenhimish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     +Px1aamoo+Dim+Pos+Pej+Obv: niaamooensimishan
+     +Px1aamoo+Dim+Pos+Pej+Pl: niaamooensimishag
+     +Px1aamoo+Dim+Pos+Pej+Loc: niaamooensimishing
+     +Px1aamoo+Con+Pos+Pej+Obv: niaamooenhimishan
+     +Px1aamoo+Con+Pos+Pej+Pl: niaamooenhimishag
+     +Px1aamoo+Con+Pos+Pej+Loc: niaamooenhimishing
+     +Px2aamoo+Dim+Pos+Pej+Obv: giaamooensimishan
+     +Px2aamoo+Dim+Pos+Pej+Pl: giaamooensimishag
+     +Px2aamoo+Dim+Pos+Pej+Loc: giaamooensimishing
+     +Px2aamoo+Con+Pos+Pej+Obv: giaamooenhimishan
+     +Px2aamoo+Con+Pos+Pej+Pl: giaamooenhimishag
+     +Px2aamoo+Con+Pos+Pej+Loc: giaamooenhimishing
+     +Px3aamoo+Dim+Pos+Pej+Obv: oaamooensimishan
+     +Px3aamoo+Dim+Pos+Pej+Pl: oaamooensimishag
+     +Px3aamoo+Dim+Pos+Pej+Loc: oaamooensimishing
+     +Px3aamoo+Con+Pos+Pej+Obv: oaamooenhimishan
+     +Px3aamoo+Con+Pos+Pej+Pl: oaamooenhimishag
+     +Px3aamoo+Con+Pos+Pej+Loc: oaamooenhimishing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     +Px1aamoo+Dim+Pos+Pos1Pl+Pret: niaamooensiminaaniban
+     +Px1aamoo+Dim+Pos+Pos1Pl+VocPl: niaamooensiminaan***idig, idog***
+     +Px1aamoo+Dim+Pos+PosPl+Pret: niaamooensimiwaaiban
+     +Px1aamoo+Dim+Pos+PosPl+VocPl: niaamooensimiwaa***idig, idog***
+     +Px1aamoo+Dim+Pos+PosObv+Pret: niaamooensiminiiban
+     +Px1aamoo+Dim+Pos+PosObv+VocPl: niaamooensimini***idig, idog***
+     +Px1aamoo+Con+Pos+Pos1Pl+Pret: niaamooenhiminaaniban
+     +Px1aamoo+Con+Pos+Pos1Pl+VocPl: niaamooenhiminaan***idig, idog***
+     +Px1aamoo+Con+Pos+PosPl+Pret: niaamooenhimiwaaiban
+     +Px1aamoo+Con+Pos+PosPl+VocPl: niaamooenhimiwaa***idig, idog***
+     +Px1aamoo+Con+Pos+PosObv+Pret: niaamooenhiminiiban
+     +Px1aamoo+Con+Pos+PosObv+VocPl: niaamooenhimini***idig, idog***
+     +Px2aamoo+Dim+Pos+Pos1Pl+Pret: giaamooensiminaaniban
+     +Px2aamoo+Dim+Pos+Pos1Pl+VocPl: giaamooensiminaan***idig, idog***
+     +Px2aamoo+Dim+Pos+PosPl+Pret: giaamooensimiwaaiban
+     +Px2aamoo+Dim+Pos+PosPl+VocPl: giaamooensimiwaa***idig, idog***
+     +Px2aamoo+Dim+Pos+PosObv+Pret: giaamooensiminiiban
+     +Px2aamoo+Dim+Pos+PosObv+VocPl: giaamooensimini***idig, idog***
+     +Px2aamoo+Con+Pos+Pos1Pl+Pret: giaamooenhiminaaniban
+     +Px2aamoo+Con+Pos+Pos1Pl+VocPl: giaamooenhiminaan***idig, idog***
+     +Px2aamoo+Con+Pos+PosPl+Pret: giaamooenhimiwaaiban
+     +Px2aamoo+Con+Pos+PosPl+VocPl: giaamooenhimiwaa***idig, idog***
+     +Px2aamoo+Con+Pos+PosObv+Pret: giaamooenhiminiiban
+     +Px2aamoo+Con+Pos+PosObv+VocPl: giaamooenhimini***idig, idog***
+     +Px3aamoo+Dim+Pos+Pos1Pl+Pret: oaamooensiminaaniban
+     +Px3aamoo+Dim+Pos+Pos1Pl+VocPl: oaamooensiminaan***idig, idog***
+     +Px3aamoo+Dim+Pos+PosPl+Pret: oaamooensimiwaaiban
+     +Px3aamoo+Dim+Pos+PosPl+VocPl: oaamooensimiwaa***idig, idog***
+     +Px3aamoo+Dim+Pos+PosObv+Pret: oaamooensiminiiban
+     +Px3aamoo+Dim+Pos+PosObv+VocPl: oaamooensimini***idig, idog***
+     +Px3aamoo+Con+Pos+Pos1Pl+Pret: oaamooenhiminaaniban
+     +Px3aamoo+Con+Pos+Pos1Pl+VocPl: oaamooenhiminaan***idig, idog***
+     +Px3aamoo+Con+Pos+PosPl+Pret: oaamooenhimiwaaiban
+     +Px3aamoo+Con+Pos+PosPl+VocPl: oaamooenhimiwaa***idig, idog***
+     +Px3aamoo+Con+Pos+PosObv+Pret: oaamooenhiminiiban
+     +Px3aamoo+Con+Pos+PosObv+VocPl: oaamooenhimini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     +Px1aamoo+Dim+Pos+Pos1Pl+Obv: niaamooensiminaanan
+     +Px1aamoo+Dim+Pos+Pos1Pl+Pl: niaamooensiminaanag
+     +Px1aamoo+Dim+Pos+Pos1Pl+Loc: niaamooensiminaaning
+     +Px1aamoo+Dim+Pos+PosPl+Obv: niaamooensimiwaaan
+     +Px1aamoo+Dim+Pos+PosPl+Pl: niaamooensimiwaaag
+     +Px1aamoo+Dim+Pos+PosPl+Loc: niaamooensimiwaaing
+     +Px1aamoo+Dim+Pos+PosObv+Obv: niaamooensiminian
+     +Px1aamoo+Dim+Pos+PosObv+Pl: niaamooensiminiag
+     +Px1aamoo+Dim+Pos+PosObv+Loc: niaamooensiminiing
+     +Px1aamoo+Con+Pos+Pos1Pl+Obv: niaamooenhiminaanan
+     +Px1aamoo+Con+Pos+Pos1Pl+Pl: niaamooenhiminaanag
+     +Px1aamoo+Con+Pos+Pos1Pl+Loc: niaamooenhiminaaning
+     +Px1aamoo+Con+Pos+PosPl+Obv: niaamooenhimiwaaan
+     +Px1aamoo+Con+Pos+PosPl+Pl: niaamooenhimiwaaag
+     +Px1aamoo+Con+Pos+PosPl+Loc: niaamooenhimiwaaing
+     +Px1aamoo+Con+Pos+PosObv+Obv: niaamooenhiminian
+     +Px1aamoo+Con+Pos+PosObv+Pl: niaamooenhiminiag
+     +Px1aamoo+Con+Pos+PosObv+Loc: niaamooenhiminiing
+     +Px2aamoo+Dim+Pos+Pos1Pl+Obv: giaamooensiminaanan
+     +Px2aamoo+Dim+Pos+Pos1Pl+Pl: giaamooensiminaanag
+     +Px2aamoo+Dim+Pos+Pos1Pl+Loc: giaamooensiminaaning
+     +Px2aamoo+Dim+Pos+PosPl+Obv: giaamooensimiwaaan
+     +Px2aamoo+Dim+Pos+PosPl+Pl: giaamooensimiwaaag
+     +Px2aamoo+Dim+Pos+PosPl+Loc: giaamooensimiwaaing
+     +Px2aamoo+Dim+Pos+PosObv+Obv: giaamooensiminian
+     +Px2aamoo+Dim+Pos+PosObv+Pl: giaamooensiminiag
+     +Px2aamoo+Dim+Pos+PosObv+Loc: giaamooensiminiing
+     +Px2aamoo+Con+Pos+Pos1Pl+Obv: giaamooenhiminaanan
+     +Px2aamoo+Con+Pos+Pos1Pl+Pl: giaamooenhiminaanag
+     +Px2aamoo+Con+Pos+Pos1Pl+Loc: giaamooenhiminaaning
+     +Px2aamoo+Con+Pos+PosPl+Obv: giaamooenhimiwaaan
+     +Px2aamoo+Con+Pos+PosPl+Pl: giaamooenhimiwaaag
+     +Px2aamoo+Con+Pos+PosPl+Loc: giaamooenhimiwaaing
+     +Px2aamoo+Con+Pos+PosObv+Obv: giaamooenhiminian
+     +Px2aamoo+Con+Pos+PosObv+Pl: giaamooenhiminiag
+     +Px2aamoo+Con+Pos+PosObv+Loc: giaamooenhiminiing
+     +Px3aamoo+Dim+Pos+Pos1Pl+Obv: oaamooensiminaanan
+     +Px3aamoo+Dim+Pos+Pos1Pl+Pl: oaamooensiminaanag
+     +Px3aamoo+Dim+Pos+Pos1Pl+Loc: oaamooensiminaaning
+     +Px3aamoo+Dim+Pos+PosPl+Obv: oaamooensimiwaaan
+     +Px3aamoo+Dim+Pos+PosPl+Pl: oaamooensimiwaaag
+     +Px3aamoo+Dim+Pos+PosPl+Loc: oaamooensimiwaaing
+     +Px3aamoo+Dim+Pos+PosObv+Obv: oaamooensiminian
+     +Px3aamoo+Dim+Pos+PosObv+Pl: oaamooensiminiag
+     +Px3aamoo+Dim+Pos+PosObv+Loc: oaamooensiminiing
+     +Px3aamoo+Con+Pos+Pos1Pl+Obv: oaamooenhiminaanan
+     +Px3aamoo+Con+Pos+Pos1Pl+Pl: oaamooenhiminaanag
+     +Px3aamoo+Con+Pos+Pos1Pl+Loc: oaamooenhiminaaning
+     +Px3aamoo+Con+Pos+PosPl+Obv: oaamooenhimiwaaan
+     +Px3aamoo+Con+Pos+PosPl+Pl: oaamooenhimiwaaag
+     +Px3aamoo+Con+Pos+PosPl+Loc: oaamooenhimiwaaing
+     +Px3aamoo+Con+Pos+PosObv+Obv: oaamooenhiminian
+     +Px3aamoo+Con+Pos+PosObv+Pl: oaamooenhiminiag
+     +Px3aamoo+Con+Pos+PosObv+Loc: oaamooenhiminiing
+     
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     +Px1aamoo+Dim+Pos+Pret+Obv: niaamooensimibanan
+     +Px1aamoo+Dim+Pos+Pret+Pl: niaamooensimibanag
+     +Px1aamoo+Dim+Pos+Pret+Loc: niaamooensimibaning
+     +Px1aamoo+Dim+Pos+VocPl+Obv: niaamooensim***idig, idog***an
+     +Px1aamoo+Dim+Pos+VocPl+Pl: niaamooensim***idig, idog***ag
+     +Px1aamoo+Dim+Pos+VocPl+Loc: niaamooensim***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pret+Obv: niaamooenhimibanan
+     +Px1aamoo+Con+Pos+Pret+Pl: niaamooenhimibanag
+     +Px1aamoo+Con+Pos+Pret+Loc: niaamooenhimibaning
+     +Px1aamoo+Con+Pos+VocPl+Obv: niaamooenhim***idig, idog***an
+     +Px1aamoo+Con+Pos+VocPl+Pl: niaamooenhim***idig, idog***ag
+     +Px1aamoo+Con+Pos+VocPl+Loc: niaamooenhim***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pret+Obv: giaamooensimibanan
+     +Px2aamoo+Dim+Pos+Pret+Pl: giaamooensimibanag
+     +Px2aamoo+Dim+Pos+Pret+Loc: giaamooensimibaning
+     +Px2aamoo+Dim+Pos+VocPl+Obv: giaamooensim***idig, idog***an
+     +Px2aamoo+Dim+Pos+VocPl+Pl: giaamooensim***idig, idog***ag
+     +Px2aamoo+Dim+Pos+VocPl+Loc: giaamooensim***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pret+Obv: giaamooenhimibanan
+     +Px2aamoo+Con+Pos+Pret+Pl: giaamooenhimibanag
+     +Px2aamoo+Con+Pos+Pret+Loc: giaamooenhimibaning
+     +Px2aamoo+Con+Pos+VocPl+Obv: giaamooenhim***idig, idog***an
+     +Px2aamoo+Con+Pos+VocPl+Pl: giaamooenhim***idig, idog***ag
+     +Px2aamoo+Con+Pos+VocPl+Loc: giaamooenhim***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pret+Obv: oaamooensimibanan
+     +Px3aamoo+Dim+Pos+Pret+Pl: oaamooensimibanag
+     +Px3aamoo+Dim+Pos+Pret+Loc: oaamooensimibaning
+     +Px3aamoo+Dim+Pos+VocPl+Obv: oaamooensim***idig, idog***an
+     +Px3aamoo+Dim+Pos+VocPl+Pl: oaamooensim***idig, idog***ag
+     +Px3aamoo+Dim+Pos+VocPl+Loc: oaamooensim***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pret+Obv: oaamooenhimibanan
+     +Px3aamoo+Con+Pos+Pret+Pl: oaamooenhimibanag
+     +Px3aamoo+Con+Pos+Pret+Loc: oaamooenhimibaning
+     +Px3aamoo+Con+Pos+VocPl+Obv: oaamooenhim***idig, idog***an
+     +Px3aamoo+Con+Pos+VocPl+Pl: oaamooenhim***idig, idog***ag
+     +Px3aamoo+Con+Pos+VocPl+Loc: oaamooenhim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     +Px1aamoo+Dim+Pej+Pos1Pl+Pret: niaamooensishinaaniban
+     +Px1aamoo+Dim+Pej+Pos1Pl+VocPl: niaamooensishinaan***idig, idog***
+     +Px1aamoo+Dim+Pej+PosPl+Pret: niaamooensishiwaaiban
+     +Px1aamoo+Dim+Pej+PosPl+VocPl: niaamooensishiwaa***idig, idog***
+     +Px1aamoo+Dim+Pej+PosObv+Pret: niaamooensishiniiban
+     +Px1aamoo+Dim+Pej+PosObv+VocPl: niaamooensishini***idig, idog***
+     +Px1aamoo+Con+Pej+Pos1Pl+Pret: niaamooenhishinaaniban
+     +Px1aamoo+Con+Pej+Pos1Pl+VocPl: niaamooenhishinaan***idig, idog***
+     +Px1aamoo+Con+Pej+PosPl+Pret: niaamooenhishiwaaiban
+     +Px1aamoo+Con+Pej+PosPl+VocPl: niaamooenhishiwaa***idig, idog***
+     +Px1aamoo+Con+Pej+PosObv+Pret: niaamooenhishiniiban
+     +Px1aamoo+Con+Pej+PosObv+VocPl: niaamooenhishini***idig, idog***
+     +Px2aamoo+Dim+Pej+Pos1Pl+Pret: giaamooensishinaaniban
+     +Px2aamoo+Dim+Pej+Pos1Pl+VocPl: giaamooensishinaan***idig, idog***
+     +Px2aamoo+Dim+Pej+PosPl+Pret: giaamooensishiwaaiban
+     +Px2aamoo+Dim+Pej+PosPl+VocPl: giaamooensishiwaa***idig, idog***
+     +Px2aamoo+Dim+Pej+PosObv+Pret: giaamooensishiniiban
+     +Px2aamoo+Dim+Pej+PosObv+VocPl: giaamooensishini***idig, idog***
+     +Px2aamoo+Con+Pej+Pos1Pl+Pret: giaamooenhishinaaniban
+     +Px2aamoo+Con+Pej+Pos1Pl+VocPl: giaamooenhishinaan***idig, idog***
+     +Px2aamoo+Con+Pej+PosPl+Pret: giaamooenhishiwaaiban
+     +Px2aamoo+Con+Pej+PosPl+VocPl: giaamooenhishiwaa***idig, idog***
+     +Px2aamoo+Con+Pej+PosObv+Pret: giaamooenhishiniiban
+     +Px2aamoo+Con+Pej+PosObv+VocPl: giaamooenhishini***idig, idog***
+     +Px3aamoo+Dim+Pej+Pos1Pl+Pret: oaamooensishinaaniban
+     +Px3aamoo+Dim+Pej+Pos1Pl+VocPl: oaamooensishinaan***idig, idog***
+     +Px3aamoo+Dim+Pej+PosPl+Pret: oaamooensishiwaaiban
+     +Px3aamoo+Dim+Pej+PosPl+VocPl: oaamooensishiwaa***idig, idog***
+     +Px3aamoo+Dim+Pej+PosObv+Pret: oaamooensishiniiban
+     +Px3aamoo+Dim+Pej+PosObv+VocPl: oaamooensishini***idig, idog***
+     +Px3aamoo+Con+Pej+Pos1Pl+Pret: oaamooenhishinaaniban
+     +Px3aamoo+Con+Pej+Pos1Pl+VocPl: oaamooenhishinaan***idig, idog***
+     +Px3aamoo+Con+Pej+PosPl+Pret: oaamooenhishiwaaiban
+     +Px3aamoo+Con+Pej+PosPl+VocPl: oaamooenhishiwaa***idig, idog***
+     +Px3aamoo+Con+Pej+PosObv+Pret: oaamooenhishiniiban
+     +Px3aamoo+Con+Pej+PosObv+VocPl: oaamooenhishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     +Px1aamoo+Dim+Pej+Pos1Pl+Obv: niaamooensishinaanan
+     +Px1aamoo+Dim+Pej+Pos1Pl+Pl: niaamooensishinaanag
+     +Px1aamoo+Dim+Pej+Pos1Pl+Loc: niaamooensishinaaning
+     +Px1aamoo+Dim+Pej+PosPl+Obv: niaamooensishiwaaan
+     +Px1aamoo+Dim+Pej+PosPl+Pl: niaamooensishiwaaag
+     +Px1aamoo+Dim+Pej+PosPl+Loc: niaamooensishiwaaing
+     +Px1aamoo+Dim+Pej+PosObv+Obv: niaamooensishinian
+     +Px1aamoo+Dim+Pej+PosObv+Pl: niaamooensishiniag
+     +Px1aamoo+Dim+Pej+PosObv+Loc: niaamooensishiniing
+     +Px1aamoo+Con+Pej+Pos1Pl+Obv: niaamooenhishinaanan
+     +Px1aamoo+Con+Pej+Pos1Pl+Pl: niaamooenhishinaanag
+     +Px1aamoo+Con+Pej+Pos1Pl+Loc: niaamooenhishinaaning
+     +Px1aamoo+Con+Pej+PosPl+Obv: niaamooenhishiwaaan
+     +Px1aamoo+Con+Pej+PosPl+Pl: niaamooenhishiwaaag
+     +Px1aamoo+Con+Pej+PosPl+Loc: niaamooenhishiwaaing
+     +Px1aamoo+Con+Pej+PosObv+Obv: niaamooenhishinian
+     +Px1aamoo+Con+Pej+PosObv+Pl: niaamooenhishiniag
+     +Px1aamoo+Con+Pej+PosObv+Loc: niaamooenhishiniing
+     +Px2aamoo+Dim+Pej+Pos1Pl+Obv: giaamooensishinaanan
+     +Px2aamoo+Dim+Pej+Pos1Pl+Pl: giaamooensishinaanag
+     +Px2aamoo+Dim+Pej+Pos1Pl+Loc: giaamooensishinaaning
+     +Px2aamoo+Dim+Pej+PosPl+Obv: giaamooensishiwaaan
+     +Px2aamoo+Dim+Pej+PosPl+Pl: giaamooensishiwaaag
+     +Px2aamoo+Dim+Pej+PosPl+Loc: giaamooensishiwaaing
+     +Px2aamoo+Dim+Pej+PosObv+Obv: giaamooensishinian
+     +Px2aamoo+Dim+Pej+PosObv+Pl: giaamooensishiniag
+     +Px2aamoo+Dim+Pej+PosObv+Loc: giaamooensishiniing
+     +Px2aamoo+Con+Pej+Pos1Pl+Obv: giaamooenhishinaanan
+     +Px2aamoo+Con+Pej+Pos1Pl+Pl: giaamooenhishinaanag
+     +Px2aamoo+Con+Pej+Pos1Pl+Loc: giaamooenhishinaaning
+     +Px2aamoo+Con+Pej+PosPl+Obv: giaamooenhishiwaaan
+     +Px2aamoo+Con+Pej+PosPl+Pl: giaamooenhishiwaaag
+     +Px2aamoo+Con+Pej+PosPl+Loc: giaamooenhishiwaaing
+     +Px2aamoo+Con+Pej+PosObv+Obv: giaamooenhishinian
+     +Px2aamoo+Con+Pej+PosObv+Pl: giaamooenhishiniag
+     +Px2aamoo+Con+Pej+PosObv+Loc: giaamooenhishiniing
+     +Px3aamoo+Dim+Pej+Pos1Pl+Obv: oaamooensishinaanan
+     +Px3aamoo+Dim+Pej+Pos1Pl+Pl: oaamooensishinaanag
+     +Px3aamoo+Dim+Pej+Pos1Pl+Loc: oaamooensishinaaning
+     +Px3aamoo+Dim+Pej+PosPl+Obv: oaamooensishiwaaan
+     +Px3aamoo+Dim+Pej+PosPl+Pl: oaamooensishiwaaag
+     +Px3aamoo+Dim+Pej+PosPl+Loc: oaamooensishiwaaing
+     +Px3aamoo+Dim+Pej+PosObv+Obv: oaamooensishinian
+     +Px3aamoo+Dim+Pej+PosObv+Pl: oaamooensishiniag
+     +Px3aamoo+Dim+Pej+PosObv+Loc: oaamooensishiniing
+     +Px3aamoo+Con+Pej+Pos1Pl+Obv: oaamooenhishinaanan
+     +Px3aamoo+Con+Pej+Pos1Pl+Pl: oaamooenhishinaanag
+     +Px3aamoo+Con+Pej+Pos1Pl+Loc: oaamooenhishinaaning
+     +Px3aamoo+Con+Pej+PosPl+Obv: oaamooenhishiwaaan
+     +Px3aamoo+Con+Pej+PosPl+Pl: oaamooenhishiwaaag
+     +Px3aamoo+Con+Pej+PosPl+Loc: oaamooenhishiwaaing
+     +Px3aamoo+Con+Pej+PosObv+Obv: oaamooenhishinian
+     +Px3aamoo+Con+Pej+PosObv+Pl: oaamooenhishiniag
+     +Px3aamoo+Con+Pej+PosObv+Loc: oaamooenhishiniing
+     
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     +Px1aamoo+Dim+Pej+Pret+Obv: niaamooensishibanan
+     +Px1aamoo+Dim+Pej+Pret+Pl: niaamooensishibanag
+     +Px1aamoo+Dim+Pej+Pret+Loc: niaamooensishibaning
+     +Px1aamoo+Dim+Pej+VocPl+Obv: niaamooensish***idig, idog***an
+     +Px1aamoo+Dim+Pej+VocPl+Pl: niaamooensish***idig, idog***ag
+     +Px1aamoo+Dim+Pej+VocPl+Loc: niaamooensish***idig, idog***ing
+     +Px1aamoo+Con+Pej+Pret+Obv: niaamooenhishibanan
+     +Px1aamoo+Con+Pej+Pret+Pl: niaamooenhishibanag
+     +Px1aamoo+Con+Pej+Pret+Loc: niaamooenhishibaning
+     +Px1aamoo+Con+Pej+VocPl+Obv: niaamooenhish***idig, idog***an
+     +Px1aamoo+Con+Pej+VocPl+Pl: niaamooenhish***idig, idog***ag
+     +Px1aamoo+Con+Pej+VocPl+Loc: niaamooenhish***idig, idog***ing
+     +Px2aamoo+Dim+Pej+Pret+Obv: giaamooensishibanan
+     +Px2aamoo+Dim+Pej+Pret+Pl: giaamooensishibanag
+     +Px2aamoo+Dim+Pej+Pret+Loc: giaamooensishibaning
+     +Px2aamoo+Dim+Pej+VocPl+Obv: giaamooensish***idig, idog***an
+     +Px2aamoo+Dim+Pej+VocPl+Pl: giaamooensish***idig, idog***ag
+     +Px2aamoo+Dim+Pej+VocPl+Loc: giaamooensish***idig, idog***ing
+     +Px2aamoo+Con+Pej+Pret+Obv: giaamooenhishibanan
+     +Px2aamoo+Con+Pej+Pret+Pl: giaamooenhishibanag
+     +Px2aamoo+Con+Pej+Pret+Loc: giaamooenhishibaning
+     +Px2aamoo+Con+Pej+VocPl+Obv: giaamooenhish***idig, idog***an
+     +Px2aamoo+Con+Pej+VocPl+Pl: giaamooenhish***idig, idog***ag
+     +Px2aamoo+Con+Pej+VocPl+Loc: giaamooenhish***idig, idog***ing
+     +Px3aamoo+Dim+Pej+Pret+Obv: oaamooensishibanan
+     +Px3aamoo+Dim+Pej+Pret+Pl: oaamooensishibanag
+     +Px3aamoo+Dim+Pej+Pret+Loc: oaamooensishibaning
+     +Px3aamoo+Dim+Pej+VocPl+Obv: oaamooensish***idig, idog***an
+     +Px3aamoo+Dim+Pej+VocPl+Pl: oaamooensish***idig, idog***ag
+     +Px3aamoo+Dim+Pej+VocPl+Loc: oaamooensish***idig, idog***ing
+     +Px3aamoo+Con+Pej+Pret+Obv: oaamooenhishibanan
+     +Px3aamoo+Con+Pej+Pret+Pl: oaamooenhishibanag
+     +Px3aamoo+Con+Pej+Pret+Loc: oaamooenhishibaning
+     +Px3aamoo+Con+Pej+VocPl+Obv: oaamooenhish***idig, idog***an
+     +Px3aamoo+Con+Pej+VocPl+Pl: oaamooenhish***idig, idog***ag
+     +Px3aamoo+Con+Pej+VocPl+Loc: oaamooenhish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     +Px1aamoo+Dim+Pos1Pl+Pret+Obv: niaamooensinaanibanan
+     +Px1aamoo+Dim+Pos1Pl+Pret+Pl: niaamooensinaanibanag
+     +Px1aamoo+Dim+Pos1Pl+Pret+Loc: niaamooensinaanibaning
+     +Px1aamoo+Dim+Pos1Pl+VocPl+Obv: niaamooensinaan***idig, idog***an
+     +Px1aamoo+Dim+Pos1Pl+VocPl+Pl: niaamooensinaan***idig, idog***ag
+     +Px1aamoo+Dim+Pos1Pl+VocPl+Loc: niaamooensinaan***idig, idog***ing
+     +Px1aamoo+Dim+PosPl+Pret+Obv: niaamooensiwaaibanan
+     +Px1aamoo+Dim+PosPl+Pret+Pl: niaamooensiwaaibanag
+     +Px1aamoo+Dim+PosPl+Pret+Loc: niaamooensiwaaibaning
+     +Px1aamoo+Dim+PosPl+VocPl+Obv: niaamooensiwaa***idig, idog***an
+     +Px1aamoo+Dim+PosPl+VocPl+Pl: niaamooensiwaa***idig, idog***ag
+     +Px1aamoo+Dim+PosPl+VocPl+Loc: niaamooensiwaa***idig, idog***ing
+     +Px1aamoo+Dim+PosObv+Pret+Obv: niaamooensiniibanan
+     +Px1aamoo+Dim+PosObv+Pret+Pl: niaamooensiniibanag
+     +Px1aamoo+Dim+PosObv+Pret+Loc: niaamooensiniibaning
+     +Px1aamoo+Dim+PosObv+VocPl+Obv: niaamooensini***idig, idog***an
+     +Px1aamoo+Dim+PosObv+VocPl+Pl: niaamooensini***idig, idog***ag
+     +Px1aamoo+Dim+PosObv+VocPl+Loc: niaamooensini***idig, idog***ing
+     +Px1aamoo+Con+Pos1Pl+Pret+Obv: niaamooenhinaanibanan
+     +Px1aamoo+Con+Pos1Pl+Pret+Pl: niaamooenhinaanibanag
+     +Px1aamoo+Con+Pos1Pl+Pret+Loc: niaamooenhinaanibaning
+     +Px1aamoo+Con+Pos1Pl+VocPl+Obv: niaamooenhinaan***idig, idog***an
+     +Px1aamoo+Con+Pos1Pl+VocPl+Pl: niaamooenhinaan***idig, idog***ag
+     +Px1aamoo+Con+Pos1Pl+VocPl+Loc: niaamooenhinaan***idig, idog***ing
+     +Px1aamoo+Con+PosPl+Pret+Obv: niaamooenhiwaaibanan
+     +Px1aamoo+Con+PosPl+Pret+Pl: niaamooenhiwaaibanag
+     +Px1aamoo+Con+PosPl+Pret+Loc: niaamooenhiwaaibaning
+     +Px1aamoo+Con+PosPl+VocPl+Obv: niaamooenhiwaa***idig, idog***an
+     +Px1aamoo+Con+PosPl+VocPl+Pl: niaamooenhiwaa***idig, idog***ag
+     +Px1aamoo+Con+PosPl+VocPl+Loc: niaamooenhiwaa***idig, idog***ing
+     +Px1aamoo+Con+PosObv+Pret+Obv: niaamooenhiniibanan
+     +Px1aamoo+Con+PosObv+Pret+Pl: niaamooenhiniibanag
+     +Px1aamoo+Con+PosObv+Pret+Loc: niaamooenhiniibaning
+     +Px1aamoo+Con+PosObv+VocPl+Obv: niaamooenhini***idig, idog***an
+     +Px1aamoo+Con+PosObv+VocPl+Pl: niaamooenhini***idig, idog***ag
+     +Px1aamoo+Con+PosObv+VocPl+Loc: niaamooenhini***idig, idog***ing
+     +Px2aamoo+Dim+Pos1Pl+Pret+Obv: giaamooensinaanibanan
+     +Px2aamoo+Dim+Pos1Pl+Pret+Pl: giaamooensinaanibanag
+     +Px2aamoo+Dim+Pos1Pl+Pret+Loc: giaamooensinaanibaning
+     +Px2aamoo+Dim+Pos1Pl+VocPl+Obv: giaamooensinaan***idig, idog***an
+     +Px2aamoo+Dim+Pos1Pl+VocPl+Pl: giaamooensinaan***idig, idog***ag
+     +Px2aamoo+Dim+Pos1Pl+VocPl+Loc: giaamooensinaan***idig, idog***ing
+     +Px2aamoo+Dim+PosPl+Pret+Obv: giaamooensiwaaibanan
+     +Px2aamoo+Dim+PosPl+Pret+Pl: giaamooensiwaaibanag
+     +Px2aamoo+Dim+PosPl+Pret+Loc: giaamooensiwaaibaning
+     +Px2aamoo+Dim+PosPl+VocPl+Obv: giaamooensiwaa***idig, idog***an
+     +Px2aamoo+Dim+PosPl+VocPl+Pl: giaamooensiwaa***idig, idog***ag
+     +Px2aamoo+Dim+PosPl+VocPl+Loc: giaamooensiwaa***idig, idog***ing
+     +Px2aamoo+Dim+PosObv+Pret+Obv: giaamooensiniibanan
+     +Px2aamoo+Dim+PosObv+Pret+Pl: giaamooensiniibanag
+     +Px2aamoo+Dim+PosObv+Pret+Loc: giaamooensiniibaning
+     +Px2aamoo+Dim+PosObv+VocPl+Obv: giaamooensini***idig, idog***an
+     +Px2aamoo+Dim+PosObv+VocPl+Pl: giaamooensini***idig, idog***ag
+     +Px2aamoo+Dim+PosObv+VocPl+Loc: giaamooensini***idig, idog***ing
+     +Px2aamoo+Con+Pos1Pl+Pret+Obv: giaamooenhinaanibanan
+     +Px2aamoo+Con+Pos1Pl+Pret+Pl: giaamooenhinaanibanag
+     +Px2aamoo+Con+Pos1Pl+Pret+Loc: giaamooenhinaanibaning
+     +Px2aamoo+Con+Pos1Pl+VocPl+Obv: giaamooenhinaan***idig, idog***an
+     +Px2aamoo+Con+Pos1Pl+VocPl+Pl: giaamooenhinaan***idig, idog***ag
+     +Px2aamoo+Con+Pos1Pl+VocPl+Loc: giaamooenhinaan***idig, idog***ing
+     +Px2aamoo+Con+PosPl+Pret+Obv: giaamooenhiwaaibanan
+     +Px2aamoo+Con+PosPl+Pret+Pl: giaamooenhiwaaibanag
+     +Px2aamoo+Con+PosPl+Pret+Loc: giaamooenhiwaaibaning
+     +Px2aamoo+Con+PosPl+VocPl+Obv: giaamooenhiwaa***idig, idog***an
+     +Px2aamoo+Con+PosPl+VocPl+Pl: giaamooenhiwaa***idig, idog***ag
+     +Px2aamoo+Con+PosPl+VocPl+Loc: giaamooenhiwaa***idig, idog***ing
+     +Px2aamoo+Con+PosObv+Pret+Obv: giaamooenhiniibanan
+     +Px2aamoo+Con+PosObv+Pret+Pl: giaamooenhiniibanag
+     +Px2aamoo+Con+PosObv+Pret+Loc: giaamooenhiniibaning
+     +Px2aamoo+Con+PosObv+VocPl+Obv: giaamooenhini***idig, idog***an
+     +Px2aamoo+Con+PosObv+VocPl+Pl: giaamooenhini***idig, idog***ag
+     +Px2aamoo+Con+PosObv+VocPl+Loc: giaamooenhini***idig, idog***ing
+     +Px3aamoo+Dim+Pos1Pl+Pret+Obv: oaamooensinaanibanan
+     +Px3aamoo+Dim+Pos1Pl+Pret+Pl: oaamooensinaanibanag
+     +Px3aamoo+Dim+Pos1Pl+Pret+Loc: oaamooensinaanibaning
+     +Px3aamoo+Dim+Pos1Pl+VocPl+Obv: oaamooensinaan***idig, idog***an
+     +Px3aamoo+Dim+Pos1Pl+VocPl+Pl: oaamooensinaan***idig, idog***ag
+     +Px3aamoo+Dim+Pos1Pl+VocPl+Loc: oaamooensinaan***idig, idog***ing
+     +Px3aamoo+Dim+PosPl+Pret+Obv: oaamooensiwaaibanan
+     +Px3aamoo+Dim+PosPl+Pret+Pl: oaamooensiwaaibanag
+     +Px3aamoo+Dim+PosPl+Pret+Loc: oaamooensiwaaibaning
+     +Px3aamoo+Dim+PosPl+VocPl+Obv: oaamooensiwaa***idig, idog***an
+     +Px3aamoo+Dim+PosPl+VocPl+Pl: oaamooensiwaa***idig, idog***ag
+     +Px3aamoo+Dim+PosPl+VocPl+Loc: oaamooensiwaa***idig, idog***ing
+     +Px3aamoo+Dim+PosObv+Pret+Obv: oaamooensiniibanan
+     +Px3aamoo+Dim+PosObv+Pret+Pl: oaamooensiniibanag
+     +Px3aamoo+Dim+PosObv+Pret+Loc: oaamooensiniibaning
+     +Px3aamoo+Dim+PosObv+VocPl+Obv: oaamooensini***idig, idog***an
+     +Px3aamoo+Dim+PosObv+VocPl+Pl: oaamooensini***idig, idog***ag
+     +Px3aamoo+Dim+PosObv+VocPl+Loc: oaamooensini***idig, idog***ing
+     +Px3aamoo+Con+Pos1Pl+Pret+Obv: oaamooenhinaanibanan
+     +Px3aamoo+Con+Pos1Pl+Pret+Pl: oaamooenhinaanibanag
+     +Px3aamoo+Con+Pos1Pl+Pret+Loc: oaamooenhinaanibaning
+     +Px3aamoo+Con+Pos1Pl+VocPl+Obv: oaamooenhinaan***idig, idog***an
+     +Px3aamoo+Con+Pos1Pl+VocPl+Pl: oaamooenhinaan***idig, idog***ag
+     +Px3aamoo+Con+Pos1Pl+VocPl+Loc: oaamooenhinaan***idig, idog***ing
+     +Px3aamoo+Con+PosPl+Pret+Obv: oaamooenhiwaaibanan
+     +Px3aamoo+Con+PosPl+Pret+Pl: oaamooenhiwaaibanag
+     +Px3aamoo+Con+PosPl+Pret+Loc: oaamooenhiwaaibaning
+     +Px3aamoo+Con+PosPl+VocPl+Obv: oaamooenhiwaa***idig, idog***an
+     +Px3aamoo+Con+PosPl+VocPl+Pl: oaamooenhiwaa***idig, idog***ag
+     +Px3aamoo+Con+PosPl+VocPl+Loc: oaamooenhiwaa***idig, idog***ing
+     +Px3aamoo+Con+PosObv+Pret+Obv: oaamooenhiniibanan
+     +Px3aamoo+Con+PosObv+Pret+Pl: oaamooenhiniibanag
+     +Px3aamoo+Con+PosObv+Pret+Loc: oaamooenhiniibaning
+     +Px3aamoo+Con+PosObv+VocPl+Obv: oaamooenhini***idig, idog***an
+     +Px3aamoo+Con+PosObv+VocPl+Pl: oaamooenhini***idig, idog***ag
+     +Px3aamoo+Con+PosObv+VocPl+Loc: oaamooenhini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6
+     +Px1aamoo+Pos+Pej+Pos1Pl+Pret: niaamooimishinaaniban
+     +Px1aamoo+Pos+Pej+Pos1Pl+VocPl: niaamooimishinaan***idig, idog***
+     +Px1aamoo+Pos+Pej+PosPl+Pret: niaamooimishiwaaiban
+     +Px1aamoo+Pos+Pej+PosPl+VocPl: niaamooimishiwaa***idig, idog***
+     +Px1aamoo+Pos+Pej+PosObv+Pret: niaamooimishiniiban
+     +Px1aamoo+Pos+Pej+PosObv+VocPl: niaamooimishini***idig, idog***
+     +Px2aamoo+Pos+Pej+Pos1Pl+Pret: giaamooimishinaaniban
+     +Px2aamoo+Pos+Pej+Pos1Pl+VocPl: giaamooimishinaan***idig, idog***
+     +Px2aamoo+Pos+Pej+PosPl+Pret: giaamooimishiwaaiban
+     +Px2aamoo+Pos+Pej+PosPl+VocPl: giaamooimishiwaa***idig, idog***
+     +Px2aamoo+Pos+Pej+PosObv+Pret: giaamooimishiniiban
+     +Px2aamoo+Pos+Pej+PosObv+VocPl: giaamooimishini***idig, idog***
+     +Px3aamoo+Pos+Pej+Pos1Pl+Pret: oaamooimishinaaniban
+     +Px3aamoo+Pos+Pej+Pos1Pl+VocPl: oaamooimishinaan***idig, idog***
+     +Px3aamoo+Pos+Pej+PosPl+Pret: oaamooimishiwaaiban
+     +Px3aamoo+Pos+Pej+PosPl+VocPl: oaamooimishiwaa***idig, idog***
+     +Px3aamoo+Pos+Pej+PosObv+Pret: oaamooimishiniiban
+     +Px3aamoo+Pos+Pej+PosObv+VocPl: oaamooimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 5, 7
+     +Px1aamoo+Pos+Pej+Pos1Pl+Obv: niaamooimishinaanan
+     +Px1aamoo+Pos+Pej+Pos1Pl+Pl: niaamooimishinaanag
+     +Px1aamoo+Pos+Pej+Pos1Pl+Loc: niaamooimishinaaning
+     +Px1aamoo+Pos+Pej+PosPl+Obv: niaamooimishiwaaan
+     +Px1aamoo+Pos+Pej+PosPl+Pl: niaamooimishiwaaag
+     +Px1aamoo+Pos+Pej+PosPl+Loc: niaamooimishiwaaing
+     +Px1aamoo+Pos+Pej+PosObv+Obv: niaamooimishinian
+     +Px1aamoo+Pos+Pej+PosObv+Pl: niaamooimishiniag
+     +Px1aamoo+Pos+Pej+PosObv+Loc: niaamooimishiniing
+     +Px2aamoo+Pos+Pej+Pos1Pl+Obv: giaamooimishinaanan
+     +Px2aamoo+Pos+Pej+Pos1Pl+Pl: giaamooimishinaanag
+     +Px2aamoo+Pos+Pej+Pos1Pl+Loc: giaamooimishinaaning
+     +Px2aamoo+Pos+Pej+PosPl+Obv: giaamooimishiwaaan
+     +Px2aamoo+Pos+Pej+PosPl+Pl: giaamooimishiwaaag
+     +Px2aamoo+Pos+Pej+PosPl+Loc: giaamooimishiwaaing
+     +Px2aamoo+Pos+Pej+PosObv+Obv: giaamooimishinian
+     +Px2aamoo+Pos+Pej+PosObv+Pl: giaamooimishiniag
+     +Px2aamoo+Pos+Pej+PosObv+Loc: giaamooimishiniing
+     +Px3aamoo+Pos+Pej+Pos1Pl+Obv: oaamooimishinaanan
+     +Px3aamoo+Pos+Pej+Pos1Pl+Pl: oaamooimishinaanag
+     +Px3aamoo+Pos+Pej+Pos1Pl+Loc: oaamooimishinaaning
+     +Px3aamoo+Pos+Pej+PosPl+Obv: oaamooimishiwaaan
+     +Px3aamoo+Pos+Pej+PosPl+Pl: oaamooimishiwaaag
+     +Px3aamoo+Pos+Pej+PosPl+Loc: oaamooimishiwaaing
+     +Px3aamoo+Pos+Pej+PosObv+Obv: oaamooimishinian
+     +Px3aamoo+Pos+Pej+PosObv+Pl: oaamooimishiniag
+     +Px3aamoo+Pos+Pej+PosObv+Loc: oaamooimishiniing
+     
+     #Values from slots numbered: 1, 3, 4, 6, 7
+     +Px1aamoo+Pos+Pej+Pret+Obv: niaamooimishibanan
+     +Px1aamoo+Pos+Pej+Pret+Pl: niaamooimishibanag
+     +Px1aamoo+Pos+Pej+Pret+Loc: niaamooimishibaning
+     +Px1aamoo+Pos+Pej+VocPl+Obv: niaamooimish***idig, idog***an
+     +Px1aamoo+Pos+Pej+VocPl+Pl: niaamooimish***idig, idog***ag
+     +Px1aamoo+Pos+Pej+VocPl+Loc: niaamooimish***idig, idog***ing
+     +Px2aamoo+Pos+Pej+Pret+Obv: giaamooimishibanan
+     +Px2aamoo+Pos+Pej+Pret+Pl: giaamooimishibanag
+     +Px2aamoo+Pos+Pej+Pret+Loc: giaamooimishibaning
+     +Px2aamoo+Pos+Pej+VocPl+Obv: giaamooimish***idig, idog***an
+     +Px2aamoo+Pos+Pej+VocPl+Pl: giaamooimish***idig, idog***ag
+     +Px2aamoo+Pos+Pej+VocPl+Loc: giaamooimish***idig, idog***ing
+     +Px3aamoo+Pos+Pej+Pret+Obv: oaamooimishibanan
+     +Px3aamoo+Pos+Pej+Pret+Pl: oaamooimishibanag
+     +Px3aamoo+Pos+Pej+Pret+Loc: oaamooimishibaning
+     +Px3aamoo+Pos+Pej+VocPl+Obv: oaamooimish***idig, idog***an
+     +Px3aamoo+Pos+Pej+VocPl+Pl: oaamooimish***idig, idog***ag
+     +Px3aamoo+Pos+Pej+VocPl+Loc: oaamooimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 5, 6, 7
+     +Px1aamoo+Pos+Pos1Pl+Pret+Obv: niaamooiminaanibanan
+     +Px1aamoo+Pos+Pos1Pl+Pret+Pl: niaamooiminaanibanag
+     +Px1aamoo+Pos+Pos1Pl+Pret+Loc: niaamooiminaanibaning
+     +Px1aamoo+Pos+Pos1Pl+VocPl+Obv: niaamooiminaan***idig, idog***an
+     +Px1aamoo+Pos+Pos1Pl+VocPl+Pl: niaamooiminaan***idig, idog***ag
+     +Px1aamoo+Pos+Pos1Pl+VocPl+Loc: niaamooiminaan***idig, idog***ing
+     +Px1aamoo+Pos+PosPl+Pret+Obv: niaamooimiwaaibanan
+     +Px1aamoo+Pos+PosPl+Pret+Pl: niaamooimiwaaibanag
+     +Px1aamoo+Pos+PosPl+Pret+Loc: niaamooimiwaaibaning
+     +Px1aamoo+Pos+PosPl+VocPl+Obv: niaamooimiwaa***idig, idog***an
+     +Px1aamoo+Pos+PosPl+VocPl+Pl: niaamooimiwaa***idig, idog***ag
+     +Px1aamoo+Pos+PosPl+VocPl+Loc: niaamooimiwaa***idig, idog***ing
+     +Px1aamoo+Pos+PosObv+Pret+Obv: niaamooiminiibanan
+     +Px1aamoo+Pos+PosObv+Pret+Pl: niaamooiminiibanag
+     +Px1aamoo+Pos+PosObv+Pret+Loc: niaamooiminiibaning
+     +Px1aamoo+Pos+PosObv+VocPl+Obv: niaamooimini***idig, idog***an
+     +Px1aamoo+Pos+PosObv+VocPl+Pl: niaamooimini***idig, idog***ag
+     +Px1aamoo+Pos+PosObv+VocPl+Loc: niaamooimini***idig, idog***ing
+     +Px2aamoo+Pos+Pos1Pl+Pret+Obv: giaamooiminaanibanan
+     +Px2aamoo+Pos+Pos1Pl+Pret+Pl: giaamooiminaanibanag
+     +Px2aamoo+Pos+Pos1Pl+Pret+Loc: giaamooiminaanibaning
+     +Px2aamoo+Pos+Pos1Pl+VocPl+Obv: giaamooiminaan***idig, idog***an
+     +Px2aamoo+Pos+Pos1Pl+VocPl+Pl: giaamooiminaan***idig, idog***ag
+     +Px2aamoo+Pos+Pos1Pl+VocPl+Loc: giaamooiminaan***idig, idog***ing
+     +Px2aamoo+Pos+PosPl+Pret+Obv: giaamooimiwaaibanan
+     +Px2aamoo+Pos+PosPl+Pret+Pl: giaamooimiwaaibanag
+     +Px2aamoo+Pos+PosPl+Pret+Loc: giaamooimiwaaibaning
+     +Px2aamoo+Pos+PosPl+VocPl+Obv: giaamooimiwaa***idig, idog***an
+     +Px2aamoo+Pos+PosPl+VocPl+Pl: giaamooimiwaa***idig, idog***ag
+     +Px2aamoo+Pos+PosPl+VocPl+Loc: giaamooimiwaa***idig, idog***ing
+     +Px2aamoo+Pos+PosObv+Pret+Obv: giaamooiminiibanan
+     +Px2aamoo+Pos+PosObv+Pret+Pl: giaamooiminiibanag
+     +Px2aamoo+Pos+PosObv+Pret+Loc: giaamooiminiibaning
+     +Px2aamoo+Pos+PosObv+VocPl+Obv: giaamooimini***idig, idog***an
+     +Px2aamoo+Pos+PosObv+VocPl+Pl: giaamooimini***idig, idog***ag
+     +Px2aamoo+Pos+PosObv+VocPl+Loc: giaamooimini***idig, idog***ing
+     +Px3aamoo+Pos+Pos1Pl+Pret+Obv: oaamooiminaanibanan
+     +Px3aamoo+Pos+Pos1Pl+Pret+Pl: oaamooiminaanibanag
+     +Px3aamoo+Pos+Pos1Pl+Pret+Loc: oaamooiminaanibaning
+     +Px3aamoo+Pos+Pos1Pl+VocPl+Obv: oaamooiminaan***idig, idog***an
+     +Px3aamoo+Pos+Pos1Pl+VocPl+Pl: oaamooiminaan***idig, idog***ag
+     +Px3aamoo+Pos+Pos1Pl+VocPl+Loc: oaamooiminaan***idig, idog***ing
+     +Px3aamoo+Pos+PosPl+Pret+Obv: oaamooimiwaaibanan
+     +Px3aamoo+Pos+PosPl+Pret+Pl: oaamooimiwaaibanag
+     +Px3aamoo+Pos+PosPl+Pret+Loc: oaamooimiwaaibaning
+     +Px3aamoo+Pos+PosPl+VocPl+Obv: oaamooimiwaa***idig, idog***an
+     +Px3aamoo+Pos+PosPl+VocPl+Pl: oaamooimiwaa***idig, idog***ag
+     +Px3aamoo+Pos+PosPl+VocPl+Loc: oaamooimiwaa***idig, idog***ing
+     +Px3aamoo+Pos+PosObv+Pret+Obv: oaamooiminiibanan
+     +Px3aamoo+Pos+PosObv+Pret+Pl: oaamooiminiibanag
+     +Px3aamoo+Pos+PosObv+Pret+Loc: oaamooiminiibaning
+     +Px3aamoo+Pos+PosObv+VocPl+Obv: oaamooimini***idig, idog***an
+     +Px3aamoo+Pos+PosObv+VocPl+Pl: oaamooimini***idig, idog***ag
+     +Px3aamoo+Pos+PosObv+VocPl+Loc: oaamooimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6, 7
+     +Px1aamoo+Pej+Pos1Pl+Pret+Obv: niaamooishinaanibanan
+     +Px1aamoo+Pej+Pos1Pl+Pret+Pl: niaamooishinaanibanag
+     +Px1aamoo+Pej+Pos1Pl+Pret+Loc: niaamooishinaanibaning
+     +Px1aamoo+Pej+Pos1Pl+VocPl+Obv: niaamooishinaan***idig, idog***an
+     +Px1aamoo+Pej+Pos1Pl+VocPl+Pl: niaamooishinaan***idig, idog***ag
+     +Px1aamoo+Pej+Pos1Pl+VocPl+Loc: niaamooishinaan***idig, idog***ing
+     +Px1aamoo+Pej+PosPl+Pret+Obv: niaamooishiwaaibanan
+     +Px1aamoo+Pej+PosPl+Pret+Pl: niaamooishiwaaibanag
+     +Px1aamoo+Pej+PosPl+Pret+Loc: niaamooishiwaaibaning
+     +Px1aamoo+Pej+PosPl+VocPl+Obv: niaamooishiwaa***idig, idog***an
+     +Px1aamoo+Pej+PosPl+VocPl+Pl: niaamooishiwaa***idig, idog***ag
+     +Px1aamoo+Pej+PosPl+VocPl+Loc: niaamooishiwaa***idig, idog***ing
+     +Px1aamoo+Pej+PosObv+Pret+Obv: niaamooishiniibanan
+     +Px1aamoo+Pej+PosObv+Pret+Pl: niaamooishiniibanag
+     +Px1aamoo+Pej+PosObv+Pret+Loc: niaamooishiniibaning
+     +Px1aamoo+Pej+PosObv+VocPl+Obv: niaamooishini***idig, idog***an
+     +Px1aamoo+Pej+PosObv+VocPl+Pl: niaamooishini***idig, idog***ag
+     +Px1aamoo+Pej+PosObv+VocPl+Loc: niaamooishini***idig, idog***ing
+     +Px2aamoo+Pej+Pos1Pl+Pret+Obv: giaamooishinaanibanan
+     +Px2aamoo+Pej+Pos1Pl+Pret+Pl: giaamooishinaanibanag
+     +Px2aamoo+Pej+Pos1Pl+Pret+Loc: giaamooishinaanibaning
+     +Px2aamoo+Pej+Pos1Pl+VocPl+Obv: giaamooishinaan***idig, idog***an
+     +Px2aamoo+Pej+Pos1Pl+VocPl+Pl: giaamooishinaan***idig, idog***ag
+     +Px2aamoo+Pej+Pos1Pl+VocPl+Loc: giaamooishinaan***idig, idog***ing
+     +Px2aamoo+Pej+PosPl+Pret+Obv: giaamooishiwaaibanan
+     +Px2aamoo+Pej+PosPl+Pret+Pl: giaamooishiwaaibanag
+     +Px2aamoo+Pej+PosPl+Pret+Loc: giaamooishiwaaibaning
+     +Px2aamoo+Pej+PosPl+VocPl+Obv: giaamooishiwaa***idig, idog***an
+     +Px2aamoo+Pej+PosPl+VocPl+Pl: giaamooishiwaa***idig, idog***ag
+     +Px2aamoo+Pej+PosPl+VocPl+Loc: giaamooishiwaa***idig, idog***ing
+     +Px2aamoo+Pej+PosObv+Pret+Obv: giaamooishiniibanan
+     +Px2aamoo+Pej+PosObv+Pret+Pl: giaamooishiniibanag
+     +Px2aamoo+Pej+PosObv+Pret+Loc: giaamooishiniibaning
+     +Px2aamoo+Pej+PosObv+VocPl+Obv: giaamooishini***idig, idog***an
+     +Px2aamoo+Pej+PosObv+VocPl+Pl: giaamooishini***idig, idog***ag
+     +Px2aamoo+Pej+PosObv+VocPl+Loc: giaamooishini***idig, idog***ing
+     +Px3aamoo+Pej+Pos1Pl+Pret+Obv: oaamooishinaanibanan
+     +Px3aamoo+Pej+Pos1Pl+Pret+Pl: oaamooishinaanibanag
+     +Px3aamoo+Pej+Pos1Pl+Pret+Loc: oaamooishinaanibaning
+     +Px3aamoo+Pej+Pos1Pl+VocPl+Obv: oaamooishinaan***idig, idog***an
+     +Px3aamoo+Pej+Pos1Pl+VocPl+Pl: oaamooishinaan***idig, idog***ag
+     +Px3aamoo+Pej+Pos1Pl+VocPl+Loc: oaamooishinaan***idig, idog***ing
+     +Px3aamoo+Pej+PosPl+Pret+Obv: oaamooishiwaaibanan
+     +Px3aamoo+Pej+PosPl+Pret+Pl: oaamooishiwaaibanag
+     +Px3aamoo+Pej+PosPl+Pret+Loc: oaamooishiwaaibaning
+     +Px3aamoo+Pej+PosPl+VocPl+Obv: oaamooishiwaa***idig, idog***an
+     +Px3aamoo+Pej+PosPl+VocPl+Pl: oaamooishiwaa***idig, idog***ag
+     +Px3aamoo+Pej+PosPl+VocPl+Loc: oaamooishiwaa***idig, idog***ing
+     +Px3aamoo+Pej+PosObv+Pret+Obv: oaamooishiniibanan
+     +Px3aamoo+Pej+PosObv+Pret+Pl: oaamooishiniibanag
+     +Px3aamoo+Pej+PosObv+Pret+Loc: oaamooishiniibaning
+     +Px3aamoo+Pej+PosObv+VocPl+Obv: oaamooishini***idig, idog***an
+     +Px3aamoo+Pej+PosObv+VocPl+Pl: oaamooishini***idig, idog***ag
+     +Px3aamoo+Pej+PosObv+VocPl+Loc: oaamooishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6
+     aamoo+Dim+Pos+Pej+Pos1Pl+Pret: aamooensimishinaaniban
+     aamoo+Dim+Pos+Pej+Pos1Pl+VocPl: aamooensimishinaan***idig, idog***
+     aamoo+Dim+Pos+Pej+PosPl+Pret: aamooensimishiwaaiban
+     aamoo+Dim+Pos+Pej+PosPl+VocPl: aamooensimishiwaa***idig, idog***
+     aamoo+Dim+Pos+Pej+PosObv+Pret: aamooensimishiniiban
+     aamoo+Dim+Pos+Pej+PosObv+VocPl: aamooensimishini***idig, idog***
+     aamoo+Con+Pos+Pej+Pos1Pl+Pret: aamooenhimishinaaniban
+     aamoo+Con+Pos+Pej+Pos1Pl+VocPl: aamooenhimishinaan***idig, idog***
+     aamoo+Con+Pos+Pej+PosPl+Pret: aamooenhimishiwaaiban
+     aamoo+Con+Pos+Pej+PosPl+VocPl: aamooenhimishiwaa***idig, idog***
+     aamoo+Con+Pos+Pej+PosObv+Pret: aamooenhimishiniiban
+     aamoo+Con+Pos+Pej+PosObv+VocPl: aamooenhimishini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 5, 7
+     aamoo+Dim+Pos+Pej+Pos1Pl+Obv: aamooensimishinaanan
+     aamoo+Dim+Pos+Pej+Pos1Pl+Pl: aamooensimishinaanag
+     aamoo+Dim+Pos+Pej+Pos1Pl+Loc: aamooensimishinaaning
+     aamoo+Dim+Pos+Pej+PosPl+Obv: aamooensimishiwaaan
+     aamoo+Dim+Pos+Pej+PosPl+Pl: aamooensimishiwaaag
+     aamoo+Dim+Pos+Pej+PosPl+Loc: aamooensimishiwaaing
+     aamoo+Dim+Pos+Pej+PosObv+Obv: aamooensimishinian
+     aamoo+Dim+Pos+Pej+PosObv+Pl: aamooensimishiniag
+     aamoo+Dim+Pos+Pej+PosObv+Loc: aamooensimishiniing
+     aamoo+Con+Pos+Pej+Pos1Pl+Obv: aamooenhimishinaanan
+     aamoo+Con+Pos+Pej+Pos1Pl+Pl: aamooenhimishinaanag
+     aamoo+Con+Pos+Pej+Pos1Pl+Loc: aamooenhimishinaaning
+     aamoo+Con+Pos+Pej+PosPl+Obv: aamooenhimishiwaaan
+     aamoo+Con+Pos+Pej+PosPl+Pl: aamooenhimishiwaaag
+     aamoo+Con+Pos+Pej+PosPl+Loc: aamooenhimishiwaaing
+     aamoo+Con+Pos+Pej+PosObv+Obv: aamooenhimishinian
+     aamoo+Con+Pos+Pej+PosObv+Pl: aamooenhimishiniag
+     aamoo+Con+Pos+Pej+PosObv+Loc: aamooenhimishiniing
+     
+     #Values from slots numbered: 2, 3, 4, 6, 7
+     aamoo+Dim+Pos+Pej+Pret+Obv: aamooensimishibanan
+     aamoo+Dim+Pos+Pej+Pret+Pl: aamooensimishibanag
+     aamoo+Dim+Pos+Pej+Pret+Loc: aamooensimishibaning
+     aamoo+Dim+Pos+Pej+VocPl+Obv: aamooensimish***idig, idog***an
+     aamoo+Dim+Pos+Pej+VocPl+Pl: aamooensimish***idig, idog***ag
+     aamoo+Dim+Pos+Pej+VocPl+Loc: aamooensimish***idig, idog***ing
+     aamoo+Con+Pos+Pej+Pret+Obv: aamooenhimishibanan
+     aamoo+Con+Pos+Pej+Pret+Pl: aamooenhimishibanag
+     aamoo+Con+Pos+Pej+Pret+Loc: aamooenhimishibaning
+     aamoo+Con+Pos+Pej+VocPl+Obv: aamooenhimish***idig, idog***an
+     aamoo+Con+Pos+Pej+VocPl+Pl: aamooenhimish***idig, idog***ag
+     aamoo+Con+Pos+Pej+VocPl+Loc: aamooenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 5, 6, 7
+     aamoo+Dim+Pos+Pos1Pl+Pret+Obv: aamooensiminaanibanan
+     aamoo+Dim+Pos+Pos1Pl+Pret+Pl: aamooensiminaanibanag
+     aamoo+Dim+Pos+Pos1Pl+Pret+Loc: aamooensiminaanibaning
+     aamoo+Dim+Pos+Pos1Pl+VocPl+Obv: aamooensiminaan***idig, idog***an
+     aamoo+Dim+Pos+Pos1Pl+VocPl+Pl: aamooensiminaan***idig, idog***ag
+     aamoo+Dim+Pos+Pos1Pl+VocPl+Loc: aamooensiminaan***idig, idog***ing
+     aamoo+Dim+Pos+PosPl+Pret+Obv: aamooensimiwaaibanan
+     aamoo+Dim+Pos+PosPl+Pret+Pl: aamooensimiwaaibanag
+     aamoo+Dim+Pos+PosPl+Pret+Loc: aamooensimiwaaibaning
+     aamoo+Dim+Pos+PosPl+VocPl+Obv: aamooensimiwaa***idig, idog***an
+     aamoo+Dim+Pos+PosPl+VocPl+Pl: aamooensimiwaa***idig, idog***ag
+     aamoo+Dim+Pos+PosPl+VocPl+Loc: aamooensimiwaa***idig, idog***ing
+     aamoo+Dim+Pos+PosObv+Pret+Obv: aamooensiminiibanan
+     aamoo+Dim+Pos+PosObv+Pret+Pl: aamooensiminiibanag
+     aamoo+Dim+Pos+PosObv+Pret+Loc: aamooensiminiibaning
+     aamoo+Dim+Pos+PosObv+VocPl+Obv: aamooensimini***idig, idog***an
+     aamoo+Dim+Pos+PosObv+VocPl+Pl: aamooensimini***idig, idog***ag
+     aamoo+Dim+Pos+PosObv+VocPl+Loc: aamooensimini***idig, idog***ing
+     aamoo+Con+Pos+Pos1Pl+Pret+Obv: aamooenhiminaanibanan
+     aamoo+Con+Pos+Pos1Pl+Pret+Pl: aamooenhiminaanibanag
+     aamoo+Con+Pos+Pos1Pl+Pret+Loc: aamooenhiminaanibaning
+     aamoo+Con+Pos+Pos1Pl+VocPl+Obv: aamooenhiminaan***idig, idog***an
+     aamoo+Con+Pos+Pos1Pl+VocPl+Pl: aamooenhiminaan***idig, idog***ag
+     aamoo+Con+Pos+Pos1Pl+VocPl+Loc: aamooenhiminaan***idig, idog***ing
+     aamoo+Con+Pos+PosPl+Pret+Obv: aamooenhimiwaaibanan
+     aamoo+Con+Pos+PosPl+Pret+Pl: aamooenhimiwaaibanag
+     aamoo+Con+Pos+PosPl+Pret+Loc: aamooenhimiwaaibaning
+     aamoo+Con+Pos+PosPl+VocPl+Obv: aamooenhimiwaa***idig, idog***an
+     aamoo+Con+Pos+PosPl+VocPl+Pl: aamooenhimiwaa***idig, idog***ag
+     aamoo+Con+Pos+PosPl+VocPl+Loc: aamooenhimiwaa***idig, idog***ing
+     aamoo+Con+Pos+PosObv+Pret+Obv: aamooenhiminiibanan
+     aamoo+Con+Pos+PosObv+Pret+Pl: aamooenhiminiibanag
+     aamoo+Con+Pos+PosObv+Pret+Loc: aamooenhiminiibaning
+     aamoo+Con+Pos+PosObv+VocPl+Obv: aamooenhimini***idig, idog***an
+     aamoo+Con+Pos+PosObv+VocPl+Pl: aamooenhimini***idig, idog***ag
+     aamoo+Con+Pos+PosObv+VocPl+Loc: aamooenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6, 7
+     aamoo+Dim+Pej+Pos1Pl+Pret+Obv: aamooensishinaanibanan
+     aamoo+Dim+Pej+Pos1Pl+Pret+Pl: aamooensishinaanibanag
+     aamoo+Dim+Pej+Pos1Pl+Pret+Loc: aamooensishinaanibaning
+     aamoo+Dim+Pej+Pos1Pl+VocPl+Obv: aamooensishinaan***idig, idog***an
+     aamoo+Dim+Pej+Pos1Pl+VocPl+Pl: aamooensishinaan***idig, idog***ag
+     aamoo+Dim+Pej+Pos1Pl+VocPl+Loc: aamooensishinaan***idig, idog***ing
+     aamoo+Dim+Pej+PosPl+Pret+Obv: aamooensishiwaaibanan
+     aamoo+Dim+Pej+PosPl+Pret+Pl: aamooensishiwaaibanag
+     aamoo+Dim+Pej+PosPl+Pret+Loc: aamooensishiwaaibaning
+     aamoo+Dim+Pej+PosPl+VocPl+Obv: aamooensishiwaa***idig, idog***an
+     aamoo+Dim+Pej+PosPl+VocPl+Pl: aamooensishiwaa***idig, idog***ag
+     aamoo+Dim+Pej+PosPl+VocPl+Loc: aamooensishiwaa***idig, idog***ing
+     aamoo+Dim+Pej+PosObv+Pret+Obv: aamooensishiniibanan
+     aamoo+Dim+Pej+PosObv+Pret+Pl: aamooensishiniibanag
+     aamoo+Dim+Pej+PosObv+Pret+Loc: aamooensishiniibaning
+     aamoo+Dim+Pej+PosObv+VocPl+Obv: aamooensishini***idig, idog***an
+     aamoo+Dim+Pej+PosObv+VocPl+Pl: aamooensishini***idig, idog***ag
+     aamoo+Dim+Pej+PosObv+VocPl+Loc: aamooensishini***idig, idog***ing
+     aamoo+Con+Pej+Pos1Pl+Pret+Obv: aamooenhishinaanibanan
+     aamoo+Con+Pej+Pos1Pl+Pret+Pl: aamooenhishinaanibanag
+     aamoo+Con+Pej+Pos1Pl+Pret+Loc: aamooenhishinaanibaning
+     aamoo+Con+Pej+Pos1Pl+VocPl+Obv: aamooenhishinaan***idig, idog***an
+     aamoo+Con+Pej+Pos1Pl+VocPl+Pl: aamooenhishinaan***idig, idog***ag
+     aamoo+Con+Pej+Pos1Pl+VocPl+Loc: aamooenhishinaan***idig, idog***ing
+     aamoo+Con+Pej+PosPl+Pret+Obv: aamooenhishiwaaibanan
+     aamoo+Con+Pej+PosPl+Pret+Pl: aamooenhishiwaaibanag
+     aamoo+Con+Pej+PosPl+Pret+Loc: aamooenhishiwaaibaning
+     aamoo+Con+Pej+PosPl+VocPl+Obv: aamooenhishiwaa***idig, idog***an
+     aamoo+Con+Pej+PosPl+VocPl+Pl: aamooenhishiwaa***idig, idog***ag
+     aamoo+Con+Pej+PosPl+VocPl+Loc: aamooenhishiwaa***idig, idog***ing
+     aamoo+Con+Pej+PosObv+Pret+Obv: aamooenhishiniibanan
+     aamoo+Con+Pej+PosObv+Pret+Pl: aamooenhishiniibanag
+     aamoo+Con+Pej+PosObv+Pret+Loc: aamooenhishiniibaning
+     aamoo+Con+Pej+PosObv+VocPl+Obv: aamooenhishini***idig, idog***an
+     aamoo+Con+Pej+PosObv+VocPl+Pl: aamooenhishini***idig, idog***ag
+     aamoo+Con+Pej+PosObv+VocPl+Loc: aamooenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6, 7
+     aamoo+Pos+Pej+Pos1Pl+Pret+Obv: aamooimishinaanibanan
+     aamoo+Pos+Pej+Pos1Pl+Pret+Pl: aamooimishinaanibanag
+     aamoo+Pos+Pej+Pos1Pl+Pret+Loc: aamooimishinaanibaning
+     aamoo+Pos+Pej+Pos1Pl+VocPl+Obv: aamooimishinaan***idig, idog***an
+     aamoo+Pos+Pej+Pos1Pl+VocPl+Pl: aamooimishinaan***idig, idog***ag
+     aamoo+Pos+Pej+Pos1Pl+VocPl+Loc: aamooimishinaan***idig, idog***ing
+     aamoo+Pos+Pej+PosPl+Pret+Obv: aamooimishiwaaibanan
+     aamoo+Pos+Pej+PosPl+Pret+Pl: aamooimishiwaaibanag
+     aamoo+Pos+Pej+PosPl+Pret+Loc: aamooimishiwaaibaning
+     aamoo+Pos+Pej+PosPl+VocPl+Obv: aamooimishiwaa***idig, idog***an
+     aamoo+Pos+Pej+PosPl+VocPl+Pl: aamooimishiwaa***idig, idog***ag
+     aamoo+Pos+Pej+PosPl+VocPl+Loc: aamooimishiwaa***idig, idog***ing
+     aamoo+Pos+Pej+PosObv+Pret+Obv: aamooimishiniibanan
+     aamoo+Pos+Pej+PosObv+Pret+Pl: aamooimishiniibanag
+     aamoo+Pos+Pej+PosObv+Pret+Loc: aamooimishiniibaning
+     aamoo+Pos+Pej+PosObv+VocPl+Obv: aamooimishini***idig, idog***an
+     aamoo+Pos+Pej+PosObv+VocPl+Pl: aamooimishini***idig, idog***ag
+     aamoo+Pos+Pej+PosObv+VocPl+Loc: aamooimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Pret: niaamooensimishinaaniban
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+VocPl: niaamooensimishinaan***idig, idog***
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Pret: niaamooensimishiwaaiban
+     +Px1aamoo+Dim+Pos+Pej+PosPl+VocPl: niaamooensimishiwaa***idig, idog***
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Pret: niaamooensimishiniiban
+     +Px1aamoo+Dim+Pos+Pej+PosObv+VocPl: niaamooensimishini***idig, idog***
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Pret: niaamooenhimishinaaniban
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+VocPl: niaamooenhimishinaan***idig, idog***
+     +Px1aamoo+Con+Pos+Pej+PosPl+Pret: niaamooenhimishiwaaiban
+     +Px1aamoo+Con+Pos+Pej+PosPl+VocPl: niaamooenhimishiwaa***idig, idog***
+     +Px1aamoo+Con+Pos+Pej+PosObv+Pret: niaamooenhimishiniiban
+     +Px1aamoo+Con+Pos+Pej+PosObv+VocPl: niaamooenhimishini***idig, idog***
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Pret: giaamooensimishinaaniban
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+VocPl: giaamooensimishinaan***idig, idog***
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Pret: giaamooensimishiwaaiban
+     +Px2aamoo+Dim+Pos+Pej+PosPl+VocPl: giaamooensimishiwaa***idig, idog***
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Pret: giaamooensimishiniiban
+     +Px2aamoo+Dim+Pos+Pej+PosObv+VocPl: giaamooensimishini***idig, idog***
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Pret: giaamooenhimishinaaniban
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+VocPl: giaamooenhimishinaan***idig, idog***
+     +Px2aamoo+Con+Pos+Pej+PosPl+Pret: giaamooenhimishiwaaiban
+     +Px2aamoo+Con+Pos+Pej+PosPl+VocPl: giaamooenhimishiwaa***idig, idog***
+     +Px2aamoo+Con+Pos+Pej+PosObv+Pret: giaamooenhimishiniiban
+     +Px2aamoo+Con+Pos+Pej+PosObv+VocPl: giaamooenhimishini***idig, idog***
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Pret: oaamooensimishinaaniban
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+VocPl: oaamooensimishinaan***idig, idog***
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Pret: oaamooensimishiwaaiban
+     +Px3aamoo+Dim+Pos+Pej+PosPl+VocPl: oaamooensimishiwaa***idig, idog***
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Pret: oaamooensimishiniiban
+     +Px3aamoo+Dim+Pos+Pej+PosObv+VocPl: oaamooensimishini***idig, idog***
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Pret: oaamooenhimishinaaniban
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+VocPl: oaamooenhimishinaan***idig, idog***
+     +Px3aamoo+Con+Pos+Pej+PosPl+Pret: oaamooenhimishiwaaiban
+     +Px3aamoo+Con+Pos+Pej+PosPl+VocPl: oaamooenhimishiwaa***idig, idog***
+     +Px3aamoo+Con+Pos+Pej+PosObv+Pret: oaamooenhimishiniiban
+     +Px3aamoo+Con+Pos+Pej+PosObv+VocPl: oaamooenhimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Obv: niaamooensimishinaanan
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Pl: niaamooensimishinaanag
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Loc: niaamooensimishinaaning
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Obv: niaamooensimishiwaaan
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Pl: niaamooensimishiwaaag
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Loc: niaamooensimishiwaaing
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Obv: niaamooensimishinian
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Pl: niaamooensimishiniag
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Loc: niaamooensimishiniing
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Obv: niaamooenhimishinaanan
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Pl: niaamooenhimishinaanag
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Loc: niaamooenhimishinaaning
+     +Px1aamoo+Con+Pos+Pej+PosPl+Obv: niaamooenhimishiwaaan
+     +Px1aamoo+Con+Pos+Pej+PosPl+Pl: niaamooenhimishiwaaag
+     +Px1aamoo+Con+Pos+Pej+PosPl+Loc: niaamooenhimishiwaaing
+     +Px1aamoo+Con+Pos+Pej+PosObv+Obv: niaamooenhimishinian
+     +Px1aamoo+Con+Pos+Pej+PosObv+Pl: niaamooenhimishiniag
+     +Px1aamoo+Con+Pos+Pej+PosObv+Loc: niaamooenhimishiniing
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Obv: giaamooensimishinaanan
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Pl: giaamooensimishinaanag
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Loc: giaamooensimishinaaning
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Obv: giaamooensimishiwaaan
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Pl: giaamooensimishiwaaag
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Loc: giaamooensimishiwaaing
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Obv: giaamooensimishinian
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Pl: giaamooensimishiniag
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Loc: giaamooensimishiniing
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Obv: giaamooenhimishinaanan
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Pl: giaamooenhimishinaanag
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Loc: giaamooenhimishinaaning
+     +Px2aamoo+Con+Pos+Pej+PosPl+Obv: giaamooenhimishiwaaan
+     +Px2aamoo+Con+Pos+Pej+PosPl+Pl: giaamooenhimishiwaaag
+     +Px2aamoo+Con+Pos+Pej+PosPl+Loc: giaamooenhimishiwaaing
+     +Px2aamoo+Con+Pos+Pej+PosObv+Obv: giaamooenhimishinian
+     +Px2aamoo+Con+Pos+Pej+PosObv+Pl: giaamooenhimishiniag
+     +Px2aamoo+Con+Pos+Pej+PosObv+Loc: giaamooenhimishiniing
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Obv: oaamooensimishinaanan
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Pl: oaamooensimishinaanag
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Loc: oaamooensimishinaaning
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Obv: oaamooensimishiwaaan
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Pl: oaamooensimishiwaaag
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Loc: oaamooensimishiwaaing
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Obv: oaamooensimishinian
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Pl: oaamooensimishiniag
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Loc: oaamooensimishiniing
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Obv: oaamooenhimishinaanan
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Pl: oaamooenhimishinaanag
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Loc: oaamooenhimishinaaning
+     +Px3aamoo+Con+Pos+Pej+PosPl+Obv: oaamooenhimishiwaaan
+     +Px3aamoo+Con+Pos+Pej+PosPl+Pl: oaamooenhimishiwaaag
+     +Px3aamoo+Con+Pos+Pej+PosPl+Loc: oaamooenhimishiwaaing
+     +Px3aamoo+Con+Pos+Pej+PosObv+Obv: oaamooenhimishinian
+     +Px3aamoo+Con+Pos+Pej+PosObv+Pl: oaamooenhimishiniag
+     +Px3aamoo+Con+Pos+Pej+PosObv+Loc: oaamooenhimishiniing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     +Px1aamoo+Dim+Pos+Pej+Pret+Obv: niaamooensimishibanan
+     +Px1aamoo+Dim+Pos+Pej+Pret+Pl: niaamooensimishibanag
+     +Px1aamoo+Dim+Pos+Pej+Pret+Loc: niaamooensimishibaning
+     +Px1aamoo+Dim+Pos+Pej+VocPl+Obv: niaamooensimish***idig, idog***an
+     +Px1aamoo+Dim+Pos+Pej+VocPl+Pl: niaamooensimish***idig, idog***ag
+     +Px1aamoo+Dim+Pos+Pej+VocPl+Loc: niaamooensimish***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pej+Pret+Obv: niaamooenhimishibanan
+     +Px1aamoo+Con+Pos+Pej+Pret+Pl: niaamooenhimishibanag
+     +Px1aamoo+Con+Pos+Pej+Pret+Loc: niaamooenhimishibaning
+     +Px1aamoo+Con+Pos+Pej+VocPl+Obv: niaamooenhimish***idig, idog***an
+     +Px1aamoo+Con+Pos+Pej+VocPl+Pl: niaamooenhimish***idig, idog***ag
+     +Px1aamoo+Con+Pos+Pej+VocPl+Loc: niaamooenhimish***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pej+Pret+Obv: giaamooensimishibanan
+     +Px2aamoo+Dim+Pos+Pej+Pret+Pl: giaamooensimishibanag
+     +Px2aamoo+Dim+Pos+Pej+Pret+Loc: giaamooensimishibaning
+     +Px2aamoo+Dim+Pos+Pej+VocPl+Obv: giaamooensimish***idig, idog***an
+     +Px2aamoo+Dim+Pos+Pej+VocPl+Pl: giaamooensimish***idig, idog***ag
+     +Px2aamoo+Dim+Pos+Pej+VocPl+Loc: giaamooensimish***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pej+Pret+Obv: giaamooenhimishibanan
+     +Px2aamoo+Con+Pos+Pej+Pret+Pl: giaamooenhimishibanag
+     +Px2aamoo+Con+Pos+Pej+Pret+Loc: giaamooenhimishibaning
+     +Px2aamoo+Con+Pos+Pej+VocPl+Obv: giaamooenhimish***idig, idog***an
+     +Px2aamoo+Con+Pos+Pej+VocPl+Pl: giaamooenhimish***idig, idog***ag
+     +Px2aamoo+Con+Pos+Pej+VocPl+Loc: giaamooenhimish***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pej+Pret+Obv: oaamooensimishibanan
+     +Px3aamoo+Dim+Pos+Pej+Pret+Pl: oaamooensimishibanag
+     +Px3aamoo+Dim+Pos+Pej+Pret+Loc: oaamooensimishibaning
+     +Px3aamoo+Dim+Pos+Pej+VocPl+Obv: oaamooensimish***idig, idog***an
+     +Px3aamoo+Dim+Pos+Pej+VocPl+Pl: oaamooensimish***idig, idog***ag
+     +Px3aamoo+Dim+Pos+Pej+VocPl+Loc: oaamooensimish***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pej+Pret+Obv: oaamooenhimishibanan
+     +Px3aamoo+Con+Pos+Pej+Pret+Pl: oaamooenhimishibanag
+     +Px3aamoo+Con+Pos+Pej+Pret+Loc: oaamooenhimishibaning
+     +Px3aamoo+Con+Pos+Pej+VocPl+Obv: oaamooenhimish***idig, idog***an
+     +Px3aamoo+Con+Pos+Pej+VocPl+Pl: oaamooenhimish***idig, idog***ag
+     +Px3aamoo+Con+Pos+Pej+VocPl+Loc: oaamooenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     +Px1aamoo+Dim+Pos+Pos1Pl+Pret+Obv: niaamooensiminaanibanan
+     +Px1aamoo+Dim+Pos+Pos1Pl+Pret+Pl: niaamooensiminaanibanag
+     +Px1aamoo+Dim+Pos+Pos1Pl+Pret+Loc: niaamooensiminaanibaning
+     +Px1aamoo+Dim+Pos+Pos1Pl+VocPl+Obv: niaamooensiminaan***idig, idog***an
+     +Px1aamoo+Dim+Pos+Pos1Pl+VocPl+Pl: niaamooensiminaan***idig, idog***ag
+     +Px1aamoo+Dim+Pos+Pos1Pl+VocPl+Loc: niaamooensiminaan***idig, idog***ing
+     +Px1aamoo+Dim+Pos+PosPl+Pret+Obv: niaamooensimiwaaibanan
+     +Px1aamoo+Dim+Pos+PosPl+Pret+Pl: niaamooensimiwaaibanag
+     +Px1aamoo+Dim+Pos+PosPl+Pret+Loc: niaamooensimiwaaibaning
+     +Px1aamoo+Dim+Pos+PosPl+VocPl+Obv: niaamooensimiwaa***idig, idog***an
+     +Px1aamoo+Dim+Pos+PosPl+VocPl+Pl: niaamooensimiwaa***idig, idog***ag
+     +Px1aamoo+Dim+Pos+PosPl+VocPl+Loc: niaamooensimiwaa***idig, idog***ing
+     +Px1aamoo+Dim+Pos+PosObv+Pret+Obv: niaamooensiminiibanan
+     +Px1aamoo+Dim+Pos+PosObv+Pret+Pl: niaamooensiminiibanag
+     +Px1aamoo+Dim+Pos+PosObv+Pret+Loc: niaamooensiminiibaning
+     +Px1aamoo+Dim+Pos+PosObv+VocPl+Obv: niaamooensimini***idig, idog***an
+     +Px1aamoo+Dim+Pos+PosObv+VocPl+Pl: niaamooensimini***idig, idog***ag
+     +Px1aamoo+Dim+Pos+PosObv+VocPl+Loc: niaamooensimini***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pos1Pl+Pret+Obv: niaamooenhiminaanibanan
+     +Px1aamoo+Con+Pos+Pos1Pl+Pret+Pl: niaamooenhiminaanibanag
+     +Px1aamoo+Con+Pos+Pos1Pl+Pret+Loc: niaamooenhiminaanibaning
+     +Px1aamoo+Con+Pos+Pos1Pl+VocPl+Obv: niaamooenhiminaan***idig, idog***an
+     +Px1aamoo+Con+Pos+Pos1Pl+VocPl+Pl: niaamooenhiminaan***idig, idog***ag
+     +Px1aamoo+Con+Pos+Pos1Pl+VocPl+Loc: niaamooenhiminaan***idig, idog***ing
+     +Px1aamoo+Con+Pos+PosPl+Pret+Obv: niaamooenhimiwaaibanan
+     +Px1aamoo+Con+Pos+PosPl+Pret+Pl: niaamooenhimiwaaibanag
+     +Px1aamoo+Con+Pos+PosPl+Pret+Loc: niaamooenhimiwaaibaning
+     +Px1aamoo+Con+Pos+PosPl+VocPl+Obv: niaamooenhimiwaa***idig, idog***an
+     +Px1aamoo+Con+Pos+PosPl+VocPl+Pl: niaamooenhimiwaa***idig, idog***ag
+     +Px1aamoo+Con+Pos+PosPl+VocPl+Loc: niaamooenhimiwaa***idig, idog***ing
+     +Px1aamoo+Con+Pos+PosObv+Pret+Obv: niaamooenhiminiibanan
+     +Px1aamoo+Con+Pos+PosObv+Pret+Pl: niaamooenhiminiibanag
+     +Px1aamoo+Con+Pos+PosObv+Pret+Loc: niaamooenhiminiibaning
+     +Px1aamoo+Con+Pos+PosObv+VocPl+Obv: niaamooenhimini***idig, idog***an
+     +Px1aamoo+Con+Pos+PosObv+VocPl+Pl: niaamooenhimini***idig, idog***ag
+     +Px1aamoo+Con+Pos+PosObv+VocPl+Loc: niaamooenhimini***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pos1Pl+Pret+Obv: giaamooensiminaanibanan
+     +Px2aamoo+Dim+Pos+Pos1Pl+Pret+Pl: giaamooensiminaanibanag
+     +Px2aamoo+Dim+Pos+Pos1Pl+Pret+Loc: giaamooensiminaanibaning
+     +Px2aamoo+Dim+Pos+Pos1Pl+VocPl+Obv: giaamooensiminaan***idig, idog***an
+     +Px2aamoo+Dim+Pos+Pos1Pl+VocPl+Pl: giaamooensiminaan***idig, idog***ag
+     +Px2aamoo+Dim+Pos+Pos1Pl+VocPl+Loc: giaamooensiminaan***idig, idog***ing
+     +Px2aamoo+Dim+Pos+PosPl+Pret+Obv: giaamooensimiwaaibanan
+     +Px2aamoo+Dim+Pos+PosPl+Pret+Pl: giaamooensimiwaaibanag
+     +Px2aamoo+Dim+Pos+PosPl+Pret+Loc: giaamooensimiwaaibaning
+     +Px2aamoo+Dim+Pos+PosPl+VocPl+Obv: giaamooensimiwaa***idig, idog***an
+     +Px2aamoo+Dim+Pos+PosPl+VocPl+Pl: giaamooensimiwaa***idig, idog***ag
+     +Px2aamoo+Dim+Pos+PosPl+VocPl+Loc: giaamooensimiwaa***idig, idog***ing
+     +Px2aamoo+Dim+Pos+PosObv+Pret+Obv: giaamooensiminiibanan
+     +Px2aamoo+Dim+Pos+PosObv+Pret+Pl: giaamooensiminiibanag
+     +Px2aamoo+Dim+Pos+PosObv+Pret+Loc: giaamooensiminiibaning
+     +Px2aamoo+Dim+Pos+PosObv+VocPl+Obv: giaamooensimini***idig, idog***an
+     +Px2aamoo+Dim+Pos+PosObv+VocPl+Pl: giaamooensimini***idig, idog***ag
+     +Px2aamoo+Dim+Pos+PosObv+VocPl+Loc: giaamooensimini***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pos1Pl+Pret+Obv: giaamooenhiminaanibanan
+     +Px2aamoo+Con+Pos+Pos1Pl+Pret+Pl: giaamooenhiminaanibanag
+     +Px2aamoo+Con+Pos+Pos1Pl+Pret+Loc: giaamooenhiminaanibaning
+     +Px2aamoo+Con+Pos+Pos1Pl+VocPl+Obv: giaamooenhiminaan***idig, idog***an
+     +Px2aamoo+Con+Pos+Pos1Pl+VocPl+Pl: giaamooenhiminaan***idig, idog***ag
+     +Px2aamoo+Con+Pos+Pos1Pl+VocPl+Loc: giaamooenhiminaan***idig, idog***ing
+     +Px2aamoo+Con+Pos+PosPl+Pret+Obv: giaamooenhimiwaaibanan
+     +Px2aamoo+Con+Pos+PosPl+Pret+Pl: giaamooenhimiwaaibanag
+     +Px2aamoo+Con+Pos+PosPl+Pret+Loc: giaamooenhimiwaaibaning
+     +Px2aamoo+Con+Pos+PosPl+VocPl+Obv: giaamooenhimiwaa***idig, idog***an
+     +Px2aamoo+Con+Pos+PosPl+VocPl+Pl: giaamooenhimiwaa***idig, idog***ag
+     +Px2aamoo+Con+Pos+PosPl+VocPl+Loc: giaamooenhimiwaa***idig, idog***ing
+     +Px2aamoo+Con+Pos+PosObv+Pret+Obv: giaamooenhiminiibanan
+     +Px2aamoo+Con+Pos+PosObv+Pret+Pl: giaamooenhiminiibanag
+     +Px2aamoo+Con+Pos+PosObv+Pret+Loc: giaamooenhiminiibaning
+     +Px2aamoo+Con+Pos+PosObv+VocPl+Obv: giaamooenhimini***idig, idog***an
+     +Px2aamoo+Con+Pos+PosObv+VocPl+Pl: giaamooenhimini***idig, idog***ag
+     +Px2aamoo+Con+Pos+PosObv+VocPl+Loc: giaamooenhimini***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pos1Pl+Pret+Obv: oaamooensiminaanibanan
+     +Px3aamoo+Dim+Pos+Pos1Pl+Pret+Pl: oaamooensiminaanibanag
+     +Px3aamoo+Dim+Pos+Pos1Pl+Pret+Loc: oaamooensiminaanibaning
+     +Px3aamoo+Dim+Pos+Pos1Pl+VocPl+Obv: oaamooensiminaan***idig, idog***an
+     +Px3aamoo+Dim+Pos+Pos1Pl+VocPl+Pl: oaamooensiminaan***idig, idog***ag
+     +Px3aamoo+Dim+Pos+Pos1Pl+VocPl+Loc: oaamooensiminaan***idig, idog***ing
+     +Px3aamoo+Dim+Pos+PosPl+Pret+Obv: oaamooensimiwaaibanan
+     +Px3aamoo+Dim+Pos+PosPl+Pret+Pl: oaamooensimiwaaibanag
+     +Px3aamoo+Dim+Pos+PosPl+Pret+Loc: oaamooensimiwaaibaning
+     +Px3aamoo+Dim+Pos+PosPl+VocPl+Obv: oaamooensimiwaa***idig, idog***an
+     +Px3aamoo+Dim+Pos+PosPl+VocPl+Pl: oaamooensimiwaa***idig, idog***ag
+     +Px3aamoo+Dim+Pos+PosPl+VocPl+Loc: oaamooensimiwaa***idig, idog***ing
+     +Px3aamoo+Dim+Pos+PosObv+Pret+Obv: oaamooensiminiibanan
+     +Px3aamoo+Dim+Pos+PosObv+Pret+Pl: oaamooensiminiibanag
+     +Px3aamoo+Dim+Pos+PosObv+Pret+Loc: oaamooensiminiibaning
+     +Px3aamoo+Dim+Pos+PosObv+VocPl+Obv: oaamooensimini***idig, idog***an
+     +Px3aamoo+Dim+Pos+PosObv+VocPl+Pl: oaamooensimini***idig, idog***ag
+     +Px3aamoo+Dim+Pos+PosObv+VocPl+Loc: oaamooensimini***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pos1Pl+Pret+Obv: oaamooenhiminaanibanan
+     +Px3aamoo+Con+Pos+Pos1Pl+Pret+Pl: oaamooenhiminaanibanag
+     +Px3aamoo+Con+Pos+Pos1Pl+Pret+Loc: oaamooenhiminaanibaning
+     +Px3aamoo+Con+Pos+Pos1Pl+VocPl+Obv: oaamooenhiminaan***idig, idog***an
+     +Px3aamoo+Con+Pos+Pos1Pl+VocPl+Pl: oaamooenhiminaan***idig, idog***ag
+     +Px3aamoo+Con+Pos+Pos1Pl+VocPl+Loc: oaamooenhiminaan***idig, idog***ing
+     +Px3aamoo+Con+Pos+PosPl+Pret+Obv: oaamooenhimiwaaibanan
+     +Px3aamoo+Con+Pos+PosPl+Pret+Pl: oaamooenhimiwaaibanag
+     +Px3aamoo+Con+Pos+PosPl+Pret+Loc: oaamooenhimiwaaibaning
+     +Px3aamoo+Con+Pos+PosPl+VocPl+Obv: oaamooenhimiwaa***idig, idog***an
+     +Px3aamoo+Con+Pos+PosPl+VocPl+Pl: oaamooenhimiwaa***idig, idog***ag
+     +Px3aamoo+Con+Pos+PosPl+VocPl+Loc: oaamooenhimiwaa***idig, idog***ing
+     +Px3aamoo+Con+Pos+PosObv+Pret+Obv: oaamooenhiminiibanan
+     +Px3aamoo+Con+Pos+PosObv+Pret+Pl: oaamooenhiminiibanag
+     +Px3aamoo+Con+Pos+PosObv+Pret+Loc: oaamooenhiminiibaning
+     +Px3aamoo+Con+Pos+PosObv+VocPl+Obv: oaamooenhimini***idig, idog***an
+     +Px3aamoo+Con+Pos+PosObv+VocPl+Pl: oaamooenhimini***idig, idog***ag
+     +Px3aamoo+Con+Pos+PosObv+VocPl+Loc: oaamooenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     +Px1aamoo+Dim+Pej+Pos1Pl+Pret+Obv: niaamooensishinaanibanan
+     +Px1aamoo+Dim+Pej+Pos1Pl+Pret+Pl: niaamooensishinaanibanag
+     +Px1aamoo+Dim+Pej+Pos1Pl+Pret+Loc: niaamooensishinaanibaning
+     +Px1aamoo+Dim+Pej+Pos1Pl+VocPl+Obv: niaamooensishinaan***idig, idog***an
+     +Px1aamoo+Dim+Pej+Pos1Pl+VocPl+Pl: niaamooensishinaan***idig, idog***ag
+     +Px1aamoo+Dim+Pej+Pos1Pl+VocPl+Loc: niaamooensishinaan***idig, idog***ing
+     +Px1aamoo+Dim+Pej+PosPl+Pret+Obv: niaamooensishiwaaibanan
+     +Px1aamoo+Dim+Pej+PosPl+Pret+Pl: niaamooensishiwaaibanag
+     +Px1aamoo+Dim+Pej+PosPl+Pret+Loc: niaamooensishiwaaibaning
+     +Px1aamoo+Dim+Pej+PosPl+VocPl+Obv: niaamooensishiwaa***idig, idog***an
+     +Px1aamoo+Dim+Pej+PosPl+VocPl+Pl: niaamooensishiwaa***idig, idog***ag
+     +Px1aamoo+Dim+Pej+PosPl+VocPl+Loc: niaamooensishiwaa***idig, idog***ing
+     +Px1aamoo+Dim+Pej+PosObv+Pret+Obv: niaamooensishiniibanan
+     +Px1aamoo+Dim+Pej+PosObv+Pret+Pl: niaamooensishiniibanag
+     +Px1aamoo+Dim+Pej+PosObv+Pret+Loc: niaamooensishiniibaning
+     +Px1aamoo+Dim+Pej+PosObv+VocPl+Obv: niaamooensishini***idig, idog***an
+     +Px1aamoo+Dim+Pej+PosObv+VocPl+Pl: niaamooensishini***idig, idog***ag
+     +Px1aamoo+Dim+Pej+PosObv+VocPl+Loc: niaamooensishini***idig, idog***ing
+     +Px1aamoo+Con+Pej+Pos1Pl+Pret+Obv: niaamooenhishinaanibanan
+     +Px1aamoo+Con+Pej+Pos1Pl+Pret+Pl: niaamooenhishinaanibanag
+     +Px1aamoo+Con+Pej+Pos1Pl+Pret+Loc: niaamooenhishinaanibaning
+     +Px1aamoo+Con+Pej+Pos1Pl+VocPl+Obv: niaamooenhishinaan***idig, idog***an
+     +Px1aamoo+Con+Pej+Pos1Pl+VocPl+Pl: niaamooenhishinaan***idig, idog***ag
+     +Px1aamoo+Con+Pej+Pos1Pl+VocPl+Loc: niaamooenhishinaan***idig, idog***ing
+     +Px1aamoo+Con+Pej+PosPl+Pret+Obv: niaamooenhishiwaaibanan
+     +Px1aamoo+Con+Pej+PosPl+Pret+Pl: niaamooenhishiwaaibanag
+     +Px1aamoo+Con+Pej+PosPl+Pret+Loc: niaamooenhishiwaaibaning
+     +Px1aamoo+Con+Pej+PosPl+VocPl+Obv: niaamooenhishiwaa***idig, idog***an
+     +Px1aamoo+Con+Pej+PosPl+VocPl+Pl: niaamooenhishiwaa***idig, idog***ag
+     +Px1aamoo+Con+Pej+PosPl+VocPl+Loc: niaamooenhishiwaa***idig, idog***ing
+     +Px1aamoo+Con+Pej+PosObv+Pret+Obv: niaamooenhishiniibanan
+     +Px1aamoo+Con+Pej+PosObv+Pret+Pl: niaamooenhishiniibanag
+     +Px1aamoo+Con+Pej+PosObv+Pret+Loc: niaamooenhishiniibaning
+     +Px1aamoo+Con+Pej+PosObv+VocPl+Obv: niaamooenhishini***idig, idog***an
+     +Px1aamoo+Con+Pej+PosObv+VocPl+Pl: niaamooenhishini***idig, idog***ag
+     +Px1aamoo+Con+Pej+PosObv+VocPl+Loc: niaamooenhishini***idig, idog***ing
+     +Px2aamoo+Dim+Pej+Pos1Pl+Pret+Obv: giaamooensishinaanibanan
+     +Px2aamoo+Dim+Pej+Pos1Pl+Pret+Pl: giaamooensishinaanibanag
+     +Px2aamoo+Dim+Pej+Pos1Pl+Pret+Loc: giaamooensishinaanibaning
+     +Px2aamoo+Dim+Pej+Pos1Pl+VocPl+Obv: giaamooensishinaan***idig, idog***an
+     +Px2aamoo+Dim+Pej+Pos1Pl+VocPl+Pl: giaamooensishinaan***idig, idog***ag
+     +Px2aamoo+Dim+Pej+Pos1Pl+VocPl+Loc: giaamooensishinaan***idig, idog***ing
+     +Px2aamoo+Dim+Pej+PosPl+Pret+Obv: giaamooensishiwaaibanan
+     +Px2aamoo+Dim+Pej+PosPl+Pret+Pl: giaamooensishiwaaibanag
+     +Px2aamoo+Dim+Pej+PosPl+Pret+Loc: giaamooensishiwaaibaning
+     +Px2aamoo+Dim+Pej+PosPl+VocPl+Obv: giaamooensishiwaa***idig, idog***an
+     +Px2aamoo+Dim+Pej+PosPl+VocPl+Pl: giaamooensishiwaa***idig, idog***ag
+     +Px2aamoo+Dim+Pej+PosPl+VocPl+Loc: giaamooensishiwaa***idig, idog***ing
+     +Px2aamoo+Dim+Pej+PosObv+Pret+Obv: giaamooensishiniibanan
+     +Px2aamoo+Dim+Pej+PosObv+Pret+Pl: giaamooensishiniibanag
+     +Px2aamoo+Dim+Pej+PosObv+Pret+Loc: giaamooensishiniibaning
+     +Px2aamoo+Dim+Pej+PosObv+VocPl+Obv: giaamooensishini***idig, idog***an
+     +Px2aamoo+Dim+Pej+PosObv+VocPl+Pl: giaamooensishini***idig, idog***ag
+     +Px2aamoo+Dim+Pej+PosObv+VocPl+Loc: giaamooensishini***idig, idog***ing
+     +Px2aamoo+Con+Pej+Pos1Pl+Pret+Obv: giaamooenhishinaanibanan
+     +Px2aamoo+Con+Pej+Pos1Pl+Pret+Pl: giaamooenhishinaanibanag
+     +Px2aamoo+Con+Pej+Pos1Pl+Pret+Loc: giaamooenhishinaanibaning
+     +Px2aamoo+Con+Pej+Pos1Pl+VocPl+Obv: giaamooenhishinaan***idig, idog***an
+     +Px2aamoo+Con+Pej+Pos1Pl+VocPl+Pl: giaamooenhishinaan***idig, idog***ag
+     +Px2aamoo+Con+Pej+Pos1Pl+VocPl+Loc: giaamooenhishinaan***idig, idog***ing
+     +Px2aamoo+Con+Pej+PosPl+Pret+Obv: giaamooenhishiwaaibanan
+     +Px2aamoo+Con+Pej+PosPl+Pret+Pl: giaamooenhishiwaaibanag
+     +Px2aamoo+Con+Pej+PosPl+Pret+Loc: giaamooenhishiwaaibaning
+     +Px2aamoo+Con+Pej+PosPl+VocPl+Obv: giaamooenhishiwaa***idig, idog***an
+     +Px2aamoo+Con+Pej+PosPl+VocPl+Pl: giaamooenhishiwaa***idig, idog***ag
+     +Px2aamoo+Con+Pej+PosPl+VocPl+Loc: giaamooenhishiwaa***idig, idog***ing
+     +Px2aamoo+Con+Pej+PosObv+Pret+Obv: giaamooenhishiniibanan
+     +Px2aamoo+Con+Pej+PosObv+Pret+Pl: giaamooenhishiniibanag
+     +Px2aamoo+Con+Pej+PosObv+Pret+Loc: giaamooenhishiniibaning
+     +Px2aamoo+Con+Pej+PosObv+VocPl+Obv: giaamooenhishini***idig, idog***an
+     +Px2aamoo+Con+Pej+PosObv+VocPl+Pl: giaamooenhishini***idig, idog***ag
+     +Px2aamoo+Con+Pej+PosObv+VocPl+Loc: giaamooenhishini***idig, idog***ing
+     +Px3aamoo+Dim+Pej+Pos1Pl+Pret+Obv: oaamooensishinaanibanan
+     +Px3aamoo+Dim+Pej+Pos1Pl+Pret+Pl: oaamooensishinaanibanag
+     +Px3aamoo+Dim+Pej+Pos1Pl+Pret+Loc: oaamooensishinaanibaning
+     +Px3aamoo+Dim+Pej+Pos1Pl+VocPl+Obv: oaamooensishinaan***idig, idog***an
+     +Px3aamoo+Dim+Pej+Pos1Pl+VocPl+Pl: oaamooensishinaan***idig, idog***ag
+     +Px3aamoo+Dim+Pej+Pos1Pl+VocPl+Loc: oaamooensishinaan***idig, idog***ing
+     +Px3aamoo+Dim+Pej+PosPl+Pret+Obv: oaamooensishiwaaibanan
+     +Px3aamoo+Dim+Pej+PosPl+Pret+Pl: oaamooensishiwaaibanag
+     +Px3aamoo+Dim+Pej+PosPl+Pret+Loc: oaamooensishiwaaibaning
+     +Px3aamoo+Dim+Pej+PosPl+VocPl+Obv: oaamooensishiwaa***idig, idog***an
+     +Px3aamoo+Dim+Pej+PosPl+VocPl+Pl: oaamooensishiwaa***idig, idog***ag
+     +Px3aamoo+Dim+Pej+PosPl+VocPl+Loc: oaamooensishiwaa***idig, idog***ing
+     +Px3aamoo+Dim+Pej+PosObv+Pret+Obv: oaamooensishiniibanan
+     +Px3aamoo+Dim+Pej+PosObv+Pret+Pl: oaamooensishiniibanag
+     +Px3aamoo+Dim+Pej+PosObv+Pret+Loc: oaamooensishiniibaning
+     +Px3aamoo+Dim+Pej+PosObv+VocPl+Obv: oaamooensishini***idig, idog***an
+     +Px3aamoo+Dim+Pej+PosObv+VocPl+Pl: oaamooensishini***idig, idog***ag
+     +Px3aamoo+Dim+Pej+PosObv+VocPl+Loc: oaamooensishini***idig, idog***ing
+     +Px3aamoo+Con+Pej+Pos1Pl+Pret+Obv: oaamooenhishinaanibanan
+     +Px3aamoo+Con+Pej+Pos1Pl+Pret+Pl: oaamooenhishinaanibanag
+     +Px3aamoo+Con+Pej+Pos1Pl+Pret+Loc: oaamooenhishinaanibaning
+     +Px3aamoo+Con+Pej+Pos1Pl+VocPl+Obv: oaamooenhishinaan***idig, idog***an
+     +Px3aamoo+Con+Pej+Pos1Pl+VocPl+Pl: oaamooenhishinaan***idig, idog***ag
+     +Px3aamoo+Con+Pej+Pos1Pl+VocPl+Loc: oaamooenhishinaan***idig, idog***ing
+     +Px3aamoo+Con+Pej+PosPl+Pret+Obv: oaamooenhishiwaaibanan
+     +Px3aamoo+Con+Pej+PosPl+Pret+Pl: oaamooenhishiwaaibanag
+     +Px3aamoo+Con+Pej+PosPl+Pret+Loc: oaamooenhishiwaaibaning
+     +Px3aamoo+Con+Pej+PosPl+VocPl+Obv: oaamooenhishiwaa***idig, idog***an
+     +Px3aamoo+Con+Pej+PosPl+VocPl+Pl: oaamooenhishiwaa***idig, idog***ag
+     +Px3aamoo+Con+Pej+PosPl+VocPl+Loc: oaamooenhishiwaa***idig, idog***ing
+     +Px3aamoo+Con+Pej+PosObv+Pret+Obv: oaamooenhishiniibanan
+     +Px3aamoo+Con+Pej+PosObv+Pret+Pl: oaamooenhishiniibanag
+     +Px3aamoo+Con+Pej+PosObv+Pret+Loc: oaamooenhishiniibaning
+     +Px3aamoo+Con+Pej+PosObv+VocPl+Obv: oaamooenhishini***idig, idog***an
+     +Px3aamoo+Con+Pej+PosObv+VocPl+Pl: oaamooenhishini***idig, idog***ag
+     +Px3aamoo+Con+Pej+PosObv+VocPl+Loc: oaamooenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     +Px1aamoo+Pos+Pej+Pos1Pl+Pret+Obv: niaamooimishinaanibanan
+     +Px1aamoo+Pos+Pej+Pos1Pl+Pret+Pl: niaamooimishinaanibanag
+     +Px1aamoo+Pos+Pej+Pos1Pl+Pret+Loc: niaamooimishinaanibaning
+     +Px1aamoo+Pos+Pej+Pos1Pl+VocPl+Obv: niaamooimishinaan***idig, idog***an
+     +Px1aamoo+Pos+Pej+Pos1Pl+VocPl+Pl: niaamooimishinaan***idig, idog***ag
+     +Px1aamoo+Pos+Pej+Pos1Pl+VocPl+Loc: niaamooimishinaan***idig, idog***ing
+     +Px1aamoo+Pos+Pej+PosPl+Pret+Obv: niaamooimishiwaaibanan
+     +Px1aamoo+Pos+Pej+PosPl+Pret+Pl: niaamooimishiwaaibanag
+     +Px1aamoo+Pos+Pej+PosPl+Pret+Loc: niaamooimishiwaaibaning
+     +Px1aamoo+Pos+Pej+PosPl+VocPl+Obv: niaamooimishiwaa***idig, idog***an
+     +Px1aamoo+Pos+Pej+PosPl+VocPl+Pl: niaamooimishiwaa***idig, idog***ag
+     +Px1aamoo+Pos+Pej+PosPl+VocPl+Loc: niaamooimishiwaa***idig, idog***ing
+     +Px1aamoo+Pos+Pej+PosObv+Pret+Obv: niaamooimishiniibanan
+     +Px1aamoo+Pos+Pej+PosObv+Pret+Pl: niaamooimishiniibanag
+     +Px1aamoo+Pos+Pej+PosObv+Pret+Loc: niaamooimishiniibaning
+     +Px1aamoo+Pos+Pej+PosObv+VocPl+Obv: niaamooimishini***idig, idog***an
+     +Px1aamoo+Pos+Pej+PosObv+VocPl+Pl: niaamooimishini***idig, idog***ag
+     +Px1aamoo+Pos+Pej+PosObv+VocPl+Loc: niaamooimishini***idig, idog***ing
+     +Px2aamoo+Pos+Pej+Pos1Pl+Pret+Obv: giaamooimishinaanibanan
+     +Px2aamoo+Pos+Pej+Pos1Pl+Pret+Pl: giaamooimishinaanibanag
+     +Px2aamoo+Pos+Pej+Pos1Pl+Pret+Loc: giaamooimishinaanibaning
+     +Px2aamoo+Pos+Pej+Pos1Pl+VocPl+Obv: giaamooimishinaan***idig, idog***an
+     +Px2aamoo+Pos+Pej+Pos1Pl+VocPl+Pl: giaamooimishinaan***idig, idog***ag
+     +Px2aamoo+Pos+Pej+Pos1Pl+VocPl+Loc: giaamooimishinaan***idig, idog***ing
+     +Px2aamoo+Pos+Pej+PosPl+Pret+Obv: giaamooimishiwaaibanan
+     +Px2aamoo+Pos+Pej+PosPl+Pret+Pl: giaamooimishiwaaibanag
+     +Px2aamoo+Pos+Pej+PosPl+Pret+Loc: giaamooimishiwaaibaning
+     +Px2aamoo+Pos+Pej+PosPl+VocPl+Obv: giaamooimishiwaa***idig, idog***an
+     +Px2aamoo+Pos+Pej+PosPl+VocPl+Pl: giaamooimishiwaa***idig, idog***ag
+     +Px2aamoo+Pos+Pej+PosPl+VocPl+Loc: giaamooimishiwaa***idig, idog***ing
+     +Px2aamoo+Pos+Pej+PosObv+Pret+Obv: giaamooimishiniibanan
+     +Px2aamoo+Pos+Pej+PosObv+Pret+Pl: giaamooimishiniibanag
+     +Px2aamoo+Pos+Pej+PosObv+Pret+Loc: giaamooimishiniibaning
+     +Px2aamoo+Pos+Pej+PosObv+VocPl+Obv: giaamooimishini***idig, idog***an
+     +Px2aamoo+Pos+Pej+PosObv+VocPl+Pl: giaamooimishini***idig, idog***ag
+     +Px2aamoo+Pos+Pej+PosObv+VocPl+Loc: giaamooimishini***idig, idog***ing
+     +Px3aamoo+Pos+Pej+Pos1Pl+Pret+Obv: oaamooimishinaanibanan
+     +Px3aamoo+Pos+Pej+Pos1Pl+Pret+Pl: oaamooimishinaanibanag
+     +Px3aamoo+Pos+Pej+Pos1Pl+Pret+Loc: oaamooimishinaanibaning
+     +Px3aamoo+Pos+Pej+Pos1Pl+VocPl+Obv: oaamooimishinaan***idig, idog***an
+     +Px3aamoo+Pos+Pej+Pos1Pl+VocPl+Pl: oaamooimishinaan***idig, idog***ag
+     +Px3aamoo+Pos+Pej+Pos1Pl+VocPl+Loc: oaamooimishinaan***idig, idog***ing
+     +Px3aamoo+Pos+Pej+PosPl+Pret+Obv: oaamooimishiwaaibanan
+     +Px3aamoo+Pos+Pej+PosPl+Pret+Pl: oaamooimishiwaaibanag
+     +Px3aamoo+Pos+Pej+PosPl+Pret+Loc: oaamooimishiwaaibaning
+     +Px3aamoo+Pos+Pej+PosPl+VocPl+Obv: oaamooimishiwaa***idig, idog***an
+     +Px3aamoo+Pos+Pej+PosPl+VocPl+Pl: oaamooimishiwaa***idig, idog***ag
+     +Px3aamoo+Pos+Pej+PosPl+VocPl+Loc: oaamooimishiwaa***idig, idog***ing
+     +Px3aamoo+Pos+Pej+PosObv+Pret+Obv: oaamooimishiniibanan
+     +Px3aamoo+Pos+Pej+PosObv+Pret+Pl: oaamooimishiniibanag
+     +Px3aamoo+Pos+Pej+PosObv+Pret+Loc: oaamooimishiniibaning
+     +Px3aamoo+Pos+Pej+PosObv+VocPl+Obv: oaamooimishini***idig, idog***an
+     +Px3aamoo+Pos+Pej+PosObv+VocPl+Pl: oaamooimishini***idig, idog***ag
+     +Px3aamoo+Pos+Pej+PosObv+VocPl+Loc: oaamooimishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6, 7
+     aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Obv: aamooensimishinaanibanan
+     aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Pl: aamooensimishinaanibanag
+     aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Loc: aamooensimishinaanibaning
+     aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: aamooensimishinaan***idig, idog***an
+     aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: aamooensimishinaan***idig, idog***ag
+     aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: aamooensimishinaan***idig, idog***ing
+     aamoo+Dim+Pos+Pej+PosPl+Pret+Obv: aamooensimishiwaaibanan
+     aamoo+Dim+Pos+Pej+PosPl+Pret+Pl: aamooensimishiwaaibanag
+     aamoo+Dim+Pos+Pej+PosPl+Pret+Loc: aamooensimishiwaaibaning
+     aamoo+Dim+Pos+Pej+PosPl+VocPl+Obv: aamooensimishiwaa***idig, idog***an
+     aamoo+Dim+Pos+Pej+PosPl+VocPl+Pl: aamooensimishiwaa***idig, idog***ag
+     aamoo+Dim+Pos+Pej+PosPl+VocPl+Loc: aamooensimishiwaa***idig, idog***ing
+     aamoo+Dim+Pos+Pej+PosObv+Pret+Obv: aamooensimishiniibanan
+     aamoo+Dim+Pos+Pej+PosObv+Pret+Pl: aamooensimishiniibanag
+     aamoo+Dim+Pos+Pej+PosObv+Pret+Loc: aamooensimishiniibaning
+     aamoo+Dim+Pos+Pej+PosObv+VocPl+Obv: aamooensimishini***idig, idog***an
+     aamoo+Dim+Pos+Pej+PosObv+VocPl+Pl: aamooensimishini***idig, idog***ag
+     aamoo+Dim+Pos+Pej+PosObv+VocPl+Loc: aamooensimishini***idig, idog***ing
+     aamoo+Con+Pos+Pej+Pos1Pl+Pret+Obv: aamooenhimishinaanibanan
+     aamoo+Con+Pos+Pej+Pos1Pl+Pret+Pl: aamooenhimishinaanibanag
+     aamoo+Con+Pos+Pej+Pos1Pl+Pret+Loc: aamooenhimishinaanibaning
+     aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Obv: aamooenhimishinaan***idig, idog***an
+     aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Pl: aamooenhimishinaan***idig, idog***ag
+     aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Loc: aamooenhimishinaan***idig, idog***ing
+     aamoo+Con+Pos+Pej+PosPl+Pret+Obv: aamooenhimishiwaaibanan
+     aamoo+Con+Pos+Pej+PosPl+Pret+Pl: aamooenhimishiwaaibanag
+     aamoo+Con+Pos+Pej+PosPl+Pret+Loc: aamooenhimishiwaaibaning
+     aamoo+Con+Pos+Pej+PosPl+VocPl+Obv: aamooenhimishiwaa***idig, idog***an
+     aamoo+Con+Pos+Pej+PosPl+VocPl+Pl: aamooenhimishiwaa***idig, idog***ag
+     aamoo+Con+Pos+Pej+PosPl+VocPl+Loc: aamooenhimishiwaa***idig, idog***ing
+     aamoo+Con+Pos+Pej+PosObv+Pret+Obv: aamooenhimishiniibanan
+     aamoo+Con+Pos+Pej+PosObv+Pret+Pl: aamooenhimishiniibanag
+     aamoo+Con+Pos+Pej+PosObv+Pret+Loc: aamooenhimishiniibaning
+     aamoo+Con+Pos+Pej+PosObv+VocPl+Obv: aamooenhimishini***idig, idog***an
+     aamoo+Con+Pos+Pej+PosObv+VocPl+Pl: aamooenhimishini***idig, idog***ag
+     aamoo+Con+Pos+Pej+PosObv+VocPl+Loc: aamooenhimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Obv: niaamooensimishinaanibanan
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Pl: niaamooensimishinaanibanag
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Loc: niaamooensimishinaanibaning
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: niaamooensimishinaan***idig, idog***an
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: niaamooensimishinaan***idig, idog***ag
+     +Px1aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: niaamooensimishinaan***idig, idog***ing
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Pret+Obv: niaamooensimishiwaaibanan
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Pret+Pl: niaamooensimishiwaaibanag
+     +Px1aamoo+Dim+Pos+Pej+PosPl+Pret+Loc: niaamooensimishiwaaibaning
+     +Px1aamoo+Dim+Pos+Pej+PosPl+VocPl+Obv: niaamooensimishiwaa***idig, idog***an
+     +Px1aamoo+Dim+Pos+Pej+PosPl+VocPl+Pl: niaamooensimishiwaa***idig, idog***ag
+     +Px1aamoo+Dim+Pos+Pej+PosPl+VocPl+Loc: niaamooensimishiwaa***idig, idog***ing
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Pret+Obv: niaamooensimishiniibanan
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Pret+Pl: niaamooensimishiniibanag
+     +Px1aamoo+Dim+Pos+Pej+PosObv+Pret+Loc: niaamooensimishiniibaning
+     +Px1aamoo+Dim+Pos+Pej+PosObv+VocPl+Obv: niaamooensimishini***idig, idog***an
+     +Px1aamoo+Dim+Pos+Pej+PosObv+VocPl+Pl: niaamooensimishini***idig, idog***ag
+     +Px1aamoo+Dim+Pos+Pej+PosObv+VocPl+Loc: niaamooensimishini***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Pret+Obv: niaamooenhimishinaanibanan
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Pret+Pl: niaamooenhimishinaanibanag
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+Pret+Loc: niaamooenhimishinaanibaning
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Obv: niaamooenhimishinaan***idig, idog***an
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Pl: niaamooenhimishinaan***idig, idog***ag
+     +Px1aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Loc: niaamooenhimishinaan***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pej+PosPl+Pret+Obv: niaamooenhimishiwaaibanan
+     +Px1aamoo+Con+Pos+Pej+PosPl+Pret+Pl: niaamooenhimishiwaaibanag
+     +Px1aamoo+Con+Pos+Pej+PosPl+Pret+Loc: niaamooenhimishiwaaibaning
+     +Px1aamoo+Con+Pos+Pej+PosPl+VocPl+Obv: niaamooenhimishiwaa***idig, idog***an
+     +Px1aamoo+Con+Pos+Pej+PosPl+VocPl+Pl: niaamooenhimishiwaa***idig, idog***ag
+     +Px1aamoo+Con+Pos+Pej+PosPl+VocPl+Loc: niaamooenhimishiwaa***idig, idog***ing
+     +Px1aamoo+Con+Pos+Pej+PosObv+Pret+Obv: niaamooenhimishiniibanan
+     +Px1aamoo+Con+Pos+Pej+PosObv+Pret+Pl: niaamooenhimishiniibanag
+     +Px1aamoo+Con+Pos+Pej+PosObv+Pret+Loc: niaamooenhimishiniibaning
+     +Px1aamoo+Con+Pos+Pej+PosObv+VocPl+Obv: niaamooenhimishini***idig, idog***an
+     +Px1aamoo+Con+Pos+Pej+PosObv+VocPl+Pl: niaamooenhimishini***idig, idog***ag
+     +Px1aamoo+Con+Pos+Pej+PosObv+VocPl+Loc: niaamooenhimishini***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Obv: giaamooensimishinaanibanan
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Pl: giaamooensimishinaanibanag
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Loc: giaamooensimishinaanibaning
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: giaamooensimishinaan***idig, idog***an
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: giaamooensimishinaan***idig, idog***ag
+     +Px2aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: giaamooensimishinaan***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Pret+Obv: giaamooensimishiwaaibanan
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Pret+Pl: giaamooensimishiwaaibanag
+     +Px2aamoo+Dim+Pos+Pej+PosPl+Pret+Loc: giaamooensimishiwaaibaning
+     +Px2aamoo+Dim+Pos+Pej+PosPl+VocPl+Obv: giaamooensimishiwaa***idig, idog***an
+     +Px2aamoo+Dim+Pos+Pej+PosPl+VocPl+Pl: giaamooensimishiwaa***idig, idog***ag
+     +Px2aamoo+Dim+Pos+Pej+PosPl+VocPl+Loc: giaamooensimishiwaa***idig, idog***ing
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Pret+Obv: giaamooensimishiniibanan
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Pret+Pl: giaamooensimishiniibanag
+     +Px2aamoo+Dim+Pos+Pej+PosObv+Pret+Loc: giaamooensimishiniibaning
+     +Px2aamoo+Dim+Pos+Pej+PosObv+VocPl+Obv: giaamooensimishini***idig, idog***an
+     +Px2aamoo+Dim+Pos+Pej+PosObv+VocPl+Pl: giaamooensimishini***idig, idog***ag
+     +Px2aamoo+Dim+Pos+Pej+PosObv+VocPl+Loc: giaamooensimishini***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Pret+Obv: giaamooenhimishinaanibanan
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Pret+Pl: giaamooenhimishinaanibanag
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+Pret+Loc: giaamooenhimishinaanibaning
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Obv: giaamooenhimishinaan***idig, idog***an
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Pl: giaamooenhimishinaan***idig, idog***ag
+     +Px2aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Loc: giaamooenhimishinaan***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pej+PosPl+Pret+Obv: giaamooenhimishiwaaibanan
+     +Px2aamoo+Con+Pos+Pej+PosPl+Pret+Pl: giaamooenhimishiwaaibanag
+     +Px2aamoo+Con+Pos+Pej+PosPl+Pret+Loc: giaamooenhimishiwaaibaning
+     +Px2aamoo+Con+Pos+Pej+PosPl+VocPl+Obv: giaamooenhimishiwaa***idig, idog***an
+     +Px2aamoo+Con+Pos+Pej+PosPl+VocPl+Pl: giaamooenhimishiwaa***idig, idog***ag
+     +Px2aamoo+Con+Pos+Pej+PosPl+VocPl+Loc: giaamooenhimishiwaa***idig, idog***ing
+     +Px2aamoo+Con+Pos+Pej+PosObv+Pret+Obv: giaamooenhimishiniibanan
+     +Px2aamoo+Con+Pos+Pej+PosObv+Pret+Pl: giaamooenhimishiniibanag
+     +Px2aamoo+Con+Pos+Pej+PosObv+Pret+Loc: giaamooenhimishiniibaning
+     +Px2aamoo+Con+Pos+Pej+PosObv+VocPl+Obv: giaamooenhimishini***idig, idog***an
+     +Px2aamoo+Con+Pos+Pej+PosObv+VocPl+Pl: giaamooenhimishini***idig, idog***ag
+     +Px2aamoo+Con+Pos+Pej+PosObv+VocPl+Loc: giaamooenhimishini***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Obv: oaamooensimishinaanibanan
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Pl: oaamooensimishinaanibanag
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+Pret+Loc: oaamooensimishinaanibaning
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: oaamooensimishinaan***idig, idog***an
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: oaamooensimishinaan***idig, idog***ag
+     +Px3aamoo+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: oaamooensimishinaan***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Pret+Obv: oaamooensimishiwaaibanan
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Pret+Pl: oaamooensimishiwaaibanag
+     +Px3aamoo+Dim+Pos+Pej+PosPl+Pret+Loc: oaamooensimishiwaaibaning
+     +Px3aamoo+Dim+Pos+Pej+PosPl+VocPl+Obv: oaamooensimishiwaa***idig, idog***an
+     +Px3aamoo+Dim+Pos+Pej+PosPl+VocPl+Pl: oaamooensimishiwaa***idig, idog***ag
+     +Px3aamoo+Dim+Pos+Pej+PosPl+VocPl+Loc: oaamooensimishiwaa***idig, idog***ing
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Pret+Obv: oaamooensimishiniibanan
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Pret+Pl: oaamooensimishiniibanag
+     +Px3aamoo+Dim+Pos+Pej+PosObv+Pret+Loc: oaamooensimishiniibaning
+     +Px3aamoo+Dim+Pos+Pej+PosObv+VocPl+Obv: oaamooensimishini***idig, idog***an
+     +Px3aamoo+Dim+Pos+Pej+PosObv+VocPl+Pl: oaamooensimishini***idig, idog***ag
+     +Px3aamoo+Dim+Pos+Pej+PosObv+VocPl+Loc: oaamooensimishini***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Pret+Obv: oaamooenhimishinaanibanan
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Pret+Pl: oaamooenhimishinaanibanag
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+Pret+Loc: oaamooenhimishinaanibaning
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Obv: oaamooenhimishinaan***idig, idog***an
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Pl: oaamooenhimishinaan***idig, idog***ag
+     +Px3aamoo+Con+Pos+Pej+Pos1Pl+VocPl+Loc: oaamooenhimishinaan***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pej+PosPl+Pret+Obv: oaamooenhimishiwaaibanan
+     +Px3aamoo+Con+Pos+Pej+PosPl+Pret+Pl: oaamooenhimishiwaaibanag
+     +Px3aamoo+Con+Pos+Pej+PosPl+Pret+Loc: oaamooenhimishiwaaibaning
+     +Px3aamoo+Con+Pos+Pej+PosPl+VocPl+Obv: oaamooenhimishiwaa***idig, idog***an
+     +Px3aamoo+Con+Pos+Pej+PosPl+VocPl+Pl: oaamooenhimishiwaa***idig, idog***ag
+     +Px3aamoo+Con+Pos+Pej+PosPl+VocPl+Loc: oaamooenhimishiwaa***idig, idog***ing
+     +Px3aamoo+Con+Pos+Pej+PosObv+Pret+Obv: oaamooenhimishiniibanan
+     +Px3aamoo+Con+Pos+Pej+PosObv+Pret+Pl: oaamooenhimishiniibanag
+     +Px3aamoo+Con+Pos+Pej+PosObv+Pret+Loc: oaamooenhimishiniibaning
+     +Px3aamoo+Con+Pos+Pej+PosObv+VocPl+Obv: oaamooenhimishini***idig, idog***an
+     +Px3aamoo+Con+Pos+Pej+PosObv+VocPl+Pl: oaamooenhimishini***idig, idog***ag
+     +Px3aamoo+Con+Pos+Pej+PosObv+VocPl+Loc: oaamooenhimishini***idig, idog***ing
+     
