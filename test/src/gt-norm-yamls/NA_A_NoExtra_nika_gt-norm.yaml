@@ -1,0 +1,2577 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  NA - A - nika - NoExtra :
+
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+
+     #Isolation form
+     nika: nika
+     
+     #Values from slots numbered: 1
+     +Px1nika: ninika
+     +Px2nika: ginika
+     +Px3nika: onika
+     
+     #Values from slots numbered: 2
+     nika+Dim: nikaens
+     nika+Con: nikaenh
+     
+     #Values from slots numbered: 3
+     nika+Pos: nikaim
+     
+     #Values from slots numbered: 4
+     nika+Pej: nikaish
+     
+     #Values from slots numbered: 5
+     nika+Pos1Pl: nikainaan
+     nika+PosPl: nikaiwaa
+     nika+PosObv: nikaini
+     
+     #Values from slots numbered: 6
+     nika+Pret: nikaiban
+     nika+VocPl: nika***idig, idog***
+     
+     #Values from slots numbered: 7
+     nika+Obv: nikaan
+     nika+Pl: nikaag
+     nika+Loc: nikaing
+     
+     #Values from slots numbered: 1, 2
+     +Px1nika+Dim: ninikaens
+     +Px1nika+Con: ninikaenh
+     +Px2nika+Dim: ginikaens
+     +Px2nika+Con: ginikaenh
+     +Px3nika+Dim: onikaens
+     +Px3nika+Con: onikaenh
+     
+     #Values from slots numbered: 1, 3
+     +Px1nika+Pos: ninikaim
+     +Px2nika+Pos: ginikaim
+     +Px3nika+Pos: onikaim
+     
+     #Values from slots numbered: 1, 4
+     +Px1nika+Pej: ninikaish
+     +Px2nika+Pej: ginikaish
+     +Px3nika+Pej: onikaish
+     
+     #Values from slots numbered: 1, 5
+     +Px1nika+Pos1Pl: ninikainaan
+     +Px1nika+PosPl: ninikaiwaa
+     +Px1nika+PosObv: ninikaini
+     +Px2nika+Pos1Pl: ginikainaan
+     +Px2nika+PosPl: ginikaiwaa
+     +Px2nika+PosObv: ginikaini
+     +Px3nika+Pos1Pl: onikainaan
+     +Px3nika+PosPl: onikaiwaa
+     +Px3nika+PosObv: onikaini
+     
+     #Values from slots numbered: 1, 6
+     +Px1nika+Pret: ninikaiban
+     +Px1nika+VocPl: ninika***idig, idog***
+     +Px2nika+Pret: ginikaiban
+     +Px2nika+VocPl: ginika***idig, idog***
+     +Px3nika+Pret: onikaiban
+     +Px3nika+VocPl: onika***idig, idog***
+     
+     #Values from slots numbered: 1, 7
+     +Px1nika+Obv: ninikaan
+     +Px1nika+Pl: ninikaag
+     +Px1nika+Loc: ninikaing
+     +Px2nika+Obv: ginikaan
+     +Px2nika+Pl: ginikaag
+     +Px2nika+Loc: ginikaing
+     +Px3nika+Obv: onikaan
+     +Px3nika+Pl: onikaag
+     +Px3nika+Loc: onikaing
+     
+     #Values from slots numbered: 2, 3
+     nika+Dim+Pos: nikaensim
+     nika+Con+Pos: nikaenhim
+     
+     #Values from slots numbered: 2, 4
+     nika+Dim+Pej: nikaensish
+     nika+Con+Pej: nikaenhish
+     
+     #Values from slots numbered: 2, 5
+     nika+Dim+Pos1Pl: nikaensinaan
+     nika+Dim+PosPl: nikaensiwaa
+     nika+Dim+PosObv: nikaensini
+     nika+Con+Pos1Pl: nikaenhinaan
+     nika+Con+PosPl: nikaenhiwaa
+     nika+Con+PosObv: nikaenhini
+     
+     #Values from slots numbered: 2, 6
+     nika+Dim+Pret: nikaensiban
+     nika+Dim+VocPl: nikaens***idig, idog***
+     nika+Con+Pret: nikaenhiban
+     nika+Con+VocPl: nikaenh***idig, idog***
+     
+     #Values from slots numbered: 2, 7
+     nika+Dim+Obv: nikaensan
+     nika+Dim+Pl: nikaensag
+     nika+Dim+Loc: nikaensing
+     nika+Con+Obv: nikaenhan
+     nika+Con+Pl: nikaenhag
+     nika+Con+Loc: nikaenhing
+     
+     #Values from slots numbered: 3, 4
+     nika+Pos+Pej: nikaimish
+     
+     #Values from slots numbered: 3, 5
+     nika+Pos+Pos1Pl: nikaiminaan
+     nika+Pos+PosPl: nikaimiwaa
+     nika+Pos+PosObv: nikaimini
+     
+     #Values from slots numbered: 3, 6
+     nika+Pos+Pret: nikaimiban
+     nika+Pos+VocPl: nikaim***idig, idog***
+     
+     #Values from slots numbered: 3, 7
+     nika+Pos+Obv: nikaiman
+     nika+Pos+Pl: nikaimag
+     nika+Pos+Loc: nikaiming
+     
+     #Values from slots numbered: 4, 5
+     nika+Pej+Pos1Pl: nikaishinaan
+     nika+Pej+PosPl: nikaishiwaa
+     nika+Pej+PosObv: nikaishini
+     
+     #Values from slots numbered: 4, 6
+     nika+Pej+Pret: nikaishiban
+     nika+Pej+VocPl: nikaish***idig, idog***
+     
+     #Values from slots numbered: 4, 7
+     nika+Pej+Obv: nikaishan
+     nika+Pej+Pl: nikaishag
+     nika+Pej+Loc: nikaishing
+     
+     #Values from slots numbered: 5, 6
+     nika+Pos1Pl+Pret: nikainaaniban
+     nika+Pos1Pl+VocPl: nikainaan***idig, idog***
+     nika+PosPl+Pret: nikaiwaaiban
+     nika+PosPl+VocPl: nikaiwaa***idig, idog***
+     nika+PosObv+Pret: nikainiiban
+     nika+PosObv+VocPl: nikaini***idig, idog***
+     
+     #Values from slots numbered: 5, 7
+     nika+Pos1Pl+Obv: nikainaanan
+     nika+Pos1Pl+Pl: nikainaanag
+     nika+Pos1Pl+Loc: nikainaaning
+     nika+PosPl+Obv: nikaiwaaan
+     nika+PosPl+Pl: nikaiwaaag
+     nika+PosPl+Loc: nikaiwaaing
+     nika+PosObv+Obv: nikainian
+     nika+PosObv+Pl: nikainiag
+     nika+PosObv+Loc: nikainiing
+     
+     #Values from slots numbered: 6, 7
+     nika+Pret+Obv: nikaibanan
+     nika+Pret+Pl: nikaibanag
+     nika+Pret+Loc: nikaibaning
+     nika+VocPl+Obv: nika***idig, idog***an
+     nika+VocPl+Pl: nika***idig, idog***ag
+     nika+VocPl+Loc: nika***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3
+     +Px1nika+Dim+Pos: ninikaensim
+     +Px1nika+Con+Pos: ninikaenhim
+     +Px2nika+Dim+Pos: ginikaensim
+     +Px2nika+Con+Pos: ginikaenhim
+     +Px3nika+Dim+Pos: onikaensim
+     +Px3nika+Con+Pos: onikaenhim
+     
+     #Values from slots numbered: 1, 2, 4
+     +Px1nika+Dim+Pej: ninikaensish
+     +Px1nika+Con+Pej: ninikaenhish
+     +Px2nika+Dim+Pej: ginikaensish
+     +Px2nika+Con+Pej: ginikaenhish
+     +Px3nika+Dim+Pej: onikaensish
+     +Px3nika+Con+Pej: onikaenhish
+     
+     #Values from slots numbered: 1, 2, 5
+     +Px1nika+Dim+Pos1Pl: ninikaensinaan
+     +Px1nika+Dim+PosPl: ninikaensiwaa
+     +Px1nika+Dim+PosObv: ninikaensini
+     +Px1nika+Con+Pos1Pl: ninikaenhinaan
+     +Px1nika+Con+PosPl: ninikaenhiwaa
+     +Px1nika+Con+PosObv: ninikaenhini
+     +Px2nika+Dim+Pos1Pl: ginikaensinaan
+     +Px2nika+Dim+PosPl: ginikaensiwaa
+     +Px2nika+Dim+PosObv: ginikaensini
+     +Px2nika+Con+Pos1Pl: ginikaenhinaan
+     +Px2nika+Con+PosPl: ginikaenhiwaa
+     +Px2nika+Con+PosObv: ginikaenhini
+     +Px3nika+Dim+Pos1Pl: onikaensinaan
+     +Px3nika+Dim+PosPl: onikaensiwaa
+     +Px3nika+Dim+PosObv: onikaensini
+     +Px3nika+Con+Pos1Pl: onikaenhinaan
+     +Px3nika+Con+PosPl: onikaenhiwaa
+     +Px3nika+Con+PosObv: onikaenhini
+     
+     #Values from slots numbered: 1, 2, 6
+     +Px1nika+Dim+Pret: ninikaensiban
+     +Px1nika+Dim+VocPl: ninikaens***idig, idog***
+     +Px1nika+Con+Pret: ninikaenhiban
+     +Px1nika+Con+VocPl: ninikaenh***idig, idog***
+     +Px2nika+Dim+Pret: ginikaensiban
+     +Px2nika+Dim+VocPl: ginikaens***idig, idog***
+     +Px2nika+Con+Pret: ginikaenhiban
+     +Px2nika+Con+VocPl: ginikaenh***idig, idog***
+     +Px3nika+Dim+Pret: onikaensiban
+     +Px3nika+Dim+VocPl: onikaens***idig, idog***
+     +Px3nika+Con+Pret: onikaenhiban
+     +Px3nika+Con+VocPl: onikaenh***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 7
+     +Px1nika+Dim+Obv: ninikaensan
+     +Px1nika+Dim+Pl: ninikaensag
+     +Px1nika+Dim+Loc: ninikaensing
+     +Px1nika+Con+Obv: ninikaenhan
+     +Px1nika+Con+Pl: ninikaenhag
+     +Px1nika+Con+Loc: ninikaenhing
+     +Px2nika+Dim+Obv: ginikaensan
+     +Px2nika+Dim+Pl: ginikaensag
+     +Px2nika+Dim+Loc: ginikaensing
+     +Px2nika+Con+Obv: ginikaenhan
+     +Px2nika+Con+Pl: ginikaenhag
+     +Px2nika+Con+Loc: ginikaenhing
+     +Px3nika+Dim+Obv: onikaensan
+     +Px3nika+Dim+Pl: onikaensag
+     +Px3nika+Dim+Loc: onikaensing
+     +Px3nika+Con+Obv: onikaenhan
+     +Px3nika+Con+Pl: onikaenhag
+     +Px3nika+Con+Loc: onikaenhing
+     
+     #Values from slots numbered: 1, 3, 4
+     +Px1nika+Pos+Pej: ninikaimish
+     +Px2nika+Pos+Pej: ginikaimish
+     +Px3nika+Pos+Pej: onikaimish
+     
+     #Values from slots numbered: 1, 3, 5
+     +Px1nika+Pos+Pos1Pl: ninikaiminaan
+     +Px1nika+Pos+PosPl: ninikaimiwaa
+     +Px1nika+Pos+PosObv: ninikaimini
+     +Px2nika+Pos+Pos1Pl: ginikaiminaan
+     +Px2nika+Pos+PosPl: ginikaimiwaa
+     +Px2nika+Pos+PosObv: ginikaimini
+     +Px3nika+Pos+Pos1Pl: onikaiminaan
+     +Px3nika+Pos+PosPl: onikaimiwaa
+     +Px3nika+Pos+PosObv: onikaimini
+     
+     #Values from slots numbered: 1, 3, 6
+     +Px1nika+Pos+Pret: ninikaimiban
+     +Px1nika+Pos+VocPl: ninikaim***idig, idog***
+     +Px2nika+Pos+Pret: ginikaimiban
+     +Px2nika+Pos+VocPl: ginikaim***idig, idog***
+     +Px3nika+Pos+Pret: onikaimiban
+     +Px3nika+Pos+VocPl: onikaim***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 7
+     +Px1nika+Pos+Obv: ninikaiman
+     +Px1nika+Pos+Pl: ninikaimag
+     +Px1nika+Pos+Loc: ninikaiming
+     +Px2nika+Pos+Obv: ginikaiman
+     +Px2nika+Pos+Pl: ginikaimag
+     +Px2nika+Pos+Loc: ginikaiming
+     +Px3nika+Pos+Obv: onikaiman
+     +Px3nika+Pos+Pl: onikaimag
+     +Px3nika+Pos+Loc: onikaiming
+     
+     #Values from slots numbered: 1, 4, 5
+     +Px1nika+Pej+Pos1Pl: ninikaishinaan
+     +Px1nika+Pej+PosPl: ninikaishiwaa
+     +Px1nika+Pej+PosObv: ninikaishini
+     +Px2nika+Pej+Pos1Pl: ginikaishinaan
+     +Px2nika+Pej+PosPl: ginikaishiwaa
+     +Px2nika+Pej+PosObv: ginikaishini
+     +Px3nika+Pej+Pos1Pl: onikaishinaan
+     +Px3nika+Pej+PosPl: onikaishiwaa
+     +Px3nika+Pej+PosObv: onikaishini
+     
+     #Values from slots numbered: 1, 4, 6
+     +Px1nika+Pej+Pret: ninikaishiban
+     +Px1nika+Pej+VocPl: ninikaish***idig, idog***
+     +Px2nika+Pej+Pret: ginikaishiban
+     +Px2nika+Pej+VocPl: ginikaish***idig, idog***
+     +Px3nika+Pej+Pret: onikaishiban
+     +Px3nika+Pej+VocPl: onikaish***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 7
+     +Px1nika+Pej+Obv: ninikaishan
+     +Px1nika+Pej+Pl: ninikaishag
+     +Px1nika+Pej+Loc: ninikaishing
+     +Px2nika+Pej+Obv: ginikaishan
+     +Px2nika+Pej+Pl: ginikaishag
+     +Px2nika+Pej+Loc: ginikaishing
+     +Px3nika+Pej+Obv: onikaishan
+     +Px3nika+Pej+Pl: onikaishag
+     +Px3nika+Pej+Loc: onikaishing
+     
+     #Values from slots numbered: 1, 5, 6
+     +Px1nika+Pos1Pl+Pret: ninikainaaniban
+     +Px1nika+Pos1Pl+VocPl: ninikainaan***idig, idog***
+     +Px1nika+PosPl+Pret: ninikaiwaaiban
+     +Px1nika+PosPl+VocPl: ninikaiwaa***idig, idog***
+     +Px1nika+PosObv+Pret: ninikainiiban
+     +Px1nika+PosObv+VocPl: ninikaini***idig, idog***
+     +Px2nika+Pos1Pl+Pret: ginikainaaniban
+     +Px2nika+Pos1Pl+VocPl: ginikainaan***idig, idog***
+     +Px2nika+PosPl+Pret: ginikaiwaaiban
+     +Px2nika+PosPl+VocPl: ginikaiwaa***idig, idog***
+     +Px2nika+PosObv+Pret: ginikainiiban
+     +Px2nika+PosObv+VocPl: ginikaini***idig, idog***
+     +Px3nika+Pos1Pl+Pret: onikainaaniban
+     +Px3nika+Pos1Pl+VocPl: onikainaan***idig, idog***
+     +Px3nika+PosPl+Pret: onikaiwaaiban
+     +Px3nika+PosPl+VocPl: onikaiwaa***idig, idog***
+     +Px3nika+PosObv+Pret: onikainiiban
+     +Px3nika+PosObv+VocPl: onikaini***idig, idog***
+     
+     #Values from slots numbered: 1, 5, 7
+     +Px1nika+Pos1Pl+Obv: ninikainaanan
+     +Px1nika+Pos1Pl+Pl: ninikainaanag
+     +Px1nika+Pos1Pl+Loc: ninikainaaning
+     +Px1nika+PosPl+Obv: ninikaiwaaan
+     +Px1nika+PosPl+Pl: ninikaiwaaag
+     +Px1nika+PosPl+Loc: ninikaiwaaing
+     +Px1nika+PosObv+Obv: ninikainian
+     +Px1nika+PosObv+Pl: ninikainiag
+     +Px1nika+PosObv+Loc: ninikainiing
+     +Px2nika+Pos1Pl+Obv: ginikainaanan
+     +Px2nika+Pos1Pl+Pl: ginikainaanag
+     +Px2nika+Pos1Pl+Loc: ginikainaaning
+     +Px2nika+PosPl+Obv: ginikaiwaaan
+     +Px2nika+PosPl+Pl: ginikaiwaaag
+     +Px2nika+PosPl+Loc: ginikaiwaaing
+     +Px2nika+PosObv+Obv: ginikainian
+     +Px2nika+PosObv+Pl: ginikainiag
+     +Px2nika+PosObv+Loc: ginikainiing
+     +Px3nika+Pos1Pl+Obv: onikainaanan
+     +Px3nika+Pos1Pl+Pl: onikainaanag
+     +Px3nika+Pos1Pl+Loc: onikainaaning
+     +Px3nika+PosPl+Obv: onikaiwaaan
+     +Px3nika+PosPl+Pl: onikaiwaaag
+     +Px3nika+PosPl+Loc: onikaiwaaing
+     +Px3nika+PosObv+Obv: onikainian
+     +Px3nika+PosObv+Pl: onikainiag
+     +Px3nika+PosObv+Loc: onikainiing
+     
+     #Values from slots numbered: 1, 6, 7
+     +Px1nika+Pret+Obv: ninikaibanan
+     +Px1nika+Pret+Pl: ninikaibanag
+     +Px1nika+Pret+Loc: ninikaibaning
+     +Px1nika+VocPl+Obv: ninika***idig, idog***an
+     +Px1nika+VocPl+Pl: ninika***idig, idog***ag
+     +Px1nika+VocPl+Loc: ninika***idig, idog***ing
+     +Px2nika+Pret+Obv: ginikaibanan
+     +Px2nika+Pret+Pl: ginikaibanag
+     +Px2nika+Pret+Loc: ginikaibaning
+     +Px2nika+VocPl+Obv: ginika***idig, idog***an
+     +Px2nika+VocPl+Pl: ginika***idig, idog***ag
+     +Px2nika+VocPl+Loc: ginika***idig, idog***ing
+     +Px3nika+Pret+Obv: onikaibanan
+     +Px3nika+Pret+Pl: onikaibanag
+     +Px3nika+Pret+Loc: onikaibaning
+     +Px3nika+VocPl+Obv: onika***idig, idog***an
+     +Px3nika+VocPl+Pl: onika***idig, idog***ag
+     +Px3nika+VocPl+Loc: onika***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4
+     nika+Dim+Pos+Pej: nikaensimish
+     nika+Con+Pos+Pej: nikaenhimish
+     
+     #Values from slots numbered: 2, 3, 5
+     nika+Dim+Pos+Pos1Pl: nikaensiminaan
+     nika+Dim+Pos+PosPl: nikaensimiwaa
+     nika+Dim+Pos+PosObv: nikaensimini
+     nika+Con+Pos+Pos1Pl: nikaenhiminaan
+     nika+Con+Pos+PosPl: nikaenhimiwaa
+     nika+Con+Pos+PosObv: nikaenhimini
+     
+     #Values from slots numbered: 2, 3, 6
+     nika+Dim+Pos+Pret: nikaensimiban
+     nika+Dim+Pos+VocPl: nikaensim***idig, idog***
+     nika+Con+Pos+Pret: nikaenhimiban
+     nika+Con+Pos+VocPl: nikaenhim***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 7
+     nika+Dim+Pos+Obv: nikaensiman
+     nika+Dim+Pos+Pl: nikaensimag
+     nika+Dim+Pos+Loc: nikaensiming
+     nika+Con+Pos+Obv: nikaenhiman
+     nika+Con+Pos+Pl: nikaenhimag
+     nika+Con+Pos+Loc: nikaenhiming
+     
+     #Values from slots numbered: 2, 4, 5
+     nika+Dim+Pej+Pos1Pl: nikaensishinaan
+     nika+Dim+Pej+PosPl: nikaensishiwaa
+     nika+Dim+Pej+PosObv: nikaensishini
+     nika+Con+Pej+Pos1Pl: nikaenhishinaan
+     nika+Con+Pej+PosPl: nikaenhishiwaa
+     nika+Con+Pej+PosObv: nikaenhishini
+     
+     #Values from slots numbered: 2, 4, 6
+     nika+Dim+Pej+Pret: nikaensishiban
+     nika+Dim+Pej+VocPl: nikaensish***idig, idog***
+     nika+Con+Pej+Pret: nikaenhishiban
+     nika+Con+Pej+VocPl: nikaenhish***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 7
+     nika+Dim+Pej+Obv: nikaensishan
+     nika+Dim+Pej+Pl: nikaensishag
+     nika+Dim+Pej+Loc: nikaensishing
+     nika+Con+Pej+Obv: nikaenhishan
+     nika+Con+Pej+Pl: nikaenhishag
+     nika+Con+Pej+Loc: nikaenhishing
+     
+     #Values from slots numbered: 2, 5, 6
+     nika+Dim+Pos1Pl+Pret: nikaensinaaniban
+     nika+Dim+Pos1Pl+VocPl: nikaensinaan***idig, idog***
+     nika+Dim+PosPl+Pret: nikaensiwaaiban
+     nika+Dim+PosPl+VocPl: nikaensiwaa***idig, idog***
+     nika+Dim+PosObv+Pret: nikaensiniiban
+     nika+Dim+PosObv+VocPl: nikaensini***idig, idog***
+     nika+Con+Pos1Pl+Pret: nikaenhinaaniban
+     nika+Con+Pos1Pl+VocPl: nikaenhinaan***idig, idog***
+     nika+Con+PosPl+Pret: nikaenhiwaaiban
+     nika+Con+PosPl+VocPl: nikaenhiwaa***idig, idog***
+     nika+Con+PosObv+Pret: nikaenhiniiban
+     nika+Con+PosObv+VocPl: nikaenhini***idig, idog***
+     
+     #Values from slots numbered: 2, 5, 7
+     nika+Dim+Pos1Pl+Obv: nikaensinaanan
+     nika+Dim+Pos1Pl+Pl: nikaensinaanag
+     nika+Dim+Pos1Pl+Loc: nikaensinaaning
+     nika+Dim+PosPl+Obv: nikaensiwaaan
+     nika+Dim+PosPl+Pl: nikaensiwaaag
+     nika+Dim+PosPl+Loc: nikaensiwaaing
+     nika+Dim+PosObv+Obv: nikaensinian
+     nika+Dim+PosObv+Pl: nikaensiniag
+     nika+Dim+PosObv+Loc: nikaensiniing
+     nika+Con+Pos1Pl+Obv: nikaenhinaanan
+     nika+Con+Pos1Pl+Pl: nikaenhinaanag
+     nika+Con+Pos1Pl+Loc: nikaenhinaaning
+     nika+Con+PosPl+Obv: nikaenhiwaaan
+     nika+Con+PosPl+Pl: nikaenhiwaaag
+     nika+Con+PosPl+Loc: nikaenhiwaaing
+     nika+Con+PosObv+Obv: nikaenhinian
+     nika+Con+PosObv+Pl: nikaenhiniag
+     nika+Con+PosObv+Loc: nikaenhiniing
+     
+     #Values from slots numbered: 2, 6, 7
+     nika+Dim+Pret+Obv: nikaensibanan
+     nika+Dim+Pret+Pl: nikaensibanag
+     nika+Dim+Pret+Loc: nikaensibaning
+     nika+Dim+VocPl+Obv: nikaens***idig, idog***an
+     nika+Dim+VocPl+Pl: nikaens***idig, idog***ag
+     nika+Dim+VocPl+Loc: nikaens***idig, idog***ing
+     nika+Con+Pret+Obv: nikaenhibanan
+     nika+Con+Pret+Pl: nikaenhibanag
+     nika+Con+Pret+Loc: nikaenhibaning
+     nika+Con+VocPl+Obv: nikaenh***idig, idog***an
+     nika+Con+VocPl+Pl: nikaenh***idig, idog***ag
+     nika+Con+VocPl+Loc: nikaenh***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5
+     nika+Pos+Pej+Pos1Pl: nikaimishinaan
+     nika+Pos+Pej+PosPl: nikaimishiwaa
+     nika+Pos+Pej+PosObv: nikaimishini
+     
+     #Values from slots numbered: 3, 4, 6
+     nika+Pos+Pej+Pret: nikaimishiban
+     nika+Pos+Pej+VocPl: nikaimish***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 7
+     nika+Pos+Pej+Obv: nikaimishan
+     nika+Pos+Pej+Pl: nikaimishag
+     nika+Pos+Pej+Loc: nikaimishing
+     
+     #Values from slots numbered: 3, 5, 6
+     nika+Pos+Pos1Pl+Pret: nikaiminaaniban
+     nika+Pos+Pos1Pl+VocPl: nikaiminaan***idig, idog***
+     nika+Pos+PosPl+Pret: nikaimiwaaiban
+     nika+Pos+PosPl+VocPl: nikaimiwaa***idig, idog***
+     nika+Pos+PosObv+Pret: nikaiminiiban
+     nika+Pos+PosObv+VocPl: nikaimini***idig, idog***
+     
+     #Values from slots numbered: 3, 5, 7
+     nika+Pos+Pos1Pl+Obv: nikaiminaanan
+     nika+Pos+Pos1Pl+Pl: nikaiminaanag
+     nika+Pos+Pos1Pl+Loc: nikaiminaaning
+     nika+Pos+PosPl+Obv: nikaimiwaaan
+     nika+Pos+PosPl+Pl: nikaimiwaaag
+     nika+Pos+PosPl+Loc: nikaimiwaaing
+     nika+Pos+PosObv+Obv: nikaiminian
+     nika+Pos+PosObv+Pl: nikaiminiag
+     nika+Pos+PosObv+Loc: nikaiminiing
+     
+     #Values from slots numbered: 3, 6, 7
+     nika+Pos+Pret+Obv: nikaimibanan
+     nika+Pos+Pret+Pl: nikaimibanag
+     nika+Pos+Pret+Loc: nikaimibaning
+     nika+Pos+VocPl+Obv: nikaim***idig, idog***an
+     nika+Pos+VocPl+Pl: nikaim***idig, idog***ag
+     nika+Pos+VocPl+Loc: nikaim***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6
+     nika+Pej+Pos1Pl+Pret: nikaishinaaniban
+     nika+Pej+Pos1Pl+VocPl: nikaishinaan***idig, idog***
+     nika+Pej+PosPl+Pret: nikaishiwaaiban
+     nika+Pej+PosPl+VocPl: nikaishiwaa***idig, idog***
+     nika+Pej+PosObv+Pret: nikaishiniiban
+     nika+Pej+PosObv+VocPl: nikaishini***idig, idog***
+     
+     #Values from slots numbered: 4, 5, 7
+     nika+Pej+Pos1Pl+Obv: nikaishinaanan
+     nika+Pej+Pos1Pl+Pl: nikaishinaanag
+     nika+Pej+Pos1Pl+Loc: nikaishinaaning
+     nika+Pej+PosPl+Obv: nikaishiwaaan
+     nika+Pej+PosPl+Pl: nikaishiwaaag
+     nika+Pej+PosPl+Loc: nikaishiwaaing
+     nika+Pej+PosObv+Obv: nikaishinian
+     nika+Pej+PosObv+Pl: nikaishiniag
+     nika+Pej+PosObv+Loc: nikaishiniing
+     
+     #Values from slots numbered: 4, 6, 7
+     nika+Pej+Pret+Obv: nikaishibanan
+     nika+Pej+Pret+Pl: nikaishibanag
+     nika+Pej+Pret+Loc: nikaishibaning
+     nika+Pej+VocPl+Obv: nikaish***idig, idog***an
+     nika+Pej+VocPl+Pl: nikaish***idig, idog***ag
+     nika+Pej+VocPl+Loc: nikaish***idig, idog***ing
+     
+     #Values from slots numbered: 5, 6, 7
+     nika+Pos1Pl+Pret+Obv: nikainaanibanan
+     nika+Pos1Pl+Pret+Pl: nikainaanibanag
+     nika+Pos1Pl+Pret+Loc: nikainaanibaning
+     nika+Pos1Pl+VocPl+Obv: nikainaan***idig, idog***an
+     nika+Pos1Pl+VocPl+Pl: nikainaan***idig, idog***ag
+     nika+Pos1Pl+VocPl+Loc: nikainaan***idig, idog***ing
+     nika+PosPl+Pret+Obv: nikaiwaaibanan
+     nika+PosPl+Pret+Pl: nikaiwaaibanag
+     nika+PosPl+Pret+Loc: nikaiwaaibaning
+     nika+PosPl+VocPl+Obv: nikaiwaa***idig, idog***an
+     nika+PosPl+VocPl+Pl: nikaiwaa***idig, idog***ag
+     nika+PosPl+VocPl+Loc: nikaiwaa***idig, idog***ing
+     nika+PosObv+Pret+Obv: nikainiibanan
+     nika+PosObv+Pret+Pl: nikainiibanag
+     nika+PosObv+Pret+Loc: nikainiibaning
+     nika+PosObv+VocPl+Obv: nikaini***idig, idog***an
+     nika+PosObv+VocPl+Pl: nikaini***idig, idog***ag
+     nika+PosObv+VocPl+Loc: nikaini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     +Px1nika+Dim+Pos+Pej: ninikaensimish
+     +Px1nika+Con+Pos+Pej: ninikaenhimish
+     +Px2nika+Dim+Pos+Pej: ginikaensimish
+     +Px2nika+Con+Pos+Pej: ginikaenhimish
+     +Px3nika+Dim+Pos+Pej: onikaensimish
+     +Px3nika+Con+Pos+Pej: onikaenhimish
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     +Px1nika+Dim+Pos+Pos1Pl: ninikaensiminaan
+     +Px1nika+Dim+Pos+PosPl: ninikaensimiwaa
+     +Px1nika+Dim+Pos+PosObv: ninikaensimini
+     +Px1nika+Con+Pos+Pos1Pl: ninikaenhiminaan
+     +Px1nika+Con+Pos+PosPl: ninikaenhimiwaa
+     +Px1nika+Con+Pos+PosObv: ninikaenhimini
+     +Px2nika+Dim+Pos+Pos1Pl: ginikaensiminaan
+     +Px2nika+Dim+Pos+PosPl: ginikaensimiwaa
+     +Px2nika+Dim+Pos+PosObv: ginikaensimini
+     +Px2nika+Con+Pos+Pos1Pl: ginikaenhiminaan
+     +Px2nika+Con+Pos+PosPl: ginikaenhimiwaa
+     +Px2nika+Con+Pos+PosObv: ginikaenhimini
+     +Px3nika+Dim+Pos+Pos1Pl: onikaensiminaan
+     +Px3nika+Dim+Pos+PosPl: onikaensimiwaa
+     +Px3nika+Dim+Pos+PosObv: onikaensimini
+     +Px3nika+Con+Pos+Pos1Pl: onikaenhiminaan
+     +Px3nika+Con+Pos+PosPl: onikaenhimiwaa
+     +Px3nika+Con+Pos+PosObv: onikaenhimini
+     
+     #Values from slots numbered: 1, 2, 3, 6
+     +Px1nika+Dim+Pos+Pret: ninikaensimiban
+     +Px1nika+Dim+Pos+VocPl: ninikaensim***idig, idog***
+     +Px1nika+Con+Pos+Pret: ninikaenhimiban
+     +Px1nika+Con+Pos+VocPl: ninikaenhim***idig, idog***
+     +Px2nika+Dim+Pos+Pret: ginikaensimiban
+     +Px2nika+Dim+Pos+VocPl: ginikaensim***idig, idog***
+     +Px2nika+Con+Pos+Pret: ginikaenhimiban
+     +Px2nika+Con+Pos+VocPl: ginikaenhim***idig, idog***
+     +Px3nika+Dim+Pos+Pret: onikaensimiban
+     +Px3nika+Dim+Pos+VocPl: onikaensim***idig, idog***
+     +Px3nika+Con+Pos+Pret: onikaenhimiban
+     +Px3nika+Con+Pos+VocPl: onikaenhim***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 7
+     +Px1nika+Dim+Pos+Obv: ninikaensiman
+     +Px1nika+Dim+Pos+Pl: ninikaensimag
+     +Px1nika+Dim+Pos+Loc: ninikaensiming
+     +Px1nika+Con+Pos+Obv: ninikaenhiman
+     +Px1nika+Con+Pos+Pl: ninikaenhimag
+     +Px1nika+Con+Pos+Loc: ninikaenhiming
+     +Px2nika+Dim+Pos+Obv: ginikaensiman
+     +Px2nika+Dim+Pos+Pl: ginikaensimag
+     +Px2nika+Dim+Pos+Loc: ginikaensiming
+     +Px2nika+Con+Pos+Obv: ginikaenhiman
+     +Px2nika+Con+Pos+Pl: ginikaenhimag
+     +Px2nika+Con+Pos+Loc: ginikaenhiming
+     +Px3nika+Dim+Pos+Obv: onikaensiman
+     +Px3nika+Dim+Pos+Pl: onikaensimag
+     +Px3nika+Dim+Pos+Loc: onikaensiming
+     +Px3nika+Con+Pos+Obv: onikaenhiman
+     +Px3nika+Con+Pos+Pl: onikaenhimag
+     +Px3nika+Con+Pos+Loc: onikaenhiming
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     +Px1nika+Dim+Pej+Pos1Pl: ninikaensishinaan
+     +Px1nika+Dim+Pej+PosPl: ninikaensishiwaa
+     +Px1nika+Dim+Pej+PosObv: ninikaensishini
+     +Px1nika+Con+Pej+Pos1Pl: ninikaenhishinaan
+     +Px1nika+Con+Pej+PosPl: ninikaenhishiwaa
+     +Px1nika+Con+Pej+PosObv: ninikaenhishini
+     +Px2nika+Dim+Pej+Pos1Pl: ginikaensishinaan
+     +Px2nika+Dim+Pej+PosPl: ginikaensishiwaa
+     +Px2nika+Dim+Pej+PosObv: ginikaensishini
+     +Px2nika+Con+Pej+Pos1Pl: ginikaenhishinaan
+     +Px2nika+Con+Pej+PosPl: ginikaenhishiwaa
+     +Px2nika+Con+Pej+PosObv: ginikaenhishini
+     +Px3nika+Dim+Pej+Pos1Pl: onikaensishinaan
+     +Px3nika+Dim+Pej+PosPl: onikaensishiwaa
+     +Px3nika+Dim+Pej+PosObv: onikaensishini
+     +Px3nika+Con+Pej+Pos1Pl: onikaenhishinaan
+     +Px3nika+Con+Pej+PosPl: onikaenhishiwaa
+     +Px3nika+Con+Pej+PosObv: onikaenhishini
+     
+     #Values from slots numbered: 1, 2, 4, 6
+     +Px1nika+Dim+Pej+Pret: ninikaensishiban
+     +Px1nika+Dim+Pej+VocPl: ninikaensish***idig, idog***
+     +Px1nika+Con+Pej+Pret: ninikaenhishiban
+     +Px1nika+Con+Pej+VocPl: ninikaenhish***idig, idog***
+     +Px2nika+Dim+Pej+Pret: ginikaensishiban
+     +Px2nika+Dim+Pej+VocPl: ginikaensish***idig, idog***
+     +Px2nika+Con+Pej+Pret: ginikaenhishiban
+     +Px2nika+Con+Pej+VocPl: ginikaenhish***idig, idog***
+     +Px3nika+Dim+Pej+Pret: onikaensishiban
+     +Px3nika+Dim+Pej+VocPl: onikaensish***idig, idog***
+     +Px3nika+Con+Pej+Pret: onikaenhishiban
+     +Px3nika+Con+Pej+VocPl: onikaenhish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 7
+     +Px1nika+Dim+Pej+Obv: ninikaensishan
+     +Px1nika+Dim+Pej+Pl: ninikaensishag
+     +Px1nika+Dim+Pej+Loc: ninikaensishing
+     +Px1nika+Con+Pej+Obv: ninikaenhishan
+     +Px1nika+Con+Pej+Pl: ninikaenhishag
+     +Px1nika+Con+Pej+Loc: ninikaenhishing
+     +Px2nika+Dim+Pej+Obv: ginikaensishan
+     +Px2nika+Dim+Pej+Pl: ginikaensishag
+     +Px2nika+Dim+Pej+Loc: ginikaensishing
+     +Px2nika+Con+Pej+Obv: ginikaenhishan
+     +Px2nika+Con+Pej+Pl: ginikaenhishag
+     +Px2nika+Con+Pej+Loc: ginikaenhishing
+     +Px3nika+Dim+Pej+Obv: onikaensishan
+     +Px3nika+Dim+Pej+Pl: onikaensishag
+     +Px3nika+Dim+Pej+Loc: onikaensishing
+     +Px3nika+Con+Pej+Obv: onikaenhishan
+     +Px3nika+Con+Pej+Pl: onikaenhishag
+     +Px3nika+Con+Pej+Loc: onikaenhishing
+     
+     #Values from slots numbered: 1, 2, 5, 6
+     +Px1nika+Dim+Pos1Pl+Pret: ninikaensinaaniban
+     +Px1nika+Dim+Pos1Pl+VocPl: ninikaensinaan***idig, idog***
+     +Px1nika+Dim+PosPl+Pret: ninikaensiwaaiban
+     +Px1nika+Dim+PosPl+VocPl: ninikaensiwaa***idig, idog***
+     +Px1nika+Dim+PosObv+Pret: ninikaensiniiban
+     +Px1nika+Dim+PosObv+VocPl: ninikaensini***idig, idog***
+     +Px1nika+Con+Pos1Pl+Pret: ninikaenhinaaniban
+     +Px1nika+Con+Pos1Pl+VocPl: ninikaenhinaan***idig, idog***
+     +Px1nika+Con+PosPl+Pret: ninikaenhiwaaiban
+     +Px1nika+Con+PosPl+VocPl: ninikaenhiwaa***idig, idog***
+     +Px1nika+Con+PosObv+Pret: ninikaenhiniiban
+     +Px1nika+Con+PosObv+VocPl: ninikaenhini***idig, idog***
+     +Px2nika+Dim+Pos1Pl+Pret: ginikaensinaaniban
+     +Px2nika+Dim+Pos1Pl+VocPl: ginikaensinaan***idig, idog***
+     +Px2nika+Dim+PosPl+Pret: ginikaensiwaaiban
+     +Px2nika+Dim+PosPl+VocPl: ginikaensiwaa***idig, idog***
+     +Px2nika+Dim+PosObv+Pret: ginikaensiniiban
+     +Px2nika+Dim+PosObv+VocPl: ginikaensini***idig, idog***
+     +Px2nika+Con+Pos1Pl+Pret: ginikaenhinaaniban
+     +Px2nika+Con+Pos1Pl+VocPl: ginikaenhinaan***idig, idog***
+     +Px2nika+Con+PosPl+Pret: ginikaenhiwaaiban
+     +Px2nika+Con+PosPl+VocPl: ginikaenhiwaa***idig, idog***
+     +Px2nika+Con+PosObv+Pret: ginikaenhiniiban
+     +Px2nika+Con+PosObv+VocPl: ginikaenhini***idig, idog***
+     +Px3nika+Dim+Pos1Pl+Pret: onikaensinaaniban
+     +Px3nika+Dim+Pos1Pl+VocPl: onikaensinaan***idig, idog***
+     +Px3nika+Dim+PosPl+Pret: onikaensiwaaiban
+     +Px3nika+Dim+PosPl+VocPl: onikaensiwaa***idig, idog***
+     +Px3nika+Dim+PosObv+Pret: onikaensiniiban
+     +Px3nika+Dim+PosObv+VocPl: onikaensini***idig, idog***
+     +Px3nika+Con+Pos1Pl+Pret: onikaenhinaaniban
+     +Px3nika+Con+Pos1Pl+VocPl: onikaenhinaan***idig, idog***
+     +Px3nika+Con+PosPl+Pret: onikaenhiwaaiban
+     +Px3nika+Con+PosPl+VocPl: onikaenhiwaa***idig, idog***
+     +Px3nika+Con+PosObv+Pret: onikaenhiniiban
+     +Px3nika+Con+PosObv+VocPl: onikaenhini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 5, 7
+     +Px1nika+Dim+Pos1Pl+Obv: ninikaensinaanan
+     +Px1nika+Dim+Pos1Pl+Pl: ninikaensinaanag
+     +Px1nika+Dim+Pos1Pl+Loc: ninikaensinaaning
+     +Px1nika+Dim+PosPl+Obv: ninikaensiwaaan
+     +Px1nika+Dim+PosPl+Pl: ninikaensiwaaag
+     +Px1nika+Dim+PosPl+Loc: ninikaensiwaaing
+     +Px1nika+Dim+PosObv+Obv: ninikaensinian
+     +Px1nika+Dim+PosObv+Pl: ninikaensiniag
+     +Px1nika+Dim+PosObv+Loc: ninikaensiniing
+     +Px1nika+Con+Pos1Pl+Obv: ninikaenhinaanan
+     +Px1nika+Con+Pos1Pl+Pl: ninikaenhinaanag
+     +Px1nika+Con+Pos1Pl+Loc: ninikaenhinaaning
+     +Px1nika+Con+PosPl+Obv: ninikaenhiwaaan
+     +Px1nika+Con+PosPl+Pl: ninikaenhiwaaag
+     +Px1nika+Con+PosPl+Loc: ninikaenhiwaaing
+     +Px1nika+Con+PosObv+Obv: ninikaenhinian
+     +Px1nika+Con+PosObv+Pl: ninikaenhiniag
+     +Px1nika+Con+PosObv+Loc: ninikaenhiniing
+     +Px2nika+Dim+Pos1Pl+Obv: ginikaensinaanan
+     +Px2nika+Dim+Pos1Pl+Pl: ginikaensinaanag
+     +Px2nika+Dim+Pos1Pl+Loc: ginikaensinaaning
+     +Px2nika+Dim+PosPl+Obv: ginikaensiwaaan
+     +Px2nika+Dim+PosPl+Pl: ginikaensiwaaag
+     +Px2nika+Dim+PosPl+Loc: ginikaensiwaaing
+     +Px2nika+Dim+PosObv+Obv: ginikaensinian
+     +Px2nika+Dim+PosObv+Pl: ginikaensiniag
+     +Px2nika+Dim+PosObv+Loc: ginikaensiniing
+     +Px2nika+Con+Pos1Pl+Obv: ginikaenhinaanan
+     +Px2nika+Con+Pos1Pl+Pl: ginikaenhinaanag
+     +Px2nika+Con+Pos1Pl+Loc: ginikaenhinaaning
+     +Px2nika+Con+PosPl+Obv: ginikaenhiwaaan
+     +Px2nika+Con+PosPl+Pl: ginikaenhiwaaag
+     +Px2nika+Con+PosPl+Loc: ginikaenhiwaaing
+     +Px2nika+Con+PosObv+Obv: ginikaenhinian
+     +Px2nika+Con+PosObv+Pl: ginikaenhiniag
+     +Px2nika+Con+PosObv+Loc: ginikaenhiniing
+     +Px3nika+Dim+Pos1Pl+Obv: onikaensinaanan
+     +Px3nika+Dim+Pos1Pl+Pl: onikaensinaanag
+     +Px3nika+Dim+Pos1Pl+Loc: onikaensinaaning
+     +Px3nika+Dim+PosPl+Obv: onikaensiwaaan
+     +Px3nika+Dim+PosPl+Pl: onikaensiwaaag
+     +Px3nika+Dim+PosPl+Loc: onikaensiwaaing
+     +Px3nika+Dim+PosObv+Obv: onikaensinian
+     +Px3nika+Dim+PosObv+Pl: onikaensiniag
+     +Px3nika+Dim+PosObv+Loc: onikaensiniing
+     +Px3nika+Con+Pos1Pl+Obv: onikaenhinaanan
+     +Px3nika+Con+Pos1Pl+Pl: onikaenhinaanag
+     +Px3nika+Con+Pos1Pl+Loc: onikaenhinaaning
+     +Px3nika+Con+PosPl+Obv: onikaenhiwaaan
+     +Px3nika+Con+PosPl+Pl: onikaenhiwaaag
+     +Px3nika+Con+PosPl+Loc: onikaenhiwaaing
+     +Px3nika+Con+PosObv+Obv: onikaenhinian
+     +Px3nika+Con+PosObv+Pl: onikaenhiniag
+     +Px3nika+Con+PosObv+Loc: onikaenhiniing
+     
+     #Values from slots numbered: 1, 2, 6, 7
+     +Px1nika+Dim+Pret+Obv: ninikaensibanan
+     +Px1nika+Dim+Pret+Pl: ninikaensibanag
+     +Px1nika+Dim+Pret+Loc: ninikaensibaning
+     +Px1nika+Dim+VocPl+Obv: ninikaens***idig, idog***an
+     +Px1nika+Dim+VocPl+Pl: ninikaens***idig, idog***ag
+     +Px1nika+Dim+VocPl+Loc: ninikaens***idig, idog***ing
+     +Px1nika+Con+Pret+Obv: ninikaenhibanan
+     +Px1nika+Con+Pret+Pl: ninikaenhibanag
+     +Px1nika+Con+Pret+Loc: ninikaenhibaning
+     +Px1nika+Con+VocPl+Obv: ninikaenh***idig, idog***an
+     +Px1nika+Con+VocPl+Pl: ninikaenh***idig, idog***ag
+     +Px1nika+Con+VocPl+Loc: ninikaenh***idig, idog***ing
+     +Px2nika+Dim+Pret+Obv: ginikaensibanan
+     +Px2nika+Dim+Pret+Pl: ginikaensibanag
+     +Px2nika+Dim+Pret+Loc: ginikaensibaning
+     +Px2nika+Dim+VocPl+Obv: ginikaens***idig, idog***an
+     +Px2nika+Dim+VocPl+Pl: ginikaens***idig, idog***ag
+     +Px2nika+Dim+VocPl+Loc: ginikaens***idig, idog***ing
+     +Px2nika+Con+Pret+Obv: ginikaenhibanan
+     +Px2nika+Con+Pret+Pl: ginikaenhibanag
+     +Px2nika+Con+Pret+Loc: ginikaenhibaning
+     +Px2nika+Con+VocPl+Obv: ginikaenh***idig, idog***an
+     +Px2nika+Con+VocPl+Pl: ginikaenh***idig, idog***ag
+     +Px2nika+Con+VocPl+Loc: ginikaenh***idig, idog***ing
+     +Px3nika+Dim+Pret+Obv: onikaensibanan
+     +Px3nika+Dim+Pret+Pl: onikaensibanag
+     +Px3nika+Dim+Pret+Loc: onikaensibaning
+     +Px3nika+Dim+VocPl+Obv: onikaens***idig, idog***an
+     +Px3nika+Dim+VocPl+Pl: onikaens***idig, idog***ag
+     +Px3nika+Dim+VocPl+Loc: onikaens***idig, idog***ing
+     +Px3nika+Con+Pret+Obv: onikaenhibanan
+     +Px3nika+Con+Pret+Pl: onikaenhibanag
+     +Px3nika+Con+Pret+Loc: onikaenhibaning
+     +Px3nika+Con+VocPl+Obv: onikaenh***idig, idog***an
+     +Px3nika+Con+VocPl+Pl: onikaenh***idig, idog***ag
+     +Px3nika+Con+VocPl+Loc: onikaenh***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     +Px1nika+Pos+Pej+Pos1Pl: ninikaimishinaan
+     +Px1nika+Pos+Pej+PosPl: ninikaimishiwaa
+     +Px1nika+Pos+Pej+PosObv: ninikaimishini
+     +Px2nika+Pos+Pej+Pos1Pl: ginikaimishinaan
+     +Px2nika+Pos+Pej+PosPl: ginikaimishiwaa
+     +Px2nika+Pos+Pej+PosObv: ginikaimishini
+     +Px3nika+Pos+Pej+Pos1Pl: onikaimishinaan
+     +Px3nika+Pos+Pej+PosPl: onikaimishiwaa
+     +Px3nika+Pos+Pej+PosObv: onikaimishini
+     
+     #Values from slots numbered: 1, 3, 4, 6
+     +Px1nika+Pos+Pej+Pret: ninikaimishiban
+     +Px1nika+Pos+Pej+VocPl: ninikaimish***idig, idog***
+     +Px2nika+Pos+Pej+Pret: ginikaimishiban
+     +Px2nika+Pos+Pej+VocPl: ginikaimish***idig, idog***
+     +Px3nika+Pos+Pej+Pret: onikaimishiban
+     +Px3nika+Pos+Pej+VocPl: onikaimish***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 7
+     +Px1nika+Pos+Pej+Obv: ninikaimishan
+     +Px1nika+Pos+Pej+Pl: ninikaimishag
+     +Px1nika+Pos+Pej+Loc: ninikaimishing
+     +Px2nika+Pos+Pej+Obv: ginikaimishan
+     +Px2nika+Pos+Pej+Pl: ginikaimishag
+     +Px2nika+Pos+Pej+Loc: ginikaimishing
+     +Px3nika+Pos+Pej+Obv: onikaimishan
+     +Px3nika+Pos+Pej+Pl: onikaimishag
+     +Px3nika+Pos+Pej+Loc: onikaimishing
+     
+     #Values from slots numbered: 1, 3, 5, 6
+     +Px1nika+Pos+Pos1Pl+Pret: ninikaiminaaniban
+     +Px1nika+Pos+Pos1Pl+VocPl: ninikaiminaan***idig, idog***
+     +Px1nika+Pos+PosPl+Pret: ninikaimiwaaiban
+     +Px1nika+Pos+PosPl+VocPl: ninikaimiwaa***idig, idog***
+     +Px1nika+Pos+PosObv+Pret: ninikaiminiiban
+     +Px1nika+Pos+PosObv+VocPl: ninikaimini***idig, idog***
+     +Px2nika+Pos+Pos1Pl+Pret: ginikaiminaaniban
+     +Px2nika+Pos+Pos1Pl+VocPl: ginikaiminaan***idig, idog***
+     +Px2nika+Pos+PosPl+Pret: ginikaimiwaaiban
+     +Px2nika+Pos+PosPl+VocPl: ginikaimiwaa***idig, idog***
+     +Px2nika+Pos+PosObv+Pret: ginikaiminiiban
+     +Px2nika+Pos+PosObv+VocPl: ginikaimini***idig, idog***
+     +Px3nika+Pos+Pos1Pl+Pret: onikaiminaaniban
+     +Px3nika+Pos+Pos1Pl+VocPl: onikaiminaan***idig, idog***
+     +Px3nika+Pos+PosPl+Pret: onikaimiwaaiban
+     +Px3nika+Pos+PosPl+VocPl: onikaimiwaa***idig, idog***
+     +Px3nika+Pos+PosObv+Pret: onikaiminiiban
+     +Px3nika+Pos+PosObv+VocPl: onikaimini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 5, 7
+     +Px1nika+Pos+Pos1Pl+Obv: ninikaiminaanan
+     +Px1nika+Pos+Pos1Pl+Pl: ninikaiminaanag
+     +Px1nika+Pos+Pos1Pl+Loc: ninikaiminaaning
+     +Px1nika+Pos+PosPl+Obv: ninikaimiwaaan
+     +Px1nika+Pos+PosPl+Pl: ninikaimiwaaag
+     +Px1nika+Pos+PosPl+Loc: ninikaimiwaaing
+     +Px1nika+Pos+PosObv+Obv: ninikaiminian
+     +Px1nika+Pos+PosObv+Pl: ninikaiminiag
+     +Px1nika+Pos+PosObv+Loc: ninikaiminiing
+     +Px2nika+Pos+Pos1Pl+Obv: ginikaiminaanan
+     +Px2nika+Pos+Pos1Pl+Pl: ginikaiminaanag
+     +Px2nika+Pos+Pos1Pl+Loc: ginikaiminaaning
+     +Px2nika+Pos+PosPl+Obv: ginikaimiwaaan
+     +Px2nika+Pos+PosPl+Pl: ginikaimiwaaag
+     +Px2nika+Pos+PosPl+Loc: ginikaimiwaaing
+     +Px2nika+Pos+PosObv+Obv: ginikaiminian
+     +Px2nika+Pos+PosObv+Pl: ginikaiminiag
+     +Px2nika+Pos+PosObv+Loc: ginikaiminiing
+     +Px3nika+Pos+Pos1Pl+Obv: onikaiminaanan
+     +Px3nika+Pos+Pos1Pl+Pl: onikaiminaanag
+     +Px3nika+Pos+Pos1Pl+Loc: onikaiminaaning
+     +Px3nika+Pos+PosPl+Obv: onikaimiwaaan
+     +Px3nika+Pos+PosPl+Pl: onikaimiwaaag
+     +Px3nika+Pos+PosPl+Loc: onikaimiwaaing
+     +Px3nika+Pos+PosObv+Obv: onikaiminian
+     +Px3nika+Pos+PosObv+Pl: onikaiminiag
+     +Px3nika+Pos+PosObv+Loc: onikaiminiing
+     
+     #Values from slots numbered: 1, 3, 6, 7
+     +Px1nika+Pos+Pret+Obv: ninikaimibanan
+     +Px1nika+Pos+Pret+Pl: ninikaimibanag
+     +Px1nika+Pos+Pret+Loc: ninikaimibaning
+     +Px1nika+Pos+VocPl+Obv: ninikaim***idig, idog***an
+     +Px1nika+Pos+VocPl+Pl: ninikaim***idig, idog***ag
+     +Px1nika+Pos+VocPl+Loc: ninikaim***idig, idog***ing
+     +Px2nika+Pos+Pret+Obv: ginikaimibanan
+     +Px2nika+Pos+Pret+Pl: ginikaimibanag
+     +Px2nika+Pos+Pret+Loc: ginikaimibaning
+     +Px2nika+Pos+VocPl+Obv: ginikaim***idig, idog***an
+     +Px2nika+Pos+VocPl+Pl: ginikaim***idig, idog***ag
+     +Px2nika+Pos+VocPl+Loc: ginikaim***idig, idog***ing
+     +Px3nika+Pos+Pret+Obv: onikaimibanan
+     +Px3nika+Pos+Pret+Pl: onikaimibanag
+     +Px3nika+Pos+Pret+Loc: onikaimibaning
+     +Px3nika+Pos+VocPl+Obv: onikaim***idig, idog***an
+     +Px3nika+Pos+VocPl+Pl: onikaim***idig, idog***ag
+     +Px3nika+Pos+VocPl+Loc: onikaim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6
+     +Px1nika+Pej+Pos1Pl+Pret: ninikaishinaaniban
+     +Px1nika+Pej+Pos1Pl+VocPl: ninikaishinaan***idig, idog***
+     +Px1nika+Pej+PosPl+Pret: ninikaishiwaaiban
+     +Px1nika+Pej+PosPl+VocPl: ninikaishiwaa***idig, idog***
+     +Px1nika+Pej+PosObv+Pret: ninikaishiniiban
+     +Px1nika+Pej+PosObv+VocPl: ninikaishini***idig, idog***
+     +Px2nika+Pej+Pos1Pl+Pret: ginikaishinaaniban
+     +Px2nika+Pej+Pos1Pl+VocPl: ginikaishinaan***idig, idog***
+     +Px2nika+Pej+PosPl+Pret: ginikaishiwaaiban
+     +Px2nika+Pej+PosPl+VocPl: ginikaishiwaa***idig, idog***
+     +Px2nika+Pej+PosObv+Pret: ginikaishiniiban
+     +Px2nika+Pej+PosObv+VocPl: ginikaishini***idig, idog***
+     +Px3nika+Pej+Pos1Pl+Pret: onikaishinaaniban
+     +Px3nika+Pej+Pos1Pl+VocPl: onikaishinaan***idig, idog***
+     +Px3nika+Pej+PosPl+Pret: onikaishiwaaiban
+     +Px3nika+Pej+PosPl+VocPl: onikaishiwaa***idig, idog***
+     +Px3nika+Pej+PosObv+Pret: onikaishiniiban
+     +Px3nika+Pej+PosObv+VocPl: onikaishini***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 5, 7
+     +Px1nika+Pej+Pos1Pl+Obv: ninikaishinaanan
+     +Px1nika+Pej+Pos1Pl+Pl: ninikaishinaanag
+     +Px1nika+Pej+Pos1Pl+Loc: ninikaishinaaning
+     +Px1nika+Pej+PosPl+Obv: ninikaishiwaaan
+     +Px1nika+Pej+PosPl+Pl: ninikaishiwaaag
+     +Px1nika+Pej+PosPl+Loc: ninikaishiwaaing
+     +Px1nika+Pej+PosObv+Obv: ninikaishinian
+     +Px1nika+Pej+PosObv+Pl: ninikaishiniag
+     +Px1nika+Pej+PosObv+Loc: ninikaishiniing
+     +Px2nika+Pej+Pos1Pl+Obv: ginikaishinaanan
+     +Px2nika+Pej+Pos1Pl+Pl: ginikaishinaanag
+     +Px2nika+Pej+Pos1Pl+Loc: ginikaishinaaning
+     +Px2nika+Pej+PosPl+Obv: ginikaishiwaaan
+     +Px2nika+Pej+PosPl+Pl: ginikaishiwaaag
+     +Px2nika+Pej+PosPl+Loc: ginikaishiwaaing
+     +Px2nika+Pej+PosObv+Obv: ginikaishinian
+     +Px2nika+Pej+PosObv+Pl: ginikaishiniag
+     +Px2nika+Pej+PosObv+Loc: ginikaishiniing
+     +Px3nika+Pej+Pos1Pl+Obv: onikaishinaanan
+     +Px3nika+Pej+Pos1Pl+Pl: onikaishinaanag
+     +Px3nika+Pej+Pos1Pl+Loc: onikaishinaaning
+     +Px3nika+Pej+PosPl+Obv: onikaishiwaaan
+     +Px3nika+Pej+PosPl+Pl: onikaishiwaaag
+     +Px3nika+Pej+PosPl+Loc: onikaishiwaaing
+     +Px3nika+Pej+PosObv+Obv: onikaishinian
+     +Px3nika+Pej+PosObv+Pl: onikaishiniag
+     +Px3nika+Pej+PosObv+Loc: onikaishiniing
+     
+     #Values from slots numbered: 1, 4, 6, 7
+     +Px1nika+Pej+Pret+Obv: ninikaishibanan
+     +Px1nika+Pej+Pret+Pl: ninikaishibanag
+     +Px1nika+Pej+Pret+Loc: ninikaishibaning
+     +Px1nika+Pej+VocPl+Obv: ninikaish***idig, idog***an
+     +Px1nika+Pej+VocPl+Pl: ninikaish***idig, idog***ag
+     +Px1nika+Pej+VocPl+Loc: ninikaish***idig, idog***ing
+     +Px2nika+Pej+Pret+Obv: ginikaishibanan
+     +Px2nika+Pej+Pret+Pl: ginikaishibanag
+     +Px2nika+Pej+Pret+Loc: ginikaishibaning
+     +Px2nika+Pej+VocPl+Obv: ginikaish***idig, idog***an
+     +Px2nika+Pej+VocPl+Pl: ginikaish***idig, idog***ag
+     +Px2nika+Pej+VocPl+Loc: ginikaish***idig, idog***ing
+     +Px3nika+Pej+Pret+Obv: onikaishibanan
+     +Px3nika+Pej+Pret+Pl: onikaishibanag
+     +Px3nika+Pej+Pret+Loc: onikaishibaning
+     +Px3nika+Pej+VocPl+Obv: onikaish***idig, idog***an
+     +Px3nika+Pej+VocPl+Pl: onikaish***idig, idog***ag
+     +Px3nika+Pej+VocPl+Loc: onikaish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 5, 6, 7
+     +Px1nika+Pos1Pl+Pret+Obv: ninikainaanibanan
+     +Px1nika+Pos1Pl+Pret+Pl: ninikainaanibanag
+     +Px1nika+Pos1Pl+Pret+Loc: ninikainaanibaning
+     +Px1nika+Pos1Pl+VocPl+Obv: ninikainaan***idig, idog***an
+     +Px1nika+Pos1Pl+VocPl+Pl: ninikainaan***idig, idog***ag
+     +Px1nika+Pos1Pl+VocPl+Loc: ninikainaan***idig, idog***ing
+     +Px1nika+PosPl+Pret+Obv: ninikaiwaaibanan
+     +Px1nika+PosPl+Pret+Pl: ninikaiwaaibanag
+     +Px1nika+PosPl+Pret+Loc: ninikaiwaaibaning
+     +Px1nika+PosPl+VocPl+Obv: ninikaiwaa***idig, idog***an
+     +Px1nika+PosPl+VocPl+Pl: ninikaiwaa***idig, idog***ag
+     +Px1nika+PosPl+VocPl+Loc: ninikaiwaa***idig, idog***ing
+     +Px1nika+PosObv+Pret+Obv: ninikainiibanan
+     +Px1nika+PosObv+Pret+Pl: ninikainiibanag
+     +Px1nika+PosObv+Pret+Loc: ninikainiibaning
+     +Px1nika+PosObv+VocPl+Obv: ninikaini***idig, idog***an
+     +Px1nika+PosObv+VocPl+Pl: ninikaini***idig, idog***ag
+     +Px1nika+PosObv+VocPl+Loc: ninikaini***idig, idog***ing
+     +Px2nika+Pos1Pl+Pret+Obv: ginikainaanibanan
+     +Px2nika+Pos1Pl+Pret+Pl: ginikainaanibanag
+     +Px2nika+Pos1Pl+Pret+Loc: ginikainaanibaning
+     +Px2nika+Pos1Pl+VocPl+Obv: ginikainaan***idig, idog***an
+     +Px2nika+Pos1Pl+VocPl+Pl: ginikainaan***idig, idog***ag
+     +Px2nika+Pos1Pl+VocPl+Loc: ginikainaan***idig, idog***ing
+     +Px2nika+PosPl+Pret+Obv: ginikaiwaaibanan
+     +Px2nika+PosPl+Pret+Pl: ginikaiwaaibanag
+     +Px2nika+PosPl+Pret+Loc: ginikaiwaaibaning
+     +Px2nika+PosPl+VocPl+Obv: ginikaiwaa***idig, idog***an
+     +Px2nika+PosPl+VocPl+Pl: ginikaiwaa***idig, idog***ag
+     +Px2nika+PosPl+VocPl+Loc: ginikaiwaa***idig, idog***ing
+     +Px2nika+PosObv+Pret+Obv: ginikainiibanan
+     +Px2nika+PosObv+Pret+Pl: ginikainiibanag
+     +Px2nika+PosObv+Pret+Loc: ginikainiibaning
+     +Px2nika+PosObv+VocPl+Obv: ginikaini***idig, idog***an
+     +Px2nika+PosObv+VocPl+Pl: ginikaini***idig, idog***ag
+     +Px2nika+PosObv+VocPl+Loc: ginikaini***idig, idog***ing
+     +Px3nika+Pos1Pl+Pret+Obv: onikainaanibanan
+     +Px3nika+Pos1Pl+Pret+Pl: onikainaanibanag
+     +Px3nika+Pos1Pl+Pret+Loc: onikainaanibaning
+     +Px3nika+Pos1Pl+VocPl+Obv: onikainaan***idig, idog***an
+     +Px3nika+Pos1Pl+VocPl+Pl: onikainaan***idig, idog***ag
+     +Px3nika+Pos1Pl+VocPl+Loc: onikainaan***idig, idog***ing
+     +Px3nika+PosPl+Pret+Obv: onikaiwaaibanan
+     +Px3nika+PosPl+Pret+Pl: onikaiwaaibanag
+     +Px3nika+PosPl+Pret+Loc: onikaiwaaibaning
+     +Px3nika+PosPl+VocPl+Obv: onikaiwaa***idig, idog***an
+     +Px3nika+PosPl+VocPl+Pl: onikaiwaa***idig, idog***ag
+     +Px3nika+PosPl+VocPl+Loc: onikaiwaa***idig, idog***ing
+     +Px3nika+PosObv+Pret+Obv: onikainiibanan
+     +Px3nika+PosObv+Pret+Pl: onikainiibanag
+     +Px3nika+PosObv+Pret+Loc: onikainiibaning
+     +Px3nika+PosObv+VocPl+Obv: onikaini***idig, idog***an
+     +Px3nika+PosObv+VocPl+Pl: onikaini***idig, idog***ag
+     +Px3nika+PosObv+VocPl+Loc: onikaini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     nika+Dim+Pos+Pej+Pos1Pl: nikaensimishinaan
+     nika+Dim+Pos+Pej+PosPl: nikaensimishiwaa
+     nika+Dim+Pos+Pej+PosObv: nikaensimishini
+     nika+Con+Pos+Pej+Pos1Pl: nikaenhimishinaan
+     nika+Con+Pos+Pej+PosPl: nikaenhimishiwaa
+     nika+Con+Pos+Pej+PosObv: nikaenhimishini
+     
+     #Values from slots numbered: 2, 3, 4, 6
+     nika+Dim+Pos+Pej+Pret: nikaensimishiban
+     nika+Dim+Pos+Pej+VocPl: nikaensimish***idig, idog***
+     nika+Con+Pos+Pej+Pret: nikaenhimishiban
+     nika+Con+Pos+Pej+VocPl: nikaenhimish***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 7
+     nika+Dim+Pos+Pej+Obv: nikaensimishan
+     nika+Dim+Pos+Pej+Pl: nikaensimishag
+     nika+Dim+Pos+Pej+Loc: nikaensimishing
+     nika+Con+Pos+Pej+Obv: nikaenhimishan
+     nika+Con+Pos+Pej+Pl: nikaenhimishag
+     nika+Con+Pos+Pej+Loc: nikaenhimishing
+     
+     #Values from slots numbered: 2, 3, 5, 6
+     nika+Dim+Pos+Pos1Pl+Pret: nikaensiminaaniban
+     nika+Dim+Pos+Pos1Pl+VocPl: nikaensiminaan***idig, idog***
+     nika+Dim+Pos+PosPl+Pret: nikaensimiwaaiban
+     nika+Dim+Pos+PosPl+VocPl: nikaensimiwaa***idig, idog***
+     nika+Dim+Pos+PosObv+Pret: nikaensiminiiban
+     nika+Dim+Pos+PosObv+VocPl: nikaensimini***idig, idog***
+     nika+Con+Pos+Pos1Pl+Pret: nikaenhiminaaniban
+     nika+Con+Pos+Pos1Pl+VocPl: nikaenhiminaan***idig, idog***
+     nika+Con+Pos+PosPl+Pret: nikaenhimiwaaiban
+     nika+Con+Pos+PosPl+VocPl: nikaenhimiwaa***idig, idog***
+     nika+Con+Pos+PosObv+Pret: nikaenhiminiiban
+     nika+Con+Pos+PosObv+VocPl: nikaenhimini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 5, 7
+     nika+Dim+Pos+Pos1Pl+Obv: nikaensiminaanan
+     nika+Dim+Pos+Pos1Pl+Pl: nikaensiminaanag
+     nika+Dim+Pos+Pos1Pl+Loc: nikaensiminaaning
+     nika+Dim+Pos+PosPl+Obv: nikaensimiwaaan
+     nika+Dim+Pos+PosPl+Pl: nikaensimiwaaag
+     nika+Dim+Pos+PosPl+Loc: nikaensimiwaaing
+     nika+Dim+Pos+PosObv+Obv: nikaensiminian
+     nika+Dim+Pos+PosObv+Pl: nikaensiminiag
+     nika+Dim+Pos+PosObv+Loc: nikaensiminiing
+     nika+Con+Pos+Pos1Pl+Obv: nikaenhiminaanan
+     nika+Con+Pos+Pos1Pl+Pl: nikaenhiminaanag
+     nika+Con+Pos+Pos1Pl+Loc: nikaenhiminaaning
+     nika+Con+Pos+PosPl+Obv: nikaenhimiwaaan
+     nika+Con+Pos+PosPl+Pl: nikaenhimiwaaag
+     nika+Con+Pos+PosPl+Loc: nikaenhimiwaaing
+     nika+Con+Pos+PosObv+Obv: nikaenhiminian
+     nika+Con+Pos+PosObv+Pl: nikaenhiminiag
+     nika+Con+Pos+PosObv+Loc: nikaenhiminiing
+     
+     #Values from slots numbered: 2, 3, 6, 7
+     nika+Dim+Pos+Pret+Obv: nikaensimibanan
+     nika+Dim+Pos+Pret+Pl: nikaensimibanag
+     nika+Dim+Pos+Pret+Loc: nikaensimibaning
+     nika+Dim+Pos+VocPl+Obv: nikaensim***idig, idog***an
+     nika+Dim+Pos+VocPl+Pl: nikaensim***idig, idog***ag
+     nika+Dim+Pos+VocPl+Loc: nikaensim***idig, idog***ing
+     nika+Con+Pos+Pret+Obv: nikaenhimibanan
+     nika+Con+Pos+Pret+Pl: nikaenhimibanag
+     nika+Con+Pos+Pret+Loc: nikaenhimibaning
+     nika+Con+Pos+VocPl+Obv: nikaenhim***idig, idog***an
+     nika+Con+Pos+VocPl+Pl: nikaenhim***idig, idog***ag
+     nika+Con+Pos+VocPl+Loc: nikaenhim***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6
+     nika+Dim+Pej+Pos1Pl+Pret: nikaensishinaaniban
+     nika+Dim+Pej+Pos1Pl+VocPl: nikaensishinaan***idig, idog***
+     nika+Dim+Pej+PosPl+Pret: nikaensishiwaaiban
+     nika+Dim+Pej+PosPl+VocPl: nikaensishiwaa***idig, idog***
+     nika+Dim+Pej+PosObv+Pret: nikaensishiniiban
+     nika+Dim+Pej+PosObv+VocPl: nikaensishini***idig, idog***
+     nika+Con+Pej+Pos1Pl+Pret: nikaenhishinaaniban
+     nika+Con+Pej+Pos1Pl+VocPl: nikaenhishinaan***idig, idog***
+     nika+Con+Pej+PosPl+Pret: nikaenhishiwaaiban
+     nika+Con+Pej+PosPl+VocPl: nikaenhishiwaa***idig, idog***
+     nika+Con+Pej+PosObv+Pret: nikaenhishiniiban
+     nika+Con+Pej+PosObv+VocPl: nikaenhishini***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 5, 7
+     nika+Dim+Pej+Pos1Pl+Obv: nikaensishinaanan
+     nika+Dim+Pej+Pos1Pl+Pl: nikaensishinaanag
+     nika+Dim+Pej+Pos1Pl+Loc: nikaensishinaaning
+     nika+Dim+Pej+PosPl+Obv: nikaensishiwaaan
+     nika+Dim+Pej+PosPl+Pl: nikaensishiwaaag
+     nika+Dim+Pej+PosPl+Loc: nikaensishiwaaing
+     nika+Dim+Pej+PosObv+Obv: nikaensishinian
+     nika+Dim+Pej+PosObv+Pl: nikaensishiniag
+     nika+Dim+Pej+PosObv+Loc: nikaensishiniing
+     nika+Con+Pej+Pos1Pl+Obv: nikaenhishinaanan
+     nika+Con+Pej+Pos1Pl+Pl: nikaenhishinaanag
+     nika+Con+Pej+Pos1Pl+Loc: nikaenhishinaaning
+     nika+Con+Pej+PosPl+Obv: nikaenhishiwaaan
+     nika+Con+Pej+PosPl+Pl: nikaenhishiwaaag
+     nika+Con+Pej+PosPl+Loc: nikaenhishiwaaing
+     nika+Con+Pej+PosObv+Obv: nikaenhishinian
+     nika+Con+Pej+PosObv+Pl: nikaenhishiniag
+     nika+Con+Pej+PosObv+Loc: nikaenhishiniing
+     
+     #Values from slots numbered: 2, 4, 6, 7
+     nika+Dim+Pej+Pret+Obv: nikaensishibanan
+     nika+Dim+Pej+Pret+Pl: nikaensishibanag
+     nika+Dim+Pej+Pret+Loc: nikaensishibaning
+     nika+Dim+Pej+VocPl+Obv: nikaensish***idig, idog***an
+     nika+Dim+Pej+VocPl+Pl: nikaensish***idig, idog***ag
+     nika+Dim+Pej+VocPl+Loc: nikaensish***idig, idog***ing
+     nika+Con+Pej+Pret+Obv: nikaenhishibanan
+     nika+Con+Pej+Pret+Pl: nikaenhishibanag
+     nika+Con+Pej+Pret+Loc: nikaenhishibaning
+     nika+Con+Pej+VocPl+Obv: nikaenhish***idig, idog***an
+     nika+Con+Pej+VocPl+Pl: nikaenhish***idig, idog***ag
+     nika+Con+Pej+VocPl+Loc: nikaenhish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 5, 6, 7
+     nika+Dim+Pos1Pl+Pret+Obv: nikaensinaanibanan
+     nika+Dim+Pos1Pl+Pret+Pl: nikaensinaanibanag
+     nika+Dim+Pos1Pl+Pret+Loc: nikaensinaanibaning
+     nika+Dim+Pos1Pl+VocPl+Obv: nikaensinaan***idig, idog***an
+     nika+Dim+Pos1Pl+VocPl+Pl: nikaensinaan***idig, idog***ag
+     nika+Dim+Pos1Pl+VocPl+Loc: nikaensinaan***idig, idog***ing
+     nika+Dim+PosPl+Pret+Obv: nikaensiwaaibanan
+     nika+Dim+PosPl+Pret+Pl: nikaensiwaaibanag
+     nika+Dim+PosPl+Pret+Loc: nikaensiwaaibaning
+     nika+Dim+PosPl+VocPl+Obv: nikaensiwaa***idig, idog***an
+     nika+Dim+PosPl+VocPl+Pl: nikaensiwaa***idig, idog***ag
+     nika+Dim+PosPl+VocPl+Loc: nikaensiwaa***idig, idog***ing
+     nika+Dim+PosObv+Pret+Obv: nikaensiniibanan
+     nika+Dim+PosObv+Pret+Pl: nikaensiniibanag
+     nika+Dim+PosObv+Pret+Loc: nikaensiniibaning
+     nika+Dim+PosObv+VocPl+Obv: nikaensini***idig, idog***an
+     nika+Dim+PosObv+VocPl+Pl: nikaensini***idig, idog***ag
+     nika+Dim+PosObv+VocPl+Loc: nikaensini***idig, idog***ing
+     nika+Con+Pos1Pl+Pret+Obv: nikaenhinaanibanan
+     nika+Con+Pos1Pl+Pret+Pl: nikaenhinaanibanag
+     nika+Con+Pos1Pl+Pret+Loc: nikaenhinaanibaning
+     nika+Con+Pos1Pl+VocPl+Obv: nikaenhinaan***idig, idog***an
+     nika+Con+Pos1Pl+VocPl+Pl: nikaenhinaan***idig, idog***ag
+     nika+Con+Pos1Pl+VocPl+Loc: nikaenhinaan***idig, idog***ing
+     nika+Con+PosPl+Pret+Obv: nikaenhiwaaibanan
+     nika+Con+PosPl+Pret+Pl: nikaenhiwaaibanag
+     nika+Con+PosPl+Pret+Loc: nikaenhiwaaibaning
+     nika+Con+PosPl+VocPl+Obv: nikaenhiwaa***idig, idog***an
+     nika+Con+PosPl+VocPl+Pl: nikaenhiwaa***idig, idog***ag
+     nika+Con+PosPl+VocPl+Loc: nikaenhiwaa***idig, idog***ing
+     nika+Con+PosObv+Pret+Obv: nikaenhiniibanan
+     nika+Con+PosObv+Pret+Pl: nikaenhiniibanag
+     nika+Con+PosObv+Pret+Loc: nikaenhiniibaning
+     nika+Con+PosObv+VocPl+Obv: nikaenhini***idig, idog***an
+     nika+Con+PosObv+VocPl+Pl: nikaenhini***idig, idog***ag
+     nika+Con+PosObv+VocPl+Loc: nikaenhini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6
+     nika+Pos+Pej+Pos1Pl+Pret: nikaimishinaaniban
+     nika+Pos+Pej+Pos1Pl+VocPl: nikaimishinaan***idig, idog***
+     nika+Pos+Pej+PosPl+Pret: nikaimishiwaaiban
+     nika+Pos+Pej+PosPl+VocPl: nikaimishiwaa***idig, idog***
+     nika+Pos+Pej+PosObv+Pret: nikaimishiniiban
+     nika+Pos+Pej+PosObv+VocPl: nikaimishini***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 5, 7
+     nika+Pos+Pej+Pos1Pl+Obv: nikaimishinaanan
+     nika+Pos+Pej+Pos1Pl+Pl: nikaimishinaanag
+     nika+Pos+Pej+Pos1Pl+Loc: nikaimishinaaning
+     nika+Pos+Pej+PosPl+Obv: nikaimishiwaaan
+     nika+Pos+Pej+PosPl+Pl: nikaimishiwaaag
+     nika+Pos+Pej+PosPl+Loc: nikaimishiwaaing
+     nika+Pos+Pej+PosObv+Obv: nikaimishinian
+     nika+Pos+Pej+PosObv+Pl: nikaimishiniag
+     nika+Pos+Pej+PosObv+Loc: nikaimishiniing
+     
+     #Values from slots numbered: 3, 4, 6, 7
+     nika+Pos+Pej+Pret+Obv: nikaimishibanan
+     nika+Pos+Pej+Pret+Pl: nikaimishibanag
+     nika+Pos+Pej+Pret+Loc: nikaimishibaning
+     nika+Pos+Pej+VocPl+Obv: nikaimish***idig, idog***an
+     nika+Pos+Pej+VocPl+Pl: nikaimish***idig, idog***ag
+     nika+Pos+Pej+VocPl+Loc: nikaimish***idig, idog***ing
+     
+     #Values from slots numbered: 3, 5, 6, 7
+     nika+Pos+Pos1Pl+Pret+Obv: nikaiminaanibanan
+     nika+Pos+Pos1Pl+Pret+Pl: nikaiminaanibanag
+     nika+Pos+Pos1Pl+Pret+Loc: nikaiminaanibaning
+     nika+Pos+Pos1Pl+VocPl+Obv: nikaiminaan***idig, idog***an
+     nika+Pos+Pos1Pl+VocPl+Pl: nikaiminaan***idig, idog***ag
+     nika+Pos+Pos1Pl+VocPl+Loc: nikaiminaan***idig, idog***ing
+     nika+Pos+PosPl+Pret+Obv: nikaimiwaaibanan
+     nika+Pos+PosPl+Pret+Pl: nikaimiwaaibanag
+     nika+Pos+PosPl+Pret+Loc: nikaimiwaaibaning
+     nika+Pos+PosPl+VocPl+Obv: nikaimiwaa***idig, idog***an
+     nika+Pos+PosPl+VocPl+Pl: nikaimiwaa***idig, idog***ag
+     nika+Pos+PosPl+VocPl+Loc: nikaimiwaa***idig, idog***ing
+     nika+Pos+PosObv+Pret+Obv: nikaiminiibanan
+     nika+Pos+PosObv+Pret+Pl: nikaiminiibanag
+     nika+Pos+PosObv+Pret+Loc: nikaiminiibaning
+     nika+Pos+PosObv+VocPl+Obv: nikaimini***idig, idog***an
+     nika+Pos+PosObv+VocPl+Pl: nikaimini***idig, idog***ag
+     nika+Pos+PosObv+VocPl+Loc: nikaimini***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6, 7
+     nika+Pej+Pos1Pl+Pret+Obv: nikaishinaanibanan
+     nika+Pej+Pos1Pl+Pret+Pl: nikaishinaanibanag
+     nika+Pej+Pos1Pl+Pret+Loc: nikaishinaanibaning
+     nika+Pej+Pos1Pl+VocPl+Obv: nikaishinaan***idig, idog***an
+     nika+Pej+Pos1Pl+VocPl+Pl: nikaishinaan***idig, idog***ag
+     nika+Pej+Pos1Pl+VocPl+Loc: nikaishinaan***idig, idog***ing
+     nika+Pej+PosPl+Pret+Obv: nikaishiwaaibanan
+     nika+Pej+PosPl+Pret+Pl: nikaishiwaaibanag
+     nika+Pej+PosPl+Pret+Loc: nikaishiwaaibaning
+     nika+Pej+PosPl+VocPl+Obv: nikaishiwaa***idig, idog***an
+     nika+Pej+PosPl+VocPl+Pl: nikaishiwaa***idig, idog***ag
+     nika+Pej+PosPl+VocPl+Loc: nikaishiwaa***idig, idog***ing
+     nika+Pej+PosObv+Pret+Obv: nikaishiniibanan
+     nika+Pej+PosObv+Pret+Pl: nikaishiniibanag
+     nika+Pej+PosObv+Pret+Loc: nikaishiniibaning
+     nika+Pej+PosObv+VocPl+Obv: nikaishini***idig, idog***an
+     nika+Pej+PosObv+VocPl+Pl: nikaishini***idig, idog***ag
+     nika+Pej+PosObv+VocPl+Loc: nikaishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     +Px1nika+Dim+Pos+Pej+Pos1Pl: ninikaensimishinaan
+     +Px1nika+Dim+Pos+Pej+PosPl: ninikaensimishiwaa
+     +Px1nika+Dim+Pos+Pej+PosObv: ninikaensimishini
+     +Px1nika+Con+Pos+Pej+Pos1Pl: ninikaenhimishinaan
+     +Px1nika+Con+Pos+Pej+PosPl: ninikaenhimishiwaa
+     +Px1nika+Con+Pos+Pej+PosObv: ninikaenhimishini
+     +Px2nika+Dim+Pos+Pej+Pos1Pl: ginikaensimishinaan
+     +Px2nika+Dim+Pos+Pej+PosPl: ginikaensimishiwaa
+     +Px2nika+Dim+Pos+Pej+PosObv: ginikaensimishini
+     +Px2nika+Con+Pos+Pej+Pos1Pl: ginikaenhimishinaan
+     +Px2nika+Con+Pos+Pej+PosPl: ginikaenhimishiwaa
+     +Px2nika+Con+Pos+Pej+PosObv: ginikaenhimishini
+     +Px3nika+Dim+Pos+Pej+Pos1Pl: onikaensimishinaan
+     +Px3nika+Dim+Pos+Pej+PosPl: onikaensimishiwaa
+     +Px3nika+Dim+Pos+Pej+PosObv: onikaensimishini
+     +Px3nika+Con+Pos+Pej+Pos1Pl: onikaenhimishinaan
+     +Px3nika+Con+Pos+Pej+PosPl: onikaenhimishiwaa
+     +Px3nika+Con+Pos+Pej+PosObv: onikaenhimishini
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     +Px1nika+Dim+Pos+Pej+Pret: ninikaensimishiban
+     +Px1nika+Dim+Pos+Pej+VocPl: ninikaensimish***idig, idog***
+     +Px1nika+Con+Pos+Pej+Pret: ninikaenhimishiban
+     +Px1nika+Con+Pos+Pej+VocPl: ninikaenhimish***idig, idog***
+     +Px2nika+Dim+Pos+Pej+Pret: ginikaensimishiban
+     +Px2nika+Dim+Pos+Pej+VocPl: ginikaensimish***idig, idog***
+     +Px2nika+Con+Pos+Pej+Pret: ginikaenhimishiban
+     +Px2nika+Con+Pos+Pej+VocPl: ginikaenhimish***idig, idog***
+     +Px3nika+Dim+Pos+Pej+Pret: onikaensimishiban
+     +Px3nika+Dim+Pos+Pej+VocPl: onikaensimish***idig, idog***
+     +Px3nika+Con+Pos+Pej+Pret: onikaenhimishiban
+     +Px3nika+Con+Pos+Pej+VocPl: onikaenhimish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     +Px1nika+Dim+Pos+Pej+Obv: ninikaensimishan
+     +Px1nika+Dim+Pos+Pej+Pl: ninikaensimishag
+     +Px1nika+Dim+Pos+Pej+Loc: ninikaensimishing
+     +Px1nika+Con+Pos+Pej+Obv: ninikaenhimishan
+     +Px1nika+Con+Pos+Pej+Pl: ninikaenhimishag
+     +Px1nika+Con+Pos+Pej+Loc: ninikaenhimishing
+     +Px2nika+Dim+Pos+Pej+Obv: ginikaensimishan
+     +Px2nika+Dim+Pos+Pej+Pl: ginikaensimishag
+     +Px2nika+Dim+Pos+Pej+Loc: ginikaensimishing
+     +Px2nika+Con+Pos+Pej+Obv: ginikaenhimishan
+     +Px2nika+Con+Pos+Pej+Pl: ginikaenhimishag
+     +Px2nika+Con+Pos+Pej+Loc: ginikaenhimishing
+     +Px3nika+Dim+Pos+Pej+Obv: onikaensimishan
+     +Px3nika+Dim+Pos+Pej+Pl: onikaensimishag
+     +Px3nika+Dim+Pos+Pej+Loc: onikaensimishing
+     +Px3nika+Con+Pos+Pej+Obv: onikaenhimishan
+     +Px3nika+Con+Pos+Pej+Pl: onikaenhimishag
+     +Px3nika+Con+Pos+Pej+Loc: onikaenhimishing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     +Px1nika+Dim+Pos+Pos1Pl+Pret: ninikaensiminaaniban
+     +Px1nika+Dim+Pos+Pos1Pl+VocPl: ninikaensiminaan***idig, idog***
+     +Px1nika+Dim+Pos+PosPl+Pret: ninikaensimiwaaiban
+     +Px1nika+Dim+Pos+PosPl+VocPl: ninikaensimiwaa***idig, idog***
+     +Px1nika+Dim+Pos+PosObv+Pret: ninikaensiminiiban
+     +Px1nika+Dim+Pos+PosObv+VocPl: ninikaensimini***idig, idog***
+     +Px1nika+Con+Pos+Pos1Pl+Pret: ninikaenhiminaaniban
+     +Px1nika+Con+Pos+Pos1Pl+VocPl: ninikaenhiminaan***idig, idog***
+     +Px1nika+Con+Pos+PosPl+Pret: ninikaenhimiwaaiban
+     +Px1nika+Con+Pos+PosPl+VocPl: ninikaenhimiwaa***idig, idog***
+     +Px1nika+Con+Pos+PosObv+Pret: ninikaenhiminiiban
+     +Px1nika+Con+Pos+PosObv+VocPl: ninikaenhimini***idig, idog***
+     +Px2nika+Dim+Pos+Pos1Pl+Pret: ginikaensiminaaniban
+     +Px2nika+Dim+Pos+Pos1Pl+VocPl: ginikaensiminaan***idig, idog***
+     +Px2nika+Dim+Pos+PosPl+Pret: ginikaensimiwaaiban
+     +Px2nika+Dim+Pos+PosPl+VocPl: ginikaensimiwaa***idig, idog***
+     +Px2nika+Dim+Pos+PosObv+Pret: ginikaensiminiiban
+     +Px2nika+Dim+Pos+PosObv+VocPl: ginikaensimini***idig, idog***
+     +Px2nika+Con+Pos+Pos1Pl+Pret: ginikaenhiminaaniban
+     +Px2nika+Con+Pos+Pos1Pl+VocPl: ginikaenhiminaan***idig, idog***
+     +Px2nika+Con+Pos+PosPl+Pret: ginikaenhimiwaaiban
+     +Px2nika+Con+Pos+PosPl+VocPl: ginikaenhimiwaa***idig, idog***
+     +Px2nika+Con+Pos+PosObv+Pret: ginikaenhiminiiban
+     +Px2nika+Con+Pos+PosObv+VocPl: ginikaenhimini***idig, idog***
+     +Px3nika+Dim+Pos+Pos1Pl+Pret: onikaensiminaaniban
+     +Px3nika+Dim+Pos+Pos1Pl+VocPl: onikaensiminaan***idig, idog***
+     +Px3nika+Dim+Pos+PosPl+Pret: onikaensimiwaaiban
+     +Px3nika+Dim+Pos+PosPl+VocPl: onikaensimiwaa***idig, idog***
+     +Px3nika+Dim+Pos+PosObv+Pret: onikaensiminiiban
+     +Px3nika+Dim+Pos+PosObv+VocPl: onikaensimini***idig, idog***
+     +Px3nika+Con+Pos+Pos1Pl+Pret: onikaenhiminaaniban
+     +Px3nika+Con+Pos+Pos1Pl+VocPl: onikaenhiminaan***idig, idog***
+     +Px3nika+Con+Pos+PosPl+Pret: onikaenhimiwaaiban
+     +Px3nika+Con+Pos+PosPl+VocPl: onikaenhimiwaa***idig, idog***
+     +Px3nika+Con+Pos+PosObv+Pret: onikaenhiminiiban
+     +Px3nika+Con+Pos+PosObv+VocPl: onikaenhimini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     +Px1nika+Dim+Pos+Pos1Pl+Obv: ninikaensiminaanan
+     +Px1nika+Dim+Pos+Pos1Pl+Pl: ninikaensiminaanag
+     +Px1nika+Dim+Pos+Pos1Pl+Loc: ninikaensiminaaning
+     +Px1nika+Dim+Pos+PosPl+Obv: ninikaensimiwaaan
+     +Px1nika+Dim+Pos+PosPl+Pl: ninikaensimiwaaag
+     +Px1nika+Dim+Pos+PosPl+Loc: ninikaensimiwaaing
+     +Px1nika+Dim+Pos+PosObv+Obv: ninikaensiminian
+     +Px1nika+Dim+Pos+PosObv+Pl: ninikaensiminiag
+     +Px1nika+Dim+Pos+PosObv+Loc: ninikaensiminiing
+     +Px1nika+Con+Pos+Pos1Pl+Obv: ninikaenhiminaanan
+     +Px1nika+Con+Pos+Pos1Pl+Pl: ninikaenhiminaanag
+     +Px1nika+Con+Pos+Pos1Pl+Loc: ninikaenhiminaaning
+     +Px1nika+Con+Pos+PosPl+Obv: ninikaenhimiwaaan
+     +Px1nika+Con+Pos+PosPl+Pl: ninikaenhimiwaaag
+     +Px1nika+Con+Pos+PosPl+Loc: ninikaenhimiwaaing
+     +Px1nika+Con+Pos+PosObv+Obv: ninikaenhiminian
+     +Px1nika+Con+Pos+PosObv+Pl: ninikaenhiminiag
+     +Px1nika+Con+Pos+PosObv+Loc: ninikaenhiminiing
+     +Px2nika+Dim+Pos+Pos1Pl+Obv: ginikaensiminaanan
+     +Px2nika+Dim+Pos+Pos1Pl+Pl: ginikaensiminaanag
+     +Px2nika+Dim+Pos+Pos1Pl+Loc: ginikaensiminaaning
+     +Px2nika+Dim+Pos+PosPl+Obv: ginikaensimiwaaan
+     +Px2nika+Dim+Pos+PosPl+Pl: ginikaensimiwaaag
+     +Px2nika+Dim+Pos+PosPl+Loc: ginikaensimiwaaing
+     +Px2nika+Dim+Pos+PosObv+Obv: ginikaensiminian
+     +Px2nika+Dim+Pos+PosObv+Pl: ginikaensiminiag
+     +Px2nika+Dim+Pos+PosObv+Loc: ginikaensiminiing
+     +Px2nika+Con+Pos+Pos1Pl+Obv: ginikaenhiminaanan
+     +Px2nika+Con+Pos+Pos1Pl+Pl: ginikaenhiminaanag
+     +Px2nika+Con+Pos+Pos1Pl+Loc: ginikaenhiminaaning
+     +Px2nika+Con+Pos+PosPl+Obv: ginikaenhimiwaaan
+     +Px2nika+Con+Pos+PosPl+Pl: ginikaenhimiwaaag
+     +Px2nika+Con+Pos+PosPl+Loc: ginikaenhimiwaaing
+     +Px2nika+Con+Pos+PosObv+Obv: ginikaenhiminian
+     +Px2nika+Con+Pos+PosObv+Pl: ginikaenhiminiag
+     +Px2nika+Con+Pos+PosObv+Loc: ginikaenhiminiing
+     +Px3nika+Dim+Pos+Pos1Pl+Obv: onikaensiminaanan
+     +Px3nika+Dim+Pos+Pos1Pl+Pl: onikaensiminaanag
+     +Px3nika+Dim+Pos+Pos1Pl+Loc: onikaensiminaaning
+     +Px3nika+Dim+Pos+PosPl+Obv: onikaensimiwaaan
+     +Px3nika+Dim+Pos+PosPl+Pl: onikaensimiwaaag
+     +Px3nika+Dim+Pos+PosPl+Loc: onikaensimiwaaing
+     +Px3nika+Dim+Pos+PosObv+Obv: onikaensiminian
+     +Px3nika+Dim+Pos+PosObv+Pl: onikaensiminiag
+     +Px3nika+Dim+Pos+PosObv+Loc: onikaensiminiing
+     +Px3nika+Con+Pos+Pos1Pl+Obv: onikaenhiminaanan
+     +Px3nika+Con+Pos+Pos1Pl+Pl: onikaenhiminaanag
+     +Px3nika+Con+Pos+Pos1Pl+Loc: onikaenhiminaaning
+     +Px3nika+Con+Pos+PosPl+Obv: onikaenhimiwaaan
+     +Px3nika+Con+Pos+PosPl+Pl: onikaenhimiwaaag
+     +Px3nika+Con+Pos+PosPl+Loc: onikaenhimiwaaing
+     +Px3nika+Con+Pos+PosObv+Obv: onikaenhiminian
+     +Px3nika+Con+Pos+PosObv+Pl: onikaenhiminiag
+     +Px3nika+Con+Pos+PosObv+Loc: onikaenhiminiing
+     
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     +Px1nika+Dim+Pos+Pret+Obv: ninikaensimibanan
+     +Px1nika+Dim+Pos+Pret+Pl: ninikaensimibanag
+     +Px1nika+Dim+Pos+Pret+Loc: ninikaensimibaning
+     +Px1nika+Dim+Pos+VocPl+Obv: ninikaensim***idig, idog***an
+     +Px1nika+Dim+Pos+VocPl+Pl: ninikaensim***idig, idog***ag
+     +Px1nika+Dim+Pos+VocPl+Loc: ninikaensim***idig, idog***ing
+     +Px1nika+Con+Pos+Pret+Obv: ninikaenhimibanan
+     +Px1nika+Con+Pos+Pret+Pl: ninikaenhimibanag
+     +Px1nika+Con+Pos+Pret+Loc: ninikaenhimibaning
+     +Px1nika+Con+Pos+VocPl+Obv: ninikaenhim***idig, idog***an
+     +Px1nika+Con+Pos+VocPl+Pl: ninikaenhim***idig, idog***ag
+     +Px1nika+Con+Pos+VocPl+Loc: ninikaenhim***idig, idog***ing
+     +Px2nika+Dim+Pos+Pret+Obv: ginikaensimibanan
+     +Px2nika+Dim+Pos+Pret+Pl: ginikaensimibanag
+     +Px2nika+Dim+Pos+Pret+Loc: ginikaensimibaning
+     +Px2nika+Dim+Pos+VocPl+Obv: ginikaensim***idig, idog***an
+     +Px2nika+Dim+Pos+VocPl+Pl: ginikaensim***idig, idog***ag
+     +Px2nika+Dim+Pos+VocPl+Loc: ginikaensim***idig, idog***ing
+     +Px2nika+Con+Pos+Pret+Obv: ginikaenhimibanan
+     +Px2nika+Con+Pos+Pret+Pl: ginikaenhimibanag
+     +Px2nika+Con+Pos+Pret+Loc: ginikaenhimibaning
+     +Px2nika+Con+Pos+VocPl+Obv: ginikaenhim***idig, idog***an
+     +Px2nika+Con+Pos+VocPl+Pl: ginikaenhim***idig, idog***ag
+     +Px2nika+Con+Pos+VocPl+Loc: ginikaenhim***idig, idog***ing
+     +Px3nika+Dim+Pos+Pret+Obv: onikaensimibanan
+     +Px3nika+Dim+Pos+Pret+Pl: onikaensimibanag
+     +Px3nika+Dim+Pos+Pret+Loc: onikaensimibaning
+     +Px3nika+Dim+Pos+VocPl+Obv: onikaensim***idig, idog***an
+     +Px3nika+Dim+Pos+VocPl+Pl: onikaensim***idig, idog***ag
+     +Px3nika+Dim+Pos+VocPl+Loc: onikaensim***idig, idog***ing
+     +Px3nika+Con+Pos+Pret+Obv: onikaenhimibanan
+     +Px3nika+Con+Pos+Pret+Pl: onikaenhimibanag
+     +Px3nika+Con+Pos+Pret+Loc: onikaenhimibaning
+     +Px3nika+Con+Pos+VocPl+Obv: onikaenhim***idig, idog***an
+     +Px3nika+Con+Pos+VocPl+Pl: onikaenhim***idig, idog***ag
+     +Px3nika+Con+Pos+VocPl+Loc: onikaenhim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     +Px1nika+Dim+Pej+Pos1Pl+Pret: ninikaensishinaaniban
+     +Px1nika+Dim+Pej+Pos1Pl+VocPl: ninikaensishinaan***idig, idog***
+     +Px1nika+Dim+Pej+PosPl+Pret: ninikaensishiwaaiban
+     +Px1nika+Dim+Pej+PosPl+VocPl: ninikaensishiwaa***idig, idog***
+     +Px1nika+Dim+Pej+PosObv+Pret: ninikaensishiniiban
+     +Px1nika+Dim+Pej+PosObv+VocPl: ninikaensishini***idig, idog***
+     +Px1nika+Con+Pej+Pos1Pl+Pret: ninikaenhishinaaniban
+     +Px1nika+Con+Pej+Pos1Pl+VocPl: ninikaenhishinaan***idig, idog***
+     +Px1nika+Con+Pej+PosPl+Pret: ninikaenhishiwaaiban
+     +Px1nika+Con+Pej+PosPl+VocPl: ninikaenhishiwaa***idig, idog***
+     +Px1nika+Con+Pej+PosObv+Pret: ninikaenhishiniiban
+     +Px1nika+Con+Pej+PosObv+VocPl: ninikaenhishini***idig, idog***
+     +Px2nika+Dim+Pej+Pos1Pl+Pret: ginikaensishinaaniban
+     +Px2nika+Dim+Pej+Pos1Pl+VocPl: ginikaensishinaan***idig, idog***
+     +Px2nika+Dim+Pej+PosPl+Pret: ginikaensishiwaaiban
+     +Px2nika+Dim+Pej+PosPl+VocPl: ginikaensishiwaa***idig, idog***
+     +Px2nika+Dim+Pej+PosObv+Pret: ginikaensishiniiban
+     +Px2nika+Dim+Pej+PosObv+VocPl: ginikaensishini***idig, idog***
+     +Px2nika+Con+Pej+Pos1Pl+Pret: ginikaenhishinaaniban
+     +Px2nika+Con+Pej+Pos1Pl+VocPl: ginikaenhishinaan***idig, idog***
+     +Px2nika+Con+Pej+PosPl+Pret: ginikaenhishiwaaiban
+     +Px2nika+Con+Pej+PosPl+VocPl: ginikaenhishiwaa***idig, idog***
+     +Px2nika+Con+Pej+PosObv+Pret: ginikaenhishiniiban
+     +Px2nika+Con+Pej+PosObv+VocPl: ginikaenhishini***idig, idog***
+     +Px3nika+Dim+Pej+Pos1Pl+Pret: onikaensishinaaniban
+     +Px3nika+Dim+Pej+Pos1Pl+VocPl: onikaensishinaan***idig, idog***
+     +Px3nika+Dim+Pej+PosPl+Pret: onikaensishiwaaiban
+     +Px3nika+Dim+Pej+PosPl+VocPl: onikaensishiwaa***idig, idog***
+     +Px3nika+Dim+Pej+PosObv+Pret: onikaensishiniiban
+     +Px3nika+Dim+Pej+PosObv+VocPl: onikaensishini***idig, idog***
+     +Px3nika+Con+Pej+Pos1Pl+Pret: onikaenhishinaaniban
+     +Px3nika+Con+Pej+Pos1Pl+VocPl: onikaenhishinaan***idig, idog***
+     +Px3nika+Con+Pej+PosPl+Pret: onikaenhishiwaaiban
+     +Px3nika+Con+Pej+PosPl+VocPl: onikaenhishiwaa***idig, idog***
+     +Px3nika+Con+Pej+PosObv+Pret: onikaenhishiniiban
+     +Px3nika+Con+Pej+PosObv+VocPl: onikaenhishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     +Px1nika+Dim+Pej+Pos1Pl+Obv: ninikaensishinaanan
+     +Px1nika+Dim+Pej+Pos1Pl+Pl: ninikaensishinaanag
+     +Px1nika+Dim+Pej+Pos1Pl+Loc: ninikaensishinaaning
+     +Px1nika+Dim+Pej+PosPl+Obv: ninikaensishiwaaan
+     +Px1nika+Dim+Pej+PosPl+Pl: ninikaensishiwaaag
+     +Px1nika+Dim+Pej+PosPl+Loc: ninikaensishiwaaing
+     +Px1nika+Dim+Pej+PosObv+Obv: ninikaensishinian
+     +Px1nika+Dim+Pej+PosObv+Pl: ninikaensishiniag
+     +Px1nika+Dim+Pej+PosObv+Loc: ninikaensishiniing
+     +Px1nika+Con+Pej+Pos1Pl+Obv: ninikaenhishinaanan
+     +Px1nika+Con+Pej+Pos1Pl+Pl: ninikaenhishinaanag
+     +Px1nika+Con+Pej+Pos1Pl+Loc: ninikaenhishinaaning
+     +Px1nika+Con+Pej+PosPl+Obv: ninikaenhishiwaaan
+     +Px1nika+Con+Pej+PosPl+Pl: ninikaenhishiwaaag
+     +Px1nika+Con+Pej+PosPl+Loc: ninikaenhishiwaaing
+     +Px1nika+Con+Pej+PosObv+Obv: ninikaenhishinian
+     +Px1nika+Con+Pej+PosObv+Pl: ninikaenhishiniag
+     +Px1nika+Con+Pej+PosObv+Loc: ninikaenhishiniing
+     +Px2nika+Dim+Pej+Pos1Pl+Obv: ginikaensishinaanan
+     +Px2nika+Dim+Pej+Pos1Pl+Pl: ginikaensishinaanag
+     +Px2nika+Dim+Pej+Pos1Pl+Loc: ginikaensishinaaning
+     +Px2nika+Dim+Pej+PosPl+Obv: ginikaensishiwaaan
+     +Px2nika+Dim+Pej+PosPl+Pl: ginikaensishiwaaag
+     +Px2nika+Dim+Pej+PosPl+Loc: ginikaensishiwaaing
+     +Px2nika+Dim+Pej+PosObv+Obv: ginikaensishinian
+     +Px2nika+Dim+Pej+PosObv+Pl: ginikaensishiniag
+     +Px2nika+Dim+Pej+PosObv+Loc: ginikaensishiniing
+     +Px2nika+Con+Pej+Pos1Pl+Obv: ginikaenhishinaanan
+     +Px2nika+Con+Pej+Pos1Pl+Pl: ginikaenhishinaanag
+     +Px2nika+Con+Pej+Pos1Pl+Loc: ginikaenhishinaaning
+     +Px2nika+Con+Pej+PosPl+Obv: ginikaenhishiwaaan
+     +Px2nika+Con+Pej+PosPl+Pl: ginikaenhishiwaaag
+     +Px2nika+Con+Pej+PosPl+Loc: ginikaenhishiwaaing
+     +Px2nika+Con+Pej+PosObv+Obv: ginikaenhishinian
+     +Px2nika+Con+Pej+PosObv+Pl: ginikaenhishiniag
+     +Px2nika+Con+Pej+PosObv+Loc: ginikaenhishiniing
+     +Px3nika+Dim+Pej+Pos1Pl+Obv: onikaensishinaanan
+     +Px3nika+Dim+Pej+Pos1Pl+Pl: onikaensishinaanag
+     +Px3nika+Dim+Pej+Pos1Pl+Loc: onikaensishinaaning
+     +Px3nika+Dim+Pej+PosPl+Obv: onikaensishiwaaan
+     +Px3nika+Dim+Pej+PosPl+Pl: onikaensishiwaaag
+     +Px3nika+Dim+Pej+PosPl+Loc: onikaensishiwaaing
+     +Px3nika+Dim+Pej+PosObv+Obv: onikaensishinian
+     +Px3nika+Dim+Pej+PosObv+Pl: onikaensishiniag
+     +Px3nika+Dim+Pej+PosObv+Loc: onikaensishiniing
+     +Px3nika+Con+Pej+Pos1Pl+Obv: onikaenhishinaanan
+     +Px3nika+Con+Pej+Pos1Pl+Pl: onikaenhishinaanag
+     +Px3nika+Con+Pej+Pos1Pl+Loc: onikaenhishinaaning
+     +Px3nika+Con+Pej+PosPl+Obv: onikaenhishiwaaan
+     +Px3nika+Con+Pej+PosPl+Pl: onikaenhishiwaaag
+     +Px3nika+Con+Pej+PosPl+Loc: onikaenhishiwaaing
+     +Px3nika+Con+Pej+PosObv+Obv: onikaenhishinian
+     +Px3nika+Con+Pej+PosObv+Pl: onikaenhishiniag
+     +Px3nika+Con+Pej+PosObv+Loc: onikaenhishiniing
+     
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     +Px1nika+Dim+Pej+Pret+Obv: ninikaensishibanan
+     +Px1nika+Dim+Pej+Pret+Pl: ninikaensishibanag
+     +Px1nika+Dim+Pej+Pret+Loc: ninikaensishibaning
+     +Px1nika+Dim+Pej+VocPl+Obv: ninikaensish***idig, idog***an
+     +Px1nika+Dim+Pej+VocPl+Pl: ninikaensish***idig, idog***ag
+     +Px1nika+Dim+Pej+VocPl+Loc: ninikaensish***idig, idog***ing
+     +Px1nika+Con+Pej+Pret+Obv: ninikaenhishibanan
+     +Px1nika+Con+Pej+Pret+Pl: ninikaenhishibanag
+     +Px1nika+Con+Pej+Pret+Loc: ninikaenhishibaning
+     +Px1nika+Con+Pej+VocPl+Obv: ninikaenhish***idig, idog***an
+     +Px1nika+Con+Pej+VocPl+Pl: ninikaenhish***idig, idog***ag
+     +Px1nika+Con+Pej+VocPl+Loc: ninikaenhish***idig, idog***ing
+     +Px2nika+Dim+Pej+Pret+Obv: ginikaensishibanan
+     +Px2nika+Dim+Pej+Pret+Pl: ginikaensishibanag
+     +Px2nika+Dim+Pej+Pret+Loc: ginikaensishibaning
+     +Px2nika+Dim+Pej+VocPl+Obv: ginikaensish***idig, idog***an
+     +Px2nika+Dim+Pej+VocPl+Pl: ginikaensish***idig, idog***ag
+     +Px2nika+Dim+Pej+VocPl+Loc: ginikaensish***idig, idog***ing
+     +Px2nika+Con+Pej+Pret+Obv: ginikaenhishibanan
+     +Px2nika+Con+Pej+Pret+Pl: ginikaenhishibanag
+     +Px2nika+Con+Pej+Pret+Loc: ginikaenhishibaning
+     +Px2nika+Con+Pej+VocPl+Obv: ginikaenhish***idig, idog***an
+     +Px2nika+Con+Pej+VocPl+Pl: ginikaenhish***idig, idog***ag
+     +Px2nika+Con+Pej+VocPl+Loc: ginikaenhish***idig, idog***ing
+     +Px3nika+Dim+Pej+Pret+Obv: onikaensishibanan
+     +Px3nika+Dim+Pej+Pret+Pl: onikaensishibanag
+     +Px3nika+Dim+Pej+Pret+Loc: onikaensishibaning
+     +Px3nika+Dim+Pej+VocPl+Obv: onikaensish***idig, idog***an
+     +Px3nika+Dim+Pej+VocPl+Pl: onikaensish***idig, idog***ag
+     +Px3nika+Dim+Pej+VocPl+Loc: onikaensish***idig, idog***ing
+     +Px3nika+Con+Pej+Pret+Obv: onikaenhishibanan
+     +Px3nika+Con+Pej+Pret+Pl: onikaenhishibanag
+     +Px3nika+Con+Pej+Pret+Loc: onikaenhishibaning
+     +Px3nika+Con+Pej+VocPl+Obv: onikaenhish***idig, idog***an
+     +Px3nika+Con+Pej+VocPl+Pl: onikaenhish***idig, idog***ag
+     +Px3nika+Con+Pej+VocPl+Loc: onikaenhish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     +Px1nika+Dim+Pos1Pl+Pret+Obv: ninikaensinaanibanan
+     +Px1nika+Dim+Pos1Pl+Pret+Pl: ninikaensinaanibanag
+     +Px1nika+Dim+Pos1Pl+Pret+Loc: ninikaensinaanibaning
+     +Px1nika+Dim+Pos1Pl+VocPl+Obv: ninikaensinaan***idig, idog***an
+     +Px1nika+Dim+Pos1Pl+VocPl+Pl: ninikaensinaan***idig, idog***ag
+     +Px1nika+Dim+Pos1Pl+VocPl+Loc: ninikaensinaan***idig, idog***ing
+     +Px1nika+Dim+PosPl+Pret+Obv: ninikaensiwaaibanan
+     +Px1nika+Dim+PosPl+Pret+Pl: ninikaensiwaaibanag
+     +Px1nika+Dim+PosPl+Pret+Loc: ninikaensiwaaibaning
+     +Px1nika+Dim+PosPl+VocPl+Obv: ninikaensiwaa***idig, idog***an
+     +Px1nika+Dim+PosPl+VocPl+Pl: ninikaensiwaa***idig, idog***ag
+     +Px1nika+Dim+PosPl+VocPl+Loc: ninikaensiwaa***idig, idog***ing
+     +Px1nika+Dim+PosObv+Pret+Obv: ninikaensiniibanan
+     +Px1nika+Dim+PosObv+Pret+Pl: ninikaensiniibanag
+     +Px1nika+Dim+PosObv+Pret+Loc: ninikaensiniibaning
+     +Px1nika+Dim+PosObv+VocPl+Obv: ninikaensini***idig, idog***an
+     +Px1nika+Dim+PosObv+VocPl+Pl: ninikaensini***idig, idog***ag
+     +Px1nika+Dim+PosObv+VocPl+Loc: ninikaensini***idig, idog***ing
+     +Px1nika+Con+Pos1Pl+Pret+Obv: ninikaenhinaanibanan
+     +Px1nika+Con+Pos1Pl+Pret+Pl: ninikaenhinaanibanag
+     +Px1nika+Con+Pos1Pl+Pret+Loc: ninikaenhinaanibaning
+     +Px1nika+Con+Pos1Pl+VocPl+Obv: ninikaenhinaan***idig, idog***an
+     +Px1nika+Con+Pos1Pl+VocPl+Pl: ninikaenhinaan***idig, idog***ag
+     +Px1nika+Con+Pos1Pl+VocPl+Loc: ninikaenhinaan***idig, idog***ing
+     +Px1nika+Con+PosPl+Pret+Obv: ninikaenhiwaaibanan
+     +Px1nika+Con+PosPl+Pret+Pl: ninikaenhiwaaibanag
+     +Px1nika+Con+PosPl+Pret+Loc: ninikaenhiwaaibaning
+     +Px1nika+Con+PosPl+VocPl+Obv: ninikaenhiwaa***idig, idog***an
+     +Px1nika+Con+PosPl+VocPl+Pl: ninikaenhiwaa***idig, idog***ag
+     +Px1nika+Con+PosPl+VocPl+Loc: ninikaenhiwaa***idig, idog***ing
+     +Px1nika+Con+PosObv+Pret+Obv: ninikaenhiniibanan
+     +Px1nika+Con+PosObv+Pret+Pl: ninikaenhiniibanag
+     +Px1nika+Con+PosObv+Pret+Loc: ninikaenhiniibaning
+     +Px1nika+Con+PosObv+VocPl+Obv: ninikaenhini***idig, idog***an
+     +Px1nika+Con+PosObv+VocPl+Pl: ninikaenhini***idig, idog***ag
+     +Px1nika+Con+PosObv+VocPl+Loc: ninikaenhini***idig, idog***ing
+     +Px2nika+Dim+Pos1Pl+Pret+Obv: ginikaensinaanibanan
+     +Px2nika+Dim+Pos1Pl+Pret+Pl: ginikaensinaanibanag
+     +Px2nika+Dim+Pos1Pl+Pret+Loc: ginikaensinaanibaning
+     +Px2nika+Dim+Pos1Pl+VocPl+Obv: ginikaensinaan***idig, idog***an
+     +Px2nika+Dim+Pos1Pl+VocPl+Pl: ginikaensinaan***idig, idog***ag
+     +Px2nika+Dim+Pos1Pl+VocPl+Loc: ginikaensinaan***idig, idog***ing
+     +Px2nika+Dim+PosPl+Pret+Obv: ginikaensiwaaibanan
+     +Px2nika+Dim+PosPl+Pret+Pl: ginikaensiwaaibanag
+     +Px2nika+Dim+PosPl+Pret+Loc: ginikaensiwaaibaning
+     +Px2nika+Dim+PosPl+VocPl+Obv: ginikaensiwaa***idig, idog***an
+     +Px2nika+Dim+PosPl+VocPl+Pl: ginikaensiwaa***idig, idog***ag
+     +Px2nika+Dim+PosPl+VocPl+Loc: ginikaensiwaa***idig, idog***ing
+     +Px2nika+Dim+PosObv+Pret+Obv: ginikaensiniibanan
+     +Px2nika+Dim+PosObv+Pret+Pl: ginikaensiniibanag
+     +Px2nika+Dim+PosObv+Pret+Loc: ginikaensiniibaning
+     +Px2nika+Dim+PosObv+VocPl+Obv: ginikaensini***idig, idog***an
+     +Px2nika+Dim+PosObv+VocPl+Pl: ginikaensini***idig, idog***ag
+     +Px2nika+Dim+PosObv+VocPl+Loc: ginikaensini***idig, idog***ing
+     +Px2nika+Con+Pos1Pl+Pret+Obv: ginikaenhinaanibanan
+     +Px2nika+Con+Pos1Pl+Pret+Pl: ginikaenhinaanibanag
+     +Px2nika+Con+Pos1Pl+Pret+Loc: ginikaenhinaanibaning
+     +Px2nika+Con+Pos1Pl+VocPl+Obv: ginikaenhinaan***idig, idog***an
+     +Px2nika+Con+Pos1Pl+VocPl+Pl: ginikaenhinaan***idig, idog***ag
+     +Px2nika+Con+Pos1Pl+VocPl+Loc: ginikaenhinaan***idig, idog***ing
+     +Px2nika+Con+PosPl+Pret+Obv: ginikaenhiwaaibanan
+     +Px2nika+Con+PosPl+Pret+Pl: ginikaenhiwaaibanag
+     +Px2nika+Con+PosPl+Pret+Loc: ginikaenhiwaaibaning
+     +Px2nika+Con+PosPl+VocPl+Obv: ginikaenhiwaa***idig, idog***an
+     +Px2nika+Con+PosPl+VocPl+Pl: ginikaenhiwaa***idig, idog***ag
+     +Px2nika+Con+PosPl+VocPl+Loc: ginikaenhiwaa***idig, idog***ing
+     +Px2nika+Con+PosObv+Pret+Obv: ginikaenhiniibanan
+     +Px2nika+Con+PosObv+Pret+Pl: ginikaenhiniibanag
+     +Px2nika+Con+PosObv+Pret+Loc: ginikaenhiniibaning
+     +Px2nika+Con+PosObv+VocPl+Obv: ginikaenhini***idig, idog***an
+     +Px2nika+Con+PosObv+VocPl+Pl: ginikaenhini***idig, idog***ag
+     +Px2nika+Con+PosObv+VocPl+Loc: ginikaenhini***idig, idog***ing
+     +Px3nika+Dim+Pos1Pl+Pret+Obv: onikaensinaanibanan
+     +Px3nika+Dim+Pos1Pl+Pret+Pl: onikaensinaanibanag
+     +Px3nika+Dim+Pos1Pl+Pret+Loc: onikaensinaanibaning
+     +Px3nika+Dim+Pos1Pl+VocPl+Obv: onikaensinaan***idig, idog***an
+     +Px3nika+Dim+Pos1Pl+VocPl+Pl: onikaensinaan***idig, idog***ag
+     +Px3nika+Dim+Pos1Pl+VocPl+Loc: onikaensinaan***idig, idog***ing
+     +Px3nika+Dim+PosPl+Pret+Obv: onikaensiwaaibanan
+     +Px3nika+Dim+PosPl+Pret+Pl: onikaensiwaaibanag
+     +Px3nika+Dim+PosPl+Pret+Loc: onikaensiwaaibaning
+     +Px3nika+Dim+PosPl+VocPl+Obv: onikaensiwaa***idig, idog***an
+     +Px3nika+Dim+PosPl+VocPl+Pl: onikaensiwaa***idig, idog***ag
+     +Px3nika+Dim+PosPl+VocPl+Loc: onikaensiwaa***idig, idog***ing
+     +Px3nika+Dim+PosObv+Pret+Obv: onikaensiniibanan
+     +Px3nika+Dim+PosObv+Pret+Pl: onikaensiniibanag
+     +Px3nika+Dim+PosObv+Pret+Loc: onikaensiniibaning
+     +Px3nika+Dim+PosObv+VocPl+Obv: onikaensini***idig, idog***an
+     +Px3nika+Dim+PosObv+VocPl+Pl: onikaensini***idig, idog***ag
+     +Px3nika+Dim+PosObv+VocPl+Loc: onikaensini***idig, idog***ing
+     +Px3nika+Con+Pos1Pl+Pret+Obv: onikaenhinaanibanan
+     +Px3nika+Con+Pos1Pl+Pret+Pl: onikaenhinaanibanag
+     +Px3nika+Con+Pos1Pl+Pret+Loc: onikaenhinaanibaning
+     +Px3nika+Con+Pos1Pl+VocPl+Obv: onikaenhinaan***idig, idog***an
+     +Px3nika+Con+Pos1Pl+VocPl+Pl: onikaenhinaan***idig, idog***ag
+     +Px3nika+Con+Pos1Pl+VocPl+Loc: onikaenhinaan***idig, idog***ing
+     +Px3nika+Con+PosPl+Pret+Obv: onikaenhiwaaibanan
+     +Px3nika+Con+PosPl+Pret+Pl: onikaenhiwaaibanag
+     +Px3nika+Con+PosPl+Pret+Loc: onikaenhiwaaibaning
+     +Px3nika+Con+PosPl+VocPl+Obv: onikaenhiwaa***idig, idog***an
+     +Px3nika+Con+PosPl+VocPl+Pl: onikaenhiwaa***idig, idog***ag
+     +Px3nika+Con+PosPl+VocPl+Loc: onikaenhiwaa***idig, idog***ing
+     +Px3nika+Con+PosObv+Pret+Obv: onikaenhiniibanan
+     +Px3nika+Con+PosObv+Pret+Pl: onikaenhiniibanag
+     +Px3nika+Con+PosObv+Pret+Loc: onikaenhiniibaning
+     +Px3nika+Con+PosObv+VocPl+Obv: onikaenhini***idig, idog***an
+     +Px3nika+Con+PosObv+VocPl+Pl: onikaenhini***idig, idog***ag
+     +Px3nika+Con+PosObv+VocPl+Loc: onikaenhini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6
+     +Px1nika+Pos+Pej+Pos1Pl+Pret: ninikaimishinaaniban
+     +Px1nika+Pos+Pej+Pos1Pl+VocPl: ninikaimishinaan***idig, idog***
+     +Px1nika+Pos+Pej+PosPl+Pret: ninikaimishiwaaiban
+     +Px1nika+Pos+Pej+PosPl+VocPl: ninikaimishiwaa***idig, idog***
+     +Px1nika+Pos+Pej+PosObv+Pret: ninikaimishiniiban
+     +Px1nika+Pos+Pej+PosObv+VocPl: ninikaimishini***idig, idog***
+     +Px2nika+Pos+Pej+Pos1Pl+Pret: ginikaimishinaaniban
+     +Px2nika+Pos+Pej+Pos1Pl+VocPl: ginikaimishinaan***idig, idog***
+     +Px2nika+Pos+Pej+PosPl+Pret: ginikaimishiwaaiban
+     +Px2nika+Pos+Pej+PosPl+VocPl: ginikaimishiwaa***idig, idog***
+     +Px2nika+Pos+Pej+PosObv+Pret: ginikaimishiniiban
+     +Px2nika+Pos+Pej+PosObv+VocPl: ginikaimishini***idig, idog***
+     +Px3nika+Pos+Pej+Pos1Pl+Pret: onikaimishinaaniban
+     +Px3nika+Pos+Pej+Pos1Pl+VocPl: onikaimishinaan***idig, idog***
+     +Px3nika+Pos+Pej+PosPl+Pret: onikaimishiwaaiban
+     +Px3nika+Pos+Pej+PosPl+VocPl: onikaimishiwaa***idig, idog***
+     +Px3nika+Pos+Pej+PosObv+Pret: onikaimishiniiban
+     +Px3nika+Pos+Pej+PosObv+VocPl: onikaimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 5, 7
+     +Px1nika+Pos+Pej+Pos1Pl+Obv: ninikaimishinaanan
+     +Px1nika+Pos+Pej+Pos1Pl+Pl: ninikaimishinaanag
+     +Px1nika+Pos+Pej+Pos1Pl+Loc: ninikaimishinaaning
+     +Px1nika+Pos+Pej+PosPl+Obv: ninikaimishiwaaan
+     +Px1nika+Pos+Pej+PosPl+Pl: ninikaimishiwaaag
+     +Px1nika+Pos+Pej+PosPl+Loc: ninikaimishiwaaing
+     +Px1nika+Pos+Pej+PosObv+Obv: ninikaimishinian
+     +Px1nika+Pos+Pej+PosObv+Pl: ninikaimishiniag
+     +Px1nika+Pos+Pej+PosObv+Loc: ninikaimishiniing
+     +Px2nika+Pos+Pej+Pos1Pl+Obv: ginikaimishinaanan
+     +Px2nika+Pos+Pej+Pos1Pl+Pl: ginikaimishinaanag
+     +Px2nika+Pos+Pej+Pos1Pl+Loc: ginikaimishinaaning
+     +Px2nika+Pos+Pej+PosPl+Obv: ginikaimishiwaaan
+     +Px2nika+Pos+Pej+PosPl+Pl: ginikaimishiwaaag
+     +Px2nika+Pos+Pej+PosPl+Loc: ginikaimishiwaaing
+     +Px2nika+Pos+Pej+PosObv+Obv: ginikaimishinian
+     +Px2nika+Pos+Pej+PosObv+Pl: ginikaimishiniag
+     +Px2nika+Pos+Pej+PosObv+Loc: ginikaimishiniing
+     +Px3nika+Pos+Pej+Pos1Pl+Obv: onikaimishinaanan
+     +Px3nika+Pos+Pej+Pos1Pl+Pl: onikaimishinaanag
+     +Px3nika+Pos+Pej+Pos1Pl+Loc: onikaimishinaaning
+     +Px3nika+Pos+Pej+PosPl+Obv: onikaimishiwaaan
+     +Px3nika+Pos+Pej+PosPl+Pl: onikaimishiwaaag
+     +Px3nika+Pos+Pej+PosPl+Loc: onikaimishiwaaing
+     +Px3nika+Pos+Pej+PosObv+Obv: onikaimishinian
+     +Px3nika+Pos+Pej+PosObv+Pl: onikaimishiniag
+     +Px3nika+Pos+Pej+PosObv+Loc: onikaimishiniing
+     
+     #Values from slots numbered: 1, 3, 4, 6, 7
+     +Px1nika+Pos+Pej+Pret+Obv: ninikaimishibanan
+     +Px1nika+Pos+Pej+Pret+Pl: ninikaimishibanag
+     +Px1nika+Pos+Pej+Pret+Loc: ninikaimishibaning
+     +Px1nika+Pos+Pej+VocPl+Obv: ninikaimish***idig, idog***an
+     +Px1nika+Pos+Pej+VocPl+Pl: ninikaimish***idig, idog***ag
+     +Px1nika+Pos+Pej+VocPl+Loc: ninikaimish***idig, idog***ing
+     +Px2nika+Pos+Pej+Pret+Obv: ginikaimishibanan
+     +Px2nika+Pos+Pej+Pret+Pl: ginikaimishibanag
+     +Px2nika+Pos+Pej+Pret+Loc: ginikaimishibaning
+     +Px2nika+Pos+Pej+VocPl+Obv: ginikaimish***idig, idog***an
+     +Px2nika+Pos+Pej+VocPl+Pl: ginikaimish***idig, idog***ag
+     +Px2nika+Pos+Pej+VocPl+Loc: ginikaimish***idig, idog***ing
+     +Px3nika+Pos+Pej+Pret+Obv: onikaimishibanan
+     +Px3nika+Pos+Pej+Pret+Pl: onikaimishibanag
+     +Px3nika+Pos+Pej+Pret+Loc: onikaimishibaning
+     +Px3nika+Pos+Pej+VocPl+Obv: onikaimish***idig, idog***an
+     +Px3nika+Pos+Pej+VocPl+Pl: onikaimish***idig, idog***ag
+     +Px3nika+Pos+Pej+VocPl+Loc: onikaimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 5, 6, 7
+     +Px1nika+Pos+Pos1Pl+Pret+Obv: ninikaiminaanibanan
+     +Px1nika+Pos+Pos1Pl+Pret+Pl: ninikaiminaanibanag
+     +Px1nika+Pos+Pos1Pl+Pret+Loc: ninikaiminaanibaning
+     +Px1nika+Pos+Pos1Pl+VocPl+Obv: ninikaiminaan***idig, idog***an
+     +Px1nika+Pos+Pos1Pl+VocPl+Pl: ninikaiminaan***idig, idog***ag
+     +Px1nika+Pos+Pos1Pl+VocPl+Loc: ninikaiminaan***idig, idog***ing
+     +Px1nika+Pos+PosPl+Pret+Obv: ninikaimiwaaibanan
+     +Px1nika+Pos+PosPl+Pret+Pl: ninikaimiwaaibanag
+     +Px1nika+Pos+PosPl+Pret+Loc: ninikaimiwaaibaning
+     +Px1nika+Pos+PosPl+VocPl+Obv: ninikaimiwaa***idig, idog***an
+     +Px1nika+Pos+PosPl+VocPl+Pl: ninikaimiwaa***idig, idog***ag
+     +Px1nika+Pos+PosPl+VocPl+Loc: ninikaimiwaa***idig, idog***ing
+     +Px1nika+Pos+PosObv+Pret+Obv: ninikaiminiibanan
+     +Px1nika+Pos+PosObv+Pret+Pl: ninikaiminiibanag
+     +Px1nika+Pos+PosObv+Pret+Loc: ninikaiminiibaning
+     +Px1nika+Pos+PosObv+VocPl+Obv: ninikaimini***idig, idog***an
+     +Px1nika+Pos+PosObv+VocPl+Pl: ninikaimini***idig, idog***ag
+     +Px1nika+Pos+PosObv+VocPl+Loc: ninikaimini***idig, idog***ing
+     +Px2nika+Pos+Pos1Pl+Pret+Obv: ginikaiminaanibanan
+     +Px2nika+Pos+Pos1Pl+Pret+Pl: ginikaiminaanibanag
+     +Px2nika+Pos+Pos1Pl+Pret+Loc: ginikaiminaanibaning
+     +Px2nika+Pos+Pos1Pl+VocPl+Obv: ginikaiminaan***idig, idog***an
+     +Px2nika+Pos+Pos1Pl+VocPl+Pl: ginikaiminaan***idig, idog***ag
+     +Px2nika+Pos+Pos1Pl+VocPl+Loc: ginikaiminaan***idig, idog***ing
+     +Px2nika+Pos+PosPl+Pret+Obv: ginikaimiwaaibanan
+     +Px2nika+Pos+PosPl+Pret+Pl: ginikaimiwaaibanag
+     +Px2nika+Pos+PosPl+Pret+Loc: ginikaimiwaaibaning
+     +Px2nika+Pos+PosPl+VocPl+Obv: ginikaimiwaa***idig, idog***an
+     +Px2nika+Pos+PosPl+VocPl+Pl: ginikaimiwaa***idig, idog***ag
+     +Px2nika+Pos+PosPl+VocPl+Loc: ginikaimiwaa***idig, idog***ing
+     +Px2nika+Pos+PosObv+Pret+Obv: ginikaiminiibanan
+     +Px2nika+Pos+PosObv+Pret+Pl: ginikaiminiibanag
+     +Px2nika+Pos+PosObv+Pret+Loc: ginikaiminiibaning
+     +Px2nika+Pos+PosObv+VocPl+Obv: ginikaimini***idig, idog***an
+     +Px2nika+Pos+PosObv+VocPl+Pl: ginikaimini***idig, idog***ag
+     +Px2nika+Pos+PosObv+VocPl+Loc: ginikaimini***idig, idog***ing
+     +Px3nika+Pos+Pos1Pl+Pret+Obv: onikaiminaanibanan
+     +Px3nika+Pos+Pos1Pl+Pret+Pl: onikaiminaanibanag
+     +Px3nika+Pos+Pos1Pl+Pret+Loc: onikaiminaanibaning
+     +Px3nika+Pos+Pos1Pl+VocPl+Obv: onikaiminaan***idig, idog***an
+     +Px3nika+Pos+Pos1Pl+VocPl+Pl: onikaiminaan***idig, idog***ag
+     +Px3nika+Pos+Pos1Pl+VocPl+Loc: onikaiminaan***idig, idog***ing
+     +Px3nika+Pos+PosPl+Pret+Obv: onikaimiwaaibanan
+     +Px3nika+Pos+PosPl+Pret+Pl: onikaimiwaaibanag
+     +Px3nika+Pos+PosPl+Pret+Loc: onikaimiwaaibaning
+     +Px3nika+Pos+PosPl+VocPl+Obv: onikaimiwaa***idig, idog***an
+     +Px3nika+Pos+PosPl+VocPl+Pl: onikaimiwaa***idig, idog***ag
+     +Px3nika+Pos+PosPl+VocPl+Loc: onikaimiwaa***idig, idog***ing
+     +Px3nika+Pos+PosObv+Pret+Obv: onikaiminiibanan
+     +Px3nika+Pos+PosObv+Pret+Pl: onikaiminiibanag
+     +Px3nika+Pos+PosObv+Pret+Loc: onikaiminiibaning
+     +Px3nika+Pos+PosObv+VocPl+Obv: onikaimini***idig, idog***an
+     +Px3nika+Pos+PosObv+VocPl+Pl: onikaimini***idig, idog***ag
+     +Px3nika+Pos+PosObv+VocPl+Loc: onikaimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6, 7
+     +Px1nika+Pej+Pos1Pl+Pret+Obv: ninikaishinaanibanan
+     +Px1nika+Pej+Pos1Pl+Pret+Pl: ninikaishinaanibanag
+     +Px1nika+Pej+Pos1Pl+Pret+Loc: ninikaishinaanibaning
+     +Px1nika+Pej+Pos1Pl+VocPl+Obv: ninikaishinaan***idig, idog***an
+     +Px1nika+Pej+Pos1Pl+VocPl+Pl: ninikaishinaan***idig, idog***ag
+     +Px1nika+Pej+Pos1Pl+VocPl+Loc: ninikaishinaan***idig, idog***ing
+     +Px1nika+Pej+PosPl+Pret+Obv: ninikaishiwaaibanan
+     +Px1nika+Pej+PosPl+Pret+Pl: ninikaishiwaaibanag
+     +Px1nika+Pej+PosPl+Pret+Loc: ninikaishiwaaibaning
+     +Px1nika+Pej+PosPl+VocPl+Obv: ninikaishiwaa***idig, idog***an
+     +Px1nika+Pej+PosPl+VocPl+Pl: ninikaishiwaa***idig, idog***ag
+     +Px1nika+Pej+PosPl+VocPl+Loc: ninikaishiwaa***idig, idog***ing
+     +Px1nika+Pej+PosObv+Pret+Obv: ninikaishiniibanan
+     +Px1nika+Pej+PosObv+Pret+Pl: ninikaishiniibanag
+     +Px1nika+Pej+PosObv+Pret+Loc: ninikaishiniibaning
+     +Px1nika+Pej+PosObv+VocPl+Obv: ninikaishini***idig, idog***an
+     +Px1nika+Pej+PosObv+VocPl+Pl: ninikaishini***idig, idog***ag
+     +Px1nika+Pej+PosObv+VocPl+Loc: ninikaishini***idig, idog***ing
+     +Px2nika+Pej+Pos1Pl+Pret+Obv: ginikaishinaanibanan
+     +Px2nika+Pej+Pos1Pl+Pret+Pl: ginikaishinaanibanag
+     +Px2nika+Pej+Pos1Pl+Pret+Loc: ginikaishinaanibaning
+     +Px2nika+Pej+Pos1Pl+VocPl+Obv: ginikaishinaan***idig, idog***an
+     +Px2nika+Pej+Pos1Pl+VocPl+Pl: ginikaishinaan***idig, idog***ag
+     +Px2nika+Pej+Pos1Pl+VocPl+Loc: ginikaishinaan***idig, idog***ing
+     +Px2nika+Pej+PosPl+Pret+Obv: ginikaishiwaaibanan
+     +Px2nika+Pej+PosPl+Pret+Pl: ginikaishiwaaibanag
+     +Px2nika+Pej+PosPl+Pret+Loc: ginikaishiwaaibaning
+     +Px2nika+Pej+PosPl+VocPl+Obv: ginikaishiwaa***idig, idog***an
+     +Px2nika+Pej+PosPl+VocPl+Pl: ginikaishiwaa***idig, idog***ag
+     +Px2nika+Pej+PosPl+VocPl+Loc: ginikaishiwaa***idig, idog***ing
+     +Px2nika+Pej+PosObv+Pret+Obv: ginikaishiniibanan
+     +Px2nika+Pej+PosObv+Pret+Pl: ginikaishiniibanag
+     +Px2nika+Pej+PosObv+Pret+Loc: ginikaishiniibaning
+     +Px2nika+Pej+PosObv+VocPl+Obv: ginikaishini***idig, idog***an
+     +Px2nika+Pej+PosObv+VocPl+Pl: ginikaishini***idig, idog***ag
+     +Px2nika+Pej+PosObv+VocPl+Loc: ginikaishini***idig, idog***ing
+     +Px3nika+Pej+Pos1Pl+Pret+Obv: onikaishinaanibanan
+     +Px3nika+Pej+Pos1Pl+Pret+Pl: onikaishinaanibanag
+     +Px3nika+Pej+Pos1Pl+Pret+Loc: onikaishinaanibaning
+     +Px3nika+Pej+Pos1Pl+VocPl+Obv: onikaishinaan***idig, idog***an
+     +Px3nika+Pej+Pos1Pl+VocPl+Pl: onikaishinaan***idig, idog***ag
+     +Px3nika+Pej+Pos1Pl+VocPl+Loc: onikaishinaan***idig, idog***ing
+     +Px3nika+Pej+PosPl+Pret+Obv: onikaishiwaaibanan
+     +Px3nika+Pej+PosPl+Pret+Pl: onikaishiwaaibanag
+     +Px3nika+Pej+PosPl+Pret+Loc: onikaishiwaaibaning
+     +Px3nika+Pej+PosPl+VocPl+Obv: onikaishiwaa***idig, idog***an
+     +Px3nika+Pej+PosPl+VocPl+Pl: onikaishiwaa***idig, idog***ag
+     +Px3nika+Pej+PosPl+VocPl+Loc: onikaishiwaa***idig, idog***ing
+     +Px3nika+Pej+PosObv+Pret+Obv: onikaishiniibanan
+     +Px3nika+Pej+PosObv+Pret+Pl: onikaishiniibanag
+     +Px3nika+Pej+PosObv+Pret+Loc: onikaishiniibaning
+     +Px3nika+Pej+PosObv+VocPl+Obv: onikaishini***idig, idog***an
+     +Px3nika+Pej+PosObv+VocPl+Pl: onikaishini***idig, idog***ag
+     +Px3nika+Pej+PosObv+VocPl+Loc: onikaishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6
+     nika+Dim+Pos+Pej+Pos1Pl+Pret: nikaensimishinaaniban
+     nika+Dim+Pos+Pej+Pos1Pl+VocPl: nikaensimishinaan***idig, idog***
+     nika+Dim+Pos+Pej+PosPl+Pret: nikaensimishiwaaiban
+     nika+Dim+Pos+Pej+PosPl+VocPl: nikaensimishiwaa***idig, idog***
+     nika+Dim+Pos+Pej+PosObv+Pret: nikaensimishiniiban
+     nika+Dim+Pos+Pej+PosObv+VocPl: nikaensimishini***idig, idog***
+     nika+Con+Pos+Pej+Pos1Pl+Pret: nikaenhimishinaaniban
+     nika+Con+Pos+Pej+Pos1Pl+VocPl: nikaenhimishinaan***idig, idog***
+     nika+Con+Pos+Pej+PosPl+Pret: nikaenhimishiwaaiban
+     nika+Con+Pos+Pej+PosPl+VocPl: nikaenhimishiwaa***idig, idog***
+     nika+Con+Pos+Pej+PosObv+Pret: nikaenhimishiniiban
+     nika+Con+Pos+Pej+PosObv+VocPl: nikaenhimishini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 5, 7
+     nika+Dim+Pos+Pej+Pos1Pl+Obv: nikaensimishinaanan
+     nika+Dim+Pos+Pej+Pos1Pl+Pl: nikaensimishinaanag
+     nika+Dim+Pos+Pej+Pos1Pl+Loc: nikaensimishinaaning
+     nika+Dim+Pos+Pej+PosPl+Obv: nikaensimishiwaaan
+     nika+Dim+Pos+Pej+PosPl+Pl: nikaensimishiwaaag
+     nika+Dim+Pos+Pej+PosPl+Loc: nikaensimishiwaaing
+     nika+Dim+Pos+Pej+PosObv+Obv: nikaensimishinian
+     nika+Dim+Pos+Pej+PosObv+Pl: nikaensimishiniag
+     nika+Dim+Pos+Pej+PosObv+Loc: nikaensimishiniing
+     nika+Con+Pos+Pej+Pos1Pl+Obv: nikaenhimishinaanan
+     nika+Con+Pos+Pej+Pos1Pl+Pl: nikaenhimishinaanag
+     nika+Con+Pos+Pej+Pos1Pl+Loc: nikaenhimishinaaning
+     nika+Con+Pos+Pej+PosPl+Obv: nikaenhimishiwaaan
+     nika+Con+Pos+Pej+PosPl+Pl: nikaenhimishiwaaag
+     nika+Con+Pos+Pej+PosPl+Loc: nikaenhimishiwaaing
+     nika+Con+Pos+Pej+PosObv+Obv: nikaenhimishinian
+     nika+Con+Pos+Pej+PosObv+Pl: nikaenhimishiniag
+     nika+Con+Pos+Pej+PosObv+Loc: nikaenhimishiniing
+     
+     #Values from slots numbered: 2, 3, 4, 6, 7
+     nika+Dim+Pos+Pej+Pret+Obv: nikaensimishibanan
+     nika+Dim+Pos+Pej+Pret+Pl: nikaensimishibanag
+     nika+Dim+Pos+Pej+Pret+Loc: nikaensimishibaning
+     nika+Dim+Pos+Pej+VocPl+Obv: nikaensimish***idig, idog***an
+     nika+Dim+Pos+Pej+VocPl+Pl: nikaensimish***idig, idog***ag
+     nika+Dim+Pos+Pej+VocPl+Loc: nikaensimish***idig, idog***ing
+     nika+Con+Pos+Pej+Pret+Obv: nikaenhimishibanan
+     nika+Con+Pos+Pej+Pret+Pl: nikaenhimishibanag
+     nika+Con+Pos+Pej+Pret+Loc: nikaenhimishibaning
+     nika+Con+Pos+Pej+VocPl+Obv: nikaenhimish***idig, idog***an
+     nika+Con+Pos+Pej+VocPl+Pl: nikaenhimish***idig, idog***ag
+     nika+Con+Pos+Pej+VocPl+Loc: nikaenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 5, 6, 7
+     nika+Dim+Pos+Pos1Pl+Pret+Obv: nikaensiminaanibanan
+     nika+Dim+Pos+Pos1Pl+Pret+Pl: nikaensiminaanibanag
+     nika+Dim+Pos+Pos1Pl+Pret+Loc: nikaensiminaanibaning
+     nika+Dim+Pos+Pos1Pl+VocPl+Obv: nikaensiminaan***idig, idog***an
+     nika+Dim+Pos+Pos1Pl+VocPl+Pl: nikaensiminaan***idig, idog***ag
+     nika+Dim+Pos+Pos1Pl+VocPl+Loc: nikaensiminaan***idig, idog***ing
+     nika+Dim+Pos+PosPl+Pret+Obv: nikaensimiwaaibanan
+     nika+Dim+Pos+PosPl+Pret+Pl: nikaensimiwaaibanag
+     nika+Dim+Pos+PosPl+Pret+Loc: nikaensimiwaaibaning
+     nika+Dim+Pos+PosPl+VocPl+Obv: nikaensimiwaa***idig, idog***an
+     nika+Dim+Pos+PosPl+VocPl+Pl: nikaensimiwaa***idig, idog***ag
+     nika+Dim+Pos+PosPl+VocPl+Loc: nikaensimiwaa***idig, idog***ing
+     nika+Dim+Pos+PosObv+Pret+Obv: nikaensiminiibanan
+     nika+Dim+Pos+PosObv+Pret+Pl: nikaensiminiibanag
+     nika+Dim+Pos+PosObv+Pret+Loc: nikaensiminiibaning
+     nika+Dim+Pos+PosObv+VocPl+Obv: nikaensimini***idig, idog***an
+     nika+Dim+Pos+PosObv+VocPl+Pl: nikaensimini***idig, idog***ag
+     nika+Dim+Pos+PosObv+VocPl+Loc: nikaensimini***idig, idog***ing
+     nika+Con+Pos+Pos1Pl+Pret+Obv: nikaenhiminaanibanan
+     nika+Con+Pos+Pos1Pl+Pret+Pl: nikaenhiminaanibanag
+     nika+Con+Pos+Pos1Pl+Pret+Loc: nikaenhiminaanibaning
+     nika+Con+Pos+Pos1Pl+VocPl+Obv: nikaenhiminaan***idig, idog***an
+     nika+Con+Pos+Pos1Pl+VocPl+Pl: nikaenhiminaan***idig, idog***ag
+     nika+Con+Pos+Pos1Pl+VocPl+Loc: nikaenhiminaan***idig, idog***ing
+     nika+Con+Pos+PosPl+Pret+Obv: nikaenhimiwaaibanan
+     nika+Con+Pos+PosPl+Pret+Pl: nikaenhimiwaaibanag
+     nika+Con+Pos+PosPl+Pret+Loc: nikaenhimiwaaibaning
+     nika+Con+Pos+PosPl+VocPl+Obv: nikaenhimiwaa***idig, idog***an
+     nika+Con+Pos+PosPl+VocPl+Pl: nikaenhimiwaa***idig, idog***ag
+     nika+Con+Pos+PosPl+VocPl+Loc: nikaenhimiwaa***idig, idog***ing
+     nika+Con+Pos+PosObv+Pret+Obv: nikaenhiminiibanan
+     nika+Con+Pos+PosObv+Pret+Pl: nikaenhiminiibanag
+     nika+Con+Pos+PosObv+Pret+Loc: nikaenhiminiibaning
+     nika+Con+Pos+PosObv+VocPl+Obv: nikaenhimini***idig, idog***an
+     nika+Con+Pos+PosObv+VocPl+Pl: nikaenhimini***idig, idog***ag
+     nika+Con+Pos+PosObv+VocPl+Loc: nikaenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6, 7
+     nika+Dim+Pej+Pos1Pl+Pret+Obv: nikaensishinaanibanan
+     nika+Dim+Pej+Pos1Pl+Pret+Pl: nikaensishinaanibanag
+     nika+Dim+Pej+Pos1Pl+Pret+Loc: nikaensishinaanibaning
+     nika+Dim+Pej+Pos1Pl+VocPl+Obv: nikaensishinaan***idig, idog***an
+     nika+Dim+Pej+Pos1Pl+VocPl+Pl: nikaensishinaan***idig, idog***ag
+     nika+Dim+Pej+Pos1Pl+VocPl+Loc: nikaensishinaan***idig, idog***ing
+     nika+Dim+Pej+PosPl+Pret+Obv: nikaensishiwaaibanan
+     nika+Dim+Pej+PosPl+Pret+Pl: nikaensishiwaaibanag
+     nika+Dim+Pej+PosPl+Pret+Loc: nikaensishiwaaibaning
+     nika+Dim+Pej+PosPl+VocPl+Obv: nikaensishiwaa***idig, idog***an
+     nika+Dim+Pej+PosPl+VocPl+Pl: nikaensishiwaa***idig, idog***ag
+     nika+Dim+Pej+PosPl+VocPl+Loc: nikaensishiwaa***idig, idog***ing
+     nika+Dim+Pej+PosObv+Pret+Obv: nikaensishiniibanan
+     nika+Dim+Pej+PosObv+Pret+Pl: nikaensishiniibanag
+     nika+Dim+Pej+PosObv+Pret+Loc: nikaensishiniibaning
+     nika+Dim+Pej+PosObv+VocPl+Obv: nikaensishini***idig, idog***an
+     nika+Dim+Pej+PosObv+VocPl+Pl: nikaensishini***idig, idog***ag
+     nika+Dim+Pej+PosObv+VocPl+Loc: nikaensishini***idig, idog***ing
+     nika+Con+Pej+Pos1Pl+Pret+Obv: nikaenhishinaanibanan
+     nika+Con+Pej+Pos1Pl+Pret+Pl: nikaenhishinaanibanag
+     nika+Con+Pej+Pos1Pl+Pret+Loc: nikaenhishinaanibaning
+     nika+Con+Pej+Pos1Pl+VocPl+Obv: nikaenhishinaan***idig, idog***an
+     nika+Con+Pej+Pos1Pl+VocPl+Pl: nikaenhishinaan***idig, idog***ag
+     nika+Con+Pej+Pos1Pl+VocPl+Loc: nikaenhishinaan***idig, idog***ing
+     nika+Con+Pej+PosPl+Pret+Obv: nikaenhishiwaaibanan
+     nika+Con+Pej+PosPl+Pret+Pl: nikaenhishiwaaibanag
+     nika+Con+Pej+PosPl+Pret+Loc: nikaenhishiwaaibaning
+     nika+Con+Pej+PosPl+VocPl+Obv: nikaenhishiwaa***idig, idog***an
+     nika+Con+Pej+PosPl+VocPl+Pl: nikaenhishiwaa***idig, idog***ag
+     nika+Con+Pej+PosPl+VocPl+Loc: nikaenhishiwaa***idig, idog***ing
+     nika+Con+Pej+PosObv+Pret+Obv: nikaenhishiniibanan
+     nika+Con+Pej+PosObv+Pret+Pl: nikaenhishiniibanag
+     nika+Con+Pej+PosObv+Pret+Loc: nikaenhishiniibaning
+     nika+Con+Pej+PosObv+VocPl+Obv: nikaenhishini***idig, idog***an
+     nika+Con+Pej+PosObv+VocPl+Pl: nikaenhishini***idig, idog***ag
+     nika+Con+Pej+PosObv+VocPl+Loc: nikaenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6, 7
+     nika+Pos+Pej+Pos1Pl+Pret+Obv: nikaimishinaanibanan
+     nika+Pos+Pej+Pos1Pl+Pret+Pl: nikaimishinaanibanag
+     nika+Pos+Pej+Pos1Pl+Pret+Loc: nikaimishinaanibaning
+     nika+Pos+Pej+Pos1Pl+VocPl+Obv: nikaimishinaan***idig, idog***an
+     nika+Pos+Pej+Pos1Pl+VocPl+Pl: nikaimishinaan***idig, idog***ag
+     nika+Pos+Pej+Pos1Pl+VocPl+Loc: nikaimishinaan***idig, idog***ing
+     nika+Pos+Pej+PosPl+Pret+Obv: nikaimishiwaaibanan
+     nika+Pos+Pej+PosPl+Pret+Pl: nikaimishiwaaibanag
+     nika+Pos+Pej+PosPl+Pret+Loc: nikaimishiwaaibaning
+     nika+Pos+Pej+PosPl+VocPl+Obv: nikaimishiwaa***idig, idog***an
+     nika+Pos+Pej+PosPl+VocPl+Pl: nikaimishiwaa***idig, idog***ag
+     nika+Pos+Pej+PosPl+VocPl+Loc: nikaimishiwaa***idig, idog***ing
+     nika+Pos+Pej+PosObv+Pret+Obv: nikaimishiniibanan
+     nika+Pos+Pej+PosObv+Pret+Pl: nikaimishiniibanag
+     nika+Pos+Pej+PosObv+Pret+Loc: nikaimishiniibaning
+     nika+Pos+Pej+PosObv+VocPl+Obv: nikaimishini***idig, idog***an
+     nika+Pos+Pej+PosObv+VocPl+Pl: nikaimishini***idig, idog***ag
+     nika+Pos+Pej+PosObv+VocPl+Loc: nikaimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Pret: ninikaensimishinaaniban
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+VocPl: ninikaensimishinaan***idig, idog***
+     +Px1nika+Dim+Pos+Pej+PosPl+Pret: ninikaensimishiwaaiban
+     +Px1nika+Dim+Pos+Pej+PosPl+VocPl: ninikaensimishiwaa***idig, idog***
+     +Px1nika+Dim+Pos+Pej+PosObv+Pret: ninikaensimishiniiban
+     +Px1nika+Dim+Pos+Pej+PosObv+VocPl: ninikaensimishini***idig, idog***
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Pret: ninikaenhimishinaaniban
+     +Px1nika+Con+Pos+Pej+Pos1Pl+VocPl: ninikaenhimishinaan***idig, idog***
+     +Px1nika+Con+Pos+Pej+PosPl+Pret: ninikaenhimishiwaaiban
+     +Px1nika+Con+Pos+Pej+PosPl+VocPl: ninikaenhimishiwaa***idig, idog***
+     +Px1nika+Con+Pos+Pej+PosObv+Pret: ninikaenhimishiniiban
+     +Px1nika+Con+Pos+Pej+PosObv+VocPl: ninikaenhimishini***idig, idog***
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Pret: ginikaensimishinaaniban
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+VocPl: ginikaensimishinaan***idig, idog***
+     +Px2nika+Dim+Pos+Pej+PosPl+Pret: ginikaensimishiwaaiban
+     +Px2nika+Dim+Pos+Pej+PosPl+VocPl: ginikaensimishiwaa***idig, idog***
+     +Px2nika+Dim+Pos+Pej+PosObv+Pret: ginikaensimishiniiban
+     +Px2nika+Dim+Pos+Pej+PosObv+VocPl: ginikaensimishini***idig, idog***
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Pret: ginikaenhimishinaaniban
+     +Px2nika+Con+Pos+Pej+Pos1Pl+VocPl: ginikaenhimishinaan***idig, idog***
+     +Px2nika+Con+Pos+Pej+PosPl+Pret: ginikaenhimishiwaaiban
+     +Px2nika+Con+Pos+Pej+PosPl+VocPl: ginikaenhimishiwaa***idig, idog***
+     +Px2nika+Con+Pos+Pej+PosObv+Pret: ginikaenhimishiniiban
+     +Px2nika+Con+Pos+Pej+PosObv+VocPl: ginikaenhimishini***idig, idog***
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Pret: onikaensimishinaaniban
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+VocPl: onikaensimishinaan***idig, idog***
+     +Px3nika+Dim+Pos+Pej+PosPl+Pret: onikaensimishiwaaiban
+     +Px3nika+Dim+Pos+Pej+PosPl+VocPl: onikaensimishiwaa***idig, idog***
+     +Px3nika+Dim+Pos+Pej+PosObv+Pret: onikaensimishiniiban
+     +Px3nika+Dim+Pos+Pej+PosObv+VocPl: onikaensimishini***idig, idog***
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Pret: onikaenhimishinaaniban
+     +Px3nika+Con+Pos+Pej+Pos1Pl+VocPl: onikaenhimishinaan***idig, idog***
+     +Px3nika+Con+Pos+Pej+PosPl+Pret: onikaenhimishiwaaiban
+     +Px3nika+Con+Pos+Pej+PosPl+VocPl: onikaenhimishiwaa***idig, idog***
+     +Px3nika+Con+Pos+Pej+PosObv+Pret: onikaenhimishiniiban
+     +Px3nika+Con+Pos+Pej+PosObv+VocPl: onikaenhimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Obv: ninikaensimishinaanan
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Pl: ninikaensimishinaanag
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Loc: ninikaensimishinaaning
+     +Px1nika+Dim+Pos+Pej+PosPl+Obv: ninikaensimishiwaaan
+     +Px1nika+Dim+Pos+Pej+PosPl+Pl: ninikaensimishiwaaag
+     +Px1nika+Dim+Pos+Pej+PosPl+Loc: ninikaensimishiwaaing
+     +Px1nika+Dim+Pos+Pej+PosObv+Obv: ninikaensimishinian
+     +Px1nika+Dim+Pos+Pej+PosObv+Pl: ninikaensimishiniag
+     +Px1nika+Dim+Pos+Pej+PosObv+Loc: ninikaensimishiniing
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Obv: ninikaenhimishinaanan
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Pl: ninikaenhimishinaanag
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Loc: ninikaenhimishinaaning
+     +Px1nika+Con+Pos+Pej+PosPl+Obv: ninikaenhimishiwaaan
+     +Px1nika+Con+Pos+Pej+PosPl+Pl: ninikaenhimishiwaaag
+     +Px1nika+Con+Pos+Pej+PosPl+Loc: ninikaenhimishiwaaing
+     +Px1nika+Con+Pos+Pej+PosObv+Obv: ninikaenhimishinian
+     +Px1nika+Con+Pos+Pej+PosObv+Pl: ninikaenhimishiniag
+     +Px1nika+Con+Pos+Pej+PosObv+Loc: ninikaenhimishiniing
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Obv: ginikaensimishinaanan
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Pl: ginikaensimishinaanag
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Loc: ginikaensimishinaaning
+     +Px2nika+Dim+Pos+Pej+PosPl+Obv: ginikaensimishiwaaan
+     +Px2nika+Dim+Pos+Pej+PosPl+Pl: ginikaensimishiwaaag
+     +Px2nika+Dim+Pos+Pej+PosPl+Loc: ginikaensimishiwaaing
+     +Px2nika+Dim+Pos+Pej+PosObv+Obv: ginikaensimishinian
+     +Px2nika+Dim+Pos+Pej+PosObv+Pl: ginikaensimishiniag
+     +Px2nika+Dim+Pos+Pej+PosObv+Loc: ginikaensimishiniing
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Obv: ginikaenhimishinaanan
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Pl: ginikaenhimishinaanag
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Loc: ginikaenhimishinaaning
+     +Px2nika+Con+Pos+Pej+PosPl+Obv: ginikaenhimishiwaaan
+     +Px2nika+Con+Pos+Pej+PosPl+Pl: ginikaenhimishiwaaag
+     +Px2nika+Con+Pos+Pej+PosPl+Loc: ginikaenhimishiwaaing
+     +Px2nika+Con+Pos+Pej+PosObv+Obv: ginikaenhimishinian
+     +Px2nika+Con+Pos+Pej+PosObv+Pl: ginikaenhimishiniag
+     +Px2nika+Con+Pos+Pej+PosObv+Loc: ginikaenhimishiniing
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Obv: onikaensimishinaanan
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Pl: onikaensimishinaanag
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Loc: onikaensimishinaaning
+     +Px3nika+Dim+Pos+Pej+PosPl+Obv: onikaensimishiwaaan
+     +Px3nika+Dim+Pos+Pej+PosPl+Pl: onikaensimishiwaaag
+     +Px3nika+Dim+Pos+Pej+PosPl+Loc: onikaensimishiwaaing
+     +Px3nika+Dim+Pos+Pej+PosObv+Obv: onikaensimishinian
+     +Px3nika+Dim+Pos+Pej+PosObv+Pl: onikaensimishiniag
+     +Px3nika+Dim+Pos+Pej+PosObv+Loc: onikaensimishiniing
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Obv: onikaenhimishinaanan
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Pl: onikaenhimishinaanag
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Loc: onikaenhimishinaaning
+     +Px3nika+Con+Pos+Pej+PosPl+Obv: onikaenhimishiwaaan
+     +Px3nika+Con+Pos+Pej+PosPl+Pl: onikaenhimishiwaaag
+     +Px3nika+Con+Pos+Pej+PosPl+Loc: onikaenhimishiwaaing
+     +Px3nika+Con+Pos+Pej+PosObv+Obv: onikaenhimishinian
+     +Px3nika+Con+Pos+Pej+PosObv+Pl: onikaenhimishiniag
+     +Px3nika+Con+Pos+Pej+PosObv+Loc: onikaenhimishiniing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     +Px1nika+Dim+Pos+Pej+Pret+Obv: ninikaensimishibanan
+     +Px1nika+Dim+Pos+Pej+Pret+Pl: ninikaensimishibanag
+     +Px1nika+Dim+Pos+Pej+Pret+Loc: ninikaensimishibaning
+     +Px1nika+Dim+Pos+Pej+VocPl+Obv: ninikaensimish***idig, idog***an
+     +Px1nika+Dim+Pos+Pej+VocPl+Pl: ninikaensimish***idig, idog***ag
+     +Px1nika+Dim+Pos+Pej+VocPl+Loc: ninikaensimish***idig, idog***ing
+     +Px1nika+Con+Pos+Pej+Pret+Obv: ninikaenhimishibanan
+     +Px1nika+Con+Pos+Pej+Pret+Pl: ninikaenhimishibanag
+     +Px1nika+Con+Pos+Pej+Pret+Loc: ninikaenhimishibaning
+     +Px1nika+Con+Pos+Pej+VocPl+Obv: ninikaenhimish***idig, idog***an
+     +Px1nika+Con+Pos+Pej+VocPl+Pl: ninikaenhimish***idig, idog***ag
+     +Px1nika+Con+Pos+Pej+VocPl+Loc: ninikaenhimish***idig, idog***ing
+     +Px2nika+Dim+Pos+Pej+Pret+Obv: ginikaensimishibanan
+     +Px2nika+Dim+Pos+Pej+Pret+Pl: ginikaensimishibanag
+     +Px2nika+Dim+Pos+Pej+Pret+Loc: ginikaensimishibaning
+     +Px2nika+Dim+Pos+Pej+VocPl+Obv: ginikaensimish***idig, idog***an
+     +Px2nika+Dim+Pos+Pej+VocPl+Pl: ginikaensimish***idig, idog***ag
+     +Px2nika+Dim+Pos+Pej+VocPl+Loc: ginikaensimish***idig, idog***ing
+     +Px2nika+Con+Pos+Pej+Pret+Obv: ginikaenhimishibanan
+     +Px2nika+Con+Pos+Pej+Pret+Pl: ginikaenhimishibanag
+     +Px2nika+Con+Pos+Pej+Pret+Loc: ginikaenhimishibaning
+     +Px2nika+Con+Pos+Pej+VocPl+Obv: ginikaenhimish***idig, idog***an
+     +Px2nika+Con+Pos+Pej+VocPl+Pl: ginikaenhimish***idig, idog***ag
+     +Px2nika+Con+Pos+Pej+VocPl+Loc: ginikaenhimish***idig, idog***ing
+     +Px3nika+Dim+Pos+Pej+Pret+Obv: onikaensimishibanan
+     +Px3nika+Dim+Pos+Pej+Pret+Pl: onikaensimishibanag
+     +Px3nika+Dim+Pos+Pej+Pret+Loc: onikaensimishibaning
+     +Px3nika+Dim+Pos+Pej+VocPl+Obv: onikaensimish***idig, idog***an
+     +Px3nika+Dim+Pos+Pej+VocPl+Pl: onikaensimish***idig, idog***ag
+     +Px3nika+Dim+Pos+Pej+VocPl+Loc: onikaensimish***idig, idog***ing
+     +Px3nika+Con+Pos+Pej+Pret+Obv: onikaenhimishibanan
+     +Px3nika+Con+Pos+Pej+Pret+Pl: onikaenhimishibanag
+     +Px3nika+Con+Pos+Pej+Pret+Loc: onikaenhimishibaning
+     +Px3nika+Con+Pos+Pej+VocPl+Obv: onikaenhimish***idig, idog***an
+     +Px3nika+Con+Pos+Pej+VocPl+Pl: onikaenhimish***idig, idog***ag
+     +Px3nika+Con+Pos+Pej+VocPl+Loc: onikaenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     +Px1nika+Dim+Pos+Pos1Pl+Pret+Obv: ninikaensiminaanibanan
+     +Px1nika+Dim+Pos+Pos1Pl+Pret+Pl: ninikaensiminaanibanag
+     +Px1nika+Dim+Pos+Pos1Pl+Pret+Loc: ninikaensiminaanibaning
+     +Px1nika+Dim+Pos+Pos1Pl+VocPl+Obv: ninikaensiminaan***idig, idog***an
+     +Px1nika+Dim+Pos+Pos1Pl+VocPl+Pl: ninikaensiminaan***idig, idog***ag
+     +Px1nika+Dim+Pos+Pos1Pl+VocPl+Loc: ninikaensiminaan***idig, idog***ing
+     +Px1nika+Dim+Pos+PosPl+Pret+Obv: ninikaensimiwaaibanan
+     +Px1nika+Dim+Pos+PosPl+Pret+Pl: ninikaensimiwaaibanag
+     +Px1nika+Dim+Pos+PosPl+Pret+Loc: ninikaensimiwaaibaning
+     +Px1nika+Dim+Pos+PosPl+VocPl+Obv: ninikaensimiwaa***idig, idog***an
+     +Px1nika+Dim+Pos+PosPl+VocPl+Pl: ninikaensimiwaa***idig, idog***ag
+     +Px1nika+Dim+Pos+PosPl+VocPl+Loc: ninikaensimiwaa***idig, idog***ing
+     +Px1nika+Dim+Pos+PosObv+Pret+Obv: ninikaensiminiibanan
+     +Px1nika+Dim+Pos+PosObv+Pret+Pl: ninikaensiminiibanag
+     +Px1nika+Dim+Pos+PosObv+Pret+Loc: ninikaensiminiibaning
+     +Px1nika+Dim+Pos+PosObv+VocPl+Obv: ninikaensimini***idig, idog***an
+     +Px1nika+Dim+Pos+PosObv+VocPl+Pl: ninikaensimini***idig, idog***ag
+     +Px1nika+Dim+Pos+PosObv+VocPl+Loc: ninikaensimini***idig, idog***ing
+     +Px1nika+Con+Pos+Pos1Pl+Pret+Obv: ninikaenhiminaanibanan
+     +Px1nika+Con+Pos+Pos1Pl+Pret+Pl: ninikaenhiminaanibanag
+     +Px1nika+Con+Pos+Pos1Pl+Pret+Loc: ninikaenhiminaanibaning
+     +Px1nika+Con+Pos+Pos1Pl+VocPl+Obv: ninikaenhiminaan***idig, idog***an
+     +Px1nika+Con+Pos+Pos1Pl+VocPl+Pl: ninikaenhiminaan***idig, idog***ag
+     +Px1nika+Con+Pos+Pos1Pl+VocPl+Loc: ninikaenhiminaan***idig, idog***ing
+     +Px1nika+Con+Pos+PosPl+Pret+Obv: ninikaenhimiwaaibanan
+     +Px1nika+Con+Pos+PosPl+Pret+Pl: ninikaenhimiwaaibanag
+     +Px1nika+Con+Pos+PosPl+Pret+Loc: ninikaenhimiwaaibaning
+     +Px1nika+Con+Pos+PosPl+VocPl+Obv: ninikaenhimiwaa***idig, idog***an
+     +Px1nika+Con+Pos+PosPl+VocPl+Pl: ninikaenhimiwaa***idig, idog***ag
+     +Px1nika+Con+Pos+PosPl+VocPl+Loc: ninikaenhimiwaa***idig, idog***ing
+     +Px1nika+Con+Pos+PosObv+Pret+Obv: ninikaenhiminiibanan
+     +Px1nika+Con+Pos+PosObv+Pret+Pl: ninikaenhiminiibanag
+     +Px1nika+Con+Pos+PosObv+Pret+Loc: ninikaenhiminiibaning
+     +Px1nika+Con+Pos+PosObv+VocPl+Obv: ninikaenhimini***idig, idog***an
+     +Px1nika+Con+Pos+PosObv+VocPl+Pl: ninikaenhimini***idig, idog***ag
+     +Px1nika+Con+Pos+PosObv+VocPl+Loc: ninikaenhimini***idig, idog***ing
+     +Px2nika+Dim+Pos+Pos1Pl+Pret+Obv: ginikaensiminaanibanan
+     +Px2nika+Dim+Pos+Pos1Pl+Pret+Pl: ginikaensiminaanibanag
+     +Px2nika+Dim+Pos+Pos1Pl+Pret+Loc: ginikaensiminaanibaning
+     +Px2nika+Dim+Pos+Pos1Pl+VocPl+Obv: ginikaensiminaan***idig, idog***an
+     +Px2nika+Dim+Pos+Pos1Pl+VocPl+Pl: ginikaensiminaan***idig, idog***ag
+     +Px2nika+Dim+Pos+Pos1Pl+VocPl+Loc: ginikaensiminaan***idig, idog***ing
+     +Px2nika+Dim+Pos+PosPl+Pret+Obv: ginikaensimiwaaibanan
+     +Px2nika+Dim+Pos+PosPl+Pret+Pl: ginikaensimiwaaibanag
+     +Px2nika+Dim+Pos+PosPl+Pret+Loc: ginikaensimiwaaibaning
+     +Px2nika+Dim+Pos+PosPl+VocPl+Obv: ginikaensimiwaa***idig, idog***an
+     +Px2nika+Dim+Pos+PosPl+VocPl+Pl: ginikaensimiwaa***idig, idog***ag
+     +Px2nika+Dim+Pos+PosPl+VocPl+Loc: ginikaensimiwaa***idig, idog***ing
+     +Px2nika+Dim+Pos+PosObv+Pret+Obv: ginikaensiminiibanan
+     +Px2nika+Dim+Pos+PosObv+Pret+Pl: ginikaensiminiibanag
+     +Px2nika+Dim+Pos+PosObv+Pret+Loc: ginikaensiminiibaning
+     +Px2nika+Dim+Pos+PosObv+VocPl+Obv: ginikaensimini***idig, idog***an
+     +Px2nika+Dim+Pos+PosObv+VocPl+Pl: ginikaensimini***idig, idog***ag
+     +Px2nika+Dim+Pos+PosObv+VocPl+Loc: ginikaensimini***idig, idog***ing
+     +Px2nika+Con+Pos+Pos1Pl+Pret+Obv: ginikaenhiminaanibanan
+     +Px2nika+Con+Pos+Pos1Pl+Pret+Pl: ginikaenhiminaanibanag
+     +Px2nika+Con+Pos+Pos1Pl+Pret+Loc: ginikaenhiminaanibaning
+     +Px2nika+Con+Pos+Pos1Pl+VocPl+Obv: ginikaenhiminaan***idig, idog***an
+     +Px2nika+Con+Pos+Pos1Pl+VocPl+Pl: ginikaenhiminaan***idig, idog***ag
+     +Px2nika+Con+Pos+Pos1Pl+VocPl+Loc: ginikaenhiminaan***idig, idog***ing
+     +Px2nika+Con+Pos+PosPl+Pret+Obv: ginikaenhimiwaaibanan
+     +Px2nika+Con+Pos+PosPl+Pret+Pl: ginikaenhimiwaaibanag
+     +Px2nika+Con+Pos+PosPl+Pret+Loc: ginikaenhimiwaaibaning
+     +Px2nika+Con+Pos+PosPl+VocPl+Obv: ginikaenhimiwaa***idig, idog***an
+     +Px2nika+Con+Pos+PosPl+VocPl+Pl: ginikaenhimiwaa***idig, idog***ag
+     +Px2nika+Con+Pos+PosPl+VocPl+Loc: ginikaenhimiwaa***idig, idog***ing
+     +Px2nika+Con+Pos+PosObv+Pret+Obv: ginikaenhiminiibanan
+     +Px2nika+Con+Pos+PosObv+Pret+Pl: ginikaenhiminiibanag
+     +Px2nika+Con+Pos+PosObv+Pret+Loc: ginikaenhiminiibaning
+     +Px2nika+Con+Pos+PosObv+VocPl+Obv: ginikaenhimini***idig, idog***an
+     +Px2nika+Con+Pos+PosObv+VocPl+Pl: ginikaenhimini***idig, idog***ag
+     +Px2nika+Con+Pos+PosObv+VocPl+Loc: ginikaenhimini***idig, idog***ing
+     +Px3nika+Dim+Pos+Pos1Pl+Pret+Obv: onikaensiminaanibanan
+     +Px3nika+Dim+Pos+Pos1Pl+Pret+Pl: onikaensiminaanibanag
+     +Px3nika+Dim+Pos+Pos1Pl+Pret+Loc: onikaensiminaanibaning
+     +Px3nika+Dim+Pos+Pos1Pl+VocPl+Obv: onikaensiminaan***idig, idog***an
+     +Px3nika+Dim+Pos+Pos1Pl+VocPl+Pl: onikaensiminaan***idig, idog***ag
+     +Px3nika+Dim+Pos+Pos1Pl+VocPl+Loc: onikaensiminaan***idig, idog***ing
+     +Px3nika+Dim+Pos+PosPl+Pret+Obv: onikaensimiwaaibanan
+     +Px3nika+Dim+Pos+PosPl+Pret+Pl: onikaensimiwaaibanag
+     +Px3nika+Dim+Pos+PosPl+Pret+Loc: onikaensimiwaaibaning
+     +Px3nika+Dim+Pos+PosPl+VocPl+Obv: onikaensimiwaa***idig, idog***an
+     +Px3nika+Dim+Pos+PosPl+VocPl+Pl: onikaensimiwaa***idig, idog***ag
+     +Px3nika+Dim+Pos+PosPl+VocPl+Loc: onikaensimiwaa***idig, idog***ing
+     +Px3nika+Dim+Pos+PosObv+Pret+Obv: onikaensiminiibanan
+     +Px3nika+Dim+Pos+PosObv+Pret+Pl: onikaensiminiibanag
+     +Px3nika+Dim+Pos+PosObv+Pret+Loc: onikaensiminiibaning
+     +Px3nika+Dim+Pos+PosObv+VocPl+Obv: onikaensimini***idig, idog***an
+     +Px3nika+Dim+Pos+PosObv+VocPl+Pl: onikaensimini***idig, idog***ag
+     +Px3nika+Dim+Pos+PosObv+VocPl+Loc: onikaensimini***idig, idog***ing
+     +Px3nika+Con+Pos+Pos1Pl+Pret+Obv: onikaenhiminaanibanan
+     +Px3nika+Con+Pos+Pos1Pl+Pret+Pl: onikaenhiminaanibanag
+     +Px3nika+Con+Pos+Pos1Pl+Pret+Loc: onikaenhiminaanibaning
+     +Px3nika+Con+Pos+Pos1Pl+VocPl+Obv: onikaenhiminaan***idig, idog***an
+     +Px3nika+Con+Pos+Pos1Pl+VocPl+Pl: onikaenhiminaan***idig, idog***ag
+     +Px3nika+Con+Pos+Pos1Pl+VocPl+Loc: onikaenhiminaan***idig, idog***ing
+     +Px3nika+Con+Pos+PosPl+Pret+Obv: onikaenhimiwaaibanan
+     +Px3nika+Con+Pos+PosPl+Pret+Pl: onikaenhimiwaaibanag
+     +Px3nika+Con+Pos+PosPl+Pret+Loc: onikaenhimiwaaibaning
+     +Px3nika+Con+Pos+PosPl+VocPl+Obv: onikaenhimiwaa***idig, idog***an
+     +Px3nika+Con+Pos+PosPl+VocPl+Pl: onikaenhimiwaa***idig, idog***ag
+     +Px3nika+Con+Pos+PosPl+VocPl+Loc: onikaenhimiwaa***idig, idog***ing
+     +Px3nika+Con+Pos+PosObv+Pret+Obv: onikaenhiminiibanan
+     +Px3nika+Con+Pos+PosObv+Pret+Pl: onikaenhiminiibanag
+     +Px3nika+Con+Pos+PosObv+Pret+Loc: onikaenhiminiibaning
+     +Px3nika+Con+Pos+PosObv+VocPl+Obv: onikaenhimini***idig, idog***an
+     +Px3nika+Con+Pos+PosObv+VocPl+Pl: onikaenhimini***idig, idog***ag
+     +Px3nika+Con+Pos+PosObv+VocPl+Loc: onikaenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     +Px1nika+Dim+Pej+Pos1Pl+Pret+Obv: ninikaensishinaanibanan
+     +Px1nika+Dim+Pej+Pos1Pl+Pret+Pl: ninikaensishinaanibanag
+     +Px1nika+Dim+Pej+Pos1Pl+Pret+Loc: ninikaensishinaanibaning
+     +Px1nika+Dim+Pej+Pos1Pl+VocPl+Obv: ninikaensishinaan***idig, idog***an
+     +Px1nika+Dim+Pej+Pos1Pl+VocPl+Pl: ninikaensishinaan***idig, idog***ag
+     +Px1nika+Dim+Pej+Pos1Pl+VocPl+Loc: ninikaensishinaan***idig, idog***ing
+     +Px1nika+Dim+Pej+PosPl+Pret+Obv: ninikaensishiwaaibanan
+     +Px1nika+Dim+Pej+PosPl+Pret+Pl: ninikaensishiwaaibanag
+     +Px1nika+Dim+Pej+PosPl+Pret+Loc: ninikaensishiwaaibaning
+     +Px1nika+Dim+Pej+PosPl+VocPl+Obv: ninikaensishiwaa***idig, idog***an
+     +Px1nika+Dim+Pej+PosPl+VocPl+Pl: ninikaensishiwaa***idig, idog***ag
+     +Px1nika+Dim+Pej+PosPl+VocPl+Loc: ninikaensishiwaa***idig, idog***ing
+     +Px1nika+Dim+Pej+PosObv+Pret+Obv: ninikaensishiniibanan
+     +Px1nika+Dim+Pej+PosObv+Pret+Pl: ninikaensishiniibanag
+     +Px1nika+Dim+Pej+PosObv+Pret+Loc: ninikaensishiniibaning
+     +Px1nika+Dim+Pej+PosObv+VocPl+Obv: ninikaensishini***idig, idog***an
+     +Px1nika+Dim+Pej+PosObv+VocPl+Pl: ninikaensishini***idig, idog***ag
+     +Px1nika+Dim+Pej+PosObv+VocPl+Loc: ninikaensishini***idig, idog***ing
+     +Px1nika+Con+Pej+Pos1Pl+Pret+Obv: ninikaenhishinaanibanan
+     +Px1nika+Con+Pej+Pos1Pl+Pret+Pl: ninikaenhishinaanibanag
+     +Px1nika+Con+Pej+Pos1Pl+Pret+Loc: ninikaenhishinaanibaning
+     +Px1nika+Con+Pej+Pos1Pl+VocPl+Obv: ninikaenhishinaan***idig, idog***an
+     +Px1nika+Con+Pej+Pos1Pl+VocPl+Pl: ninikaenhishinaan***idig, idog***ag
+     +Px1nika+Con+Pej+Pos1Pl+VocPl+Loc: ninikaenhishinaan***idig, idog***ing
+     +Px1nika+Con+Pej+PosPl+Pret+Obv: ninikaenhishiwaaibanan
+     +Px1nika+Con+Pej+PosPl+Pret+Pl: ninikaenhishiwaaibanag
+     +Px1nika+Con+Pej+PosPl+Pret+Loc: ninikaenhishiwaaibaning
+     +Px1nika+Con+Pej+PosPl+VocPl+Obv: ninikaenhishiwaa***idig, idog***an
+     +Px1nika+Con+Pej+PosPl+VocPl+Pl: ninikaenhishiwaa***idig, idog***ag
+     +Px1nika+Con+Pej+PosPl+VocPl+Loc: ninikaenhishiwaa***idig, idog***ing
+     +Px1nika+Con+Pej+PosObv+Pret+Obv: ninikaenhishiniibanan
+     +Px1nika+Con+Pej+PosObv+Pret+Pl: ninikaenhishiniibanag
+     +Px1nika+Con+Pej+PosObv+Pret+Loc: ninikaenhishiniibaning
+     +Px1nika+Con+Pej+PosObv+VocPl+Obv: ninikaenhishini***idig, idog***an
+     +Px1nika+Con+Pej+PosObv+VocPl+Pl: ninikaenhishini***idig, idog***ag
+     +Px1nika+Con+Pej+PosObv+VocPl+Loc: ninikaenhishini***idig, idog***ing
+     +Px2nika+Dim+Pej+Pos1Pl+Pret+Obv: ginikaensishinaanibanan
+     +Px2nika+Dim+Pej+Pos1Pl+Pret+Pl: ginikaensishinaanibanag
+     +Px2nika+Dim+Pej+Pos1Pl+Pret+Loc: ginikaensishinaanibaning
+     +Px2nika+Dim+Pej+Pos1Pl+VocPl+Obv: ginikaensishinaan***idig, idog***an
+     +Px2nika+Dim+Pej+Pos1Pl+VocPl+Pl: ginikaensishinaan***idig, idog***ag
+     +Px2nika+Dim+Pej+Pos1Pl+VocPl+Loc: ginikaensishinaan***idig, idog***ing
+     +Px2nika+Dim+Pej+PosPl+Pret+Obv: ginikaensishiwaaibanan
+     +Px2nika+Dim+Pej+PosPl+Pret+Pl: ginikaensishiwaaibanag
+     +Px2nika+Dim+Pej+PosPl+Pret+Loc: ginikaensishiwaaibaning
+     +Px2nika+Dim+Pej+PosPl+VocPl+Obv: ginikaensishiwaa***idig, idog***an
+     +Px2nika+Dim+Pej+PosPl+VocPl+Pl: ginikaensishiwaa***idig, idog***ag
+     +Px2nika+Dim+Pej+PosPl+VocPl+Loc: ginikaensishiwaa***idig, idog***ing
+     +Px2nika+Dim+Pej+PosObv+Pret+Obv: ginikaensishiniibanan
+     +Px2nika+Dim+Pej+PosObv+Pret+Pl: ginikaensishiniibanag
+     +Px2nika+Dim+Pej+PosObv+Pret+Loc: ginikaensishiniibaning
+     +Px2nika+Dim+Pej+PosObv+VocPl+Obv: ginikaensishini***idig, idog***an
+     +Px2nika+Dim+Pej+PosObv+VocPl+Pl: ginikaensishini***idig, idog***ag
+     +Px2nika+Dim+Pej+PosObv+VocPl+Loc: ginikaensishini***idig, idog***ing
+     +Px2nika+Con+Pej+Pos1Pl+Pret+Obv: ginikaenhishinaanibanan
+     +Px2nika+Con+Pej+Pos1Pl+Pret+Pl: ginikaenhishinaanibanag
+     +Px2nika+Con+Pej+Pos1Pl+Pret+Loc: ginikaenhishinaanibaning
+     +Px2nika+Con+Pej+Pos1Pl+VocPl+Obv: ginikaenhishinaan***idig, idog***an
+     +Px2nika+Con+Pej+Pos1Pl+VocPl+Pl: ginikaenhishinaan***idig, idog***ag
+     +Px2nika+Con+Pej+Pos1Pl+VocPl+Loc: ginikaenhishinaan***idig, idog***ing
+     +Px2nika+Con+Pej+PosPl+Pret+Obv: ginikaenhishiwaaibanan
+     +Px2nika+Con+Pej+PosPl+Pret+Pl: ginikaenhishiwaaibanag
+     +Px2nika+Con+Pej+PosPl+Pret+Loc: ginikaenhishiwaaibaning
+     +Px2nika+Con+Pej+PosPl+VocPl+Obv: ginikaenhishiwaa***idig, idog***an
+     +Px2nika+Con+Pej+PosPl+VocPl+Pl: ginikaenhishiwaa***idig, idog***ag
+     +Px2nika+Con+Pej+PosPl+VocPl+Loc: ginikaenhishiwaa***idig, idog***ing
+     +Px2nika+Con+Pej+PosObv+Pret+Obv: ginikaenhishiniibanan
+     +Px2nika+Con+Pej+PosObv+Pret+Pl: ginikaenhishiniibanag
+     +Px2nika+Con+Pej+PosObv+Pret+Loc: ginikaenhishiniibaning
+     +Px2nika+Con+Pej+PosObv+VocPl+Obv: ginikaenhishini***idig, idog***an
+     +Px2nika+Con+Pej+PosObv+VocPl+Pl: ginikaenhishini***idig, idog***ag
+     +Px2nika+Con+Pej+PosObv+VocPl+Loc: ginikaenhishini***idig, idog***ing
+     +Px3nika+Dim+Pej+Pos1Pl+Pret+Obv: onikaensishinaanibanan
+     +Px3nika+Dim+Pej+Pos1Pl+Pret+Pl: onikaensishinaanibanag
+     +Px3nika+Dim+Pej+Pos1Pl+Pret+Loc: onikaensishinaanibaning
+     +Px3nika+Dim+Pej+Pos1Pl+VocPl+Obv: onikaensishinaan***idig, idog***an
+     +Px3nika+Dim+Pej+Pos1Pl+VocPl+Pl: onikaensishinaan***idig, idog***ag
+     +Px3nika+Dim+Pej+Pos1Pl+VocPl+Loc: onikaensishinaan***idig, idog***ing
+     +Px3nika+Dim+Pej+PosPl+Pret+Obv: onikaensishiwaaibanan
+     +Px3nika+Dim+Pej+PosPl+Pret+Pl: onikaensishiwaaibanag
+     +Px3nika+Dim+Pej+PosPl+Pret+Loc: onikaensishiwaaibaning
+     +Px3nika+Dim+Pej+PosPl+VocPl+Obv: onikaensishiwaa***idig, idog***an
+     +Px3nika+Dim+Pej+PosPl+VocPl+Pl: onikaensishiwaa***idig, idog***ag
+     +Px3nika+Dim+Pej+PosPl+VocPl+Loc: onikaensishiwaa***idig, idog***ing
+     +Px3nika+Dim+Pej+PosObv+Pret+Obv: onikaensishiniibanan
+     +Px3nika+Dim+Pej+PosObv+Pret+Pl: onikaensishiniibanag
+     +Px3nika+Dim+Pej+PosObv+Pret+Loc: onikaensishiniibaning
+     +Px3nika+Dim+Pej+PosObv+VocPl+Obv: onikaensishini***idig, idog***an
+     +Px3nika+Dim+Pej+PosObv+VocPl+Pl: onikaensishini***idig, idog***ag
+     +Px3nika+Dim+Pej+PosObv+VocPl+Loc: onikaensishini***idig, idog***ing
+     +Px3nika+Con+Pej+Pos1Pl+Pret+Obv: onikaenhishinaanibanan
+     +Px3nika+Con+Pej+Pos1Pl+Pret+Pl: onikaenhishinaanibanag
+     +Px3nika+Con+Pej+Pos1Pl+Pret+Loc: onikaenhishinaanibaning
+     +Px3nika+Con+Pej+Pos1Pl+VocPl+Obv: onikaenhishinaan***idig, idog***an
+     +Px3nika+Con+Pej+Pos1Pl+VocPl+Pl: onikaenhishinaan***idig, idog***ag
+     +Px3nika+Con+Pej+Pos1Pl+VocPl+Loc: onikaenhishinaan***idig, idog***ing
+     +Px3nika+Con+Pej+PosPl+Pret+Obv: onikaenhishiwaaibanan
+     +Px3nika+Con+Pej+PosPl+Pret+Pl: onikaenhishiwaaibanag
+     +Px3nika+Con+Pej+PosPl+Pret+Loc: onikaenhishiwaaibaning
+     +Px3nika+Con+Pej+PosPl+VocPl+Obv: onikaenhishiwaa***idig, idog***an
+     +Px3nika+Con+Pej+PosPl+VocPl+Pl: onikaenhishiwaa***idig, idog***ag
+     +Px3nika+Con+Pej+PosPl+VocPl+Loc: onikaenhishiwaa***idig, idog***ing
+     +Px3nika+Con+Pej+PosObv+Pret+Obv: onikaenhishiniibanan
+     +Px3nika+Con+Pej+PosObv+Pret+Pl: onikaenhishiniibanag
+     +Px3nika+Con+Pej+PosObv+Pret+Loc: onikaenhishiniibaning
+     +Px3nika+Con+Pej+PosObv+VocPl+Obv: onikaenhishini***idig, idog***an
+     +Px3nika+Con+Pej+PosObv+VocPl+Pl: onikaenhishini***idig, idog***ag
+     +Px3nika+Con+Pej+PosObv+VocPl+Loc: onikaenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     +Px1nika+Pos+Pej+Pos1Pl+Pret+Obv: ninikaimishinaanibanan
+     +Px1nika+Pos+Pej+Pos1Pl+Pret+Pl: ninikaimishinaanibanag
+     +Px1nika+Pos+Pej+Pos1Pl+Pret+Loc: ninikaimishinaanibaning
+     +Px1nika+Pos+Pej+Pos1Pl+VocPl+Obv: ninikaimishinaan***idig, idog***an
+     +Px1nika+Pos+Pej+Pos1Pl+VocPl+Pl: ninikaimishinaan***idig, idog***ag
+     +Px1nika+Pos+Pej+Pos1Pl+VocPl+Loc: ninikaimishinaan***idig, idog***ing
+     +Px1nika+Pos+Pej+PosPl+Pret+Obv: ninikaimishiwaaibanan
+     +Px1nika+Pos+Pej+PosPl+Pret+Pl: ninikaimishiwaaibanag
+     +Px1nika+Pos+Pej+PosPl+Pret+Loc: ninikaimishiwaaibaning
+     +Px1nika+Pos+Pej+PosPl+VocPl+Obv: ninikaimishiwaa***idig, idog***an
+     +Px1nika+Pos+Pej+PosPl+VocPl+Pl: ninikaimishiwaa***idig, idog***ag
+     +Px1nika+Pos+Pej+PosPl+VocPl+Loc: ninikaimishiwaa***idig, idog***ing
+     +Px1nika+Pos+Pej+PosObv+Pret+Obv: ninikaimishiniibanan
+     +Px1nika+Pos+Pej+PosObv+Pret+Pl: ninikaimishiniibanag
+     +Px1nika+Pos+Pej+PosObv+Pret+Loc: ninikaimishiniibaning
+     +Px1nika+Pos+Pej+PosObv+VocPl+Obv: ninikaimishini***idig, idog***an
+     +Px1nika+Pos+Pej+PosObv+VocPl+Pl: ninikaimishini***idig, idog***ag
+     +Px1nika+Pos+Pej+PosObv+VocPl+Loc: ninikaimishini***idig, idog***ing
+     +Px2nika+Pos+Pej+Pos1Pl+Pret+Obv: ginikaimishinaanibanan
+     +Px2nika+Pos+Pej+Pos1Pl+Pret+Pl: ginikaimishinaanibanag
+     +Px2nika+Pos+Pej+Pos1Pl+Pret+Loc: ginikaimishinaanibaning
+     +Px2nika+Pos+Pej+Pos1Pl+VocPl+Obv: ginikaimishinaan***idig, idog***an
+     +Px2nika+Pos+Pej+Pos1Pl+VocPl+Pl: ginikaimishinaan***idig, idog***ag
+     +Px2nika+Pos+Pej+Pos1Pl+VocPl+Loc: ginikaimishinaan***idig, idog***ing
+     +Px2nika+Pos+Pej+PosPl+Pret+Obv: ginikaimishiwaaibanan
+     +Px2nika+Pos+Pej+PosPl+Pret+Pl: ginikaimishiwaaibanag
+     +Px2nika+Pos+Pej+PosPl+Pret+Loc: ginikaimishiwaaibaning
+     +Px2nika+Pos+Pej+PosPl+VocPl+Obv: ginikaimishiwaa***idig, idog***an
+     +Px2nika+Pos+Pej+PosPl+VocPl+Pl: ginikaimishiwaa***idig, idog***ag
+     +Px2nika+Pos+Pej+PosPl+VocPl+Loc: ginikaimishiwaa***idig, idog***ing
+     +Px2nika+Pos+Pej+PosObv+Pret+Obv: ginikaimishiniibanan
+     +Px2nika+Pos+Pej+PosObv+Pret+Pl: ginikaimishiniibanag
+     +Px2nika+Pos+Pej+PosObv+Pret+Loc: ginikaimishiniibaning
+     +Px2nika+Pos+Pej+PosObv+VocPl+Obv: ginikaimishini***idig, idog***an
+     +Px2nika+Pos+Pej+PosObv+VocPl+Pl: ginikaimishini***idig, idog***ag
+     +Px2nika+Pos+Pej+PosObv+VocPl+Loc: ginikaimishini***idig, idog***ing
+     +Px3nika+Pos+Pej+Pos1Pl+Pret+Obv: onikaimishinaanibanan
+     +Px3nika+Pos+Pej+Pos1Pl+Pret+Pl: onikaimishinaanibanag
+     +Px3nika+Pos+Pej+Pos1Pl+Pret+Loc: onikaimishinaanibaning
+     +Px3nika+Pos+Pej+Pos1Pl+VocPl+Obv: onikaimishinaan***idig, idog***an
+     +Px3nika+Pos+Pej+Pos1Pl+VocPl+Pl: onikaimishinaan***idig, idog***ag
+     +Px3nika+Pos+Pej+Pos1Pl+VocPl+Loc: onikaimishinaan***idig, idog***ing
+     +Px3nika+Pos+Pej+PosPl+Pret+Obv: onikaimishiwaaibanan
+     +Px3nika+Pos+Pej+PosPl+Pret+Pl: onikaimishiwaaibanag
+     +Px3nika+Pos+Pej+PosPl+Pret+Loc: onikaimishiwaaibaning
+     +Px3nika+Pos+Pej+PosPl+VocPl+Obv: onikaimishiwaa***idig, idog***an
+     +Px3nika+Pos+Pej+PosPl+VocPl+Pl: onikaimishiwaa***idig, idog***ag
+     +Px3nika+Pos+Pej+PosPl+VocPl+Loc: onikaimishiwaa***idig, idog***ing
+     +Px3nika+Pos+Pej+PosObv+Pret+Obv: onikaimishiniibanan
+     +Px3nika+Pos+Pej+PosObv+Pret+Pl: onikaimishiniibanag
+     +Px3nika+Pos+Pej+PosObv+Pret+Loc: onikaimishiniibaning
+     +Px3nika+Pos+Pej+PosObv+VocPl+Obv: onikaimishini***idig, idog***an
+     +Px3nika+Pos+Pej+PosObv+VocPl+Pl: onikaimishini***idig, idog***ag
+     +Px3nika+Pos+Pej+PosObv+VocPl+Loc: onikaimishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6, 7
+     nika+Dim+Pos+Pej+Pos1Pl+Pret+Obv: nikaensimishinaanibanan
+     nika+Dim+Pos+Pej+Pos1Pl+Pret+Pl: nikaensimishinaanibanag
+     nika+Dim+Pos+Pej+Pos1Pl+Pret+Loc: nikaensimishinaanibaning
+     nika+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: nikaensimishinaan***idig, idog***an
+     nika+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: nikaensimishinaan***idig, idog***ag
+     nika+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: nikaensimishinaan***idig, idog***ing
+     nika+Dim+Pos+Pej+PosPl+Pret+Obv: nikaensimishiwaaibanan
+     nika+Dim+Pos+Pej+PosPl+Pret+Pl: nikaensimishiwaaibanag
+     nika+Dim+Pos+Pej+PosPl+Pret+Loc: nikaensimishiwaaibaning
+     nika+Dim+Pos+Pej+PosPl+VocPl+Obv: nikaensimishiwaa***idig, idog***an
+     nika+Dim+Pos+Pej+PosPl+VocPl+Pl: nikaensimishiwaa***idig, idog***ag
+     nika+Dim+Pos+Pej+PosPl+VocPl+Loc: nikaensimishiwaa***idig, idog***ing
+     nika+Dim+Pos+Pej+PosObv+Pret+Obv: nikaensimishiniibanan
+     nika+Dim+Pos+Pej+PosObv+Pret+Pl: nikaensimishiniibanag
+     nika+Dim+Pos+Pej+PosObv+Pret+Loc: nikaensimishiniibaning
+     nika+Dim+Pos+Pej+PosObv+VocPl+Obv: nikaensimishini***idig, idog***an
+     nika+Dim+Pos+Pej+PosObv+VocPl+Pl: nikaensimishini***idig, idog***ag
+     nika+Dim+Pos+Pej+PosObv+VocPl+Loc: nikaensimishini***idig, idog***ing
+     nika+Con+Pos+Pej+Pos1Pl+Pret+Obv: nikaenhimishinaanibanan
+     nika+Con+Pos+Pej+Pos1Pl+Pret+Pl: nikaenhimishinaanibanag
+     nika+Con+Pos+Pej+Pos1Pl+Pret+Loc: nikaenhimishinaanibaning
+     nika+Con+Pos+Pej+Pos1Pl+VocPl+Obv: nikaenhimishinaan***idig, idog***an
+     nika+Con+Pos+Pej+Pos1Pl+VocPl+Pl: nikaenhimishinaan***idig, idog***ag
+     nika+Con+Pos+Pej+Pos1Pl+VocPl+Loc: nikaenhimishinaan***idig, idog***ing
+     nika+Con+Pos+Pej+PosPl+Pret+Obv: nikaenhimishiwaaibanan
+     nika+Con+Pos+Pej+PosPl+Pret+Pl: nikaenhimishiwaaibanag
+     nika+Con+Pos+Pej+PosPl+Pret+Loc: nikaenhimishiwaaibaning
+     nika+Con+Pos+Pej+PosPl+VocPl+Obv: nikaenhimishiwaa***idig, idog***an
+     nika+Con+Pos+Pej+PosPl+VocPl+Pl: nikaenhimishiwaa***idig, idog***ag
+     nika+Con+Pos+Pej+PosPl+VocPl+Loc: nikaenhimishiwaa***idig, idog***ing
+     nika+Con+Pos+Pej+PosObv+Pret+Obv: nikaenhimishiniibanan
+     nika+Con+Pos+Pej+PosObv+Pret+Pl: nikaenhimishiniibanag
+     nika+Con+Pos+Pej+PosObv+Pret+Loc: nikaenhimishiniibaning
+     nika+Con+Pos+Pej+PosObv+VocPl+Obv: nikaenhimishini***idig, idog***an
+     nika+Con+Pos+Pej+PosObv+VocPl+Pl: nikaenhimishini***idig, idog***ag
+     nika+Con+Pos+Pej+PosObv+VocPl+Loc: nikaenhimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Pret+Obv: ninikaensimishinaanibanan
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Pret+Pl: ninikaensimishinaanibanag
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+Pret+Loc: ninikaensimishinaanibaning
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: ninikaensimishinaan***idig, idog***an
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: ninikaensimishinaan***idig, idog***ag
+     +Px1nika+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: ninikaensimishinaan***idig, idog***ing
+     +Px1nika+Dim+Pos+Pej+PosPl+Pret+Obv: ninikaensimishiwaaibanan
+     +Px1nika+Dim+Pos+Pej+PosPl+Pret+Pl: ninikaensimishiwaaibanag
+     +Px1nika+Dim+Pos+Pej+PosPl+Pret+Loc: ninikaensimishiwaaibaning
+     +Px1nika+Dim+Pos+Pej+PosPl+VocPl+Obv: ninikaensimishiwaa***idig, idog***an
+     +Px1nika+Dim+Pos+Pej+PosPl+VocPl+Pl: ninikaensimishiwaa***idig, idog***ag
+     +Px1nika+Dim+Pos+Pej+PosPl+VocPl+Loc: ninikaensimishiwaa***idig, idog***ing
+     +Px1nika+Dim+Pos+Pej+PosObv+Pret+Obv: ninikaensimishiniibanan
+     +Px1nika+Dim+Pos+Pej+PosObv+Pret+Pl: ninikaensimishiniibanag
+     +Px1nika+Dim+Pos+Pej+PosObv+Pret+Loc: ninikaensimishiniibaning
+     +Px1nika+Dim+Pos+Pej+PosObv+VocPl+Obv: ninikaensimishini***idig, idog***an
+     +Px1nika+Dim+Pos+Pej+PosObv+VocPl+Pl: ninikaensimishini***idig, idog***ag
+     +Px1nika+Dim+Pos+Pej+PosObv+VocPl+Loc: ninikaensimishini***idig, idog***ing
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Pret+Obv: ninikaenhimishinaanibanan
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Pret+Pl: ninikaenhimishinaanibanag
+     +Px1nika+Con+Pos+Pej+Pos1Pl+Pret+Loc: ninikaenhimishinaanibaning
+     +Px1nika+Con+Pos+Pej+Pos1Pl+VocPl+Obv: ninikaenhimishinaan***idig, idog***an
+     +Px1nika+Con+Pos+Pej+Pos1Pl+VocPl+Pl: ninikaenhimishinaan***idig, idog***ag
+     +Px1nika+Con+Pos+Pej+Pos1Pl+VocPl+Loc: ninikaenhimishinaan***idig, idog***ing
+     +Px1nika+Con+Pos+Pej+PosPl+Pret+Obv: ninikaenhimishiwaaibanan
+     +Px1nika+Con+Pos+Pej+PosPl+Pret+Pl: ninikaenhimishiwaaibanag
+     +Px1nika+Con+Pos+Pej+PosPl+Pret+Loc: ninikaenhimishiwaaibaning
+     +Px1nika+Con+Pos+Pej+PosPl+VocPl+Obv: ninikaenhimishiwaa***idig, idog***an
+     +Px1nika+Con+Pos+Pej+PosPl+VocPl+Pl: ninikaenhimishiwaa***idig, idog***ag
+     +Px1nika+Con+Pos+Pej+PosPl+VocPl+Loc: ninikaenhimishiwaa***idig, idog***ing
+     +Px1nika+Con+Pos+Pej+PosObv+Pret+Obv: ninikaenhimishiniibanan
+     +Px1nika+Con+Pos+Pej+PosObv+Pret+Pl: ninikaenhimishiniibanag
+     +Px1nika+Con+Pos+Pej+PosObv+Pret+Loc: ninikaenhimishiniibaning
+     +Px1nika+Con+Pos+Pej+PosObv+VocPl+Obv: ninikaenhimishini***idig, idog***an
+     +Px1nika+Con+Pos+Pej+PosObv+VocPl+Pl: ninikaenhimishini***idig, idog***ag
+     +Px1nika+Con+Pos+Pej+PosObv+VocPl+Loc: ninikaenhimishini***idig, idog***ing
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Pret+Obv: ginikaensimishinaanibanan
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Pret+Pl: ginikaensimishinaanibanag
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+Pret+Loc: ginikaensimishinaanibaning
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: ginikaensimishinaan***idig, idog***an
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: ginikaensimishinaan***idig, idog***ag
+     +Px2nika+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: ginikaensimishinaan***idig, idog***ing
+     +Px2nika+Dim+Pos+Pej+PosPl+Pret+Obv: ginikaensimishiwaaibanan
+     +Px2nika+Dim+Pos+Pej+PosPl+Pret+Pl: ginikaensimishiwaaibanag
+     +Px2nika+Dim+Pos+Pej+PosPl+Pret+Loc: ginikaensimishiwaaibaning
+     +Px2nika+Dim+Pos+Pej+PosPl+VocPl+Obv: ginikaensimishiwaa***idig, idog***an
+     +Px2nika+Dim+Pos+Pej+PosPl+VocPl+Pl: ginikaensimishiwaa***idig, idog***ag
+     +Px2nika+Dim+Pos+Pej+PosPl+VocPl+Loc: ginikaensimishiwaa***idig, idog***ing
+     +Px2nika+Dim+Pos+Pej+PosObv+Pret+Obv: ginikaensimishiniibanan
+     +Px2nika+Dim+Pos+Pej+PosObv+Pret+Pl: ginikaensimishiniibanag
+     +Px2nika+Dim+Pos+Pej+PosObv+Pret+Loc: ginikaensimishiniibaning
+     +Px2nika+Dim+Pos+Pej+PosObv+VocPl+Obv: ginikaensimishini***idig, idog***an
+     +Px2nika+Dim+Pos+Pej+PosObv+VocPl+Pl: ginikaensimishini***idig, idog***ag
+     +Px2nika+Dim+Pos+Pej+PosObv+VocPl+Loc: ginikaensimishini***idig, idog***ing
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Pret+Obv: ginikaenhimishinaanibanan
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Pret+Pl: ginikaenhimishinaanibanag
+     +Px2nika+Con+Pos+Pej+Pos1Pl+Pret+Loc: ginikaenhimishinaanibaning
+     +Px2nika+Con+Pos+Pej+Pos1Pl+VocPl+Obv: ginikaenhimishinaan***idig, idog***an
+     +Px2nika+Con+Pos+Pej+Pos1Pl+VocPl+Pl: ginikaenhimishinaan***idig, idog***ag
+     +Px2nika+Con+Pos+Pej+Pos1Pl+VocPl+Loc: ginikaenhimishinaan***idig, idog***ing
+     +Px2nika+Con+Pos+Pej+PosPl+Pret+Obv: ginikaenhimishiwaaibanan
+     +Px2nika+Con+Pos+Pej+PosPl+Pret+Pl: ginikaenhimishiwaaibanag
+     +Px2nika+Con+Pos+Pej+PosPl+Pret+Loc: ginikaenhimishiwaaibaning
+     +Px2nika+Con+Pos+Pej+PosPl+VocPl+Obv: ginikaenhimishiwaa***idig, idog***an
+     +Px2nika+Con+Pos+Pej+PosPl+VocPl+Pl: ginikaenhimishiwaa***idig, idog***ag
+     +Px2nika+Con+Pos+Pej+PosPl+VocPl+Loc: ginikaenhimishiwaa***idig, idog***ing
+     +Px2nika+Con+Pos+Pej+PosObv+Pret+Obv: ginikaenhimishiniibanan
+     +Px2nika+Con+Pos+Pej+PosObv+Pret+Pl: ginikaenhimishiniibanag
+     +Px2nika+Con+Pos+Pej+PosObv+Pret+Loc: ginikaenhimishiniibaning
+     +Px2nika+Con+Pos+Pej+PosObv+VocPl+Obv: ginikaenhimishini***idig, idog***an
+     +Px2nika+Con+Pos+Pej+PosObv+VocPl+Pl: ginikaenhimishini***idig, idog***ag
+     +Px2nika+Con+Pos+Pej+PosObv+VocPl+Loc: ginikaenhimishini***idig, idog***ing
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Pret+Obv: onikaensimishinaanibanan
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Pret+Pl: onikaensimishinaanibanag
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+Pret+Loc: onikaensimishinaanibaning
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: onikaensimishinaan***idig, idog***an
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: onikaensimishinaan***idig, idog***ag
+     +Px3nika+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: onikaensimishinaan***idig, idog***ing
+     +Px3nika+Dim+Pos+Pej+PosPl+Pret+Obv: onikaensimishiwaaibanan
+     +Px3nika+Dim+Pos+Pej+PosPl+Pret+Pl: onikaensimishiwaaibanag
+     +Px3nika+Dim+Pos+Pej+PosPl+Pret+Loc: onikaensimishiwaaibaning
+     +Px3nika+Dim+Pos+Pej+PosPl+VocPl+Obv: onikaensimishiwaa***idig, idog***an
+     +Px3nika+Dim+Pos+Pej+PosPl+VocPl+Pl: onikaensimishiwaa***idig, idog***ag
+     +Px3nika+Dim+Pos+Pej+PosPl+VocPl+Loc: onikaensimishiwaa***idig, idog***ing
+     +Px3nika+Dim+Pos+Pej+PosObv+Pret+Obv: onikaensimishiniibanan
+     +Px3nika+Dim+Pos+Pej+PosObv+Pret+Pl: onikaensimishiniibanag
+     +Px3nika+Dim+Pos+Pej+PosObv+Pret+Loc: onikaensimishiniibaning
+     +Px3nika+Dim+Pos+Pej+PosObv+VocPl+Obv: onikaensimishini***idig, idog***an
+     +Px3nika+Dim+Pos+Pej+PosObv+VocPl+Pl: onikaensimishini***idig, idog***ag
+     +Px3nika+Dim+Pos+Pej+PosObv+VocPl+Loc: onikaensimishini***idig, idog***ing
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Pret+Obv: onikaenhimishinaanibanan
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Pret+Pl: onikaenhimishinaanibanag
+     +Px3nika+Con+Pos+Pej+Pos1Pl+Pret+Loc: onikaenhimishinaanibaning
+     +Px3nika+Con+Pos+Pej+Pos1Pl+VocPl+Obv: onikaenhimishinaan***idig, idog***an
+     +Px3nika+Con+Pos+Pej+Pos1Pl+VocPl+Pl: onikaenhimishinaan***idig, idog***ag
+     +Px3nika+Con+Pos+Pej+Pos1Pl+VocPl+Loc: onikaenhimishinaan***idig, idog***ing
+     +Px3nika+Con+Pos+Pej+PosPl+Pret+Obv: onikaenhimishiwaaibanan
+     +Px3nika+Con+Pos+Pej+PosPl+Pret+Pl: onikaenhimishiwaaibanag
+     +Px3nika+Con+Pos+Pej+PosPl+Pret+Loc: onikaenhimishiwaaibaning
+     +Px3nika+Con+Pos+Pej+PosPl+VocPl+Obv: onikaenhimishiwaa***idig, idog***an
+     +Px3nika+Con+Pos+Pej+PosPl+VocPl+Pl: onikaenhimishiwaa***idig, idog***ag
+     +Px3nika+Con+Pos+Pej+PosPl+VocPl+Loc: onikaenhimishiwaa***idig, idog***ing
+     +Px3nika+Con+Pos+Pej+PosObv+Pret+Obv: onikaenhimishiniibanan
+     +Px3nika+Con+Pos+Pej+PosObv+Pret+Pl: onikaenhimishiniibanag
+     +Px3nika+Con+Pos+Pej+PosObv+Pret+Loc: onikaenhimishiniibaning
+     +Px3nika+Con+Pos+Pej+PosObv+VocPl+Obv: onikaenhimishini***idig, idog***an
+     +Px3nika+Con+Pos+Pej+PosObv+VocPl+Pl: onikaenhimishini***idig, idog***ag
+     +Px3nika+Con+Pos+Pej+PosObv+VocPl+Loc: onikaenhimishini***idig, idog***ing
+     
