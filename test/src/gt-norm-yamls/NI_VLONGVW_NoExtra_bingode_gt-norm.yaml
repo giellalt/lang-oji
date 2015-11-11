@@ -1,0 +1,2577 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  NI - VLONGVW - bingode - NoExtra :
+
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+
+     #Isolation form
+     bingode: bingode
+     
+     #Values from slots numbered: 1
+     +Px1bingode: nibingode
+     +Px2bingode: gibingode
+     +Px3bingode: obingode
+     
+     #Values from slots numbered: 2
+     bingode+Dim: bingodeens
+     bingode+Con: bingodeenh
+     
+     #Values from slots numbered: 3
+     bingode+Pos: bingodeim
+     
+     #Values from slots numbered: 4
+     bingode+Pej: bingodeish
+     
+     #Values from slots numbered: 5
+     bingode+Pos1Pl: bingodeinaan
+     bingode+PosPl: bingodeiwaa
+     bingode+PosObv: bingodeini
+     
+     #Values from slots numbered: 6
+     bingode+Pret: bingodeiban
+     bingode+VocPl: bingode***idig, idog***
+     
+     #Values from slots numbered: 7
+     bingode+Obv: bingodean
+     bingode+Pl: bingodeag
+     bingode+Loc: bingodeing
+     
+     #Values from slots numbered: 1, 2
+     +Px1bingode+Dim: nibingodeens
+     +Px1bingode+Con: nibingodeenh
+     +Px2bingode+Dim: gibingodeens
+     +Px2bingode+Con: gibingodeenh
+     +Px3bingode+Dim: obingodeens
+     +Px3bingode+Con: obingodeenh
+     
+     #Values from slots numbered: 1, 3
+     +Px1bingode+Pos: nibingodeim
+     +Px2bingode+Pos: gibingodeim
+     +Px3bingode+Pos: obingodeim
+     
+     #Values from slots numbered: 1, 4
+     +Px1bingode+Pej: nibingodeish
+     +Px2bingode+Pej: gibingodeish
+     +Px3bingode+Pej: obingodeish
+     
+     #Values from slots numbered: 1, 5
+     +Px1bingode+Pos1Pl: nibingodeinaan
+     +Px1bingode+PosPl: nibingodeiwaa
+     +Px1bingode+PosObv: nibingodeini
+     +Px2bingode+Pos1Pl: gibingodeinaan
+     +Px2bingode+PosPl: gibingodeiwaa
+     +Px2bingode+PosObv: gibingodeini
+     +Px3bingode+Pos1Pl: obingodeinaan
+     +Px3bingode+PosPl: obingodeiwaa
+     +Px3bingode+PosObv: obingodeini
+     
+     #Values from slots numbered: 1, 6
+     +Px1bingode+Pret: nibingodeiban
+     +Px1bingode+VocPl: nibingode***idig, idog***
+     +Px2bingode+Pret: gibingodeiban
+     +Px2bingode+VocPl: gibingode***idig, idog***
+     +Px3bingode+Pret: obingodeiban
+     +Px3bingode+VocPl: obingode***idig, idog***
+     
+     #Values from slots numbered: 1, 7
+     +Px1bingode+Obv: nibingodean
+     +Px1bingode+Pl: nibingodeag
+     +Px1bingode+Loc: nibingodeing
+     +Px2bingode+Obv: gibingodean
+     +Px2bingode+Pl: gibingodeag
+     +Px2bingode+Loc: gibingodeing
+     +Px3bingode+Obv: obingodean
+     +Px3bingode+Pl: obingodeag
+     +Px3bingode+Loc: obingodeing
+     
+     #Values from slots numbered: 2, 3
+     bingode+Dim+Pos: bingodeensim
+     bingode+Con+Pos: bingodeenhim
+     
+     #Values from slots numbered: 2, 4
+     bingode+Dim+Pej: bingodeensish
+     bingode+Con+Pej: bingodeenhish
+     
+     #Values from slots numbered: 2, 5
+     bingode+Dim+Pos1Pl: bingodeensinaan
+     bingode+Dim+PosPl: bingodeensiwaa
+     bingode+Dim+PosObv: bingodeensini
+     bingode+Con+Pos1Pl: bingodeenhinaan
+     bingode+Con+PosPl: bingodeenhiwaa
+     bingode+Con+PosObv: bingodeenhini
+     
+     #Values from slots numbered: 2, 6
+     bingode+Dim+Pret: bingodeensiban
+     bingode+Dim+VocPl: bingodeens***idig, idog***
+     bingode+Con+Pret: bingodeenhiban
+     bingode+Con+VocPl: bingodeenh***idig, idog***
+     
+     #Values from slots numbered: 2, 7
+     bingode+Dim+Obv: bingodeensan
+     bingode+Dim+Pl: bingodeensag
+     bingode+Dim+Loc: bingodeensing
+     bingode+Con+Obv: bingodeenhan
+     bingode+Con+Pl: bingodeenhag
+     bingode+Con+Loc: bingodeenhing
+     
+     #Values from slots numbered: 3, 4
+     bingode+Pos+Pej: bingodeimish
+     
+     #Values from slots numbered: 3, 5
+     bingode+Pos+Pos1Pl: bingodeiminaan
+     bingode+Pos+PosPl: bingodeimiwaa
+     bingode+Pos+PosObv: bingodeimini
+     
+     #Values from slots numbered: 3, 6
+     bingode+Pos+Pret: bingodeimiban
+     bingode+Pos+VocPl: bingodeim***idig, idog***
+     
+     #Values from slots numbered: 3, 7
+     bingode+Pos+Obv: bingodeiman
+     bingode+Pos+Pl: bingodeimag
+     bingode+Pos+Loc: bingodeiming
+     
+     #Values from slots numbered: 4, 5
+     bingode+Pej+Pos1Pl: bingodeishinaan
+     bingode+Pej+PosPl: bingodeishiwaa
+     bingode+Pej+PosObv: bingodeishini
+     
+     #Values from slots numbered: 4, 6
+     bingode+Pej+Pret: bingodeishiban
+     bingode+Pej+VocPl: bingodeish***idig, idog***
+     
+     #Values from slots numbered: 4, 7
+     bingode+Pej+Obv: bingodeishan
+     bingode+Pej+Pl: bingodeishag
+     bingode+Pej+Loc: bingodeishing
+     
+     #Values from slots numbered: 5, 6
+     bingode+Pos1Pl+Pret: bingodeinaaniban
+     bingode+Pos1Pl+VocPl: bingodeinaan***idig, idog***
+     bingode+PosPl+Pret: bingodeiwaaiban
+     bingode+PosPl+VocPl: bingodeiwaa***idig, idog***
+     bingode+PosObv+Pret: bingodeiniiban
+     bingode+PosObv+VocPl: bingodeini***idig, idog***
+     
+     #Values from slots numbered: 5, 7
+     bingode+Pos1Pl+Obv: bingodeinaanan
+     bingode+Pos1Pl+Pl: bingodeinaanag
+     bingode+Pos1Pl+Loc: bingodeinaaning
+     bingode+PosPl+Obv: bingodeiwaaan
+     bingode+PosPl+Pl: bingodeiwaaag
+     bingode+PosPl+Loc: bingodeiwaaing
+     bingode+PosObv+Obv: bingodeinian
+     bingode+PosObv+Pl: bingodeiniag
+     bingode+PosObv+Loc: bingodeiniing
+     
+     #Values from slots numbered: 6, 7
+     bingode+Pret+Obv: bingodeibanan
+     bingode+Pret+Pl: bingodeibanag
+     bingode+Pret+Loc: bingodeibaning
+     bingode+VocPl+Obv: bingode***idig, idog***an
+     bingode+VocPl+Pl: bingode***idig, idog***ag
+     bingode+VocPl+Loc: bingode***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3
+     +Px1bingode+Dim+Pos: nibingodeensim
+     +Px1bingode+Con+Pos: nibingodeenhim
+     +Px2bingode+Dim+Pos: gibingodeensim
+     +Px2bingode+Con+Pos: gibingodeenhim
+     +Px3bingode+Dim+Pos: obingodeensim
+     +Px3bingode+Con+Pos: obingodeenhim
+     
+     #Values from slots numbered: 1, 2, 4
+     +Px1bingode+Dim+Pej: nibingodeensish
+     +Px1bingode+Con+Pej: nibingodeenhish
+     +Px2bingode+Dim+Pej: gibingodeensish
+     +Px2bingode+Con+Pej: gibingodeenhish
+     +Px3bingode+Dim+Pej: obingodeensish
+     +Px3bingode+Con+Pej: obingodeenhish
+     
+     #Values from slots numbered: 1, 2, 5
+     +Px1bingode+Dim+Pos1Pl: nibingodeensinaan
+     +Px1bingode+Dim+PosPl: nibingodeensiwaa
+     +Px1bingode+Dim+PosObv: nibingodeensini
+     +Px1bingode+Con+Pos1Pl: nibingodeenhinaan
+     +Px1bingode+Con+PosPl: nibingodeenhiwaa
+     +Px1bingode+Con+PosObv: nibingodeenhini
+     +Px2bingode+Dim+Pos1Pl: gibingodeensinaan
+     +Px2bingode+Dim+PosPl: gibingodeensiwaa
+     +Px2bingode+Dim+PosObv: gibingodeensini
+     +Px2bingode+Con+Pos1Pl: gibingodeenhinaan
+     +Px2bingode+Con+PosPl: gibingodeenhiwaa
+     +Px2bingode+Con+PosObv: gibingodeenhini
+     +Px3bingode+Dim+Pos1Pl: obingodeensinaan
+     +Px3bingode+Dim+PosPl: obingodeensiwaa
+     +Px3bingode+Dim+PosObv: obingodeensini
+     +Px3bingode+Con+Pos1Pl: obingodeenhinaan
+     +Px3bingode+Con+PosPl: obingodeenhiwaa
+     +Px3bingode+Con+PosObv: obingodeenhini
+     
+     #Values from slots numbered: 1, 2, 6
+     +Px1bingode+Dim+Pret: nibingodeensiban
+     +Px1bingode+Dim+VocPl: nibingodeens***idig, idog***
+     +Px1bingode+Con+Pret: nibingodeenhiban
+     +Px1bingode+Con+VocPl: nibingodeenh***idig, idog***
+     +Px2bingode+Dim+Pret: gibingodeensiban
+     +Px2bingode+Dim+VocPl: gibingodeens***idig, idog***
+     +Px2bingode+Con+Pret: gibingodeenhiban
+     +Px2bingode+Con+VocPl: gibingodeenh***idig, idog***
+     +Px3bingode+Dim+Pret: obingodeensiban
+     +Px3bingode+Dim+VocPl: obingodeens***idig, idog***
+     +Px3bingode+Con+Pret: obingodeenhiban
+     +Px3bingode+Con+VocPl: obingodeenh***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 7
+     +Px1bingode+Dim+Obv: nibingodeensan
+     +Px1bingode+Dim+Pl: nibingodeensag
+     +Px1bingode+Dim+Loc: nibingodeensing
+     +Px1bingode+Con+Obv: nibingodeenhan
+     +Px1bingode+Con+Pl: nibingodeenhag
+     +Px1bingode+Con+Loc: nibingodeenhing
+     +Px2bingode+Dim+Obv: gibingodeensan
+     +Px2bingode+Dim+Pl: gibingodeensag
+     +Px2bingode+Dim+Loc: gibingodeensing
+     +Px2bingode+Con+Obv: gibingodeenhan
+     +Px2bingode+Con+Pl: gibingodeenhag
+     +Px2bingode+Con+Loc: gibingodeenhing
+     +Px3bingode+Dim+Obv: obingodeensan
+     +Px3bingode+Dim+Pl: obingodeensag
+     +Px3bingode+Dim+Loc: obingodeensing
+     +Px3bingode+Con+Obv: obingodeenhan
+     +Px3bingode+Con+Pl: obingodeenhag
+     +Px3bingode+Con+Loc: obingodeenhing
+     
+     #Values from slots numbered: 1, 3, 4
+     +Px1bingode+Pos+Pej: nibingodeimish
+     +Px2bingode+Pos+Pej: gibingodeimish
+     +Px3bingode+Pos+Pej: obingodeimish
+     
+     #Values from slots numbered: 1, 3, 5
+     +Px1bingode+Pos+Pos1Pl: nibingodeiminaan
+     +Px1bingode+Pos+PosPl: nibingodeimiwaa
+     +Px1bingode+Pos+PosObv: nibingodeimini
+     +Px2bingode+Pos+Pos1Pl: gibingodeiminaan
+     +Px2bingode+Pos+PosPl: gibingodeimiwaa
+     +Px2bingode+Pos+PosObv: gibingodeimini
+     +Px3bingode+Pos+Pos1Pl: obingodeiminaan
+     +Px3bingode+Pos+PosPl: obingodeimiwaa
+     +Px3bingode+Pos+PosObv: obingodeimini
+     
+     #Values from slots numbered: 1, 3, 6
+     +Px1bingode+Pos+Pret: nibingodeimiban
+     +Px1bingode+Pos+VocPl: nibingodeim***idig, idog***
+     +Px2bingode+Pos+Pret: gibingodeimiban
+     +Px2bingode+Pos+VocPl: gibingodeim***idig, idog***
+     +Px3bingode+Pos+Pret: obingodeimiban
+     +Px3bingode+Pos+VocPl: obingodeim***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 7
+     +Px1bingode+Pos+Obv: nibingodeiman
+     +Px1bingode+Pos+Pl: nibingodeimag
+     +Px1bingode+Pos+Loc: nibingodeiming
+     +Px2bingode+Pos+Obv: gibingodeiman
+     +Px2bingode+Pos+Pl: gibingodeimag
+     +Px2bingode+Pos+Loc: gibingodeiming
+     +Px3bingode+Pos+Obv: obingodeiman
+     +Px3bingode+Pos+Pl: obingodeimag
+     +Px3bingode+Pos+Loc: obingodeiming
+     
+     #Values from slots numbered: 1, 4, 5
+     +Px1bingode+Pej+Pos1Pl: nibingodeishinaan
+     +Px1bingode+Pej+PosPl: nibingodeishiwaa
+     +Px1bingode+Pej+PosObv: nibingodeishini
+     +Px2bingode+Pej+Pos1Pl: gibingodeishinaan
+     +Px2bingode+Pej+PosPl: gibingodeishiwaa
+     +Px2bingode+Pej+PosObv: gibingodeishini
+     +Px3bingode+Pej+Pos1Pl: obingodeishinaan
+     +Px3bingode+Pej+PosPl: obingodeishiwaa
+     +Px3bingode+Pej+PosObv: obingodeishini
+     
+     #Values from slots numbered: 1, 4, 6
+     +Px1bingode+Pej+Pret: nibingodeishiban
+     +Px1bingode+Pej+VocPl: nibingodeish***idig, idog***
+     +Px2bingode+Pej+Pret: gibingodeishiban
+     +Px2bingode+Pej+VocPl: gibingodeish***idig, idog***
+     +Px3bingode+Pej+Pret: obingodeishiban
+     +Px3bingode+Pej+VocPl: obingodeish***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 7
+     +Px1bingode+Pej+Obv: nibingodeishan
+     +Px1bingode+Pej+Pl: nibingodeishag
+     +Px1bingode+Pej+Loc: nibingodeishing
+     +Px2bingode+Pej+Obv: gibingodeishan
+     +Px2bingode+Pej+Pl: gibingodeishag
+     +Px2bingode+Pej+Loc: gibingodeishing
+     +Px3bingode+Pej+Obv: obingodeishan
+     +Px3bingode+Pej+Pl: obingodeishag
+     +Px3bingode+Pej+Loc: obingodeishing
+     
+     #Values from slots numbered: 1, 5, 6
+     +Px1bingode+Pos1Pl+Pret: nibingodeinaaniban
+     +Px1bingode+Pos1Pl+VocPl: nibingodeinaan***idig, idog***
+     +Px1bingode+PosPl+Pret: nibingodeiwaaiban
+     +Px1bingode+PosPl+VocPl: nibingodeiwaa***idig, idog***
+     +Px1bingode+PosObv+Pret: nibingodeiniiban
+     +Px1bingode+PosObv+VocPl: nibingodeini***idig, idog***
+     +Px2bingode+Pos1Pl+Pret: gibingodeinaaniban
+     +Px2bingode+Pos1Pl+VocPl: gibingodeinaan***idig, idog***
+     +Px2bingode+PosPl+Pret: gibingodeiwaaiban
+     +Px2bingode+PosPl+VocPl: gibingodeiwaa***idig, idog***
+     +Px2bingode+PosObv+Pret: gibingodeiniiban
+     +Px2bingode+PosObv+VocPl: gibingodeini***idig, idog***
+     +Px3bingode+Pos1Pl+Pret: obingodeinaaniban
+     +Px3bingode+Pos1Pl+VocPl: obingodeinaan***idig, idog***
+     +Px3bingode+PosPl+Pret: obingodeiwaaiban
+     +Px3bingode+PosPl+VocPl: obingodeiwaa***idig, idog***
+     +Px3bingode+PosObv+Pret: obingodeiniiban
+     +Px3bingode+PosObv+VocPl: obingodeini***idig, idog***
+     
+     #Values from slots numbered: 1, 5, 7
+     +Px1bingode+Pos1Pl+Obv: nibingodeinaanan
+     +Px1bingode+Pos1Pl+Pl: nibingodeinaanag
+     +Px1bingode+Pos1Pl+Loc: nibingodeinaaning
+     +Px1bingode+PosPl+Obv: nibingodeiwaaan
+     +Px1bingode+PosPl+Pl: nibingodeiwaaag
+     +Px1bingode+PosPl+Loc: nibingodeiwaaing
+     +Px1bingode+PosObv+Obv: nibingodeinian
+     +Px1bingode+PosObv+Pl: nibingodeiniag
+     +Px1bingode+PosObv+Loc: nibingodeiniing
+     +Px2bingode+Pos1Pl+Obv: gibingodeinaanan
+     +Px2bingode+Pos1Pl+Pl: gibingodeinaanag
+     +Px2bingode+Pos1Pl+Loc: gibingodeinaaning
+     +Px2bingode+PosPl+Obv: gibingodeiwaaan
+     +Px2bingode+PosPl+Pl: gibingodeiwaaag
+     +Px2bingode+PosPl+Loc: gibingodeiwaaing
+     +Px2bingode+PosObv+Obv: gibingodeinian
+     +Px2bingode+PosObv+Pl: gibingodeiniag
+     +Px2bingode+PosObv+Loc: gibingodeiniing
+     +Px3bingode+Pos1Pl+Obv: obingodeinaanan
+     +Px3bingode+Pos1Pl+Pl: obingodeinaanag
+     +Px3bingode+Pos1Pl+Loc: obingodeinaaning
+     +Px3bingode+PosPl+Obv: obingodeiwaaan
+     +Px3bingode+PosPl+Pl: obingodeiwaaag
+     +Px3bingode+PosPl+Loc: obingodeiwaaing
+     +Px3bingode+PosObv+Obv: obingodeinian
+     +Px3bingode+PosObv+Pl: obingodeiniag
+     +Px3bingode+PosObv+Loc: obingodeiniing
+     
+     #Values from slots numbered: 1, 6, 7
+     +Px1bingode+Pret+Obv: nibingodeibanan
+     +Px1bingode+Pret+Pl: nibingodeibanag
+     +Px1bingode+Pret+Loc: nibingodeibaning
+     +Px1bingode+VocPl+Obv: nibingode***idig, idog***an
+     +Px1bingode+VocPl+Pl: nibingode***idig, idog***ag
+     +Px1bingode+VocPl+Loc: nibingode***idig, idog***ing
+     +Px2bingode+Pret+Obv: gibingodeibanan
+     +Px2bingode+Pret+Pl: gibingodeibanag
+     +Px2bingode+Pret+Loc: gibingodeibaning
+     +Px2bingode+VocPl+Obv: gibingode***idig, idog***an
+     +Px2bingode+VocPl+Pl: gibingode***idig, idog***ag
+     +Px2bingode+VocPl+Loc: gibingode***idig, idog***ing
+     +Px3bingode+Pret+Obv: obingodeibanan
+     +Px3bingode+Pret+Pl: obingodeibanag
+     +Px3bingode+Pret+Loc: obingodeibaning
+     +Px3bingode+VocPl+Obv: obingode***idig, idog***an
+     +Px3bingode+VocPl+Pl: obingode***idig, idog***ag
+     +Px3bingode+VocPl+Loc: obingode***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4
+     bingode+Dim+Pos+Pej: bingodeensimish
+     bingode+Con+Pos+Pej: bingodeenhimish
+     
+     #Values from slots numbered: 2, 3, 5
+     bingode+Dim+Pos+Pos1Pl: bingodeensiminaan
+     bingode+Dim+Pos+PosPl: bingodeensimiwaa
+     bingode+Dim+Pos+PosObv: bingodeensimini
+     bingode+Con+Pos+Pos1Pl: bingodeenhiminaan
+     bingode+Con+Pos+PosPl: bingodeenhimiwaa
+     bingode+Con+Pos+PosObv: bingodeenhimini
+     
+     #Values from slots numbered: 2, 3, 6
+     bingode+Dim+Pos+Pret: bingodeensimiban
+     bingode+Dim+Pos+VocPl: bingodeensim***idig, idog***
+     bingode+Con+Pos+Pret: bingodeenhimiban
+     bingode+Con+Pos+VocPl: bingodeenhim***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 7
+     bingode+Dim+Pos+Obv: bingodeensiman
+     bingode+Dim+Pos+Pl: bingodeensimag
+     bingode+Dim+Pos+Loc: bingodeensiming
+     bingode+Con+Pos+Obv: bingodeenhiman
+     bingode+Con+Pos+Pl: bingodeenhimag
+     bingode+Con+Pos+Loc: bingodeenhiming
+     
+     #Values from slots numbered: 2, 4, 5
+     bingode+Dim+Pej+Pos1Pl: bingodeensishinaan
+     bingode+Dim+Pej+PosPl: bingodeensishiwaa
+     bingode+Dim+Pej+PosObv: bingodeensishini
+     bingode+Con+Pej+Pos1Pl: bingodeenhishinaan
+     bingode+Con+Pej+PosPl: bingodeenhishiwaa
+     bingode+Con+Pej+PosObv: bingodeenhishini
+     
+     #Values from slots numbered: 2, 4, 6
+     bingode+Dim+Pej+Pret: bingodeensishiban
+     bingode+Dim+Pej+VocPl: bingodeensish***idig, idog***
+     bingode+Con+Pej+Pret: bingodeenhishiban
+     bingode+Con+Pej+VocPl: bingodeenhish***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 7
+     bingode+Dim+Pej+Obv: bingodeensishan
+     bingode+Dim+Pej+Pl: bingodeensishag
+     bingode+Dim+Pej+Loc: bingodeensishing
+     bingode+Con+Pej+Obv: bingodeenhishan
+     bingode+Con+Pej+Pl: bingodeenhishag
+     bingode+Con+Pej+Loc: bingodeenhishing
+     
+     #Values from slots numbered: 2, 5, 6
+     bingode+Dim+Pos1Pl+Pret: bingodeensinaaniban
+     bingode+Dim+Pos1Pl+VocPl: bingodeensinaan***idig, idog***
+     bingode+Dim+PosPl+Pret: bingodeensiwaaiban
+     bingode+Dim+PosPl+VocPl: bingodeensiwaa***idig, idog***
+     bingode+Dim+PosObv+Pret: bingodeensiniiban
+     bingode+Dim+PosObv+VocPl: bingodeensini***idig, idog***
+     bingode+Con+Pos1Pl+Pret: bingodeenhinaaniban
+     bingode+Con+Pos1Pl+VocPl: bingodeenhinaan***idig, idog***
+     bingode+Con+PosPl+Pret: bingodeenhiwaaiban
+     bingode+Con+PosPl+VocPl: bingodeenhiwaa***idig, idog***
+     bingode+Con+PosObv+Pret: bingodeenhiniiban
+     bingode+Con+PosObv+VocPl: bingodeenhini***idig, idog***
+     
+     #Values from slots numbered: 2, 5, 7
+     bingode+Dim+Pos1Pl+Obv: bingodeensinaanan
+     bingode+Dim+Pos1Pl+Pl: bingodeensinaanag
+     bingode+Dim+Pos1Pl+Loc: bingodeensinaaning
+     bingode+Dim+PosPl+Obv: bingodeensiwaaan
+     bingode+Dim+PosPl+Pl: bingodeensiwaaag
+     bingode+Dim+PosPl+Loc: bingodeensiwaaing
+     bingode+Dim+PosObv+Obv: bingodeensinian
+     bingode+Dim+PosObv+Pl: bingodeensiniag
+     bingode+Dim+PosObv+Loc: bingodeensiniing
+     bingode+Con+Pos1Pl+Obv: bingodeenhinaanan
+     bingode+Con+Pos1Pl+Pl: bingodeenhinaanag
+     bingode+Con+Pos1Pl+Loc: bingodeenhinaaning
+     bingode+Con+PosPl+Obv: bingodeenhiwaaan
+     bingode+Con+PosPl+Pl: bingodeenhiwaaag
+     bingode+Con+PosPl+Loc: bingodeenhiwaaing
+     bingode+Con+PosObv+Obv: bingodeenhinian
+     bingode+Con+PosObv+Pl: bingodeenhiniag
+     bingode+Con+PosObv+Loc: bingodeenhiniing
+     
+     #Values from slots numbered: 2, 6, 7
+     bingode+Dim+Pret+Obv: bingodeensibanan
+     bingode+Dim+Pret+Pl: bingodeensibanag
+     bingode+Dim+Pret+Loc: bingodeensibaning
+     bingode+Dim+VocPl+Obv: bingodeens***idig, idog***an
+     bingode+Dim+VocPl+Pl: bingodeens***idig, idog***ag
+     bingode+Dim+VocPl+Loc: bingodeens***idig, idog***ing
+     bingode+Con+Pret+Obv: bingodeenhibanan
+     bingode+Con+Pret+Pl: bingodeenhibanag
+     bingode+Con+Pret+Loc: bingodeenhibaning
+     bingode+Con+VocPl+Obv: bingodeenh***idig, idog***an
+     bingode+Con+VocPl+Pl: bingodeenh***idig, idog***ag
+     bingode+Con+VocPl+Loc: bingodeenh***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5
+     bingode+Pos+Pej+Pos1Pl: bingodeimishinaan
+     bingode+Pos+Pej+PosPl: bingodeimishiwaa
+     bingode+Pos+Pej+PosObv: bingodeimishini
+     
+     #Values from slots numbered: 3, 4, 6
+     bingode+Pos+Pej+Pret: bingodeimishiban
+     bingode+Pos+Pej+VocPl: bingodeimish***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 7
+     bingode+Pos+Pej+Obv: bingodeimishan
+     bingode+Pos+Pej+Pl: bingodeimishag
+     bingode+Pos+Pej+Loc: bingodeimishing
+     
+     #Values from slots numbered: 3, 5, 6
+     bingode+Pos+Pos1Pl+Pret: bingodeiminaaniban
+     bingode+Pos+Pos1Pl+VocPl: bingodeiminaan***idig, idog***
+     bingode+Pos+PosPl+Pret: bingodeimiwaaiban
+     bingode+Pos+PosPl+VocPl: bingodeimiwaa***idig, idog***
+     bingode+Pos+PosObv+Pret: bingodeiminiiban
+     bingode+Pos+PosObv+VocPl: bingodeimini***idig, idog***
+     
+     #Values from slots numbered: 3, 5, 7
+     bingode+Pos+Pos1Pl+Obv: bingodeiminaanan
+     bingode+Pos+Pos1Pl+Pl: bingodeiminaanag
+     bingode+Pos+Pos1Pl+Loc: bingodeiminaaning
+     bingode+Pos+PosPl+Obv: bingodeimiwaaan
+     bingode+Pos+PosPl+Pl: bingodeimiwaaag
+     bingode+Pos+PosPl+Loc: bingodeimiwaaing
+     bingode+Pos+PosObv+Obv: bingodeiminian
+     bingode+Pos+PosObv+Pl: bingodeiminiag
+     bingode+Pos+PosObv+Loc: bingodeiminiing
+     
+     #Values from slots numbered: 3, 6, 7
+     bingode+Pos+Pret+Obv: bingodeimibanan
+     bingode+Pos+Pret+Pl: bingodeimibanag
+     bingode+Pos+Pret+Loc: bingodeimibaning
+     bingode+Pos+VocPl+Obv: bingodeim***idig, idog***an
+     bingode+Pos+VocPl+Pl: bingodeim***idig, idog***ag
+     bingode+Pos+VocPl+Loc: bingodeim***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6
+     bingode+Pej+Pos1Pl+Pret: bingodeishinaaniban
+     bingode+Pej+Pos1Pl+VocPl: bingodeishinaan***idig, idog***
+     bingode+Pej+PosPl+Pret: bingodeishiwaaiban
+     bingode+Pej+PosPl+VocPl: bingodeishiwaa***idig, idog***
+     bingode+Pej+PosObv+Pret: bingodeishiniiban
+     bingode+Pej+PosObv+VocPl: bingodeishini***idig, idog***
+     
+     #Values from slots numbered: 4, 5, 7
+     bingode+Pej+Pos1Pl+Obv: bingodeishinaanan
+     bingode+Pej+Pos1Pl+Pl: bingodeishinaanag
+     bingode+Pej+Pos1Pl+Loc: bingodeishinaaning
+     bingode+Pej+PosPl+Obv: bingodeishiwaaan
+     bingode+Pej+PosPl+Pl: bingodeishiwaaag
+     bingode+Pej+PosPl+Loc: bingodeishiwaaing
+     bingode+Pej+PosObv+Obv: bingodeishinian
+     bingode+Pej+PosObv+Pl: bingodeishiniag
+     bingode+Pej+PosObv+Loc: bingodeishiniing
+     
+     #Values from slots numbered: 4, 6, 7
+     bingode+Pej+Pret+Obv: bingodeishibanan
+     bingode+Pej+Pret+Pl: bingodeishibanag
+     bingode+Pej+Pret+Loc: bingodeishibaning
+     bingode+Pej+VocPl+Obv: bingodeish***idig, idog***an
+     bingode+Pej+VocPl+Pl: bingodeish***idig, idog***ag
+     bingode+Pej+VocPl+Loc: bingodeish***idig, idog***ing
+     
+     #Values from slots numbered: 5, 6, 7
+     bingode+Pos1Pl+Pret+Obv: bingodeinaanibanan
+     bingode+Pos1Pl+Pret+Pl: bingodeinaanibanag
+     bingode+Pos1Pl+Pret+Loc: bingodeinaanibaning
+     bingode+Pos1Pl+VocPl+Obv: bingodeinaan***idig, idog***an
+     bingode+Pos1Pl+VocPl+Pl: bingodeinaan***idig, idog***ag
+     bingode+Pos1Pl+VocPl+Loc: bingodeinaan***idig, idog***ing
+     bingode+PosPl+Pret+Obv: bingodeiwaaibanan
+     bingode+PosPl+Pret+Pl: bingodeiwaaibanag
+     bingode+PosPl+Pret+Loc: bingodeiwaaibaning
+     bingode+PosPl+VocPl+Obv: bingodeiwaa***idig, idog***an
+     bingode+PosPl+VocPl+Pl: bingodeiwaa***idig, idog***ag
+     bingode+PosPl+VocPl+Loc: bingodeiwaa***idig, idog***ing
+     bingode+PosObv+Pret+Obv: bingodeiniibanan
+     bingode+PosObv+Pret+Pl: bingodeiniibanag
+     bingode+PosObv+Pret+Loc: bingodeiniibaning
+     bingode+PosObv+VocPl+Obv: bingodeini***idig, idog***an
+     bingode+PosObv+VocPl+Pl: bingodeini***idig, idog***ag
+     bingode+PosObv+VocPl+Loc: bingodeini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     +Px1bingode+Dim+Pos+Pej: nibingodeensimish
+     +Px1bingode+Con+Pos+Pej: nibingodeenhimish
+     +Px2bingode+Dim+Pos+Pej: gibingodeensimish
+     +Px2bingode+Con+Pos+Pej: gibingodeenhimish
+     +Px3bingode+Dim+Pos+Pej: obingodeensimish
+     +Px3bingode+Con+Pos+Pej: obingodeenhimish
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     +Px1bingode+Dim+Pos+Pos1Pl: nibingodeensiminaan
+     +Px1bingode+Dim+Pos+PosPl: nibingodeensimiwaa
+     +Px1bingode+Dim+Pos+PosObv: nibingodeensimini
+     +Px1bingode+Con+Pos+Pos1Pl: nibingodeenhiminaan
+     +Px1bingode+Con+Pos+PosPl: nibingodeenhimiwaa
+     +Px1bingode+Con+Pos+PosObv: nibingodeenhimini
+     +Px2bingode+Dim+Pos+Pos1Pl: gibingodeensiminaan
+     +Px2bingode+Dim+Pos+PosPl: gibingodeensimiwaa
+     +Px2bingode+Dim+Pos+PosObv: gibingodeensimini
+     +Px2bingode+Con+Pos+Pos1Pl: gibingodeenhiminaan
+     +Px2bingode+Con+Pos+PosPl: gibingodeenhimiwaa
+     +Px2bingode+Con+Pos+PosObv: gibingodeenhimini
+     +Px3bingode+Dim+Pos+Pos1Pl: obingodeensiminaan
+     +Px3bingode+Dim+Pos+PosPl: obingodeensimiwaa
+     +Px3bingode+Dim+Pos+PosObv: obingodeensimini
+     +Px3bingode+Con+Pos+Pos1Pl: obingodeenhiminaan
+     +Px3bingode+Con+Pos+PosPl: obingodeenhimiwaa
+     +Px3bingode+Con+Pos+PosObv: obingodeenhimini
+     
+     #Values from slots numbered: 1, 2, 3, 6
+     +Px1bingode+Dim+Pos+Pret: nibingodeensimiban
+     +Px1bingode+Dim+Pos+VocPl: nibingodeensim***idig, idog***
+     +Px1bingode+Con+Pos+Pret: nibingodeenhimiban
+     +Px1bingode+Con+Pos+VocPl: nibingodeenhim***idig, idog***
+     +Px2bingode+Dim+Pos+Pret: gibingodeensimiban
+     +Px2bingode+Dim+Pos+VocPl: gibingodeensim***idig, idog***
+     +Px2bingode+Con+Pos+Pret: gibingodeenhimiban
+     +Px2bingode+Con+Pos+VocPl: gibingodeenhim***idig, idog***
+     +Px3bingode+Dim+Pos+Pret: obingodeensimiban
+     +Px3bingode+Dim+Pos+VocPl: obingodeensim***idig, idog***
+     +Px3bingode+Con+Pos+Pret: obingodeenhimiban
+     +Px3bingode+Con+Pos+VocPl: obingodeenhim***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 7
+     +Px1bingode+Dim+Pos+Obv: nibingodeensiman
+     +Px1bingode+Dim+Pos+Pl: nibingodeensimag
+     +Px1bingode+Dim+Pos+Loc: nibingodeensiming
+     +Px1bingode+Con+Pos+Obv: nibingodeenhiman
+     +Px1bingode+Con+Pos+Pl: nibingodeenhimag
+     +Px1bingode+Con+Pos+Loc: nibingodeenhiming
+     +Px2bingode+Dim+Pos+Obv: gibingodeensiman
+     +Px2bingode+Dim+Pos+Pl: gibingodeensimag
+     +Px2bingode+Dim+Pos+Loc: gibingodeensiming
+     +Px2bingode+Con+Pos+Obv: gibingodeenhiman
+     +Px2bingode+Con+Pos+Pl: gibingodeenhimag
+     +Px2bingode+Con+Pos+Loc: gibingodeenhiming
+     +Px3bingode+Dim+Pos+Obv: obingodeensiman
+     +Px3bingode+Dim+Pos+Pl: obingodeensimag
+     +Px3bingode+Dim+Pos+Loc: obingodeensiming
+     +Px3bingode+Con+Pos+Obv: obingodeenhiman
+     +Px3bingode+Con+Pos+Pl: obingodeenhimag
+     +Px3bingode+Con+Pos+Loc: obingodeenhiming
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     +Px1bingode+Dim+Pej+Pos1Pl: nibingodeensishinaan
+     +Px1bingode+Dim+Pej+PosPl: nibingodeensishiwaa
+     +Px1bingode+Dim+Pej+PosObv: nibingodeensishini
+     +Px1bingode+Con+Pej+Pos1Pl: nibingodeenhishinaan
+     +Px1bingode+Con+Pej+PosPl: nibingodeenhishiwaa
+     +Px1bingode+Con+Pej+PosObv: nibingodeenhishini
+     +Px2bingode+Dim+Pej+Pos1Pl: gibingodeensishinaan
+     +Px2bingode+Dim+Pej+PosPl: gibingodeensishiwaa
+     +Px2bingode+Dim+Pej+PosObv: gibingodeensishini
+     +Px2bingode+Con+Pej+Pos1Pl: gibingodeenhishinaan
+     +Px2bingode+Con+Pej+PosPl: gibingodeenhishiwaa
+     +Px2bingode+Con+Pej+PosObv: gibingodeenhishini
+     +Px3bingode+Dim+Pej+Pos1Pl: obingodeensishinaan
+     +Px3bingode+Dim+Pej+PosPl: obingodeensishiwaa
+     +Px3bingode+Dim+Pej+PosObv: obingodeensishini
+     +Px3bingode+Con+Pej+Pos1Pl: obingodeenhishinaan
+     +Px3bingode+Con+Pej+PosPl: obingodeenhishiwaa
+     +Px3bingode+Con+Pej+PosObv: obingodeenhishini
+     
+     #Values from slots numbered: 1, 2, 4, 6
+     +Px1bingode+Dim+Pej+Pret: nibingodeensishiban
+     +Px1bingode+Dim+Pej+VocPl: nibingodeensish***idig, idog***
+     +Px1bingode+Con+Pej+Pret: nibingodeenhishiban
+     +Px1bingode+Con+Pej+VocPl: nibingodeenhish***idig, idog***
+     +Px2bingode+Dim+Pej+Pret: gibingodeensishiban
+     +Px2bingode+Dim+Pej+VocPl: gibingodeensish***idig, idog***
+     +Px2bingode+Con+Pej+Pret: gibingodeenhishiban
+     +Px2bingode+Con+Pej+VocPl: gibingodeenhish***idig, idog***
+     +Px3bingode+Dim+Pej+Pret: obingodeensishiban
+     +Px3bingode+Dim+Pej+VocPl: obingodeensish***idig, idog***
+     +Px3bingode+Con+Pej+Pret: obingodeenhishiban
+     +Px3bingode+Con+Pej+VocPl: obingodeenhish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 7
+     +Px1bingode+Dim+Pej+Obv: nibingodeensishan
+     +Px1bingode+Dim+Pej+Pl: nibingodeensishag
+     +Px1bingode+Dim+Pej+Loc: nibingodeensishing
+     +Px1bingode+Con+Pej+Obv: nibingodeenhishan
+     +Px1bingode+Con+Pej+Pl: nibingodeenhishag
+     +Px1bingode+Con+Pej+Loc: nibingodeenhishing
+     +Px2bingode+Dim+Pej+Obv: gibingodeensishan
+     +Px2bingode+Dim+Pej+Pl: gibingodeensishag
+     +Px2bingode+Dim+Pej+Loc: gibingodeensishing
+     +Px2bingode+Con+Pej+Obv: gibingodeenhishan
+     +Px2bingode+Con+Pej+Pl: gibingodeenhishag
+     +Px2bingode+Con+Pej+Loc: gibingodeenhishing
+     +Px3bingode+Dim+Pej+Obv: obingodeensishan
+     +Px3bingode+Dim+Pej+Pl: obingodeensishag
+     +Px3bingode+Dim+Pej+Loc: obingodeensishing
+     +Px3bingode+Con+Pej+Obv: obingodeenhishan
+     +Px3bingode+Con+Pej+Pl: obingodeenhishag
+     +Px3bingode+Con+Pej+Loc: obingodeenhishing
+     
+     #Values from slots numbered: 1, 2, 5, 6
+     +Px1bingode+Dim+Pos1Pl+Pret: nibingodeensinaaniban
+     +Px1bingode+Dim+Pos1Pl+VocPl: nibingodeensinaan***idig, idog***
+     +Px1bingode+Dim+PosPl+Pret: nibingodeensiwaaiban
+     +Px1bingode+Dim+PosPl+VocPl: nibingodeensiwaa***idig, idog***
+     +Px1bingode+Dim+PosObv+Pret: nibingodeensiniiban
+     +Px1bingode+Dim+PosObv+VocPl: nibingodeensini***idig, idog***
+     +Px1bingode+Con+Pos1Pl+Pret: nibingodeenhinaaniban
+     +Px1bingode+Con+Pos1Pl+VocPl: nibingodeenhinaan***idig, idog***
+     +Px1bingode+Con+PosPl+Pret: nibingodeenhiwaaiban
+     +Px1bingode+Con+PosPl+VocPl: nibingodeenhiwaa***idig, idog***
+     +Px1bingode+Con+PosObv+Pret: nibingodeenhiniiban
+     +Px1bingode+Con+PosObv+VocPl: nibingodeenhini***idig, idog***
+     +Px2bingode+Dim+Pos1Pl+Pret: gibingodeensinaaniban
+     +Px2bingode+Dim+Pos1Pl+VocPl: gibingodeensinaan***idig, idog***
+     +Px2bingode+Dim+PosPl+Pret: gibingodeensiwaaiban
+     +Px2bingode+Dim+PosPl+VocPl: gibingodeensiwaa***idig, idog***
+     +Px2bingode+Dim+PosObv+Pret: gibingodeensiniiban
+     +Px2bingode+Dim+PosObv+VocPl: gibingodeensini***idig, idog***
+     +Px2bingode+Con+Pos1Pl+Pret: gibingodeenhinaaniban
+     +Px2bingode+Con+Pos1Pl+VocPl: gibingodeenhinaan***idig, idog***
+     +Px2bingode+Con+PosPl+Pret: gibingodeenhiwaaiban
+     +Px2bingode+Con+PosPl+VocPl: gibingodeenhiwaa***idig, idog***
+     +Px2bingode+Con+PosObv+Pret: gibingodeenhiniiban
+     +Px2bingode+Con+PosObv+VocPl: gibingodeenhini***idig, idog***
+     +Px3bingode+Dim+Pos1Pl+Pret: obingodeensinaaniban
+     +Px3bingode+Dim+Pos1Pl+VocPl: obingodeensinaan***idig, idog***
+     +Px3bingode+Dim+PosPl+Pret: obingodeensiwaaiban
+     +Px3bingode+Dim+PosPl+VocPl: obingodeensiwaa***idig, idog***
+     +Px3bingode+Dim+PosObv+Pret: obingodeensiniiban
+     +Px3bingode+Dim+PosObv+VocPl: obingodeensini***idig, idog***
+     +Px3bingode+Con+Pos1Pl+Pret: obingodeenhinaaniban
+     +Px3bingode+Con+Pos1Pl+VocPl: obingodeenhinaan***idig, idog***
+     +Px3bingode+Con+PosPl+Pret: obingodeenhiwaaiban
+     +Px3bingode+Con+PosPl+VocPl: obingodeenhiwaa***idig, idog***
+     +Px3bingode+Con+PosObv+Pret: obingodeenhiniiban
+     +Px3bingode+Con+PosObv+VocPl: obingodeenhini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 5, 7
+     +Px1bingode+Dim+Pos1Pl+Obv: nibingodeensinaanan
+     +Px1bingode+Dim+Pos1Pl+Pl: nibingodeensinaanag
+     +Px1bingode+Dim+Pos1Pl+Loc: nibingodeensinaaning
+     +Px1bingode+Dim+PosPl+Obv: nibingodeensiwaaan
+     +Px1bingode+Dim+PosPl+Pl: nibingodeensiwaaag
+     +Px1bingode+Dim+PosPl+Loc: nibingodeensiwaaing
+     +Px1bingode+Dim+PosObv+Obv: nibingodeensinian
+     +Px1bingode+Dim+PosObv+Pl: nibingodeensiniag
+     +Px1bingode+Dim+PosObv+Loc: nibingodeensiniing
+     +Px1bingode+Con+Pos1Pl+Obv: nibingodeenhinaanan
+     +Px1bingode+Con+Pos1Pl+Pl: nibingodeenhinaanag
+     +Px1bingode+Con+Pos1Pl+Loc: nibingodeenhinaaning
+     +Px1bingode+Con+PosPl+Obv: nibingodeenhiwaaan
+     +Px1bingode+Con+PosPl+Pl: nibingodeenhiwaaag
+     +Px1bingode+Con+PosPl+Loc: nibingodeenhiwaaing
+     +Px1bingode+Con+PosObv+Obv: nibingodeenhinian
+     +Px1bingode+Con+PosObv+Pl: nibingodeenhiniag
+     +Px1bingode+Con+PosObv+Loc: nibingodeenhiniing
+     +Px2bingode+Dim+Pos1Pl+Obv: gibingodeensinaanan
+     +Px2bingode+Dim+Pos1Pl+Pl: gibingodeensinaanag
+     +Px2bingode+Dim+Pos1Pl+Loc: gibingodeensinaaning
+     +Px2bingode+Dim+PosPl+Obv: gibingodeensiwaaan
+     +Px2bingode+Dim+PosPl+Pl: gibingodeensiwaaag
+     +Px2bingode+Dim+PosPl+Loc: gibingodeensiwaaing
+     +Px2bingode+Dim+PosObv+Obv: gibingodeensinian
+     +Px2bingode+Dim+PosObv+Pl: gibingodeensiniag
+     +Px2bingode+Dim+PosObv+Loc: gibingodeensiniing
+     +Px2bingode+Con+Pos1Pl+Obv: gibingodeenhinaanan
+     +Px2bingode+Con+Pos1Pl+Pl: gibingodeenhinaanag
+     +Px2bingode+Con+Pos1Pl+Loc: gibingodeenhinaaning
+     +Px2bingode+Con+PosPl+Obv: gibingodeenhiwaaan
+     +Px2bingode+Con+PosPl+Pl: gibingodeenhiwaaag
+     +Px2bingode+Con+PosPl+Loc: gibingodeenhiwaaing
+     +Px2bingode+Con+PosObv+Obv: gibingodeenhinian
+     +Px2bingode+Con+PosObv+Pl: gibingodeenhiniag
+     +Px2bingode+Con+PosObv+Loc: gibingodeenhiniing
+     +Px3bingode+Dim+Pos1Pl+Obv: obingodeensinaanan
+     +Px3bingode+Dim+Pos1Pl+Pl: obingodeensinaanag
+     +Px3bingode+Dim+Pos1Pl+Loc: obingodeensinaaning
+     +Px3bingode+Dim+PosPl+Obv: obingodeensiwaaan
+     +Px3bingode+Dim+PosPl+Pl: obingodeensiwaaag
+     +Px3bingode+Dim+PosPl+Loc: obingodeensiwaaing
+     +Px3bingode+Dim+PosObv+Obv: obingodeensinian
+     +Px3bingode+Dim+PosObv+Pl: obingodeensiniag
+     +Px3bingode+Dim+PosObv+Loc: obingodeensiniing
+     +Px3bingode+Con+Pos1Pl+Obv: obingodeenhinaanan
+     +Px3bingode+Con+Pos1Pl+Pl: obingodeenhinaanag
+     +Px3bingode+Con+Pos1Pl+Loc: obingodeenhinaaning
+     +Px3bingode+Con+PosPl+Obv: obingodeenhiwaaan
+     +Px3bingode+Con+PosPl+Pl: obingodeenhiwaaag
+     +Px3bingode+Con+PosPl+Loc: obingodeenhiwaaing
+     +Px3bingode+Con+PosObv+Obv: obingodeenhinian
+     +Px3bingode+Con+PosObv+Pl: obingodeenhiniag
+     +Px3bingode+Con+PosObv+Loc: obingodeenhiniing
+     
+     #Values from slots numbered: 1, 2, 6, 7
+     +Px1bingode+Dim+Pret+Obv: nibingodeensibanan
+     +Px1bingode+Dim+Pret+Pl: nibingodeensibanag
+     +Px1bingode+Dim+Pret+Loc: nibingodeensibaning
+     +Px1bingode+Dim+VocPl+Obv: nibingodeens***idig, idog***an
+     +Px1bingode+Dim+VocPl+Pl: nibingodeens***idig, idog***ag
+     +Px1bingode+Dim+VocPl+Loc: nibingodeens***idig, idog***ing
+     +Px1bingode+Con+Pret+Obv: nibingodeenhibanan
+     +Px1bingode+Con+Pret+Pl: nibingodeenhibanag
+     +Px1bingode+Con+Pret+Loc: nibingodeenhibaning
+     +Px1bingode+Con+VocPl+Obv: nibingodeenh***idig, idog***an
+     +Px1bingode+Con+VocPl+Pl: nibingodeenh***idig, idog***ag
+     +Px1bingode+Con+VocPl+Loc: nibingodeenh***idig, idog***ing
+     +Px2bingode+Dim+Pret+Obv: gibingodeensibanan
+     +Px2bingode+Dim+Pret+Pl: gibingodeensibanag
+     +Px2bingode+Dim+Pret+Loc: gibingodeensibaning
+     +Px2bingode+Dim+VocPl+Obv: gibingodeens***idig, idog***an
+     +Px2bingode+Dim+VocPl+Pl: gibingodeens***idig, idog***ag
+     +Px2bingode+Dim+VocPl+Loc: gibingodeens***idig, idog***ing
+     +Px2bingode+Con+Pret+Obv: gibingodeenhibanan
+     +Px2bingode+Con+Pret+Pl: gibingodeenhibanag
+     +Px2bingode+Con+Pret+Loc: gibingodeenhibaning
+     +Px2bingode+Con+VocPl+Obv: gibingodeenh***idig, idog***an
+     +Px2bingode+Con+VocPl+Pl: gibingodeenh***idig, idog***ag
+     +Px2bingode+Con+VocPl+Loc: gibingodeenh***idig, idog***ing
+     +Px3bingode+Dim+Pret+Obv: obingodeensibanan
+     +Px3bingode+Dim+Pret+Pl: obingodeensibanag
+     +Px3bingode+Dim+Pret+Loc: obingodeensibaning
+     +Px3bingode+Dim+VocPl+Obv: obingodeens***idig, idog***an
+     +Px3bingode+Dim+VocPl+Pl: obingodeens***idig, idog***ag
+     +Px3bingode+Dim+VocPl+Loc: obingodeens***idig, idog***ing
+     +Px3bingode+Con+Pret+Obv: obingodeenhibanan
+     +Px3bingode+Con+Pret+Pl: obingodeenhibanag
+     +Px3bingode+Con+Pret+Loc: obingodeenhibaning
+     +Px3bingode+Con+VocPl+Obv: obingodeenh***idig, idog***an
+     +Px3bingode+Con+VocPl+Pl: obingodeenh***idig, idog***ag
+     +Px3bingode+Con+VocPl+Loc: obingodeenh***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     +Px1bingode+Pos+Pej+Pos1Pl: nibingodeimishinaan
+     +Px1bingode+Pos+Pej+PosPl: nibingodeimishiwaa
+     +Px1bingode+Pos+Pej+PosObv: nibingodeimishini
+     +Px2bingode+Pos+Pej+Pos1Pl: gibingodeimishinaan
+     +Px2bingode+Pos+Pej+PosPl: gibingodeimishiwaa
+     +Px2bingode+Pos+Pej+PosObv: gibingodeimishini
+     +Px3bingode+Pos+Pej+Pos1Pl: obingodeimishinaan
+     +Px3bingode+Pos+Pej+PosPl: obingodeimishiwaa
+     +Px3bingode+Pos+Pej+PosObv: obingodeimishini
+     
+     #Values from slots numbered: 1, 3, 4, 6
+     +Px1bingode+Pos+Pej+Pret: nibingodeimishiban
+     +Px1bingode+Pos+Pej+VocPl: nibingodeimish***idig, idog***
+     +Px2bingode+Pos+Pej+Pret: gibingodeimishiban
+     +Px2bingode+Pos+Pej+VocPl: gibingodeimish***idig, idog***
+     +Px3bingode+Pos+Pej+Pret: obingodeimishiban
+     +Px3bingode+Pos+Pej+VocPl: obingodeimish***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 7
+     +Px1bingode+Pos+Pej+Obv: nibingodeimishan
+     +Px1bingode+Pos+Pej+Pl: nibingodeimishag
+     +Px1bingode+Pos+Pej+Loc: nibingodeimishing
+     +Px2bingode+Pos+Pej+Obv: gibingodeimishan
+     +Px2bingode+Pos+Pej+Pl: gibingodeimishag
+     +Px2bingode+Pos+Pej+Loc: gibingodeimishing
+     +Px3bingode+Pos+Pej+Obv: obingodeimishan
+     +Px3bingode+Pos+Pej+Pl: obingodeimishag
+     +Px3bingode+Pos+Pej+Loc: obingodeimishing
+     
+     #Values from slots numbered: 1, 3, 5, 6
+     +Px1bingode+Pos+Pos1Pl+Pret: nibingodeiminaaniban
+     +Px1bingode+Pos+Pos1Pl+VocPl: nibingodeiminaan***idig, idog***
+     +Px1bingode+Pos+PosPl+Pret: nibingodeimiwaaiban
+     +Px1bingode+Pos+PosPl+VocPl: nibingodeimiwaa***idig, idog***
+     +Px1bingode+Pos+PosObv+Pret: nibingodeiminiiban
+     +Px1bingode+Pos+PosObv+VocPl: nibingodeimini***idig, idog***
+     +Px2bingode+Pos+Pos1Pl+Pret: gibingodeiminaaniban
+     +Px2bingode+Pos+Pos1Pl+VocPl: gibingodeiminaan***idig, idog***
+     +Px2bingode+Pos+PosPl+Pret: gibingodeimiwaaiban
+     +Px2bingode+Pos+PosPl+VocPl: gibingodeimiwaa***idig, idog***
+     +Px2bingode+Pos+PosObv+Pret: gibingodeiminiiban
+     +Px2bingode+Pos+PosObv+VocPl: gibingodeimini***idig, idog***
+     +Px3bingode+Pos+Pos1Pl+Pret: obingodeiminaaniban
+     +Px3bingode+Pos+Pos1Pl+VocPl: obingodeiminaan***idig, idog***
+     +Px3bingode+Pos+PosPl+Pret: obingodeimiwaaiban
+     +Px3bingode+Pos+PosPl+VocPl: obingodeimiwaa***idig, idog***
+     +Px3bingode+Pos+PosObv+Pret: obingodeiminiiban
+     +Px3bingode+Pos+PosObv+VocPl: obingodeimini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 5, 7
+     +Px1bingode+Pos+Pos1Pl+Obv: nibingodeiminaanan
+     +Px1bingode+Pos+Pos1Pl+Pl: nibingodeiminaanag
+     +Px1bingode+Pos+Pos1Pl+Loc: nibingodeiminaaning
+     +Px1bingode+Pos+PosPl+Obv: nibingodeimiwaaan
+     +Px1bingode+Pos+PosPl+Pl: nibingodeimiwaaag
+     +Px1bingode+Pos+PosPl+Loc: nibingodeimiwaaing
+     +Px1bingode+Pos+PosObv+Obv: nibingodeiminian
+     +Px1bingode+Pos+PosObv+Pl: nibingodeiminiag
+     +Px1bingode+Pos+PosObv+Loc: nibingodeiminiing
+     +Px2bingode+Pos+Pos1Pl+Obv: gibingodeiminaanan
+     +Px2bingode+Pos+Pos1Pl+Pl: gibingodeiminaanag
+     +Px2bingode+Pos+Pos1Pl+Loc: gibingodeiminaaning
+     +Px2bingode+Pos+PosPl+Obv: gibingodeimiwaaan
+     +Px2bingode+Pos+PosPl+Pl: gibingodeimiwaaag
+     +Px2bingode+Pos+PosPl+Loc: gibingodeimiwaaing
+     +Px2bingode+Pos+PosObv+Obv: gibingodeiminian
+     +Px2bingode+Pos+PosObv+Pl: gibingodeiminiag
+     +Px2bingode+Pos+PosObv+Loc: gibingodeiminiing
+     +Px3bingode+Pos+Pos1Pl+Obv: obingodeiminaanan
+     +Px3bingode+Pos+Pos1Pl+Pl: obingodeiminaanag
+     +Px3bingode+Pos+Pos1Pl+Loc: obingodeiminaaning
+     +Px3bingode+Pos+PosPl+Obv: obingodeimiwaaan
+     +Px3bingode+Pos+PosPl+Pl: obingodeimiwaaag
+     +Px3bingode+Pos+PosPl+Loc: obingodeimiwaaing
+     +Px3bingode+Pos+PosObv+Obv: obingodeiminian
+     +Px3bingode+Pos+PosObv+Pl: obingodeiminiag
+     +Px3bingode+Pos+PosObv+Loc: obingodeiminiing
+     
+     #Values from slots numbered: 1, 3, 6, 7
+     +Px1bingode+Pos+Pret+Obv: nibingodeimibanan
+     +Px1bingode+Pos+Pret+Pl: nibingodeimibanag
+     +Px1bingode+Pos+Pret+Loc: nibingodeimibaning
+     +Px1bingode+Pos+VocPl+Obv: nibingodeim***idig, idog***an
+     +Px1bingode+Pos+VocPl+Pl: nibingodeim***idig, idog***ag
+     +Px1bingode+Pos+VocPl+Loc: nibingodeim***idig, idog***ing
+     +Px2bingode+Pos+Pret+Obv: gibingodeimibanan
+     +Px2bingode+Pos+Pret+Pl: gibingodeimibanag
+     +Px2bingode+Pos+Pret+Loc: gibingodeimibaning
+     +Px2bingode+Pos+VocPl+Obv: gibingodeim***idig, idog***an
+     +Px2bingode+Pos+VocPl+Pl: gibingodeim***idig, idog***ag
+     +Px2bingode+Pos+VocPl+Loc: gibingodeim***idig, idog***ing
+     +Px3bingode+Pos+Pret+Obv: obingodeimibanan
+     +Px3bingode+Pos+Pret+Pl: obingodeimibanag
+     +Px3bingode+Pos+Pret+Loc: obingodeimibaning
+     +Px3bingode+Pos+VocPl+Obv: obingodeim***idig, idog***an
+     +Px3bingode+Pos+VocPl+Pl: obingodeim***idig, idog***ag
+     +Px3bingode+Pos+VocPl+Loc: obingodeim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6
+     +Px1bingode+Pej+Pos1Pl+Pret: nibingodeishinaaniban
+     +Px1bingode+Pej+Pos1Pl+VocPl: nibingodeishinaan***idig, idog***
+     +Px1bingode+Pej+PosPl+Pret: nibingodeishiwaaiban
+     +Px1bingode+Pej+PosPl+VocPl: nibingodeishiwaa***idig, idog***
+     +Px1bingode+Pej+PosObv+Pret: nibingodeishiniiban
+     +Px1bingode+Pej+PosObv+VocPl: nibingodeishini***idig, idog***
+     +Px2bingode+Pej+Pos1Pl+Pret: gibingodeishinaaniban
+     +Px2bingode+Pej+Pos1Pl+VocPl: gibingodeishinaan***idig, idog***
+     +Px2bingode+Pej+PosPl+Pret: gibingodeishiwaaiban
+     +Px2bingode+Pej+PosPl+VocPl: gibingodeishiwaa***idig, idog***
+     +Px2bingode+Pej+PosObv+Pret: gibingodeishiniiban
+     +Px2bingode+Pej+PosObv+VocPl: gibingodeishini***idig, idog***
+     +Px3bingode+Pej+Pos1Pl+Pret: obingodeishinaaniban
+     +Px3bingode+Pej+Pos1Pl+VocPl: obingodeishinaan***idig, idog***
+     +Px3bingode+Pej+PosPl+Pret: obingodeishiwaaiban
+     +Px3bingode+Pej+PosPl+VocPl: obingodeishiwaa***idig, idog***
+     +Px3bingode+Pej+PosObv+Pret: obingodeishiniiban
+     +Px3bingode+Pej+PosObv+VocPl: obingodeishini***idig, idog***
+     
+     #Values from slots numbered: 1, 4, 5, 7
+     +Px1bingode+Pej+Pos1Pl+Obv: nibingodeishinaanan
+     +Px1bingode+Pej+Pos1Pl+Pl: nibingodeishinaanag
+     +Px1bingode+Pej+Pos1Pl+Loc: nibingodeishinaaning
+     +Px1bingode+Pej+PosPl+Obv: nibingodeishiwaaan
+     +Px1bingode+Pej+PosPl+Pl: nibingodeishiwaaag
+     +Px1bingode+Pej+PosPl+Loc: nibingodeishiwaaing
+     +Px1bingode+Pej+PosObv+Obv: nibingodeishinian
+     +Px1bingode+Pej+PosObv+Pl: nibingodeishiniag
+     +Px1bingode+Pej+PosObv+Loc: nibingodeishiniing
+     +Px2bingode+Pej+Pos1Pl+Obv: gibingodeishinaanan
+     +Px2bingode+Pej+Pos1Pl+Pl: gibingodeishinaanag
+     +Px2bingode+Pej+Pos1Pl+Loc: gibingodeishinaaning
+     +Px2bingode+Pej+PosPl+Obv: gibingodeishiwaaan
+     +Px2bingode+Pej+PosPl+Pl: gibingodeishiwaaag
+     +Px2bingode+Pej+PosPl+Loc: gibingodeishiwaaing
+     +Px2bingode+Pej+PosObv+Obv: gibingodeishinian
+     +Px2bingode+Pej+PosObv+Pl: gibingodeishiniag
+     +Px2bingode+Pej+PosObv+Loc: gibingodeishiniing
+     +Px3bingode+Pej+Pos1Pl+Obv: obingodeishinaanan
+     +Px3bingode+Pej+Pos1Pl+Pl: obingodeishinaanag
+     +Px3bingode+Pej+Pos1Pl+Loc: obingodeishinaaning
+     +Px3bingode+Pej+PosPl+Obv: obingodeishiwaaan
+     +Px3bingode+Pej+PosPl+Pl: obingodeishiwaaag
+     +Px3bingode+Pej+PosPl+Loc: obingodeishiwaaing
+     +Px3bingode+Pej+PosObv+Obv: obingodeishinian
+     +Px3bingode+Pej+PosObv+Pl: obingodeishiniag
+     +Px3bingode+Pej+PosObv+Loc: obingodeishiniing
+     
+     #Values from slots numbered: 1, 4, 6, 7
+     +Px1bingode+Pej+Pret+Obv: nibingodeishibanan
+     +Px1bingode+Pej+Pret+Pl: nibingodeishibanag
+     +Px1bingode+Pej+Pret+Loc: nibingodeishibaning
+     +Px1bingode+Pej+VocPl+Obv: nibingodeish***idig, idog***an
+     +Px1bingode+Pej+VocPl+Pl: nibingodeish***idig, idog***ag
+     +Px1bingode+Pej+VocPl+Loc: nibingodeish***idig, idog***ing
+     +Px2bingode+Pej+Pret+Obv: gibingodeishibanan
+     +Px2bingode+Pej+Pret+Pl: gibingodeishibanag
+     +Px2bingode+Pej+Pret+Loc: gibingodeishibaning
+     +Px2bingode+Pej+VocPl+Obv: gibingodeish***idig, idog***an
+     +Px2bingode+Pej+VocPl+Pl: gibingodeish***idig, idog***ag
+     +Px2bingode+Pej+VocPl+Loc: gibingodeish***idig, idog***ing
+     +Px3bingode+Pej+Pret+Obv: obingodeishibanan
+     +Px3bingode+Pej+Pret+Pl: obingodeishibanag
+     +Px3bingode+Pej+Pret+Loc: obingodeishibaning
+     +Px3bingode+Pej+VocPl+Obv: obingodeish***idig, idog***an
+     +Px3bingode+Pej+VocPl+Pl: obingodeish***idig, idog***ag
+     +Px3bingode+Pej+VocPl+Loc: obingodeish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 5, 6, 7
+     +Px1bingode+Pos1Pl+Pret+Obv: nibingodeinaanibanan
+     +Px1bingode+Pos1Pl+Pret+Pl: nibingodeinaanibanag
+     +Px1bingode+Pos1Pl+Pret+Loc: nibingodeinaanibaning
+     +Px1bingode+Pos1Pl+VocPl+Obv: nibingodeinaan***idig, idog***an
+     +Px1bingode+Pos1Pl+VocPl+Pl: nibingodeinaan***idig, idog***ag
+     +Px1bingode+Pos1Pl+VocPl+Loc: nibingodeinaan***idig, idog***ing
+     +Px1bingode+PosPl+Pret+Obv: nibingodeiwaaibanan
+     +Px1bingode+PosPl+Pret+Pl: nibingodeiwaaibanag
+     +Px1bingode+PosPl+Pret+Loc: nibingodeiwaaibaning
+     +Px1bingode+PosPl+VocPl+Obv: nibingodeiwaa***idig, idog***an
+     +Px1bingode+PosPl+VocPl+Pl: nibingodeiwaa***idig, idog***ag
+     +Px1bingode+PosPl+VocPl+Loc: nibingodeiwaa***idig, idog***ing
+     +Px1bingode+PosObv+Pret+Obv: nibingodeiniibanan
+     +Px1bingode+PosObv+Pret+Pl: nibingodeiniibanag
+     +Px1bingode+PosObv+Pret+Loc: nibingodeiniibaning
+     +Px1bingode+PosObv+VocPl+Obv: nibingodeini***idig, idog***an
+     +Px1bingode+PosObv+VocPl+Pl: nibingodeini***idig, idog***ag
+     +Px1bingode+PosObv+VocPl+Loc: nibingodeini***idig, idog***ing
+     +Px2bingode+Pos1Pl+Pret+Obv: gibingodeinaanibanan
+     +Px2bingode+Pos1Pl+Pret+Pl: gibingodeinaanibanag
+     +Px2bingode+Pos1Pl+Pret+Loc: gibingodeinaanibaning
+     +Px2bingode+Pos1Pl+VocPl+Obv: gibingodeinaan***idig, idog***an
+     +Px2bingode+Pos1Pl+VocPl+Pl: gibingodeinaan***idig, idog***ag
+     +Px2bingode+Pos1Pl+VocPl+Loc: gibingodeinaan***idig, idog***ing
+     +Px2bingode+PosPl+Pret+Obv: gibingodeiwaaibanan
+     +Px2bingode+PosPl+Pret+Pl: gibingodeiwaaibanag
+     +Px2bingode+PosPl+Pret+Loc: gibingodeiwaaibaning
+     +Px2bingode+PosPl+VocPl+Obv: gibingodeiwaa***idig, idog***an
+     +Px2bingode+PosPl+VocPl+Pl: gibingodeiwaa***idig, idog***ag
+     +Px2bingode+PosPl+VocPl+Loc: gibingodeiwaa***idig, idog***ing
+     +Px2bingode+PosObv+Pret+Obv: gibingodeiniibanan
+     +Px2bingode+PosObv+Pret+Pl: gibingodeiniibanag
+     +Px2bingode+PosObv+Pret+Loc: gibingodeiniibaning
+     +Px2bingode+PosObv+VocPl+Obv: gibingodeini***idig, idog***an
+     +Px2bingode+PosObv+VocPl+Pl: gibingodeini***idig, idog***ag
+     +Px2bingode+PosObv+VocPl+Loc: gibingodeini***idig, idog***ing
+     +Px3bingode+Pos1Pl+Pret+Obv: obingodeinaanibanan
+     +Px3bingode+Pos1Pl+Pret+Pl: obingodeinaanibanag
+     +Px3bingode+Pos1Pl+Pret+Loc: obingodeinaanibaning
+     +Px3bingode+Pos1Pl+VocPl+Obv: obingodeinaan***idig, idog***an
+     +Px3bingode+Pos1Pl+VocPl+Pl: obingodeinaan***idig, idog***ag
+     +Px3bingode+Pos1Pl+VocPl+Loc: obingodeinaan***idig, idog***ing
+     +Px3bingode+PosPl+Pret+Obv: obingodeiwaaibanan
+     +Px3bingode+PosPl+Pret+Pl: obingodeiwaaibanag
+     +Px3bingode+PosPl+Pret+Loc: obingodeiwaaibaning
+     +Px3bingode+PosPl+VocPl+Obv: obingodeiwaa***idig, idog***an
+     +Px3bingode+PosPl+VocPl+Pl: obingodeiwaa***idig, idog***ag
+     +Px3bingode+PosPl+VocPl+Loc: obingodeiwaa***idig, idog***ing
+     +Px3bingode+PosObv+Pret+Obv: obingodeiniibanan
+     +Px3bingode+PosObv+Pret+Pl: obingodeiniibanag
+     +Px3bingode+PosObv+Pret+Loc: obingodeiniibaning
+     +Px3bingode+PosObv+VocPl+Obv: obingodeini***idig, idog***an
+     +Px3bingode+PosObv+VocPl+Pl: obingodeini***idig, idog***ag
+     +Px3bingode+PosObv+VocPl+Loc: obingodeini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     bingode+Dim+Pos+Pej+Pos1Pl: bingodeensimishinaan
+     bingode+Dim+Pos+Pej+PosPl: bingodeensimishiwaa
+     bingode+Dim+Pos+Pej+PosObv: bingodeensimishini
+     bingode+Con+Pos+Pej+Pos1Pl: bingodeenhimishinaan
+     bingode+Con+Pos+Pej+PosPl: bingodeenhimishiwaa
+     bingode+Con+Pos+Pej+PosObv: bingodeenhimishini
+     
+     #Values from slots numbered: 2, 3, 4, 6
+     bingode+Dim+Pos+Pej+Pret: bingodeensimishiban
+     bingode+Dim+Pos+Pej+VocPl: bingodeensimish***idig, idog***
+     bingode+Con+Pos+Pej+Pret: bingodeenhimishiban
+     bingode+Con+Pos+Pej+VocPl: bingodeenhimish***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 7
+     bingode+Dim+Pos+Pej+Obv: bingodeensimishan
+     bingode+Dim+Pos+Pej+Pl: bingodeensimishag
+     bingode+Dim+Pos+Pej+Loc: bingodeensimishing
+     bingode+Con+Pos+Pej+Obv: bingodeenhimishan
+     bingode+Con+Pos+Pej+Pl: bingodeenhimishag
+     bingode+Con+Pos+Pej+Loc: bingodeenhimishing
+     
+     #Values from slots numbered: 2, 3, 5, 6
+     bingode+Dim+Pos+Pos1Pl+Pret: bingodeensiminaaniban
+     bingode+Dim+Pos+Pos1Pl+VocPl: bingodeensiminaan***idig, idog***
+     bingode+Dim+Pos+PosPl+Pret: bingodeensimiwaaiban
+     bingode+Dim+Pos+PosPl+VocPl: bingodeensimiwaa***idig, idog***
+     bingode+Dim+Pos+PosObv+Pret: bingodeensiminiiban
+     bingode+Dim+Pos+PosObv+VocPl: bingodeensimini***idig, idog***
+     bingode+Con+Pos+Pos1Pl+Pret: bingodeenhiminaaniban
+     bingode+Con+Pos+Pos1Pl+VocPl: bingodeenhiminaan***idig, idog***
+     bingode+Con+Pos+PosPl+Pret: bingodeenhimiwaaiban
+     bingode+Con+Pos+PosPl+VocPl: bingodeenhimiwaa***idig, idog***
+     bingode+Con+Pos+PosObv+Pret: bingodeenhiminiiban
+     bingode+Con+Pos+PosObv+VocPl: bingodeenhimini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 5, 7
+     bingode+Dim+Pos+Pos1Pl+Obv: bingodeensiminaanan
+     bingode+Dim+Pos+Pos1Pl+Pl: bingodeensiminaanag
+     bingode+Dim+Pos+Pos1Pl+Loc: bingodeensiminaaning
+     bingode+Dim+Pos+PosPl+Obv: bingodeensimiwaaan
+     bingode+Dim+Pos+PosPl+Pl: bingodeensimiwaaag
+     bingode+Dim+Pos+PosPl+Loc: bingodeensimiwaaing
+     bingode+Dim+Pos+PosObv+Obv: bingodeensiminian
+     bingode+Dim+Pos+PosObv+Pl: bingodeensiminiag
+     bingode+Dim+Pos+PosObv+Loc: bingodeensiminiing
+     bingode+Con+Pos+Pos1Pl+Obv: bingodeenhiminaanan
+     bingode+Con+Pos+Pos1Pl+Pl: bingodeenhiminaanag
+     bingode+Con+Pos+Pos1Pl+Loc: bingodeenhiminaaning
+     bingode+Con+Pos+PosPl+Obv: bingodeenhimiwaaan
+     bingode+Con+Pos+PosPl+Pl: bingodeenhimiwaaag
+     bingode+Con+Pos+PosPl+Loc: bingodeenhimiwaaing
+     bingode+Con+Pos+PosObv+Obv: bingodeenhiminian
+     bingode+Con+Pos+PosObv+Pl: bingodeenhiminiag
+     bingode+Con+Pos+PosObv+Loc: bingodeenhiminiing
+     
+     #Values from slots numbered: 2, 3, 6, 7
+     bingode+Dim+Pos+Pret+Obv: bingodeensimibanan
+     bingode+Dim+Pos+Pret+Pl: bingodeensimibanag
+     bingode+Dim+Pos+Pret+Loc: bingodeensimibaning
+     bingode+Dim+Pos+VocPl+Obv: bingodeensim***idig, idog***an
+     bingode+Dim+Pos+VocPl+Pl: bingodeensim***idig, idog***ag
+     bingode+Dim+Pos+VocPl+Loc: bingodeensim***idig, idog***ing
+     bingode+Con+Pos+Pret+Obv: bingodeenhimibanan
+     bingode+Con+Pos+Pret+Pl: bingodeenhimibanag
+     bingode+Con+Pos+Pret+Loc: bingodeenhimibaning
+     bingode+Con+Pos+VocPl+Obv: bingodeenhim***idig, idog***an
+     bingode+Con+Pos+VocPl+Pl: bingodeenhim***idig, idog***ag
+     bingode+Con+Pos+VocPl+Loc: bingodeenhim***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6
+     bingode+Dim+Pej+Pos1Pl+Pret: bingodeensishinaaniban
+     bingode+Dim+Pej+Pos1Pl+VocPl: bingodeensishinaan***idig, idog***
+     bingode+Dim+Pej+PosPl+Pret: bingodeensishiwaaiban
+     bingode+Dim+Pej+PosPl+VocPl: bingodeensishiwaa***idig, idog***
+     bingode+Dim+Pej+PosObv+Pret: bingodeensishiniiban
+     bingode+Dim+Pej+PosObv+VocPl: bingodeensishini***idig, idog***
+     bingode+Con+Pej+Pos1Pl+Pret: bingodeenhishinaaniban
+     bingode+Con+Pej+Pos1Pl+VocPl: bingodeenhishinaan***idig, idog***
+     bingode+Con+Pej+PosPl+Pret: bingodeenhishiwaaiban
+     bingode+Con+Pej+PosPl+VocPl: bingodeenhishiwaa***idig, idog***
+     bingode+Con+Pej+PosObv+Pret: bingodeenhishiniiban
+     bingode+Con+Pej+PosObv+VocPl: bingodeenhishini***idig, idog***
+     
+     #Values from slots numbered: 2, 4, 5, 7
+     bingode+Dim+Pej+Pos1Pl+Obv: bingodeensishinaanan
+     bingode+Dim+Pej+Pos1Pl+Pl: bingodeensishinaanag
+     bingode+Dim+Pej+Pos1Pl+Loc: bingodeensishinaaning
+     bingode+Dim+Pej+PosPl+Obv: bingodeensishiwaaan
+     bingode+Dim+Pej+PosPl+Pl: bingodeensishiwaaag
+     bingode+Dim+Pej+PosPl+Loc: bingodeensishiwaaing
+     bingode+Dim+Pej+PosObv+Obv: bingodeensishinian
+     bingode+Dim+Pej+PosObv+Pl: bingodeensishiniag
+     bingode+Dim+Pej+PosObv+Loc: bingodeensishiniing
+     bingode+Con+Pej+Pos1Pl+Obv: bingodeenhishinaanan
+     bingode+Con+Pej+Pos1Pl+Pl: bingodeenhishinaanag
+     bingode+Con+Pej+Pos1Pl+Loc: bingodeenhishinaaning
+     bingode+Con+Pej+PosPl+Obv: bingodeenhishiwaaan
+     bingode+Con+Pej+PosPl+Pl: bingodeenhishiwaaag
+     bingode+Con+Pej+PosPl+Loc: bingodeenhishiwaaing
+     bingode+Con+Pej+PosObv+Obv: bingodeenhishinian
+     bingode+Con+Pej+PosObv+Pl: bingodeenhishiniag
+     bingode+Con+Pej+PosObv+Loc: bingodeenhishiniing
+     
+     #Values from slots numbered: 2, 4, 6, 7
+     bingode+Dim+Pej+Pret+Obv: bingodeensishibanan
+     bingode+Dim+Pej+Pret+Pl: bingodeensishibanag
+     bingode+Dim+Pej+Pret+Loc: bingodeensishibaning
+     bingode+Dim+Pej+VocPl+Obv: bingodeensish***idig, idog***an
+     bingode+Dim+Pej+VocPl+Pl: bingodeensish***idig, idog***ag
+     bingode+Dim+Pej+VocPl+Loc: bingodeensish***idig, idog***ing
+     bingode+Con+Pej+Pret+Obv: bingodeenhishibanan
+     bingode+Con+Pej+Pret+Pl: bingodeenhishibanag
+     bingode+Con+Pej+Pret+Loc: bingodeenhishibaning
+     bingode+Con+Pej+VocPl+Obv: bingodeenhish***idig, idog***an
+     bingode+Con+Pej+VocPl+Pl: bingodeenhish***idig, idog***ag
+     bingode+Con+Pej+VocPl+Loc: bingodeenhish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 5, 6, 7
+     bingode+Dim+Pos1Pl+Pret+Obv: bingodeensinaanibanan
+     bingode+Dim+Pos1Pl+Pret+Pl: bingodeensinaanibanag
+     bingode+Dim+Pos1Pl+Pret+Loc: bingodeensinaanibaning
+     bingode+Dim+Pos1Pl+VocPl+Obv: bingodeensinaan***idig, idog***an
+     bingode+Dim+Pos1Pl+VocPl+Pl: bingodeensinaan***idig, idog***ag
+     bingode+Dim+Pos1Pl+VocPl+Loc: bingodeensinaan***idig, idog***ing
+     bingode+Dim+PosPl+Pret+Obv: bingodeensiwaaibanan
+     bingode+Dim+PosPl+Pret+Pl: bingodeensiwaaibanag
+     bingode+Dim+PosPl+Pret+Loc: bingodeensiwaaibaning
+     bingode+Dim+PosPl+VocPl+Obv: bingodeensiwaa***idig, idog***an
+     bingode+Dim+PosPl+VocPl+Pl: bingodeensiwaa***idig, idog***ag
+     bingode+Dim+PosPl+VocPl+Loc: bingodeensiwaa***idig, idog***ing
+     bingode+Dim+PosObv+Pret+Obv: bingodeensiniibanan
+     bingode+Dim+PosObv+Pret+Pl: bingodeensiniibanag
+     bingode+Dim+PosObv+Pret+Loc: bingodeensiniibaning
+     bingode+Dim+PosObv+VocPl+Obv: bingodeensini***idig, idog***an
+     bingode+Dim+PosObv+VocPl+Pl: bingodeensini***idig, idog***ag
+     bingode+Dim+PosObv+VocPl+Loc: bingodeensini***idig, idog***ing
+     bingode+Con+Pos1Pl+Pret+Obv: bingodeenhinaanibanan
+     bingode+Con+Pos1Pl+Pret+Pl: bingodeenhinaanibanag
+     bingode+Con+Pos1Pl+Pret+Loc: bingodeenhinaanibaning
+     bingode+Con+Pos1Pl+VocPl+Obv: bingodeenhinaan***idig, idog***an
+     bingode+Con+Pos1Pl+VocPl+Pl: bingodeenhinaan***idig, idog***ag
+     bingode+Con+Pos1Pl+VocPl+Loc: bingodeenhinaan***idig, idog***ing
+     bingode+Con+PosPl+Pret+Obv: bingodeenhiwaaibanan
+     bingode+Con+PosPl+Pret+Pl: bingodeenhiwaaibanag
+     bingode+Con+PosPl+Pret+Loc: bingodeenhiwaaibaning
+     bingode+Con+PosPl+VocPl+Obv: bingodeenhiwaa***idig, idog***an
+     bingode+Con+PosPl+VocPl+Pl: bingodeenhiwaa***idig, idog***ag
+     bingode+Con+PosPl+VocPl+Loc: bingodeenhiwaa***idig, idog***ing
+     bingode+Con+PosObv+Pret+Obv: bingodeenhiniibanan
+     bingode+Con+PosObv+Pret+Pl: bingodeenhiniibanag
+     bingode+Con+PosObv+Pret+Loc: bingodeenhiniibaning
+     bingode+Con+PosObv+VocPl+Obv: bingodeenhini***idig, idog***an
+     bingode+Con+PosObv+VocPl+Pl: bingodeenhini***idig, idog***ag
+     bingode+Con+PosObv+VocPl+Loc: bingodeenhini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6
+     bingode+Pos+Pej+Pos1Pl+Pret: bingodeimishinaaniban
+     bingode+Pos+Pej+Pos1Pl+VocPl: bingodeimishinaan***idig, idog***
+     bingode+Pos+Pej+PosPl+Pret: bingodeimishiwaaiban
+     bingode+Pos+Pej+PosPl+VocPl: bingodeimishiwaa***idig, idog***
+     bingode+Pos+Pej+PosObv+Pret: bingodeimishiniiban
+     bingode+Pos+Pej+PosObv+VocPl: bingodeimishini***idig, idog***
+     
+     #Values from slots numbered: 3, 4, 5, 7
+     bingode+Pos+Pej+Pos1Pl+Obv: bingodeimishinaanan
+     bingode+Pos+Pej+Pos1Pl+Pl: bingodeimishinaanag
+     bingode+Pos+Pej+Pos1Pl+Loc: bingodeimishinaaning
+     bingode+Pos+Pej+PosPl+Obv: bingodeimishiwaaan
+     bingode+Pos+Pej+PosPl+Pl: bingodeimishiwaaag
+     bingode+Pos+Pej+PosPl+Loc: bingodeimishiwaaing
+     bingode+Pos+Pej+PosObv+Obv: bingodeimishinian
+     bingode+Pos+Pej+PosObv+Pl: bingodeimishiniag
+     bingode+Pos+Pej+PosObv+Loc: bingodeimishiniing
+     
+     #Values from slots numbered: 3, 4, 6, 7
+     bingode+Pos+Pej+Pret+Obv: bingodeimishibanan
+     bingode+Pos+Pej+Pret+Pl: bingodeimishibanag
+     bingode+Pos+Pej+Pret+Loc: bingodeimishibaning
+     bingode+Pos+Pej+VocPl+Obv: bingodeimish***idig, idog***an
+     bingode+Pos+Pej+VocPl+Pl: bingodeimish***idig, idog***ag
+     bingode+Pos+Pej+VocPl+Loc: bingodeimish***idig, idog***ing
+     
+     #Values from slots numbered: 3, 5, 6, 7
+     bingode+Pos+Pos1Pl+Pret+Obv: bingodeiminaanibanan
+     bingode+Pos+Pos1Pl+Pret+Pl: bingodeiminaanibanag
+     bingode+Pos+Pos1Pl+Pret+Loc: bingodeiminaanibaning
+     bingode+Pos+Pos1Pl+VocPl+Obv: bingodeiminaan***idig, idog***an
+     bingode+Pos+Pos1Pl+VocPl+Pl: bingodeiminaan***idig, idog***ag
+     bingode+Pos+Pos1Pl+VocPl+Loc: bingodeiminaan***idig, idog***ing
+     bingode+Pos+PosPl+Pret+Obv: bingodeimiwaaibanan
+     bingode+Pos+PosPl+Pret+Pl: bingodeimiwaaibanag
+     bingode+Pos+PosPl+Pret+Loc: bingodeimiwaaibaning
+     bingode+Pos+PosPl+VocPl+Obv: bingodeimiwaa***idig, idog***an
+     bingode+Pos+PosPl+VocPl+Pl: bingodeimiwaa***idig, idog***ag
+     bingode+Pos+PosPl+VocPl+Loc: bingodeimiwaa***idig, idog***ing
+     bingode+Pos+PosObv+Pret+Obv: bingodeiminiibanan
+     bingode+Pos+PosObv+Pret+Pl: bingodeiminiibanag
+     bingode+Pos+PosObv+Pret+Loc: bingodeiminiibaning
+     bingode+Pos+PosObv+VocPl+Obv: bingodeimini***idig, idog***an
+     bingode+Pos+PosObv+VocPl+Pl: bingodeimini***idig, idog***ag
+     bingode+Pos+PosObv+VocPl+Loc: bingodeimini***idig, idog***ing
+     
+     #Values from slots numbered: 4, 5, 6, 7
+     bingode+Pej+Pos1Pl+Pret+Obv: bingodeishinaanibanan
+     bingode+Pej+Pos1Pl+Pret+Pl: bingodeishinaanibanag
+     bingode+Pej+Pos1Pl+Pret+Loc: bingodeishinaanibaning
+     bingode+Pej+Pos1Pl+VocPl+Obv: bingodeishinaan***idig, idog***an
+     bingode+Pej+Pos1Pl+VocPl+Pl: bingodeishinaan***idig, idog***ag
+     bingode+Pej+Pos1Pl+VocPl+Loc: bingodeishinaan***idig, idog***ing
+     bingode+Pej+PosPl+Pret+Obv: bingodeishiwaaibanan
+     bingode+Pej+PosPl+Pret+Pl: bingodeishiwaaibanag
+     bingode+Pej+PosPl+Pret+Loc: bingodeishiwaaibaning
+     bingode+Pej+PosPl+VocPl+Obv: bingodeishiwaa***idig, idog***an
+     bingode+Pej+PosPl+VocPl+Pl: bingodeishiwaa***idig, idog***ag
+     bingode+Pej+PosPl+VocPl+Loc: bingodeishiwaa***idig, idog***ing
+     bingode+Pej+PosObv+Pret+Obv: bingodeishiniibanan
+     bingode+Pej+PosObv+Pret+Pl: bingodeishiniibanag
+     bingode+Pej+PosObv+Pret+Loc: bingodeishiniibaning
+     bingode+Pej+PosObv+VocPl+Obv: bingodeishini***idig, idog***an
+     bingode+Pej+PosObv+VocPl+Pl: bingodeishini***idig, idog***ag
+     bingode+Pej+PosObv+VocPl+Loc: bingodeishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl: nibingodeensimishinaan
+     +Px1bingode+Dim+Pos+Pej+PosPl: nibingodeensimishiwaa
+     +Px1bingode+Dim+Pos+Pej+PosObv: nibingodeensimishini
+     +Px1bingode+Con+Pos+Pej+Pos1Pl: nibingodeenhimishinaan
+     +Px1bingode+Con+Pos+Pej+PosPl: nibingodeenhimishiwaa
+     +Px1bingode+Con+Pos+Pej+PosObv: nibingodeenhimishini
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl: gibingodeensimishinaan
+     +Px2bingode+Dim+Pos+Pej+PosPl: gibingodeensimishiwaa
+     +Px2bingode+Dim+Pos+Pej+PosObv: gibingodeensimishini
+     +Px2bingode+Con+Pos+Pej+Pos1Pl: gibingodeenhimishinaan
+     +Px2bingode+Con+Pos+Pej+PosPl: gibingodeenhimishiwaa
+     +Px2bingode+Con+Pos+Pej+PosObv: gibingodeenhimishini
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl: obingodeensimishinaan
+     +Px3bingode+Dim+Pos+Pej+PosPl: obingodeensimishiwaa
+     +Px3bingode+Dim+Pos+Pej+PosObv: obingodeensimishini
+     +Px3bingode+Con+Pos+Pej+Pos1Pl: obingodeenhimishinaan
+     +Px3bingode+Con+Pos+Pej+PosPl: obingodeenhimishiwaa
+     +Px3bingode+Con+Pos+Pej+PosObv: obingodeenhimishini
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     +Px1bingode+Dim+Pos+Pej+Pret: nibingodeensimishiban
+     +Px1bingode+Dim+Pos+Pej+VocPl: nibingodeensimish***idig, idog***
+     +Px1bingode+Con+Pos+Pej+Pret: nibingodeenhimishiban
+     +Px1bingode+Con+Pos+Pej+VocPl: nibingodeenhimish***idig, idog***
+     +Px2bingode+Dim+Pos+Pej+Pret: gibingodeensimishiban
+     +Px2bingode+Dim+Pos+Pej+VocPl: gibingodeensimish***idig, idog***
+     +Px2bingode+Con+Pos+Pej+Pret: gibingodeenhimishiban
+     +Px2bingode+Con+Pos+Pej+VocPl: gibingodeenhimish***idig, idog***
+     +Px3bingode+Dim+Pos+Pej+Pret: obingodeensimishiban
+     +Px3bingode+Dim+Pos+Pej+VocPl: obingodeensimish***idig, idog***
+     +Px3bingode+Con+Pos+Pej+Pret: obingodeenhimishiban
+     +Px3bingode+Con+Pos+Pej+VocPl: obingodeenhimish***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     +Px1bingode+Dim+Pos+Pej+Obv: nibingodeensimishan
+     +Px1bingode+Dim+Pos+Pej+Pl: nibingodeensimishag
+     +Px1bingode+Dim+Pos+Pej+Loc: nibingodeensimishing
+     +Px1bingode+Con+Pos+Pej+Obv: nibingodeenhimishan
+     +Px1bingode+Con+Pos+Pej+Pl: nibingodeenhimishag
+     +Px1bingode+Con+Pos+Pej+Loc: nibingodeenhimishing
+     +Px2bingode+Dim+Pos+Pej+Obv: gibingodeensimishan
+     +Px2bingode+Dim+Pos+Pej+Pl: gibingodeensimishag
+     +Px2bingode+Dim+Pos+Pej+Loc: gibingodeensimishing
+     +Px2bingode+Con+Pos+Pej+Obv: gibingodeenhimishan
+     +Px2bingode+Con+Pos+Pej+Pl: gibingodeenhimishag
+     +Px2bingode+Con+Pos+Pej+Loc: gibingodeenhimishing
+     +Px3bingode+Dim+Pos+Pej+Obv: obingodeensimishan
+     +Px3bingode+Dim+Pos+Pej+Pl: obingodeensimishag
+     +Px3bingode+Dim+Pos+Pej+Loc: obingodeensimishing
+     +Px3bingode+Con+Pos+Pej+Obv: obingodeenhimishan
+     +Px3bingode+Con+Pos+Pej+Pl: obingodeenhimishag
+     +Px3bingode+Con+Pos+Pej+Loc: obingodeenhimishing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     +Px1bingode+Dim+Pos+Pos1Pl+Pret: nibingodeensiminaaniban
+     +Px1bingode+Dim+Pos+Pos1Pl+VocPl: nibingodeensiminaan***idig, idog***
+     +Px1bingode+Dim+Pos+PosPl+Pret: nibingodeensimiwaaiban
+     +Px1bingode+Dim+Pos+PosPl+VocPl: nibingodeensimiwaa***idig, idog***
+     +Px1bingode+Dim+Pos+PosObv+Pret: nibingodeensiminiiban
+     +Px1bingode+Dim+Pos+PosObv+VocPl: nibingodeensimini***idig, idog***
+     +Px1bingode+Con+Pos+Pos1Pl+Pret: nibingodeenhiminaaniban
+     +Px1bingode+Con+Pos+Pos1Pl+VocPl: nibingodeenhiminaan***idig, idog***
+     +Px1bingode+Con+Pos+PosPl+Pret: nibingodeenhimiwaaiban
+     +Px1bingode+Con+Pos+PosPl+VocPl: nibingodeenhimiwaa***idig, idog***
+     +Px1bingode+Con+Pos+PosObv+Pret: nibingodeenhiminiiban
+     +Px1bingode+Con+Pos+PosObv+VocPl: nibingodeenhimini***idig, idog***
+     +Px2bingode+Dim+Pos+Pos1Pl+Pret: gibingodeensiminaaniban
+     +Px2bingode+Dim+Pos+Pos1Pl+VocPl: gibingodeensiminaan***idig, idog***
+     +Px2bingode+Dim+Pos+PosPl+Pret: gibingodeensimiwaaiban
+     +Px2bingode+Dim+Pos+PosPl+VocPl: gibingodeensimiwaa***idig, idog***
+     +Px2bingode+Dim+Pos+PosObv+Pret: gibingodeensiminiiban
+     +Px2bingode+Dim+Pos+PosObv+VocPl: gibingodeensimini***idig, idog***
+     +Px2bingode+Con+Pos+Pos1Pl+Pret: gibingodeenhiminaaniban
+     +Px2bingode+Con+Pos+Pos1Pl+VocPl: gibingodeenhiminaan***idig, idog***
+     +Px2bingode+Con+Pos+PosPl+Pret: gibingodeenhimiwaaiban
+     +Px2bingode+Con+Pos+PosPl+VocPl: gibingodeenhimiwaa***idig, idog***
+     +Px2bingode+Con+Pos+PosObv+Pret: gibingodeenhiminiiban
+     +Px2bingode+Con+Pos+PosObv+VocPl: gibingodeenhimini***idig, idog***
+     +Px3bingode+Dim+Pos+Pos1Pl+Pret: obingodeensiminaaniban
+     +Px3bingode+Dim+Pos+Pos1Pl+VocPl: obingodeensiminaan***idig, idog***
+     +Px3bingode+Dim+Pos+PosPl+Pret: obingodeensimiwaaiban
+     +Px3bingode+Dim+Pos+PosPl+VocPl: obingodeensimiwaa***idig, idog***
+     +Px3bingode+Dim+Pos+PosObv+Pret: obingodeensiminiiban
+     +Px3bingode+Dim+Pos+PosObv+VocPl: obingodeensimini***idig, idog***
+     +Px3bingode+Con+Pos+Pos1Pl+Pret: obingodeenhiminaaniban
+     +Px3bingode+Con+Pos+Pos1Pl+VocPl: obingodeenhiminaan***idig, idog***
+     +Px3bingode+Con+Pos+PosPl+Pret: obingodeenhimiwaaiban
+     +Px3bingode+Con+Pos+PosPl+VocPl: obingodeenhimiwaa***idig, idog***
+     +Px3bingode+Con+Pos+PosObv+Pret: obingodeenhiminiiban
+     +Px3bingode+Con+Pos+PosObv+VocPl: obingodeenhimini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     +Px1bingode+Dim+Pos+Pos1Pl+Obv: nibingodeensiminaanan
+     +Px1bingode+Dim+Pos+Pos1Pl+Pl: nibingodeensiminaanag
+     +Px1bingode+Dim+Pos+Pos1Pl+Loc: nibingodeensiminaaning
+     +Px1bingode+Dim+Pos+PosPl+Obv: nibingodeensimiwaaan
+     +Px1bingode+Dim+Pos+PosPl+Pl: nibingodeensimiwaaag
+     +Px1bingode+Dim+Pos+PosPl+Loc: nibingodeensimiwaaing
+     +Px1bingode+Dim+Pos+PosObv+Obv: nibingodeensiminian
+     +Px1bingode+Dim+Pos+PosObv+Pl: nibingodeensiminiag
+     +Px1bingode+Dim+Pos+PosObv+Loc: nibingodeensiminiing
+     +Px1bingode+Con+Pos+Pos1Pl+Obv: nibingodeenhiminaanan
+     +Px1bingode+Con+Pos+Pos1Pl+Pl: nibingodeenhiminaanag
+     +Px1bingode+Con+Pos+Pos1Pl+Loc: nibingodeenhiminaaning
+     +Px1bingode+Con+Pos+PosPl+Obv: nibingodeenhimiwaaan
+     +Px1bingode+Con+Pos+PosPl+Pl: nibingodeenhimiwaaag
+     +Px1bingode+Con+Pos+PosPl+Loc: nibingodeenhimiwaaing
+     +Px1bingode+Con+Pos+PosObv+Obv: nibingodeenhiminian
+     +Px1bingode+Con+Pos+PosObv+Pl: nibingodeenhiminiag
+     +Px1bingode+Con+Pos+PosObv+Loc: nibingodeenhiminiing
+     +Px2bingode+Dim+Pos+Pos1Pl+Obv: gibingodeensiminaanan
+     +Px2bingode+Dim+Pos+Pos1Pl+Pl: gibingodeensiminaanag
+     +Px2bingode+Dim+Pos+Pos1Pl+Loc: gibingodeensiminaaning
+     +Px2bingode+Dim+Pos+PosPl+Obv: gibingodeensimiwaaan
+     +Px2bingode+Dim+Pos+PosPl+Pl: gibingodeensimiwaaag
+     +Px2bingode+Dim+Pos+PosPl+Loc: gibingodeensimiwaaing
+     +Px2bingode+Dim+Pos+PosObv+Obv: gibingodeensiminian
+     +Px2bingode+Dim+Pos+PosObv+Pl: gibingodeensiminiag
+     +Px2bingode+Dim+Pos+PosObv+Loc: gibingodeensiminiing
+     +Px2bingode+Con+Pos+Pos1Pl+Obv: gibingodeenhiminaanan
+     +Px2bingode+Con+Pos+Pos1Pl+Pl: gibingodeenhiminaanag
+     +Px2bingode+Con+Pos+Pos1Pl+Loc: gibingodeenhiminaaning
+     +Px2bingode+Con+Pos+PosPl+Obv: gibingodeenhimiwaaan
+     +Px2bingode+Con+Pos+PosPl+Pl: gibingodeenhimiwaaag
+     +Px2bingode+Con+Pos+PosPl+Loc: gibingodeenhimiwaaing
+     +Px2bingode+Con+Pos+PosObv+Obv: gibingodeenhiminian
+     +Px2bingode+Con+Pos+PosObv+Pl: gibingodeenhiminiag
+     +Px2bingode+Con+Pos+PosObv+Loc: gibingodeenhiminiing
+     +Px3bingode+Dim+Pos+Pos1Pl+Obv: obingodeensiminaanan
+     +Px3bingode+Dim+Pos+Pos1Pl+Pl: obingodeensiminaanag
+     +Px3bingode+Dim+Pos+Pos1Pl+Loc: obingodeensiminaaning
+     +Px3bingode+Dim+Pos+PosPl+Obv: obingodeensimiwaaan
+     +Px3bingode+Dim+Pos+PosPl+Pl: obingodeensimiwaaag
+     +Px3bingode+Dim+Pos+PosPl+Loc: obingodeensimiwaaing
+     +Px3bingode+Dim+Pos+PosObv+Obv: obingodeensiminian
+     +Px3bingode+Dim+Pos+PosObv+Pl: obingodeensiminiag
+     +Px3bingode+Dim+Pos+PosObv+Loc: obingodeensiminiing
+     +Px3bingode+Con+Pos+Pos1Pl+Obv: obingodeenhiminaanan
+     +Px3bingode+Con+Pos+Pos1Pl+Pl: obingodeenhiminaanag
+     +Px3bingode+Con+Pos+Pos1Pl+Loc: obingodeenhiminaaning
+     +Px3bingode+Con+Pos+PosPl+Obv: obingodeenhimiwaaan
+     +Px3bingode+Con+Pos+PosPl+Pl: obingodeenhimiwaaag
+     +Px3bingode+Con+Pos+PosPl+Loc: obingodeenhimiwaaing
+     +Px3bingode+Con+Pos+PosObv+Obv: obingodeenhiminian
+     +Px3bingode+Con+Pos+PosObv+Pl: obingodeenhiminiag
+     +Px3bingode+Con+Pos+PosObv+Loc: obingodeenhiminiing
+     
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     +Px1bingode+Dim+Pos+Pret+Obv: nibingodeensimibanan
+     +Px1bingode+Dim+Pos+Pret+Pl: nibingodeensimibanag
+     +Px1bingode+Dim+Pos+Pret+Loc: nibingodeensimibaning
+     +Px1bingode+Dim+Pos+VocPl+Obv: nibingodeensim***idig, idog***an
+     +Px1bingode+Dim+Pos+VocPl+Pl: nibingodeensim***idig, idog***ag
+     +Px1bingode+Dim+Pos+VocPl+Loc: nibingodeensim***idig, idog***ing
+     +Px1bingode+Con+Pos+Pret+Obv: nibingodeenhimibanan
+     +Px1bingode+Con+Pos+Pret+Pl: nibingodeenhimibanag
+     +Px1bingode+Con+Pos+Pret+Loc: nibingodeenhimibaning
+     +Px1bingode+Con+Pos+VocPl+Obv: nibingodeenhim***idig, idog***an
+     +Px1bingode+Con+Pos+VocPl+Pl: nibingodeenhim***idig, idog***ag
+     +Px1bingode+Con+Pos+VocPl+Loc: nibingodeenhim***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pret+Obv: gibingodeensimibanan
+     +Px2bingode+Dim+Pos+Pret+Pl: gibingodeensimibanag
+     +Px2bingode+Dim+Pos+Pret+Loc: gibingodeensimibaning
+     +Px2bingode+Dim+Pos+VocPl+Obv: gibingodeensim***idig, idog***an
+     +Px2bingode+Dim+Pos+VocPl+Pl: gibingodeensim***idig, idog***ag
+     +Px2bingode+Dim+Pos+VocPl+Loc: gibingodeensim***idig, idog***ing
+     +Px2bingode+Con+Pos+Pret+Obv: gibingodeenhimibanan
+     +Px2bingode+Con+Pos+Pret+Pl: gibingodeenhimibanag
+     +Px2bingode+Con+Pos+Pret+Loc: gibingodeenhimibaning
+     +Px2bingode+Con+Pos+VocPl+Obv: gibingodeenhim***idig, idog***an
+     +Px2bingode+Con+Pos+VocPl+Pl: gibingodeenhim***idig, idog***ag
+     +Px2bingode+Con+Pos+VocPl+Loc: gibingodeenhim***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pret+Obv: obingodeensimibanan
+     +Px3bingode+Dim+Pos+Pret+Pl: obingodeensimibanag
+     +Px3bingode+Dim+Pos+Pret+Loc: obingodeensimibaning
+     +Px3bingode+Dim+Pos+VocPl+Obv: obingodeensim***idig, idog***an
+     +Px3bingode+Dim+Pos+VocPl+Pl: obingodeensim***idig, idog***ag
+     +Px3bingode+Dim+Pos+VocPl+Loc: obingodeensim***idig, idog***ing
+     +Px3bingode+Con+Pos+Pret+Obv: obingodeenhimibanan
+     +Px3bingode+Con+Pos+Pret+Pl: obingodeenhimibanag
+     +Px3bingode+Con+Pos+Pret+Loc: obingodeenhimibaning
+     +Px3bingode+Con+Pos+VocPl+Obv: obingodeenhim***idig, idog***an
+     +Px3bingode+Con+Pos+VocPl+Pl: obingodeenhim***idig, idog***ag
+     +Px3bingode+Con+Pos+VocPl+Loc: obingodeenhim***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     +Px1bingode+Dim+Pej+Pos1Pl+Pret: nibingodeensishinaaniban
+     +Px1bingode+Dim+Pej+Pos1Pl+VocPl: nibingodeensishinaan***idig, idog***
+     +Px1bingode+Dim+Pej+PosPl+Pret: nibingodeensishiwaaiban
+     +Px1bingode+Dim+Pej+PosPl+VocPl: nibingodeensishiwaa***idig, idog***
+     +Px1bingode+Dim+Pej+PosObv+Pret: nibingodeensishiniiban
+     +Px1bingode+Dim+Pej+PosObv+VocPl: nibingodeensishini***idig, idog***
+     +Px1bingode+Con+Pej+Pos1Pl+Pret: nibingodeenhishinaaniban
+     +Px1bingode+Con+Pej+Pos1Pl+VocPl: nibingodeenhishinaan***idig, idog***
+     +Px1bingode+Con+Pej+PosPl+Pret: nibingodeenhishiwaaiban
+     +Px1bingode+Con+Pej+PosPl+VocPl: nibingodeenhishiwaa***idig, idog***
+     +Px1bingode+Con+Pej+PosObv+Pret: nibingodeenhishiniiban
+     +Px1bingode+Con+Pej+PosObv+VocPl: nibingodeenhishini***idig, idog***
+     +Px2bingode+Dim+Pej+Pos1Pl+Pret: gibingodeensishinaaniban
+     +Px2bingode+Dim+Pej+Pos1Pl+VocPl: gibingodeensishinaan***idig, idog***
+     +Px2bingode+Dim+Pej+PosPl+Pret: gibingodeensishiwaaiban
+     +Px2bingode+Dim+Pej+PosPl+VocPl: gibingodeensishiwaa***idig, idog***
+     +Px2bingode+Dim+Pej+PosObv+Pret: gibingodeensishiniiban
+     +Px2bingode+Dim+Pej+PosObv+VocPl: gibingodeensishini***idig, idog***
+     +Px2bingode+Con+Pej+Pos1Pl+Pret: gibingodeenhishinaaniban
+     +Px2bingode+Con+Pej+Pos1Pl+VocPl: gibingodeenhishinaan***idig, idog***
+     +Px2bingode+Con+Pej+PosPl+Pret: gibingodeenhishiwaaiban
+     +Px2bingode+Con+Pej+PosPl+VocPl: gibingodeenhishiwaa***idig, idog***
+     +Px2bingode+Con+Pej+PosObv+Pret: gibingodeenhishiniiban
+     +Px2bingode+Con+Pej+PosObv+VocPl: gibingodeenhishini***idig, idog***
+     +Px3bingode+Dim+Pej+Pos1Pl+Pret: obingodeensishinaaniban
+     +Px3bingode+Dim+Pej+Pos1Pl+VocPl: obingodeensishinaan***idig, idog***
+     +Px3bingode+Dim+Pej+PosPl+Pret: obingodeensishiwaaiban
+     +Px3bingode+Dim+Pej+PosPl+VocPl: obingodeensishiwaa***idig, idog***
+     +Px3bingode+Dim+Pej+PosObv+Pret: obingodeensishiniiban
+     +Px3bingode+Dim+Pej+PosObv+VocPl: obingodeensishini***idig, idog***
+     +Px3bingode+Con+Pej+Pos1Pl+Pret: obingodeenhishinaaniban
+     +Px3bingode+Con+Pej+Pos1Pl+VocPl: obingodeenhishinaan***idig, idog***
+     +Px3bingode+Con+Pej+PosPl+Pret: obingodeenhishiwaaiban
+     +Px3bingode+Con+Pej+PosPl+VocPl: obingodeenhishiwaa***idig, idog***
+     +Px3bingode+Con+Pej+PosObv+Pret: obingodeenhishiniiban
+     +Px3bingode+Con+Pej+PosObv+VocPl: obingodeenhishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     +Px1bingode+Dim+Pej+Pos1Pl+Obv: nibingodeensishinaanan
+     +Px1bingode+Dim+Pej+Pos1Pl+Pl: nibingodeensishinaanag
+     +Px1bingode+Dim+Pej+Pos1Pl+Loc: nibingodeensishinaaning
+     +Px1bingode+Dim+Pej+PosPl+Obv: nibingodeensishiwaaan
+     +Px1bingode+Dim+Pej+PosPl+Pl: nibingodeensishiwaaag
+     +Px1bingode+Dim+Pej+PosPl+Loc: nibingodeensishiwaaing
+     +Px1bingode+Dim+Pej+PosObv+Obv: nibingodeensishinian
+     +Px1bingode+Dim+Pej+PosObv+Pl: nibingodeensishiniag
+     +Px1bingode+Dim+Pej+PosObv+Loc: nibingodeensishiniing
+     +Px1bingode+Con+Pej+Pos1Pl+Obv: nibingodeenhishinaanan
+     +Px1bingode+Con+Pej+Pos1Pl+Pl: nibingodeenhishinaanag
+     +Px1bingode+Con+Pej+Pos1Pl+Loc: nibingodeenhishinaaning
+     +Px1bingode+Con+Pej+PosPl+Obv: nibingodeenhishiwaaan
+     +Px1bingode+Con+Pej+PosPl+Pl: nibingodeenhishiwaaag
+     +Px1bingode+Con+Pej+PosPl+Loc: nibingodeenhishiwaaing
+     +Px1bingode+Con+Pej+PosObv+Obv: nibingodeenhishinian
+     +Px1bingode+Con+Pej+PosObv+Pl: nibingodeenhishiniag
+     +Px1bingode+Con+Pej+PosObv+Loc: nibingodeenhishiniing
+     +Px2bingode+Dim+Pej+Pos1Pl+Obv: gibingodeensishinaanan
+     +Px2bingode+Dim+Pej+Pos1Pl+Pl: gibingodeensishinaanag
+     +Px2bingode+Dim+Pej+Pos1Pl+Loc: gibingodeensishinaaning
+     +Px2bingode+Dim+Pej+PosPl+Obv: gibingodeensishiwaaan
+     +Px2bingode+Dim+Pej+PosPl+Pl: gibingodeensishiwaaag
+     +Px2bingode+Dim+Pej+PosPl+Loc: gibingodeensishiwaaing
+     +Px2bingode+Dim+Pej+PosObv+Obv: gibingodeensishinian
+     +Px2bingode+Dim+Pej+PosObv+Pl: gibingodeensishiniag
+     +Px2bingode+Dim+Pej+PosObv+Loc: gibingodeensishiniing
+     +Px2bingode+Con+Pej+Pos1Pl+Obv: gibingodeenhishinaanan
+     +Px2bingode+Con+Pej+Pos1Pl+Pl: gibingodeenhishinaanag
+     +Px2bingode+Con+Pej+Pos1Pl+Loc: gibingodeenhishinaaning
+     +Px2bingode+Con+Pej+PosPl+Obv: gibingodeenhishiwaaan
+     +Px2bingode+Con+Pej+PosPl+Pl: gibingodeenhishiwaaag
+     +Px2bingode+Con+Pej+PosPl+Loc: gibingodeenhishiwaaing
+     +Px2bingode+Con+Pej+PosObv+Obv: gibingodeenhishinian
+     +Px2bingode+Con+Pej+PosObv+Pl: gibingodeenhishiniag
+     +Px2bingode+Con+Pej+PosObv+Loc: gibingodeenhishiniing
+     +Px3bingode+Dim+Pej+Pos1Pl+Obv: obingodeensishinaanan
+     +Px3bingode+Dim+Pej+Pos1Pl+Pl: obingodeensishinaanag
+     +Px3bingode+Dim+Pej+Pos1Pl+Loc: obingodeensishinaaning
+     +Px3bingode+Dim+Pej+PosPl+Obv: obingodeensishiwaaan
+     +Px3bingode+Dim+Pej+PosPl+Pl: obingodeensishiwaaag
+     +Px3bingode+Dim+Pej+PosPl+Loc: obingodeensishiwaaing
+     +Px3bingode+Dim+Pej+PosObv+Obv: obingodeensishinian
+     +Px3bingode+Dim+Pej+PosObv+Pl: obingodeensishiniag
+     +Px3bingode+Dim+Pej+PosObv+Loc: obingodeensishiniing
+     +Px3bingode+Con+Pej+Pos1Pl+Obv: obingodeenhishinaanan
+     +Px3bingode+Con+Pej+Pos1Pl+Pl: obingodeenhishinaanag
+     +Px3bingode+Con+Pej+Pos1Pl+Loc: obingodeenhishinaaning
+     +Px3bingode+Con+Pej+PosPl+Obv: obingodeenhishiwaaan
+     +Px3bingode+Con+Pej+PosPl+Pl: obingodeenhishiwaaag
+     +Px3bingode+Con+Pej+PosPl+Loc: obingodeenhishiwaaing
+     +Px3bingode+Con+Pej+PosObv+Obv: obingodeenhishinian
+     +Px3bingode+Con+Pej+PosObv+Pl: obingodeenhishiniag
+     +Px3bingode+Con+Pej+PosObv+Loc: obingodeenhishiniing
+     
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     +Px1bingode+Dim+Pej+Pret+Obv: nibingodeensishibanan
+     +Px1bingode+Dim+Pej+Pret+Pl: nibingodeensishibanag
+     +Px1bingode+Dim+Pej+Pret+Loc: nibingodeensishibaning
+     +Px1bingode+Dim+Pej+VocPl+Obv: nibingodeensish***idig, idog***an
+     +Px1bingode+Dim+Pej+VocPl+Pl: nibingodeensish***idig, idog***ag
+     +Px1bingode+Dim+Pej+VocPl+Loc: nibingodeensish***idig, idog***ing
+     +Px1bingode+Con+Pej+Pret+Obv: nibingodeenhishibanan
+     +Px1bingode+Con+Pej+Pret+Pl: nibingodeenhishibanag
+     +Px1bingode+Con+Pej+Pret+Loc: nibingodeenhishibaning
+     +Px1bingode+Con+Pej+VocPl+Obv: nibingodeenhish***idig, idog***an
+     +Px1bingode+Con+Pej+VocPl+Pl: nibingodeenhish***idig, idog***ag
+     +Px1bingode+Con+Pej+VocPl+Loc: nibingodeenhish***idig, idog***ing
+     +Px2bingode+Dim+Pej+Pret+Obv: gibingodeensishibanan
+     +Px2bingode+Dim+Pej+Pret+Pl: gibingodeensishibanag
+     +Px2bingode+Dim+Pej+Pret+Loc: gibingodeensishibaning
+     +Px2bingode+Dim+Pej+VocPl+Obv: gibingodeensish***idig, idog***an
+     +Px2bingode+Dim+Pej+VocPl+Pl: gibingodeensish***idig, idog***ag
+     +Px2bingode+Dim+Pej+VocPl+Loc: gibingodeensish***idig, idog***ing
+     +Px2bingode+Con+Pej+Pret+Obv: gibingodeenhishibanan
+     +Px2bingode+Con+Pej+Pret+Pl: gibingodeenhishibanag
+     +Px2bingode+Con+Pej+Pret+Loc: gibingodeenhishibaning
+     +Px2bingode+Con+Pej+VocPl+Obv: gibingodeenhish***idig, idog***an
+     +Px2bingode+Con+Pej+VocPl+Pl: gibingodeenhish***idig, idog***ag
+     +Px2bingode+Con+Pej+VocPl+Loc: gibingodeenhish***idig, idog***ing
+     +Px3bingode+Dim+Pej+Pret+Obv: obingodeensishibanan
+     +Px3bingode+Dim+Pej+Pret+Pl: obingodeensishibanag
+     +Px3bingode+Dim+Pej+Pret+Loc: obingodeensishibaning
+     +Px3bingode+Dim+Pej+VocPl+Obv: obingodeensish***idig, idog***an
+     +Px3bingode+Dim+Pej+VocPl+Pl: obingodeensish***idig, idog***ag
+     +Px3bingode+Dim+Pej+VocPl+Loc: obingodeensish***idig, idog***ing
+     +Px3bingode+Con+Pej+Pret+Obv: obingodeenhishibanan
+     +Px3bingode+Con+Pej+Pret+Pl: obingodeenhishibanag
+     +Px3bingode+Con+Pej+Pret+Loc: obingodeenhishibaning
+     +Px3bingode+Con+Pej+VocPl+Obv: obingodeenhish***idig, idog***an
+     +Px3bingode+Con+Pej+VocPl+Pl: obingodeenhish***idig, idog***ag
+     +Px3bingode+Con+Pej+VocPl+Loc: obingodeenhish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     +Px1bingode+Dim+Pos1Pl+Pret+Obv: nibingodeensinaanibanan
+     +Px1bingode+Dim+Pos1Pl+Pret+Pl: nibingodeensinaanibanag
+     +Px1bingode+Dim+Pos1Pl+Pret+Loc: nibingodeensinaanibaning
+     +Px1bingode+Dim+Pos1Pl+VocPl+Obv: nibingodeensinaan***idig, idog***an
+     +Px1bingode+Dim+Pos1Pl+VocPl+Pl: nibingodeensinaan***idig, idog***ag
+     +Px1bingode+Dim+Pos1Pl+VocPl+Loc: nibingodeensinaan***idig, idog***ing
+     +Px1bingode+Dim+PosPl+Pret+Obv: nibingodeensiwaaibanan
+     +Px1bingode+Dim+PosPl+Pret+Pl: nibingodeensiwaaibanag
+     +Px1bingode+Dim+PosPl+Pret+Loc: nibingodeensiwaaibaning
+     +Px1bingode+Dim+PosPl+VocPl+Obv: nibingodeensiwaa***idig, idog***an
+     +Px1bingode+Dim+PosPl+VocPl+Pl: nibingodeensiwaa***idig, idog***ag
+     +Px1bingode+Dim+PosPl+VocPl+Loc: nibingodeensiwaa***idig, idog***ing
+     +Px1bingode+Dim+PosObv+Pret+Obv: nibingodeensiniibanan
+     +Px1bingode+Dim+PosObv+Pret+Pl: nibingodeensiniibanag
+     +Px1bingode+Dim+PosObv+Pret+Loc: nibingodeensiniibaning
+     +Px1bingode+Dim+PosObv+VocPl+Obv: nibingodeensini***idig, idog***an
+     +Px1bingode+Dim+PosObv+VocPl+Pl: nibingodeensini***idig, idog***ag
+     +Px1bingode+Dim+PosObv+VocPl+Loc: nibingodeensini***idig, idog***ing
+     +Px1bingode+Con+Pos1Pl+Pret+Obv: nibingodeenhinaanibanan
+     +Px1bingode+Con+Pos1Pl+Pret+Pl: nibingodeenhinaanibanag
+     +Px1bingode+Con+Pos1Pl+Pret+Loc: nibingodeenhinaanibaning
+     +Px1bingode+Con+Pos1Pl+VocPl+Obv: nibingodeenhinaan***idig, idog***an
+     +Px1bingode+Con+Pos1Pl+VocPl+Pl: nibingodeenhinaan***idig, idog***ag
+     +Px1bingode+Con+Pos1Pl+VocPl+Loc: nibingodeenhinaan***idig, idog***ing
+     +Px1bingode+Con+PosPl+Pret+Obv: nibingodeenhiwaaibanan
+     +Px1bingode+Con+PosPl+Pret+Pl: nibingodeenhiwaaibanag
+     +Px1bingode+Con+PosPl+Pret+Loc: nibingodeenhiwaaibaning
+     +Px1bingode+Con+PosPl+VocPl+Obv: nibingodeenhiwaa***idig, idog***an
+     +Px1bingode+Con+PosPl+VocPl+Pl: nibingodeenhiwaa***idig, idog***ag
+     +Px1bingode+Con+PosPl+VocPl+Loc: nibingodeenhiwaa***idig, idog***ing
+     +Px1bingode+Con+PosObv+Pret+Obv: nibingodeenhiniibanan
+     +Px1bingode+Con+PosObv+Pret+Pl: nibingodeenhiniibanag
+     +Px1bingode+Con+PosObv+Pret+Loc: nibingodeenhiniibaning
+     +Px1bingode+Con+PosObv+VocPl+Obv: nibingodeenhini***idig, idog***an
+     +Px1bingode+Con+PosObv+VocPl+Pl: nibingodeenhini***idig, idog***ag
+     +Px1bingode+Con+PosObv+VocPl+Loc: nibingodeenhini***idig, idog***ing
+     +Px2bingode+Dim+Pos1Pl+Pret+Obv: gibingodeensinaanibanan
+     +Px2bingode+Dim+Pos1Pl+Pret+Pl: gibingodeensinaanibanag
+     +Px2bingode+Dim+Pos1Pl+Pret+Loc: gibingodeensinaanibaning
+     +Px2bingode+Dim+Pos1Pl+VocPl+Obv: gibingodeensinaan***idig, idog***an
+     +Px2bingode+Dim+Pos1Pl+VocPl+Pl: gibingodeensinaan***idig, idog***ag
+     +Px2bingode+Dim+Pos1Pl+VocPl+Loc: gibingodeensinaan***idig, idog***ing
+     +Px2bingode+Dim+PosPl+Pret+Obv: gibingodeensiwaaibanan
+     +Px2bingode+Dim+PosPl+Pret+Pl: gibingodeensiwaaibanag
+     +Px2bingode+Dim+PosPl+Pret+Loc: gibingodeensiwaaibaning
+     +Px2bingode+Dim+PosPl+VocPl+Obv: gibingodeensiwaa***idig, idog***an
+     +Px2bingode+Dim+PosPl+VocPl+Pl: gibingodeensiwaa***idig, idog***ag
+     +Px2bingode+Dim+PosPl+VocPl+Loc: gibingodeensiwaa***idig, idog***ing
+     +Px2bingode+Dim+PosObv+Pret+Obv: gibingodeensiniibanan
+     +Px2bingode+Dim+PosObv+Pret+Pl: gibingodeensiniibanag
+     +Px2bingode+Dim+PosObv+Pret+Loc: gibingodeensiniibaning
+     +Px2bingode+Dim+PosObv+VocPl+Obv: gibingodeensini***idig, idog***an
+     +Px2bingode+Dim+PosObv+VocPl+Pl: gibingodeensini***idig, idog***ag
+     +Px2bingode+Dim+PosObv+VocPl+Loc: gibingodeensini***idig, idog***ing
+     +Px2bingode+Con+Pos1Pl+Pret+Obv: gibingodeenhinaanibanan
+     +Px2bingode+Con+Pos1Pl+Pret+Pl: gibingodeenhinaanibanag
+     +Px2bingode+Con+Pos1Pl+Pret+Loc: gibingodeenhinaanibaning
+     +Px2bingode+Con+Pos1Pl+VocPl+Obv: gibingodeenhinaan***idig, idog***an
+     +Px2bingode+Con+Pos1Pl+VocPl+Pl: gibingodeenhinaan***idig, idog***ag
+     +Px2bingode+Con+Pos1Pl+VocPl+Loc: gibingodeenhinaan***idig, idog***ing
+     +Px2bingode+Con+PosPl+Pret+Obv: gibingodeenhiwaaibanan
+     +Px2bingode+Con+PosPl+Pret+Pl: gibingodeenhiwaaibanag
+     +Px2bingode+Con+PosPl+Pret+Loc: gibingodeenhiwaaibaning
+     +Px2bingode+Con+PosPl+VocPl+Obv: gibingodeenhiwaa***idig, idog***an
+     +Px2bingode+Con+PosPl+VocPl+Pl: gibingodeenhiwaa***idig, idog***ag
+     +Px2bingode+Con+PosPl+VocPl+Loc: gibingodeenhiwaa***idig, idog***ing
+     +Px2bingode+Con+PosObv+Pret+Obv: gibingodeenhiniibanan
+     +Px2bingode+Con+PosObv+Pret+Pl: gibingodeenhiniibanag
+     +Px2bingode+Con+PosObv+Pret+Loc: gibingodeenhiniibaning
+     +Px2bingode+Con+PosObv+VocPl+Obv: gibingodeenhini***idig, idog***an
+     +Px2bingode+Con+PosObv+VocPl+Pl: gibingodeenhini***idig, idog***ag
+     +Px2bingode+Con+PosObv+VocPl+Loc: gibingodeenhini***idig, idog***ing
+     +Px3bingode+Dim+Pos1Pl+Pret+Obv: obingodeensinaanibanan
+     +Px3bingode+Dim+Pos1Pl+Pret+Pl: obingodeensinaanibanag
+     +Px3bingode+Dim+Pos1Pl+Pret+Loc: obingodeensinaanibaning
+     +Px3bingode+Dim+Pos1Pl+VocPl+Obv: obingodeensinaan***idig, idog***an
+     +Px3bingode+Dim+Pos1Pl+VocPl+Pl: obingodeensinaan***idig, idog***ag
+     +Px3bingode+Dim+Pos1Pl+VocPl+Loc: obingodeensinaan***idig, idog***ing
+     +Px3bingode+Dim+PosPl+Pret+Obv: obingodeensiwaaibanan
+     +Px3bingode+Dim+PosPl+Pret+Pl: obingodeensiwaaibanag
+     +Px3bingode+Dim+PosPl+Pret+Loc: obingodeensiwaaibaning
+     +Px3bingode+Dim+PosPl+VocPl+Obv: obingodeensiwaa***idig, idog***an
+     +Px3bingode+Dim+PosPl+VocPl+Pl: obingodeensiwaa***idig, idog***ag
+     +Px3bingode+Dim+PosPl+VocPl+Loc: obingodeensiwaa***idig, idog***ing
+     +Px3bingode+Dim+PosObv+Pret+Obv: obingodeensiniibanan
+     +Px3bingode+Dim+PosObv+Pret+Pl: obingodeensiniibanag
+     +Px3bingode+Dim+PosObv+Pret+Loc: obingodeensiniibaning
+     +Px3bingode+Dim+PosObv+VocPl+Obv: obingodeensini***idig, idog***an
+     +Px3bingode+Dim+PosObv+VocPl+Pl: obingodeensini***idig, idog***ag
+     +Px3bingode+Dim+PosObv+VocPl+Loc: obingodeensini***idig, idog***ing
+     +Px3bingode+Con+Pos1Pl+Pret+Obv: obingodeenhinaanibanan
+     +Px3bingode+Con+Pos1Pl+Pret+Pl: obingodeenhinaanibanag
+     +Px3bingode+Con+Pos1Pl+Pret+Loc: obingodeenhinaanibaning
+     +Px3bingode+Con+Pos1Pl+VocPl+Obv: obingodeenhinaan***idig, idog***an
+     +Px3bingode+Con+Pos1Pl+VocPl+Pl: obingodeenhinaan***idig, idog***ag
+     +Px3bingode+Con+Pos1Pl+VocPl+Loc: obingodeenhinaan***idig, idog***ing
+     +Px3bingode+Con+PosPl+Pret+Obv: obingodeenhiwaaibanan
+     +Px3bingode+Con+PosPl+Pret+Pl: obingodeenhiwaaibanag
+     +Px3bingode+Con+PosPl+Pret+Loc: obingodeenhiwaaibaning
+     +Px3bingode+Con+PosPl+VocPl+Obv: obingodeenhiwaa***idig, idog***an
+     +Px3bingode+Con+PosPl+VocPl+Pl: obingodeenhiwaa***idig, idog***ag
+     +Px3bingode+Con+PosPl+VocPl+Loc: obingodeenhiwaa***idig, idog***ing
+     +Px3bingode+Con+PosObv+Pret+Obv: obingodeenhiniibanan
+     +Px3bingode+Con+PosObv+Pret+Pl: obingodeenhiniibanag
+     +Px3bingode+Con+PosObv+Pret+Loc: obingodeenhiniibaning
+     +Px3bingode+Con+PosObv+VocPl+Obv: obingodeenhini***idig, idog***an
+     +Px3bingode+Con+PosObv+VocPl+Pl: obingodeenhini***idig, idog***ag
+     +Px3bingode+Con+PosObv+VocPl+Loc: obingodeenhini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6
+     +Px1bingode+Pos+Pej+Pos1Pl+Pret: nibingodeimishinaaniban
+     +Px1bingode+Pos+Pej+Pos1Pl+VocPl: nibingodeimishinaan***idig, idog***
+     +Px1bingode+Pos+Pej+PosPl+Pret: nibingodeimishiwaaiban
+     +Px1bingode+Pos+Pej+PosPl+VocPl: nibingodeimishiwaa***idig, idog***
+     +Px1bingode+Pos+Pej+PosObv+Pret: nibingodeimishiniiban
+     +Px1bingode+Pos+Pej+PosObv+VocPl: nibingodeimishini***idig, idog***
+     +Px2bingode+Pos+Pej+Pos1Pl+Pret: gibingodeimishinaaniban
+     +Px2bingode+Pos+Pej+Pos1Pl+VocPl: gibingodeimishinaan***idig, idog***
+     +Px2bingode+Pos+Pej+PosPl+Pret: gibingodeimishiwaaiban
+     +Px2bingode+Pos+Pej+PosPl+VocPl: gibingodeimishiwaa***idig, idog***
+     +Px2bingode+Pos+Pej+PosObv+Pret: gibingodeimishiniiban
+     +Px2bingode+Pos+Pej+PosObv+VocPl: gibingodeimishini***idig, idog***
+     +Px3bingode+Pos+Pej+Pos1Pl+Pret: obingodeimishinaaniban
+     +Px3bingode+Pos+Pej+Pos1Pl+VocPl: obingodeimishinaan***idig, idog***
+     +Px3bingode+Pos+Pej+PosPl+Pret: obingodeimishiwaaiban
+     +Px3bingode+Pos+Pej+PosPl+VocPl: obingodeimishiwaa***idig, idog***
+     +Px3bingode+Pos+Pej+PosObv+Pret: obingodeimishiniiban
+     +Px3bingode+Pos+Pej+PosObv+VocPl: obingodeimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 3, 4, 5, 7
+     +Px1bingode+Pos+Pej+Pos1Pl+Obv: nibingodeimishinaanan
+     +Px1bingode+Pos+Pej+Pos1Pl+Pl: nibingodeimishinaanag
+     +Px1bingode+Pos+Pej+Pos1Pl+Loc: nibingodeimishinaaning
+     +Px1bingode+Pos+Pej+PosPl+Obv: nibingodeimishiwaaan
+     +Px1bingode+Pos+Pej+PosPl+Pl: nibingodeimishiwaaag
+     +Px1bingode+Pos+Pej+PosPl+Loc: nibingodeimishiwaaing
+     +Px1bingode+Pos+Pej+PosObv+Obv: nibingodeimishinian
+     +Px1bingode+Pos+Pej+PosObv+Pl: nibingodeimishiniag
+     +Px1bingode+Pos+Pej+PosObv+Loc: nibingodeimishiniing
+     +Px2bingode+Pos+Pej+Pos1Pl+Obv: gibingodeimishinaanan
+     +Px2bingode+Pos+Pej+Pos1Pl+Pl: gibingodeimishinaanag
+     +Px2bingode+Pos+Pej+Pos1Pl+Loc: gibingodeimishinaaning
+     +Px2bingode+Pos+Pej+PosPl+Obv: gibingodeimishiwaaan
+     +Px2bingode+Pos+Pej+PosPl+Pl: gibingodeimishiwaaag
+     +Px2bingode+Pos+Pej+PosPl+Loc: gibingodeimishiwaaing
+     +Px2bingode+Pos+Pej+PosObv+Obv: gibingodeimishinian
+     +Px2bingode+Pos+Pej+PosObv+Pl: gibingodeimishiniag
+     +Px2bingode+Pos+Pej+PosObv+Loc: gibingodeimishiniing
+     +Px3bingode+Pos+Pej+Pos1Pl+Obv: obingodeimishinaanan
+     +Px3bingode+Pos+Pej+Pos1Pl+Pl: obingodeimishinaanag
+     +Px3bingode+Pos+Pej+Pos1Pl+Loc: obingodeimishinaaning
+     +Px3bingode+Pos+Pej+PosPl+Obv: obingodeimishiwaaan
+     +Px3bingode+Pos+Pej+PosPl+Pl: obingodeimishiwaaag
+     +Px3bingode+Pos+Pej+PosPl+Loc: obingodeimishiwaaing
+     +Px3bingode+Pos+Pej+PosObv+Obv: obingodeimishinian
+     +Px3bingode+Pos+Pej+PosObv+Pl: obingodeimishiniag
+     +Px3bingode+Pos+Pej+PosObv+Loc: obingodeimishiniing
+     
+     #Values from slots numbered: 1, 3, 4, 6, 7
+     +Px1bingode+Pos+Pej+Pret+Obv: nibingodeimishibanan
+     +Px1bingode+Pos+Pej+Pret+Pl: nibingodeimishibanag
+     +Px1bingode+Pos+Pej+Pret+Loc: nibingodeimishibaning
+     +Px1bingode+Pos+Pej+VocPl+Obv: nibingodeimish***idig, idog***an
+     +Px1bingode+Pos+Pej+VocPl+Pl: nibingodeimish***idig, idog***ag
+     +Px1bingode+Pos+Pej+VocPl+Loc: nibingodeimish***idig, idog***ing
+     +Px2bingode+Pos+Pej+Pret+Obv: gibingodeimishibanan
+     +Px2bingode+Pos+Pej+Pret+Pl: gibingodeimishibanag
+     +Px2bingode+Pos+Pej+Pret+Loc: gibingodeimishibaning
+     +Px2bingode+Pos+Pej+VocPl+Obv: gibingodeimish***idig, idog***an
+     +Px2bingode+Pos+Pej+VocPl+Pl: gibingodeimish***idig, idog***ag
+     +Px2bingode+Pos+Pej+VocPl+Loc: gibingodeimish***idig, idog***ing
+     +Px3bingode+Pos+Pej+Pret+Obv: obingodeimishibanan
+     +Px3bingode+Pos+Pej+Pret+Pl: obingodeimishibanag
+     +Px3bingode+Pos+Pej+Pret+Loc: obingodeimishibaning
+     +Px3bingode+Pos+Pej+VocPl+Obv: obingodeimish***idig, idog***an
+     +Px3bingode+Pos+Pej+VocPl+Pl: obingodeimish***idig, idog***ag
+     +Px3bingode+Pos+Pej+VocPl+Loc: obingodeimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 5, 6, 7
+     +Px1bingode+Pos+Pos1Pl+Pret+Obv: nibingodeiminaanibanan
+     +Px1bingode+Pos+Pos1Pl+Pret+Pl: nibingodeiminaanibanag
+     +Px1bingode+Pos+Pos1Pl+Pret+Loc: nibingodeiminaanibaning
+     +Px1bingode+Pos+Pos1Pl+VocPl+Obv: nibingodeiminaan***idig, idog***an
+     +Px1bingode+Pos+Pos1Pl+VocPl+Pl: nibingodeiminaan***idig, idog***ag
+     +Px1bingode+Pos+Pos1Pl+VocPl+Loc: nibingodeiminaan***idig, idog***ing
+     +Px1bingode+Pos+PosPl+Pret+Obv: nibingodeimiwaaibanan
+     +Px1bingode+Pos+PosPl+Pret+Pl: nibingodeimiwaaibanag
+     +Px1bingode+Pos+PosPl+Pret+Loc: nibingodeimiwaaibaning
+     +Px1bingode+Pos+PosPl+VocPl+Obv: nibingodeimiwaa***idig, idog***an
+     +Px1bingode+Pos+PosPl+VocPl+Pl: nibingodeimiwaa***idig, idog***ag
+     +Px1bingode+Pos+PosPl+VocPl+Loc: nibingodeimiwaa***idig, idog***ing
+     +Px1bingode+Pos+PosObv+Pret+Obv: nibingodeiminiibanan
+     +Px1bingode+Pos+PosObv+Pret+Pl: nibingodeiminiibanag
+     +Px1bingode+Pos+PosObv+Pret+Loc: nibingodeiminiibaning
+     +Px1bingode+Pos+PosObv+VocPl+Obv: nibingodeimini***idig, idog***an
+     +Px1bingode+Pos+PosObv+VocPl+Pl: nibingodeimini***idig, idog***ag
+     +Px1bingode+Pos+PosObv+VocPl+Loc: nibingodeimini***idig, idog***ing
+     +Px2bingode+Pos+Pos1Pl+Pret+Obv: gibingodeiminaanibanan
+     +Px2bingode+Pos+Pos1Pl+Pret+Pl: gibingodeiminaanibanag
+     +Px2bingode+Pos+Pos1Pl+Pret+Loc: gibingodeiminaanibaning
+     +Px2bingode+Pos+Pos1Pl+VocPl+Obv: gibingodeiminaan***idig, idog***an
+     +Px2bingode+Pos+Pos1Pl+VocPl+Pl: gibingodeiminaan***idig, idog***ag
+     +Px2bingode+Pos+Pos1Pl+VocPl+Loc: gibingodeiminaan***idig, idog***ing
+     +Px2bingode+Pos+PosPl+Pret+Obv: gibingodeimiwaaibanan
+     +Px2bingode+Pos+PosPl+Pret+Pl: gibingodeimiwaaibanag
+     +Px2bingode+Pos+PosPl+Pret+Loc: gibingodeimiwaaibaning
+     +Px2bingode+Pos+PosPl+VocPl+Obv: gibingodeimiwaa***idig, idog***an
+     +Px2bingode+Pos+PosPl+VocPl+Pl: gibingodeimiwaa***idig, idog***ag
+     +Px2bingode+Pos+PosPl+VocPl+Loc: gibingodeimiwaa***idig, idog***ing
+     +Px2bingode+Pos+PosObv+Pret+Obv: gibingodeiminiibanan
+     +Px2bingode+Pos+PosObv+Pret+Pl: gibingodeiminiibanag
+     +Px2bingode+Pos+PosObv+Pret+Loc: gibingodeiminiibaning
+     +Px2bingode+Pos+PosObv+VocPl+Obv: gibingodeimini***idig, idog***an
+     +Px2bingode+Pos+PosObv+VocPl+Pl: gibingodeimini***idig, idog***ag
+     +Px2bingode+Pos+PosObv+VocPl+Loc: gibingodeimini***idig, idog***ing
+     +Px3bingode+Pos+Pos1Pl+Pret+Obv: obingodeiminaanibanan
+     +Px3bingode+Pos+Pos1Pl+Pret+Pl: obingodeiminaanibanag
+     +Px3bingode+Pos+Pos1Pl+Pret+Loc: obingodeiminaanibaning
+     +Px3bingode+Pos+Pos1Pl+VocPl+Obv: obingodeiminaan***idig, idog***an
+     +Px3bingode+Pos+Pos1Pl+VocPl+Pl: obingodeiminaan***idig, idog***ag
+     +Px3bingode+Pos+Pos1Pl+VocPl+Loc: obingodeiminaan***idig, idog***ing
+     +Px3bingode+Pos+PosPl+Pret+Obv: obingodeimiwaaibanan
+     +Px3bingode+Pos+PosPl+Pret+Pl: obingodeimiwaaibanag
+     +Px3bingode+Pos+PosPl+Pret+Loc: obingodeimiwaaibaning
+     +Px3bingode+Pos+PosPl+VocPl+Obv: obingodeimiwaa***idig, idog***an
+     +Px3bingode+Pos+PosPl+VocPl+Pl: obingodeimiwaa***idig, idog***ag
+     +Px3bingode+Pos+PosPl+VocPl+Loc: obingodeimiwaa***idig, idog***ing
+     +Px3bingode+Pos+PosObv+Pret+Obv: obingodeiminiibanan
+     +Px3bingode+Pos+PosObv+Pret+Pl: obingodeiminiibanag
+     +Px3bingode+Pos+PosObv+Pret+Loc: obingodeiminiibaning
+     +Px3bingode+Pos+PosObv+VocPl+Obv: obingodeimini***idig, idog***an
+     +Px3bingode+Pos+PosObv+VocPl+Pl: obingodeimini***idig, idog***ag
+     +Px3bingode+Pos+PosObv+VocPl+Loc: obingodeimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 4, 5, 6, 7
+     +Px1bingode+Pej+Pos1Pl+Pret+Obv: nibingodeishinaanibanan
+     +Px1bingode+Pej+Pos1Pl+Pret+Pl: nibingodeishinaanibanag
+     +Px1bingode+Pej+Pos1Pl+Pret+Loc: nibingodeishinaanibaning
+     +Px1bingode+Pej+Pos1Pl+VocPl+Obv: nibingodeishinaan***idig, idog***an
+     +Px1bingode+Pej+Pos1Pl+VocPl+Pl: nibingodeishinaan***idig, idog***ag
+     +Px1bingode+Pej+Pos1Pl+VocPl+Loc: nibingodeishinaan***idig, idog***ing
+     +Px1bingode+Pej+PosPl+Pret+Obv: nibingodeishiwaaibanan
+     +Px1bingode+Pej+PosPl+Pret+Pl: nibingodeishiwaaibanag
+     +Px1bingode+Pej+PosPl+Pret+Loc: nibingodeishiwaaibaning
+     +Px1bingode+Pej+PosPl+VocPl+Obv: nibingodeishiwaa***idig, idog***an
+     +Px1bingode+Pej+PosPl+VocPl+Pl: nibingodeishiwaa***idig, idog***ag
+     +Px1bingode+Pej+PosPl+VocPl+Loc: nibingodeishiwaa***idig, idog***ing
+     +Px1bingode+Pej+PosObv+Pret+Obv: nibingodeishiniibanan
+     +Px1bingode+Pej+PosObv+Pret+Pl: nibingodeishiniibanag
+     +Px1bingode+Pej+PosObv+Pret+Loc: nibingodeishiniibaning
+     +Px1bingode+Pej+PosObv+VocPl+Obv: nibingodeishini***idig, idog***an
+     +Px1bingode+Pej+PosObv+VocPl+Pl: nibingodeishini***idig, idog***ag
+     +Px1bingode+Pej+PosObv+VocPl+Loc: nibingodeishini***idig, idog***ing
+     +Px2bingode+Pej+Pos1Pl+Pret+Obv: gibingodeishinaanibanan
+     +Px2bingode+Pej+Pos1Pl+Pret+Pl: gibingodeishinaanibanag
+     +Px2bingode+Pej+Pos1Pl+Pret+Loc: gibingodeishinaanibaning
+     +Px2bingode+Pej+Pos1Pl+VocPl+Obv: gibingodeishinaan***idig, idog***an
+     +Px2bingode+Pej+Pos1Pl+VocPl+Pl: gibingodeishinaan***idig, idog***ag
+     +Px2bingode+Pej+Pos1Pl+VocPl+Loc: gibingodeishinaan***idig, idog***ing
+     +Px2bingode+Pej+PosPl+Pret+Obv: gibingodeishiwaaibanan
+     +Px2bingode+Pej+PosPl+Pret+Pl: gibingodeishiwaaibanag
+     +Px2bingode+Pej+PosPl+Pret+Loc: gibingodeishiwaaibaning
+     +Px2bingode+Pej+PosPl+VocPl+Obv: gibingodeishiwaa***idig, idog***an
+     +Px2bingode+Pej+PosPl+VocPl+Pl: gibingodeishiwaa***idig, idog***ag
+     +Px2bingode+Pej+PosPl+VocPl+Loc: gibingodeishiwaa***idig, idog***ing
+     +Px2bingode+Pej+PosObv+Pret+Obv: gibingodeishiniibanan
+     +Px2bingode+Pej+PosObv+Pret+Pl: gibingodeishiniibanag
+     +Px2bingode+Pej+PosObv+Pret+Loc: gibingodeishiniibaning
+     +Px2bingode+Pej+PosObv+VocPl+Obv: gibingodeishini***idig, idog***an
+     +Px2bingode+Pej+PosObv+VocPl+Pl: gibingodeishini***idig, idog***ag
+     +Px2bingode+Pej+PosObv+VocPl+Loc: gibingodeishini***idig, idog***ing
+     +Px3bingode+Pej+Pos1Pl+Pret+Obv: obingodeishinaanibanan
+     +Px3bingode+Pej+Pos1Pl+Pret+Pl: obingodeishinaanibanag
+     +Px3bingode+Pej+Pos1Pl+Pret+Loc: obingodeishinaanibaning
+     +Px3bingode+Pej+Pos1Pl+VocPl+Obv: obingodeishinaan***idig, idog***an
+     +Px3bingode+Pej+Pos1Pl+VocPl+Pl: obingodeishinaan***idig, idog***ag
+     +Px3bingode+Pej+Pos1Pl+VocPl+Loc: obingodeishinaan***idig, idog***ing
+     +Px3bingode+Pej+PosPl+Pret+Obv: obingodeishiwaaibanan
+     +Px3bingode+Pej+PosPl+Pret+Pl: obingodeishiwaaibanag
+     +Px3bingode+Pej+PosPl+Pret+Loc: obingodeishiwaaibaning
+     +Px3bingode+Pej+PosPl+VocPl+Obv: obingodeishiwaa***idig, idog***an
+     +Px3bingode+Pej+PosPl+VocPl+Pl: obingodeishiwaa***idig, idog***ag
+     +Px3bingode+Pej+PosPl+VocPl+Loc: obingodeishiwaa***idig, idog***ing
+     +Px3bingode+Pej+PosObv+Pret+Obv: obingodeishiniibanan
+     +Px3bingode+Pej+PosObv+Pret+Pl: obingodeishiniibanag
+     +Px3bingode+Pej+PosObv+Pret+Loc: obingodeishiniibaning
+     +Px3bingode+Pej+PosObv+VocPl+Obv: obingodeishini***idig, idog***an
+     +Px3bingode+Pej+PosObv+VocPl+Pl: obingodeishini***idig, idog***ag
+     +Px3bingode+Pej+PosObv+VocPl+Loc: obingodeishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6
+     bingode+Dim+Pos+Pej+Pos1Pl+Pret: bingodeensimishinaaniban
+     bingode+Dim+Pos+Pej+Pos1Pl+VocPl: bingodeensimishinaan***idig, idog***
+     bingode+Dim+Pos+Pej+PosPl+Pret: bingodeensimishiwaaiban
+     bingode+Dim+Pos+Pej+PosPl+VocPl: bingodeensimishiwaa***idig, idog***
+     bingode+Dim+Pos+Pej+PosObv+Pret: bingodeensimishiniiban
+     bingode+Dim+Pos+Pej+PosObv+VocPl: bingodeensimishini***idig, idog***
+     bingode+Con+Pos+Pej+Pos1Pl+Pret: bingodeenhimishinaaniban
+     bingode+Con+Pos+Pej+Pos1Pl+VocPl: bingodeenhimishinaan***idig, idog***
+     bingode+Con+Pos+Pej+PosPl+Pret: bingodeenhimishiwaaiban
+     bingode+Con+Pos+Pej+PosPl+VocPl: bingodeenhimishiwaa***idig, idog***
+     bingode+Con+Pos+Pej+PosObv+Pret: bingodeenhimishiniiban
+     bingode+Con+Pos+Pej+PosObv+VocPl: bingodeenhimishini***idig, idog***
+     
+     #Values from slots numbered: 2, 3, 4, 5, 7
+     bingode+Dim+Pos+Pej+Pos1Pl+Obv: bingodeensimishinaanan
+     bingode+Dim+Pos+Pej+Pos1Pl+Pl: bingodeensimishinaanag
+     bingode+Dim+Pos+Pej+Pos1Pl+Loc: bingodeensimishinaaning
+     bingode+Dim+Pos+Pej+PosPl+Obv: bingodeensimishiwaaan
+     bingode+Dim+Pos+Pej+PosPl+Pl: bingodeensimishiwaaag
+     bingode+Dim+Pos+Pej+PosPl+Loc: bingodeensimishiwaaing
+     bingode+Dim+Pos+Pej+PosObv+Obv: bingodeensimishinian
+     bingode+Dim+Pos+Pej+PosObv+Pl: bingodeensimishiniag
+     bingode+Dim+Pos+Pej+PosObv+Loc: bingodeensimishiniing
+     bingode+Con+Pos+Pej+Pos1Pl+Obv: bingodeenhimishinaanan
+     bingode+Con+Pos+Pej+Pos1Pl+Pl: bingodeenhimishinaanag
+     bingode+Con+Pos+Pej+Pos1Pl+Loc: bingodeenhimishinaaning
+     bingode+Con+Pos+Pej+PosPl+Obv: bingodeenhimishiwaaan
+     bingode+Con+Pos+Pej+PosPl+Pl: bingodeenhimishiwaaag
+     bingode+Con+Pos+Pej+PosPl+Loc: bingodeenhimishiwaaing
+     bingode+Con+Pos+Pej+PosObv+Obv: bingodeenhimishinian
+     bingode+Con+Pos+Pej+PosObv+Pl: bingodeenhimishiniag
+     bingode+Con+Pos+Pej+PosObv+Loc: bingodeenhimishiniing
+     
+     #Values from slots numbered: 2, 3, 4, 6, 7
+     bingode+Dim+Pos+Pej+Pret+Obv: bingodeensimishibanan
+     bingode+Dim+Pos+Pej+Pret+Pl: bingodeensimishibanag
+     bingode+Dim+Pos+Pej+Pret+Loc: bingodeensimishibaning
+     bingode+Dim+Pos+Pej+VocPl+Obv: bingodeensimish***idig, idog***an
+     bingode+Dim+Pos+Pej+VocPl+Pl: bingodeensimish***idig, idog***ag
+     bingode+Dim+Pos+Pej+VocPl+Loc: bingodeensimish***idig, idog***ing
+     bingode+Con+Pos+Pej+Pret+Obv: bingodeenhimishibanan
+     bingode+Con+Pos+Pej+Pret+Pl: bingodeenhimishibanag
+     bingode+Con+Pos+Pej+Pret+Loc: bingodeenhimishibaning
+     bingode+Con+Pos+Pej+VocPl+Obv: bingodeenhimish***idig, idog***an
+     bingode+Con+Pos+Pej+VocPl+Pl: bingodeenhimish***idig, idog***ag
+     bingode+Con+Pos+Pej+VocPl+Loc: bingodeenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 5, 6, 7
+     bingode+Dim+Pos+Pos1Pl+Pret+Obv: bingodeensiminaanibanan
+     bingode+Dim+Pos+Pos1Pl+Pret+Pl: bingodeensiminaanibanag
+     bingode+Dim+Pos+Pos1Pl+Pret+Loc: bingodeensiminaanibaning
+     bingode+Dim+Pos+Pos1Pl+VocPl+Obv: bingodeensiminaan***idig, idog***an
+     bingode+Dim+Pos+Pos1Pl+VocPl+Pl: bingodeensiminaan***idig, idog***ag
+     bingode+Dim+Pos+Pos1Pl+VocPl+Loc: bingodeensiminaan***idig, idog***ing
+     bingode+Dim+Pos+PosPl+Pret+Obv: bingodeensimiwaaibanan
+     bingode+Dim+Pos+PosPl+Pret+Pl: bingodeensimiwaaibanag
+     bingode+Dim+Pos+PosPl+Pret+Loc: bingodeensimiwaaibaning
+     bingode+Dim+Pos+PosPl+VocPl+Obv: bingodeensimiwaa***idig, idog***an
+     bingode+Dim+Pos+PosPl+VocPl+Pl: bingodeensimiwaa***idig, idog***ag
+     bingode+Dim+Pos+PosPl+VocPl+Loc: bingodeensimiwaa***idig, idog***ing
+     bingode+Dim+Pos+PosObv+Pret+Obv: bingodeensiminiibanan
+     bingode+Dim+Pos+PosObv+Pret+Pl: bingodeensiminiibanag
+     bingode+Dim+Pos+PosObv+Pret+Loc: bingodeensiminiibaning
+     bingode+Dim+Pos+PosObv+VocPl+Obv: bingodeensimini***idig, idog***an
+     bingode+Dim+Pos+PosObv+VocPl+Pl: bingodeensimini***idig, idog***ag
+     bingode+Dim+Pos+PosObv+VocPl+Loc: bingodeensimini***idig, idog***ing
+     bingode+Con+Pos+Pos1Pl+Pret+Obv: bingodeenhiminaanibanan
+     bingode+Con+Pos+Pos1Pl+Pret+Pl: bingodeenhiminaanibanag
+     bingode+Con+Pos+Pos1Pl+Pret+Loc: bingodeenhiminaanibaning
+     bingode+Con+Pos+Pos1Pl+VocPl+Obv: bingodeenhiminaan***idig, idog***an
+     bingode+Con+Pos+Pos1Pl+VocPl+Pl: bingodeenhiminaan***idig, idog***ag
+     bingode+Con+Pos+Pos1Pl+VocPl+Loc: bingodeenhiminaan***idig, idog***ing
+     bingode+Con+Pos+PosPl+Pret+Obv: bingodeenhimiwaaibanan
+     bingode+Con+Pos+PosPl+Pret+Pl: bingodeenhimiwaaibanag
+     bingode+Con+Pos+PosPl+Pret+Loc: bingodeenhimiwaaibaning
+     bingode+Con+Pos+PosPl+VocPl+Obv: bingodeenhimiwaa***idig, idog***an
+     bingode+Con+Pos+PosPl+VocPl+Pl: bingodeenhimiwaa***idig, idog***ag
+     bingode+Con+Pos+PosPl+VocPl+Loc: bingodeenhimiwaa***idig, idog***ing
+     bingode+Con+Pos+PosObv+Pret+Obv: bingodeenhiminiibanan
+     bingode+Con+Pos+PosObv+Pret+Pl: bingodeenhiminiibanag
+     bingode+Con+Pos+PosObv+Pret+Loc: bingodeenhiminiibaning
+     bingode+Con+Pos+PosObv+VocPl+Obv: bingodeenhimini***idig, idog***an
+     bingode+Con+Pos+PosObv+VocPl+Pl: bingodeenhimini***idig, idog***ag
+     bingode+Con+Pos+PosObv+VocPl+Loc: bingodeenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 4, 5, 6, 7
+     bingode+Dim+Pej+Pos1Pl+Pret+Obv: bingodeensishinaanibanan
+     bingode+Dim+Pej+Pos1Pl+Pret+Pl: bingodeensishinaanibanag
+     bingode+Dim+Pej+Pos1Pl+Pret+Loc: bingodeensishinaanibaning
+     bingode+Dim+Pej+Pos1Pl+VocPl+Obv: bingodeensishinaan***idig, idog***an
+     bingode+Dim+Pej+Pos1Pl+VocPl+Pl: bingodeensishinaan***idig, idog***ag
+     bingode+Dim+Pej+Pos1Pl+VocPl+Loc: bingodeensishinaan***idig, idog***ing
+     bingode+Dim+Pej+PosPl+Pret+Obv: bingodeensishiwaaibanan
+     bingode+Dim+Pej+PosPl+Pret+Pl: bingodeensishiwaaibanag
+     bingode+Dim+Pej+PosPl+Pret+Loc: bingodeensishiwaaibaning
+     bingode+Dim+Pej+PosPl+VocPl+Obv: bingodeensishiwaa***idig, idog***an
+     bingode+Dim+Pej+PosPl+VocPl+Pl: bingodeensishiwaa***idig, idog***ag
+     bingode+Dim+Pej+PosPl+VocPl+Loc: bingodeensishiwaa***idig, idog***ing
+     bingode+Dim+Pej+PosObv+Pret+Obv: bingodeensishiniibanan
+     bingode+Dim+Pej+PosObv+Pret+Pl: bingodeensishiniibanag
+     bingode+Dim+Pej+PosObv+Pret+Loc: bingodeensishiniibaning
+     bingode+Dim+Pej+PosObv+VocPl+Obv: bingodeensishini***idig, idog***an
+     bingode+Dim+Pej+PosObv+VocPl+Pl: bingodeensishini***idig, idog***ag
+     bingode+Dim+Pej+PosObv+VocPl+Loc: bingodeensishini***idig, idog***ing
+     bingode+Con+Pej+Pos1Pl+Pret+Obv: bingodeenhishinaanibanan
+     bingode+Con+Pej+Pos1Pl+Pret+Pl: bingodeenhishinaanibanag
+     bingode+Con+Pej+Pos1Pl+Pret+Loc: bingodeenhishinaanibaning
+     bingode+Con+Pej+Pos1Pl+VocPl+Obv: bingodeenhishinaan***idig, idog***an
+     bingode+Con+Pej+Pos1Pl+VocPl+Pl: bingodeenhishinaan***idig, idog***ag
+     bingode+Con+Pej+Pos1Pl+VocPl+Loc: bingodeenhishinaan***idig, idog***ing
+     bingode+Con+Pej+PosPl+Pret+Obv: bingodeenhishiwaaibanan
+     bingode+Con+Pej+PosPl+Pret+Pl: bingodeenhishiwaaibanag
+     bingode+Con+Pej+PosPl+Pret+Loc: bingodeenhishiwaaibaning
+     bingode+Con+Pej+PosPl+VocPl+Obv: bingodeenhishiwaa***idig, idog***an
+     bingode+Con+Pej+PosPl+VocPl+Pl: bingodeenhishiwaa***idig, idog***ag
+     bingode+Con+Pej+PosPl+VocPl+Loc: bingodeenhishiwaa***idig, idog***ing
+     bingode+Con+Pej+PosObv+Pret+Obv: bingodeenhishiniibanan
+     bingode+Con+Pej+PosObv+Pret+Pl: bingodeenhishiniibanag
+     bingode+Con+Pej+PosObv+Pret+Loc: bingodeenhishiniibaning
+     bingode+Con+Pej+PosObv+VocPl+Obv: bingodeenhishini***idig, idog***an
+     bingode+Con+Pej+PosObv+VocPl+Pl: bingodeenhishini***idig, idog***ag
+     bingode+Con+Pej+PosObv+VocPl+Loc: bingodeenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 3, 4, 5, 6, 7
+     bingode+Pos+Pej+Pos1Pl+Pret+Obv: bingodeimishinaanibanan
+     bingode+Pos+Pej+Pos1Pl+Pret+Pl: bingodeimishinaanibanag
+     bingode+Pos+Pej+Pos1Pl+Pret+Loc: bingodeimishinaanibaning
+     bingode+Pos+Pej+Pos1Pl+VocPl+Obv: bingodeimishinaan***idig, idog***an
+     bingode+Pos+Pej+Pos1Pl+VocPl+Pl: bingodeimishinaan***idig, idog***ag
+     bingode+Pos+Pej+Pos1Pl+VocPl+Loc: bingodeimishinaan***idig, idog***ing
+     bingode+Pos+Pej+PosPl+Pret+Obv: bingodeimishiwaaibanan
+     bingode+Pos+Pej+PosPl+Pret+Pl: bingodeimishiwaaibanag
+     bingode+Pos+Pej+PosPl+Pret+Loc: bingodeimishiwaaibaning
+     bingode+Pos+Pej+PosPl+VocPl+Obv: bingodeimishiwaa***idig, idog***an
+     bingode+Pos+Pej+PosPl+VocPl+Pl: bingodeimishiwaa***idig, idog***ag
+     bingode+Pos+Pej+PosPl+VocPl+Loc: bingodeimishiwaa***idig, idog***ing
+     bingode+Pos+Pej+PosObv+Pret+Obv: bingodeimishiniibanan
+     bingode+Pos+Pej+PosObv+Pret+Pl: bingodeimishiniibanag
+     bingode+Pos+Pej+PosObv+Pret+Loc: bingodeimishiniibaning
+     bingode+Pos+Pej+PosObv+VocPl+Obv: bingodeimishini***idig, idog***an
+     bingode+Pos+Pej+PosObv+VocPl+Pl: bingodeimishini***idig, idog***ag
+     bingode+Pos+Pej+PosObv+VocPl+Loc: bingodeimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Pret: nibingodeensimishinaaniban
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+VocPl: nibingodeensimishinaan***idig, idog***
+     +Px1bingode+Dim+Pos+Pej+PosPl+Pret: nibingodeensimishiwaaiban
+     +Px1bingode+Dim+Pos+Pej+PosPl+VocPl: nibingodeensimishiwaa***idig, idog***
+     +Px1bingode+Dim+Pos+Pej+PosObv+Pret: nibingodeensimishiniiban
+     +Px1bingode+Dim+Pos+Pej+PosObv+VocPl: nibingodeensimishini***idig, idog***
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Pret: nibingodeenhimishinaaniban
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+VocPl: nibingodeenhimishinaan***idig, idog***
+     +Px1bingode+Con+Pos+Pej+PosPl+Pret: nibingodeenhimishiwaaiban
+     +Px1bingode+Con+Pos+Pej+PosPl+VocPl: nibingodeenhimishiwaa***idig, idog***
+     +Px1bingode+Con+Pos+Pej+PosObv+Pret: nibingodeenhimishiniiban
+     +Px1bingode+Con+Pos+Pej+PosObv+VocPl: nibingodeenhimishini***idig, idog***
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Pret: gibingodeensimishinaaniban
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+VocPl: gibingodeensimishinaan***idig, idog***
+     +Px2bingode+Dim+Pos+Pej+PosPl+Pret: gibingodeensimishiwaaiban
+     +Px2bingode+Dim+Pos+Pej+PosPl+VocPl: gibingodeensimishiwaa***idig, idog***
+     +Px2bingode+Dim+Pos+Pej+PosObv+Pret: gibingodeensimishiniiban
+     +Px2bingode+Dim+Pos+Pej+PosObv+VocPl: gibingodeensimishini***idig, idog***
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Pret: gibingodeenhimishinaaniban
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+VocPl: gibingodeenhimishinaan***idig, idog***
+     +Px2bingode+Con+Pos+Pej+PosPl+Pret: gibingodeenhimishiwaaiban
+     +Px2bingode+Con+Pos+Pej+PosPl+VocPl: gibingodeenhimishiwaa***idig, idog***
+     +Px2bingode+Con+Pos+Pej+PosObv+Pret: gibingodeenhimishiniiban
+     +Px2bingode+Con+Pos+Pej+PosObv+VocPl: gibingodeenhimishini***idig, idog***
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Pret: obingodeensimishinaaniban
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+VocPl: obingodeensimishinaan***idig, idog***
+     +Px3bingode+Dim+Pos+Pej+PosPl+Pret: obingodeensimishiwaaiban
+     +Px3bingode+Dim+Pos+Pej+PosPl+VocPl: obingodeensimishiwaa***idig, idog***
+     +Px3bingode+Dim+Pos+Pej+PosObv+Pret: obingodeensimishiniiban
+     +Px3bingode+Dim+Pos+Pej+PosObv+VocPl: obingodeensimishini***idig, idog***
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Pret: obingodeenhimishinaaniban
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+VocPl: obingodeenhimishinaan***idig, idog***
+     +Px3bingode+Con+Pos+Pej+PosPl+Pret: obingodeenhimishiwaaiban
+     +Px3bingode+Con+Pos+Pej+PosPl+VocPl: obingodeenhimishiwaa***idig, idog***
+     +Px3bingode+Con+Pos+Pej+PosObv+Pret: obingodeenhimishiniiban
+     +Px3bingode+Con+Pos+Pej+PosObv+VocPl: obingodeenhimishini***idig, idog***
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Obv: nibingodeensimishinaanan
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Pl: nibingodeensimishinaanag
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Loc: nibingodeensimishinaaning
+     +Px1bingode+Dim+Pos+Pej+PosPl+Obv: nibingodeensimishiwaaan
+     +Px1bingode+Dim+Pos+Pej+PosPl+Pl: nibingodeensimishiwaaag
+     +Px1bingode+Dim+Pos+Pej+PosPl+Loc: nibingodeensimishiwaaing
+     +Px1bingode+Dim+Pos+Pej+PosObv+Obv: nibingodeensimishinian
+     +Px1bingode+Dim+Pos+Pej+PosObv+Pl: nibingodeensimishiniag
+     +Px1bingode+Dim+Pos+Pej+PosObv+Loc: nibingodeensimishiniing
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Obv: nibingodeenhimishinaanan
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Pl: nibingodeenhimishinaanag
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Loc: nibingodeenhimishinaaning
+     +Px1bingode+Con+Pos+Pej+PosPl+Obv: nibingodeenhimishiwaaan
+     +Px1bingode+Con+Pos+Pej+PosPl+Pl: nibingodeenhimishiwaaag
+     +Px1bingode+Con+Pos+Pej+PosPl+Loc: nibingodeenhimishiwaaing
+     +Px1bingode+Con+Pos+Pej+PosObv+Obv: nibingodeenhimishinian
+     +Px1bingode+Con+Pos+Pej+PosObv+Pl: nibingodeenhimishiniag
+     +Px1bingode+Con+Pos+Pej+PosObv+Loc: nibingodeenhimishiniing
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Obv: gibingodeensimishinaanan
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Pl: gibingodeensimishinaanag
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Loc: gibingodeensimishinaaning
+     +Px2bingode+Dim+Pos+Pej+PosPl+Obv: gibingodeensimishiwaaan
+     +Px2bingode+Dim+Pos+Pej+PosPl+Pl: gibingodeensimishiwaaag
+     +Px2bingode+Dim+Pos+Pej+PosPl+Loc: gibingodeensimishiwaaing
+     +Px2bingode+Dim+Pos+Pej+PosObv+Obv: gibingodeensimishinian
+     +Px2bingode+Dim+Pos+Pej+PosObv+Pl: gibingodeensimishiniag
+     +Px2bingode+Dim+Pos+Pej+PosObv+Loc: gibingodeensimishiniing
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Obv: gibingodeenhimishinaanan
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Pl: gibingodeenhimishinaanag
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Loc: gibingodeenhimishinaaning
+     +Px2bingode+Con+Pos+Pej+PosPl+Obv: gibingodeenhimishiwaaan
+     +Px2bingode+Con+Pos+Pej+PosPl+Pl: gibingodeenhimishiwaaag
+     +Px2bingode+Con+Pos+Pej+PosPl+Loc: gibingodeenhimishiwaaing
+     +Px2bingode+Con+Pos+Pej+PosObv+Obv: gibingodeenhimishinian
+     +Px2bingode+Con+Pos+Pej+PosObv+Pl: gibingodeenhimishiniag
+     +Px2bingode+Con+Pos+Pej+PosObv+Loc: gibingodeenhimishiniing
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Obv: obingodeensimishinaanan
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Pl: obingodeensimishinaanag
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Loc: obingodeensimishinaaning
+     +Px3bingode+Dim+Pos+Pej+PosPl+Obv: obingodeensimishiwaaan
+     +Px3bingode+Dim+Pos+Pej+PosPl+Pl: obingodeensimishiwaaag
+     +Px3bingode+Dim+Pos+Pej+PosPl+Loc: obingodeensimishiwaaing
+     +Px3bingode+Dim+Pos+Pej+PosObv+Obv: obingodeensimishinian
+     +Px3bingode+Dim+Pos+Pej+PosObv+Pl: obingodeensimishiniag
+     +Px3bingode+Dim+Pos+Pej+PosObv+Loc: obingodeensimishiniing
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Obv: obingodeenhimishinaanan
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Pl: obingodeenhimishinaanag
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Loc: obingodeenhimishinaaning
+     +Px3bingode+Con+Pos+Pej+PosPl+Obv: obingodeenhimishiwaaan
+     +Px3bingode+Con+Pos+Pej+PosPl+Pl: obingodeenhimishiwaaag
+     +Px3bingode+Con+Pos+Pej+PosPl+Loc: obingodeenhimishiwaaing
+     +Px3bingode+Con+Pos+Pej+PosObv+Obv: obingodeenhimishinian
+     +Px3bingode+Con+Pos+Pej+PosObv+Pl: obingodeenhimishiniag
+     +Px3bingode+Con+Pos+Pej+PosObv+Loc: obingodeenhimishiniing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     +Px1bingode+Dim+Pos+Pej+Pret+Obv: nibingodeensimishibanan
+     +Px1bingode+Dim+Pos+Pej+Pret+Pl: nibingodeensimishibanag
+     +Px1bingode+Dim+Pos+Pej+Pret+Loc: nibingodeensimishibaning
+     +Px1bingode+Dim+Pos+Pej+VocPl+Obv: nibingodeensimish***idig, idog***an
+     +Px1bingode+Dim+Pos+Pej+VocPl+Pl: nibingodeensimish***idig, idog***ag
+     +Px1bingode+Dim+Pos+Pej+VocPl+Loc: nibingodeensimish***idig, idog***ing
+     +Px1bingode+Con+Pos+Pej+Pret+Obv: nibingodeenhimishibanan
+     +Px1bingode+Con+Pos+Pej+Pret+Pl: nibingodeenhimishibanag
+     +Px1bingode+Con+Pos+Pej+Pret+Loc: nibingodeenhimishibaning
+     +Px1bingode+Con+Pos+Pej+VocPl+Obv: nibingodeenhimish***idig, idog***an
+     +Px1bingode+Con+Pos+Pej+VocPl+Pl: nibingodeenhimish***idig, idog***ag
+     +Px1bingode+Con+Pos+Pej+VocPl+Loc: nibingodeenhimish***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pej+Pret+Obv: gibingodeensimishibanan
+     +Px2bingode+Dim+Pos+Pej+Pret+Pl: gibingodeensimishibanag
+     +Px2bingode+Dim+Pos+Pej+Pret+Loc: gibingodeensimishibaning
+     +Px2bingode+Dim+Pos+Pej+VocPl+Obv: gibingodeensimish***idig, idog***an
+     +Px2bingode+Dim+Pos+Pej+VocPl+Pl: gibingodeensimish***idig, idog***ag
+     +Px2bingode+Dim+Pos+Pej+VocPl+Loc: gibingodeensimish***idig, idog***ing
+     +Px2bingode+Con+Pos+Pej+Pret+Obv: gibingodeenhimishibanan
+     +Px2bingode+Con+Pos+Pej+Pret+Pl: gibingodeenhimishibanag
+     +Px2bingode+Con+Pos+Pej+Pret+Loc: gibingodeenhimishibaning
+     +Px2bingode+Con+Pos+Pej+VocPl+Obv: gibingodeenhimish***idig, idog***an
+     +Px2bingode+Con+Pos+Pej+VocPl+Pl: gibingodeenhimish***idig, idog***ag
+     +Px2bingode+Con+Pos+Pej+VocPl+Loc: gibingodeenhimish***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pej+Pret+Obv: obingodeensimishibanan
+     +Px3bingode+Dim+Pos+Pej+Pret+Pl: obingodeensimishibanag
+     +Px3bingode+Dim+Pos+Pej+Pret+Loc: obingodeensimishibaning
+     +Px3bingode+Dim+Pos+Pej+VocPl+Obv: obingodeensimish***idig, idog***an
+     +Px3bingode+Dim+Pos+Pej+VocPl+Pl: obingodeensimish***idig, idog***ag
+     +Px3bingode+Dim+Pos+Pej+VocPl+Loc: obingodeensimish***idig, idog***ing
+     +Px3bingode+Con+Pos+Pej+Pret+Obv: obingodeenhimishibanan
+     +Px3bingode+Con+Pos+Pej+Pret+Pl: obingodeenhimishibanag
+     +Px3bingode+Con+Pos+Pej+Pret+Loc: obingodeenhimishibaning
+     +Px3bingode+Con+Pos+Pej+VocPl+Obv: obingodeenhimish***idig, idog***an
+     +Px3bingode+Con+Pos+Pej+VocPl+Pl: obingodeenhimish***idig, idog***ag
+     +Px3bingode+Con+Pos+Pej+VocPl+Loc: obingodeenhimish***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     +Px1bingode+Dim+Pos+Pos1Pl+Pret+Obv: nibingodeensiminaanibanan
+     +Px1bingode+Dim+Pos+Pos1Pl+Pret+Pl: nibingodeensiminaanibanag
+     +Px1bingode+Dim+Pos+Pos1Pl+Pret+Loc: nibingodeensiminaanibaning
+     +Px1bingode+Dim+Pos+Pos1Pl+VocPl+Obv: nibingodeensiminaan***idig, idog***an
+     +Px1bingode+Dim+Pos+Pos1Pl+VocPl+Pl: nibingodeensiminaan***idig, idog***ag
+     +Px1bingode+Dim+Pos+Pos1Pl+VocPl+Loc: nibingodeensiminaan***idig, idog***ing
+     +Px1bingode+Dim+Pos+PosPl+Pret+Obv: nibingodeensimiwaaibanan
+     +Px1bingode+Dim+Pos+PosPl+Pret+Pl: nibingodeensimiwaaibanag
+     +Px1bingode+Dim+Pos+PosPl+Pret+Loc: nibingodeensimiwaaibaning
+     +Px1bingode+Dim+Pos+PosPl+VocPl+Obv: nibingodeensimiwaa***idig, idog***an
+     +Px1bingode+Dim+Pos+PosPl+VocPl+Pl: nibingodeensimiwaa***idig, idog***ag
+     +Px1bingode+Dim+Pos+PosPl+VocPl+Loc: nibingodeensimiwaa***idig, idog***ing
+     +Px1bingode+Dim+Pos+PosObv+Pret+Obv: nibingodeensiminiibanan
+     +Px1bingode+Dim+Pos+PosObv+Pret+Pl: nibingodeensiminiibanag
+     +Px1bingode+Dim+Pos+PosObv+Pret+Loc: nibingodeensiminiibaning
+     +Px1bingode+Dim+Pos+PosObv+VocPl+Obv: nibingodeensimini***idig, idog***an
+     +Px1bingode+Dim+Pos+PosObv+VocPl+Pl: nibingodeensimini***idig, idog***ag
+     +Px1bingode+Dim+Pos+PosObv+VocPl+Loc: nibingodeensimini***idig, idog***ing
+     +Px1bingode+Con+Pos+Pos1Pl+Pret+Obv: nibingodeenhiminaanibanan
+     +Px1bingode+Con+Pos+Pos1Pl+Pret+Pl: nibingodeenhiminaanibanag
+     +Px1bingode+Con+Pos+Pos1Pl+Pret+Loc: nibingodeenhiminaanibaning
+     +Px1bingode+Con+Pos+Pos1Pl+VocPl+Obv: nibingodeenhiminaan***idig, idog***an
+     +Px1bingode+Con+Pos+Pos1Pl+VocPl+Pl: nibingodeenhiminaan***idig, idog***ag
+     +Px1bingode+Con+Pos+Pos1Pl+VocPl+Loc: nibingodeenhiminaan***idig, idog***ing
+     +Px1bingode+Con+Pos+PosPl+Pret+Obv: nibingodeenhimiwaaibanan
+     +Px1bingode+Con+Pos+PosPl+Pret+Pl: nibingodeenhimiwaaibanag
+     +Px1bingode+Con+Pos+PosPl+Pret+Loc: nibingodeenhimiwaaibaning
+     +Px1bingode+Con+Pos+PosPl+VocPl+Obv: nibingodeenhimiwaa***idig, idog***an
+     +Px1bingode+Con+Pos+PosPl+VocPl+Pl: nibingodeenhimiwaa***idig, idog***ag
+     +Px1bingode+Con+Pos+PosPl+VocPl+Loc: nibingodeenhimiwaa***idig, idog***ing
+     +Px1bingode+Con+Pos+PosObv+Pret+Obv: nibingodeenhiminiibanan
+     +Px1bingode+Con+Pos+PosObv+Pret+Pl: nibingodeenhiminiibanag
+     +Px1bingode+Con+Pos+PosObv+Pret+Loc: nibingodeenhiminiibaning
+     +Px1bingode+Con+Pos+PosObv+VocPl+Obv: nibingodeenhimini***idig, idog***an
+     +Px1bingode+Con+Pos+PosObv+VocPl+Pl: nibingodeenhimini***idig, idog***ag
+     +Px1bingode+Con+Pos+PosObv+VocPl+Loc: nibingodeenhimini***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pos1Pl+Pret+Obv: gibingodeensiminaanibanan
+     +Px2bingode+Dim+Pos+Pos1Pl+Pret+Pl: gibingodeensiminaanibanag
+     +Px2bingode+Dim+Pos+Pos1Pl+Pret+Loc: gibingodeensiminaanibaning
+     +Px2bingode+Dim+Pos+Pos1Pl+VocPl+Obv: gibingodeensiminaan***idig, idog***an
+     +Px2bingode+Dim+Pos+Pos1Pl+VocPl+Pl: gibingodeensiminaan***idig, idog***ag
+     +Px2bingode+Dim+Pos+Pos1Pl+VocPl+Loc: gibingodeensiminaan***idig, idog***ing
+     +Px2bingode+Dim+Pos+PosPl+Pret+Obv: gibingodeensimiwaaibanan
+     +Px2bingode+Dim+Pos+PosPl+Pret+Pl: gibingodeensimiwaaibanag
+     +Px2bingode+Dim+Pos+PosPl+Pret+Loc: gibingodeensimiwaaibaning
+     +Px2bingode+Dim+Pos+PosPl+VocPl+Obv: gibingodeensimiwaa***idig, idog***an
+     +Px2bingode+Dim+Pos+PosPl+VocPl+Pl: gibingodeensimiwaa***idig, idog***ag
+     +Px2bingode+Dim+Pos+PosPl+VocPl+Loc: gibingodeensimiwaa***idig, idog***ing
+     +Px2bingode+Dim+Pos+PosObv+Pret+Obv: gibingodeensiminiibanan
+     +Px2bingode+Dim+Pos+PosObv+Pret+Pl: gibingodeensiminiibanag
+     +Px2bingode+Dim+Pos+PosObv+Pret+Loc: gibingodeensiminiibaning
+     +Px2bingode+Dim+Pos+PosObv+VocPl+Obv: gibingodeensimini***idig, idog***an
+     +Px2bingode+Dim+Pos+PosObv+VocPl+Pl: gibingodeensimini***idig, idog***ag
+     +Px2bingode+Dim+Pos+PosObv+VocPl+Loc: gibingodeensimini***idig, idog***ing
+     +Px2bingode+Con+Pos+Pos1Pl+Pret+Obv: gibingodeenhiminaanibanan
+     +Px2bingode+Con+Pos+Pos1Pl+Pret+Pl: gibingodeenhiminaanibanag
+     +Px2bingode+Con+Pos+Pos1Pl+Pret+Loc: gibingodeenhiminaanibaning
+     +Px2bingode+Con+Pos+Pos1Pl+VocPl+Obv: gibingodeenhiminaan***idig, idog***an
+     +Px2bingode+Con+Pos+Pos1Pl+VocPl+Pl: gibingodeenhiminaan***idig, idog***ag
+     +Px2bingode+Con+Pos+Pos1Pl+VocPl+Loc: gibingodeenhiminaan***idig, idog***ing
+     +Px2bingode+Con+Pos+PosPl+Pret+Obv: gibingodeenhimiwaaibanan
+     +Px2bingode+Con+Pos+PosPl+Pret+Pl: gibingodeenhimiwaaibanag
+     +Px2bingode+Con+Pos+PosPl+Pret+Loc: gibingodeenhimiwaaibaning
+     +Px2bingode+Con+Pos+PosPl+VocPl+Obv: gibingodeenhimiwaa***idig, idog***an
+     +Px2bingode+Con+Pos+PosPl+VocPl+Pl: gibingodeenhimiwaa***idig, idog***ag
+     +Px2bingode+Con+Pos+PosPl+VocPl+Loc: gibingodeenhimiwaa***idig, idog***ing
+     +Px2bingode+Con+Pos+PosObv+Pret+Obv: gibingodeenhiminiibanan
+     +Px2bingode+Con+Pos+PosObv+Pret+Pl: gibingodeenhiminiibanag
+     +Px2bingode+Con+Pos+PosObv+Pret+Loc: gibingodeenhiminiibaning
+     +Px2bingode+Con+Pos+PosObv+VocPl+Obv: gibingodeenhimini***idig, idog***an
+     +Px2bingode+Con+Pos+PosObv+VocPl+Pl: gibingodeenhimini***idig, idog***ag
+     +Px2bingode+Con+Pos+PosObv+VocPl+Loc: gibingodeenhimini***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pos1Pl+Pret+Obv: obingodeensiminaanibanan
+     +Px3bingode+Dim+Pos+Pos1Pl+Pret+Pl: obingodeensiminaanibanag
+     +Px3bingode+Dim+Pos+Pos1Pl+Pret+Loc: obingodeensiminaanibaning
+     +Px3bingode+Dim+Pos+Pos1Pl+VocPl+Obv: obingodeensiminaan***idig, idog***an
+     +Px3bingode+Dim+Pos+Pos1Pl+VocPl+Pl: obingodeensiminaan***idig, idog***ag
+     +Px3bingode+Dim+Pos+Pos1Pl+VocPl+Loc: obingodeensiminaan***idig, idog***ing
+     +Px3bingode+Dim+Pos+PosPl+Pret+Obv: obingodeensimiwaaibanan
+     +Px3bingode+Dim+Pos+PosPl+Pret+Pl: obingodeensimiwaaibanag
+     +Px3bingode+Dim+Pos+PosPl+Pret+Loc: obingodeensimiwaaibaning
+     +Px3bingode+Dim+Pos+PosPl+VocPl+Obv: obingodeensimiwaa***idig, idog***an
+     +Px3bingode+Dim+Pos+PosPl+VocPl+Pl: obingodeensimiwaa***idig, idog***ag
+     +Px3bingode+Dim+Pos+PosPl+VocPl+Loc: obingodeensimiwaa***idig, idog***ing
+     +Px3bingode+Dim+Pos+PosObv+Pret+Obv: obingodeensiminiibanan
+     +Px3bingode+Dim+Pos+PosObv+Pret+Pl: obingodeensiminiibanag
+     +Px3bingode+Dim+Pos+PosObv+Pret+Loc: obingodeensiminiibaning
+     +Px3bingode+Dim+Pos+PosObv+VocPl+Obv: obingodeensimini***idig, idog***an
+     +Px3bingode+Dim+Pos+PosObv+VocPl+Pl: obingodeensimini***idig, idog***ag
+     +Px3bingode+Dim+Pos+PosObv+VocPl+Loc: obingodeensimini***idig, idog***ing
+     +Px3bingode+Con+Pos+Pos1Pl+Pret+Obv: obingodeenhiminaanibanan
+     +Px3bingode+Con+Pos+Pos1Pl+Pret+Pl: obingodeenhiminaanibanag
+     +Px3bingode+Con+Pos+Pos1Pl+Pret+Loc: obingodeenhiminaanibaning
+     +Px3bingode+Con+Pos+Pos1Pl+VocPl+Obv: obingodeenhiminaan***idig, idog***an
+     +Px3bingode+Con+Pos+Pos1Pl+VocPl+Pl: obingodeenhiminaan***idig, idog***ag
+     +Px3bingode+Con+Pos+Pos1Pl+VocPl+Loc: obingodeenhiminaan***idig, idog***ing
+     +Px3bingode+Con+Pos+PosPl+Pret+Obv: obingodeenhimiwaaibanan
+     +Px3bingode+Con+Pos+PosPl+Pret+Pl: obingodeenhimiwaaibanag
+     +Px3bingode+Con+Pos+PosPl+Pret+Loc: obingodeenhimiwaaibaning
+     +Px3bingode+Con+Pos+PosPl+VocPl+Obv: obingodeenhimiwaa***idig, idog***an
+     +Px3bingode+Con+Pos+PosPl+VocPl+Pl: obingodeenhimiwaa***idig, idog***ag
+     +Px3bingode+Con+Pos+PosPl+VocPl+Loc: obingodeenhimiwaa***idig, idog***ing
+     +Px3bingode+Con+Pos+PosObv+Pret+Obv: obingodeenhiminiibanan
+     +Px3bingode+Con+Pos+PosObv+Pret+Pl: obingodeenhiminiibanag
+     +Px3bingode+Con+Pos+PosObv+Pret+Loc: obingodeenhiminiibaning
+     +Px3bingode+Con+Pos+PosObv+VocPl+Obv: obingodeenhimini***idig, idog***an
+     +Px3bingode+Con+Pos+PosObv+VocPl+Pl: obingodeenhimini***idig, idog***ag
+     +Px3bingode+Con+Pos+PosObv+VocPl+Loc: obingodeenhimini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     +Px1bingode+Dim+Pej+Pos1Pl+Pret+Obv: nibingodeensishinaanibanan
+     +Px1bingode+Dim+Pej+Pos1Pl+Pret+Pl: nibingodeensishinaanibanag
+     +Px1bingode+Dim+Pej+Pos1Pl+Pret+Loc: nibingodeensishinaanibaning
+     +Px1bingode+Dim+Pej+Pos1Pl+VocPl+Obv: nibingodeensishinaan***idig, idog***an
+     +Px1bingode+Dim+Pej+Pos1Pl+VocPl+Pl: nibingodeensishinaan***idig, idog***ag
+     +Px1bingode+Dim+Pej+Pos1Pl+VocPl+Loc: nibingodeensishinaan***idig, idog***ing
+     +Px1bingode+Dim+Pej+PosPl+Pret+Obv: nibingodeensishiwaaibanan
+     +Px1bingode+Dim+Pej+PosPl+Pret+Pl: nibingodeensishiwaaibanag
+     +Px1bingode+Dim+Pej+PosPl+Pret+Loc: nibingodeensishiwaaibaning
+     +Px1bingode+Dim+Pej+PosPl+VocPl+Obv: nibingodeensishiwaa***idig, idog***an
+     +Px1bingode+Dim+Pej+PosPl+VocPl+Pl: nibingodeensishiwaa***idig, idog***ag
+     +Px1bingode+Dim+Pej+PosPl+VocPl+Loc: nibingodeensishiwaa***idig, idog***ing
+     +Px1bingode+Dim+Pej+PosObv+Pret+Obv: nibingodeensishiniibanan
+     +Px1bingode+Dim+Pej+PosObv+Pret+Pl: nibingodeensishiniibanag
+     +Px1bingode+Dim+Pej+PosObv+Pret+Loc: nibingodeensishiniibaning
+     +Px1bingode+Dim+Pej+PosObv+VocPl+Obv: nibingodeensishini***idig, idog***an
+     +Px1bingode+Dim+Pej+PosObv+VocPl+Pl: nibingodeensishini***idig, idog***ag
+     +Px1bingode+Dim+Pej+PosObv+VocPl+Loc: nibingodeensishini***idig, idog***ing
+     +Px1bingode+Con+Pej+Pos1Pl+Pret+Obv: nibingodeenhishinaanibanan
+     +Px1bingode+Con+Pej+Pos1Pl+Pret+Pl: nibingodeenhishinaanibanag
+     +Px1bingode+Con+Pej+Pos1Pl+Pret+Loc: nibingodeenhishinaanibaning
+     +Px1bingode+Con+Pej+Pos1Pl+VocPl+Obv: nibingodeenhishinaan***idig, idog***an
+     +Px1bingode+Con+Pej+Pos1Pl+VocPl+Pl: nibingodeenhishinaan***idig, idog***ag
+     +Px1bingode+Con+Pej+Pos1Pl+VocPl+Loc: nibingodeenhishinaan***idig, idog***ing
+     +Px1bingode+Con+Pej+PosPl+Pret+Obv: nibingodeenhishiwaaibanan
+     +Px1bingode+Con+Pej+PosPl+Pret+Pl: nibingodeenhishiwaaibanag
+     +Px1bingode+Con+Pej+PosPl+Pret+Loc: nibingodeenhishiwaaibaning
+     +Px1bingode+Con+Pej+PosPl+VocPl+Obv: nibingodeenhishiwaa***idig, idog***an
+     +Px1bingode+Con+Pej+PosPl+VocPl+Pl: nibingodeenhishiwaa***idig, idog***ag
+     +Px1bingode+Con+Pej+PosPl+VocPl+Loc: nibingodeenhishiwaa***idig, idog***ing
+     +Px1bingode+Con+Pej+PosObv+Pret+Obv: nibingodeenhishiniibanan
+     +Px1bingode+Con+Pej+PosObv+Pret+Pl: nibingodeenhishiniibanag
+     +Px1bingode+Con+Pej+PosObv+Pret+Loc: nibingodeenhishiniibaning
+     +Px1bingode+Con+Pej+PosObv+VocPl+Obv: nibingodeenhishini***idig, idog***an
+     +Px1bingode+Con+Pej+PosObv+VocPl+Pl: nibingodeenhishini***idig, idog***ag
+     +Px1bingode+Con+Pej+PosObv+VocPl+Loc: nibingodeenhishini***idig, idog***ing
+     +Px2bingode+Dim+Pej+Pos1Pl+Pret+Obv: gibingodeensishinaanibanan
+     +Px2bingode+Dim+Pej+Pos1Pl+Pret+Pl: gibingodeensishinaanibanag
+     +Px2bingode+Dim+Pej+Pos1Pl+Pret+Loc: gibingodeensishinaanibaning
+     +Px2bingode+Dim+Pej+Pos1Pl+VocPl+Obv: gibingodeensishinaan***idig, idog***an
+     +Px2bingode+Dim+Pej+Pos1Pl+VocPl+Pl: gibingodeensishinaan***idig, idog***ag
+     +Px2bingode+Dim+Pej+Pos1Pl+VocPl+Loc: gibingodeensishinaan***idig, idog***ing
+     +Px2bingode+Dim+Pej+PosPl+Pret+Obv: gibingodeensishiwaaibanan
+     +Px2bingode+Dim+Pej+PosPl+Pret+Pl: gibingodeensishiwaaibanag
+     +Px2bingode+Dim+Pej+PosPl+Pret+Loc: gibingodeensishiwaaibaning
+     +Px2bingode+Dim+Pej+PosPl+VocPl+Obv: gibingodeensishiwaa***idig, idog***an
+     +Px2bingode+Dim+Pej+PosPl+VocPl+Pl: gibingodeensishiwaa***idig, idog***ag
+     +Px2bingode+Dim+Pej+PosPl+VocPl+Loc: gibingodeensishiwaa***idig, idog***ing
+     +Px2bingode+Dim+Pej+PosObv+Pret+Obv: gibingodeensishiniibanan
+     +Px2bingode+Dim+Pej+PosObv+Pret+Pl: gibingodeensishiniibanag
+     +Px2bingode+Dim+Pej+PosObv+Pret+Loc: gibingodeensishiniibaning
+     +Px2bingode+Dim+Pej+PosObv+VocPl+Obv: gibingodeensishini***idig, idog***an
+     +Px2bingode+Dim+Pej+PosObv+VocPl+Pl: gibingodeensishini***idig, idog***ag
+     +Px2bingode+Dim+Pej+PosObv+VocPl+Loc: gibingodeensishini***idig, idog***ing
+     +Px2bingode+Con+Pej+Pos1Pl+Pret+Obv: gibingodeenhishinaanibanan
+     +Px2bingode+Con+Pej+Pos1Pl+Pret+Pl: gibingodeenhishinaanibanag
+     +Px2bingode+Con+Pej+Pos1Pl+Pret+Loc: gibingodeenhishinaanibaning
+     +Px2bingode+Con+Pej+Pos1Pl+VocPl+Obv: gibingodeenhishinaan***idig, idog***an
+     +Px2bingode+Con+Pej+Pos1Pl+VocPl+Pl: gibingodeenhishinaan***idig, idog***ag
+     +Px2bingode+Con+Pej+Pos1Pl+VocPl+Loc: gibingodeenhishinaan***idig, idog***ing
+     +Px2bingode+Con+Pej+PosPl+Pret+Obv: gibingodeenhishiwaaibanan
+     +Px2bingode+Con+Pej+PosPl+Pret+Pl: gibingodeenhishiwaaibanag
+     +Px2bingode+Con+Pej+PosPl+Pret+Loc: gibingodeenhishiwaaibaning
+     +Px2bingode+Con+Pej+PosPl+VocPl+Obv: gibingodeenhishiwaa***idig, idog***an
+     +Px2bingode+Con+Pej+PosPl+VocPl+Pl: gibingodeenhishiwaa***idig, idog***ag
+     +Px2bingode+Con+Pej+PosPl+VocPl+Loc: gibingodeenhishiwaa***idig, idog***ing
+     +Px2bingode+Con+Pej+PosObv+Pret+Obv: gibingodeenhishiniibanan
+     +Px2bingode+Con+Pej+PosObv+Pret+Pl: gibingodeenhishiniibanag
+     +Px2bingode+Con+Pej+PosObv+Pret+Loc: gibingodeenhishiniibaning
+     +Px2bingode+Con+Pej+PosObv+VocPl+Obv: gibingodeenhishini***idig, idog***an
+     +Px2bingode+Con+Pej+PosObv+VocPl+Pl: gibingodeenhishini***idig, idog***ag
+     +Px2bingode+Con+Pej+PosObv+VocPl+Loc: gibingodeenhishini***idig, idog***ing
+     +Px3bingode+Dim+Pej+Pos1Pl+Pret+Obv: obingodeensishinaanibanan
+     +Px3bingode+Dim+Pej+Pos1Pl+Pret+Pl: obingodeensishinaanibanag
+     +Px3bingode+Dim+Pej+Pos1Pl+Pret+Loc: obingodeensishinaanibaning
+     +Px3bingode+Dim+Pej+Pos1Pl+VocPl+Obv: obingodeensishinaan***idig, idog***an
+     +Px3bingode+Dim+Pej+Pos1Pl+VocPl+Pl: obingodeensishinaan***idig, idog***ag
+     +Px3bingode+Dim+Pej+Pos1Pl+VocPl+Loc: obingodeensishinaan***idig, idog***ing
+     +Px3bingode+Dim+Pej+PosPl+Pret+Obv: obingodeensishiwaaibanan
+     +Px3bingode+Dim+Pej+PosPl+Pret+Pl: obingodeensishiwaaibanag
+     +Px3bingode+Dim+Pej+PosPl+Pret+Loc: obingodeensishiwaaibaning
+     +Px3bingode+Dim+Pej+PosPl+VocPl+Obv: obingodeensishiwaa***idig, idog***an
+     +Px3bingode+Dim+Pej+PosPl+VocPl+Pl: obingodeensishiwaa***idig, idog***ag
+     +Px3bingode+Dim+Pej+PosPl+VocPl+Loc: obingodeensishiwaa***idig, idog***ing
+     +Px3bingode+Dim+Pej+PosObv+Pret+Obv: obingodeensishiniibanan
+     +Px3bingode+Dim+Pej+PosObv+Pret+Pl: obingodeensishiniibanag
+     +Px3bingode+Dim+Pej+PosObv+Pret+Loc: obingodeensishiniibaning
+     +Px3bingode+Dim+Pej+PosObv+VocPl+Obv: obingodeensishini***idig, idog***an
+     +Px3bingode+Dim+Pej+PosObv+VocPl+Pl: obingodeensishini***idig, idog***ag
+     +Px3bingode+Dim+Pej+PosObv+VocPl+Loc: obingodeensishini***idig, idog***ing
+     +Px3bingode+Con+Pej+Pos1Pl+Pret+Obv: obingodeenhishinaanibanan
+     +Px3bingode+Con+Pej+Pos1Pl+Pret+Pl: obingodeenhishinaanibanag
+     +Px3bingode+Con+Pej+Pos1Pl+Pret+Loc: obingodeenhishinaanibaning
+     +Px3bingode+Con+Pej+Pos1Pl+VocPl+Obv: obingodeenhishinaan***idig, idog***an
+     +Px3bingode+Con+Pej+Pos1Pl+VocPl+Pl: obingodeenhishinaan***idig, idog***ag
+     +Px3bingode+Con+Pej+Pos1Pl+VocPl+Loc: obingodeenhishinaan***idig, idog***ing
+     +Px3bingode+Con+Pej+PosPl+Pret+Obv: obingodeenhishiwaaibanan
+     +Px3bingode+Con+Pej+PosPl+Pret+Pl: obingodeenhishiwaaibanag
+     +Px3bingode+Con+Pej+PosPl+Pret+Loc: obingodeenhishiwaaibaning
+     +Px3bingode+Con+Pej+PosPl+VocPl+Obv: obingodeenhishiwaa***idig, idog***an
+     +Px3bingode+Con+Pej+PosPl+VocPl+Pl: obingodeenhishiwaa***idig, idog***ag
+     +Px3bingode+Con+Pej+PosPl+VocPl+Loc: obingodeenhishiwaa***idig, idog***ing
+     +Px3bingode+Con+Pej+PosObv+Pret+Obv: obingodeenhishiniibanan
+     +Px3bingode+Con+Pej+PosObv+Pret+Pl: obingodeenhishiniibanag
+     +Px3bingode+Con+Pej+PosObv+Pret+Loc: obingodeenhishiniibaning
+     +Px3bingode+Con+Pej+PosObv+VocPl+Obv: obingodeenhishini***idig, idog***an
+     +Px3bingode+Con+Pej+PosObv+VocPl+Pl: obingodeenhishini***idig, idog***ag
+     +Px3bingode+Con+Pej+PosObv+VocPl+Loc: obingodeenhishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     +Px1bingode+Pos+Pej+Pos1Pl+Pret+Obv: nibingodeimishinaanibanan
+     +Px1bingode+Pos+Pej+Pos1Pl+Pret+Pl: nibingodeimishinaanibanag
+     +Px1bingode+Pos+Pej+Pos1Pl+Pret+Loc: nibingodeimishinaanibaning
+     +Px1bingode+Pos+Pej+Pos1Pl+VocPl+Obv: nibingodeimishinaan***idig, idog***an
+     +Px1bingode+Pos+Pej+Pos1Pl+VocPl+Pl: nibingodeimishinaan***idig, idog***ag
+     +Px1bingode+Pos+Pej+Pos1Pl+VocPl+Loc: nibingodeimishinaan***idig, idog***ing
+     +Px1bingode+Pos+Pej+PosPl+Pret+Obv: nibingodeimishiwaaibanan
+     +Px1bingode+Pos+Pej+PosPl+Pret+Pl: nibingodeimishiwaaibanag
+     +Px1bingode+Pos+Pej+PosPl+Pret+Loc: nibingodeimishiwaaibaning
+     +Px1bingode+Pos+Pej+PosPl+VocPl+Obv: nibingodeimishiwaa***idig, idog***an
+     +Px1bingode+Pos+Pej+PosPl+VocPl+Pl: nibingodeimishiwaa***idig, idog***ag
+     +Px1bingode+Pos+Pej+PosPl+VocPl+Loc: nibingodeimishiwaa***idig, idog***ing
+     +Px1bingode+Pos+Pej+PosObv+Pret+Obv: nibingodeimishiniibanan
+     +Px1bingode+Pos+Pej+PosObv+Pret+Pl: nibingodeimishiniibanag
+     +Px1bingode+Pos+Pej+PosObv+Pret+Loc: nibingodeimishiniibaning
+     +Px1bingode+Pos+Pej+PosObv+VocPl+Obv: nibingodeimishini***idig, idog***an
+     +Px1bingode+Pos+Pej+PosObv+VocPl+Pl: nibingodeimishini***idig, idog***ag
+     +Px1bingode+Pos+Pej+PosObv+VocPl+Loc: nibingodeimishini***idig, idog***ing
+     +Px2bingode+Pos+Pej+Pos1Pl+Pret+Obv: gibingodeimishinaanibanan
+     +Px2bingode+Pos+Pej+Pos1Pl+Pret+Pl: gibingodeimishinaanibanag
+     +Px2bingode+Pos+Pej+Pos1Pl+Pret+Loc: gibingodeimishinaanibaning
+     +Px2bingode+Pos+Pej+Pos1Pl+VocPl+Obv: gibingodeimishinaan***idig, idog***an
+     +Px2bingode+Pos+Pej+Pos1Pl+VocPl+Pl: gibingodeimishinaan***idig, idog***ag
+     +Px2bingode+Pos+Pej+Pos1Pl+VocPl+Loc: gibingodeimishinaan***idig, idog***ing
+     +Px2bingode+Pos+Pej+PosPl+Pret+Obv: gibingodeimishiwaaibanan
+     +Px2bingode+Pos+Pej+PosPl+Pret+Pl: gibingodeimishiwaaibanag
+     +Px2bingode+Pos+Pej+PosPl+Pret+Loc: gibingodeimishiwaaibaning
+     +Px2bingode+Pos+Pej+PosPl+VocPl+Obv: gibingodeimishiwaa***idig, idog***an
+     +Px2bingode+Pos+Pej+PosPl+VocPl+Pl: gibingodeimishiwaa***idig, idog***ag
+     +Px2bingode+Pos+Pej+PosPl+VocPl+Loc: gibingodeimishiwaa***idig, idog***ing
+     +Px2bingode+Pos+Pej+PosObv+Pret+Obv: gibingodeimishiniibanan
+     +Px2bingode+Pos+Pej+PosObv+Pret+Pl: gibingodeimishiniibanag
+     +Px2bingode+Pos+Pej+PosObv+Pret+Loc: gibingodeimishiniibaning
+     +Px2bingode+Pos+Pej+PosObv+VocPl+Obv: gibingodeimishini***idig, idog***an
+     +Px2bingode+Pos+Pej+PosObv+VocPl+Pl: gibingodeimishini***idig, idog***ag
+     +Px2bingode+Pos+Pej+PosObv+VocPl+Loc: gibingodeimishini***idig, idog***ing
+     +Px3bingode+Pos+Pej+Pos1Pl+Pret+Obv: obingodeimishinaanibanan
+     +Px3bingode+Pos+Pej+Pos1Pl+Pret+Pl: obingodeimishinaanibanag
+     +Px3bingode+Pos+Pej+Pos1Pl+Pret+Loc: obingodeimishinaanibaning
+     +Px3bingode+Pos+Pej+Pos1Pl+VocPl+Obv: obingodeimishinaan***idig, idog***an
+     +Px3bingode+Pos+Pej+Pos1Pl+VocPl+Pl: obingodeimishinaan***idig, idog***ag
+     +Px3bingode+Pos+Pej+Pos1Pl+VocPl+Loc: obingodeimishinaan***idig, idog***ing
+     +Px3bingode+Pos+Pej+PosPl+Pret+Obv: obingodeimishiwaaibanan
+     +Px3bingode+Pos+Pej+PosPl+Pret+Pl: obingodeimishiwaaibanag
+     +Px3bingode+Pos+Pej+PosPl+Pret+Loc: obingodeimishiwaaibaning
+     +Px3bingode+Pos+Pej+PosPl+VocPl+Obv: obingodeimishiwaa***idig, idog***an
+     +Px3bingode+Pos+Pej+PosPl+VocPl+Pl: obingodeimishiwaa***idig, idog***ag
+     +Px3bingode+Pos+Pej+PosPl+VocPl+Loc: obingodeimishiwaa***idig, idog***ing
+     +Px3bingode+Pos+Pej+PosObv+Pret+Obv: obingodeimishiniibanan
+     +Px3bingode+Pos+Pej+PosObv+Pret+Pl: obingodeimishiniibanag
+     +Px3bingode+Pos+Pej+PosObv+Pret+Loc: obingodeimishiniibaning
+     +Px3bingode+Pos+Pej+PosObv+VocPl+Obv: obingodeimishini***idig, idog***an
+     +Px3bingode+Pos+Pej+PosObv+VocPl+Pl: obingodeimishini***idig, idog***ag
+     +Px3bingode+Pos+Pej+PosObv+VocPl+Loc: obingodeimishini***idig, idog***ing
+     
+     #Values from slots numbered: 2, 3, 4, 5, 6, 7
+     bingode+Dim+Pos+Pej+Pos1Pl+Pret+Obv: bingodeensimishinaanibanan
+     bingode+Dim+Pos+Pej+Pos1Pl+Pret+Pl: bingodeensimishinaanibanag
+     bingode+Dim+Pos+Pej+Pos1Pl+Pret+Loc: bingodeensimishinaanibaning
+     bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: bingodeensimishinaan***idig, idog***an
+     bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: bingodeensimishinaan***idig, idog***ag
+     bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: bingodeensimishinaan***idig, idog***ing
+     bingode+Dim+Pos+Pej+PosPl+Pret+Obv: bingodeensimishiwaaibanan
+     bingode+Dim+Pos+Pej+PosPl+Pret+Pl: bingodeensimishiwaaibanag
+     bingode+Dim+Pos+Pej+PosPl+Pret+Loc: bingodeensimishiwaaibaning
+     bingode+Dim+Pos+Pej+PosPl+VocPl+Obv: bingodeensimishiwaa***idig, idog***an
+     bingode+Dim+Pos+Pej+PosPl+VocPl+Pl: bingodeensimishiwaa***idig, idog***ag
+     bingode+Dim+Pos+Pej+PosPl+VocPl+Loc: bingodeensimishiwaa***idig, idog***ing
+     bingode+Dim+Pos+Pej+PosObv+Pret+Obv: bingodeensimishiniibanan
+     bingode+Dim+Pos+Pej+PosObv+Pret+Pl: bingodeensimishiniibanag
+     bingode+Dim+Pos+Pej+PosObv+Pret+Loc: bingodeensimishiniibaning
+     bingode+Dim+Pos+Pej+PosObv+VocPl+Obv: bingodeensimishini***idig, idog***an
+     bingode+Dim+Pos+Pej+PosObv+VocPl+Pl: bingodeensimishini***idig, idog***ag
+     bingode+Dim+Pos+Pej+PosObv+VocPl+Loc: bingodeensimishini***idig, idog***ing
+     bingode+Con+Pos+Pej+Pos1Pl+Pret+Obv: bingodeenhimishinaanibanan
+     bingode+Con+Pos+Pej+Pos1Pl+Pret+Pl: bingodeenhimishinaanibanag
+     bingode+Con+Pos+Pej+Pos1Pl+Pret+Loc: bingodeenhimishinaanibaning
+     bingode+Con+Pos+Pej+Pos1Pl+VocPl+Obv: bingodeenhimishinaan***idig, idog***an
+     bingode+Con+Pos+Pej+Pos1Pl+VocPl+Pl: bingodeenhimishinaan***idig, idog***ag
+     bingode+Con+Pos+Pej+Pos1Pl+VocPl+Loc: bingodeenhimishinaan***idig, idog***ing
+     bingode+Con+Pos+Pej+PosPl+Pret+Obv: bingodeenhimishiwaaibanan
+     bingode+Con+Pos+Pej+PosPl+Pret+Pl: bingodeenhimishiwaaibanag
+     bingode+Con+Pos+Pej+PosPl+Pret+Loc: bingodeenhimishiwaaibaning
+     bingode+Con+Pos+Pej+PosPl+VocPl+Obv: bingodeenhimishiwaa***idig, idog***an
+     bingode+Con+Pos+Pej+PosPl+VocPl+Pl: bingodeenhimishiwaa***idig, idog***ag
+     bingode+Con+Pos+Pej+PosPl+VocPl+Loc: bingodeenhimishiwaa***idig, idog***ing
+     bingode+Con+Pos+Pej+PosObv+Pret+Obv: bingodeenhimishiniibanan
+     bingode+Con+Pos+Pej+PosObv+Pret+Pl: bingodeenhimishiniibanag
+     bingode+Con+Pos+Pej+PosObv+Pret+Loc: bingodeenhimishiniibaning
+     bingode+Con+Pos+Pej+PosObv+VocPl+Obv: bingodeenhimishini***idig, idog***an
+     bingode+Con+Pos+Pej+PosObv+VocPl+Pl: bingodeenhimishini***idig, idog***ag
+     bingode+Con+Pos+Pej+PosObv+VocPl+Loc: bingodeenhimishini***idig, idog***ing
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Pret+Obv: nibingodeensimishinaanibanan
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Pret+Pl: nibingodeensimishinaanibanag
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+Pret+Loc: nibingodeensimishinaanibaning
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: nibingodeensimishinaan***idig, idog***an
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: nibingodeensimishinaan***idig, idog***ag
+     +Px1bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: nibingodeensimishinaan***idig, idog***ing
+     +Px1bingode+Dim+Pos+Pej+PosPl+Pret+Obv: nibingodeensimishiwaaibanan
+     +Px1bingode+Dim+Pos+Pej+PosPl+Pret+Pl: nibingodeensimishiwaaibanag
+     +Px1bingode+Dim+Pos+Pej+PosPl+Pret+Loc: nibingodeensimishiwaaibaning
+     +Px1bingode+Dim+Pos+Pej+PosPl+VocPl+Obv: nibingodeensimishiwaa***idig, idog***an
+     +Px1bingode+Dim+Pos+Pej+PosPl+VocPl+Pl: nibingodeensimishiwaa***idig, idog***ag
+     +Px1bingode+Dim+Pos+Pej+PosPl+VocPl+Loc: nibingodeensimishiwaa***idig, idog***ing
+     +Px1bingode+Dim+Pos+Pej+PosObv+Pret+Obv: nibingodeensimishiniibanan
+     +Px1bingode+Dim+Pos+Pej+PosObv+Pret+Pl: nibingodeensimishiniibanag
+     +Px1bingode+Dim+Pos+Pej+PosObv+Pret+Loc: nibingodeensimishiniibaning
+     +Px1bingode+Dim+Pos+Pej+PosObv+VocPl+Obv: nibingodeensimishini***idig, idog***an
+     +Px1bingode+Dim+Pos+Pej+PosObv+VocPl+Pl: nibingodeensimishini***idig, idog***ag
+     +Px1bingode+Dim+Pos+Pej+PosObv+VocPl+Loc: nibingodeensimishini***idig, idog***ing
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Pret+Obv: nibingodeenhimishinaanibanan
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Pret+Pl: nibingodeenhimishinaanibanag
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+Pret+Loc: nibingodeenhimishinaanibaning
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+VocPl+Obv: nibingodeenhimishinaan***idig, idog***an
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+VocPl+Pl: nibingodeenhimishinaan***idig, idog***ag
+     +Px1bingode+Con+Pos+Pej+Pos1Pl+VocPl+Loc: nibingodeenhimishinaan***idig, idog***ing
+     +Px1bingode+Con+Pos+Pej+PosPl+Pret+Obv: nibingodeenhimishiwaaibanan
+     +Px1bingode+Con+Pos+Pej+PosPl+Pret+Pl: nibingodeenhimishiwaaibanag
+     +Px1bingode+Con+Pos+Pej+PosPl+Pret+Loc: nibingodeenhimishiwaaibaning
+     +Px1bingode+Con+Pos+Pej+PosPl+VocPl+Obv: nibingodeenhimishiwaa***idig, idog***an
+     +Px1bingode+Con+Pos+Pej+PosPl+VocPl+Pl: nibingodeenhimishiwaa***idig, idog***ag
+     +Px1bingode+Con+Pos+Pej+PosPl+VocPl+Loc: nibingodeenhimishiwaa***idig, idog***ing
+     +Px1bingode+Con+Pos+Pej+PosObv+Pret+Obv: nibingodeenhimishiniibanan
+     +Px1bingode+Con+Pos+Pej+PosObv+Pret+Pl: nibingodeenhimishiniibanag
+     +Px1bingode+Con+Pos+Pej+PosObv+Pret+Loc: nibingodeenhimishiniibaning
+     +Px1bingode+Con+Pos+Pej+PosObv+VocPl+Obv: nibingodeenhimishini***idig, idog***an
+     +Px1bingode+Con+Pos+Pej+PosObv+VocPl+Pl: nibingodeenhimishini***idig, idog***ag
+     +Px1bingode+Con+Pos+Pej+PosObv+VocPl+Loc: nibingodeenhimishini***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Pret+Obv: gibingodeensimishinaanibanan
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Pret+Pl: gibingodeensimishinaanibanag
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+Pret+Loc: gibingodeensimishinaanibaning
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: gibingodeensimishinaan***idig, idog***an
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: gibingodeensimishinaan***idig, idog***ag
+     +Px2bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: gibingodeensimishinaan***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pej+PosPl+Pret+Obv: gibingodeensimishiwaaibanan
+     +Px2bingode+Dim+Pos+Pej+PosPl+Pret+Pl: gibingodeensimishiwaaibanag
+     +Px2bingode+Dim+Pos+Pej+PosPl+Pret+Loc: gibingodeensimishiwaaibaning
+     +Px2bingode+Dim+Pos+Pej+PosPl+VocPl+Obv: gibingodeensimishiwaa***idig, idog***an
+     +Px2bingode+Dim+Pos+Pej+PosPl+VocPl+Pl: gibingodeensimishiwaa***idig, idog***ag
+     +Px2bingode+Dim+Pos+Pej+PosPl+VocPl+Loc: gibingodeensimishiwaa***idig, idog***ing
+     +Px2bingode+Dim+Pos+Pej+PosObv+Pret+Obv: gibingodeensimishiniibanan
+     +Px2bingode+Dim+Pos+Pej+PosObv+Pret+Pl: gibingodeensimishiniibanag
+     +Px2bingode+Dim+Pos+Pej+PosObv+Pret+Loc: gibingodeensimishiniibaning
+     +Px2bingode+Dim+Pos+Pej+PosObv+VocPl+Obv: gibingodeensimishini***idig, idog***an
+     +Px2bingode+Dim+Pos+Pej+PosObv+VocPl+Pl: gibingodeensimishini***idig, idog***ag
+     +Px2bingode+Dim+Pos+Pej+PosObv+VocPl+Loc: gibingodeensimishini***idig, idog***ing
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Pret+Obv: gibingodeenhimishinaanibanan
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Pret+Pl: gibingodeenhimishinaanibanag
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+Pret+Loc: gibingodeenhimishinaanibaning
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+VocPl+Obv: gibingodeenhimishinaan***idig, idog***an
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+VocPl+Pl: gibingodeenhimishinaan***idig, idog***ag
+     +Px2bingode+Con+Pos+Pej+Pos1Pl+VocPl+Loc: gibingodeenhimishinaan***idig, idog***ing
+     +Px2bingode+Con+Pos+Pej+PosPl+Pret+Obv: gibingodeenhimishiwaaibanan
+     +Px2bingode+Con+Pos+Pej+PosPl+Pret+Pl: gibingodeenhimishiwaaibanag
+     +Px2bingode+Con+Pos+Pej+PosPl+Pret+Loc: gibingodeenhimishiwaaibaning
+     +Px2bingode+Con+Pos+Pej+PosPl+VocPl+Obv: gibingodeenhimishiwaa***idig, idog***an
+     +Px2bingode+Con+Pos+Pej+PosPl+VocPl+Pl: gibingodeenhimishiwaa***idig, idog***ag
+     +Px2bingode+Con+Pos+Pej+PosPl+VocPl+Loc: gibingodeenhimishiwaa***idig, idog***ing
+     +Px2bingode+Con+Pos+Pej+PosObv+Pret+Obv: gibingodeenhimishiniibanan
+     +Px2bingode+Con+Pos+Pej+PosObv+Pret+Pl: gibingodeenhimishiniibanag
+     +Px2bingode+Con+Pos+Pej+PosObv+Pret+Loc: gibingodeenhimishiniibaning
+     +Px2bingode+Con+Pos+Pej+PosObv+VocPl+Obv: gibingodeenhimishini***idig, idog***an
+     +Px2bingode+Con+Pos+Pej+PosObv+VocPl+Pl: gibingodeenhimishini***idig, idog***ag
+     +Px2bingode+Con+Pos+Pej+PosObv+VocPl+Loc: gibingodeenhimishini***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Pret+Obv: obingodeensimishinaanibanan
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Pret+Pl: obingodeensimishinaanibanag
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+Pret+Loc: obingodeensimishinaanibaning
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: obingodeensimishinaan***idig, idog***an
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: obingodeensimishinaan***idig, idog***ag
+     +Px3bingode+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: obingodeensimishinaan***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pej+PosPl+Pret+Obv: obingodeensimishiwaaibanan
+     +Px3bingode+Dim+Pos+Pej+PosPl+Pret+Pl: obingodeensimishiwaaibanag
+     +Px3bingode+Dim+Pos+Pej+PosPl+Pret+Loc: obingodeensimishiwaaibaning
+     +Px3bingode+Dim+Pos+Pej+PosPl+VocPl+Obv: obingodeensimishiwaa***idig, idog***an
+     +Px3bingode+Dim+Pos+Pej+PosPl+VocPl+Pl: obingodeensimishiwaa***idig, idog***ag
+     +Px3bingode+Dim+Pos+Pej+PosPl+VocPl+Loc: obingodeensimishiwaa***idig, idog***ing
+     +Px3bingode+Dim+Pos+Pej+PosObv+Pret+Obv: obingodeensimishiniibanan
+     +Px3bingode+Dim+Pos+Pej+PosObv+Pret+Pl: obingodeensimishiniibanag
+     +Px3bingode+Dim+Pos+Pej+PosObv+Pret+Loc: obingodeensimishiniibaning
+     +Px3bingode+Dim+Pos+Pej+PosObv+VocPl+Obv: obingodeensimishini***idig, idog***an
+     +Px3bingode+Dim+Pos+Pej+PosObv+VocPl+Pl: obingodeensimishini***idig, idog***ag
+     +Px3bingode+Dim+Pos+Pej+PosObv+VocPl+Loc: obingodeensimishini***idig, idog***ing
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Pret+Obv: obingodeenhimishinaanibanan
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Pret+Pl: obingodeenhimishinaanibanag
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+Pret+Loc: obingodeenhimishinaanibaning
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+VocPl+Obv: obingodeenhimishinaan***idig, idog***an
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+VocPl+Pl: obingodeenhimishinaan***idig, idog***ag
+     +Px3bingode+Con+Pos+Pej+Pos1Pl+VocPl+Loc: obingodeenhimishinaan***idig, idog***ing
+     +Px3bingode+Con+Pos+Pej+PosPl+Pret+Obv: obingodeenhimishiwaaibanan
+     +Px3bingode+Con+Pos+Pej+PosPl+Pret+Pl: obingodeenhimishiwaaibanag
+     +Px3bingode+Con+Pos+Pej+PosPl+Pret+Loc: obingodeenhimishiwaaibaning
+     +Px3bingode+Con+Pos+Pej+PosPl+VocPl+Obv: obingodeenhimishiwaa***idig, idog***an
+     +Px3bingode+Con+Pos+Pej+PosPl+VocPl+Pl: obingodeenhimishiwaa***idig, idog***ag
+     +Px3bingode+Con+Pos+Pej+PosPl+VocPl+Loc: obingodeenhimishiwaa***idig, idog***ing
+     +Px3bingode+Con+Pos+Pej+PosObv+Pret+Obv: obingodeenhimishiniibanan
+     +Px3bingode+Con+Pos+Pej+PosObv+Pret+Pl: obingodeenhimishiniibanag
+     +Px3bingode+Con+Pos+Pej+PosObv+Pret+Loc: obingodeenhimishiniibaning
+     +Px3bingode+Con+Pos+Pej+PosObv+VocPl+Obv: obingodeenhimishini***idig, idog***an
+     +Px3bingode+Con+Pos+Pej+PosObv+VocPl+Pl: obingodeenhimishini***idig, idog***ag
+     +Px3bingode+Con+Pos+Pej+PosObv+VocPl+Loc: obingodeenhimishini***idig, idog***ing
+     
