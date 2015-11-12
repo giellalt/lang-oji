@@ -1,0 +1,275 @@
+Correspondences between my codes and Valentine's
+    Need to check that grouped-together V-tine codes are same
+mine    Valentine
+A       Ca, aa, Caa
+C       C, "" (last one accident?) 
+CW      Cw, Cwa
+I       Cy
+O       Coo
+VINIT   (not a problem)
+VLONG   VV, na-VV (POS, suspect accident)
+VVW     VVw
+VW      Vw
+        ny
+        VVy
+        Vy
+        loc (diff from the POS place?)
+        name
+        pl, nap (POS, diff from pl?)
+        pt (participle?)
+        voc (we actually generated voc pls...)
+
+####
+#Sins of omission
+####
+
+Indefinite posessors were left out
+    these will need to be included
+    and removed from non-dependent nouns
+
+##The following classes were not exemplified:
+
+NA_VINIT    V-initial word had already been provided    
+NAD_A       Valentine's database provides no examples
+NAD_CW      Dependent nouns only relevant for prefix behavior, final seg uninformative
+NAD_I       Dependent nouns only relevant for prefix behavior, final seg uninformative
+NAD_O       Dependent nouns only relevant for prefix behavior, final seg uninformative
+NAD_VLONG   Dependent nouns only relevant for prefix behavior, final seg uninformative
+NAD_VVW     Dependent nouns only relevant for prefix behavior, final seg uninformative
+NAD_VW      Dependent nouns only relevant for prefix behavior, final seg uninformative
+NID_CW      Valentine's database provides no examples
+NID_VLONG   Dependent nouns only relevant for prefix behavior, final seg uninformative
+NID_VVW     Valentine's database provides no examples
+NID_VW      Valentine's database provides no examples
+NI_CW       Valentine's database provides no examples (observed by Nichols 1980)
+NI_VVW      Valentine's database provides no examples
+NI_VW       Valentine's database provides no examples
+
+    obviously anything that did not have a code in my system was not exemplified
+
+##Glosses were not retrieved
+
+####
+#Sins of comission (remove them)
+####
+
+##The following classes were redundantly added
+NI_O    abwaanaak_gt-norm.yaml
+NI_O    miizhashk_gt-norm.yaml
+NI_VINIT    apanjigan_gt-norm.yaml
+NI_VINIT    izhichigewin_gt-norm.yaml
+
+##The following classes were an unfortunate mistake:
+NA_VLONGVW    ikwe_gt-norm.yaml
+NI_VLONGVW  bingode_gt-norm.yaml
+
+##Despite the only noteworthy thing about dependent nouns being their behavior when prefixed, many suffix classes were exemplified as well with them
+
+##NoExtra was pointlessly added to file names
+
+##Some generated forms may be semantic gaps
+
+##When using the description in the Nishnaabemwin Reference Grammar (Eastern)
+##There is some danger of problems when applying the morphology to lexical items from
+##the north (the Western dict's lexical materials come from the north)
+##does [n] delete when word final in some morphemes in the West?
+##To reflect Ojibwe, rather than Odawa, CW nouns are listed with wag plurals, not og plurals
+
+####
+#Content-specific points (consult valentine)
+####
+It appears that many nouns take plural allomorphs that are inconsistent with their listed stem class:
+
+####
+#Global Adjustments
+####
+
+inanimate plurals need to end in [n]
+    search for 7, replace "ag" with "an" at end of lines
+
+possessive suffixes need to only appear when person prefixes appear
+    delete blocks containing 3, 5 if 1 is not present
+    #PossObv may only appear if 1 is present as well
+    #suffixes in slot 5 are not required when 1 is present
+    #(poss doesn't need to be pl, and if poss is obv, still optional)
+    #our organizational scheme is in concert with these facts
+
+possessive suffixes need to agree in person with person prefixes
+    in blocks with 1 and 5
+        delete lines that are not 
+            +Px1 .* +Pos1Pl
+            +Px2 .* +PosPl
+            +Px3 .* +PosPl
+            +Px3 .* +PosObv
+            +PxIndef .* +PosPl (presumably)
+            +PxIndef .* +PosObv (presumably)
+
+Vocative plurals cancel out slot 7
+    in blocks with 6, 7
+        delete lines with +VocPl
+
+Variation in form of vocative plural
+    full form must be copied with each version of suffix, and placed in square brackets and separated by a comma
+
+Special plurals/obv after plural possessor suffixes
+    in blocks with 5 followed by 7:
+        "naanag" -> "naanig"
+        "naanan" -> "naanin"
+        "waaag" -> "waag"
+        "waaan" -> "waan"
+
+Special plurals/obv after contemptive suffix
+    in blocks with 2, 7 adjacent:
+        "hag" -> "yig"
+        "han" -> "yin"
+
+h->y when contemptive suffix not word final
+    in blocks with 2 followed by any of 3, 4, 5, 6, 7
+    nh -> ny
+
+Excrescent nasals after first person ni?
+
+Indefinite possession only appears on dependents
+    IF filename doesn't start with NAD or NID:
+        in blocks with 1:
+            delete lines ith +PxIndef
+####
+#Class adjustments
+####
+
+##A
+    slot 2: no adjustment
+    slot 3: replace "i" w/ "aa" from "im"
+    slot 4: replace "i" w/ "aa" from "ish"
+    slot 5: replace "i" w/ "aa" from "iwaa, inaan, ini"
+    slot 6: replace "i" w/ "aa" from "iban, idig"
+    slot 7:
+        no adjustment for "an, ag"
+        replace "i" w/ "aa" from "ing"
+##C
+No adjustments
+NB: vowel-initial stems were often (always) taken from the C category to make life easier
+
+##CW
+    slot 2: replace "e" w/ "oo" from "ens", "eny", "enh#"
+    slot 3: replace "i" w/ "o" from "im"
+    slot 4: replace "i" w/ "o" from "ish"
+    slot 5: replace "i" w/ "o" from "iwaa, inaan, ini"
+    slot 6: replace "i" w/ "o" from "iban, idig"
+    slot 7:
+        replace "a" w/ "wa" from "an, ag"
+        replace "i" w/ "o" from "ing"
+##I
+    slot 2: replace "e" w/ "ii" from "ens", "eny", "enh#"
+    slot 3: replace "i" w/ "ii" from "im"
+    slot 4: replace "i" w/ "ii" from "ish"
+    slot 5: replace "i" w/ "ii" from "iwaa, inaan, ini"
+    slot 6: replace "i" w/ "ii" from "iban, idig"
+    slot 7:
+        replace "a" w/ "ii" from "an, ag"
+        replace "i" w/ "ii" from "ing"
+
+##O
+    slot 2: replace "e" w/ "oo" from "ens", "eny", "enh#"
+    slot 3: replace "i" w/ "o" from "im"
+    slot 4: replace "i" w/ "o" from "ish"
+    slot 5: replace "i" w/ "o" from "iwaa, inaan, ini"
+    slot 6: replace "i" w/ "o" from "iban, idig"
+    slot 7:
+        replace "a" w/ "oo" from "an, ag"
+        replace "i" w/ "o" from "ing"
+
+##VINIT (even if not labeled as such (arg))
+[d] epenthesis between prefixes and stem
+    in blocks with 1:
+        write [d] after first [i] in lines w/ 1/2/indef
+        write [d] after first [o] in lines w/ 3
+
+UNLESS DEPENDENT Stem:
+    in blocks with 1:
+        delete first [i] in lines w/ 1/2/indef
+        (presumably in indefinites too...)
+        delete first [o] in lines w/ 3
+        UNLESS stem starts with ii:
+            change first [o] to [w] (V 200)
+
+##VLONG
+When adjacent to stem:
+    slot 2: delete "e" from "ens", "eny", "enh#"
+    slot 3: delete "i" from "im" 
+    slot 4: delete "i" from "ish"
+    slot 5: delete first "i" from  "inaan", "iwaa", "ini"
+    slot 6: delete "i" from "iban", "idig, idog"
+    slot 7: delete "a" from "an, ag", delete "i" from "ing"
+
+##VVW
+    slot 2: delete "e" from "ens", "eny", "enh#"
+    slot 3: delete "i" from "im"
+    slot 4: insert "w" between stem-final vowel and "ish"
+    slot 5: 
+        unclear ... expect:
+        insert "w" between stem-final vowel and "iwaa"
+        OR
+        delete first "i" from  "inaan", "ini"
+        ----- 
+        but when possessed, VVW nouns must take -im
+        so never stem-adjacent (V 204)
+        **this restriction not enforced in protocol**
+    slot 6: insert "w" between stem-final vowel and "iban, idig"
+    slot 7:
+        insert "w" between stem-final vowel and "ag, an"
+        OR
+        delete "i" from "ing"
+
+##VW
+    slot 2: 
+        delete "e" from "ens", "eny", "enh#"
+        lengthen stem-final vowel
+    slot 3: 
+        delete "i" from "im"
+        lengthen stem-final vowel
+    slot 4:
+        insert "w" between stem-final vowel and "ish"
+    slot 5: 
+        unclear ... expect (V 203, 204):
+        insert "w" between stem-final vowel and "iwaa"
+        OR
+        delete first "i" from  "inaan", "ini"
+        lengthen stem-final vowel
+        ----- 
+        but when possessed, VW nouns must take -im
+        so never stem-adjacent (V 204)
+        **this restriction not enforced in protocol**
+    slot 6:
+        insert "w" between stem-final vowel and "iban, idig"
+    slot 7:
+        insert "w" between stem-final vowel and "ag, an"
+        OR
+        delete "i" from "ing"
+        lengthen stem-final vowel
+
+
+####
+#Little wrinkles
+####
+Irregular contemptives and diminutives (Valentine 187)
+
+A stems ending in n take pejorative ish, not aash (V 191)
+
+Diminutive s -> z / _ pejorative i, "usually" palatalizes to "zh" (V 193)
+    though apparently not if the diminutive is heavily lexicalized ... but V's example contradicts his claim
+
+Indefinite possession was apparently limited to body parts. kinship did verbal derivatives (V 199)
+
+Possessed theme is variably required in different communities
+    some phonological rgularities noted (V 202)
+    syncopated dialects are increasing usage (V 202)
+
+Preterit dubitatives have not been discussed 
+
+Obviative possessor "ini" is optional (V 203), there is no discussion regarding how suffixes that follow this suffix are realized
+
+To reflect Ojibwe, rather than Odawa, CW nouns are listed with wag plurals, not og plurals
+    this is also listed above
+
+There is a class of Cay forms, where y is lost and [a] lengthened
