@@ -54,14 +54,14 @@ NI_VW       Valentine's database provides no examples
 ####
 
 ##The following classes were redundantly added
-NI_O    abwaanaak_gt-norm.yaml
+X NI_O    abwaanaak_gt-norm.yaml
 NI_O    miizhashk_gt-norm.yaml
-NI_VINIT    apanjigan_gt-norm.yaml
+X NI_VINIT    apanjigan_gt-norm.yaml
 NI_VINIT    izhichigewin_gt-norm.yaml
 
 ##The following classes were an unfortunate mistake:
-NA_VLONGVW    ikwe_gt-norm.yaml
-NI_VLONGVW  bingode_gt-norm.yaml
+X NA_VLONGVW    ikwe_gt-norm.yaml
+X NI_VLONGVW  bingode_gt-norm.yaml
 
 ##Despite the only noteworthy thing about dependent nouns being their behavior when prefixed, many suffix classes were exemplified as well with them
 
@@ -84,50 +84,64 @@ It appears that many nouns take plural allomorphs that are inconsistent with the
 #Global Adjustments
 ####
 
-inanimate plurals need to end in [n]
+X inanimate plurals need to end in [n]
     search for 7, replace "ag" with "an" at end of lines
 
-possessive suffixes need to only appear when person prefixes appear
+X possessive suffixes need to only appear when person prefixes appear
     delete blocks containing 3, 5 if 1 is not present
     #PossObv may only appear if 1 is present as well
     #suffixes in slot 5 are not required when 1 is present
     #(poss doesn't need to be pl, and if poss is obv, still optional)
     #our organizational scheme is in concert with these facts
 
-possessive suffixes need to agree in person with person prefixes
+X possessive suffixes need to agree in person with person prefixes
     in blocks with 1 and 5
-        delete lines that are not 
+        delete lines that are not one of: 
             +Px1 .* +Pos1Pl
             +Px2 .* +PosPl
             +Px3 .* +PosPl
             +Px3 .* +PosObv
+            #the following have not been instantiated!
             +PxIndef .* +PosPl (presumably)
             +PxIndef .* +PosObv (presumably)
 
-Vocative plurals cancel out slot 7
+X Vocative plurals cancel out slot 7
     in blocks with 6, 7
         delete lines with +VocPl
 
-Variation in form of vocative plural
+X Variation in form of vocative plural
     full form must be copied with each version of suffix, and placed in square brackets and separated by a comma
 
-Special plurals/obv after plural possessor suffixes
+X Special plurals/obv after plural possessor suffixes
     in blocks with 5 followed by 7:
         "naanag" -> "naanig"
         "naanan" -> "naanin"
         "waaag" -> "waag"
         "waaan" -> "waan"
+    Presumably something happens with -ini-ag... iniig?
+    Presumably something happens with 5 followed by 6 too...
+        ini-iban, ini-idog, waa-iban, waa-idog
+        naan-iban, naanidog (no changes expected)
+    acting and begging forgiveness... :)
 
-Special plurals/obv after contemptive suffix
+X Special plurals/obv after contemptive suffix
     in blocks with 2, 7 adjacent:
         "hag" -> "yig"
         "han" -> "yin"
 
-h->y when contemptive suffix not word final
+X h->y when contemptive suffix not word final
     in blocks with 2 followed by any of 3, 4, 5, 6, 7
     nh -> ny
 
+X Special plurals after preterite suffix
+    in blocks with 6,7 adjacent:
+        ibanag -> ibaniig
+        ibanan -> ibaniin
+        ibaning -> ibaniing (?)
+
 Excrescent nasals after first person ni?
+
+Delete nasals from the ends of some suffixes when word final?
 
 Indefinite possession only appears on dependents
     IF filename doesn't start with NAD or NID:
@@ -267,9 +281,13 @@ Possessed theme is variably required in different communities
 
 Preterit dubitatives have not been discussed 
 
-Obviative possessor "ini" is optional (V 203), there is no discussion regarding how suffixes that follow this suffix are realized
+Obviative possessor "ini" is optional (V 203), there is no discussion regarding how suffixes that follow this suffix are realized (see global changes section above)
 
 To reflect Ojibwe, rather than Odawa, CW nouns are listed with wag plurals, not og plurals
     this is also listed above
 
 There is a class of Cay forms, where y is lost and [a] lengthened
+
+Are there inanimates that take vocatives? "O grass!"
+
+Presumably mode suffixes following possessive number/obv suffixes have phonology happening (cf notes on 5 followed by 7)
