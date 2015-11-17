@@ -33,9 +33,9 @@ w | y |
 %> | %^ !standard m-boundary, person pre-stem boundary
 ] ;
 
-!###############
-!Natural Classes
-!###############
+! ###############
+! Natural Classes
+! ###############
 
 define VShort [ a | i | o ] ;
 
@@ -67,9 +67,9 @@ define MorphemeBound [ %> | %^ ] ;
 !Rules
 !###############
 
-!this rule bled itself historically
-!never applied in sub-minimal words
-!minimality was tricky.
+! this rule bled itself historically
+! never applied in sub-minimal words
+! minimality was tricky.
 !   SS sequences permitted no deletion (glides or vowels)
 !       SSG could have been optimal iambic foot if codas contributed morae!
 !       so there might have been a nuanced notion of minimality
@@ -78,15 +78,15 @@ define MorphemeBound [ %> | %^ ] ;
 
 define ApocopeHist NonConsShort -> 0 || _ .#. ;
 
-!There is an alternative analysis of apocope, but it is hairy
-!need to specify inflected verb
-!is bled by [n] deletion in Odawa (Piggott 1974)
+! There is an alternative analysis of apocope, but it is hairy
+! need to specify inflected verb
+! is bled by [n] deletion in Odawa (Piggott 1974)
 
 define ApocopeMod VShort -> 0 || _ .#. ;
 
-!Part of a conspiracy against vowel hiatus
-!Also possible for V1 in V1V2 to delete
-!Not totally confident that environment covers all cases (necessary, not sufficient)
+! Part of a conspiracy against vowel hiatus
+! Also possible for V1 in V1V2 to delete
+! Not totally confident that environment covers all cases (necessary, not sufficient)
 
 define HiatusDel VShort -> 0 || VLong _ ;
 
@@ -112,10 +112,10 @@ define Coalescence1 a w i -> o o ;
 
 define Coalsecence2 a w i -> a a || _ k ;
 
-!-----
-!controversial abstract phonology
-!some of these rules use, or should use, segments that are not yet in Sigma
-!-----
+! -----
+! controversial abstract phonology
+! some of these rules use, or should use, segments that are not yet in Sigma
+! -----
 
 !yarg! how to just specify a feature that changes and keep the rest
 !want t->ch, d->j, s->sh
