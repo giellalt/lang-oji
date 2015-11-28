@@ -1,0 +1,137 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VLONG - boodawe - CONJ :
+
+  #Template Key
+  #1	2	3	4
+  #neg	persnum	pret	dub
+
+     #Isolation form
+     boodawe: boodawe
+     
+     #Values from slots numbered: 1
+     boodawe+Neg: boodawesiw
+     
+     #Values from slots numbered: 2
+     boodawe+1Pl: boodaweaang
+     boodawe+1Sg: boodaweaanh
+     boodawe+21: boodaweing
+     boodawe+2Pl: boodaweeg
+     boodawe+2Sg: boodawein
+     boodawe+3Obv: boodawenid
+     boodawe+3PlNeg: boodawegwaa
+     boodawe+3PlPos: boodawewaad
+     boodawe+3Sg: boodawed
+     boodawe+Indef: boodaweng
+     
+     #Values from slots numbered: 3
+     boodawe+Pret: boodaweban
+     
+     #Values from slots numbered: 4
+     boodawe+Dub: boodaween
+     
+     #Values from slots numbered: 1, 2
+     boodawe+Neg+1Pl: boodawesiwaang
+     boodawe+Neg+1Sg: boodawesiwaanh
+     boodawe+Neg+21: boodawesiwing
+     boodawe+Neg+2Pl: boodawesiweg
+     boodawe+Neg+2Sg: boodawesiwin
+     boodawe+Neg+3Obv: boodawesiwnid
+     boodawe+Neg+3PlNeg: boodawesiwgwaa
+     boodawe+Neg+3PlPos: boodawesiwwaad
+     boodawe+Neg+3Sg: boodawesiwd
+     boodawe+Neg+Indef: boodawesiwng
+     
+     #Values from slots numbered: 1, 3
+     boodawe+Neg+Pret: boodawesiwban
+     
+     #Values from slots numbered: 1, 4
+     boodawe+Neg+Dub: boodawesiwen
+     
+     #Values from slots numbered: 2, 3
+     boodawe+1Pl+Pret: boodaweaangban
+     boodawe+1Sg+Pret: boodaweaanhban
+     boodawe+21+Pret: boodaweingban
+     boodawe+2Pl+Pret: boodaweegban
+     boodawe+2Sg+Pret: boodaweinban
+     boodawe+3Obv+Pret: boodawenidban
+     boodawe+3PlNeg+Pret: boodawegwaaban
+     boodawe+3PlPos+Pret: boodawewaadban
+     boodawe+3Sg+Pret: boodawedban
+     boodawe+Indef+Pret: boodawengban
+     
+     #Values from slots numbered: 2, 4
+     boodawe+1Pl+Dub: boodaweaangen
+     boodawe+1Sg+Dub: boodaweaanhen
+     boodawe+21+Dub: boodaweingen
+     boodawe+2Pl+Dub: boodaweegen
+     boodawe+2Sg+Dub: boodaweinen
+     boodawe+3Obv+Dub: boodaweniden
+     boodawe+3PlNeg+Dub: boodawegwaaen
+     boodawe+3PlPos+Dub: boodawewaaden
+     boodawe+3Sg+Dub: boodaweden
+     boodawe+Indef+Dub: boodawengen
+     
+     #Values from slots numbered: 3, 4
+     boodawe+Pret+Dub: boodawebanen
+     
+     #Values from slots numbered: 1, 2, 3
+     boodawe+Neg+1Pl+Pret: boodawesiwaangban
+     boodawe+Neg+1Sg+Pret: boodawesiwaanhban
+     boodawe+Neg+21+Pret: boodawesiwingban
+     boodawe+Neg+2Pl+Pret: boodawesiwegban
+     boodawe+Neg+2Sg+Pret: boodawesiwinban
+     boodawe+Neg+3Obv+Pret: boodawesiwnidban
+     boodawe+Neg+3PlNeg+Pret: boodawesiwgwaaban
+     boodawe+Neg+3PlPos+Pret: boodawesiwwaadban
+     boodawe+Neg+3Sg+Pret: boodawesiwdban
+     boodawe+Neg+Indef+Pret: boodawesiwngban
+     
+     #Values from slots numbered: 1, 2, 4
+     boodawe+Neg+1Pl+Dub: boodawesiwaangen
+     boodawe+Neg+1Sg+Dub: boodawesiwaanhen
+     boodawe+Neg+21+Dub: boodawesiwingen
+     boodawe+Neg+2Pl+Dub: boodawesiwegen
+     boodawe+Neg+2Sg+Dub: boodawesiwinen
+     boodawe+Neg+3Obv+Dub: boodawesiwniden
+     boodawe+Neg+3PlNeg+Dub: boodawesiwgwaaen
+     boodawe+Neg+3PlPos+Dub: boodawesiwwaaden
+     boodawe+Neg+3Sg+Dub: boodawesiwden
+     boodawe+Neg+Indef+Dub: boodawesiwngen
+     
+     #Values from slots numbered: 1, 3, 4
+     boodawe+Neg+Pret+Dub: boodawesiwbanen
+     
+     #Values from slots numbered: 2, 3, 4
+     boodawe+1Pl+Pret+Dub: boodaweaangbanen
+     boodawe+1Sg+Pret+Dub: boodaweaanhbanen
+     boodawe+21+Pret+Dub: boodaweingbanen
+     boodawe+2Pl+Pret+Dub: boodaweegbanen
+     boodawe+2Sg+Pret+Dub: boodaweinbanen
+     boodawe+3Obv+Pret+Dub: boodawenidbanen
+     boodawe+3PlNeg+Pret+Dub: boodawegwaabanen
+     boodawe+3PlPos+Pret+Dub: boodawewaadbanen
+     boodawe+3Sg+Pret+Dub: boodawedbanen
+     boodawe+Indef+Pret+Dub: boodawengbanen
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     boodawe+Neg+1Pl+Pret+Dub: boodawesiwaangbanen
+     boodawe+Neg+1Sg+Pret+Dub: boodawesiwaanhbanen
+     boodawe+Neg+21+Pret+Dub: boodawesiwingbanen
+     boodawe+Neg+2Pl+Pret+Dub: boodawesiwegbanen
+     boodawe+Neg+2Sg+Pret+Dub: boodawesiwinbanen
+     boodawe+Neg+3Obv+Pret+Dub: boodawesiwnidbanen
+     boodawe+Neg+3PlNeg+Pret+Dub: boodawesiwgwaabanen
+     boodawe+Neg+3PlPos+Pret+Dub: boodawesiwwaadbanen
+     boodawe+Neg+3Sg+Pret+Dub: boodawesiwdbanen
+     boodawe+Neg+Indef+Pret+Dub: boodawesiwngbanen
+     

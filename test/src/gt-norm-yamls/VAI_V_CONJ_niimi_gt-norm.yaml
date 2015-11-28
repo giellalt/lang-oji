@@ -1,0 +1,137 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - V - niimi - CONJ :
+
+  #Template Key
+  #1	2	3	4
+  #neg	persnum	pret	dub
+
+     #Isolation form
+     niimi: niimi
+     
+     #Values from slots numbered: 1
+     niimi+Neg: niimisiw
+     
+     #Values from slots numbered: 2
+     niimi+1Pl: niimiaang
+     niimi+1Sg: niimiaanh
+     niimi+21: niimiing
+     niimi+2Pl: niimieg
+     niimi+2Sg: niimiin
+     niimi+3Obv: niiminid
+     niimi+3PlNeg: niimigwaa
+     niimi+3PlPos: niimiwaad
+     niimi+3Sg: niimid
+     niimi+Indef: niiming
+     
+     #Values from slots numbered: 3
+     niimi+Pret: niimiban
+     
+     #Values from slots numbered: 4
+     niimi+Dub: niimien
+     
+     #Values from slots numbered: 1, 2
+     niimi+Neg+1Pl: niimisiwaang
+     niimi+Neg+1Sg: niimisiwaanh
+     niimi+Neg+21: niimisiwing
+     niimi+Neg+2Pl: niimisiweg
+     niimi+Neg+2Sg: niimisiwin
+     niimi+Neg+3Obv: niimisiwnid
+     niimi+Neg+3PlNeg: niimisiwgwaa
+     niimi+Neg+3PlPos: niimisiwwaad
+     niimi+Neg+3Sg: niimisiwd
+     niimi+Neg+Indef: niimisiwng
+     
+     #Values from slots numbered: 1, 3
+     niimi+Neg+Pret: niimisiwban
+     
+     #Values from slots numbered: 1, 4
+     niimi+Neg+Dub: niimisiwen
+     
+     #Values from slots numbered: 2, 3
+     niimi+1Pl+Pret: niimiaangban
+     niimi+1Sg+Pret: niimiaanhban
+     niimi+21+Pret: niimiingban
+     niimi+2Pl+Pret: niimiegban
+     niimi+2Sg+Pret: niimiinban
+     niimi+3Obv+Pret: niiminidban
+     niimi+3PlNeg+Pret: niimigwaaban
+     niimi+3PlPos+Pret: niimiwaadban
+     niimi+3Sg+Pret: niimidban
+     niimi+Indef+Pret: niimingban
+     
+     #Values from slots numbered: 2, 4
+     niimi+1Pl+Dub: niimiaangen
+     niimi+1Sg+Dub: niimiaanhen
+     niimi+21+Dub: niimiingen
+     niimi+2Pl+Dub: niimiegen
+     niimi+2Sg+Dub: niimiinen
+     niimi+3Obv+Dub: niiminiden
+     niimi+3PlNeg+Dub: niimigwaaen
+     niimi+3PlPos+Dub: niimiwaaden
+     niimi+3Sg+Dub: niimiden
+     niimi+Indef+Dub: niimingen
+     
+     #Values from slots numbered: 3, 4
+     niimi+Pret+Dub: niimibanen
+     
+     #Values from slots numbered: 1, 2, 3
+     niimi+Neg+1Pl+Pret: niimisiwaangban
+     niimi+Neg+1Sg+Pret: niimisiwaanhban
+     niimi+Neg+21+Pret: niimisiwingban
+     niimi+Neg+2Pl+Pret: niimisiwegban
+     niimi+Neg+2Sg+Pret: niimisiwinban
+     niimi+Neg+3Obv+Pret: niimisiwnidban
+     niimi+Neg+3PlNeg+Pret: niimisiwgwaaban
+     niimi+Neg+3PlPos+Pret: niimisiwwaadban
+     niimi+Neg+3Sg+Pret: niimisiwdban
+     niimi+Neg+Indef+Pret: niimisiwngban
+     
+     #Values from slots numbered: 1, 2, 4
+     niimi+Neg+1Pl+Dub: niimisiwaangen
+     niimi+Neg+1Sg+Dub: niimisiwaanhen
+     niimi+Neg+21+Dub: niimisiwingen
+     niimi+Neg+2Pl+Dub: niimisiwegen
+     niimi+Neg+2Sg+Dub: niimisiwinen
+     niimi+Neg+3Obv+Dub: niimisiwniden
+     niimi+Neg+3PlNeg+Dub: niimisiwgwaaen
+     niimi+Neg+3PlPos+Dub: niimisiwwaaden
+     niimi+Neg+3Sg+Dub: niimisiwden
+     niimi+Neg+Indef+Dub: niimisiwngen
+     
+     #Values from slots numbered: 1, 3, 4
+     niimi+Neg+Pret+Dub: niimisiwbanen
+     
+     #Values from slots numbered: 2, 3, 4
+     niimi+1Pl+Pret+Dub: niimiaangbanen
+     niimi+1Sg+Pret+Dub: niimiaanhbanen
+     niimi+21+Pret+Dub: niimiingbanen
+     niimi+2Pl+Pret+Dub: niimiegbanen
+     niimi+2Sg+Pret+Dub: niimiinbanen
+     niimi+3Obv+Pret+Dub: niiminidbanen
+     niimi+3PlNeg+Pret+Dub: niimigwaabanen
+     niimi+3PlPos+Pret+Dub: niimiwaadbanen
+     niimi+3Sg+Pret+Dub: niimidbanen
+     niimi+Indef+Pret+Dub: niimingbanen
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     niimi+Neg+1Pl+Pret+Dub: niimisiwaangbanen
+     niimi+Neg+1Sg+Pret+Dub: niimisiwaanhbanen
+     niimi+Neg+21+Pret+Dub: niimisiwingbanen
+     niimi+Neg+2Pl+Pret+Dub: niimisiwegbanen
+     niimi+Neg+2Sg+Pret+Dub: niimisiwinbanen
+     niimi+Neg+3Obv+Pret+Dub: niimisiwnidbanen
+     niimi+Neg+3PlNeg+Pret+Dub: niimisiwgwaabanen
+     niimi+Neg+3PlPos+Pret+Dub: niimisiwwaadbanen
+     niimi+Neg+3Sg+Pret+Dub: niimisiwdbanen
+     niimi+Neg+Indef+Pret+Dub: niimisiwngbanen
+     
