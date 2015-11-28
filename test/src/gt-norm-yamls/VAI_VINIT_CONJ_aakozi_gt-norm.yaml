@@ -1,0 +1,137 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VINIT - aakozi - CONJ :
+
+  #Template Key
+  #1	2	3	4
+  #neg	persnum	pret	dub
+
+     #Isolation form
+     aakozi: aakozi
+     
+     #Values from slots numbered: 1
+     aakozi+Neg: aakozisiw
+     
+     #Values from slots numbered: 2
+     aakozi+1Pl: aakoziaang
+     aakozi+1Sg: aakoziaanh
+     aakozi+21: aakoziing
+     aakozi+2Pl: aakozieg
+     aakozi+2Sg: aakoziin
+     aakozi+3Obv: aakozinid
+     aakozi+3PlNeg: aakozigwaa
+     aakozi+3PlPos: aakoziwaad
+     aakozi+3Sg: aakozid
+     aakozi+Indef: aakozing
+     
+     #Values from slots numbered: 3
+     aakozi+Pret: aakoziban
+     
+     #Values from slots numbered: 4
+     aakozi+Dub: aakozien
+     
+     #Values from slots numbered: 1, 2
+     aakozi+Neg+1Pl: aakozisiwaang
+     aakozi+Neg+1Sg: aakozisiwaanh
+     aakozi+Neg+21: aakozisiwing
+     aakozi+Neg+2Pl: aakozisiweg
+     aakozi+Neg+2Sg: aakozisiwin
+     aakozi+Neg+3Obv: aakozisiwnid
+     aakozi+Neg+3PlNeg: aakozisiwgwaa
+     aakozi+Neg+3PlPos: aakozisiwwaad
+     aakozi+Neg+3Sg: aakozisiwd
+     aakozi+Neg+Indef: aakozisiwng
+     
+     #Values from slots numbered: 1, 3
+     aakozi+Neg+Pret: aakozisiwban
+     
+     #Values from slots numbered: 1, 4
+     aakozi+Neg+Dub: aakozisiwen
+     
+     #Values from slots numbered: 2, 3
+     aakozi+1Pl+Pret: aakoziaangban
+     aakozi+1Sg+Pret: aakoziaanhban
+     aakozi+21+Pret: aakoziingban
+     aakozi+2Pl+Pret: aakoziegban
+     aakozi+2Sg+Pret: aakoziinban
+     aakozi+3Obv+Pret: aakozinidban
+     aakozi+3PlNeg+Pret: aakozigwaaban
+     aakozi+3PlPos+Pret: aakoziwaadban
+     aakozi+3Sg+Pret: aakozidban
+     aakozi+Indef+Pret: aakozingban
+     
+     #Values from slots numbered: 2, 4
+     aakozi+1Pl+Dub: aakoziaangen
+     aakozi+1Sg+Dub: aakoziaanhen
+     aakozi+21+Dub: aakoziingen
+     aakozi+2Pl+Dub: aakoziegen
+     aakozi+2Sg+Dub: aakoziinen
+     aakozi+3Obv+Dub: aakoziniden
+     aakozi+3PlNeg+Dub: aakozigwaaen
+     aakozi+3PlPos+Dub: aakoziwaaden
+     aakozi+3Sg+Dub: aakoziden
+     aakozi+Indef+Dub: aakozingen
+     
+     #Values from slots numbered: 3, 4
+     aakozi+Pret+Dub: aakozibanen
+     
+     #Values from slots numbered: 1, 2, 3
+     aakozi+Neg+1Pl+Pret: aakozisiwaangban
+     aakozi+Neg+1Sg+Pret: aakozisiwaanhban
+     aakozi+Neg+21+Pret: aakozisiwingban
+     aakozi+Neg+2Pl+Pret: aakozisiwegban
+     aakozi+Neg+2Sg+Pret: aakozisiwinban
+     aakozi+Neg+3Obv+Pret: aakozisiwnidban
+     aakozi+Neg+3PlNeg+Pret: aakozisiwgwaaban
+     aakozi+Neg+3PlPos+Pret: aakozisiwwaadban
+     aakozi+Neg+3Sg+Pret: aakozisiwdban
+     aakozi+Neg+Indef+Pret: aakozisiwngban
+     
+     #Values from slots numbered: 1, 2, 4
+     aakozi+Neg+1Pl+Dub: aakozisiwaangen
+     aakozi+Neg+1Sg+Dub: aakozisiwaanhen
+     aakozi+Neg+21+Dub: aakozisiwingen
+     aakozi+Neg+2Pl+Dub: aakozisiwegen
+     aakozi+Neg+2Sg+Dub: aakozisiwinen
+     aakozi+Neg+3Obv+Dub: aakozisiwniden
+     aakozi+Neg+3PlNeg+Dub: aakozisiwgwaaen
+     aakozi+Neg+3PlPos+Dub: aakozisiwwaaden
+     aakozi+Neg+3Sg+Dub: aakozisiwden
+     aakozi+Neg+Indef+Dub: aakozisiwngen
+     
+     #Values from slots numbered: 1, 3, 4
+     aakozi+Neg+Pret+Dub: aakozisiwbanen
+     
+     #Values from slots numbered: 2, 3, 4
+     aakozi+1Pl+Pret+Dub: aakoziaangbanen
+     aakozi+1Sg+Pret+Dub: aakoziaanhbanen
+     aakozi+21+Pret+Dub: aakoziingbanen
+     aakozi+2Pl+Pret+Dub: aakoziegbanen
+     aakozi+2Sg+Pret+Dub: aakoziinbanen
+     aakozi+3Obv+Pret+Dub: aakozinidbanen
+     aakozi+3PlNeg+Pret+Dub: aakozigwaabanen
+     aakozi+3PlPos+Pret+Dub: aakoziwaadbanen
+     aakozi+3Sg+Pret+Dub: aakozidbanen
+     aakozi+Indef+Pret+Dub: aakozingbanen
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     aakozi+Neg+1Pl+Pret+Dub: aakozisiwaangbanen
+     aakozi+Neg+1Sg+Pret+Dub: aakozisiwaanhbanen
+     aakozi+Neg+21+Pret+Dub: aakozisiwingbanen
+     aakozi+Neg+2Pl+Pret+Dub: aakozisiwegbanen
+     aakozi+Neg+2Sg+Pret+Dub: aakozisiwinbanen
+     aakozi+Neg+3Obv+Pret+Dub: aakozisiwnidbanen
+     aakozi+Neg+3PlNeg+Pret+Dub: aakozisiwgwaabanen
+     aakozi+Neg+3PlPos+Pret+Dub: aakozisiwwaadbanen
+     aakozi+Neg+3Sg+Pret+Dub: aakozisiwdbanen
+     aakozi+Neg+Indef+Pret+Dub: aakozisiwngbanen
+     

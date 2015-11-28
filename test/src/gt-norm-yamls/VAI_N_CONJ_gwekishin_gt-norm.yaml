@@ -1,0 +1,137 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - N - gwekishin - CONJ :
+
+  #Template Key
+  #1	2	3	4
+  #neg	persnum	pret	dub
+
+     #Isolation form
+     gwekishin: gwekishin
+     
+     #Values from slots numbered: 1
+     gwekishin+Neg: gwekishinsiw
+     
+     #Values from slots numbered: 2
+     gwekishin+1Pl: gwekishinaang
+     gwekishin+1Sg: gwekishinaanh
+     gwekishin+21: gwekishining
+     gwekishin+2Pl: gwekishineg
+     gwekishin+2Sg: gwekishinin
+     gwekishin+3Obv: gwekishinnid
+     gwekishin+3PlNeg: gwekishingwaa
+     gwekishin+3PlPos: gwekishinwaad
+     gwekishin+3Sg: gwekishind
+     gwekishin+Indef: gwekishinng
+     
+     #Values from slots numbered: 3
+     gwekishin+Pret: gwekishinban
+     
+     #Values from slots numbered: 4
+     gwekishin+Dub: gwekishinen
+     
+     #Values from slots numbered: 1, 2
+     gwekishin+Neg+1Pl: gwekishinsiwaang
+     gwekishin+Neg+1Sg: gwekishinsiwaanh
+     gwekishin+Neg+21: gwekishinsiwing
+     gwekishin+Neg+2Pl: gwekishinsiweg
+     gwekishin+Neg+2Sg: gwekishinsiwin
+     gwekishin+Neg+3Obv: gwekishinsiwnid
+     gwekishin+Neg+3PlNeg: gwekishinsiwgwaa
+     gwekishin+Neg+3PlPos: gwekishinsiwwaad
+     gwekishin+Neg+3Sg: gwekishinsiwd
+     gwekishin+Neg+Indef: gwekishinsiwng
+     
+     #Values from slots numbered: 1, 3
+     gwekishin+Neg+Pret: gwekishinsiwban
+     
+     #Values from slots numbered: 1, 4
+     gwekishin+Neg+Dub: gwekishinsiwen
+     
+     #Values from slots numbered: 2, 3
+     gwekishin+1Pl+Pret: gwekishinaangban
+     gwekishin+1Sg+Pret: gwekishinaanhban
+     gwekishin+21+Pret: gwekishiningban
+     gwekishin+2Pl+Pret: gwekishinegban
+     gwekishin+2Sg+Pret: gwekishininban
+     gwekishin+3Obv+Pret: gwekishinnidban
+     gwekishin+3PlNeg+Pret: gwekishingwaaban
+     gwekishin+3PlPos+Pret: gwekishinwaadban
+     gwekishin+3Sg+Pret: gwekishindban
+     gwekishin+Indef+Pret: gwekishinngban
+     
+     #Values from slots numbered: 2, 4
+     gwekishin+1Pl+Dub: gwekishinaangen
+     gwekishin+1Sg+Dub: gwekishinaanhen
+     gwekishin+21+Dub: gwekishiningen
+     gwekishin+2Pl+Dub: gwekishinegen
+     gwekishin+2Sg+Dub: gwekishininen
+     gwekishin+3Obv+Dub: gwekishinniden
+     gwekishin+3PlNeg+Dub: gwekishingwaaen
+     gwekishin+3PlPos+Dub: gwekishinwaaden
+     gwekishin+3Sg+Dub: gwekishinden
+     gwekishin+Indef+Dub: gwekishinngen
+     
+     #Values from slots numbered: 3, 4
+     gwekishin+Pret+Dub: gwekishinbanen
+     
+     #Values from slots numbered: 1, 2, 3
+     gwekishin+Neg+1Pl+Pret: gwekishinsiwaangban
+     gwekishin+Neg+1Sg+Pret: gwekishinsiwaanhban
+     gwekishin+Neg+21+Pret: gwekishinsiwingban
+     gwekishin+Neg+2Pl+Pret: gwekishinsiwegban
+     gwekishin+Neg+2Sg+Pret: gwekishinsiwinban
+     gwekishin+Neg+3Obv+Pret: gwekishinsiwnidban
+     gwekishin+Neg+3PlNeg+Pret: gwekishinsiwgwaaban
+     gwekishin+Neg+3PlPos+Pret: gwekishinsiwwaadban
+     gwekishin+Neg+3Sg+Pret: gwekishinsiwdban
+     gwekishin+Neg+Indef+Pret: gwekishinsiwngban
+     
+     #Values from slots numbered: 1, 2, 4
+     gwekishin+Neg+1Pl+Dub: gwekishinsiwaangen
+     gwekishin+Neg+1Sg+Dub: gwekishinsiwaanhen
+     gwekishin+Neg+21+Dub: gwekishinsiwingen
+     gwekishin+Neg+2Pl+Dub: gwekishinsiwegen
+     gwekishin+Neg+2Sg+Dub: gwekishinsiwinen
+     gwekishin+Neg+3Obv+Dub: gwekishinsiwniden
+     gwekishin+Neg+3PlNeg+Dub: gwekishinsiwgwaaen
+     gwekishin+Neg+3PlPos+Dub: gwekishinsiwwaaden
+     gwekishin+Neg+3Sg+Dub: gwekishinsiwden
+     gwekishin+Neg+Indef+Dub: gwekishinsiwngen
+     
+     #Values from slots numbered: 1, 3, 4
+     gwekishin+Neg+Pret+Dub: gwekishinsiwbanen
+     
+     #Values from slots numbered: 2, 3, 4
+     gwekishin+1Pl+Pret+Dub: gwekishinaangbanen
+     gwekishin+1Sg+Pret+Dub: gwekishinaanhbanen
+     gwekishin+21+Pret+Dub: gwekishiningbanen
+     gwekishin+2Pl+Pret+Dub: gwekishinegbanen
+     gwekishin+2Sg+Pret+Dub: gwekishininbanen
+     gwekishin+3Obv+Pret+Dub: gwekishinnidbanen
+     gwekishin+3PlNeg+Pret+Dub: gwekishingwaabanen
+     gwekishin+3PlPos+Pret+Dub: gwekishinwaadbanen
+     gwekishin+3Sg+Pret+Dub: gwekishindbanen
+     gwekishin+Indef+Pret+Dub: gwekishinngbanen
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     gwekishin+Neg+1Pl+Pret+Dub: gwekishinsiwaangbanen
+     gwekishin+Neg+1Sg+Pret+Dub: gwekishinsiwaanhbanen
+     gwekishin+Neg+21+Pret+Dub: gwekishinsiwingbanen
+     gwekishin+Neg+2Pl+Pret+Dub: gwekishinsiwegbanen
+     gwekishin+Neg+2Sg+Pret+Dub: gwekishinsiwinbanen
+     gwekishin+Neg+3Obv+Pret+Dub: gwekishinsiwnidbanen
+     gwekishin+Neg+3PlNeg+Pret+Dub: gwekishinsiwgwaabanen
+     gwekishin+Neg+3PlPos+Pret+Dub: gwekishinsiwwaadbanen
+     gwekishin+Neg+3Sg+Pret+Dub: gwekishinsiwdbanen
+     gwekishin+Neg+Indef+Pret+Dub: gwekishinsiwngbanen
+     

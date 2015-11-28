@@ -1,0 +1,369 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VINIT - aakozi - INDEP :
+
+  #Template Key
+  #1	2	3	4	5
+  #per	neg	num	mood	3num
+
+     #Isolation form
+     aakozi: aakozi
+     
+     #Values from slots numbered: 1
+     Px1+aakozi: niaakozi
+     Px2+aakozi: giaakozi
+     
+     #Values from slots numbered: 2
+     aakozi+Neg: aakozisii
+     
+     #Values from slots numbered: 3
+     aakozi+1Pl: aakozimin
+     aakozi+2Pl: aakozim
+     aakozi+Px3: aakoziw
+     
+     #Values from slots numbered: 4
+     aakozi+Dub: aakozidig
+     aakozi+Pret: aakoziban
+     aakozi+PretDub: aakozigoban
+     
+     #Values from slots numbered: 5
+     aakozi+3Obv: aakozian
+     aakozi+3Pl: aakoziag
+     
+     #Values from slots numbered: 1, 2
+     Px1+aakozi+Neg: niaakozisii
+     Px2+aakozi+Neg: giaakozisii
+     
+     #Values from slots numbered: 1, 3
+     Px1+aakozi+1Pl: niaakozimin
+     Px1+aakozi+2Pl: niaakozim
+     Px1+aakozi+Px3: niaakoziw
+     Px2+aakozi+1Pl: giaakozimin
+     Px2+aakozi+2Pl: giaakozim
+     Px2+aakozi+Px3: giaakoziw
+     
+     #Values from slots numbered: 1, 4
+     Px1+aakozi+Dub: niaakozidig
+     Px1+aakozi+Pret: niaakoziban
+     Px1+aakozi+PretDub: niaakozigoban
+     Px2+aakozi+Dub: giaakozidig
+     Px2+aakozi+Pret: giaakoziban
+     Px2+aakozi+PretDub: giaakozigoban
+     
+     #Values from slots numbered: 1, 5
+     Px1+aakozi+3Obv: niaakozian
+     Px1+aakozi+3Pl: niaakoziag
+     Px2+aakozi+3Obv: giaakozian
+     Px2+aakozi+3Pl: giaakoziag
+     
+     #Values from slots numbered: 2, 3
+     aakozi+Neg+1Pl: aakozisiimin
+     aakozi+Neg+2Pl: aakozisiim
+     aakozi+Neg+Px3: aakozisiiw
+     
+     #Values from slots numbered: 2, 4
+     aakozi+Neg+Dub: aakozisiidig
+     aakozi+Neg+Pret: aakozisiiban
+     aakozi+Neg+PretDub: aakozisiigoban
+     
+     #Values from slots numbered: 2, 5
+     aakozi+Neg+3Obv: aakozisiian
+     aakozi+Neg+3Pl: aakozisiiag
+     
+     #Values from slots numbered: 3, 4
+     aakozi+1Pl+Dub: aakozimindig
+     aakozi+1Pl+Pret: aakoziminban
+     aakozi+1Pl+PretDub: aakozimingoban
+     aakozi+2Pl+Dub: aakozimdig
+     aakozi+2Pl+Pret: aakozimban
+     aakozi+2Pl+PretDub: aakozimgoban
+     aakozi+Px3+Dub: aakoziwdig
+     aakozi+Px3+Pret: aakoziwban
+     aakozi+Px3+PretDub: aakoziwgoban
+     
+     #Values from slots numbered: 3, 5
+     aakozi+1Pl+3Obv: aakoziminan
+     aakozi+1Pl+3Pl: aakoziminag
+     aakozi+2Pl+3Obv: aakoziman
+     aakozi+2Pl+3Pl: aakozimag
+     aakozi+Px3+3Obv: aakoziwan
+     aakozi+Px3+3Pl: aakoziwag
+     
+     #Values from slots numbered: 4, 5
+     aakozi+Dub+3Obv: aakozidigan
+     aakozi+Dub+3Pl: aakozidigag
+     aakozi+Pret+3Obv: aakozibanan
+     aakozi+Pret+3Pl: aakozibanag
+     aakozi+PretDub+3Obv: aakozigobanan
+     aakozi+PretDub+3Pl: aakozigobanag
+     
+     #Values from slots numbered: 1, 2, 3
+     Px1+aakozi+Neg+1Pl: niaakozisiimin
+     Px1+aakozi+Neg+2Pl: niaakozisiim
+     Px1+aakozi+Neg+Px3: niaakozisiiw
+     Px2+aakozi+Neg+1Pl: giaakozisiimin
+     Px2+aakozi+Neg+2Pl: giaakozisiim
+     Px2+aakozi+Neg+Px3: giaakozisiiw
+     
+     #Values from slots numbered: 1, 2, 4
+     Px1+aakozi+Neg+Dub: niaakozisiidig
+     Px1+aakozi+Neg+Pret: niaakozisiiban
+     Px1+aakozi+Neg+PretDub: niaakozisiigoban
+     Px2+aakozi+Neg+Dub: giaakozisiidig
+     Px2+aakozi+Neg+Pret: giaakozisiiban
+     Px2+aakozi+Neg+PretDub: giaakozisiigoban
+     
+     #Values from slots numbered: 1, 2, 5
+     Px1+aakozi+Neg+3Obv: niaakozisiian
+     Px1+aakozi+Neg+3Pl: niaakozisiiag
+     Px2+aakozi+Neg+3Obv: giaakozisiian
+     Px2+aakozi+Neg+3Pl: giaakozisiiag
+     
+     #Values from slots numbered: 1, 3, 4
+     Px1+aakozi+1Pl+Dub: niaakozimindig
+     Px1+aakozi+1Pl+Pret: niaakoziminban
+     Px1+aakozi+1Pl+PretDub: niaakozimingoban
+     Px1+aakozi+2Pl+Dub: niaakozimdig
+     Px1+aakozi+2Pl+Pret: niaakozimban
+     Px1+aakozi+2Pl+PretDub: niaakozimgoban
+     Px1+aakozi+Px3+Dub: niaakoziwdig
+     Px1+aakozi+Px3+Pret: niaakoziwban
+     Px1+aakozi+Px3+PretDub: niaakoziwgoban
+     Px2+aakozi+1Pl+Dub: giaakozimindig
+     Px2+aakozi+1Pl+Pret: giaakoziminban
+     Px2+aakozi+1Pl+PretDub: giaakozimingoban
+     Px2+aakozi+2Pl+Dub: giaakozimdig
+     Px2+aakozi+2Pl+Pret: giaakozimban
+     Px2+aakozi+2Pl+PretDub: giaakozimgoban
+     Px2+aakozi+Px3+Dub: giaakoziwdig
+     Px2+aakozi+Px3+Pret: giaakoziwban
+     Px2+aakozi+Px3+PretDub: giaakoziwgoban
+     
+     #Values from slots numbered: 1, 3, 5
+     Px1+aakozi+1Pl+3Obv: niaakoziminan
+     Px1+aakozi+1Pl+3Pl: niaakoziminag
+     Px1+aakozi+2Pl+3Obv: niaakoziman
+     Px1+aakozi+2Pl+3Pl: niaakozimag
+     Px1+aakozi+Px3+3Obv: niaakoziwan
+     Px1+aakozi+Px3+3Pl: niaakoziwag
+     Px2+aakozi+1Pl+3Obv: giaakoziminan
+     Px2+aakozi+1Pl+3Pl: giaakoziminag
+     Px2+aakozi+2Pl+3Obv: giaakoziman
+     Px2+aakozi+2Pl+3Pl: giaakozimag
+     Px2+aakozi+Px3+3Obv: giaakoziwan
+     Px2+aakozi+Px3+3Pl: giaakoziwag
+     
+     #Values from slots numbered: 1, 4, 5
+     Px1+aakozi+Dub+3Obv: niaakozidigan
+     Px1+aakozi+Dub+3Pl: niaakozidigag
+     Px1+aakozi+Pret+3Obv: niaakozibanan
+     Px1+aakozi+Pret+3Pl: niaakozibanag
+     Px1+aakozi+PretDub+3Obv: niaakozigobanan
+     Px1+aakozi+PretDub+3Pl: niaakozigobanag
+     Px2+aakozi+Dub+3Obv: giaakozidigan
+     Px2+aakozi+Dub+3Pl: giaakozidigag
+     Px2+aakozi+Pret+3Obv: giaakozibanan
+     Px2+aakozi+Pret+3Pl: giaakozibanag
+     Px2+aakozi+PretDub+3Obv: giaakozigobanan
+     Px2+aakozi+PretDub+3Pl: giaakozigobanag
+     
+     #Values from slots numbered: 2, 3, 4
+     aakozi+Neg+1Pl+Dub: aakozisiimindig
+     aakozi+Neg+1Pl+Pret: aakozisiiminban
+     aakozi+Neg+1Pl+PretDub: aakozisiimingoban
+     aakozi+Neg+2Pl+Dub: aakozisiimdig
+     aakozi+Neg+2Pl+Pret: aakozisiimban
+     aakozi+Neg+2Pl+PretDub: aakozisiimgoban
+     aakozi+Neg+Px3+Dub: aakozisiiwdig
+     aakozi+Neg+Px3+Pret: aakozisiiwban
+     aakozi+Neg+Px3+PretDub: aakozisiiwgoban
+     
+     #Values from slots numbered: 2, 3, 5
+     aakozi+Neg+1Pl+3Obv: aakozisiiminan
+     aakozi+Neg+1Pl+3Pl: aakozisiiminag
+     aakozi+Neg+2Pl+3Obv: aakozisiiman
+     aakozi+Neg+2Pl+3Pl: aakozisiimag
+     aakozi+Neg+Px3+3Obv: aakozisiiwan
+     aakozi+Neg+Px3+3Pl: aakozisiiwag
+     
+     #Values from slots numbered: 2, 4, 5
+     aakozi+Neg+Dub+3Obv: aakozisiidigan
+     aakozi+Neg+Dub+3Pl: aakozisiidigag
+     aakozi+Neg+Pret+3Obv: aakozisiibanan
+     aakozi+Neg+Pret+3Pl: aakozisiibanag
+     aakozi+Neg+PretDub+3Obv: aakozisiigobanan
+     aakozi+Neg+PretDub+3Pl: aakozisiigobanag
+     
+     #Values from slots numbered: 3, 4, 5
+     aakozi+1Pl+Dub+3Obv: aakozimindigan
+     aakozi+1Pl+Dub+3Pl: aakozimindigag
+     aakozi+1Pl+Pret+3Obv: aakoziminbanan
+     aakozi+1Pl+Pret+3Pl: aakoziminbanag
+     aakozi+1Pl+PretDub+3Obv: aakozimingobanan
+     aakozi+1Pl+PretDub+3Pl: aakozimingobanag
+     aakozi+2Pl+Dub+3Obv: aakozimdigan
+     aakozi+2Pl+Dub+3Pl: aakozimdigag
+     aakozi+2Pl+Pret+3Obv: aakozimbanan
+     aakozi+2Pl+Pret+3Pl: aakozimbanag
+     aakozi+2Pl+PretDub+3Obv: aakozimgobanan
+     aakozi+2Pl+PretDub+3Pl: aakozimgobanag
+     aakozi+Px3+Dub+3Obv: aakoziwdigan
+     aakozi+Px3+Dub+3Pl: aakoziwdigag
+     aakozi+Px3+Pret+3Obv: aakoziwbanan
+     aakozi+Px3+Pret+3Pl: aakoziwbanag
+     aakozi+Px3+PretDub+3Obv: aakoziwgobanan
+     aakozi+Px3+PretDub+3Pl: aakoziwgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     Px1+aakozi+Neg+1Pl+Dub: niaakozisiimindig
+     Px1+aakozi+Neg+1Pl+Pret: niaakozisiiminban
+     Px1+aakozi+Neg+1Pl+PretDub: niaakozisiimingoban
+     Px1+aakozi+Neg+2Pl+Dub: niaakozisiimdig
+     Px1+aakozi+Neg+2Pl+Pret: niaakozisiimban
+     Px1+aakozi+Neg+2Pl+PretDub: niaakozisiimgoban
+     Px1+aakozi+Neg+Px3+Dub: niaakozisiiwdig
+     Px1+aakozi+Neg+Px3+Pret: niaakozisiiwban
+     Px1+aakozi+Neg+Px3+PretDub: niaakozisiiwgoban
+     Px2+aakozi+Neg+1Pl+Dub: giaakozisiimindig
+     Px2+aakozi+Neg+1Pl+Pret: giaakozisiiminban
+     Px2+aakozi+Neg+1Pl+PretDub: giaakozisiimingoban
+     Px2+aakozi+Neg+2Pl+Dub: giaakozisiimdig
+     Px2+aakozi+Neg+2Pl+Pret: giaakozisiimban
+     Px2+aakozi+Neg+2Pl+PretDub: giaakozisiimgoban
+     Px2+aakozi+Neg+Px3+Dub: giaakozisiiwdig
+     Px2+aakozi+Neg+Px3+Pret: giaakozisiiwban
+     Px2+aakozi+Neg+Px3+PretDub: giaakozisiiwgoban
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     Px1+aakozi+Neg+1Pl+3Obv: niaakozisiiminan
+     Px1+aakozi+Neg+1Pl+3Pl: niaakozisiiminag
+     Px1+aakozi+Neg+2Pl+3Obv: niaakozisiiman
+     Px1+aakozi+Neg+2Pl+3Pl: niaakozisiimag
+     Px1+aakozi+Neg+Px3+3Obv: niaakozisiiwan
+     Px1+aakozi+Neg+Px3+3Pl: niaakozisiiwag
+     Px2+aakozi+Neg+1Pl+3Obv: giaakozisiiminan
+     Px2+aakozi+Neg+1Pl+3Pl: giaakozisiiminag
+     Px2+aakozi+Neg+2Pl+3Obv: giaakozisiiman
+     Px2+aakozi+Neg+2Pl+3Pl: giaakozisiimag
+     Px2+aakozi+Neg+Px3+3Obv: giaakozisiiwan
+     Px2+aakozi+Neg+Px3+3Pl: giaakozisiiwag
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     Px1+aakozi+Neg+Dub+3Obv: niaakozisiidigan
+     Px1+aakozi+Neg+Dub+3Pl: niaakozisiidigag
+     Px1+aakozi+Neg+Pret+3Obv: niaakozisiibanan
+     Px1+aakozi+Neg+Pret+3Pl: niaakozisiibanag
+     Px1+aakozi+Neg+PretDub+3Obv: niaakozisiigobanan
+     Px1+aakozi+Neg+PretDub+3Pl: niaakozisiigobanag
+     Px2+aakozi+Neg+Dub+3Obv: giaakozisiidigan
+     Px2+aakozi+Neg+Dub+3Pl: giaakozisiidigag
+     Px2+aakozi+Neg+Pret+3Obv: giaakozisiibanan
+     Px2+aakozi+Neg+Pret+3Pl: giaakozisiibanag
+     Px2+aakozi+Neg+PretDub+3Obv: giaakozisiigobanan
+     Px2+aakozi+Neg+PretDub+3Pl: giaakozisiigobanag
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     Px1+aakozi+1Pl+Dub+3Obv: niaakozimindigan
+     Px1+aakozi+1Pl+Dub+3Pl: niaakozimindigag
+     Px1+aakozi+1Pl+Pret+3Obv: niaakoziminbanan
+     Px1+aakozi+1Pl+Pret+3Pl: niaakoziminbanag
+     Px1+aakozi+1Pl+PretDub+3Obv: niaakozimingobanan
+     Px1+aakozi+1Pl+PretDub+3Pl: niaakozimingobanag
+     Px1+aakozi+2Pl+Dub+3Obv: niaakozimdigan
+     Px1+aakozi+2Pl+Dub+3Pl: niaakozimdigag
+     Px1+aakozi+2Pl+Pret+3Obv: niaakozimbanan
+     Px1+aakozi+2Pl+Pret+3Pl: niaakozimbanag
+     Px1+aakozi+2Pl+PretDub+3Obv: niaakozimgobanan
+     Px1+aakozi+2Pl+PretDub+3Pl: niaakozimgobanag
+     Px1+aakozi+Px3+Dub+3Obv: niaakoziwdigan
+     Px1+aakozi+Px3+Dub+3Pl: niaakoziwdigag
+     Px1+aakozi+Px3+Pret+3Obv: niaakoziwbanan
+     Px1+aakozi+Px3+Pret+3Pl: niaakoziwbanag
+     Px1+aakozi+Px3+PretDub+3Obv: niaakoziwgobanan
+     Px1+aakozi+Px3+PretDub+3Pl: niaakoziwgobanag
+     Px2+aakozi+1Pl+Dub+3Obv: giaakozimindigan
+     Px2+aakozi+1Pl+Dub+3Pl: giaakozimindigag
+     Px2+aakozi+1Pl+Pret+3Obv: giaakoziminbanan
+     Px2+aakozi+1Pl+Pret+3Pl: giaakoziminbanag
+     Px2+aakozi+1Pl+PretDub+3Obv: giaakozimingobanan
+     Px2+aakozi+1Pl+PretDub+3Pl: giaakozimingobanag
+     Px2+aakozi+2Pl+Dub+3Obv: giaakozimdigan
+     Px2+aakozi+2Pl+Dub+3Pl: giaakozimdigag
+     Px2+aakozi+2Pl+Pret+3Obv: giaakozimbanan
+     Px2+aakozi+2Pl+Pret+3Pl: giaakozimbanag
+     Px2+aakozi+2Pl+PretDub+3Obv: giaakozimgobanan
+     Px2+aakozi+2Pl+PretDub+3Pl: giaakozimgobanag
+     Px2+aakozi+Px3+Dub+3Obv: giaakoziwdigan
+     Px2+aakozi+Px3+Dub+3Pl: giaakoziwdigag
+     Px2+aakozi+Px3+Pret+3Obv: giaakoziwbanan
+     Px2+aakozi+Px3+Pret+3Pl: giaakoziwbanag
+     Px2+aakozi+Px3+PretDub+3Obv: giaakoziwgobanan
+     Px2+aakozi+Px3+PretDub+3Pl: giaakoziwgobanag
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     aakozi+Neg+1Pl+Dub+3Obv: aakozisiimindigan
+     aakozi+Neg+1Pl+Dub+3Pl: aakozisiimindigag
+     aakozi+Neg+1Pl+Pret+3Obv: aakozisiiminbanan
+     aakozi+Neg+1Pl+Pret+3Pl: aakozisiiminbanag
+     aakozi+Neg+1Pl+PretDub+3Obv: aakozisiimingobanan
+     aakozi+Neg+1Pl+PretDub+3Pl: aakozisiimingobanag
+     aakozi+Neg+2Pl+Dub+3Obv: aakozisiimdigan
+     aakozi+Neg+2Pl+Dub+3Pl: aakozisiimdigag
+     aakozi+Neg+2Pl+Pret+3Obv: aakozisiimbanan
+     aakozi+Neg+2Pl+Pret+3Pl: aakozisiimbanag
+     aakozi+Neg+2Pl+PretDub+3Obv: aakozisiimgobanan
+     aakozi+Neg+2Pl+PretDub+3Pl: aakozisiimgobanag
+     aakozi+Neg+Px3+Dub+3Obv: aakozisiiwdigan
+     aakozi+Neg+Px3+Dub+3Pl: aakozisiiwdigag
+     aakozi+Neg+Px3+Pret+3Obv: aakozisiiwbanan
+     aakozi+Neg+Px3+Pret+3Pl: aakozisiiwbanag
+     aakozi+Neg+Px3+PretDub+3Obv: aakozisiiwgobanan
+     aakozi+Neg+Px3+PretDub+3Pl: aakozisiiwgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     Px1+aakozi+Neg+1Pl+Dub+3Obv: niaakozisiimindigan
+     Px1+aakozi+Neg+1Pl+Dub+3Pl: niaakozisiimindigag
+     Px1+aakozi+Neg+1Pl+Pret+3Obv: niaakozisiiminbanan
+     Px1+aakozi+Neg+1Pl+Pret+3Pl: niaakozisiiminbanag
+     Px1+aakozi+Neg+1Pl+PretDub+3Obv: niaakozisiimingobanan
+     Px1+aakozi+Neg+1Pl+PretDub+3Pl: niaakozisiimingobanag
+     Px1+aakozi+Neg+2Pl+Dub+3Obv: niaakozisiimdigan
+     Px1+aakozi+Neg+2Pl+Dub+3Pl: niaakozisiimdigag
+     Px1+aakozi+Neg+2Pl+Pret+3Obv: niaakozisiimbanan
+     Px1+aakozi+Neg+2Pl+Pret+3Pl: niaakozisiimbanag
+     Px1+aakozi+Neg+2Pl+PretDub+3Obv: niaakozisiimgobanan
+     Px1+aakozi+Neg+2Pl+PretDub+3Pl: niaakozisiimgobanag
+     Px1+aakozi+Neg+Px3+Dub+3Obv: niaakozisiiwdigan
+     Px1+aakozi+Neg+Px3+Dub+3Pl: niaakozisiiwdigag
+     Px1+aakozi+Neg+Px3+Pret+3Obv: niaakozisiiwbanan
+     Px1+aakozi+Neg+Px3+Pret+3Pl: niaakozisiiwbanag
+     Px1+aakozi+Neg+Px3+PretDub+3Obv: niaakozisiiwgobanan
+     Px1+aakozi+Neg+Px3+PretDub+3Pl: niaakozisiiwgobanag
+     Px2+aakozi+Neg+1Pl+Dub+3Obv: giaakozisiimindigan
+     Px2+aakozi+Neg+1Pl+Dub+3Pl: giaakozisiimindigag
+     Px2+aakozi+Neg+1Pl+Pret+3Obv: giaakozisiiminbanan
+     Px2+aakozi+Neg+1Pl+Pret+3Pl: giaakozisiiminbanag
+     Px2+aakozi+Neg+1Pl+PretDub+3Obv: giaakozisiimingobanan
+     Px2+aakozi+Neg+1Pl+PretDub+3Pl: giaakozisiimingobanag
+     Px2+aakozi+Neg+2Pl+Dub+3Obv: giaakozisiimdigan
+     Px2+aakozi+Neg+2Pl+Dub+3Pl: giaakozisiimdigag
+     Px2+aakozi+Neg+2Pl+Pret+3Obv: giaakozisiimbanan
+     Px2+aakozi+Neg+2Pl+Pret+3Pl: giaakozisiimbanag
+     Px2+aakozi+Neg+2Pl+PretDub+3Obv: giaakozisiimgobanan
+     Px2+aakozi+Neg+2Pl+PretDub+3Pl: giaakozisiimgobanag
+     Px2+aakozi+Neg+Px3+Dub+3Obv: giaakozisiiwdigan
+     Px2+aakozi+Neg+Px3+Dub+3Pl: giaakozisiiwdigag
+     Px2+aakozi+Neg+Px3+Pret+3Obv: giaakozisiiwbanan
+     Px2+aakozi+Neg+Px3+Pret+3Pl: giaakozisiiwbanag
+     Px2+aakozi+Neg+Px3+PretDub+3Obv: giaakozisiiwgobanan
+     Px2+aakozi+Neg+Px3+PretDub+3Pl: giaakozisiiwgobanag
+     
