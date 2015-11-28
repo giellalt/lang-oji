@@ -1,0 +1,81 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VLONG - boodawe - IMPER :
+
+  #Template Key
+  #1
+  #imperative
+
+     #Isolation form
+     boodawe: boodawe
+     
+     #Values from slots numbered: 1
+     boodawe+Imm21: boodawedaa
+     boodawe+Imm2Pl: boodaweg
+     boodawe+Imm2Sg: boodawen
+     
+     #Values from slots numbered: 2
+     boodawe+Del2Pl: boodawekag
+     boodawe+Del2Sg: boodawekan
+     
+     #Values from slots numbered: 3
+     boodawe+Prob21: boodawesiidaa
+     boodawe+Prob2Pl: boodawekegon
+     boodawe+Prob2Sg: boodaweken
+     
+     #Values from slots numbered: 1, 2
+     boodawe+Imm21+Del2Pl: boodawedaakag
+     boodawe+Imm21+Del2Sg: boodawedaakan
+     boodawe+Imm2Pl+Del2Pl: boodawegkag
+     boodawe+Imm2Pl+Del2Sg: boodawegkan
+     boodawe+Imm2Sg+Del2Pl: boodawenkag
+     boodawe+Imm2Sg+Del2Sg: boodawenkan
+     
+     #Values from slots numbered: 1, 3
+     boodawe+Imm21+Prob21: boodawedaasiidaa
+     boodawe+Imm21+Prob2Pl: boodawedaakegon
+     boodawe+Imm21+Prob2Sg: boodawedaaken
+     boodawe+Imm2Pl+Prob21: boodawegsiidaa
+     boodawe+Imm2Pl+Prob2Pl: boodawegkegon
+     boodawe+Imm2Pl+Prob2Sg: boodawegken
+     boodawe+Imm2Sg+Prob21: boodawensiidaa
+     boodawe+Imm2Sg+Prob2Pl: boodawenkegon
+     boodawe+Imm2Sg+Prob2Sg: boodawenken
+     
+     #Values from slots numbered: 2, 3
+     boodawe+Del2Pl+Prob21: boodawekagsiidaa
+     boodawe+Del2Pl+Prob2Pl: boodawekagkegon
+     boodawe+Del2Pl+Prob2Sg: boodawekagken
+     boodawe+Del2Sg+Prob21: boodawekansiidaa
+     boodawe+Del2Sg+Prob2Pl: boodawekankegon
+     boodawe+Del2Sg+Prob2Sg: boodawekanken
+     
+     #Values from slots numbered: 1, 2, 3
+     boodawe+Imm21+Del2Pl+Prob21: boodawedaakagsiidaa
+     boodawe+Imm21+Del2Pl+Prob2Pl: boodawedaakagkegon
+     boodawe+Imm21+Del2Pl+Prob2Sg: boodawedaakagken
+     boodawe+Imm21+Del2Sg+Prob21: boodawedaakansiidaa
+     boodawe+Imm21+Del2Sg+Prob2Pl: boodawedaakankegon
+     boodawe+Imm21+Del2Sg+Prob2Sg: boodawedaakanken
+     boodawe+Imm2Pl+Del2Pl+Prob21: boodawegkagsiidaa
+     boodawe+Imm2Pl+Del2Pl+Prob2Pl: boodawegkagkegon
+     boodawe+Imm2Pl+Del2Pl+Prob2Sg: boodawegkagken
+     boodawe+Imm2Pl+Del2Sg+Prob21: boodawegkansiidaa
+     boodawe+Imm2Pl+Del2Sg+Prob2Pl: boodawegkankegon
+     boodawe+Imm2Pl+Del2Sg+Prob2Sg: boodawegkanken
+     boodawe+Imm2Sg+Del2Pl+Prob21: boodawenkagsiidaa
+     boodawe+Imm2Sg+Del2Pl+Prob2Pl: boodawenkagkegon
+     boodawe+Imm2Sg+Del2Pl+Prob2Sg: boodawenkagken
+     boodawe+Imm2Sg+Del2Sg+Prob21: boodawenkansiidaa
+     boodawe+Imm2Sg+Del2Sg+Prob2Pl: boodawenkankegon
+     boodawe+Imm2Sg+Del2Sg+Prob2Sg: boodawenkanken
+     

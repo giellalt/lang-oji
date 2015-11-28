@@ -1,0 +1,369 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - V - niimi - INDEP :
+
+  #Template Key
+  #1	2	3	4	5
+  #per	neg	num	mood	3num
+
+     #Isolation form
+     niimi: niimi
+     
+     #Values from slots numbered: 1
+     Px1+niimi: niniimi
+     Px2+niimi: giniimi
+     
+     #Values from slots numbered: 2
+     niimi+Neg: niimisii
+     
+     #Values from slots numbered: 3
+     niimi+1Pl: niimimin
+     niimi+2Pl: niimim
+     niimi+Px3: niimiw
+     
+     #Values from slots numbered: 4
+     niimi+Dub: niimidig
+     niimi+Pret: niimiban
+     niimi+PretDub: niimigoban
+     
+     #Values from slots numbered: 5
+     niimi+3Obv: niimian
+     niimi+3Pl: niimiag
+     
+     #Values from slots numbered: 1, 2
+     Px1+niimi+Neg: niniimisii
+     Px2+niimi+Neg: giniimisii
+     
+     #Values from slots numbered: 1, 3
+     Px1+niimi+1Pl: niniimimin
+     Px1+niimi+2Pl: niniimim
+     Px1+niimi+Px3: niniimiw
+     Px2+niimi+1Pl: giniimimin
+     Px2+niimi+2Pl: giniimim
+     Px2+niimi+Px3: giniimiw
+     
+     #Values from slots numbered: 1, 4
+     Px1+niimi+Dub: niniimidig
+     Px1+niimi+Pret: niniimiban
+     Px1+niimi+PretDub: niniimigoban
+     Px2+niimi+Dub: giniimidig
+     Px2+niimi+Pret: giniimiban
+     Px2+niimi+PretDub: giniimigoban
+     
+     #Values from slots numbered: 1, 5
+     Px1+niimi+3Obv: niniimian
+     Px1+niimi+3Pl: niniimiag
+     Px2+niimi+3Obv: giniimian
+     Px2+niimi+3Pl: giniimiag
+     
+     #Values from slots numbered: 2, 3
+     niimi+Neg+1Pl: niimisiimin
+     niimi+Neg+2Pl: niimisiim
+     niimi+Neg+Px3: niimisiiw
+     
+     #Values from slots numbered: 2, 4
+     niimi+Neg+Dub: niimisiidig
+     niimi+Neg+Pret: niimisiiban
+     niimi+Neg+PretDub: niimisiigoban
+     
+     #Values from slots numbered: 2, 5
+     niimi+Neg+3Obv: niimisiian
+     niimi+Neg+3Pl: niimisiiag
+     
+     #Values from slots numbered: 3, 4
+     niimi+1Pl+Dub: niimimindig
+     niimi+1Pl+Pret: niimiminban
+     niimi+1Pl+PretDub: niimimingoban
+     niimi+2Pl+Dub: niimimdig
+     niimi+2Pl+Pret: niimimban
+     niimi+2Pl+PretDub: niimimgoban
+     niimi+Px3+Dub: niimiwdig
+     niimi+Px3+Pret: niimiwban
+     niimi+Px3+PretDub: niimiwgoban
+     
+     #Values from slots numbered: 3, 5
+     niimi+1Pl+3Obv: niimiminan
+     niimi+1Pl+3Pl: niimiminag
+     niimi+2Pl+3Obv: niimiman
+     niimi+2Pl+3Pl: niimimag
+     niimi+Px3+3Obv: niimiwan
+     niimi+Px3+3Pl: niimiwag
+     
+     #Values from slots numbered: 4, 5
+     niimi+Dub+3Obv: niimidigan
+     niimi+Dub+3Pl: niimidigag
+     niimi+Pret+3Obv: niimibanan
+     niimi+Pret+3Pl: niimibanag
+     niimi+PretDub+3Obv: niimigobanan
+     niimi+PretDub+3Pl: niimigobanag
+     
+     #Values from slots numbered: 1, 2, 3
+     Px1+niimi+Neg+1Pl: niniimisiimin
+     Px1+niimi+Neg+2Pl: niniimisiim
+     Px1+niimi+Neg+Px3: niniimisiiw
+     Px2+niimi+Neg+1Pl: giniimisiimin
+     Px2+niimi+Neg+2Pl: giniimisiim
+     Px2+niimi+Neg+Px3: giniimisiiw
+     
+     #Values from slots numbered: 1, 2, 4
+     Px1+niimi+Neg+Dub: niniimisiidig
+     Px1+niimi+Neg+Pret: niniimisiiban
+     Px1+niimi+Neg+PretDub: niniimisiigoban
+     Px2+niimi+Neg+Dub: giniimisiidig
+     Px2+niimi+Neg+Pret: giniimisiiban
+     Px2+niimi+Neg+PretDub: giniimisiigoban
+     
+     #Values from slots numbered: 1, 2, 5
+     Px1+niimi+Neg+3Obv: niniimisiian
+     Px1+niimi+Neg+3Pl: niniimisiiag
+     Px2+niimi+Neg+3Obv: giniimisiian
+     Px2+niimi+Neg+3Pl: giniimisiiag
+     
+     #Values from slots numbered: 1, 3, 4
+     Px1+niimi+1Pl+Dub: niniimimindig
+     Px1+niimi+1Pl+Pret: niniimiminban
+     Px1+niimi+1Pl+PretDub: niniimimingoban
+     Px1+niimi+2Pl+Dub: niniimimdig
+     Px1+niimi+2Pl+Pret: niniimimban
+     Px1+niimi+2Pl+PretDub: niniimimgoban
+     Px1+niimi+Px3+Dub: niniimiwdig
+     Px1+niimi+Px3+Pret: niniimiwban
+     Px1+niimi+Px3+PretDub: niniimiwgoban
+     Px2+niimi+1Pl+Dub: giniimimindig
+     Px2+niimi+1Pl+Pret: giniimiminban
+     Px2+niimi+1Pl+PretDub: giniimimingoban
+     Px2+niimi+2Pl+Dub: giniimimdig
+     Px2+niimi+2Pl+Pret: giniimimban
+     Px2+niimi+2Pl+PretDub: giniimimgoban
+     Px2+niimi+Px3+Dub: giniimiwdig
+     Px2+niimi+Px3+Pret: giniimiwban
+     Px2+niimi+Px3+PretDub: giniimiwgoban
+     
+     #Values from slots numbered: 1, 3, 5
+     Px1+niimi+1Pl+3Obv: niniimiminan
+     Px1+niimi+1Pl+3Pl: niniimiminag
+     Px1+niimi+2Pl+3Obv: niniimiman
+     Px1+niimi+2Pl+3Pl: niniimimag
+     Px1+niimi+Px3+3Obv: niniimiwan
+     Px1+niimi+Px3+3Pl: niniimiwag
+     Px2+niimi+1Pl+3Obv: giniimiminan
+     Px2+niimi+1Pl+3Pl: giniimiminag
+     Px2+niimi+2Pl+3Obv: giniimiman
+     Px2+niimi+2Pl+3Pl: giniimimag
+     Px2+niimi+Px3+3Obv: giniimiwan
+     Px2+niimi+Px3+3Pl: giniimiwag
+     
+     #Values from slots numbered: 1, 4, 5
+     Px1+niimi+Dub+3Obv: niniimidigan
+     Px1+niimi+Dub+3Pl: niniimidigag
+     Px1+niimi+Pret+3Obv: niniimibanan
+     Px1+niimi+Pret+3Pl: niniimibanag
+     Px1+niimi+PretDub+3Obv: niniimigobanan
+     Px1+niimi+PretDub+3Pl: niniimigobanag
+     Px2+niimi+Dub+3Obv: giniimidigan
+     Px2+niimi+Dub+3Pl: giniimidigag
+     Px2+niimi+Pret+3Obv: giniimibanan
+     Px2+niimi+Pret+3Pl: giniimibanag
+     Px2+niimi+PretDub+3Obv: giniimigobanan
+     Px2+niimi+PretDub+3Pl: giniimigobanag
+     
+     #Values from slots numbered: 2, 3, 4
+     niimi+Neg+1Pl+Dub: niimisiimindig
+     niimi+Neg+1Pl+Pret: niimisiiminban
+     niimi+Neg+1Pl+PretDub: niimisiimingoban
+     niimi+Neg+2Pl+Dub: niimisiimdig
+     niimi+Neg+2Pl+Pret: niimisiimban
+     niimi+Neg+2Pl+PretDub: niimisiimgoban
+     niimi+Neg+Px3+Dub: niimisiiwdig
+     niimi+Neg+Px3+Pret: niimisiiwban
+     niimi+Neg+Px3+PretDub: niimisiiwgoban
+     
+     #Values from slots numbered: 2, 3, 5
+     niimi+Neg+1Pl+3Obv: niimisiiminan
+     niimi+Neg+1Pl+3Pl: niimisiiminag
+     niimi+Neg+2Pl+3Obv: niimisiiman
+     niimi+Neg+2Pl+3Pl: niimisiimag
+     niimi+Neg+Px3+3Obv: niimisiiwan
+     niimi+Neg+Px3+3Pl: niimisiiwag
+     
+     #Values from slots numbered: 2, 4, 5
+     niimi+Neg+Dub+3Obv: niimisiidigan
+     niimi+Neg+Dub+3Pl: niimisiidigag
+     niimi+Neg+Pret+3Obv: niimisiibanan
+     niimi+Neg+Pret+3Pl: niimisiibanag
+     niimi+Neg+PretDub+3Obv: niimisiigobanan
+     niimi+Neg+PretDub+3Pl: niimisiigobanag
+     
+     #Values from slots numbered: 3, 4, 5
+     niimi+1Pl+Dub+3Obv: niimimindigan
+     niimi+1Pl+Dub+3Pl: niimimindigag
+     niimi+1Pl+Pret+3Obv: niimiminbanan
+     niimi+1Pl+Pret+3Pl: niimiminbanag
+     niimi+1Pl+PretDub+3Obv: niimimingobanan
+     niimi+1Pl+PretDub+3Pl: niimimingobanag
+     niimi+2Pl+Dub+3Obv: niimimdigan
+     niimi+2Pl+Dub+3Pl: niimimdigag
+     niimi+2Pl+Pret+3Obv: niimimbanan
+     niimi+2Pl+Pret+3Pl: niimimbanag
+     niimi+2Pl+PretDub+3Obv: niimimgobanan
+     niimi+2Pl+PretDub+3Pl: niimimgobanag
+     niimi+Px3+Dub+3Obv: niimiwdigan
+     niimi+Px3+Dub+3Pl: niimiwdigag
+     niimi+Px3+Pret+3Obv: niimiwbanan
+     niimi+Px3+Pret+3Pl: niimiwbanag
+     niimi+Px3+PretDub+3Obv: niimiwgobanan
+     niimi+Px3+PretDub+3Pl: niimiwgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     Px1+niimi+Neg+1Pl+Dub: niniimisiimindig
+     Px1+niimi+Neg+1Pl+Pret: niniimisiiminban
+     Px1+niimi+Neg+1Pl+PretDub: niniimisiimingoban
+     Px1+niimi+Neg+2Pl+Dub: niniimisiimdig
+     Px1+niimi+Neg+2Pl+Pret: niniimisiimban
+     Px1+niimi+Neg+2Pl+PretDub: niniimisiimgoban
+     Px1+niimi+Neg+Px3+Dub: niniimisiiwdig
+     Px1+niimi+Neg+Px3+Pret: niniimisiiwban
+     Px1+niimi+Neg+Px3+PretDub: niniimisiiwgoban
+     Px2+niimi+Neg+1Pl+Dub: giniimisiimindig
+     Px2+niimi+Neg+1Pl+Pret: giniimisiiminban
+     Px2+niimi+Neg+1Pl+PretDub: giniimisiimingoban
+     Px2+niimi+Neg+2Pl+Dub: giniimisiimdig
+     Px2+niimi+Neg+2Pl+Pret: giniimisiimban
+     Px2+niimi+Neg+2Pl+PretDub: giniimisiimgoban
+     Px2+niimi+Neg+Px3+Dub: giniimisiiwdig
+     Px2+niimi+Neg+Px3+Pret: giniimisiiwban
+     Px2+niimi+Neg+Px3+PretDub: giniimisiiwgoban
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     Px1+niimi+Neg+1Pl+3Obv: niniimisiiminan
+     Px1+niimi+Neg+1Pl+3Pl: niniimisiiminag
+     Px1+niimi+Neg+2Pl+3Obv: niniimisiiman
+     Px1+niimi+Neg+2Pl+3Pl: niniimisiimag
+     Px1+niimi+Neg+Px3+3Obv: niniimisiiwan
+     Px1+niimi+Neg+Px3+3Pl: niniimisiiwag
+     Px2+niimi+Neg+1Pl+3Obv: giniimisiiminan
+     Px2+niimi+Neg+1Pl+3Pl: giniimisiiminag
+     Px2+niimi+Neg+2Pl+3Obv: giniimisiiman
+     Px2+niimi+Neg+2Pl+3Pl: giniimisiimag
+     Px2+niimi+Neg+Px3+3Obv: giniimisiiwan
+     Px2+niimi+Neg+Px3+3Pl: giniimisiiwag
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     Px1+niimi+Neg+Dub+3Obv: niniimisiidigan
+     Px1+niimi+Neg+Dub+3Pl: niniimisiidigag
+     Px1+niimi+Neg+Pret+3Obv: niniimisiibanan
+     Px1+niimi+Neg+Pret+3Pl: niniimisiibanag
+     Px1+niimi+Neg+PretDub+3Obv: niniimisiigobanan
+     Px1+niimi+Neg+PretDub+3Pl: niniimisiigobanag
+     Px2+niimi+Neg+Dub+3Obv: giniimisiidigan
+     Px2+niimi+Neg+Dub+3Pl: giniimisiidigag
+     Px2+niimi+Neg+Pret+3Obv: giniimisiibanan
+     Px2+niimi+Neg+Pret+3Pl: giniimisiibanag
+     Px2+niimi+Neg+PretDub+3Obv: giniimisiigobanan
+     Px2+niimi+Neg+PretDub+3Pl: giniimisiigobanag
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     Px1+niimi+1Pl+Dub+3Obv: niniimimindigan
+     Px1+niimi+1Pl+Dub+3Pl: niniimimindigag
+     Px1+niimi+1Pl+Pret+3Obv: niniimiminbanan
+     Px1+niimi+1Pl+Pret+3Pl: niniimiminbanag
+     Px1+niimi+1Pl+PretDub+3Obv: niniimimingobanan
+     Px1+niimi+1Pl+PretDub+3Pl: niniimimingobanag
+     Px1+niimi+2Pl+Dub+3Obv: niniimimdigan
+     Px1+niimi+2Pl+Dub+3Pl: niniimimdigag
+     Px1+niimi+2Pl+Pret+3Obv: niniimimbanan
+     Px1+niimi+2Pl+Pret+3Pl: niniimimbanag
+     Px1+niimi+2Pl+PretDub+3Obv: niniimimgobanan
+     Px1+niimi+2Pl+PretDub+3Pl: niniimimgobanag
+     Px1+niimi+Px3+Dub+3Obv: niniimiwdigan
+     Px1+niimi+Px3+Dub+3Pl: niniimiwdigag
+     Px1+niimi+Px3+Pret+3Obv: niniimiwbanan
+     Px1+niimi+Px3+Pret+3Pl: niniimiwbanag
+     Px1+niimi+Px3+PretDub+3Obv: niniimiwgobanan
+     Px1+niimi+Px3+PretDub+3Pl: niniimiwgobanag
+     Px2+niimi+1Pl+Dub+3Obv: giniimimindigan
+     Px2+niimi+1Pl+Dub+3Pl: giniimimindigag
+     Px2+niimi+1Pl+Pret+3Obv: giniimiminbanan
+     Px2+niimi+1Pl+Pret+3Pl: giniimiminbanag
+     Px2+niimi+1Pl+PretDub+3Obv: giniimimingobanan
+     Px2+niimi+1Pl+PretDub+3Pl: giniimimingobanag
+     Px2+niimi+2Pl+Dub+3Obv: giniimimdigan
+     Px2+niimi+2Pl+Dub+3Pl: giniimimdigag
+     Px2+niimi+2Pl+Pret+3Obv: giniimimbanan
+     Px2+niimi+2Pl+Pret+3Pl: giniimimbanag
+     Px2+niimi+2Pl+PretDub+3Obv: giniimimgobanan
+     Px2+niimi+2Pl+PretDub+3Pl: giniimimgobanag
+     Px2+niimi+Px3+Dub+3Obv: giniimiwdigan
+     Px2+niimi+Px3+Dub+3Pl: giniimiwdigag
+     Px2+niimi+Px3+Pret+3Obv: giniimiwbanan
+     Px2+niimi+Px3+Pret+3Pl: giniimiwbanag
+     Px2+niimi+Px3+PretDub+3Obv: giniimiwgobanan
+     Px2+niimi+Px3+PretDub+3Pl: giniimiwgobanag
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     niimi+Neg+1Pl+Dub+3Obv: niimisiimindigan
+     niimi+Neg+1Pl+Dub+3Pl: niimisiimindigag
+     niimi+Neg+1Pl+Pret+3Obv: niimisiiminbanan
+     niimi+Neg+1Pl+Pret+3Pl: niimisiiminbanag
+     niimi+Neg+1Pl+PretDub+3Obv: niimisiimingobanan
+     niimi+Neg+1Pl+PretDub+3Pl: niimisiimingobanag
+     niimi+Neg+2Pl+Dub+3Obv: niimisiimdigan
+     niimi+Neg+2Pl+Dub+3Pl: niimisiimdigag
+     niimi+Neg+2Pl+Pret+3Obv: niimisiimbanan
+     niimi+Neg+2Pl+Pret+3Pl: niimisiimbanag
+     niimi+Neg+2Pl+PretDub+3Obv: niimisiimgobanan
+     niimi+Neg+2Pl+PretDub+3Pl: niimisiimgobanag
+     niimi+Neg+Px3+Dub+3Obv: niimisiiwdigan
+     niimi+Neg+Px3+Dub+3Pl: niimisiiwdigag
+     niimi+Neg+Px3+Pret+3Obv: niimisiiwbanan
+     niimi+Neg+Px3+Pret+3Pl: niimisiiwbanag
+     niimi+Neg+Px3+PretDub+3Obv: niimisiiwgobanan
+     niimi+Neg+Px3+PretDub+3Pl: niimisiiwgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     Px1+niimi+Neg+1Pl+Dub+3Obv: niniimisiimindigan
+     Px1+niimi+Neg+1Pl+Dub+3Pl: niniimisiimindigag
+     Px1+niimi+Neg+1Pl+Pret+3Obv: niniimisiiminbanan
+     Px1+niimi+Neg+1Pl+Pret+3Pl: niniimisiiminbanag
+     Px1+niimi+Neg+1Pl+PretDub+3Obv: niniimisiimingobanan
+     Px1+niimi+Neg+1Pl+PretDub+3Pl: niniimisiimingobanag
+     Px1+niimi+Neg+2Pl+Dub+3Obv: niniimisiimdigan
+     Px1+niimi+Neg+2Pl+Dub+3Pl: niniimisiimdigag
+     Px1+niimi+Neg+2Pl+Pret+3Obv: niniimisiimbanan
+     Px1+niimi+Neg+2Pl+Pret+3Pl: niniimisiimbanag
+     Px1+niimi+Neg+2Pl+PretDub+3Obv: niniimisiimgobanan
+     Px1+niimi+Neg+2Pl+PretDub+3Pl: niniimisiimgobanag
+     Px1+niimi+Neg+Px3+Dub+3Obv: niniimisiiwdigan
+     Px1+niimi+Neg+Px3+Dub+3Pl: niniimisiiwdigag
+     Px1+niimi+Neg+Px3+Pret+3Obv: niniimisiiwbanan
+     Px1+niimi+Neg+Px3+Pret+3Pl: niniimisiiwbanag
+     Px1+niimi+Neg+Px3+PretDub+3Obv: niniimisiiwgobanan
+     Px1+niimi+Neg+Px3+PretDub+3Pl: niniimisiiwgobanag
+     Px2+niimi+Neg+1Pl+Dub+3Obv: giniimisiimindigan
+     Px2+niimi+Neg+1Pl+Dub+3Pl: giniimisiimindigag
+     Px2+niimi+Neg+1Pl+Pret+3Obv: giniimisiiminbanan
+     Px2+niimi+Neg+1Pl+Pret+3Pl: giniimisiiminbanag
+     Px2+niimi+Neg+1Pl+PretDub+3Obv: giniimisiimingobanan
+     Px2+niimi+Neg+1Pl+PretDub+3Pl: giniimisiimingobanag
+     Px2+niimi+Neg+2Pl+Dub+3Obv: giniimisiimdigan
+     Px2+niimi+Neg+2Pl+Dub+3Pl: giniimisiimdigag
+     Px2+niimi+Neg+2Pl+Pret+3Obv: giniimisiimbanan
+     Px2+niimi+Neg+2Pl+Pret+3Pl: giniimisiimbanag
+     Px2+niimi+Neg+2Pl+PretDub+3Obv: giniimisiimgobanan
+     Px2+niimi+Neg+2Pl+PretDub+3Pl: giniimisiimgobanag
+     Px2+niimi+Neg+Px3+Dub+3Obv: giniimisiiwdigan
+     Px2+niimi+Neg+Px3+Dub+3Pl: giniimisiiwdigag
+     Px2+niimi+Neg+Px3+Pret+3Obv: giniimisiiwbanan
+     Px2+niimi+Neg+Px3+Pret+3Pl: giniimisiiwbanag
+     Px2+niimi+Neg+Px3+PretDub+3Obv: giniimisiiwgobanan
+     Px2+niimi+Neg+Px3+PretDub+3Pl: giniimisiiwgobanag
+     

@@ -1,0 +1,369 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VLONG - boodawe - INDEP :
+
+  #Template Key
+  #1	2	3	4	5
+  #per	neg	num	mood	3num
+
+     #Isolation form
+     boodawe: boodawe
+     
+     #Values from slots numbered: 1
+     Px1+boodawe: niboodawe
+     Px2+boodawe: giboodawe
+     
+     #Values from slots numbered: 2
+     boodawe+Neg: boodawesii
+     
+     #Values from slots numbered: 3
+     boodawe+1Pl: boodawemin
+     boodawe+2Pl: boodawem
+     boodawe+Px3: boodawew
+     
+     #Values from slots numbered: 4
+     boodawe+Dub: boodawedig
+     boodawe+Pret: boodaweban
+     boodawe+PretDub: boodawegoban
+     
+     #Values from slots numbered: 5
+     boodawe+3Obv: boodawean
+     boodawe+3Pl: boodaweag
+     
+     #Values from slots numbered: 1, 2
+     Px1+boodawe+Neg: niboodawesii
+     Px2+boodawe+Neg: giboodawesii
+     
+     #Values from slots numbered: 1, 3
+     Px1+boodawe+1Pl: niboodawemin
+     Px1+boodawe+2Pl: niboodawem
+     Px1+boodawe+Px3: niboodawew
+     Px2+boodawe+1Pl: giboodawemin
+     Px2+boodawe+2Pl: giboodawem
+     Px2+boodawe+Px3: giboodawew
+     
+     #Values from slots numbered: 1, 4
+     Px1+boodawe+Dub: niboodawedig
+     Px1+boodawe+Pret: niboodaweban
+     Px1+boodawe+PretDub: niboodawegoban
+     Px2+boodawe+Dub: giboodawedig
+     Px2+boodawe+Pret: giboodaweban
+     Px2+boodawe+PretDub: giboodawegoban
+     
+     #Values from slots numbered: 1, 5
+     Px1+boodawe+3Obv: niboodawean
+     Px1+boodawe+3Pl: niboodaweag
+     Px2+boodawe+3Obv: giboodawean
+     Px2+boodawe+3Pl: giboodaweag
+     
+     #Values from slots numbered: 2, 3
+     boodawe+Neg+1Pl: boodawesiimin
+     boodawe+Neg+2Pl: boodawesiim
+     boodawe+Neg+Px3: boodawesiiw
+     
+     #Values from slots numbered: 2, 4
+     boodawe+Neg+Dub: boodawesiidig
+     boodawe+Neg+Pret: boodawesiiban
+     boodawe+Neg+PretDub: boodawesiigoban
+     
+     #Values from slots numbered: 2, 5
+     boodawe+Neg+3Obv: boodawesiian
+     boodawe+Neg+3Pl: boodawesiiag
+     
+     #Values from slots numbered: 3, 4
+     boodawe+1Pl+Dub: boodawemindig
+     boodawe+1Pl+Pret: boodaweminban
+     boodawe+1Pl+PretDub: boodawemingoban
+     boodawe+2Pl+Dub: boodawemdig
+     boodawe+2Pl+Pret: boodawemban
+     boodawe+2Pl+PretDub: boodawemgoban
+     boodawe+Px3+Dub: boodawewdig
+     boodawe+Px3+Pret: boodawewban
+     boodawe+Px3+PretDub: boodawewgoban
+     
+     #Values from slots numbered: 3, 5
+     boodawe+1Pl+3Obv: boodaweminan
+     boodawe+1Pl+3Pl: boodaweminag
+     boodawe+2Pl+3Obv: boodaweman
+     boodawe+2Pl+3Pl: boodawemag
+     boodawe+Px3+3Obv: boodawewan
+     boodawe+Px3+3Pl: boodawewag
+     
+     #Values from slots numbered: 4, 5
+     boodawe+Dub+3Obv: boodawedigan
+     boodawe+Dub+3Pl: boodawedigag
+     boodawe+Pret+3Obv: boodawebanan
+     boodawe+Pret+3Pl: boodawebanag
+     boodawe+PretDub+3Obv: boodawegobanan
+     boodawe+PretDub+3Pl: boodawegobanag
+     
+     #Values from slots numbered: 1, 2, 3
+     Px1+boodawe+Neg+1Pl: niboodawesiimin
+     Px1+boodawe+Neg+2Pl: niboodawesiim
+     Px1+boodawe+Neg+Px3: niboodawesiiw
+     Px2+boodawe+Neg+1Pl: giboodawesiimin
+     Px2+boodawe+Neg+2Pl: giboodawesiim
+     Px2+boodawe+Neg+Px3: giboodawesiiw
+     
+     #Values from slots numbered: 1, 2, 4
+     Px1+boodawe+Neg+Dub: niboodawesiidig
+     Px1+boodawe+Neg+Pret: niboodawesiiban
+     Px1+boodawe+Neg+PretDub: niboodawesiigoban
+     Px2+boodawe+Neg+Dub: giboodawesiidig
+     Px2+boodawe+Neg+Pret: giboodawesiiban
+     Px2+boodawe+Neg+PretDub: giboodawesiigoban
+     
+     #Values from slots numbered: 1, 2, 5
+     Px1+boodawe+Neg+3Obv: niboodawesiian
+     Px1+boodawe+Neg+3Pl: niboodawesiiag
+     Px2+boodawe+Neg+3Obv: giboodawesiian
+     Px2+boodawe+Neg+3Pl: giboodawesiiag
+     
+     #Values from slots numbered: 1, 3, 4
+     Px1+boodawe+1Pl+Dub: niboodawemindig
+     Px1+boodawe+1Pl+Pret: niboodaweminban
+     Px1+boodawe+1Pl+PretDub: niboodawemingoban
+     Px1+boodawe+2Pl+Dub: niboodawemdig
+     Px1+boodawe+2Pl+Pret: niboodawemban
+     Px1+boodawe+2Pl+PretDub: niboodawemgoban
+     Px1+boodawe+Px3+Dub: niboodawewdig
+     Px1+boodawe+Px3+Pret: niboodawewban
+     Px1+boodawe+Px3+PretDub: niboodawewgoban
+     Px2+boodawe+1Pl+Dub: giboodawemindig
+     Px2+boodawe+1Pl+Pret: giboodaweminban
+     Px2+boodawe+1Pl+PretDub: giboodawemingoban
+     Px2+boodawe+2Pl+Dub: giboodawemdig
+     Px2+boodawe+2Pl+Pret: giboodawemban
+     Px2+boodawe+2Pl+PretDub: giboodawemgoban
+     Px2+boodawe+Px3+Dub: giboodawewdig
+     Px2+boodawe+Px3+Pret: giboodawewban
+     Px2+boodawe+Px3+PretDub: giboodawewgoban
+     
+     #Values from slots numbered: 1, 3, 5
+     Px1+boodawe+1Pl+3Obv: niboodaweminan
+     Px1+boodawe+1Pl+3Pl: niboodaweminag
+     Px1+boodawe+2Pl+3Obv: niboodaweman
+     Px1+boodawe+2Pl+3Pl: niboodawemag
+     Px1+boodawe+Px3+3Obv: niboodawewan
+     Px1+boodawe+Px3+3Pl: niboodawewag
+     Px2+boodawe+1Pl+3Obv: giboodaweminan
+     Px2+boodawe+1Pl+3Pl: giboodaweminag
+     Px2+boodawe+2Pl+3Obv: giboodaweman
+     Px2+boodawe+2Pl+3Pl: giboodawemag
+     Px2+boodawe+Px3+3Obv: giboodawewan
+     Px2+boodawe+Px3+3Pl: giboodawewag
+     
+     #Values from slots numbered: 1, 4, 5
+     Px1+boodawe+Dub+3Obv: niboodawedigan
+     Px1+boodawe+Dub+3Pl: niboodawedigag
+     Px1+boodawe+Pret+3Obv: niboodawebanan
+     Px1+boodawe+Pret+3Pl: niboodawebanag
+     Px1+boodawe+PretDub+3Obv: niboodawegobanan
+     Px1+boodawe+PretDub+3Pl: niboodawegobanag
+     Px2+boodawe+Dub+3Obv: giboodawedigan
+     Px2+boodawe+Dub+3Pl: giboodawedigag
+     Px2+boodawe+Pret+3Obv: giboodawebanan
+     Px2+boodawe+Pret+3Pl: giboodawebanag
+     Px2+boodawe+PretDub+3Obv: giboodawegobanan
+     Px2+boodawe+PretDub+3Pl: giboodawegobanag
+     
+     #Values from slots numbered: 2, 3, 4
+     boodawe+Neg+1Pl+Dub: boodawesiimindig
+     boodawe+Neg+1Pl+Pret: boodawesiiminban
+     boodawe+Neg+1Pl+PretDub: boodawesiimingoban
+     boodawe+Neg+2Pl+Dub: boodawesiimdig
+     boodawe+Neg+2Pl+Pret: boodawesiimban
+     boodawe+Neg+2Pl+PretDub: boodawesiimgoban
+     boodawe+Neg+Px3+Dub: boodawesiiwdig
+     boodawe+Neg+Px3+Pret: boodawesiiwban
+     boodawe+Neg+Px3+PretDub: boodawesiiwgoban
+     
+     #Values from slots numbered: 2, 3, 5
+     boodawe+Neg+1Pl+3Obv: boodawesiiminan
+     boodawe+Neg+1Pl+3Pl: boodawesiiminag
+     boodawe+Neg+2Pl+3Obv: boodawesiiman
+     boodawe+Neg+2Pl+3Pl: boodawesiimag
+     boodawe+Neg+Px3+3Obv: boodawesiiwan
+     boodawe+Neg+Px3+3Pl: boodawesiiwag
+     
+     #Values from slots numbered: 2, 4, 5
+     boodawe+Neg+Dub+3Obv: boodawesiidigan
+     boodawe+Neg+Dub+3Pl: boodawesiidigag
+     boodawe+Neg+Pret+3Obv: boodawesiibanan
+     boodawe+Neg+Pret+3Pl: boodawesiibanag
+     boodawe+Neg+PretDub+3Obv: boodawesiigobanan
+     boodawe+Neg+PretDub+3Pl: boodawesiigobanag
+     
+     #Values from slots numbered: 3, 4, 5
+     boodawe+1Pl+Dub+3Obv: boodawemindigan
+     boodawe+1Pl+Dub+3Pl: boodawemindigag
+     boodawe+1Pl+Pret+3Obv: boodaweminbanan
+     boodawe+1Pl+Pret+3Pl: boodaweminbanag
+     boodawe+1Pl+PretDub+3Obv: boodawemingobanan
+     boodawe+1Pl+PretDub+3Pl: boodawemingobanag
+     boodawe+2Pl+Dub+3Obv: boodawemdigan
+     boodawe+2Pl+Dub+3Pl: boodawemdigag
+     boodawe+2Pl+Pret+3Obv: boodawembanan
+     boodawe+2Pl+Pret+3Pl: boodawembanag
+     boodawe+2Pl+PretDub+3Obv: boodawemgobanan
+     boodawe+2Pl+PretDub+3Pl: boodawemgobanag
+     boodawe+Px3+Dub+3Obv: boodawewdigan
+     boodawe+Px3+Dub+3Pl: boodawewdigag
+     boodawe+Px3+Pret+3Obv: boodawewbanan
+     boodawe+Px3+Pret+3Pl: boodawewbanag
+     boodawe+Px3+PretDub+3Obv: boodawewgobanan
+     boodawe+Px3+PretDub+3Pl: boodawewgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     Px1+boodawe+Neg+1Pl+Dub: niboodawesiimindig
+     Px1+boodawe+Neg+1Pl+Pret: niboodawesiiminban
+     Px1+boodawe+Neg+1Pl+PretDub: niboodawesiimingoban
+     Px1+boodawe+Neg+2Pl+Dub: niboodawesiimdig
+     Px1+boodawe+Neg+2Pl+Pret: niboodawesiimban
+     Px1+boodawe+Neg+2Pl+PretDub: niboodawesiimgoban
+     Px1+boodawe+Neg+Px3+Dub: niboodawesiiwdig
+     Px1+boodawe+Neg+Px3+Pret: niboodawesiiwban
+     Px1+boodawe+Neg+Px3+PretDub: niboodawesiiwgoban
+     Px2+boodawe+Neg+1Pl+Dub: giboodawesiimindig
+     Px2+boodawe+Neg+1Pl+Pret: giboodawesiiminban
+     Px2+boodawe+Neg+1Pl+PretDub: giboodawesiimingoban
+     Px2+boodawe+Neg+2Pl+Dub: giboodawesiimdig
+     Px2+boodawe+Neg+2Pl+Pret: giboodawesiimban
+     Px2+boodawe+Neg+2Pl+PretDub: giboodawesiimgoban
+     Px2+boodawe+Neg+Px3+Dub: giboodawesiiwdig
+     Px2+boodawe+Neg+Px3+Pret: giboodawesiiwban
+     Px2+boodawe+Neg+Px3+PretDub: giboodawesiiwgoban
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     Px1+boodawe+Neg+1Pl+3Obv: niboodawesiiminan
+     Px1+boodawe+Neg+1Pl+3Pl: niboodawesiiminag
+     Px1+boodawe+Neg+2Pl+3Obv: niboodawesiiman
+     Px1+boodawe+Neg+2Pl+3Pl: niboodawesiimag
+     Px1+boodawe+Neg+Px3+3Obv: niboodawesiiwan
+     Px1+boodawe+Neg+Px3+3Pl: niboodawesiiwag
+     Px2+boodawe+Neg+1Pl+3Obv: giboodawesiiminan
+     Px2+boodawe+Neg+1Pl+3Pl: giboodawesiiminag
+     Px2+boodawe+Neg+2Pl+3Obv: giboodawesiiman
+     Px2+boodawe+Neg+2Pl+3Pl: giboodawesiimag
+     Px2+boodawe+Neg+Px3+3Obv: giboodawesiiwan
+     Px2+boodawe+Neg+Px3+3Pl: giboodawesiiwag
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     Px1+boodawe+Neg+Dub+3Obv: niboodawesiidigan
+     Px1+boodawe+Neg+Dub+3Pl: niboodawesiidigag
+     Px1+boodawe+Neg+Pret+3Obv: niboodawesiibanan
+     Px1+boodawe+Neg+Pret+3Pl: niboodawesiibanag
+     Px1+boodawe+Neg+PretDub+3Obv: niboodawesiigobanan
+     Px1+boodawe+Neg+PretDub+3Pl: niboodawesiigobanag
+     Px2+boodawe+Neg+Dub+3Obv: giboodawesiidigan
+     Px2+boodawe+Neg+Dub+3Pl: giboodawesiidigag
+     Px2+boodawe+Neg+Pret+3Obv: giboodawesiibanan
+     Px2+boodawe+Neg+Pret+3Pl: giboodawesiibanag
+     Px2+boodawe+Neg+PretDub+3Obv: giboodawesiigobanan
+     Px2+boodawe+Neg+PretDub+3Pl: giboodawesiigobanag
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     Px1+boodawe+1Pl+Dub+3Obv: niboodawemindigan
+     Px1+boodawe+1Pl+Dub+3Pl: niboodawemindigag
+     Px1+boodawe+1Pl+Pret+3Obv: niboodaweminbanan
+     Px1+boodawe+1Pl+Pret+3Pl: niboodaweminbanag
+     Px1+boodawe+1Pl+PretDub+3Obv: niboodawemingobanan
+     Px1+boodawe+1Pl+PretDub+3Pl: niboodawemingobanag
+     Px1+boodawe+2Pl+Dub+3Obv: niboodawemdigan
+     Px1+boodawe+2Pl+Dub+3Pl: niboodawemdigag
+     Px1+boodawe+2Pl+Pret+3Obv: niboodawembanan
+     Px1+boodawe+2Pl+Pret+3Pl: niboodawembanag
+     Px1+boodawe+2Pl+PretDub+3Obv: niboodawemgobanan
+     Px1+boodawe+2Pl+PretDub+3Pl: niboodawemgobanag
+     Px1+boodawe+Px3+Dub+3Obv: niboodawewdigan
+     Px1+boodawe+Px3+Dub+3Pl: niboodawewdigag
+     Px1+boodawe+Px3+Pret+3Obv: niboodawewbanan
+     Px1+boodawe+Px3+Pret+3Pl: niboodawewbanag
+     Px1+boodawe+Px3+PretDub+3Obv: niboodawewgobanan
+     Px1+boodawe+Px3+PretDub+3Pl: niboodawewgobanag
+     Px2+boodawe+1Pl+Dub+3Obv: giboodawemindigan
+     Px2+boodawe+1Pl+Dub+3Pl: giboodawemindigag
+     Px2+boodawe+1Pl+Pret+3Obv: giboodaweminbanan
+     Px2+boodawe+1Pl+Pret+3Pl: giboodaweminbanag
+     Px2+boodawe+1Pl+PretDub+3Obv: giboodawemingobanan
+     Px2+boodawe+1Pl+PretDub+3Pl: giboodawemingobanag
+     Px2+boodawe+2Pl+Dub+3Obv: giboodawemdigan
+     Px2+boodawe+2Pl+Dub+3Pl: giboodawemdigag
+     Px2+boodawe+2Pl+Pret+3Obv: giboodawembanan
+     Px2+boodawe+2Pl+Pret+3Pl: giboodawembanag
+     Px2+boodawe+2Pl+PretDub+3Obv: giboodawemgobanan
+     Px2+boodawe+2Pl+PretDub+3Pl: giboodawemgobanag
+     Px2+boodawe+Px3+Dub+3Obv: giboodawewdigan
+     Px2+boodawe+Px3+Dub+3Pl: giboodawewdigag
+     Px2+boodawe+Px3+Pret+3Obv: giboodawewbanan
+     Px2+boodawe+Px3+Pret+3Pl: giboodawewbanag
+     Px2+boodawe+Px3+PretDub+3Obv: giboodawewgobanan
+     Px2+boodawe+Px3+PretDub+3Pl: giboodawewgobanag
+     
+     #Values from slots numbered: 2, 3, 4, 5
+     boodawe+Neg+1Pl+Dub+3Obv: boodawesiimindigan
+     boodawe+Neg+1Pl+Dub+3Pl: boodawesiimindigag
+     boodawe+Neg+1Pl+Pret+3Obv: boodawesiiminbanan
+     boodawe+Neg+1Pl+Pret+3Pl: boodawesiiminbanag
+     boodawe+Neg+1Pl+PretDub+3Obv: boodawesiimingobanan
+     boodawe+Neg+1Pl+PretDub+3Pl: boodawesiimingobanag
+     boodawe+Neg+2Pl+Dub+3Obv: boodawesiimdigan
+     boodawe+Neg+2Pl+Dub+3Pl: boodawesiimdigag
+     boodawe+Neg+2Pl+Pret+3Obv: boodawesiimbanan
+     boodawe+Neg+2Pl+Pret+3Pl: boodawesiimbanag
+     boodawe+Neg+2Pl+PretDub+3Obv: boodawesiimgobanan
+     boodawe+Neg+2Pl+PretDub+3Pl: boodawesiimgobanag
+     boodawe+Neg+Px3+Dub+3Obv: boodawesiiwdigan
+     boodawe+Neg+Px3+Dub+3Pl: boodawesiiwdigag
+     boodawe+Neg+Px3+Pret+3Obv: boodawesiiwbanan
+     boodawe+Neg+Px3+Pret+3Pl: boodawesiiwbanag
+     boodawe+Neg+Px3+PretDub+3Obv: boodawesiiwgobanan
+     boodawe+Neg+Px3+PretDub+3Pl: boodawesiiwgobanag
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     Px1+boodawe+Neg+1Pl+Dub+3Obv: niboodawesiimindigan
+     Px1+boodawe+Neg+1Pl+Dub+3Pl: niboodawesiimindigag
+     Px1+boodawe+Neg+1Pl+Pret+3Obv: niboodawesiiminbanan
+     Px1+boodawe+Neg+1Pl+Pret+3Pl: niboodawesiiminbanag
+     Px1+boodawe+Neg+1Pl+PretDub+3Obv: niboodawesiimingobanan
+     Px1+boodawe+Neg+1Pl+PretDub+3Pl: niboodawesiimingobanag
+     Px1+boodawe+Neg+2Pl+Dub+3Obv: niboodawesiimdigan
+     Px1+boodawe+Neg+2Pl+Dub+3Pl: niboodawesiimdigag
+     Px1+boodawe+Neg+2Pl+Pret+3Obv: niboodawesiimbanan
+     Px1+boodawe+Neg+2Pl+Pret+3Pl: niboodawesiimbanag
+     Px1+boodawe+Neg+2Pl+PretDub+3Obv: niboodawesiimgobanan
+     Px1+boodawe+Neg+2Pl+PretDub+3Pl: niboodawesiimgobanag
+     Px1+boodawe+Neg+Px3+Dub+3Obv: niboodawesiiwdigan
+     Px1+boodawe+Neg+Px3+Dub+3Pl: niboodawesiiwdigag
+     Px1+boodawe+Neg+Px3+Pret+3Obv: niboodawesiiwbanan
+     Px1+boodawe+Neg+Px3+Pret+3Pl: niboodawesiiwbanag
+     Px1+boodawe+Neg+Px3+PretDub+3Obv: niboodawesiiwgobanan
+     Px1+boodawe+Neg+Px3+PretDub+3Pl: niboodawesiiwgobanag
+     Px2+boodawe+Neg+1Pl+Dub+3Obv: giboodawesiimindigan
+     Px2+boodawe+Neg+1Pl+Dub+3Pl: giboodawesiimindigag
+     Px2+boodawe+Neg+1Pl+Pret+3Obv: giboodawesiiminbanan
+     Px2+boodawe+Neg+1Pl+Pret+3Pl: giboodawesiiminbanag
+     Px2+boodawe+Neg+1Pl+PretDub+3Obv: giboodawesiimingobanan
+     Px2+boodawe+Neg+1Pl+PretDub+3Pl: giboodawesiimingobanag
+     Px2+boodawe+Neg+2Pl+Dub+3Obv: giboodawesiimdigan
+     Px2+boodawe+Neg+2Pl+Dub+3Pl: giboodawesiimdigag
+     Px2+boodawe+Neg+2Pl+Pret+3Obv: giboodawesiimbanan
+     Px2+boodawe+Neg+2Pl+Pret+3Pl: giboodawesiimbanag
+     Px2+boodawe+Neg+2Pl+PretDub+3Obv: giboodawesiimgobanan
+     Px2+boodawe+Neg+2Pl+PretDub+3Pl: giboodawesiimgobanag
+     Px2+boodawe+Neg+Px3+Dub+3Obv: giboodawesiiwdigan
+     Px2+boodawe+Neg+Px3+Dub+3Pl: giboodawesiiwdigag
+     Px2+boodawe+Neg+Px3+Pret+3Obv: giboodawesiiwbanan
+     Px2+boodawe+Neg+Px3+Pret+3Pl: giboodawesiiwbanag
+     Px2+boodawe+Neg+Px3+PretDub+3Obv: giboodawesiiwgobanan
+     Px2+boodawe+Neg+Px3+PretDub+3Pl: giboodawesiiwgobanag
+     
