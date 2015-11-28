@@ -1,0 +1,107 @@
+####
+#TODO
+####
+
+
+####
+#Bird's eye view
+####
+
+
+####
+#Sins of omission (on first round)
+####
+
+distribution of iterative morpheme is not currently known (conjunct only??)
+##Glosses were not retrieved
+
+####
+#Sins of comission (remove them)
+####
+
+
+####
+#Content-specific points (consult valentine)
+####
+
+
+####
+#Global Adjustments
+####
+
+## independent
+
+X person prefixes (slot 1) are incompatible with 3rd person number suffixes (5)
+
+X person prefixes (slot 1) are incompatible with 3rd person suffixes in slot 3
+
+X local number suffixes (slot 3) are incompatible with 3rd person number suffixes (5)
+
+local person singulars in preterite or dubitative have "naa" before mode suffixes
+    Px[1|2]+...^[+[1|2]Pl]+[Pret|Dub] -> naa[ban|dig]
+
+local person plurals in preterite or dubitative have "aa" before mode suffixes
+    Px[1|2]+...+[1|2]Pl+[Pret|Dub]    ->  aa[ban|dig]
+    not whole story ...
+    2pl suffix is -m, but 2pl pret/dub is not -maaban/-maadig
+        it is -mwaaban/-mwaadig (232, 233)
+
+word-final n's in following suffixes delete
+    +1Pl -> min#
+    +Pret -> ban# (conj, ind)
+    +PretDub -> goban#
+    +Prob2sg -> ken#
+    +Iter -> in# 
+
+Valentine's paradigms show some wiCV sequences that surface as C, postulated to handle some nasal-final verbs. need to look more closely
+
+####
+#Class adjustments
+####
+
+
+
+
+#n-deletion
+#+Pret+3[Obv|Pl] -> banii[n|g]
+#+Dub+3[Obv|Pl] -> digena[n|g]
+#apocope
+#   [w|a|i|o] -> 0#
+#   preceding n-deletion
+#nasal final stems (note also conjunct)
+#coalescence
+#   n-wa[g|n] -> oo[g|n] (nasal-final stems)
+#epenthesis (dialect, indiv variation)
+#   n-C -> n[a|i|o]C
+#glide insertion does not apply (redundant, already noted)
+#Lenition
+#    n-si[i|w] -> nzi[i|w]
+
+#Valentine pp 226 is coy on nasal-final stems: "some of the more important and systematic differences are outlined here", will want to exhaust list :)
+#more coyness regarding independent preterite 3rd person plurals (p 227): Such forms may also be used by some speakers of Nishnaabemwin
+
+#todo (conjunct)
+#initial change (when does it apply?)
+#+3sg -> g / n_
+#+Neg+3sg -> sig
+#+Neg+3pl -> sigwaa (hardcoded, may have been si-waa-g with movement of g (and s?))
+#+Neg+3 -> si (w deleting before consonant)
+#+[1|2] -> [y] after vowel-final stems ([y] epenthesis to break hiatus)
+#+[3Obv|Indef] -> [a|i] after n-final stems (cluster repair, when a, when i?)
+#d+ban (pret suff) -> p 
+#+1sg+Pret aanh-ban -> aambaanh (when aambaan?)
+#redundant discussion of (n)aa extensions in independent on p 228
+#independent order pret dub is being replaced with conjunct order pret dub
+
+# if we do syncope, infl w in coda deletes (p 229)
+
+#more wrinkles listed conjunct paradigms (pp 235-41) and not discussed in text
+##Walking through Valentine's paradigms to make sure points haven't been missed
+
+####
+#Little wrinkles
+####
+
+####
+#Nichols notes
+####
