@@ -24,7 +24,47 @@ distribution of iterative morpheme is not currently known (conjunct only??)
 #Content-specific points (consult valentine)
 ####
 
-
+## Valentine line by line 232
+#Indep Indic Pos
+1Sg     /n-boodwe/      -> [nboodwe]
+2Sg     /g-boodwe/      -> [gboodwe]
+3Sg     /boodwew/       -> [boodwe] *
+3Obv    /boodwe-w-an/   -> [boodwewan]
+Indef   /boodwe-m/      -> [boodwem]
+1Pl     /n-boodwe-min/  -> [nboodwemi]*
+1Incl   /g-boodwe-min/  -> [gboodwemi]*
+2Pl     /g-boodwe-m/    -> [gboodwem]
+3Pl     /boodwe-w-ag/   -> [boodwewag]
+#Indep Pret Pos
+1Sg     /n-boodwe<naa>-ban/ -> [nboodwenaaba]*
+2Sg     /g-boodwe<naa>-ban/ -> [gboodwenaaba]*
+3Sg     /boodwe-w{i}-ban/   -> [boodwe-ba]*
+3Obv    /boodwe-w{i}-ban-an/    -> [boodwebniin]**
+Indef   /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/) 
+1Pl     /n-boodwe-min<aa>-ban/  -> [nboodwemnaaba]*
+1Incl   /g-boodwe-min<aa>-ban/  -> [gboodwemnaaba]*
+2Pl     /g-boodwe-m{w}<aa>-ban/ -> [gboodwemwaaba]*
+3Pl     /boodwe-w{i}-ban-an/    -> [boodwebniig]**
+#Indep Dub Pos
+1Sg     /n-boodwe-<naa>-
+2Sg     /g-boodwe-<naa>-
+3Sg     /boodwe-w
+3Obv    /boodwe-w
+Indef   /boodwe-m
+1Pl     /n-boodwe-min<aa>-
+1Incl   /g-boodwe-min<aa>-
+2Pl     /g-boodwe-m{w}<aa>-
+3Pl     /boodwe-w
+#Indep PretDub Pos
+1Sg     /n-boodwe-<naa>-
+2Sg     /g-boodwe-<naa>-
+3Sg     /boodwe-w
+3Obv    /boodwe-w
+Indef   /boodwe-m
+1Pl     /n-boodwe-min<aa>-
+1Incl   /g-boodwe-min<aa>-
+2Pl     /g-boodwe-m{w}<aa>-
+3Pl     /boodwe-w
 ####
 #Global Adjustments
 ####
@@ -54,6 +94,34 @@ word-final n's in following suffixes delete
     +Iter -> in# 
 
 Valentine's paradigms show some wiCV sequences that surface as C, postulated to handle some nasal-final verbs. need to look more closely
+
+Valentine omits discussion of coalescence: awi -> aa / _ g, awi -> oo /  _ n
+    very tempting to try to derive "naa", "aa" augmentations from a similar process
+        awi -> aa / n _ (how limited would scope have to be?) 
+        "aa" augmentation is always post-nasal (local person plural suffs end in n/m)
+        but hard to get /nawi/ for local person singulars
+        /i/ can come from /iban/, /inaan/ (reflecting noun analysis)
+        but would /naw/ be local person singular suffix? 
+            it would have to be restricted to occur before mode suffs
+            hard to epenthesize these segs
+        curious that local persons (sg/pl) are gaps before pret_dub suffix goban
+            where coalescence would produce oo
+        alternative: /na-iban/, /na-inaan/ (noun-style coalescence)
+    valentine:233 nasal-final 3Sg forms are really problematic:
+        Dub
+        /gwekshinawidig/ -> [gwekshin_widig]
+        /dgoshinawidig/ -> [dgoshnaadig] (aw -> aa, though coda w said to delete)
+        /dgoshinawidigenag/ -> [dgoshnadgenag] (the two i's should not delete)
+   valentine:232 long v-final forms ...
+        /boodwewidigenan/ -> [boodwedgenan] (both cases of [i] shouldn't delete)
+
+why is 3pl pret dub waagoban?
+    Nichols:159 shows 3Pl -waa, -waaw
+
+Nichols mentions a "compassionate" suffix, which I have not found in Valentine
+
+
+nawi -> naa
 
 ####
 #Class adjustments
