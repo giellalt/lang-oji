@@ -24,6 +24,10 @@ distribution of iterative morpheme is not currently known (conjunct only??)
 #Content-specific points (consult valentine)
 ####
 
+# < > augment material discussed by Valentine
+# {} augment material not discussed by Valentine
+# * phonology discussed by Valentine (less syncope)
+# ** phonology not discussed by Valentine (excessive syncope from metrical, but not two-sided perspective)
 ## Valentine line by line 232
 #Indep Indic Pos
 1Sg     /n-boodwe/      -> [nboodwe]
@@ -46,25 +50,25 @@ Indef   /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/)
 2Pl     /g-boodwe-m{w}<aa>-ban/ -> [gboodwemwaaba]*
 3Pl     /boodwe-w{i}-ban-an/    -> [boodwebniig]**
 #Indep Dub Pos
-1Sg     /n-boodwe-<naa>-dig
-2Sg     /g-boodwe-<naa>-dig
-3Sg     /boodwe-w{i}-dig
-3Obv    /boodwe-w{i}-dig-an
-Indef   /boodwe-m{a}-dig
-1Pl     /n-boodwe-min<aa>-dig
-1Incl   /g-boodwe-min<aa>-dig
-2Pl     /g-boodwe-m{w}<aa>-dig
-3Pl     /boodwe-w{i}-dig
+1Sg     /n-boodwe-<naa>-dig/    -> [nboodwenaadig]
+2Sg     /g-boodwe-<naa>-dig/    -> [gboodwenaadig]
+3Sg     /boodwe-w{i}-dig/    -> [boodwedig]*
+3Obv    /boodwe-w{i}-dig-<en>an/    -> [boodwedgenan]**
+Indef   /boodwe-m{i}-dig/    -> [boodwemdig]
+1Pl     /n-boodwe-min<aa>-dig/    -> [nboodwemnaadig]
+1Incl   /g-boodwe-min<aa>-dig/    -> [gboodwemnaadig]
+2Pl     /g-boodwe-m{w}<aa>-dig/    -> [gboodwemwaadig]
+3Pl     /boodwe-w{i}-dig-<en>ag/    -> [boodwedgenag]**
 #Indep PretDub Pos
-1Sg     /n-boodwe-<naa>-goban
-2Sg     /g-boodwe-<naa>-goban
-3Sg     /boodwe-w{i}-goban
-3Obv    /boodwe-w{i}-goban
-Indef   /boodwe-m
-1Pl     /n-boodwe-min<aa>-goban
-1Incl   /g-boodwe-min<aa>-goban
-2Pl     /g-boodwe-m{w}<aa>-goban
-3Pl     /boodwe-w{i}-goban
+1Sg     /n-boodwe-<naa>-goban/    -> GAP
+2Sg     /g-boodwe-<naa>-goban/    -> GAP
+3Sg     /boodwe-w{i}-goban/    -> [boodwegba]** (Valentine omits /w{i}/ here, 230 doesn't list goban as a deleting suff (see below))
+3Obv    /boodwe-{ni}-goban/    -> [boodwen'goba] 
+Indef   /boodwe-m{i}-goban/    -> [boodwemgoba]
+1Pl     /n-boodwe-min<aa>-goban/    -> GAP
+1Incl   /g-boodwe-min<aa>-goban/    -> GAP
+2Pl     /g-boodwe-m{w}<aa>-goban/    -> GAP
+3Pl     /boodwe-w{aa}-goban/    -> [boodwewaagba]
 ####
 #Global Adjustments
 ####
