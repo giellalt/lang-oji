@@ -1,0 +1,41 @@
+!! Verb inflection
+!! ---------------
+!! The UNDEFINED language verbs inflect in persons.
+
+! generated template: person-number, number in lower case
+! generated root.lexc: number-person, number in camel case
+!generated assumes zero conversion?
+!#:0   Nouns   ;
+
+!does all verbal inflection need to be here, or can I split it up a bit?
+
+!Conjunct order
+!See Valentine  2001:222, 236-237
+!assuming nasal final stems to avoid all hiatus repairs
+!ibid 236-237 lacks nasal-final examples
+
+LEXICON VAI_CONJ_NEG
++V+Neg:ziw VAI_CONJ_PERSNUM ; !nas morph
+!need some lookahead for the 3pl forms
+!need to be able to adjust the [w]
+!need to be able to end or move on ...
+
+LEXICON VAI_CONJ_PERSNUM
+!adjustments for context needed once move past nas
++V+1Sg:aanh VAI_CONJ_PRET ; 
++V+2Sg:in VAI_CONJ_PRET ; 
++V+3Sg:g VAI_CONJ_PRET ; !nas morph
++V+1Pl:aang VAI_CONJ_PRET ;
++V+2Pl:ing VAI_CONJ_PRET ;
++V+21:eg VAI_CONJ_PRET ;
++V+3Pl:waad VAI_CONJ_PRET ;
+!need lookahead for this
++V+3Pl+Neg:gwaa VAI_CONJ_PRET ;
++V+3Obv:inid VAI_CONJ_PRET ; !nas morph
++V+X:ang VAI_CONJ_PRET ; !nas morph
+
+LEXICON VAI_CONJ_PRET
++Pret:ban VAI_CONJ_DUB ;
+
+LEXICON VAI_CONJ_DUB
++Dub:en # ;
