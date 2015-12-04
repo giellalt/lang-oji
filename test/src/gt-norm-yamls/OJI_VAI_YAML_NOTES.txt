@@ -19,6 +19,16 @@ distribution of iterative morpheme is not currently known (conjunct only??)
 #Sins of comission (remove them)
 ####
 
+Negative and positive 3rd person conjuncts written as:
+    +3PlPos
+    +3PlNeg
+Should be:
+    +3Pl
+    +3Pl+Neg
+
+Indefinite as +Indef or +X?
+First person inclusive as +21 or +1Inc?
+No +V feature
 
 ####
 #Content-specific points (consult valentine)
