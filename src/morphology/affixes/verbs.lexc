@@ -7,35 +7,125 @@
 !generated assumes zero conversion?
 !#:0   Nouns   ;
 
-!does all verbal inflection need to be here, or can I split it up a bit?
+!#####
+!#Commence work
+!#####
+
+!Need to make sure features match between yaml and here
+
+!does all verbal inflection need to be in this file, or can I split it up a bit?
+
+!Continuation lexicon after PREFIXES is in ../stems/
+!This almost certainly is going to be revised
+!../stems/verbs.lexc will have internal divisions
+!furthermore, why shouldn't person prefixes be common between nouns and verbs?
+
+!#####
+!#Prefixes
+!#####
+
+!I can't remember if this needs to be specified first in the file
+
+LEXICON PREFIXES ;
+1+@P.Pers.1@:ni VERBS ;
+2+@P.Pers.2@:gi VERBS ;
+3+@P.Pers.3@:o  VERBS ;
+!Add alignment recs to style
+
+!should the flag usage below be entirely in GATEWAYs
+!ditto for above?
+
+!#####
+!#Major POS's
+!#####
+
+LEXICON V_SUBCLASSES ;
++VAI@D.Pers.3@    VAI_ORDERS ;
++VII@D.Pers@      VII_ORDERS ;
++VTA              VTA_ORDERS ;
++VTI              VTI_ORDERS ;
+!good idea to require person prefixes in VTA/VTI independent order ...
+
+!#####
+!#VAI Morphological sub-classes
+!#####
+
+LEXICON VAI_ORDERS ;
++Indep          VAI_INDEP_NEG ;
++Conj@D.Pers@   VAI_CONJ_NEG ;
++Imper@D.Pers@  VAI_IMPER ;
+
+!Independent order
+LEXICON VAI_INDEP_NEG ;
++Neg:sii    VAI_INDEP_PERSNUM ;
++Pos        VAI_INDEP_PERSNUM ;
+
+LEXICON VAI_INDEP_PERSNUM ;
+<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
+<"+"[1Pl|21]>:min VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
++2Pl@R.Pers.2@:m   VAI_INDEP_MOOD ;
++3@P.Pers.3@:w     VAI_INDEP_MOOD ;
++X@P.Pers.3@:m     VAI_INDEP_MOOD ;
+
+LEXICON VAI_INDEP_MOOD ;
++Pret:ban      VAI_INDEP_PERS_GATEWAY ;
++Dub:dig       VAI_INDEP_PERS_GATEWAY ; 
++PretDub:goban VAI_INDEP_PERS_GATEWAY ;
++Indic         VAI_INDEP_PERS_GATEWAY ; !Good move?
+
+LEXICON VAI_INDEP_PERS_GATEWAY ; !add GATEWAY to style
+@D.Pers.3@ # ;
+@R.Pers.3@ VAI_INDEP_NONLOCNUM ;
+
+LEXICON VAI_INDEP_NONLOCNUM ;
++3Obv:an    # ;
++3Pl:ag     # ;
 
 !Conjunct order
 !See Valentine  2001:222, 236-237
 !assuming nasal final stems to avoid all hiatus repairs
 !ibid 236-237 lacks nasal-final examples
+LEXICON VAI_CONJ_NEG ;
++Neg:ziw        VAI_CONJ_PERSNUM ; !nas morph
+!is this next legal? will it make incorrect zigwaawaad or ziwaad?
++Neg+3Pl:zigwaa VAI_CONJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
++Pos            VAI_CONJ_PERSNUM ;
 
-LEXICON VAI_CONJ_NEG
-+V+Neg:ziw VAI_CONJ_PERSNUM ; !nas morph
-!need some lookahead for the 3pl forms
 !need to be able to adjust the [w]
-!need to be able to end or move on ...
 
-LEXICON VAI_CONJ_PERSNUM
+LEXICON VAI_CONJ_PERSNUM ;
 !adjustments for context needed once move past nas
-+V+1Sg:aanh VAI_CONJ_PRET ; 
-+V+2Sg:in VAI_CONJ_PRET ; 
-+V+3Sg:g VAI_CONJ_PRET ; !nas morph
-+V+1Pl:aang VAI_CONJ_PRET ;
-+V+2Pl:ing VAI_CONJ_PRET ;
-+V+21:eg VAI_CONJ_PRET ;
-+V+3Pl:waad VAI_CONJ_PRET ;
-!need lookahead for this
-+V+3Pl+Neg:gwaa VAI_CONJ_PRET ;
-+V+3Obv:inid VAI_CONJ_PRET ; !nas morph
-+V+X:ang VAI_CONJ_PRET ; !nas morph
++1Sg:aanh      VAI_CONJ_PRET ; 
++2Sg:in        VAI_CONJ_PRET ; 
++3Sg:g         VAI_CONJ_PRET ; !nas morph
++1Pl:aang      VAI_CONJ_PRET ;
++2Pl:ing       VAI_CONJ_PRET ;
++21:eg         VAI_CONJ_PRET ;
++3Pl:waad      VAI_CONJ_PRET ;
++3Obv:inid     VAI_CONJ_PRET ; !nas morph
++X:ang         VAI_CONJ_PRET ; !nas morph
 
-LEXICON VAI_CONJ_PRET
-+Pret:ban VAI_CONJ_DUB ;
+!need to be able to end or move on ...
+!doesn't seem right to delay decision to end until the next sublexicon
 
-LEXICON VAI_CONJ_DUB
+LEXICON VAI_CONJ_PRET ;
++Pret:ban   VAI_CONJ_DUB ;
++Indic      # ;
+!need to skip this sublexicon
+            VAI_CONJ_DUB ;
+
+LEXICON VAI_CONJ_DUB ;
 +Dub:en # ;
+
+!Imperative order
+!Feature names getting long here ...
+LEXICON VAI_IMPER ;
++Im2Sg:n        # ;
++Im2Pl:g        # ;
++Im21:daa       # ;
++Del2Sg:kan     # ;
++Del2Pl:kag     # ;
++Prob2Sg:ken    # ;
++Prob2Pl:kegon  # ;
++Prob21:siidaa  # ;
+
