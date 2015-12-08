@@ -1,0 +1,45 @@
+!! Noun inflection
+!! ---------------
+!! The UNDEFINED language nouns inflect in cases.
+
+LEXICON N_PREFIXES ;
+@P.Pers.1@1+:0ni NOUNS ;
+@P.Pers.2@2+:0gi NOUNS ;
+@P.Pers.3@3+:0o  NOUNS ;
+@P.Pers.X@X+:0i  NOUNS ; !will need to disallow indefinite possession on alienable
+!prefix features do not currently agree with yaml
+
+!recommend specifying animacy near stem and as inflectional feature in plurals/obviatives
+!small redundancy, but spares memory and allows agreement checking if not inflected
+!memory not spared, because you might not want to accept the wrong gendered plural marker (though it does happen under certain discursive contexts)
+
+LEXICON N_CON_DIM ;
++Con:enh    N_POSSESSED_THEME ;
++Dim:ens    N_POSSESSED_THEME ;
+            N_POSSESSED_THEME ;
+
+LEXICON N_POS_THEME ;
+@R.Pers@+Pos:0im N_PEJ ;
+                N_PEJ ;
+
+LEXICON N_PEJ ;
++Pej:ish    N_POS_NUM ;
+            N_POS_NUM ;
+
+LEXICON N_POS_NUM ;
+@R.Pers@@D.Pers.3@+Pos1Pl:00inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
+@R.Pers@@D.Pers.1@+PosPl:00iwaa     N_MOOD ;
+@R.Pers.3@+PosObv:0ini              N_MOOD ;
+                                    N_Mood ;
+
+LEXICON N_MOOD ;
++Pret:iban  N_NUM ;
++VocPl:idig # ; !Long feat name, variation abandoned
+            N_NUM ;
+
+LEXICON N_NUM ;
+@R.Animate.0@+Pl:0an # ;
+@R.Animate.1@+Pl:0ag # ;
++Obv:an              # ;
++Loc:ing             # ;
+                     #

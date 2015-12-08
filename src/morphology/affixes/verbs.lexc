@@ -1,3 +1,4 @@
+!todo: VII, VTI (all). VTA themes, VAI fine tuning, de-nasalize conjunct order. Unspecified actor needs careful thought. Check features for consistency
 !! Verb inflection
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
@@ -6,6 +7,12 @@
 ! generated root.lexc: number-person, number in camel case
 !generated assumes zero conversion?
 !#:0   Nouns   ;
+
+!#####
+!#Bibliography info
+!#####
+
+!Not yet entered
 
 !#####
 !#Commence work
@@ -26,10 +33,11 @@
 
 !I can't remember if this needs to be specified first in the file
 
-LEXICON PREFIXES ;
-1+@P.Pers.1@:ni VERBS ;
-2+@P.Pers.2@:gi VERBS ;
-3+@P.Pers.3@:o  VERBS ;
+LEXICON VERB_PREFIXES ;
+@P.Pers.1@1+:0ni VERBS ;
+@P.Pers.2@2+:0gi VERBS ;
+@P.Pers.3@3+:0o  VERBS ;
+                 VERBS ; !intended ... no prefix, just go to verbs
 !Add alignment recs to style
 
 !should the flag usage below be entirely in GATEWAYs
@@ -40,42 +48,42 @@ LEXICON PREFIXES ;
 !#####
 
 LEXICON V_SUBCLASSES ;
-+VAI@D.Pers.3@    VAI_ORDERS ;
-+VII@D.Pers@      VII_ORDERS ;
-+VTA              VTA_ORDERS ;
-+VTI              VTI_ORDERS ;
-!good idea to require person prefixes in VTA/VTI independent order ...
+@D.Pers.3@+VAI:00    VAI_ORDERS ; 
+@D.Pers@+VII:00      VII_ORDERS ;!non-determinism on D.Pers ... problem?
+@R.Pers@:0           TRANS_INDEP ;!too strong!!! indefinite actors will be discarded here!
+@D.Pers@:0           TRANS_NON_INDEP ;
 
 !#####
 !#VAI Morphological sub-classes
 !#####
 
 LEXICON VAI_ORDERS ;
-+Indep          VAI_INDEP_NEG ;
-+Conj@D.Pers@   VAI_CONJ_NEG ;
-+Imper@D.Pers@  VAI_IMPER ;
++Indep:0           VAI_INDEP_NEG ;
++Conj@D.Pers@:00   VAI_CONJ_NEG ;
++Imper@D.Pers@:00  VAI_IMPER ;
 
 !Independent order
 LEXICON VAI_INDEP_NEG ;
 +Neg:sii    VAI_INDEP_PERSNUM ;
-+Pos        VAI_INDEP_PERSNUM ;
+            VAI_INDEP_PERSNUM ;!intended ... no suffix, just go to persnum
 
 LEXICON VAI_INDEP_PERSNUM ;
-<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
+!<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
 <"+"[1Pl|21]>:min VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
 +2Pl@R.Pers.2@:m   VAI_INDEP_MOOD ;
 +3@P.Pers.3@:w     VAI_INDEP_MOOD ;
 +X@P.Pers.3@:m     VAI_INDEP_MOOD ;
+                   VAI_INDEP_MOOD ; !intended ... no suffix (first and second person singulars, viz above), just go to mood
 
 LEXICON VAI_INDEP_MOOD ;
-+Pret:ban      VAI_INDEP_PERS_GATEWAY ;
-+Dub:dig       VAI_INDEP_PERS_GATEWAY ; 
-+PretDub:goban VAI_INDEP_PERS_GATEWAY ;
-+Indic         VAI_INDEP_PERS_GATEWAY ; !Good move?
++Pret:ban       VAI_INDEP_PERS_GATEWAY ;
++Dub:dig        VAI_INDEP_PERS_GATEWAY ; 
++Pret+Dub:goban VAI_INDEP_PERS_GATEWAY ;
+                VAI_INDEP_PERS_GATEWAY ; !intended ... no suffix, just go to gateway
 
 LEXICON VAI_INDEP_PERS_GATEWAY ; !add GATEWAY to style
-@D.Pers.3@ # ;
-@R.Pers.3@ VAI_INDEP_NONLOCNUM ;
+@D.Pers.3@:0 # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
+@R.Pers.3@:0 VAI_INDEP_NONLOCNUM ;
 
 LEXICON VAI_INDEP_NONLOCNUM ;
 +3Obv:an    # ;
@@ -85,11 +93,14 @@ LEXICON VAI_INDEP_NONLOCNUM ;
 !See Valentine  2001:222, 236-237
 !assuming nasal final stems to avoid all hiatus repairs
 !ibid 236-237 lacks nasal-final examples
+
+!Insert schematic template here (also update style guide)
+
 LEXICON VAI_CONJ_NEG ;
 +Neg:ziw        VAI_CONJ_PERSNUM ; !nas morph
 !is this next legal? will it make incorrect zigwaawaad or ziwaad?
 +Neg+3Pl:zigwaa VAI_CONJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
-+Pos            VAI_CONJ_PERSNUM ;
+                VAI_CONJ_PERSNUM ;
 
 !need to be able to adjust the [w]
 
@@ -110,22 +121,100 @@ LEXICON VAI_CONJ_PERSNUM ;
 
 LEXICON VAI_CONJ_PRET ;
 +Pret:ban   VAI_CONJ_DUB ;
-+Indic      # ;
 !need to skip this sublexicon
             VAI_CONJ_DUB ;
 
 LEXICON VAI_CONJ_DUB ;
 +Dub:en # ;
+        # ;
 
 !Imperative order
-!Feature names getting long here ...
-LEXICON VAI_IMPER ;
-+Im2Sg:n        # ;
-+Im2Pl:g        # ;
-+Im21:daa       # ;
-+Del2Sg:kan     # ;
-+Del2Pl:kag     # ;
-+Prob2Sg:ken    # ;
-+Prob2Pl:kegon  # ;
-+Prob21:siidaa  # ;
+!Insert schematic template here (also update style guide)
 
+LEXICON VAI_IMPER ;
++Imm+2Sg:n       # ;
++Imm+2Pl:g       # ;
++Imm+21:daa      # ;
++Del+2Sg:kan     # ;
++Del+2Pl:kag     # ;
++Prob+2Sg:ken    # ;
++Prob+2Pl:kegon  # ;
++Prob+21:siidaa  # ;
+
+!#####
+!# VII Morphological sub-classes
+!#####
+
+LEXICON VII_ORDERS ;
+!+Indep ;
+!+Conj ;
+!+Imper ;
+
+!#####
+!#Transitive Verb Morphological sub-classes
+!#####
+
+LEXICON TRANS_INDEP ;
++VTA+Indep:00        VTA_INDEP_THEME ;
++VTI+Indep:00        VTI_INDEP ;!name needs to be followed by morpheme slot
+
+LEXICON TRANS_NON_INDEP ;
++VTA+Conj:00        VTA_CONJ ; !name needs to be followed by morpheme slot
++VTA+Imper:00       VTA_IMPER ; !name needs to be followed by morpheme slot
++VTI+Conj:00        VTI_CONJ ;!name needs to be followed by morpheme slot
++VTI+Imper:00       VTI_IMPER ;!name needs to be followed by morpheme slot
+
+!#####
+!#VTA Inflection
+!#####
+
+!VTA Independent order Valentine (2001):274
+!Insert schematic template here (also update style guide)
+
+LEXICON VTA_INDEP_THEME ;
+!NOT DONE!!! need non-local inverse
+
+!would be nice to just have +SAP, +NSAP, +Dir, +Inv features ... but that might be untidy notation
+!@R.Pers.2@+Dir+SAP:00i  VTA_INDEP_NEG ; !1 goal
+!@R.Pers.2@+Inv+SAP:00in VTA_INDEP_NEG ; !2 goal 
+!+Dir+NSAP:0aa           VTA_INDEP_NEG ; !3 goal
+!+Inv+NSAP:0igo           VTA_INDEP_NEG ; !... (Valentine:274 provides igw)
+!@R.Pers@@D.Pers.3@+XSub:0igoo    VTA_INDEP_NEG ; !this should be ok 
+
+!could make features shorter by relying on position to define subject v object features (sub first, obj sec)
+@R.Pers.2@+2Sub+1Obj:00i  VTA_INDEP_NEG ; !1 goal
+@R.Pers.2@+1Sub+2Obj:00in VTA_INDEP_NEG ; !2 goal 
+!not sure if multiline regex is kosher
+<
+[["+"[2|1|X]Sub"+"3[Pl|Obv|Sg]Obj]| !danger ... entry to TRANS_INDEP currently requires a person prefix ... lacking on +X!
+["+"3[Sg|Pl]Sub"+"3ObvObj]]
+>:aa                      VTA_INDEP_NEG ; !1,2,X -> 3, 3Sg, 3Pl -> 3Obv
+@R.Pers@@D.Pers.3@+XSub:0igoo    VTA_INDEP_NEG ; !this should be ok, except we probably should provide object tags for ease of use?
+
+!negative morpheme  consistent across classes, but making it common would require a lot of flags
+
+LEXICON VTA_INDEP_NEG ;
++Neg:sii VTA_INDEP_PERSNUM ;
+
+LEXICON VTA_INDEP_PERSNUM ;
+!precise distribution fairly complex (Valentine (2001):274)
++1Pl:naan   VTA_INDEP_MOOD ;
++23Pl:waa   VTA_INDEP_MOOD ; !bad morph feat...
+            VTA_INDEP_MOOD ;
+
+LEXICON VTA_INDEP_MOOD ;
++Pret:ban   VTA_INDEP_PERS_GATEWAY ;
++Dub:dig    VTA_INDEP_PERS_GATEWAY ;
+            VTA_INDEP_PERS_GATEWAY ;  
+
+LEXICON VTA_INDEP_PERS_GATEWAY ; !add GATEWAY to style
+!Might need to be revised
+@D.Pers.3@:0 # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
+@R.Pers.3@:0 VAI_INDEP_NONLOCNUM ;
+
+LEXICON VAI_INDEP_NONLOCNUM ;
+!precise distribution fairly complex (Valentine (2001):274)
++3Obv:an    # ;
++3Pl:ag     # ;
+
+LEXICON VTI_INDEP ;
