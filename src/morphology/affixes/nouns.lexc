@@ -27,12 +27,16 @@ LEXICON N_X_PERSON_FLAG ;
 @P.Person.X@    NOUNS ;
 
 LEXICON N_CON_DIM ;
-+Con:enh    N_POS_THEME ;
-+Dim:ens    N_POS_THEME ;
-            N_POS_THEME ;
++Con:enh    N_POS_THEME_GATEWAY ;
++Dim:ens    N_POS_THEME_GATEWAY ;
+            N_POS_THEME_GATEWAY ;
 
-LEXICON N_POS_THEME ;
-@R.Person@+Pos:0im N_PEJ ;
+LEXICON N_POS_THEME_GATEWAY ;
+@R.Person@  N_POS_THEME ;
+@D.Person@  N_PEJ ;
+
+LEXICON N_POS_THEME
++Pos:im N_PEJ ;
                 N_PEJ ;
 
 LEXICON N_PEJ ;
@@ -40,12 +44,13 @@ LEXICON N_PEJ ;
             N_POS_NUM_GATEWAY ;
 
 LEXICON N_POS_NUM_GATEWAY ;
-@R.Person@@D.Person.3@ N_POS_NUM_1Pl_21 ;
+@R.Person.1@            N_POS_NUM_1PL_21 ;
+@R.Person.2@            N_POS_NUM_1PL_21 ;
 @R.Person@@D.Person.1@ N_POS_NUM_2PL_3PL ; !indefinite plural poss can enter
 @R.Person.3@            N_POS_NUM_3OBV ; 
                         N_MOOD ;
 
-LEXICON N_POS_NUM_1Pl_21 ;
+LEXICON N_POS_NUM_1PL_21 ;
 <"+"[1Pl|21]>:inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
 !style on regexes for features
 !yaml still has +Pos1Pl, +PosPl, +PosObv
@@ -58,7 +63,7 @@ LEXICON N_POS_NUM_2PL_3PL ;
 
 LEXICON N_POS_NUM_3OBV ;
 +3Obv:ini              N_MOOD ;
-                        N_Mood ;
+                        N_MOOd ;
 
 LEXICON N_MOOD ;
 +Pret:iban  N_NUM_GATEWAY ;
