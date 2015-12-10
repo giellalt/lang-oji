@@ -8,10 +8,10 @@ LEXICON VERBS ; !this is looking like a gateway, but not so labeled, affixes wil
                 TRANS_GATEWAY ;
 
 LEXICON VAI_GATEWAY ;
-+VAI    VAI_DEF ;
-+VAI    VAI_N ;
-+VAI    VAI_V ;
-+VAI    VAI_VV ;
+    VAI_DEF ;
+    VAI_N ;
+    VAI_V ;
+    VAI_VV ;
 
 LEXICON VII_GATEWAY ;
 +VII    VII_ORDERS ;
@@ -20,12 +20,12 @@ LEXICON VII_ORDERS ;
 # ; !not done yet
 
 LEXICON TRANS_GATEWAY
-+VTA    VTA_DEF ;
-+VTA    VTA_AW ;
-+VTA    VTA_C ;
-+VTA    VTA_CW ;
-+VTA    VTA_IZHI ;
-+VTA    VTA_S ;
+    VTA_DEF ;
+    VTA_AW ;
+    VTA_C ;
+    VTA_CW ;
+    VTA_IZHI ;
+    VTA_S ;
 
 
 
@@ -3690,9 +3690,7 @@ dazhitaa    VAI_FLAG    "is engaged in particular place; is busy in a certain pl
 bimaaji'iwe    VAI_FLAG    "save people; be a saviour" ; !line:12163, word:w76221041277w, sense:s76221042683s
 
 LEXICON VAI_FLAG ;
-        VAI_ORDERS ;
-
-
+ +VAI       VAI_ORDERS ;
 
 LEXICON VTA_DEF ;
 misawi    VTA_FLAG    "make sure s.o. never does such a thing again and learns one's lesson" ; !line:7138, word:w6394w, sense:s68908756491s
@@ -4796,6 +4794,8 @@ nishi    VTA_FLAG    "kill s.o." ; !line:8459, word:w7515w, sense:s68908757676s
 odishi    VTA_FLAG    "reach s.o., arrive at s.o." ; !line:8809, word:w7826w, sense:s68908757991s
 
 LEXICON VTA_FLAG ;
-            TRANS_INDEP ;
-@D.Person@  TRANS_NON_INDEP ;
++VTA     VTA_PREORDER_GATEWAY ;
 
+LEXICON VTA_PREORDER_GATEWAY ;
+        TRANS_INDEP ;
+@D.Person@  TRANS_NON_INDEP ;
