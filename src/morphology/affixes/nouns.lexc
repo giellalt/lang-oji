@@ -3,43 +3,78 @@
 !! The UNDEFINED language nouns inflect in cases.
 
 LEXICON N_PREFIXES ;
-@P.Pers.1@1+:0ni NOUNS ;
-@P.Pers.2@2+:0gi NOUNS ;
-@P.Pers.3@3+:0o  NOUNS ;
-@P.Pers.X@X+:0i  NOUNS ; !will need to disallow indefinite possession on alienable
+1+:ni N_FIRST_PERSON_FLAG ;
+2+:gi N_SECOND_PERSON_FLAG NOUNS ;
+3+:o  N_THIRD_PERSON_FLAG ;
+X+:i  N_X_PERSON_FLAG ; !will need to disallow indefinite possession on alienable
+        NOUNS ;
 !prefix features do not currently agree with yaml
 
 !recommend specifying animacy near stem and as inflectional feature in plurals/obviatives
 !small redundancy, but spares memory and allows agreement checking if not inflected
 !memory not spared, because you might not want to accept the wrong gendered plural marker (though it does happen under certain discursive contexts)
 
+LEXICON N_FIRST_PERSON_FLAG ;
+@P.Person.1@    NOUNS ;
+
+LEXICON N_SECOND_PERSON_FLAG ;
+@P.Person.2@    NOUNS ;
+
+LEXICON N_THIRD_PERSON_FLAG ;
+@P.Person.3@    NOUNS ;
+
+LEXICON N_X_PERSON_FLAG ;
+@P.Person.X@    NOUNS ;
+
 LEXICON N_CON_DIM ;
-+Con:enh    N_POSSESSED_THEME ;
-+Dim:ens    N_POSSESSED_THEME ;
-            N_POSSESSED_THEME ;
++Con:enh    N_POS_THEME ;
++Dim:ens    N_POS_THEME ;
+            N_POS_THEME ;
 
 LEXICON N_POS_THEME ;
-@R.Pers@+Pos:0im N_PEJ ;
+@R.Person@+Pos:0im N_PEJ ;
                 N_PEJ ;
 
 LEXICON N_PEJ ;
-+Pej:ish    N_POS_NUM ;
-            N_POS_NUM ;
++Pej:ish    N_POS_NUM_GATEWAY ;
+            N_POS_NUM_GATEWAY ;
 
-LEXICON N_POS_NUM ;
-@R.Pers@@D.Pers.3@+Pos1Pl:00inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
-@R.Pers@@D.Pers.1@+PosPl:00iwaa     N_MOOD ;
-@R.Pers.3@+PosObv:0ini              N_MOOD ;
-                                    N_Mood ;
+LEXICON N_POS_NUM_GATEWAY ;
+@R.Person@@D.Person.3@ N_POS_NUM_1Pl_21 ;
+@R.Person@@D.Person.1@ N_POS_NUM_2PL_3PL ; !indefinite plural poss can enter
+@R.Person.3@            N_POS_NUM_3OBV ; 
+                        N_MOOD ;
+
+LEXICON N_POS_NUM_1Pl_21 ;
+<"+"[1Pl|21]>:inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
+!style on regexes for features
+!yaml still has +Pos1Pl, +PosPl, +PosObv
+                        N_MOOD ;
+
+LEXICON N_POS_NUM_2PL_3PL ;
+<"+"[2|3]Pl>:iwaa     N_MOOD ;
+!what features should allow indefinite plural poss?
+                        N_MOOD ;
+
+LEXICON N_POS_NUM_3OBV ;
++3Obv:ini              N_MOOD ;
+                        N_Mood ;
 
 LEXICON N_MOOD ;
-+Pret:iban  N_NUM ;
++Pret:iban  N_NUM_GATEWAY ;
 +VocPl:idig # ; !Long feat name, variation abandoned
-            N_NUM ;
+            N_NUM_GATEWAY ;
 
-LEXICON N_NUM ;
-@R.Animate.0@+Pl:0an # ;
-@R.Animate.1@+Pl:0ag # ;
+LEXICON N_NUM_GATEWAY ;
+@R.Animate.1@   NA_NUM ;
+@R.Animate.0@   NI_NUM ;
 +Obv:an              # ;
 +Loc:ing             # ;
-                     #
+                # ;
+!intended: take one or none  of obv, loc, pl suffs, but no more
+LEXICON NA_NUM ;
++Pl:ag # ;
+
+LEXICON NI_NUM ;
++Pl:an # ;
+
