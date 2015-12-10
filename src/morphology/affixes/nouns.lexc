@@ -4,7 +4,7 @@
 
 LEXICON N_PREFIXES 
 1+:ni N_FIRST_PERSON_FLAG ;
-2+:gi N_SECOND_PERSON_FLAG NOUNS ;
+2+:gi N_SECOND_PERSON_FLAG ;
 3+:o  N_THIRD_PERSON_FLAG ;
 X+:i  N_X_PERSON_FLAG ; !will need to disallow indefinite possession on alienable
         NOUNS ;
