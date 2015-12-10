@@ -1,0 +1,144 @@
+! Divvun & Giellatekno - open source grammars for Ojibwe language
+! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ========================================================================== !
+! !!            !!!Ojibwe morphological analyser                      !
+! ========================================================================== !
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
+ 
+
+Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+
+!####
+!#Abstract features (not associated with a particular morpheme)
+!####
+
+!Verb Major Class
++VAI +VII +VTI +VTA
+
+!Verb Order
++Conj +Imper
+
+!####
+!#Concrete features (associated with a particular morpheme)
+!####
+
+!Simple Person
+1+ 2+ 3+ X+   !prefixes, last is only used on nouns
++3 +X       !suffixes, if used, occur in Local Person Number slot
+
+!Verb Negation
++Neg
+
+!Local Person Number
++1Pl +21 +2Pl
+
+!Mood
++Pret +Dub
++VocPl  !only nouns, though form is quite like dub
+
+!Non-Local Person Number/Obviation
++3Obv +3Pl  !verbs
++Obv +Loc +Pl   !Nouns
+
+!VTA features (used in deciding theme sign)
++2Sub +2Obj
++1Sub +1Obj +1PlSub !this last is only used twice!!
++3Sub +3Obj +3ObvSub +3ObvObj
++0Sub
++XSub
+
+!Noun Features
++N
++Con +Dim +Pej
++Pos
+
+!##Conjunct order features
+
+!Verb Other Person/Number combinations (conjunct order crosses person with number)
++1Sg +2Sg +3Sg
+
+!## Imperative order features
++Imm +Del +Prob
+!####
+!#Person Flags (person indicated by prefixes)
+!####
+
+!## setting flags
+@P.Person.1@
+@P.Person.2@
+@P.Person.3@
+@P.Person.X@
+
+!## checking flags
+@D.Person.1@
+@D.Person.2@
+@D.Person.3@
+@D.Person.X@
+@D.Person@
+
+@R.Person.1@
+@R.Person.2@
+@R.Person.3@
+@R.Person.X@
+@R.Person@
+
+!####
+!#Low Person Flags (person in VTA that isn't indexed on prefix)
+!####
+
+!## setting flags
+@P.LowPerson.1@
+@P.LowPerson.3@
+@P.LowPerson.X@
+@P.LowPerson.0@
+
+!## checking flags
+@D.LowPerson.1@
+@D.LowPerson.3@
+@D.LowPerson.X@
+@D.LowPerson.0@
+@D.LowPerson@
+
+@R.LowPerson.1@
+@R.LowPerson.3@
+@R.LowPerson.X@
+@R.LowPerson.0@
+@R.LowPerson@
+
+!####
+!#Animacy flags (animacy is inherent to nouns)
+!####
+
+!## setting flags
+@P.Animate.0@
+@P.Animate.1@
+
+!## checking flags
+@D.Animate.0@
+@D.Animate.1@
+
+@R.Animate.0@
+@R.Animate.1@
+
+LEXICON Root
+!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! word classes, or optionally from prefixes:
+0   Nouns       ;
+0   Verbs       ;
+0   Adjectives  ;
+0   Pronouns    ;
+0   Numerals    ;
+0   Prefixes    ;
+
