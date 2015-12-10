@@ -7,16 +7,16 @@ LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will
 @D.Person@      VII_GATEWAY ;
                 TRANS_GATEWAY ;
 
-LEXICON VAI_GATEWAY 
+LEXICON VAI_GATEWAY
     VAI_DEF ;
     VAI_N ;
     VAI_V ;
     VAI_VV ;
 
-LEXICON VII_GATEWAY 
-+VII    VII_ORDERS ;
+LEXICON VII_GATEWAY
++VII:0    VII_ORDERS ;
 
-LEXICON VII_ORDERS 
+LEXICON VII_ORDERS
 # ; !not done yet
 
 LEXICON TRANS_GATEWAY
@@ -30,11 +30,11 @@ LEXICON TRANS_GATEWAY
 
 
 
-LEXICON VAI_DEF 
+LEXICON VAI_DEF
 agaasitawage    VAI_FLAG    "has small ears" ; !line:11882, word:w72499171550w, sense:s72499172225s
 
 
-LEXICON VAI_AM 
+LEXICON VAI_AM
 bagakendam    VAI_FLAG    "be clear-headed" ; !line:1707, word:w1491w, sense:s68908751532s
 gopa'am    VAI_FLAG    "loads upstream" ; !line:5115, word:w4581w, sense:s68908754652s
 ina'am    VAI_FLAG    "sings in such a way" ; !line:5351, word:w70118977355w, sense:s70118978050s
@@ -43,7 +43,7 @@ zaagewa'am    VAI_FLAG    "emerges, comes into view (in a boat or canoe)" ; !lin
 biidwewidam    VAI_FLAG    "come audibly, come making noise, come speaking" ; !line:12140, word:w74653256991w, sense:s74653258469s
 
 
-LEXICON VAI_N 
+LEXICON VAI_N
 aabizhiishin    VAI_FLAG    "revives, regains consciousness" ; !line:96, word:w70112956016w, sense:s70112957117s
 aaboojishin    VAI_FLAG    "lies inside out" ; !line:104, word:w86w, sense:s68908750106s
 aabooshka'angoojin    VAI_FLAG    "floats on top of water" ; !line:109, word:w91w, sense:s68908750111s
@@ -240,7 +240,7 @@ bizaanishin    VAI_FLAG    "has a quiet time, has an easy time of it (healthwise
 onishin    VAI_FLAG    "is absent, is away" ; !line:12113, word:w74639323363w, sense:s74639324932s
 
 
-LEXICON VAI_V 
+LEXICON VAI_V
 aa'iidaabikaazo    VAI_FLAG    "is (being) tied tightly" ; !line:38, word:w25w, sense:s68908750045s
 aa'iijigaazo    VAI_FLAG    "hides extremely well" ; !line:43, word:w30w, sense:s68908750050s
 aa'inimo    VAI_FLAG    "sneezes" ; !line:47, word:w34w, sense:s68908750054s
@@ -1677,28 +1677,7 @@ niizhwaasogonagizi    VAI_FLAG    "is seven days old; is the seventh of the mont
 nishwaasogonagizi    VAI_FLAG    "is eight days old; is the eighth of the month" ; !line:11591, word:w72364247678w, sense:s72364252608s
 zhaangasogonagizi    VAI_FLAG    "is nine days old; is the ninth of the month" ; !line:11592, word:w72364253834w, sense:s72364256296s
 midaasogonagizi    VAI_FLAG    "is ten days old; is the tenth of the month" ; !line:11593, word:w72364262168w, sense:s72364262757s
-midaasogonagizi ashi bezhig    VAI_FLAG    "is eleven days old; is the eleventh of the month" ; !line:11594, word:w72364285969w, sense:s72364286499s
-midaasogonagizi ashi niizh    VAI_FLAG    "is twelve days old; is the twelfth of the month" ; !line:11595, word:w72364299048w, sense:s72364299629s
 bezhigogonagizi    VAI_FLAG    "is one day old" ; !line:11596, word:w72364310803w, sense:s72364311348s
-midaasogonagizi ashi niswi    VAI_FLAG    "is thirteen days old; is the thirteenth of the month" ; !line:11597, word:w72364315910w, sense:s72364316456s
-midaasogonagizi ashi niiwin    VAI_FLAG    "is fourteen days old; is the fourteenth of the month" ; !line:11598, word:w72364321827w, sense:s72364323072s
-midaasogonagizi ashi naanan    VAI_FLAG    "is fifteen days old; is the fifteenth of the month" ; !line:11599, word:w72364343199w, sense:s72364343826s
-midaasogonagizi ashi ningodwaaswi    VAI_FLAG    "is sixteen days old; is the sixteenth of the month" ; !line:11600, word:w72364350693w, sense:s72364351368s
-midaasogonagizi ashi niizhwaaswi    VAI_FLAG    "is seventeen days old; is the seventeenth of the month" ; !line:11601, word:w72364359422w, sense:s72364360057s
-midaasogonagizi ashi nishwaaswi    VAI_FLAG    "is eighteen days old; is the eighteenth of the month" ; !line:11602, word:w72364367629w, sense:s72364368553s
-midaasogonagizi ashi zhaangaswi    VAI_FLAG    "is nineteen days old; is the nineteenth of the month" ; !line:11603, word:w72364375147w, sense:s72364375759s
-niishtana dasogonagizi    VAI_FLAG    "is twenty days old; is the twentieth of the month" ; !line:11604, word:w72364383570w, sense:s72364384278s
-niishtana dasogonagizi ashi bezhig    VAI_FLAG    "is twenty-one days old; is the twenty-first of the month" ; !line:11605, word:w72364390633w, sense:s72364391409s
-niishtana dasogonagizi ashi niizh    VAI_FLAG    "is twenty-two days old; is the twenty-second of the month" ; !line:11606, word:w72364397074w, sense:s72364397807s
-niishtana dasogonagizi ashi niswi    VAI_FLAG    "is twenty-three days old; is the twenty-third of the month" ; !line:11607, word:w72364407663w, sense:s72364408376s
-niishtana dasogonagizi ashi niiwin    VAI_FLAG    "is twenty-four days old; is the twenty-fourth of the month" ; !line:11608, word:w72364414348w, sense:s72364415545s
-niishtana dasogonagizi ashi naanan    VAI_FLAG    "is twenty-five days old; is the twenty-fifth of the month" ; !line:11609, word:w72364423239w, sense:s72364423868s
-niishtana dasogonagizi ashi ningodwaaswi    VAI_FLAG    "is twenty-six days old; is the twenty-sixth of the month" ; !line:11610, word:w72364432185w, sense:s72364433174s
-niishtana dasogonagizi ashi niizhwaaswi    VAI_FLAG    "is twenty-seven days old; is the twenty-seventh of the month" ; !line:11611, word:w72364439703w, sense:s72364440412s
-niishtana dasogonagizi ashi nishwaaswi    VAI_FLAG    "is twenty-eight days old; is the twenty-eighth of the month" ; !line:11612, word:w72364446625w, sense:s72364447502s
-niishtana dasogonagizi ashi zhaangaswi    VAI_FLAG    "is twenty-nine days old; is the twenty-ninth of the month" ; !line:11613, word:w72364454186w, sense:s72364454908s
-nisimidana dasogonagizi    VAI_FLAG    "is thirty days old; is the thirtieth of the month" ; !line:11614, word:w72364460242w, sense:s72364460866s
-nisimidana dasogonagizi ashi bezhig    VAI_FLAG    "is thirty-one days old; is the thirty-first of the month" ; !line:11615, word:w72364467337w, sense:s72364468148s
 maadaginzo    VAI_FLAG    "is beginning to be counted, is the first of the month" ; !line:11616, word:w72364472839w, sense:s72364473826s
 dasogiiziswagizi    VAI_FLAG    "is so many months old, is that many months old" ; !line:11648, word:w72373933370w, sense:s72373934757s
 ningogiiziswagizi    VAI_FLAG    "is one month old" ; !line:11649, word:w72373940428w, sense:s72373941179s
@@ -1706,14 +1685,8 @@ niizhogiiziswagizi    VAI_FLAG    "is two months old" ; !line:11650, word:w72373
 nisogiiziswagizi    VAI_FLAG    "is three months old" ; !line:11651, word:w72373973980w, sense:s72373974668s
 niiwigiiziswagizi    VAI_FLAG    "is four months old" ; !line:11652, word:w72373977920w, sense:s72373978391s
 naanogiiziswagizi    VAI_FLAG    "is five months old" ; !line:11653, word:w72373983020w, sense:s72373983578s
-midaasogiiziswagizi ashi niswi    VAI_FLAG    "is thirteen months old" ; !line:11654, word:w72373989075w, sense:s72373989731s
-niishtana dasogiiziswagizi    VAI_FLAG    "is twenty months old" ; !line:11655, word:w72373996501w, sense:s72373997263s
 nishwaasobiboonagizi    VAI_FLAG    "is eight years old" ; !line:11656, word:w72374026396w, sense:s72374027201s
 naanobiboonagizi    VAI_FLAG    "is five years old" ; !line:11657, word:w72374032387w, sense:s72374033071s
-midaasobiboonagizi ashi naanan    VAI_FLAG    "is fifteen years old" ; !line:11659, word:w72374051126w, sense:s72374051844s
-niimidana dasobiboonagizi    VAI_FLAG    "is forty years old" ; !line:11660, word:w72374065360w, sense:s72374066066s
-niishtana dasobiboonagizi    VAI_FLAG    "is twenty years old" ; !line:11661, word:w72374070811w, sense:s72374071416s
-niishtana dasobiboonagizi ashi niiwin    VAI_FLAG    "is twenty-four years old" ; !line:11662, word:w72374078892w, sense:s72374079901s
 Gizhe-Manidoowi    VAI_FLAG    "is God" ; !line:11678, word:w72374314758w, sense:s72374315820s
 gichitwaawizi    VAI_FLAG    "is holy, is saintly, is sanctified" ; !line:11679, word:w72374342120w, sense:s72374342573s
 niigaanizi    VAI_FLAG    "is in charge, leads" ; !line:11685, word:w72386926434w, sense:s72386929077s
@@ -1759,7 +1732,7 @@ zhoomiingweni    VAI_FLAG    "smiles" ; !line:12120, word:w74650053586w, sense:s
 apagizo    VAI_FLAG    "throws oneself down" ; !line:12158, word:w74662934249w, sense:s74662935236s
 
 
-LEXICON VAI_VV 
+LEXICON VAI_VV
 aa'aagade    VAI_FLAG    "gags, vomits, retches repeatedly" ; !line:25, word:w14w, sense:s68908750034s
 aa'aanikoota'ige    VAI_FLAG    "makes a quilt" ; !line:27, word:w16w, sense:s68908750036s
 aa'aazhawishkaa    VAI_FLAG    "goes back and forth" ; !line:35, word:w22w, sense:s68908750042s
@@ -3405,7 +3378,7 @@ waabaagaminige    VAI_FLAG    "puts milk in one's drink" ; !line:9580, word:w856
 waabaanikwe    VAI_FLAG    "has white hair" ; !line:9585, word:w8569w, sense:s68908758703s
 waabange    VAI_FLAG    "sees things or people" ; !line:9606, word:w8589w, sense:s68908758723s
 waabanjige    VAI_FLAG    "looks at" ; !line:9608, word:w8591w, sense:s68908758725s
-waabasimoo-ataage    VAI_FLAG    "plays the "white dog" gambling game" ; !line:9615, word:w8597w, sense:s68908758731s
+waabasimoo-ataage    VAI_FLAG    "plays the 'white dog' gambling game" ; !line:9615, word:w8597w, sense:s68908758731s
 waabazhagaye    VAI_FLAG    "has light-coloured skin" ; !line:9617, word:w8599w, sense:s68908758733s
 waabibii'ige    VAI_FLAG    "paints white" ; !line:9624, word:w8606w, sense:s68908758740s
 waabiskaakoga'ige    VAI_FLAG    "blazes a trail (chips bark off a tree to make a marking)" ; !line:9656, word:w8636w, sense:s68908758770s
@@ -3689,17 +3662,17 @@ mazhii'ige    VAI_FLAG    "work with something" ; !line:12126, word:w74650437376
 dazhitaa    VAI_FLAG    "is engaged in particular place; is busy in a certain place" ; !line:12151, word:w74659113091w, sense:s74659121820s
 bimaaji'iwe    VAI_FLAG    "save people; be a saviour" ; !line:12163, word:w76221041277w, sense:s76221042683s
 
-LEXICON VAI_FLAG 
- +VAI       VAI_ORDERS ;
+LEXICON VAI_FLAG
++VAI:0       VAI_ORDERS ;
 
-LEXICON VTA_DEF 
+LEXICON VTA_DEF
 misawi    VTA_FLAG    "make sure s.o. never does such a thing again and learns one's lesson" ; !line:7138, word:w6394w, sense:s68908756491s
 aabiziiwim    VTA_FLAG    "console s.o., solace s.o., encourage s.o." ; !line:11196, word:w72327519126w, sense:s72327520996s
 wawiigi'    VTA_FLAG    "be kind to s.o., be pleasant with s.o." ; !line:12118, word:w74648453072w, sense:s74648454730s
 daadaadaganaabam    VTA_FLAG    "gaze at s.o. ??" ; !line:12157, word:w74662913388w, sense:s74662914147s
 
 
-LEXICON VTA_AW 
+LEXICON VTA_AW
 aaba'amaw    VTA_FLAG    "opens for s.o." ; !line:48, word:w35w, sense:s68908750055s
 aadinamaw    VTA_FLAG    "acquire something before s.o." ; !line:125, word:w106w, sense:s68908750126s
 aagawaateshkaw    VTA_FLAG    "shade s.o. from the sun by standing near s.o." ; !line:142, word:w123w, sense:s68908750143s
@@ -3948,7 +3921,7 @@ ojijiingwaniitaw    VTA_FLAG    "worship s.o." ; !line:12162, word:w76221014734w
 ganoodamaw    VTA_FLAG    "prophesy about s.o." ; !line:12164, word:w76221059666w, sense:s76221060599s
 
 
-LEXICON VTA_C 
+LEXICON VTA_C
 aa'aashenim    VTA_FLAG    "be envious of s.o." ; !line:31, word:w20w, sense:s68908750040s
 aa'iijiganawenim    VTA_FLAG    "watch over s.o. extremely" ; !line:44, word:w31w, sense:s68908750051s
 aabaji'    VTA_FLAG    "use s.o." ; !line:58, word:w45w, sense:s68908750065s
@@ -4598,7 +4571,7 @@ amadin    VTA_FLAG    "wake s.o." ; !line:12137, word:w74652709744w, sense:s7465
 wanaabam    VTA_FLAG    "lose slght of s.o." ; !line:12161, word:w74663241773w, sense:s74663242359s
 
 
-LEXICON VTA_CW 
+LEXICON VTA_CW
 aaba'o    VTA_FLAG    "untie s.o." ; !line:52, word:w39w, sense:s72322737605s
 aabitawizho    VTA_FLAG    "cut s.o. in half" ; !line:93, word:w76w, sense:s68908750096s
 aadaakwa'o    VTA_FLAG    "lock s.o. out" ; !line:121, word:w103w, sense:s68908750123s
@@ -4778,13 +4751,13 @@ baganda'    VTA_FLAG    "thresh s.o., flail to separate grain from s.o. (a plant
 nandone'    VTA_FLAG    "look for s.o., seek s.o. out" ; !line:12132, word:w74652388867w, sense:s74652391306s
 
 
-LEXICON VTA_IZHI 
+LEXICON VTA_IZHI
 izhi    VTA_FLAG    "mean s.o." ; !line:5654, word:w5035w, sense:s68908755118s
 izhi    VTA_FLAG    "say to s.o." ; !line:5655, word:w5036w, sense:s70112174123s
 maji-izhi    VTA_FLAG    "speak ill of s.o." ; !line:6305, word:w70142678929w, sense:s70142679375s
 
 
-LEXICON VTA_S 
+LEXICON VTA_S
 ashi    VTA_FLAG    "place s.o. at such a place" ; !line:1138, word:w991w, sense:s68908751024s
 giigashi    VTA_FLAG    "place s.o. against something else like a wall" ; !line:4541, word:w4064w, sense:s68908754131s
 goshi    VTA_FLAG    "fear s.o., be afraid of s.o." ; !line:5123, word:w70112503908w, sense:s70112504519s
@@ -4793,9 +4766,9 @@ nana'ishi    VTA_FLAG    "settle s.o." ; !line:7799, word:w6999w, sense:s6890875
 nishi    VTA_FLAG    "kill s.o." ; !line:8459, word:w7515w, sense:s68908757676s
 odishi    VTA_FLAG    "reach s.o., arrive at s.o." ; !line:8809, word:w7826w, sense:s68908757991s
 
-LEXICON VTA_FLAG 
-+VTA     VTA_PREORDER_GATEWAY ;
+LEXICON VTA_FLAG
++VTA:0     VTA_PREORDER_GATEWAY ;
 
-LEXICON VTA_PREORDER_GATEWAY 
+LEXICON VTA_PREORDER_GATEWAY
         TRANS_INDEP ;
 @D.Person@  TRANS_NON_INDEP ;
