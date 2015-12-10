@@ -138,7 +138,6 @@ LEXICON VAI_CONJ_PERSNUM ;
 
 LEXICON VAI_CONJ_PRET ;
 +Pret:ban   VAI_CONJ_DUB ;
-!need to skip this sublexicon
             VAI_CONJ_DUB ;
 
 LEXICON VAI_CONJ_DUB ;
@@ -351,7 +350,7 @@ LEXICON VTA_INDEP_PERSNUM_1X3 ;
                             VTA_INDEP_MOOD ;
 
 LEXICON VTA_INDEP_PERSNUM_1X0 ;
-<"+0"[Sg|Pl]"+"[1Pl|21]>:naan   VTA_INDEP_MOOD ;
+<["+0Sg"|"+0Pl"]["+1Pl"|"+21"]:n a a n>   VTA_INDEP_MOOD ;
                                 VTA_INDEP_MOOD ;
 
 LEXICON VTA_INDEP_PERSNUM_3 ;
