@@ -35,7 +35,7 @@
 !suspect not ...
 !but it is good form
 
-LEXICON V_PREFIXES ;
+LEXICON V_PREFIXES
 1+:ni   V_FIRST_PERSON ;
 2+:gi   V_SECOND_PERSON ;
 3+:o    V_THIRD_PERSON ;
@@ -45,13 +45,13 @@ LEXICON V_PREFIXES ;
 !style question: PERSON spelled out here and in flags
 !but not some sublexicon titles have PERS
 
-LEXICON V_FIRST_PERSON_FLAG ; !add _FLAG to style
+LEXICON V_FIRST_PERSON_FLAG !add _FLAG to style
 @P.Person.1@  VERBS ;
 
-LEXICON V_SECOND_PERSON_FLAG ;
+LEXICON V_SECOND_PERSON_FLAG 
 @P.Person.2@  VERBS ;
 
-LEXICON V_THIRD_PERSON_FLAG ;
+LEXICON V_THIRD_PERSON_FLAG 
 @P.Person.3@  VERBS ;
 
 !#####
@@ -60,20 +60,20 @@ LEXICON V_THIRD_PERSON_FLAG ;
 
 !looking like gateway but not labeled as such, stems will have to be edited too
 
-LEXICON VAI_ORDERS ;
+LEXICON VAI_ORDERS 
             VAI_INDEP_NEG ; !not specifying +Indep
 @D.Person@    VAI_NON_INDEP
 
-LEXICON VAI_NON_INDEP ;
+LEXICON VAI_NON_INDEP 
 +Conj:0     VAI_VAI_CONJ_NEG ;
 +Imper:0    VAI_IMPER ;
 
 !Independent order
-LEXICON VAI_INDEP_NEG ;
+LEXICON VAI_INDEP_NEG 
 +Neg:sii    VAI_INDEP_PERSNUM ;
             VAI_INDEP_PERSNUM ;!intended ... no suffix, just go to persnum
 
-LEXICON VAI_INDEP_PERSNUM ; !does this count as a gateway??
+LEXICON VAI_INDEP_PERSNUM !does this count as a gateway??
 !<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
 @R.Person.2@  VAI_INDEP_LOCALNUM ;
 @R.Person.1@  VAI_INDEP_LOCALNUM ;
@@ -81,27 +81,27 @@ LEXICON VAI_INDEP_PERSNUM ; !does this count as a gateway??
 +X:m        VAI_INDEP_THIRD_PERSON_FLAG ;
             VAI_INDEP_MOOD ; !intended ... no suffix (first and second person singulars, viz above), just go to mood
 
-LEXICON VAI_INDEP_LOCALNUM ; !style on linearizing nested sublexica? does this count as a gateway?
-<"+"[1Pl|21]>:min   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
+LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
+<["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
 @R.Person.2@          VAI_INDEP_LOCALNUM_2PL
 
-LEXICON VAI_INDEP_LOCALNUM_2PL ;
+LEXICON VAI_INDEP_LOCALNUM_2PL 
 +2Pl:m   VAI_INDEP_MOOD ;
 
-LEXICON VAI_INDEP_THIRD_PERSON_FLAG ;
+LEXICON VAI_INDEP_THIRD_PERSON_FLAG 
 @P.Person.3@  VAI_INDEP_MOOD ;
 
-LEXICON VAI_INDEP_MOOD ;
+LEXICON VAI_INDEP_MOOD 
 +Pret:ban       VAI_INDEP_PERS_GATEWAY ;
 +Dub:dig        VAI_INDEP_PERS_GATEWAY ; 
 +Pret+Dub:goban VAI_INDEP_PERS_GATEWAY ;
                 VAI_INDEP_PERS_GATEWAY ; !intended ... no suffix, just go to gateway
 
-LEXICON VAI_INDEP_PERS_GATEWAY ; !add GATEWAY to style
+LEXICON VAI_INDEP_PERS_GATEWAY !add GATEWAY to style
 @D.Person.3@  # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
 @R.Person.3@  VAI_INDEP_NONLOCNUM ;
 
-LEXICON VAI_INDEP_NONLOCNUM ;
+LEXICON VAI_INDEP_NONLOCNUM 
 +3Obv:an    # ;
 +3Pl:ag     # ;
             # ;
@@ -113,7 +113,7 @@ LEXICON VAI_INDEP_NONLOCNUM ;
 
 !Insert schematic template here (also update style guide)
 
-LEXICON VAI_CONJ_NEG ;
+LEXICON VAI_CONJ_NEG 
 +Neg:ziw        VAI_CONJ_PERSNUM ; !nas morph
 !is this next legal? will it make incorrect zigwaawaad or ziwaad?
 +Neg+3Pl:zigwaa VAI_CONJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
@@ -121,7 +121,7 @@ LEXICON VAI_CONJ_NEG ;
 
 !need to be able to adjust the [w]
 
-LEXICON VAI_CONJ_PERSNUM ;
+LEXICON VAI_CONJ_PERSNUM 
 !adjustments for context needed once move past nas
 +1Sg:aanh      VAI_CONJ_PRET ; 
 +2Sg:in        VAI_CONJ_PRET ; 
@@ -136,18 +136,18 @@ LEXICON VAI_CONJ_PERSNUM ;
 !need to be able to end or move on ...
 !doesn't seem right to delay decision to end until the next sublexicon
 
-LEXICON VAI_CONJ_PRET ;
+LEXICON VAI_CONJ_PRET 
 +Pret:ban   VAI_CONJ_DUB ;
             VAI_CONJ_DUB ;
 
-LEXICON VAI_CONJ_DUB ;
+LEXICON VAI_CONJ_DUB 
 +Dub:en # ;
         # ;
 
 !Imperative order
 !Insert schematic template here (also update style guide)
 
-LEXICON VAI_IMPER ;
+LEXICON VAI_IMPER 
 +Imm+2Sg:n       # ;
 +Imm+2Pl:g       # ;
 +Imm+21:daa      # ;
@@ -161,7 +161,7 @@ LEXICON VAI_IMPER ;
 !# VII Morphological sub-classes
 !#####
 
-LEXICON VII_ORDERS ;
+LEXICON VII_ORDERS 
 !+Indep ;
 !+Conj ;
 !+Imper ;
@@ -171,11 +171,11 @@ LEXICON VII_ORDERS ;
 !#####
 
 !as with VAI's much of this will probably be transferred to VERBS
-LEXICON TRANS_INDEP ;
+LEXICON TRANS_INDEP 
 +VTA+Indep:0        VTA_INDEP_THEME_GATEWAY ;
 +VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
 
-LEXICON TRANS_NON_INDEP ;
+LEXICON TRANS_NON_INDEP 
 +VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
 +VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
 +VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
@@ -188,7 +188,7 @@ LEXICON TRANS_NON_INDEP ;
 !VTA Independent order Valentine (2001):274
 !Insert schematic template here (also update style guide)
 
-LEXICON VTA_INDEP_THEME_GATEWAY ;
+LEXICON VTA_INDEP_THEME_GATEWAY 
 @R.Person.2@  VTA_INDEP_THEME_SECOND_PERSON ;
 @R.Person.1@  VTA_INDEP_THEME_FIRST_PERSON ;
 @R.Person.3@  VTA_INDEP_THEME_THIRD_PERSON ;
@@ -203,49 +203,49 @@ LEXICON VTA_INDEP_THEME_GATEWAY ;
 !           3       2   1        3      3   3 
 !           3Obv    2   1   3           3   3
 
-LEXICON VTA_INDEP_THEME_SECOND_PERSON ; !1
-+2Sub+1Obj:0i          VTA_INDEP_LOW_PERSON_1_FLAG ; !local direct
-+1Sub+2Obj:0ini        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
+LEXICON VTA_INDEP_THEME_SECOND_PERSON !1
++2Sub+1Obj:i          VTA_INDEP_LOW_PERSON_1_FLAG ; !local direct
++1Sub+2Obj:ini        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
 !long name here..., only case in theme sign where we have to track number
-+1PlSub+2Obj:0igoo        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
-+2Sub+3Obj:0aa         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+2Sub+3ObvObj:0aa      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+3Sub+2Obj:0igo        VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+3ObvSub+2Obj:0igo     VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+0Sub+2Obj:0igo        VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+XSub+2Obj:0igoo       VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
++1PlSub+2Obj:igoo        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
++2Sub+3Obj:aa         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++2Sub+3ObvObj:aa      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++3Sub+2Obj:igo        VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
++3ObvSub+2Obj:igo     VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
++0Sub+2Obj:igo        VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
++XSub+2Obj:igoo       VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
 !obviatives behave just like singulars here...
 !this just calls for a regex
 
-LEXICON VTA_INDEP_THEME_FIRST_PERSON ; !2
-+1Sub+3Obj:0aa          VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+1Sub+3ObvObj:0aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+3Sub+1Obj:0igo         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+3ObvSub+1Obj:0igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+0Sub+1Obj:0igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+XSub+1Obj:0igoo        VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
+LEXICON VTA_INDEP_THEME_FIRST_PERSON !2
++1Sub+3Obj:aa          VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++1Sub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++3Sub+1Obj:igo         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
++3ObvSub+1Obj:igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
++0Sub+1Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
++XSub+1Obj:igoo        VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
 !obviatives behave just like singulars here...
 !this just calls for a regex
 
-LEXICON VTA_INDEP_THEME_THIRD_PERSON ; !3
-+3Sub+3ObvObj:0aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+3ObvSub+3Obj:0igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+0Sub+3Obj:0igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+0Sub+3ObvObj:0igo      VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local direct
-+XSub+3Obj:0aa          VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
-+XSub+3ObvObj:0aa       VTA_INDEP_LOW_PERSON_X_FLAG ; !non-local direct
+LEXICON VTA_INDEP_THEME_THIRD_PERSON !3
++3Sub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++3ObvSub+3Obj:igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
++0Sub+3Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
++0Sub+3ObvObj:igo      VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local direct
++XSub+3Obj:aa          VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
++XSub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_X_FLAG ; !non-local direct
 !this just calls for a regex
 
-LEXICON VTA_INDEP_LOW_PERSON_1_FLAG ;
+LEXICON VTA_INDEP_LOW_PERSON_1_FLAG 
 @P.LowPerson.1@     VTA_INDEP_NEG 
 
-LEXICON VTA_INDEP_LOW_PERSON_3_FLAG ;
+LEXICON VTA_INDEP_LOW_PERSON_3_FLAG 
 @P.LowPerson.3@     VTA_INDEP_NEG ;
 
-LEXICON VTA_INDEP_LOW_PERSON_0_FLAG ;
+LEXICON VTA_INDEP_LOW_PERSON_0_FLAG 
 @P.LowPerson.0@     VTA_INDEP_NEG ; 
 
-LEXICON VTA_INDEP_LOW_PERSON_X_FLAG ;
+LEXICON VTA_INDEP_LOW_PERSON_X_FLAG 
 @P.LowPerson.X@     VTA_INDEP_NEG ;
 
 !!NOT DONE!!! need non-local inverse
@@ -268,7 +268,7 @@ LEXICON VTA_INDEP_LOW_PERSON_X_FLAG ;
 
 !negative morpheme  consistent across classes, but making it common would require a lot of flags
 
-LEXICON VTA_INDEP_NEG ;
+LEXICON VTA_INDEP_NEG 
 +Neg:sii        VTA_INDEP_PERSNUM_GATEWAY ;
 @R.LowPerson.0@   VTA_INDEP_INAN_SUB ;
 @D.LowPerson.0@     VTA_INDEP_PERSNUM_GATEWAY ;
@@ -300,11 +300,11 @@ LEXICON VTA_INDEP_NEG ;
 !                                                                        n-aawaa
 !1pl subjects acting on 2nd persons trigger theme sign igoo
 
-LEXICON VTA_INDEP_INAN_SUB ;
+LEXICON VTA_INDEP_INAN_SUB 
 +0Sub:n     VTA_INDEP_PERSNUM_GATEWAY ;
 !need to adjust n-n sequences with n-naan
 
-LEXICON VTA_INDEP_PERSNUM_GATEWAY ;
+LEXICON VTA_INDEP_PERSNUM_GATEWAY 
 !precise distribution fairly complex (Valentine (2001):274)
 @R.Person.2@@R.LowPerson.1@   VTA_INDEP_PERSNUM_2X1 ;
 @R.Person.2@@R.LowPerson.X@   VTA_INDEP_PERSNUM_2XX ;
@@ -316,62 +316,65 @@ LEXICON VTA_INDEP_PERSNUM_GATEWAY ;
 @R.Person.1@@R.LowPerson.0@   VTA_INDEP_PERSNUM_1X0 ;
 
 @R.Person.3@                  VTA_INDEP_PERSNUM_3 ;
+!optionality handled in daughters instead of in gateway
 
-LEXICON VTA_INDEP_PERSNUM_2X1 ;
-<"+"1[Sg|Pl]>2pl:m      VTA_INDEP_MOOD ; 
+LEXICON VTA_INDEP_PERSNUM_2X1 
+<[["+1Sg"|"+1Pl"]"+2Pl"]] .x. [m]>      VTA_INDEP_MOOD ; 
 +2Pl+1Sg:m              VTA_INDEP_MOOD ;
 <"+"2[Pl|Sg]>+1Pl:min   VTA_INDEP_MOOD ;
                         VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_2XX ;
+LEXICON VTA_INDEP_PERSNUM_2XX 
 +X+2Pl:m    VTA_INDEP_MOOD ;
 +X+21:min   VTA_INDEP_MOOD ;
             VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_2X3 ;
-<"+"3[Sg|Obv|Pl]>+21:naan   VTA_INDEP_MOOD ;
-+21<"+"3[Sg|Obv|Pl]>:naan   VTA_INDEP_MOOD ;
-<"+"3[Sg|Obv|Pl]>+2Pl:waa   VTA_INDEP_MOOD ;
-+2Pl<"+"3[Sg|Obv|Pl]>:waa   VTA_INDEP_MOOD ;
+LEXICON VTA_INDEP_PERSNUM_2X3 
+!strongly favor all caps in features...with CamelCase errors are too easy to make and miss
+<[["+3Sg"|"+3Obv"|"+3Pl"]"+21"] .x. [n a a n]>   VTA_INDEP_MOOD ;
+<["+21"["+3Sg"|"+3Obv"|"+3Pl"]] .x. [n a a n]>   VTA_INDEP_MOOD ;
+<[["+3Sg"|"+3Obv"|"+3Pl"]"+2Pl"] .x. [w a a]>   VTA_INDEP_MOOD ;
+<["+2Pl"["+3Sg"|"+3Obv"|"+3Pl"]] .x. [w a a]>   VTA_INDEP_MOOD ;
                             VTA_INDEP_MOOD ;
 
 LEXICON VTA_INDEP_PERSNUM_2X0
-<"+0"[Sg|Pl]>+2Pl:aawaa VTA_INDEP_MOOD ;
-<"+0"[Sg|Pl]>+21:naan   VTA_INDEP_MOOD ;
+<[["+0Sg"|"+0Pl"]"+2Pl"] .x. [a a w a a]> VTA_INDEP_MOOD ;
+<[["+0Sg"|"+0Pl"]"+21"] .x. [n a a n]>   VTA_INDEP_MOOD ;
                         VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_1XX ;
+LEXICON VTA_INDEP_PERSNUM_1XX 
 +X+1Pl:min  VTA_INDEP_MOOD ;
             VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_1X3 ;
-<"+"3[Sg|Obv|Pl]>+1Pl:naan  VTA_INDEP_MOOD ;
-+1Pl<"+"3[Sg|Obv|Pl]>:naan  VTA_INDEP_MOOD ;
+LEXICON VTA_INDEP_PERSNUM_1X3 
+<[["+3Sg"|"+3Obv"|"+3Pl"]"+1Pl"] .x. [n a a n]>  VTA_INDEP_MOOD ;
+<["+1Pl"["+3Sg"|"+3Obv"|"+3Pl"]] .x. [n a a n]>  VTA_INDEP_MOOD ;
                             VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_1X0 ;
-<["+0Sg"|"+0Pl"]["+1Pl"|"+21"]:n a a n>   VTA_INDEP_MOOD ;
+LEXICON VTA_INDEP_PERSNUM_1X0 
+<[["+0Sg"|"+0Pl"]["+1Pl"|"+21"]] .x. [n a a n]>   VTA_INDEP_MOOD ;
                                 VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_PERSNUM_3 ;
+LEXICON VTA_INDEP_PERSNUM_3 
 +3Pl+3Obv:waa   VTA_INDEP_MOOD ;
 +3Obv+3pl:waa   VTA_INDEP_MOOD ;
-<"+0"[Pl|Sg]+3pl>:aawaa   VTA_INDEP_MOOD ;
+<[["+0Pl"|"+0Sg"]"+3Pl"] .x. [a a w a a]>   VTA_INDEP_MOOD ;
                 VTA_INDEP_MOOD ;
 
-LEXICON VTA_INDEP_MOOD ;
+LEXICON VTA_INDEP_MOOD 
 +Pret:ban   VTA_INDEP_PERS_GATEWAY ;
 +Dub:dig    VTA_INDEP_PERS_GATEWAY ;
             VTA_INDEP_PERS_GATEWAY ;  
 
-LEXICON VTA_INDEP_PERS_GATEWAY ; !add GATEWAY to style
+LEXICON VTA_INDEP_PERS_GATEWAY !add GATEWAY to style
 !Might need to be revised
-@D.Person.3@:0 # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
-@R.Person.3@:0 VAI_INDEP_NONLOCNUM ;
+@D.Person.3@ # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
+@R.Person.3@ VTA_INDEP_NONLOCNUM ;
 
-LEXICON VAI_INDEP_NONLOCNUM ;
+LEXICON VTA_INDEP_NONLOCNUM 
 !precise distribution fairly complex (Valentine (2001):274)
 +3Obv:an    # ;
 +3Pl:ag     # ;
 
-LEXICON VTI_INDEP ; !name needs to be followed with a morpheme slot
+LEXICON VTI_INDEP !name needs to be followed with a morpheme slot
+
