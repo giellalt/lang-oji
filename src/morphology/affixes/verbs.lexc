@@ -36,9 +36,9 @@
 !but it is good form
 
 LEXICON V_PREFIXES
-1+:ni   V_FIRST_PERSON ;
-2+:gi   V_SECOND_PERSON ;
-3+:o    V_THIRD_PERSON ;
+1+:ni   V_FIRST_PERSON_FLAG ;
+2+:gi   V_SECOND_PERSON_FLAG ;
+3+:o    V_THIRD_PERSON_FLAG ;
         VERBS ; !intended ... no prefix, just go to verbs
 !Add alignment recs to style
 
@@ -62,10 +62,10 @@ LEXICON V_THIRD_PERSON_FLAG
 
 LEXICON VAI_ORDERS 
             VAI_INDEP_NEG ; !not specifying +Indep
-@D.Person@    VAI_NON_INDEP
+@D.Person@    VAI_NON_INDEP ;
 
 LEXICON VAI_NON_INDEP 
-+Conj:0     VAI_VAI_CONJ_NEG ;
++Conj:0     VAI_CONJ_NEG ;
 +Imper:0    VAI_IMPER ;
 
 !Independent order
@@ -83,7 +83,7 @@ LEXICON VAI_INDEP_PERSNUM !does this count as a gateway??
 
 LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
 <["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
-@R.Person.2@          VAI_INDEP_LOCALNUM_2PL
+@R.Person.2@          VAI_INDEP_LOCALNUM_2PL ;
 
 LEXICON VAI_INDEP_LOCALNUM_2PL 
 +2Pl:m   VAI_INDEP_MOOD ;
@@ -161,7 +161,7 @@ LEXICON VAI_IMPER
 !# VII Morphological sub-classes
 !#####
 
-LEXICON VII_ORDERS 
+!LEXICON VII_ORDERS 
 !+Indep ;
 !+Conj ;
 !+Imper ;
@@ -176,10 +176,11 @@ LEXICON TRANS_INDEP
 +VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
 
 LEXICON TRANS_NON_INDEP 
-+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
-+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
-+VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
-+VTI+Imper:0       VTI_IMPER ;!name needs to be followed by morpheme slot
+# ;
+!+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
+!+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
+!+VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
+!+VTI+Imper:0       VTI_IMPER ;!name needs to be followed by morpheme slot
 
 !#####
 !#VTA Inflection
@@ -237,7 +238,7 @@ LEXICON VTA_INDEP_THEME_THIRD_PERSON !3
 !this just calls for a regex
 
 LEXICON VTA_INDEP_LOW_PERSON_1_FLAG 
-@P.LowPerson.1@     VTA_INDEP_NEG 
+@P.LowPerson.1@     VTA_INDEP_NEG ;
 
 LEXICON VTA_INDEP_LOW_PERSON_3_FLAG 
 @P.LowPerson.3@     VTA_INDEP_NEG ;
@@ -319,9 +320,9 @@ LEXICON VTA_INDEP_PERSNUM_GATEWAY
 !optionality handled in daughters instead of in gateway
 
 LEXICON VTA_INDEP_PERSNUM_2X1 
-<[["+1Sg"|"+1Pl"]"+2Pl"]] .x. [m]>      VTA_INDEP_MOOD ; 
+<[["+1Sg"|"+1Pl"]"+2Pl"] .x. [m]>      VTA_INDEP_MOOD ; 
 +2Pl+1Sg:m              VTA_INDEP_MOOD ;
-<"+"2[Pl|Sg]>+1Pl:min   VTA_INDEP_MOOD ;
+<[["+2Pl"|"+2Sg"]"+1Pl"] .x. [m i n]>   VTA_INDEP_MOOD ;
                         VTA_INDEP_MOOD ;
 
 LEXICON VTA_INDEP_PERSNUM_2XX 
@@ -377,4 +378,5 @@ LEXICON VTA_INDEP_NONLOCNUM
 +3Pl:ag     # ;
 
 LEXICON VTI_INDEP !name needs to be followed with a morpheme slot
+# ;
 
