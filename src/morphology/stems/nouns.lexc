@@ -1,24 +1,24 @@
 LEXICON NOUNS ;
-+N  NA_DEF ;
-+N  NA_C ;
-+N  NA_CA ;
-+N  NA_COO ;
-+N  NA_CW ;
-+N  NA_CWA ;
-+N  NA_CY ;
-+N  NA_NY ;
-+N  NA_VV ;
-+N  NA_VVW ;
-+N  NA_VVY ;
-+N  NA_VW ;
-+N  NA_VY ;
+  NA_DEF ;
+  NA_C ;
+  NA_CA ;
+  NA_COO ;
+  NA_CW ;
+  NA_CWA ;
+  NA_CY ;
+  NA_NY ;
+  NA_VV ;
+  NA_VVW ;
+  NA_VVY ;
+  NA_VW ;
+  NA_VY ;
 
-+N  NI_DEF ;
-+N  NI_AA ;
-+N  NI_C ;
-+N  NI_COO ;
-+N  NI_CY ;
-+N  NI_VV ;
+  NI_DEF ;
+  NI_AA ;
+  NI_C ;
+  NI_COO ;
+  NI_CY ;
+  NI_VV ;
 
 LEXICON NA_DEF ;
 Biipiigiwisenz    NA_FLAG    "character in the legend aadisookaan of the Thunderbirds" ; !line:2538, word:w2245w, sense:s68908752295s
@@ -1191,6 +1191,9 @@ apichikiwenzi    NA_FLAG    "type of Canada goose" ; !line:1044, word:w908w, sen
 awesii    NA_FLAG    "animal, game-animal" ; !line:1238, word:w70155251580w, sense:s70155251936s
 
 LEXICON NA_FLAG ;
++N:0  NA_PRE_INFL_FLAG ;
+
+LEXICON NA_PRE_INFL_FLAG ;
 @P.Animate.1@   N_CON_DIM ;
 
 
@@ -2539,5 +2542,8 @@ ziinzibaakwadaaboo    NI_FLAG    "maple sugar syrup" ; !line:11754, word:w724365
 akakanzhe    NI_FLAG    "charcoal, coal" ; !line:11816, word:w72472589660w, sense:s72472590458s
 
 LEXICON NI_FLAG ;
++N:0  NI_PREINFL_FLAG ;
+
+LEXICON NI_PREINFL_FLAG ;
 @P.Animate.0@   N_CON_DIM ;
 
