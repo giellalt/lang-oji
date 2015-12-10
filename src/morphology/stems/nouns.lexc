@@ -1,4 +1,4 @@
-LEXICON NOUNS ;
+LEXICON NOUNS 
   NA_DEF ;
   NA_C ;
   NA_CA ;
@@ -20,7 +20,7 @@ LEXICON NOUNS ;
   NI_CY ;
   NI_VV ;
 
-LEXICON NA_DEF ;
+LEXICON NA_DEF 
 Biipiigiwisenz    NA_FLAG    "character in the legend aadisookaan of the Thunderbirds" ; !line:2538, word:w2245w, sense:s68908752295s
 Gashkadinis    NA_FLAG    "November" ; !line:4179, word:w3737w, sense:s68908753799s
 ichiimichaak    NA_FLAG    "stranger" ; !line:5317, word:w70119212868w, sense:s70119213552s
@@ -78,7 +78,7 @@ epaanini    NA_FLAG    "prisoner" ; !line:12084, word:w72777828644w, sense:s7277
 awesiinh    NA_FLAG    "animal" ; !line:12098, word:w74619096481w, sense:s74619097371s
 
 
-LEXICON NA_C ;
+LEXICON NA_C 
 aadisookaan    NA_FLAG    "legend character, spirit, god" ; !line:126, word:w107w, sense:s68908750127s
 aagim    NA_FLAG    "snowshoe" ; !line:148, word:w128w, sense:s68908750148s
 aagwiitoosijigan    NA_FLAG    "pie" ; !line:165, word:w144w, sense:s68908750165s
@@ -553,11 +553,11 @@ giiwoon    NA_FLAG    "heart suit (cards)" ; !line:12043, word:w72564923446w, se
 wiinisikens    NA_FLAG    "seneca root" ; !line:12065, word:w72627383778w, sense:s72627384604s
 
 
-LEXICON NA_CA ;
+LEXICON NA_CA 
 nika    NA_FLAG    "Canada goose" ; !line:8265, word:w7401w, sense:s68908757511s
 
 
-LEXICON NA_COO ;
+LEXICON NA_COO 
 Aabita-niibino-giizis    NA_FLAG    "July" ; !line:75, word:w70163494221w, sense:s70163495131s
 aabitawaabik    NA_FLAG    "fifty cents, half dollar" ; !line:80, word:w64w, sense:s68908750084s
 aagask    NA_FLAG    "sharptailed grouse" ; !line:132, word:w113w, sense:s68908750133s
@@ -691,7 +691,7 @@ Miin-giizis    NA_FLAG    "August" ; !line:11621, word:w72368879855w, sense:s723
 zhingobaandag    NA_FLAG    "fir bough" ; !line:11795, word:w72462663672w, sense:s72462664202s
 
 
-LEXICON NA_CW ;
+LEXICON NA_CW 
 aagimaak    NA_FLAG    "snowshoe frame" ; !line:149, word:w129w, sense:s68908750149s
 aanag    NA_FLAG    "house wren" ; !line:215, word:w188w, sense:s68908750209s
 aanag    NA_FLAG    "Swainson's thrush" ; !line:216, word:w189w, sense:s68908750210s
@@ -774,13 +774,13 @@ Gekek    NA_FLAG    "identified by Warren (1885:45) as one of the Ojibwe clans, 
 biig    NA_FLAG    "spade suit (cards)" ; !line:12045, word:w72564928640w, sense:s72564929239s
 
 
-LEXICON NA_CWA ;
+LEXICON NA_CWA 
 ikwa    NA_FLAG    "louse" ; !line:5339, word:w4775w, sense:s68908754852s
 makwa    NA_FLAG    "bear" ; !line:6394, word:w5709w, sense:s68908755802s
 Makwa    NA_FLAG    "identified by Warren (1885:44) as one of the Ojibwe clans, translated as 'Bear'" ; !line:12021, word:w72553084553w, sense:s72553085200s
 
 
-LEXICON NA_CY ;
+LEXICON NA_CY 
 achaab    NA_FLAG    "bow" ; !line:435, word:w371w, sense:s68908750396s
 apwaaganisin    NA_FLAG    "soapstone, gray or black pipestone" ; !line:1105, word:w959w, sense:s68908750993s
 asab    NA_FLAG    "net" ; !line:1108, word:w962w, sense:s68908750996s
@@ -828,7 +828,7 @@ Gizhe-Manidoo Weyoosimind    NA_FLAG    "God the Father" ; !line:11680, word:w72
 Wenizhishid Manidoo    NA_FLAG    "the Holy Spirit, the third member of the trinity, God the Spirit" ; !line:11681, word:w72374441664w, sense:s72374442499s
 
 
-LEXICON NA_NY ;
+LEXICON NA_NY 
 abinoojiinh    NA_FLAG    "child" ; !line:413, word:w70123931237w, sense:s70123931813s
 giigoonh    NA_FLAG    "fish" ; !line:4545, word:w70124519926w, sense:s70124520460s
 mindimooyenh    NA_FLAG    "old woman" ; !line:6952, word:w10027w, sense:s68908756323s
@@ -839,7 +839,7 @@ zenibaanh    NA_FLAG    "ribbon" ; !line:11347, word:w72337917459w, sense:s72337
 Manoominikeshiinh    NA_FLAG    "From Warren 1885, a subgroup of the Ojibwes, described by him as 'Rice makers, who live on the Rice lakes on the St. Croix River'" ; !line:12012, word:w72552972993w, sense:s72552976553s
 
 
-LEXICON NA_VV ;
+LEXICON NA_VV 
 aa'aase    NA_FLAG    "crow" ; !line:29, word:w17w, sense:s68908750037s
 aa'aawe    NA_FLAG    "duck with black feathers" ; !line:34, word:w21w, sense:s68908750041s
 aagaskoo    NA_FLAG    "sharp-tailed grouse" ; !line:133, word:w114w, sense:s68908750134s
@@ -1036,16 +1036,16 @@ Odagaamii    NA_FLAG    "Fox (Indian)" ; !line:12010, word:w72552895949w, sense:
 gaanoo    NA_FLAG    "diamond suit (cards)" ; !line:12044, word:w72564925465w, sense:s72564926729s
 
 
-LEXICON NA_VVW ;
+LEXICON NA_VVW 
 ikwe    NA_FLAG    "woman" ; !line:5345, word:w4781w, sense:s68908754858s
 ikwe-bizhiki    NA_FLAG    "cow (female)" ; !line:11957, word:w72524211762w, sense:s72524212608s
 
 
-LEXICON NA_VVY ;
+LEXICON NA_VVY 
 abinoojii    NA_FLAG    "child" ; !line:412, word:w70140194621w, sense:s70140195098s
 
 
-LEXICON NA_VW ;
+LEXICON NA_VW 
 aa'aasi    NA_FLAG    "crow" ; !line:32, word:w70112127548w, sense:s70112127866s
 aatawe'igewinini    NA_FLAG    "fireman" ; !line:322, word:w273w, sense:s68908750296s
 agaamakiiwinini    NA_FLAG    "European" ; !line:486, word:w417w, sense:s68908750442s
@@ -1185,21 +1185,21 @@ Makindwewinini    NA_FLAG    "From Warren 1885:256 (slightly modified), designat
 Zagwaandagaawinini    NA_FLAG    "In the plural, in Warren 1885:39 designating a subgroup of the Ojibwes, identified as 'a large body living on the north coast of Lake Superior,' whose designation translates as 'Men of the thick fir woods.' Warren adds 'The French have designated them 'Bois Fort' (hardwoods)'" ; !line:12017, word:w72553045680w, sense:s72553051091s
 
 
-LEXICON NA_VY ;
+LEXICON NA_VY 
 akiwenzii    NA_FLAG    "old man" ; !line:682, word:w9981w, sense:s68908750624s
 apichikiwenzi    NA_FLAG    "type of Canada goose" ; !line:1044, word:w908w, sense:s68908750939s
 awesii    NA_FLAG    "animal, game-animal" ; !line:1238, word:w70155251580w, sense:s70155251936s
 
-LEXICON NA_FLAG ;
+LEXICON NA_FLAG 
 +N:0  NA_PRE_INFL_FLAG ;
 
-LEXICON NA_PRE_INFL_FLAG ;
+LEXICON NA_PRE_INFL_FLAG 
 @P.Animate.1@   N_CON_DIM ;
 
 
 
 
-LEXICON NI_DEF ;
+LEXICON NI_DEF 
 aasaakamig    NI_FLAG    "moss used for babies' tikinaagan" ; !line:294, word:w248w, sense:s68908750271s
 anisib    NI_FLAG    "plain water" ; !line:977, word:w852w, sense:s68908750883s
 aniside-dii    NI_FLAG    "plain tea" ; !line:979, word:w854w, sense:s68908750885s
@@ -1289,11 +1289,11 @@ gashki'ewiziwin    NI_FLAG    "power, ability" ; !line:12111, word:w74638830782w
 anokiiwiwin    NI_FLAG    "work, tasks" ; !line:12138, word:w74652774038w, sense:s74652776404s
 
 
-LEXICON NI_AA ;
+LEXICON NI_AA 
 mashkimod    NI_FLAG    "bag" ; !line:6576, word:w5875w, sense:s68908755968s
 
 
-LEXICON NI_C ;
+LEXICON NI_C 
 aabaabika'igan    NI_FLAG    "key" ; !line:53, word:w40w, sense:s72317074958s
 aabajichigan    NI_FLAG    "tool, useful thing, equipment" ; !line:60, word:w47w, sense:s68908750067s
 aadisookewin    NI_FLAG    "legend, myth" ; !line:129, word:w110w, sense:s68908750130s
@@ -2122,7 +2122,7 @@ gaanda'igwaason    NI_FLAG    "thimble" ; !line:12148, word:w74658539723w, sense
 mitigo-waagikomaan    NI_FLAG    "curved knife made of wood" ; !line:12154, word:w74659255442w, sense:s74659257669s
 
 
-LEXICON NI_COO ;
+LEXICON NI_COO 
 aagimaatig    NI_FLAG    "snowshoe frame" ; !line:151, word:w131w, sense:s68908750151s
 aagwiingwe'onaak    NI_FLAG    "tikinaagan front frame" ; !line:161, word:w140w, sense:s68908750160s
 aajizide'onaak    NI_FLAG    "foot frame of dikinaagan" ; !line:171, word:w150w, sense:s68908750171s
@@ -2379,7 +2379,7 @@ miizhashk    NI_FLAG    "grass, hay" ; !line:11975, word:w72524971429w, sense:s7
 mitigo-waagaakwad    NI_FLAG    "wooden axe" ; !line:12127, word:w74650484388w, sense:s74650485095s
 
 
-LEXICON NI_CY ;
+LEXICON NI_CY 
 aamoo-waabigwan    NI_FLAG    "fireweed" ; !line:206, word:w182w, sense:s68908750203s
 aatawe'ige-onagizhiiyaab    NI_FLAG    "firehose" ; !line:320, word:w271w, sense:s68908750294s
 aboob    NI_FLAG    "soup" ; !line:422, word:w70119277351w, sense:s70119277677s
@@ -2485,7 +2485,7 @@ mizimin    NI_FLAG    "wheat" ; !line:11950, word:w72523788753w, sense:s72523789
 asin    NI_FLAG    "rock, stone" ; !line:12055, word:w72602538004w, sense:s72602538601s
 
 
-LEXICON NI_VV ;
+LEXICON NI_VV 
 akadamoo    NI_FLAG    "bullhead-lily" ; !line:662, word:w580w, sense:s68908750606s
 akiibimide    NI_FLAG    "coal oil, kerosene" ; !line:674, word:w590w, sense:s68908750617s
 akwii    NI_FLAG    "cloud" ; !line:718, word:w628w, sense:s68908750656s
@@ -2541,9 +2541,9 @@ bakwezhiganaaboo    NI_FLAG    "gravy" ; !line:11276, word:w72336235713w, sense:
 ziinzibaakwadaaboo    NI_FLAG    "maple sugar syrup" ; !line:11754, word:w72436532364w, sense:s72436533707s
 akakanzhe    NI_FLAG    "charcoal, coal" ; !line:11816, word:w72472589660w, sense:s72472590458s
 
-LEXICON NI_FLAG ;
+LEXICON NI_FLAG 
 +N:0  NI_PREINFL_FLAG ;
 
-LEXICON NI_PREINFL_FLAG ;
+LEXICON NI_PREINFL_FLAG 
 @P.Animate.0@   N_CON_DIM ;
 

@@ -2,21 +2,21 @@
 !#Major POS's
 !#####
 
-LEXICON VERBS ; !this is looking like a gateway, but not so labeled, affixes will need to be edited too
+LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will need to be edited too
 @D.Person.3@   VAI_GATEWAY ;
 @D.Person@      VII_GATEWAY ;
                 TRANS_GATEWAY ;
 
-LEXICON VAI_GATEWAY ;
+LEXICON VAI_GATEWAY 
     VAI_DEF ;
     VAI_N ;
     VAI_V ;
     VAI_VV ;
 
-LEXICON VII_GATEWAY ;
+LEXICON VII_GATEWAY 
 +VII    VII_ORDERS ;
 
-LEXICON VII_ORDERS ;
+LEXICON VII_ORDERS 
 # ; !not done yet
 
 LEXICON TRANS_GATEWAY
@@ -30,11 +30,11 @@ LEXICON TRANS_GATEWAY
 
 
 
-LEXICON VAI_DEF ;
+LEXICON VAI_DEF 
 agaasitawage    VAI_FLAG    "has small ears" ; !line:11882, word:w72499171550w, sense:s72499172225s
 
 
-LEXICON VAI_AM ;
+LEXICON VAI_AM 
 bagakendam    VAI_FLAG    "be clear-headed" ; !line:1707, word:w1491w, sense:s68908751532s
 gopa'am    VAI_FLAG    "loads upstream" ; !line:5115, word:w4581w, sense:s68908754652s
 ina'am    VAI_FLAG    "sings in such a way" ; !line:5351, word:w70118977355w, sense:s70118978050s
@@ -43,7 +43,7 @@ zaagewa'am    VAI_FLAG    "emerges, comes into view (in a boat or canoe)" ; !lin
 biidwewidam    VAI_FLAG    "come audibly, come making noise, come speaking" ; !line:12140, word:w74653256991w, sense:s74653258469s
 
 
-LEXICON VAI_N ;
+LEXICON VAI_N 
 aabizhiishin    VAI_FLAG    "revives, regains consciousness" ; !line:96, word:w70112956016w, sense:s70112957117s
 aaboojishin    VAI_FLAG    "lies inside out" ; !line:104, word:w86w, sense:s68908750106s
 aabooshka'angoojin    VAI_FLAG    "floats on top of water" ; !line:109, word:w91w, sense:s68908750111s
@@ -240,7 +240,7 @@ bizaanishin    VAI_FLAG    "has a quiet time, has an easy time of it (healthwise
 onishin    VAI_FLAG    "is absent, is away" ; !line:12113, word:w74639323363w, sense:s74639324932s
 
 
-LEXICON VAI_V ;
+LEXICON VAI_V 
 aa'iidaabikaazo    VAI_FLAG    "is (being) tied tightly" ; !line:38, word:w25w, sense:s68908750045s
 aa'iijigaazo    VAI_FLAG    "hides extremely well" ; !line:43, word:w30w, sense:s68908750050s
 aa'inimo    VAI_FLAG    "sneezes" ; !line:47, word:w34w, sense:s68908750054s
@@ -1759,7 +1759,7 @@ zhoomiingweni    VAI_FLAG    "smiles" ; !line:12120, word:w74650053586w, sense:s
 apagizo    VAI_FLAG    "throws oneself down" ; !line:12158, word:w74662934249w, sense:s74662935236s
 
 
-LEXICON VAI_VV ;
+LEXICON VAI_VV 
 aa'aagade    VAI_FLAG    "gags, vomits, retches repeatedly" ; !line:25, word:w14w, sense:s68908750034s
 aa'aanikoota'ige    VAI_FLAG    "makes a quilt" ; !line:27, word:w16w, sense:s68908750036s
 aa'aazhawishkaa    VAI_FLAG    "goes back and forth" ; !line:35, word:w22w, sense:s68908750042s
@@ -3689,17 +3689,17 @@ mazhii'ige    VAI_FLAG    "work with something" ; !line:12126, word:w74650437376
 dazhitaa    VAI_FLAG    "is engaged in particular place; is busy in a certain place" ; !line:12151, word:w74659113091w, sense:s74659121820s
 bimaaji'iwe    VAI_FLAG    "save people; be a saviour" ; !line:12163, word:w76221041277w, sense:s76221042683s
 
-LEXICON VAI_FLAG ;
+LEXICON VAI_FLAG 
  +VAI       VAI_ORDERS ;
 
-LEXICON VTA_DEF ;
+LEXICON VTA_DEF 
 misawi    VTA_FLAG    "make sure s.o. never does such a thing again and learns one's lesson" ; !line:7138, word:w6394w, sense:s68908756491s
 aabiziiwim    VTA_FLAG    "console s.o., solace s.o., encourage s.o." ; !line:11196, word:w72327519126w, sense:s72327520996s
 wawiigi'    VTA_FLAG    "be kind to s.o., be pleasant with s.o." ; !line:12118, word:w74648453072w, sense:s74648454730s
 daadaadaganaabam    VTA_FLAG    "gaze at s.o. ??" ; !line:12157, word:w74662913388w, sense:s74662914147s
 
 
-LEXICON VTA_AW ;
+LEXICON VTA_AW 
 aaba'amaw    VTA_FLAG    "opens for s.o." ; !line:48, word:w35w, sense:s68908750055s
 aadinamaw    VTA_FLAG    "acquire something before s.o." ; !line:125, word:w106w, sense:s68908750126s
 aagawaateshkaw    VTA_FLAG    "shade s.o. from the sun by standing near s.o." ; !line:142, word:w123w, sense:s68908750143s
@@ -3948,7 +3948,7 @@ ojijiingwaniitaw    VTA_FLAG    "worship s.o." ; !line:12162, word:w76221014734w
 ganoodamaw    VTA_FLAG    "prophesy about s.o." ; !line:12164, word:w76221059666w, sense:s76221060599s
 
 
-LEXICON VTA_C ;
+LEXICON VTA_C 
 aa'aashenim    VTA_FLAG    "be envious of s.o." ; !line:31, word:w20w, sense:s68908750040s
 aa'iijiganawenim    VTA_FLAG    "watch over s.o. extremely" ; !line:44, word:w31w, sense:s68908750051s
 aabaji'    VTA_FLAG    "use s.o." ; !line:58, word:w45w, sense:s68908750065s
@@ -4598,7 +4598,7 @@ amadin    VTA_FLAG    "wake s.o." ; !line:12137, word:w74652709744w, sense:s7465
 wanaabam    VTA_FLAG    "lose slght of s.o." ; !line:12161, word:w74663241773w, sense:s74663242359s
 
 
-LEXICON VTA_CW ;
+LEXICON VTA_CW 
 aaba'o    VTA_FLAG    "untie s.o." ; !line:52, word:w39w, sense:s72322737605s
 aabitawizho    VTA_FLAG    "cut s.o. in half" ; !line:93, word:w76w, sense:s68908750096s
 aadaakwa'o    VTA_FLAG    "lock s.o. out" ; !line:121, word:w103w, sense:s68908750123s
@@ -4778,13 +4778,13 @@ baganda'    VTA_FLAG    "thresh s.o., flail to separate grain from s.o. (a plant
 nandone'    VTA_FLAG    "look for s.o., seek s.o. out" ; !line:12132, word:w74652388867w, sense:s74652391306s
 
 
-LEXICON VTA_IZHI ;
+LEXICON VTA_IZHI 
 izhi    VTA_FLAG    "mean s.o." ; !line:5654, word:w5035w, sense:s68908755118s
 izhi    VTA_FLAG    "say to s.o." ; !line:5655, word:w5036w, sense:s70112174123s
 maji-izhi    VTA_FLAG    "speak ill of s.o." ; !line:6305, word:w70142678929w, sense:s70142679375s
 
 
-LEXICON VTA_S ;
+LEXICON VTA_S 
 ashi    VTA_FLAG    "place s.o. at such a place" ; !line:1138, word:w991w, sense:s68908751024s
 giigashi    VTA_FLAG    "place s.o. against something else like a wall" ; !line:4541, word:w4064w, sense:s68908754131s
 goshi    VTA_FLAG    "fear s.o., be afraid of s.o." ; !line:5123, word:w70112503908w, sense:s70112504519s
@@ -4793,9 +4793,9 @@ nana'ishi    VTA_FLAG    "settle s.o." ; !line:7799, word:w6999w, sense:s6890875
 nishi    VTA_FLAG    "kill s.o." ; !line:8459, word:w7515w, sense:s68908757676s
 odishi    VTA_FLAG    "reach s.o., arrive at s.o." ; !line:8809, word:w7826w, sense:s68908757991s
 
-LEXICON VTA_FLAG ;
+LEXICON VTA_FLAG 
 +VTA     VTA_PREORDER_GATEWAY ;
 
-LEXICON VTA_PREORDER_GATEWAY ;
+LEXICON VTA_PREORDER_GATEWAY 
         TRANS_INDEP ;
 @D.Person@  TRANS_NON_INDEP ;
