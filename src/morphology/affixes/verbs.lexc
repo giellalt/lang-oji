@@ -170,12 +170,16 @@ LEXICON VAI_IMPER
 !#Transitive Verb Morphological sub-classes
 !#####
 
+!Original plan was to have transitives go through the same point
+!as they were united in requiring prefixes in the independent order
+!turns out that isn't true ...
+!so this is obsolete
 !as with VAI's much of this will probably be transferred to VERBS
-LEXICON TRANS_INDEP 
-+VTA+Indep:0        VTA_INDEP_THEME_GATEWAY ;
-+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
+!LEXICON TRANS_INDEP 
+!+VTA+Indep:0        VTA_INDEP_THEME_GATEWAY ;
+!+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
 
-LEXICON TRANS_NON_INDEP 
+LEXICON VTA_NON_INDEP_GATEWAY 
 # ;
 !+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
 !+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
@@ -193,7 +197,7 @@ LEXICON VTA_INDEP_THEME_GATEWAY
 @R.Person.2@  VTA_INDEP_THEME_SECOND_PERSON ;
 @R.Person.1@  VTA_INDEP_THEME_FIRST_PERSON ;
 @R.Person.3@  VTA_INDEP_THEME_THIRD_PERSON ;
-@D.Person@    VTA_INDEP_THEME_THIRD_PERSON ; !danger, entry to indep currently requires person
+@D.Person@    VTA_INDEP_THEME_THIRD_PERSON ; !+X 
 
 !A chart of where you can find feature combinations:
 !is 0 needed?
