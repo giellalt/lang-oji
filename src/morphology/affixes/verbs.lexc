@@ -31,10 +31,6 @@
 !#Prefixes
 !#####
 
-!I can't remember if this needs to be specified first in the file
-!suspect not ...
-!but it is good form
-
 LEXICON V_PREFIXES
 1+:ni   V_FIRST_PERSON_FLAG ;
 2+:gi   V_SECOND_PERSON_FLAG ;
@@ -68,11 +64,17 @@ LEXICON VAI_NON_INDEP
 +Conj:0     VAI_CONJ_NEG ;
 +Imper:0    VAI_IMPER ;
 
-!Independent order
+!#####
+!#VAI Independent suffixes
+!#####
+
+!negative slot
+
 LEXICON VAI_INDEP_NEG 
 +Neg:sii    VAI_INDEP_PERSNUM ;
             VAI_INDEP_PERSNUM ;!intended ... no suffix, just go to persnum
 
+!number slot
 LEXICON VAI_INDEP_PERSNUM !does this count as a gateway??
 !<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
 @R.Person.2@  VAI_INDEP_LOCALNUM ;
@@ -91,12 +93,14 @@ LEXICON VAI_INDEP_LOCALNUM_2PL
 LEXICON VAI_INDEP_THIRD_PERSON_FLAG 
 @P.Person.3@  VAI_INDEP_MOOD ;
 
+!mood slot
 LEXICON VAI_INDEP_MOOD 
 +Pret:ban       VAI_INDEP_PERS_GATEWAY ;
 +Dub:dig        VAI_INDEP_PERS_GATEWAY ; 
 +Pret+Dub:goban VAI_INDEP_PERS_GATEWAY ;
                 VAI_INDEP_PERS_GATEWAY ; !intended ... no suffix, just go to gateway
 
+!non-local number slot
 LEXICON VAI_INDEP_PERS_GATEWAY !add GATEWAY to style
 @D.Person.3@  # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
 @R.Person.3@  VAI_INDEP_NONLOCNUM ;
@@ -106,6 +110,10 @@ LEXICON VAI_INDEP_NONLOCNUM
 +3Pl:ag     # ;
             # ;
 
+!#####
+!#VAI Conjunct suffixes
+!#####
+
 !Conjunct order
 !See Valentine  2001:222, 236-237
 !assuming nasal final stems to avoid all hiatus repairs
@@ -113,6 +121,7 @@ LEXICON VAI_INDEP_NONLOCNUM
 
 !Insert schematic template here (also update style guide)
 
+!negative slot
 LEXICON VAI_CONJ_NEG 
 +Neg:ziw        VAI_CONJ_PERSNUM ; !nas morph
 !is this next legal? will it make incorrect zigwaawaad or ziwaad?
@@ -121,6 +130,7 @@ LEXICON VAI_CONJ_NEG
 
 !need to be able to adjust the [w]
 
+!person and number slot
 LEXICON VAI_CONJ_PERSNUM 
 !adjustments for context needed once move past nas
 +1Sg:aanh      VAI_CONJ_PRET ; 
@@ -136,17 +146,22 @@ LEXICON VAI_CONJ_PERSNUM
 !need to be able to end or move on ...
 !doesn't seem right to delay decision to end until the next sublexicon
 
+!preterite slot
 LEXICON VAI_CONJ_PRET 
 +Pret:ban   VAI_CONJ_DUB ;
             VAI_CONJ_DUB ;
 
+!dubitative slot
 LEXICON VAI_CONJ_DUB 
 +Dub:en # ;
         # ;
 
-!Imperative order
+!#####
+!#VAI Imperative suffixes
+!#####
 !Insert schematic template here (also update style guide)
 
+!just one slot under our analysis
 LEXICON VAI_IMPER 
 +Imm+2Sg:n       # ;
 +Imm+2Pl:g       # ;
@@ -179,18 +194,15 @@ LEXICON VAI_IMPER
 !+VTA+Indep:0        VTA_INDEP_THEME_GATEWAY ;
 !+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
 
-LEXICON VTA_NON_INDEP_GATEWAY 
-# ;
-!+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
-!+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
-!+VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
-!+VTI+Imper:0       VTI_IMPER ;!name needs to be followed by morpheme slot
-
 !#####
 !#VTA Inflection
 !#####
 
-!VTA Independent order Valentine (2001):274
+
+!#####
+!#VTA Independent order Inflection
+!#####
+!Valentine (2001):274
 !Insert schematic template here (also update style guide)
 
 LEXICON VTA_INDEP_THEME_GATEWAY 
@@ -380,6 +392,15 @@ LEXICON VTA_INDEP_NONLOCNUM
 !precise distribution fairly complex (Valentine (2001):274)
 +3Obv:an    # ;
 +3Pl:ag     # ;
+
+!this used to be a generic place for transitives to be sorted
+!now it is just for non-independent order VTA sorting
+LEXICON VTA_NON_INDEP_GATEWAY 
+# ;
+!+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
+!+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
+!+VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
+!+VTI+Imper:0       VTI_IMPER ;!name needs to be followed by morpheme slot
 
 LEXICON VTI_INDEP !name needs to be followed with a morpheme slot
 # ;
