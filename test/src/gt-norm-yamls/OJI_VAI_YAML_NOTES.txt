@@ -31,20 +31,27 @@ First person inclusive as +21 or +1Inc?
 No +V feature
 
 ####
-#Content-specific points (consult valentine)
+#Content-specific points (consult text)
 ####
 
-# < > augment material discussed by Valentine
-# {} augment material not discussed by Valentine
-# * phonology discussed by Valentine (less syncope)
-# ** phonology not discussed by Valentine (excessive syncope from metrical, but not two-sided perspective)
-## Valentine line by line 232
+# < > augment material discussed in text
+# {} augment material not discussed in text
+# * phonology discussed in text (less syncope)
+# ** phonology not discussed in text 
+
+#VAI Independent order template following textual discussion
+#1  person prefixes:    ni-, gi-,
+#2  negation            -sii
+#3  person, number      -min '1Pl/21', -m `2Pl', -m 'X', -w '3'
+#4  mood                -ban 'pret', -dig 'dub', -goban 'pret-dub'
+#5  3 number            -ag '3Pl', -an '3Obv'
+## text line by line 232
 #Indep Indic Pos
 1Sg     /n-boodwe/      -> [nboodwe]
 2Sg     /g-boodwe/      -> [gboodwe]
 3Sg     /boodwew/       -> [boodwe] *
 3Obv    /boodwe-w-an/   -> [boodwewan]
-Indef   /boodwe-m/      -> [boodwem]
+X       /boodwe-m/      -> [boodwem]
 1Pl     /n-boodwe-min/  -> [nboodwemi]*
 1Incl   /g-boodwe-min/  -> [gboodwemi]*
 2Pl     /g-boodwe-m/    -> [gboodwem]
@@ -54,7 +61,7 @@ Indef   /boodwe-m/      -> [boodwem]
 2Sg     /g-boodwe<naa>-ban/ -> [gboodwenaaba]*
 3Sg     /boodwe-w{i}-ban/   -> [boodwe-ba]*
 3Obv    /boodwe-w{i}-ban-an/    -> [boodwebniin]**
-Indef   /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/) 
+X       /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/) 
 1Pl     /n-boodwe-min<aa>-ban/  -> [nboodwemnaaba]*
 1Incl   /g-boodwe-min<aa>-ban/  -> [gboodwemnaaba]*
 2Pl     /g-boodwe-m{w}<aa>-ban/ -> [gboodwemwaaba]*
@@ -64,7 +71,7 @@ Indef   /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/)
 2Sg     /g-boodwe-<naa>-dig/    -> [gboodwenaadig]
 3Sg     /boodwe-w{i}-dig/    -> [boodwedig]*
 3Obv    /boodwe-w{i}-dig-<en>an/    -> [boodwedgenan]**
-Indef   /boodwe-m{i}-dig/    -> [boodwemdig]
+X       /boodwe-m{i}-dig/    -> [boodwemdig]
 1Pl     /n-boodwe-min<aa>-dig/    -> [nboodwemnaadig]
 1Incl   /g-boodwe-min<aa>-dig/    -> [gboodwemnaadig]
 2Pl     /g-boodwe-m{w}<aa>-dig/    -> [gboodwemwaadig]
@@ -72,9 +79,9 @@ Indef   /boodwe-m{i}-dig/    -> [boodwemdig]
 #Indep PretDub Pos
 1Sg     /n-boodwe-<naa>-goban/    -> GAP
 2Sg     /g-boodwe-<naa>-goban/    -> GAP
-3Sg     /boodwe-w{i}-goban/    -> [boodwegba]** (Valentine omits /w{i}/ here, 230 doesn't list goban as a deleting suff)
+3Sg     /boodwe-w{i}-goban/    -> [boodwegba]** (p 232 omits /w{i}/ here, 230 doesn't list goban for n-loss)
 3Obv    /boodwe-{ni}-goban/    -> [boodwen'goba] 
-Indef   /boodwe-m{i}-goban/    -> [boodwemgoba]
+X       /boodwe-m{i}-goban/    -> [boodwemgoba]
 1Pl     /n-boodwe-min<aa>-goban/    -> GAP
 1Incl   /g-boodwe-min<aa>-goban/    -> GAP
 2Pl     /g-boodwe-m{w}<aa>-goban/    -> GAP
