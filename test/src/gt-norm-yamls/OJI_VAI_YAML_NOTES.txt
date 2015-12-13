@@ -36,6 +36,7 @@ No +V feature
 
 # < > augment material discussed in text
 # {} augment material not discussed in text
+# _[] missing material
 # * phonology discussed in text (less syncope)
 # ** phonology not discussed in text 
 
@@ -45,11 +46,20 @@ No +V feature
 #3  person, number      -min '1Pl/21', -m `2Pl', -m 'X', -w '3'
 #4  mood                -ban 'pret', -dig 'dub', -goban 'pret-dub'
 #5  3 number            -ag '3Pl', -an '3Obv'
+
+#Phonology from text
+#w -> 0 / coda
+#n -> 0 / # (certain suffixes)
+#0 -> a/i / C_C
+#V -> 0 / in weak branch of iambic foot
+#wa -> oo 
+#a -> ii / ban
+
 ## text line by line 232
 #Indep Indic Pos
 1Sg     /n-boodwe/      -> [nboodwe]
 2Sg     /g-boodwe/      -> [gboodwe]
-3Sg     /boodwew/       -> [boodwe] *
+3Sg     /boodwe-w/      -> [boodwe] *
 3Obv    /boodwe-w-an/   -> [boodwewan]
 X       /boodwe-m/      -> [boodwem]
 1Pl     /n-boodwe-min/  -> [nboodwemi]*
@@ -86,6 +96,92 @@ X       /boodwe-m{i}-goban/    -> [boodwemgoba]
 1Incl   /g-boodwe-min<aa>-goban/    -> GAP
 2Pl     /g-boodwe-m{w}<aa>-goban/    -> GAP
 3Pl     /boodwe-w{aa}-goban/    -> [boodwewaagba]
+
+## text line by line 233 column 1
+
+#Indep Indic Pos
+1Sg     /n-gwekshin/      -> [ngwekshin]
+2Sg     /g-gwekshin/      -> [ggwekshin]
+3Sg     /gwekshin-w/       -> [gwekshin]*
+3Obv    /gwekshin-w-an/   -> [gwekshinoon]*
+X       /gwekshin-<a>m/      -> [gwekshinam] *
+1Pl     /n-gwekshin-<a>min/  -> [ngwekshinmi]*
+1Incl   /g-gwekshin-<a>min/  -> [ggwekshinmi]*
+2Pl     /g-gwekshin-<a>m/    -> [ggwekshinam]*
+3Pl     /gwekshin-w-ag/   -> [gwekshinoog]*
+#Indep Pret Pos
+1Sg     /n-gwekshin<anaa>-ban/ -> [ngwekshinnaaba]*
+2Sg     /g-gwekshin<anaa>-ban/ -> [ggwekshinnaaba]*
+3Sg     /gwekshin-<a>w{i}-ban/   -> [gwekshinwiba]*
+3Obv    /gwekshin-<a>w{i}-ban-an/ -> [gwekshinwibniin]*
+X       /gwekshin-<a>m{a}-ban/  -> [gwekshinmaba]* (prob not /iban/) 
+1Pl     /n-gwekshin-<a>min<aa>-ban/  -> [ngwekshinminaaba]*
+1Incl   /g-gwekshin-<a>min<aa>-ban/  -> [ggwekshinminaaba]*
+2Pl     /g-gwekshin-<a>m{w}<aa>-ban/ -> [ggwekshinmwaaba]*
+3Pl     /gwekshin-<a>w{i}-ban-ag/    -> [gwekshinwibniig]*
+#Indep Dub Pos
+1Sg     /n-gwekshin-<anaa>-dig/    -> [ngwekshinnaadig]
+2Sg     /g-gwekshin-<anaa>-dig/    -> [ggwekshinnaadig] 
+3Sg     /gwekshin-<a>w{i}-dig/    -> [gwekshinwidig]*
+3Obv    /gwekshin-<a>w{i}-dig-<en>an/    -> [gwekshinwidgenan]*
+X       /gwekshin-<a>m{i}-dig/    -> [gwekshinmidig]
+1Pl     /n-gwekshin-<a>min<aa>-dig/    -> [ngwekshinminaadig]
+1Incl   /g-gwekshin-<a>min<aa>-dig/    -> [ggwekshinminaadig]
+2Pl     /g-gwekshin-<a>m{w}<aa>-dig/    -> [ggwekshinmwaadig]
+3Pl     /gwekshin-<a>w{i}-dig-<en>ag/    -> [gwekshinwidgenag]*
+#Indep PretDub Pos
+1Sg     /n-gwekshin-<naa>-goban/    -> GAP
+2Sg     /g-gwekshin-<naa>-goban/    -> GAP
+3Sg     /gwekshin-{a}_[w{i}]-goban/    -> [gwekshin'goba]** 
+3Obv    /gwekshin-{ini}-goban/    -> [gwekshinnigba] 
+X       /gwekshin-<a>m{i}-goban/    -> [gwekshinmigba]
+1Pl     /n-gwekshin-min<aa>-goban/    -> GAP
+1Incl   /g-gwekshin-min<aa>-goban/    -> GAP
+2Pl     /g-gwekshin-m{w}<aa>-goban/    -> GAP
+3Pl     /gwekshin-<a>w{aa}-goban/    -> [gwekshinwaagba]
+
+## text line by line 233 column 2
+
+#Indep Indic Pos
+1Sg     /n-dagoshin/      -> [ndagshin]
+2Sg     /g-dagoshin/      -> [gdagshin]
+3Sg     /dagoshin-w/       -> [dgoshin]*
+3Obv    /dagoshin-w-an/   -> [dgoshnoon]*
+X       /dagoshin-<a>m/      -> [dgoshnam] *
+1Pl     /n-dagoshin-<a>min/  -> [ndagoshnami]**
+1Incl   /g-dagoshin-<a>min/  -> [gdagoshnami]**
+2Pl     /g-dagoshin-<a>m/    -> [gdagoshnam]**
+3Pl     /dagoshin-w-ag/   -> [dgoshnoog]*
+#Indep Pret Pos
+1Sg     /n-dagoshin<anaa>-ban/ -> [ndagoshnanaaba]**
+2Sg     /g-dagoshin<anaa>-ban/ -> [gdagoshnanaaba]**
+3Sg     /dagoshin-<a>w{i}-ban/   -> [dgoshnaba]*
+3Obv    /dagoshin-<a>w{i}-ban-an/    -> [dgoshnabniin]*
+X       /dagoshin-<a>m{a}-ban/  -> [dgoshnamba]* (prob not /iban/) 
+1Pl     /n-dagoshin-<a>min<aa>-ban/  -> [ndagoshnamnaaba]**
+1Incl   /g-dagoshin-<a>min<aa>-ban/  -> [gdagoshnamnaaba]**
+2Pl     /g-dagoshin-<a>m{w}<aa>-ban/ -> [gdagoshnamwaaba]**
+3Pl     /dagoshin-<a>w{i}-ban-ag/    -> [dgoshnabniig]*
+#Indep Dub Pos
+1Sg     /n-dagoshin-<anaa>-dig/    -> [ndagshinnaadig](!)
+2Sg     /g-dagoshin-<anaa>-dig/    -> [gdagshinnaadig](!) 
+3Sg     /dagoshin-<a>w{i}-dig/    -> [dgoshnaadig]**(awi->aa prior to syncope?)
+3Obv    /dagoshin-<a>w{i}-dig-<en>an/    -> [dgoshnaadgenan]**(ditto?)
+X       /dagoshin-<a>m{i}-dig/    -> [dgoshnamdig]
+1Pl     /n-dagoshin-<a>min<aa>-dig/    -> [ndagshinminaadig](!)
+1Incl   /g-dagoshin-<a>min<aa>-dig/    -> [gdagshinminaadig]
+2Pl     /g-dagoshin-<a>m{w}<aa>-dig/    -> [gdagshinmwaadig]
+3Pl     /dagoshin-<a>w{i}-dig-<en>ag/    -> [dgoshnadgenag]*
+#Indep PretDub Pos
+1Sg     /n-dagoshin-<naa>-goban/    -> GAP
+2Sg     /g-dagoshin-<naa>-goban/    -> GAP
+3Sg     /dagoshin-{a}_[w{i}]-goban/    -> [dgoshnagba]** (d_gosh_na__goba under expected UR)
+3Obv    /dagoshin-{ini}-goban/    -> [dgoshin'goba] 
+X       /dagoshin-<a>m{i}-goban/    -> [dgoshnamgoba]
+1Pl     /n-dagoshin-min<aa>-goban/    -> GAP
+1Incl   /g-dagoshin-min<aa>-goban/    -> GAP
+2Pl     /g-dagoshin-m{w}<aa>-goban/    -> GAP
+3Pl     /dagoshin-<a>w{aa}-goban/    -> [dgoshnawaagoba]** (d_gosh_nawaag_ba)
 ####
 #Global Adjustments
 ####
