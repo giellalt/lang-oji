@@ -17,7 +17,7 @@
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
  
-
+!todo: make sure LowPerson.X is not an option
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !####
@@ -129,9 +129,26 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !## checking flags
 @D.Animate.0@
 @D.Animate.1@
+@D.Animate@
 
 @R.Animate.0@
 @R.Animate.1@
+@R.Animate@
+!style on default flag options to include
+
+!####
+!#Passive Flag (3rd person passives must be marked as such to avoid permitting +X marking)
+!####
+
+!## setting flags
+@P.Passive.1@
+
+!## checking flags
+@D.Passive.1@
+@D.Passive@
+
+@R.Passive.1@
+@R.Passive@
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
