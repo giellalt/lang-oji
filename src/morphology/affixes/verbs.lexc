@@ -307,32 +307,8 @@ LEXICON VTA_INDEP_NEG
 @R.LowPerson.0@   VTA_INDEP_INAN_SUB ;
 @D.LowPerson.0@     VTA_INDEP_PERSNUM_GATEWAY ;
 
-!Persnum slot is underdetermined by Valentine 2001:274
-!duplicated in gt-norm-yamls/OJI_VTA_YAML_NOTES.txt
-!Going through p 287
-!axes reversed
-!sub-dialects ignored
-!codes: x: non-existent combination for this
-!       -: no suffix in this slot
-!       *: suffix belongs to later slot (NONLUCNUM or inan sub)
-!Subject:           1Sg     1Pl         21          2Sg     2Pl     3Sg     3Obv    3Pl       0Sg           0Pl         X
-!Object:    1Sg     x       x           x           -       m       -       -       og*       n*            nan*        -
-!           1Pl     -       x           x           min     min     naan    naan    naan-ig*  naan          naan-in*    min
-!           21      -       x           x           x       x       naan    naan    naan-ig*  naan          naan-in*    min
-!           2Sg     -       -           x           x       x       -       -       og*       n*            nan*        -
-!           2Pl     m       m           x           x       x       waa     waa?    waa-g*    naawaa        naawaa-n*   m
-!           3Sg     -       naan        naan        -       waa     x       an*     x         n*            nan*        -
-!           3Obv    -       naan        naan        -       waa     n*      x       waa-n*    n*            nan*        wan*
-!           3Pl     g*      naan-ig*    naan-ig*    g*      waa-g*  x       waa-n*  x         naawaa        naawaa-n*   wag*
-!Analysis
-!m      1Sgx2Pl,    2Plx1Sg,    Xx2Pl   1Plx2Pl         Prefixes:2      2pl if first person present, or X, overridden by next
-!min    2Sgx1Pl     2Plx1Pl     Xx1Pl   Xx21            Prefixes:2, 1   1Pl object of 2 or X (includes Xx21
-!naan   [0|3]*x[1Pl|21]     [1Pl|21]x[3*]               Prefixes:2, 1   1Pl/21 whenever 3rd person
-!waa    3[Sg|Obv]x[2|3]Pl   2Plx3*, 3Plx[3Obv|2Pl]      Prefixes:2, 3   2/3Pl whenever 3rd person (careful) 
-!           (3sgx3pl impossible)
-!naawaa 0*x[2|3]Pl                                      Prefixes:2, 3   2/3Pl obj  whenever inanimate sub
-!                                                                        n-aawaa
-!1pl subjects acting on 2nd persons trigger theme sign igoo
+!Persnum slot is underdetermined in text discussion on Valentine 2001:274
+!see  gt-norm-yamls/OJI_VTA_YAML_NOTES.txt
 
 LEXICON VTA_INDEP_INAN_SUB 
 +0Sub:n     VTA_INDEP_PERSNUM_GATEWAY ;
