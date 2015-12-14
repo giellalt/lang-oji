@@ -163,25 +163,25 @@ define LowEpenthesis [..] -> a || Nasal _ Nasal ;
 !Composing the grammar
 !###############
 
-read regex [ a -> a ] ;
+!read regex [ a -> a ] ;
 
-! read regex [ 
-!    ApocopeHist       ! NonConsShort -> 0 || _ .#. ;
-! .o. ApocopeMod        ! VShort -> 0 || _ .#. ;
-! .o. HiatusDel         ! VShort -> 0 || VLong _ ;
-! .o. HiatusPre         ! 0 -> d || %^ _ Vowel ;
-! .o. HiatusEpen        ! 0 -> ' || Vowel _ Vowel ;
-! .o. OLengthen         ! o -> o o || %^ _ ; 
-! .o. Coalescence1      ! a w i -> o o || _ ;
-! .o. Coalsecence2      ! a w i -> a a || _ k ;
-! .o. Palatalization1   ! TDS -> [ ch | j | sh ] || _ i ;
-! .o. Palatalization2Hist  
-! .o. Palatalization2Mod
-! .o. LowShortRaising  
-! .o. Palatalization3  
-! .o. LowEpenthesis    
-! 
-! ] ;
+ read regex [ 
+    ApocopeHist       ! NonConsShort -> 0 || _ .#. ;
+ .o. ApocopeMod        ! VShort -> 0 || _ .#. ;
+ .o. HiatusDel         ! VShort -> 0 || VLong _ ;
+ .o. HiatusPre         ! 0 -> d || %^ _ Vowel ;
+ .o. HiatusEpen        ! 0 -> ' || Vowel _ Vowel ;
+ .o. OLengthen         ! o -> o o || %^ _ ; 
+ .o. Coalescence1      ! a w i -> o o || _ ;
+ .o. Coalsecence2      ! a w i -> a a || _ k ;
+ .o. Palatalization1   ! TDS -> [ ch | j | sh ] || _ i ;
+ .o. Palatalization2Hist  
+ .o. Palatalization2Mod
+ .o. LowShortRaising  
+ .o. Palatalization3  
+ .o. LowEpenthesis    
+ 
+ ] ;
 
 
   
