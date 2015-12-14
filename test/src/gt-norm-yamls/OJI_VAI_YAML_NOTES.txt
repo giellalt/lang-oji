@@ -166,22 +166,69 @@ X       /dagoshin-<a>m{a}-ban/  -> [dgoshnamba]* (prob not /iban/)
 1Sg     /n-dagoshin-<anaa>-dig/    -> [ndagshinnaadig](!)
 2Sg     /g-dagoshin-<anaa>-dig/    -> [gdagshinnaadig](!) 
 3Sg     /dagoshin-<a>w{i}-dig/    -> [dgoshnaadig]**(awi->aa prior to syncope?)
-3Obv    /dagoshin-<a>w{i}-dig-<en>an/    -> [dgoshnaadgenan]**(ditto?)
-X       /dagoshin-<a>m{i}-dig/    -> [dgoshnamdig]
-1Pl     /n-dagoshin-<a>min<aa>-dig/    -> [ndagshinminaadig](!)
-1Incl   /g-dagoshin-<a>min<aa>-dig/    -> [gdagshinminaadig]
-2Pl     /g-dagoshin-<a>m{w}<aa>-dig/    -> [gdagshinmwaadig]
-3Pl     /dagoshin-<a>w{i}-dig-<en>ag/    -> [dgoshnadgenag]*
+3Obv    /dagoshin-<a>w{i}-dig-<en>an/    -> [d_gosh_naad_genan]**(d_gosh_na__digenan) (-wenan in some dialects)
+X       /dagoshin-<a>m{i}-dig/    -> [d_gosh_nam_dig]
+1Pl     /n-dagoshin-<a>min<aa>-dig/    -> [ndag_shin_minaadig](!)
+1Incl   /g-dagoshin-<a>min<aa>-dig/    -> [gdag_shin_minaadig](!)
+2Pl     /g-dagoshin-<a>m{w}<aa>-dig/    -> [gdag_shin_mwaadig](!)
+3Pl     /dagoshin-<a>w{i}-dig-<en>ag/    -> [d_gosh_nad_genag]*
 #Indep PretDub Pos
 1Sg     /n-dagoshin-<naa>-goban/    -> GAP
 2Sg     /g-dagoshin-<naa>-goban/    -> GAP
-3Sg     /dagoshin-{a}_[w{i}]-goban/    -> [dgoshnagba]** (d_gosh_na__goba under expected UR)
-3Obv    /dagoshin-{ini}-goban/    -> [dgoshin'goba] 
-X       /dagoshin-<a>m{i}-goban/    -> [dgoshnamgoba]
+3Sg     /dagoshin-{a}_[w{i}]-goban/    -> [d_gosh_nag_ba]** (d_gosh_na__goba under expected UR)
+3Obv    /dagoshin-{ini}-goban/    -> [d_gosh_nin_goba] 
+X       /dagoshin-<a>m{i}-goban/    -> [d_gosh_nam_goba]
 1Pl     /n-dagoshin-min<aa>-goban/    -> GAP
 1Incl   /g-dagoshin-min<aa>-goban/    -> GAP
 2Pl     /g-dagoshin-m{w}<aa>-goban/    -> GAP
-3Pl     /dagoshin-<a>w{aa}-goban/    -> [dgoshnawaagoba]** (d_gosh_nawaag_ba)
+3Pl     /dagoshin-<a>w{aa}-goban/    -> [d_gosh_nawaagoba]** (d_gosh_nawaag_ba)
+
+## text line by line 234
+#Indep Indic Pos
+1Sg     /n-boodwe-sii{n}/      -> [nboodwesii]*
+2Sg     /g-boodwe-sii{n}/      -> [gboodwesii]*
+3Sg     /boodwe-sii-w{n}/      -> [boodwesii] *
+3Obv    /boodwe-sii-w-an/   -> [boodwesiiwan]
+X       /boodwe-sii-m/      -> [boodwesiim]
+1Pl     /n-boodwe-sii-min/  -> [nboodwesiimi]*
+1Incl   /g-boodwe-sii-min/  -> [gboodwesiimi]*
+2Pl     /g-boodwe-sii-m/    -> [gboodwesiim]
+3Pl     /boodwe-sii-w-ag/   -> [boodwesiiwag]
+#Indep Pret Pos
+1Sg     /n-boodwe-sii<naa>-ban/ -> [nboodwesiinaaba]*
+2Sg     /g-boodwe-sii<naa>-ban/ -> [gboodwesiinaaba]*
+3Sg     /boodwe-sii-w{i}-ban/   -> [boodwesiiba]*
+3Obv    /boodwe-sii-w{i}-ban-an/    -> [boodwesiibniin]**
+X       /boodwe-sii-m{i}-ban/  -> [boodwesiimba]* (prob not /iban/) 
+1Pl     /n-boodwe-sii-min<aa>-ban/  -> [nboodwesiimnaaba]*
+XXXv
+1Incl   /g-boodwe-sii-min<aa>-ban/  -> [gboodwemnaaba]*
+2Pl     /g-boodwe-sii-m{w}<aa>-ban/ -> [gboodwemwaaba]*
+3Pl     /boodwe-sii-w{i}-ban-an/    -> [boodwebniig]**
+#Indep Dub Pos
+1Sg     /n-boodwe-sii-<naa>-dig/    -> [nboodwenaadig]
+2Sg     /g-boodwe-sii-<naa>-dig/    -> [gboodwenaadig]
+3Sg     /boodwe-sii-w{i}-dig/    -> [boodwedig]*
+3Obv    /boodwe-sii-w{i}-dig-<en>an/    -> [boodwedgenan]**
+X       /boodwe-sii-m{i}-dig/    -> [boodwemdig]
+1Pl     /n-boodwe-sii-min<aa>-dig/    -> [nboodwemnaadig]
+1Incl   /g-boodwe-sii-min<aa>-dig/    -> [gboodwemnaadig]
+2Pl     /g-boodwe-sii-m{w}<aa>-dig/    -> [gboodwemwaadig]
+3Pl     /boodwe-sii-w{i}-dig-<en>ag/    -> [boodwedgenag]**
+#Indep PretDub Pos
+1Sg     /n-boodwe-<naa>-goban/    -> GAP
+2Sg     /g-boodwe-<naa>-goban/    -> GAP
+3Sg     /boodwe-sii-w{i}-goban/    -> [boodwegba]** (p 232 omits /w{i}/ here, 230 doesn't list goban for n-loss)
+3Obv    /boodwe-sii-{ni}-goban/    -> [boodwen'goba] 
+X       /boodwe-sii-m{i}-goban/    -> [boodwemgoba]
+1Pl     /n-boodwe-min<aa>-goban/    -> GAP
+1Incl   /g-boodwe-min<aa>-goban/    -> GAP
+2Pl     /g-boodwe-m{w}<aa>-goban/    -> GAP
+3Pl     /boodwe-sii-w{aa}-goban/    -> [boodwewaagba]
+
+## text line by line 233 column 1
+
+#Indep Indic Pos
 ####
 #Global Adjustments
 ####
