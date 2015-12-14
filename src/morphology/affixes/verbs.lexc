@@ -1,4 +1,8 @@
-!todo: VII, VTI (all). VTA themes, VAI fine tuning, de-nasalize conjunct order. Unspecified actor needs careful thought. Check features for consistency
+!todo: 
+    !VII, VTI (all). 
+    !VTA number (refactor), VTA conjunct, imperative
+    !VAI fine tuning, de-nasalize conjunct order.
+
 !! Verb inflection
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
@@ -35,11 +39,11 @@ LEXICON V_PREFIXES
 1+:ni   V_FIRST_PERSON_FLAG ;
 2+:gi   V_SECOND_PERSON_FLAG ;
 3+:o    V_THIRD_PERSON_FLAG ;
-        VERBS ; !intended ... no prefix, just go to verbs
+        VERBS ; 
 !Add alignment recs to style
 
 !style question: PERSON spelled out here and in flags
-!but not some sublexicon titles have PERS
+!but some sublexicon titles have PERS
 
 LEXICON V_FIRST_PERSON_FLAG !add _FLAG to style
 @P.Person.1@  VERBS ;
@@ -71,27 +75,35 @@ LEXICON VAI_NON_INDEP
 !negative slot
 
 LEXICON VAI_INDEP_NEG 
-+Neg:sii    VAI_INDEP_PERSNUM ;
-            VAI_INDEP_PERSNUM ;!intended ... no suffix, just go to persnum
++Neg:sii    VAI_INDEP_PERSNUM_GATEWAY ;
+            VAI_INDEP_PERSNUM_GATEWAY ;!intended ... no suffix, just go to persnum
 
 !number slot
-LEXICON VAI_INDEP_PERSNUM !does this count as a gateway??
+LEXICON VAI_INDEP_PERSNUM_GATEWAY 
 !<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
 @R.Person.2@  VAI_INDEP_LOCALNUM ;
 @R.Person.1@  VAI_INDEP_LOCALNUM ;
+@D.Person@      VAI_INDEP_NONLOCAL ;
+
+LEXICON VAI_INDEP_NONLOCAL 
 +3:w        VAI_INDEP_THIRD_PERSON_FLAG ;
+@D.Passive@ VAI_INDEP_X ;
+!only one value of passive is possible (Dec 2015)
+
+LEXICON VAI_INDEP_X
 +X:m        VAI_INDEP_THIRD_PERSON_FLAG ;
-            VAI_INDEP_MOOD ; !intended ... no suffix (first and second person singulars, viz above), just go to mood
+
+LEXICON VAI_INDEP_THIRD_PERSON_FLAG 
+@P.Person.3@  VAI_INDEP_MOOD ;
 
 LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
 <["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
 @R.Person.2@          VAI_INDEP_LOCALNUM_2PL ;
+            VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GATEWAY
 
 LEXICON VAI_INDEP_LOCALNUM_2PL 
-+2Pl:m   VAI_INDEP_MOOD ;
++2Pl:m   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
 
-LEXICON VAI_INDEP_THIRD_PERSON_FLAG 
-@P.Person.3@  VAI_INDEP_MOOD ;
 
 !mood slot
 LEXICON VAI_INDEP_MOOD 
@@ -209,7 +221,9 @@ LEXICON VTA_INDEP_THEME_GATEWAY
 @R.Person.2@  VTA_INDEP_THEME_SECOND_PERSON ;
 @R.Person.1@  VTA_INDEP_THEME_FIRST_PERSON ;
 @R.Person.3@  VTA_INDEP_THEME_THIRD_PERSON ;
-@D.Person@    VTA_INDEP_THEME_THIRD_PERSON ; !+X 
+
+@D.Person@    VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
+!style on new line for substantively different entries of sublexicon
 
 !A chart of where you can find feature combinations:
 !is 0 needed?
@@ -225,33 +239,39 @@ LEXICON VTA_INDEP_THEME_SECOND_PERSON !1
 +1Sub+2Obj:ini        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
 !long name here..., only case in theme sign where we have to track number
 +1PlSub+2Obj:igoo        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
-+2Sub+3Obj:aa         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+2Sub+3ObvObj:aa      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+3Sub+2Obj:igo        VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+3ObvSub+2Obj:igo     VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
+<["+2Sub"["+3Obj"|"+3ObvObj"]] .x. [a a]> VTA_INDEP_LOW_PERSON_3_FLAG ;
+<[["+3Obj"|"+3ObvObj"]"+2Sub"] .x. [i g o]> VTA_INDEP_LOW_PERSON_3_FLAG ;
 +0Sub+2Obj:igo        VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+XSub+2Obj:igoo       VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
+
++XSub+2Obj:0         VTA_INDEP_LOCAL_PASSIVE ; !passive
 !obviatives behave just like singulars here...
 !this just calls for a regex
 
 LEXICON VTA_INDEP_THEME_FIRST_PERSON !2
-+1Sub+3Obj:aa          VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+1Sub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
-+3Sub+1Obj:igo         VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+3ObvSub+1Obj:igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
+<["+1Sub"["+3Obj"|"+3ObvObj"]] .x. [a a]>        VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
+<[["+3Sub"|"+3ObvSub"]"+1Obj"] .x. [i g o]>      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
 +0Sub+1Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+XSub+1Obj:igoo        VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
+
++XSub+1Obj:0           VTA_INDEP_LOCAL_PASSIVE ;
 !obviatives behave just like singulars here...
-!this just calls for a regex
+
+LEXICON VTA_INDEP_LOCAL_PASSIVE
+0:igoo          VAI_INDEP_NEG ;
 
 LEXICON VTA_INDEP_THEME_THIRD_PERSON !3
 +3Sub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
 +3ObvSub+3Obj:igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
-+0Sub+3Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-+0Sub+3ObvObj:igo      VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local direct
-+XSub+3Obj:aa          VTA_INDEP_LOW_PERSON_X_FLAG ; !passive-y
-+XSub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_X_FLAG ; !non-local direct
-!this just calls for a regex
+<["+0Sub"["+3Obj"|"+3ObvObj"]] .x. [i g o]>     VTA_INDEP_LOW_PERSON_0_FLAG ;
+!+0Sub+3Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
+!+0Sub+3ObvObj:igo      VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local direct
+
+LEXICON VTA_INDEP_NONLOCAL_PASSIVE
++XSub+3Obj:aa   VTA_INDEP_PASSIVE_FLAG ; !passive
+!<["+XSub"["+3Obj"|"+3ObvObj"]] .x. [a a]>          VAI_INDEP_NEG ; !passive
+
+LEXICON VTA_INDEP_PASSIVE_FLAG
+!needed for 3rd person passives to not pick up -m (+X VAI infl)
+@P.Passive.1@ VAI_INDEP_NEG ; 
 
 LEXICON VTA_INDEP_LOW_PERSON_1_FLAG 
 @P.LowPerson.1@     VTA_INDEP_NEG ;
@@ -259,12 +279,9 @@ LEXICON VTA_INDEP_LOW_PERSON_1_FLAG
 LEXICON VTA_INDEP_LOW_PERSON_3_FLAG 
 @P.LowPerson.3@     VTA_INDEP_NEG ;
 
+
 LEXICON VTA_INDEP_LOW_PERSON_0_FLAG 
-@P.LowPerson.0@     VTA_INDEP_NEG ; 
-
-LEXICON VTA_INDEP_LOW_PERSON_X_FLAG 
-@P.LowPerson.X@     VTA_INDEP_NEG ;
-
+@P.LowPerson.0@     VTA_INDEP_NEG ;
 !!NOT DONE!!! need non-local inverse
 !!would be nice to just have +SAP, +NSAP, +Dir, +Inv features ... but that might be untidy notation
 !!@R.Person.2@+Dir+SAP:0i  VTA_INDEP_NEG ; !1 goal
