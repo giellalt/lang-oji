@@ -25,15 +25,12 @@ GT_LEXC_ROOT=root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/nouns.lexc       \
 			 affixes/verbs.lexc       \
-			 stems/adjectives.lexc    \
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
-			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
 			 stems/punctuation.lexc   \
 			 stems/verbs.lexc
 
-#			 affixes/adjectives.lexc  \
 #			 affixes/propernouns.lexc \
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and

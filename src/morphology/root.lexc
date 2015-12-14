@@ -38,10 +38,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 1+ 2+ 3+ X+   !prefixes, last is only used on nouns
 +3 +X       !suffixes, if used, occur in Local Person Number slot
 
-!Verb Negation
+!! Verb Negation
 +Neg
 
-!Local Person Number
+!! Local Person Number
 +1Pl +21 +2Pl
 
 !Mood
@@ -60,18 +60,31 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +0Sub
 +XSub
 
-!Noun Features
+!Noun tags
 +N
-+Con +Dim +Pej
++Con 
++Dim 
++Pej
 +Pos
 
-!##Conjunct order features
+!##Conjunct order tags
 
 !Verb Other Person/Number combinations (conjunct order crosses person with number)
 +1Sg +2Sg +3Sg
 
-!## Imperative order features
-+Imm +Del +Prob
+!! Imperative order tags
++Imm 
++Del 
++Prob
+
+!! Punctuation
+
++CLB    !!= * @CODE@ = punctuation tag
++PUNCT  !!= * @CODE@ = punctuation tag
++LEFT   !!= * @CODE@ = punctuation tag
++RIGHT  !!= * @CODE@ = punctuation tag
+
+
 !####
 !#Person Flags (person indicated by prefixes)
 !####
@@ -150,8 +163,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @R.Passive.1@
 @R.Passive@
 
-LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
-!! word classes, or optionally from prefixes:
+LEXICON Root !!= @CODE@ points to the other lexica
+! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
+! is added, it must be specified in the src/morphology/Makefile.am
     V_PREFIXES ;
     N_PREFIXES ;
+    Punctuation ;
+
