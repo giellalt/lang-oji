@@ -239,31 +239,34 @@ LEXICON VTA_INDEP_THEME_SECOND_PERSON !1
 +1Sub+2Obj:ini        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
 !long name here..., only case in theme sign where we have to track number
 +1PlSub+2Obj:igoo        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
-<["+2Sub"["+3Obj"|"+3ObvObj"]] .x. [a a]> VTA_INDEP_LOW_PERSON_3_FLAG ;
+!multiple feature combinations use the direct theme sign, so it gets its own sublexicon
+<["+2Sub"["+3Obj"|"+3ObvObj"]] .x. [0]> VTA_INDEP_THEME_NONLOCAL_DIRECT ;
 <[["+3Obj"|"+3ObvObj"]"+2Sub"] .x. [i g o]> VTA_INDEP_LOW_PERSON_3_FLAG ;
 +0Sub+2Obj:igo        VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
 
 +XSub+2Obj:0         VTA_INDEP_LOCAL_PASSIVE ; !passive
 !obviatives behave just like singulars here...
-!this just calls for a regex
 
 LEXICON VTA_INDEP_THEME_FIRST_PERSON !2
-<["+1Sub"["+3Obj"|"+3ObvObj"]] .x. [a a]>        VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
+<["+1Sub"["+3Obj"|"+3ObvObj"]] .x. [0]>        VTA_INDEP_THEME_NONLOCAL_DIRECT ; !non-local direct
 <[["+3Sub"|"+3ObvSub"]"+1Obj"] .x. [i g o]>      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
 +0Sub+1Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
 
 +XSub+1Obj:0           VTA_INDEP_LOCAL_PASSIVE ;
 !obviatives behave just like singulars here...
 
-LEXICON VTA_INDEP_LOCAL_PASSIVE
-0:igoo          VAI_INDEP_NEG ;
-
 LEXICON VTA_INDEP_THEME_THIRD_PERSON !3
-+3Sub+3ObvObj:aa       VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local direct
++3Sub+3ObvObj:aa       VTA_INDEP_THEME_NONLOCAL_DIRECT ; !non-local direct
 +3ObvSub+3Obj:igo      VTA_INDEP_LOW_PERSON_3_FLAG ; !non-local inverse
 <["+0Sub"["+3Obj"|"+3ObvObj"]] .x. [i g o]>     VTA_INDEP_LOW_PERSON_0_FLAG ;
 !+0Sub+3Obj:igo         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
 !+0Sub+3ObvObj:igo      VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local direct
+
+LEXICON VTA_INDEP_THEME_NONLOCAL_DIRECT
+0:aa    VTA_INDEP_LOW_PERSON_3_FLAG ;
+
+LEXICON VTA_INDEP_LOCAL_PASSIVE
+0:igoo          VAI_INDEP_NEG ;
 
 LEXICON VTA_INDEP_NONLOCAL_PASSIVE
 +XSub+3Obj:aa   VTA_INDEP_PASSIVE_FLAG ; !passive
