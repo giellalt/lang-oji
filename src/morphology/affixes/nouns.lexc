@@ -2,6 +2,17 @@
 !! ---------------
 !! The UNDEFINED language nouns inflect in cases.
 
+!Todo:
+!need to implement obviation:
+!   these are the facts as far as I understand them
+!   animate nouns possessed by third persons must be obviative
+!   obviation is consistent throughout a DP (obviative possessor has obviative possessum never proximate possessum)
+!      this is somewhat redundant given the above generalization
+!   inanimate nouns are not obligatorily obviative when possessed
+!   it is unclear to me whether unspecified possessors trigger obviation
+!   going to check with Rand
+!indefinite pos cannot be inflected for number/obviation (correct?)
+
 LEXICON N_PREFIXES 
 1+:ni N_FIRST_PERSON_FLAG ;
 2+:gi N_SECOND_PERSON_FLAG ;
@@ -47,19 +58,35 @@ LEXICON N_PEJ
             N_POS_NUM_GATEWAY ;
 
 LEXICON N_POS_NUM_GATEWAY 
-@R.Person.1@            N_POS_NUM_1PL_21 ;
-@R.Person.2@            N_POS_NUM_1PL_21 ;
-@R.Person@@D.Person.1@ N_POS_NUM_2PL_3PL ; !indefinite plural poss can enter
-@R.Person.3@            N_POS_NUM_3OBV ; !should indefinite obviatives be permitted? 
+@R.Person.1@            N_POS_NUM_1 ;
+@R.Person.2@            N_POS_NUM_2 ;
+@R.Person.3@            N_POS_NUM_3 ; 
                         N_MOOD ;
 
-!optionality of possessor number +Pos instantiated in GATEWAY
+!optionality of possessor number instantiated in GATEWAY
 !entrance requires a person flag, person flags are not forced to enter
 
 !should there be a nomenclature for the descendants of gateways?
+!a specified order?
+!it seems that one could have some indentation or bracketing to indicate when a sublexicon is under a gateway
+!though within a lexicon, whitespace matters (?)
+
+LEXICON N_POS_NUM_1
++1Pl:0    N_POS_NUM_1PL_21 ;
+
+LEXICON N_POS_NUM_2
++21:0   N_POS_NUM_1PL_21 ;
++2Pl:0  N_POS_NUM_2PL_3PL ;
+
+LEXICON N_POS_NUM_3
++3Pl:0      N_POS_NUM_2PL_3PL ;
++3Obv:ini   N_MOOD ;
 
 LEXICON N_POS_NUM_1PL_21 
-<["+1Pl"|"+21"] .x. [i n a a n]>   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
+0:inaan N_MOOD ;
+!<["+1Pl"|"+21"] .x. [i n a a n]>   N_MOOD ; !this allowed +2 ... +1Pl when N_POS_NUM_GATEWAY redirected here
+
+!style/syntax note
 !the following might be intuitive, but it is wrong
 !it will match a "+" followed by a multicharacter "1Pl" ... which doesn't exist
 !further, to make an output, you need to cross the fsas. 
@@ -67,18 +94,22 @@ LEXICON N_POS_NUM_1PL_21
 !   [a|b] .x. [c] -> a:c, b:c
 !<"+"[1Pl|21]>:inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
 !style on regexes for features
-!yaml still has +Pos1Pl, +PosPl, +PosObv
 
 LEXICON N_POS_NUM_2PL_3PL 
-<["+2Pl"|"+3Pl"] .x. [i w a a]>     N_MOOD ;
+0:iwaa  N_MOOD ;
+!<["+2Pl"|"+3Pl"] .x. [i w a a]>     N_MOOD ;
 
-LEXICON N_POS_NUM_3OBV 
-+3Obv:ini              N_MOOD ;
+!style note: terminal symbols only introduced when no further morphemes can possibly follow
 
 LEXICON N_MOOD 
 +Pret:iban  N_NUM_GATEWAY ;
-+VocPl:idig # ; !Long feat name, variation abandoned, are there inanimate vocative plurals (-idin)?
+!there are not inanimate vocative plurals (-idin)
+@R.Animate.1@   NA_VOCPL ;
             N_NUM_GATEWAY ;
+
+LEXICON NA_VOCPL !Long feat name
++VocPl:idig # ; !odawa specific variant (included because we are gearing towards Nish now)
++VocPl:idog # ; !general oji variant
 
 LEXICON N_NUM_GATEWAY 
 @R.Animate.1@   NA_NUM ;
