@@ -1,0 +1,1431 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+     
+Tests:
+     
+  NA - VINIT - aagim :
+     
+  #Template Key
+  #1	2	3	4	5	6	7
+  #per	dim	the	pej	pos	mod	num
+     
+     #Isolation form
+     aagim: aagim
+     
+     #Values from slots numbered: 1
+     1+aagim: nidaagim
+     2+aagim: gidaagim
+     3+aagim: odaagim
+     X+aagim: idaagim
+     
+     #Values from slots numbered: 2
+     aagim+Con: aagimenh
+     aagim+Dim: aagimens
+     
+     
+     #Values from slots numbered: 4
+     aagim+Pej: aagimish
+     
+     
+     #Values from slots numbered: 6
+     aagim+Pret: aagimiban
+     aagim+VocPl: [aagimidig, aagimidog]
+     
+     #Values from slots numbered: 7
+     aagim+Loc: aagiming
+     aagim+Obv: aagiman
+     aagim+Pl: aagimag
+     
+     #Values from slots numbered: 1, 2
+     1+aagim+Con: nidaagimenh
+     1+aagim+Dim: nidaagimens
+     2+aagim+Con: gidaagimenh
+     2+aagim+Dim: gidaagimens
+     3+aagim+Con: odaagimenh
+     3+aagim+Dim: odaagimens
+     X+aagim+Con: idaagimenh
+     X+aagim+Dim: idaagimens
+     
+     #Values from slots numbered: 1, 3
+     1+aagim+Pos: nidaagimim
+     2+aagim+Pos: gidaagimim
+     3+aagim+Pos: odaagimim
+     X+aagim+Pos: idaagimim
+     
+     #Values from slots numbered: 1, 4
+     1+aagim+Pej: nidaagimish
+     2+aagim+Pej: gidaagimish
+     3+aagim+Pej: odaagimish
+     X+aagim+Pej: idaagimish
+     
+     #Values from slots numbered: 1, 5
+     1+aagim+1Pl: nidaagiminaan
+     2+aagim+21: gidaagiminaan
+     2+aagim+2Pl: gidaagimiwaa
+     3+aagim+3Obv: odaagimini
+     3+aagim+3Pl: odaagimiwaa
+     
+     #Values from slots numbered: 1, 6
+     1+aagim+Pret: nidaagimiban
+     1+aagim+VocPl: [nidaagimidig, nidaagimidog]
+     2+aagim+Pret: gidaagimiban
+     2+aagim+VocPl: [gidaagimidig, gidaagimidog]
+     3+aagim+Pret: odaagimiban
+     3+aagim+VocPl: [odaagimidig, odaagimidog]
+     X+aagim+Pret: idaagimiban
+     X+aagim+VocPl: [idaagimidig, idaagimidog]
+     
+     #Values from slots numbered: 1, 7
+     1+aagim+Loc: nidaagiming
+     1+aagim+Obv: nidaagiman
+     1+aagim+Pl: nidaagimag
+     2+aagim+Loc: gidaagiming
+     2+aagim+Obv: gidaagiman
+     2+aagim+Pl: gidaagimag
+     3+aagim+Loc: odaagiming
+     3+aagim+Obv: odaagiman
+     3+aagim+Pl: odaagimag
+     X+aagim+Loc: idaagiming
+     X+aagim+Obv: idaagiman
+     X+aagim+Pl: idaagimag
+     
+     
+     #Values from slots numbered: 2, 4
+     aagim+Con+Pej: aagimenyish
+     aagim+Dim+Pej: aagimensish
+     
+     
+     #Values from slots numbered: 2, 6
+     aagim+Con+Pret: aagimenyiban
+     aagim+Con+VocPl: [aagimenyidig, aagimenyidog]
+     aagim+Dim+Pret: aagimensiban
+     aagim+Dim+VocPl: [aagimensidig, aagimensidog]
+     
+     #Values from slots numbered: 2, 7
+     aagim+Con+Loc: aagimenying
+     aagim+Con+Obv: aagimenyin
+     aagim+Con+Pl: aagimenyig
+     aagim+Dim+Loc: aagimensing
+     aagim+Dim+Obv: aagimensan
+     aagim+Dim+Pl: aagimensag
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 4, 6
+     aagim+Pej+Pret: aagimishiban
+     aagim+Pej+VocPl: [aagimishidig, aagimishidog]
+     
+     #Values from slots numbered: 4, 7
+     aagim+Pej+Loc: aagimishing
+     aagim+Pej+Obv: aagimishan
+     aagim+Pej+Pl: aagimishag
+     
+     
+     
+     #Values from slots numbered: 6, 7
+     aagim+Pret+Loc: aagimibaniing
+     aagim+Pret+Obv: aagimibaniin
+     aagim+Pret+Pl: aagimibaniig
+     
+     #Values from slots numbered: 1, 2, 3
+     1+aagim+Con+Pos: nidaagimenyim
+     1+aagim+Dim+Pos: nidaagimensim
+     2+aagim+Con+Pos: gidaagimenyim
+     2+aagim+Dim+Pos: gidaagimensim
+     3+aagim+Con+Pos: odaagimenyim
+     3+aagim+Dim+Pos: odaagimensim
+     X+aagim+Con+Pos: idaagimenyim
+     X+aagim+Dim+Pos: idaagimensim
+     
+     #Values from slots numbered: 1, 2, 4
+     1+aagim+Con+Pej: nidaagimenyish
+     1+aagim+Dim+Pej: nidaagimensish
+     2+aagim+Con+Pej: gidaagimenyish
+     2+aagim+Dim+Pej: gidaagimensish
+     3+aagim+Con+Pej: odaagimenyish
+     3+aagim+Dim+Pej: odaagimensish
+     X+aagim+Con+Pej: idaagimenyish
+     X+aagim+Dim+Pej: idaagimensish
+     
+     #Values from slots numbered: 1, 2, 5
+     1+aagim+Con+1Pl: nidaagimenyinaan
+     1+aagim+Dim+1Pl: nidaagimensinaan
+     2+aagim+Con+21: gidaagimenyinaan
+     2+aagim+Con+2Pl: gidaagimenyiwaa
+     2+aagim+Dim+21: gidaagimensinaan
+     2+aagim+Dim+2Pl: gidaagimensiwaa
+     3+aagim+Con+3Obv: odaagimenyini
+     3+aagim+Con+3Pl: odaagimenyiwaa
+     3+aagim+Dim+3Obv: odaagimensini
+     3+aagim+Dim+3Pl: odaagimensiwaa
+     
+     #Values from slots numbered: 1, 2, 6
+     1+aagim+Con+Pret: nidaagimenyiban
+     1+aagim+Con+VocPl: [nidaagimenyidig, nidaagimenyidog]
+     1+aagim+Dim+Pret: nidaagimensiban
+     1+aagim+Dim+VocPl: [nidaagimensidig, nidaagimensidog]
+     2+aagim+Con+Pret: gidaagimenyiban
+     2+aagim+Con+VocPl: [gidaagimenyidig, gidaagimenyidog]
+     2+aagim+Dim+Pret: gidaagimensiban
+     2+aagim+Dim+VocPl: [gidaagimensidig, gidaagimensidog]
+     3+aagim+Con+Pret: odaagimenyiban
+     3+aagim+Con+VocPl: [odaagimenyidig, odaagimenyidog]
+     3+aagim+Dim+Pret: odaagimensiban
+     3+aagim+Dim+VocPl: [odaagimensidig, odaagimensidog]
+     X+aagim+Con+Pret: idaagimenyiban
+     X+aagim+Con+VocPl: [idaagimenyidig, idaagimenyidog]
+     X+aagim+Dim+Pret: idaagimensiban
+     X+aagim+Dim+VocPl: [idaagimensidig, idaagimensidog]
+     
+     #Values from slots numbered: 1, 2, 7
+     1+aagim+Con+Loc: nidaagimenying
+     1+aagim+Con+Obv: nidaagimenyin
+     1+aagim+Con+Pl: nidaagimenyig
+     1+aagim+Dim+Loc: nidaagimensing
+     1+aagim+Dim+Obv: nidaagimensan
+     1+aagim+Dim+Pl: nidaagimensag
+     2+aagim+Con+Loc: gidaagimenying
+     2+aagim+Con+Obv: gidaagimenyin
+     2+aagim+Con+Pl: gidaagimenyig
+     2+aagim+Dim+Loc: gidaagimensing
+     2+aagim+Dim+Obv: gidaagimensan
+     2+aagim+Dim+Pl: gidaagimensag
+     3+aagim+Con+Loc: odaagimenying
+     3+aagim+Con+Obv: odaagimenyin
+     3+aagim+Con+Pl: odaagimenyig
+     3+aagim+Dim+Loc: odaagimensing
+     3+aagim+Dim+Obv: odaagimensan
+     3+aagim+Dim+Pl: odaagimensag
+     X+aagim+Con+Loc: idaagimenying
+     X+aagim+Con+Obv: idaagimenyin
+     X+aagim+Con+Pl: idaagimenyig
+     X+aagim+Dim+Loc: idaagimensing
+     X+aagim+Dim+Obv: idaagimensan
+     X+aagim+Dim+Pl: idaagimensag
+     
+     #Values from slots numbered: 1, 3, 4
+     1+aagim+Pos+Pej: nidaagimimish
+     2+aagim+Pos+Pej: gidaagimimish
+     3+aagim+Pos+Pej: odaagimimish
+     X+aagim+Pos+Pej: idaagimimish
+     
+     #Values from slots numbered: 1, 3, 5
+     1+aagim+Pos+1Pl: nidaagimiminaan
+     2+aagim+Pos+21: gidaagimiminaan
+     2+aagim+Pos+2Pl: gidaagimimiwaa
+     3+aagim+Pos+3Obv: odaagimimini
+     3+aagim+Pos+3Pl: odaagimimiwaa
+     
+     #Values from slots numbered: 1, 3, 6
+     1+aagim+Pos+Pret: nidaagimimiban
+     1+aagim+Pos+VocPl: [nidaagimimidig, nidaagimimidog]
+     2+aagim+Pos+Pret: gidaagimimiban
+     2+aagim+Pos+VocPl: [gidaagimimidig, gidaagimimidog]
+     3+aagim+Pos+Pret: odaagimimiban
+     3+aagim+Pos+VocPl: [odaagimimidig, odaagimimidog]
+     X+aagim+Pos+Pret: idaagimimiban
+     X+aagim+Pos+VocPl: [idaagimimidig, idaagimimidog]
+     
+     #Values from slots numbered: 1, 3, 7
+     1+aagim+Pos+Loc: nidaagimiming
+     1+aagim+Pos+Obv: nidaagimiman
+     1+aagim+Pos+Pl: nidaagimimag
+     2+aagim+Pos+Loc: gidaagimiming
+     2+aagim+Pos+Obv: gidaagimiman
+     2+aagim+Pos+Pl: gidaagimimag
+     3+aagim+Pos+Loc: odaagimiming
+     3+aagim+Pos+Obv: odaagimiman
+     3+aagim+Pos+Pl: odaagimimag
+     X+aagim+Pos+Loc: idaagimiming
+     X+aagim+Pos+Obv: idaagimiman
+     X+aagim+Pos+Pl: idaagimimag
+     
+     #Values from slots numbered: 1, 4, 5
+     1+aagim+Pej+1Pl: nidaagimishinaan
+     2+aagim+Pej+21: gidaagimishinaan
+     2+aagim+Pej+2Pl: gidaagimishiwaa
+     3+aagim+Pej+3Obv: odaagimishini
+     3+aagim+Pej+3Pl: odaagimishiwaa
+     
+     #Values from slots numbered: 1, 4, 6
+     1+aagim+Pej+Pret: nidaagimishiban
+     1+aagim+Pej+VocPl: [nidaagimishidig, nidaagimishidog]
+     2+aagim+Pej+Pret: gidaagimishiban
+     2+aagim+Pej+VocPl: [gidaagimishidig, gidaagimishidog]
+     3+aagim+Pej+Pret: odaagimishiban
+     3+aagim+Pej+VocPl: [odaagimishidig, odaagimishidog]
+     X+aagim+Pej+Pret: idaagimishiban
+     X+aagim+Pej+VocPl: [idaagimishidig, idaagimishidog]
+     
+     #Values from slots numbered: 1, 4, 7
+     1+aagim+Pej+Loc: nidaagimishing
+     1+aagim+Pej+Obv: nidaagimishan
+     1+aagim+Pej+Pl: nidaagimishag
+     2+aagim+Pej+Loc: gidaagimishing
+     2+aagim+Pej+Obv: gidaagimishan
+     2+aagim+Pej+Pl: gidaagimishag
+     3+aagim+Pej+Loc: odaagimishing
+     3+aagim+Pej+Obv: odaagimishan
+     3+aagim+Pej+Pl: odaagimishag
+     X+aagim+Pej+Loc: idaagimishing
+     X+aagim+Pej+Obv: idaagimishan
+     X+aagim+Pej+Pl: idaagimishag
+     
+     #Values from slots numbered: 1, 5, 6
+     1+aagim+1Pl+Pret: nidaagiminaaniban
+     1+aagim+1Pl+VocPl: [nidaagiminaanidig, nidaagiminaanidog]
+     2+aagim+21+Pret: gidaagiminaaniban
+     2+aagim+21+VocPl: [gidaagiminaanidig, gidaagiminaanidog]
+     2+aagim+2Pl+Pret: gidaagimiwaaban
+     2+aagim+2Pl+VocPl: [gidaagimiwaadig, gidaagimiwaadog]
+     3+aagim+3Obv+Pret: odaagiminiiban
+     3+aagim+3Obv+VocPl: [odaagiminiidig, odaagiminiidog]
+     3+aagim+3Pl+Pret: odaagimiwaaban
+     3+aagim+3Pl+VocPl: [odaagimiwaadig, odaagimiwaadog]
+     
+     #Values from slots numbered: 1, 5, 7
+     1+aagim+1Pl+Loc: nidaagiminaaning
+     1+aagim+1Pl+Obv: nidaagiminaanin
+     1+aagim+1Pl+Pl: nidaagiminaanig
+     2+aagim+21+Loc: gidaagiminaaning
+     2+aagim+21+Obv: gidaagiminaanin
+     2+aagim+21+Pl: gidaagiminaanig
+     2+aagim+2Pl+Loc: gidaagimiwaang
+     2+aagim+2Pl+Obv: gidaagimiwaan
+     2+aagim+2Pl+Pl: gidaagimiwaag
+     3+aagim+3Obv+Loc: odaagiminiing
+     3+aagim+3Obv+Obv: odaagiminiin
+     3+aagim+3Obv+Pl: odaagiminiig
+     3+aagim+3Pl+Loc: odaagimiwaang
+     3+aagim+3Pl+Obv: odaagimiwaan
+     3+aagim+3Pl+Pl: odaagimiwaag
+     
+     #Values from slots numbered: 1, 6, 7
+     1+aagim+Pret+Loc: nidaagimibaniing
+     1+aagim+Pret+Obv: nidaagimibaniin
+     1+aagim+Pret+Pl: nidaagimibaniig
+     2+aagim+Pret+Loc: gidaagimibaniing
+     2+aagim+Pret+Obv: gidaagimibaniin
+     2+aagim+Pret+Pl: gidaagimibaniig
+     3+aagim+Pret+Loc: odaagimibaniing
+     3+aagim+Pret+Obv: odaagimibaniin
+     3+aagim+Pret+Pl: odaagimibaniig
+     X+aagim+Pret+Loc: idaagimibaniing
+     X+aagim+Pret+Obv: idaagimibaniin
+     X+aagim+Pret+Pl: idaagimibaniig
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 2, 4, 6
+     aagim+Con+Pej+Pret: aagimenyishiban
+     aagim+Con+Pej+VocPl: [aagimenyishidig, aagimenyishidog]
+     aagim+Dim+Pej+Pret: aagimensishiban
+     aagim+Dim+Pej+VocPl: [aagimensishidig, aagimensishidog]
+     
+     #Values from slots numbered: 2, 4, 7
+     aagim+Con+Pej+Loc: aagimenyishing
+     aagim+Con+Pej+Obv: aagimenyishan
+     aagim+Con+Pej+Pl: aagimenyishag
+     aagim+Dim+Pej+Loc: aagimensishing
+     aagim+Dim+Pej+Obv: aagimensishan
+     aagim+Dim+Pej+Pl: aagimensishag
+     
+     
+     
+     #Values from slots numbered: 2, 6, 7
+     aagim+Con+Pret+Loc: aagimenyibaniing
+     aagim+Con+Pret+Obv: aagimenyibaniin
+     aagim+Con+Pret+Pl: aagimenyibaniig
+     aagim+Dim+Pret+Loc: aagimensibaniing
+     aagim+Dim+Pret+Obv: aagimensibaniin
+     aagim+Dim+Pret+Pl: aagimensibaniig
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 4, 6, 7
+     aagim+Pej+Pret+Loc: aagimishibaniing
+     aagim+Pej+Pret+Obv: aagimishibaniin
+     aagim+Pej+Pret+Pl: aagimishibaniig
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4
+     1+aagim+Con+Pos+Pej: nidaagimenyimish
+     1+aagim+Dim+Pos+Pej: nidaagimensimish
+     2+aagim+Con+Pos+Pej: gidaagimenyimish
+     2+aagim+Dim+Pos+Pej: gidaagimensimish
+     3+aagim+Con+Pos+Pej: odaagimenyimish
+     3+aagim+Dim+Pos+Pej: odaagimensimish
+     X+aagim+Con+Pos+Pej: idaagimenyimish
+     X+aagim+Dim+Pos+Pej: idaagimensimish
+     
+     #Values from slots numbered: 1, 2, 3, 5
+     1+aagim+Con+Pos+1Pl: nidaagimenyiminaan
+     1+aagim+Dim+Pos+1Pl: nidaagimensiminaan
+     2+aagim+Con+Pos+21: gidaagimenyiminaan
+     2+aagim+Con+Pos+2Pl: gidaagimenyimiwaa
+     2+aagim+Dim+Pos+21: gidaagimensiminaan
+     2+aagim+Dim+Pos+2Pl: gidaagimensimiwaa
+     3+aagim+Con+Pos+3Obv: odaagimenyimini
+     3+aagim+Con+Pos+3Pl: odaagimenyimiwaa
+     3+aagim+Dim+Pos+3Obv: odaagimensimini
+     3+aagim+Dim+Pos+3Pl: odaagimensimiwaa
+     
+     #Values from slots numbered: 1, 2, 3, 6
+     1+aagim+Con+Pos+Pret: nidaagimenyimiban
+     1+aagim+Con+Pos+VocPl: [nidaagimenyimidig, nidaagimenyimidog]
+     1+aagim+Dim+Pos+Pret: nidaagimensimiban
+     1+aagim+Dim+Pos+VocPl: [nidaagimensimidig, nidaagimensimidog]
+     2+aagim+Con+Pos+Pret: gidaagimenyimiban
+     2+aagim+Con+Pos+VocPl: [gidaagimenyimidig, gidaagimenyimidog]
+     2+aagim+Dim+Pos+Pret: gidaagimensimiban
+     2+aagim+Dim+Pos+VocPl: [gidaagimensimidig, gidaagimensimidog]
+     3+aagim+Con+Pos+Pret: odaagimenyimiban
+     3+aagim+Con+Pos+VocPl: [odaagimenyimidig, odaagimenyimidog]
+     3+aagim+Dim+Pos+Pret: odaagimensimiban
+     3+aagim+Dim+Pos+VocPl: [odaagimensimidig, odaagimensimidog]
+     X+aagim+Con+Pos+Pret: idaagimenyimiban
+     X+aagim+Con+Pos+VocPl: [idaagimenyimidig, idaagimenyimidog]
+     X+aagim+Dim+Pos+Pret: idaagimensimiban
+     X+aagim+Dim+Pos+VocPl: [idaagimensimidig, idaagimensimidog]
+     
+     #Values from slots numbered: 1, 2, 3, 7
+     1+aagim+Con+Pos+Loc: nidaagimenyiming
+     1+aagim+Con+Pos+Obv: nidaagimenyiman
+     1+aagim+Con+Pos+Pl: nidaagimenyimag
+     1+aagim+Dim+Pos+Loc: nidaagimensiming
+     1+aagim+Dim+Pos+Obv: nidaagimensiman
+     1+aagim+Dim+Pos+Pl: nidaagimensimag
+     2+aagim+Con+Pos+Loc: gidaagimenyiming
+     2+aagim+Con+Pos+Obv: gidaagimenyiman
+     2+aagim+Con+Pos+Pl: gidaagimenyimag
+     2+aagim+Dim+Pos+Loc: gidaagimensiming
+     2+aagim+Dim+Pos+Obv: gidaagimensiman
+     2+aagim+Dim+Pos+Pl: gidaagimensimag
+     3+aagim+Con+Pos+Loc: odaagimenyiming
+     3+aagim+Con+Pos+Obv: odaagimenyiman
+     3+aagim+Con+Pos+Pl: odaagimenyimag
+     3+aagim+Dim+Pos+Loc: odaagimensiming
+     3+aagim+Dim+Pos+Obv: odaagimensiman
+     3+aagim+Dim+Pos+Pl: odaagimensimag
+     X+aagim+Con+Pos+Loc: idaagimenyiming
+     X+aagim+Con+Pos+Obv: idaagimenyiman
+     X+aagim+Con+Pos+Pl: idaagimenyimag
+     X+aagim+Dim+Pos+Loc: idaagimensiming
+     X+aagim+Dim+Pos+Obv: idaagimensiman
+     X+aagim+Dim+Pos+Pl: idaagimensimag
+     
+     #Values from slots numbered: 1, 2, 4, 5
+     1+aagim+Con+Pej+1Pl: nidaagimenyishinaan
+     1+aagim+Dim+Pej+1Pl: nidaagimensishinaan
+     2+aagim+Con+Pej+21: gidaagimenyishinaan
+     2+aagim+Con+Pej+2Pl: gidaagimenyishiwaa
+     2+aagim+Dim+Pej+21: gidaagimensishinaan
+     2+aagim+Dim+Pej+2Pl: gidaagimensishiwaa
+     3+aagim+Con+Pej+3Obv: odaagimenyishini
+     3+aagim+Con+Pej+3Pl: odaagimenyishiwaa
+     3+aagim+Dim+Pej+3Obv: odaagimensishini
+     3+aagim+Dim+Pej+3Pl: odaagimensishiwaa
+     
+     #Values from slots numbered: 1, 2, 4, 6
+     1+aagim+Con+Pej+Pret: nidaagimenyishiban
+     1+aagim+Con+Pej+VocPl: [nidaagimenyishidig, nidaagimenyishidog]
+     1+aagim+Dim+Pej+Pret: nidaagimensishiban
+     1+aagim+Dim+Pej+VocPl: [nidaagimensishidig, nidaagimensishidog]
+     2+aagim+Con+Pej+Pret: gidaagimenyishiban
+     2+aagim+Con+Pej+VocPl: [gidaagimenyishidig, gidaagimenyishidog]
+     2+aagim+Dim+Pej+Pret: gidaagimensishiban
+     2+aagim+Dim+Pej+VocPl: [gidaagimensishidig, gidaagimensishidog]
+     3+aagim+Con+Pej+Pret: odaagimenyishiban
+     3+aagim+Con+Pej+VocPl: [odaagimenyishidig, odaagimenyishidog]
+     3+aagim+Dim+Pej+Pret: odaagimensishiban
+     3+aagim+Dim+Pej+VocPl: [odaagimensishidig, odaagimensishidog]
+     X+aagim+Con+Pej+Pret: idaagimenyishiban
+     X+aagim+Con+Pej+VocPl: [idaagimenyishidig, idaagimenyishidog]
+     X+aagim+Dim+Pej+Pret: idaagimensishiban
+     X+aagim+Dim+Pej+VocPl: [idaagimensishidig, idaagimensishidog]
+     
+     #Values from slots numbered: 1, 2, 4, 7
+     1+aagim+Con+Pej+Loc: nidaagimenyishing
+     1+aagim+Con+Pej+Obv: nidaagimenyishan
+     1+aagim+Con+Pej+Pl: nidaagimenyishag
+     1+aagim+Dim+Pej+Loc: nidaagimensishing
+     1+aagim+Dim+Pej+Obv: nidaagimensishan
+     1+aagim+Dim+Pej+Pl: nidaagimensishag
+     2+aagim+Con+Pej+Loc: gidaagimenyishing
+     2+aagim+Con+Pej+Obv: gidaagimenyishan
+     2+aagim+Con+Pej+Pl: gidaagimenyishag
+     2+aagim+Dim+Pej+Loc: gidaagimensishing
+     2+aagim+Dim+Pej+Obv: gidaagimensishan
+     2+aagim+Dim+Pej+Pl: gidaagimensishag
+     3+aagim+Con+Pej+Loc: odaagimenyishing
+     3+aagim+Con+Pej+Obv: odaagimenyishan
+     3+aagim+Con+Pej+Pl: odaagimenyishag
+     3+aagim+Dim+Pej+Loc: odaagimensishing
+     3+aagim+Dim+Pej+Obv: odaagimensishan
+     3+aagim+Dim+Pej+Pl: odaagimensishag
+     X+aagim+Con+Pej+Loc: idaagimenyishing
+     X+aagim+Con+Pej+Obv: idaagimenyishan
+     X+aagim+Con+Pej+Pl: idaagimenyishag
+     X+aagim+Dim+Pej+Loc: idaagimensishing
+     X+aagim+Dim+Pej+Obv: idaagimensishan
+     X+aagim+Dim+Pej+Pl: idaagimensishag
+     
+     #Values from slots numbered: 1, 2, 5, 6
+     1+aagim+Con+1Pl+Pret: nidaagimenyinaaniban
+     1+aagim+Con+1Pl+VocPl: [nidaagimenyinaanidig, nidaagimenyinaanidog]
+     1+aagim+Dim+1Pl+Pret: nidaagimensinaaniban
+     1+aagim+Dim+1Pl+VocPl: [nidaagimensinaanidig, nidaagimensinaanidog]
+     2+aagim+Con+21+Pret: gidaagimenyinaaniban
+     2+aagim+Con+21+VocPl: [gidaagimenyinaanidig, gidaagimenyinaanidog]
+     2+aagim+Con+2Pl+Pret: gidaagimenyiwaaban
+     2+aagim+Con+2Pl+VocPl: [gidaagimenyiwaadig, gidaagimenyiwaadog]
+     2+aagim+Dim+21+Pret: gidaagimensinaaniban
+     2+aagim+Dim+21+VocPl: [gidaagimensinaanidig, gidaagimensinaanidog]
+     2+aagim+Dim+2Pl+Pret: gidaagimensiwaaban
+     2+aagim+Dim+2Pl+VocPl: [gidaagimensiwaadig, gidaagimensiwaadog]
+     3+aagim+Con+3Obv+Pret: odaagimenyiniiban
+     3+aagim+Con+3Obv+VocPl: [odaagimenyiniidig, odaagimenyiniidog]
+     3+aagim+Con+3Pl+Pret: odaagimenyiwaaban
+     3+aagim+Con+3Pl+VocPl: [odaagimenyiwaadig, odaagimenyiwaadog]
+     3+aagim+Dim+3Obv+Pret: odaagimensiniiban
+     3+aagim+Dim+3Obv+VocPl: [odaagimensiniidig, odaagimensiniidog]
+     3+aagim+Dim+3Pl+Pret: odaagimensiwaaban
+     3+aagim+Dim+3Pl+VocPl: [odaagimensiwaadig, odaagimensiwaadog]
+     
+     #Values from slots numbered: 1, 2, 5, 7
+     1+aagim+Con+1Pl+Loc: nidaagimenyinaaning
+     1+aagim+Con+1Pl+Obv: nidaagimenyinaanin
+     1+aagim+Con+1Pl+Pl: nidaagimenyinaanig
+     1+aagim+Dim+1Pl+Loc: nidaagimensinaaning
+     1+aagim+Dim+1Pl+Obv: nidaagimensinaanin
+     1+aagim+Dim+1Pl+Pl: nidaagimensinaanig
+     2+aagim+Con+21+Loc: gidaagimenyinaaning
+     2+aagim+Con+21+Obv: gidaagimenyinaanin
+     2+aagim+Con+21+Pl: gidaagimenyinaanig
+     2+aagim+Con+2Pl+Loc: gidaagimenyiwaang
+     2+aagim+Con+2Pl+Obv: gidaagimenyiwaan
+     2+aagim+Con+2Pl+Pl: gidaagimenyiwaag
+     2+aagim+Dim+21+Loc: gidaagimensinaaning
+     2+aagim+Dim+21+Obv: gidaagimensinaanin
+     2+aagim+Dim+21+Pl: gidaagimensinaanig
+     2+aagim+Dim+2Pl+Loc: gidaagimensiwaang
+     2+aagim+Dim+2Pl+Obv: gidaagimensiwaan
+     2+aagim+Dim+2Pl+Pl: gidaagimensiwaag
+     3+aagim+Con+3Obv+Loc: odaagimenyiniing
+     3+aagim+Con+3Obv+Obv: odaagimenyiniin
+     3+aagim+Con+3Obv+Pl: odaagimenyiniig
+     3+aagim+Con+3Pl+Loc: odaagimenyiwaang
+     3+aagim+Con+3Pl+Obv: odaagimenyiwaan
+     3+aagim+Con+3Pl+Pl: odaagimenyiwaag
+     3+aagim+Dim+3Obv+Loc: odaagimensiniing
+     3+aagim+Dim+3Obv+Obv: odaagimensiniin
+     3+aagim+Dim+3Obv+Pl: odaagimensiniig
+     3+aagim+Dim+3Pl+Loc: odaagimensiwaang
+     3+aagim+Dim+3Pl+Obv: odaagimensiwaan
+     3+aagim+Dim+3Pl+Pl: odaagimensiwaag
+     
+     #Values from slots numbered: 1, 2, 6, 7
+     1+aagim+Con+Pret+Loc: nidaagimenyibaniing
+     1+aagim+Con+Pret+Obv: nidaagimenyibaniin
+     1+aagim+Con+Pret+Pl: nidaagimenyibaniig
+     1+aagim+Dim+Pret+Loc: nidaagimensibaniing
+     1+aagim+Dim+Pret+Obv: nidaagimensibaniin
+     1+aagim+Dim+Pret+Pl: nidaagimensibaniig
+     2+aagim+Con+Pret+Loc: gidaagimenyibaniing
+     2+aagim+Con+Pret+Obv: gidaagimenyibaniin
+     2+aagim+Con+Pret+Pl: gidaagimenyibaniig
+     2+aagim+Dim+Pret+Loc: gidaagimensibaniing
+     2+aagim+Dim+Pret+Obv: gidaagimensibaniin
+     2+aagim+Dim+Pret+Pl: gidaagimensibaniig
+     3+aagim+Con+Pret+Loc: odaagimenyibaniing
+     3+aagim+Con+Pret+Obv: odaagimenyibaniin
+     3+aagim+Con+Pret+Pl: odaagimenyibaniig
+     3+aagim+Dim+Pret+Loc: odaagimensibaniing
+     3+aagim+Dim+Pret+Obv: odaagimensibaniin
+     3+aagim+Dim+Pret+Pl: odaagimensibaniig
+     X+aagim+Con+Pret+Loc: idaagimenyibaniing
+     X+aagim+Con+Pret+Obv: idaagimenyibaniin
+     X+aagim+Con+Pret+Pl: idaagimenyibaniig
+     X+aagim+Dim+Pret+Loc: idaagimensibaniing
+     X+aagim+Dim+Pret+Obv: idaagimensibaniin
+     X+aagim+Dim+Pret+Pl: idaagimensibaniig
+     
+     #Values from slots numbered: 1, 3, 4, 5
+     1+aagim+Pos+Pej+1Pl: nidaagimimishinaan
+     2+aagim+Pos+Pej+21: gidaagimimishinaan
+     2+aagim+Pos+Pej+2Pl: gidaagimimishiwaa
+     3+aagim+Pos+Pej+3Obv: odaagimimishini
+     3+aagim+Pos+Pej+3Pl: odaagimimishiwaa
+     
+     #Values from slots numbered: 1, 3, 4, 6
+     1+aagim+Pos+Pej+Pret: nidaagimimishiban
+     1+aagim+Pos+Pej+VocPl: [nidaagimimishidig, nidaagimimishidog]
+     2+aagim+Pos+Pej+Pret: gidaagimimishiban
+     2+aagim+Pos+Pej+VocPl: [gidaagimimishidig, gidaagimimishidog]
+     3+aagim+Pos+Pej+Pret: odaagimimishiban
+     3+aagim+Pos+Pej+VocPl: [odaagimimishidig, odaagimimishidog]
+     X+aagim+Pos+Pej+Pret: idaagimimishiban
+     X+aagim+Pos+Pej+VocPl: [idaagimimishidig, idaagimimishidog]
+     
+     #Values from slots numbered: 1, 3, 4, 7
+     1+aagim+Pos+Pej+Loc: nidaagimimishing
+     1+aagim+Pos+Pej+Obv: nidaagimimishan
+     1+aagim+Pos+Pej+Pl: nidaagimimishag
+     2+aagim+Pos+Pej+Loc: gidaagimimishing
+     2+aagim+Pos+Pej+Obv: gidaagimimishan
+     2+aagim+Pos+Pej+Pl: gidaagimimishag
+     3+aagim+Pos+Pej+Loc: odaagimimishing
+     3+aagim+Pos+Pej+Obv: odaagimimishan
+     3+aagim+Pos+Pej+Pl: odaagimimishag
+     X+aagim+Pos+Pej+Loc: idaagimimishing
+     X+aagim+Pos+Pej+Obv: idaagimimishan
+     X+aagim+Pos+Pej+Pl: idaagimimishag
+     
+     #Values from slots numbered: 1, 3, 5, 6
+     1+aagim+Pos+1Pl+Pret: nidaagimiminaaniban
+     1+aagim+Pos+1Pl+VocPl: [nidaagimiminaanidig, nidaagimiminaanidog]
+     2+aagim+Pos+21+Pret: gidaagimiminaaniban
+     2+aagim+Pos+21+VocPl: [gidaagimiminaanidig, gidaagimiminaanidog]
+     2+aagim+Pos+2Pl+Pret: gidaagimimiwaaban
+     2+aagim+Pos+2Pl+VocPl: [gidaagimimiwaadig, gidaagimimiwaadog]
+     3+aagim+Pos+3Obv+Pret: odaagimiminiiban
+     3+aagim+Pos+3Obv+VocPl: [odaagimiminiidig, odaagimiminiidog]
+     3+aagim+Pos+3Pl+Pret: odaagimimiwaaban
+     3+aagim+Pos+3Pl+VocPl: [odaagimimiwaadig, odaagimimiwaadog]
+     
+     #Values from slots numbered: 1, 3, 5, 7
+     1+aagim+Pos+1Pl+Loc: nidaagimiminaaning
+     1+aagim+Pos+1Pl+Obv: nidaagimiminaanin
+     1+aagim+Pos+1Pl+Pl: nidaagimiminaanig
+     2+aagim+Pos+21+Loc: gidaagimiminaaning
+     2+aagim+Pos+21+Obv: gidaagimiminaanin
+     2+aagim+Pos+21+Pl: gidaagimiminaanig
+     2+aagim+Pos+2Pl+Loc: gidaagimimiwaang
+     2+aagim+Pos+2Pl+Obv: gidaagimimiwaan
+     2+aagim+Pos+2Pl+Pl: gidaagimimiwaag
+     3+aagim+Pos+3Obv+Loc: odaagimiminiing
+     3+aagim+Pos+3Obv+Obv: odaagimiminiin
+     3+aagim+Pos+3Obv+Pl: odaagimiminiig
+     3+aagim+Pos+3Pl+Loc: odaagimimiwaang
+     3+aagim+Pos+3Pl+Obv: odaagimimiwaan
+     3+aagim+Pos+3Pl+Pl: odaagimimiwaag
+     
+     #Values from slots numbered: 1, 3, 6, 7
+     1+aagim+Pos+Pret+Loc: nidaagimimibaniing
+     1+aagim+Pos+Pret+Obv: nidaagimimibaniin
+     1+aagim+Pos+Pret+Pl: nidaagimimibaniig
+     2+aagim+Pos+Pret+Loc: gidaagimimibaniing
+     2+aagim+Pos+Pret+Obv: gidaagimimibaniin
+     2+aagim+Pos+Pret+Pl: gidaagimimibaniig
+     3+aagim+Pos+Pret+Loc: odaagimimibaniing
+     3+aagim+Pos+Pret+Obv: odaagimimibaniin
+     3+aagim+Pos+Pret+Pl: odaagimimibaniig
+     X+aagim+Pos+Pret+Loc: idaagimimibaniing
+     X+aagim+Pos+Pret+Obv: idaagimimibaniin
+     X+aagim+Pos+Pret+Pl: idaagimimibaniig
+     
+     #Values from slots numbered: 1, 4, 5, 6
+     1+aagim+Pej+1Pl+Pret: nidaagimishinaaniban
+     1+aagim+Pej+1Pl+VocPl: [nidaagimishinaanidig, nidaagimishinaanidog]
+     2+aagim+Pej+21+Pret: gidaagimishinaaniban
+     2+aagim+Pej+21+VocPl: [gidaagimishinaanidig, gidaagimishinaanidog]
+     2+aagim+Pej+2Pl+Pret: gidaagimishiwaaban
+     2+aagim+Pej+2Pl+VocPl: [gidaagimishiwaadig, gidaagimishiwaadog]
+     3+aagim+Pej+3Obv+Pret: odaagimishiniiban
+     3+aagim+Pej+3Obv+VocPl: [odaagimishiniidig, odaagimishiniidog]
+     3+aagim+Pej+3Pl+Pret: odaagimishiwaaban
+     3+aagim+Pej+3Pl+VocPl: [odaagimishiwaadig, odaagimishiwaadog]
+     
+     #Values from slots numbered: 1, 4, 5, 7
+     1+aagim+Pej+1Pl+Loc: nidaagimishinaaning
+     1+aagim+Pej+1Pl+Obv: nidaagimishinaanin
+     1+aagim+Pej+1Pl+Pl: nidaagimishinaanig
+     2+aagim+Pej+21+Loc: gidaagimishinaaning
+     2+aagim+Pej+21+Obv: gidaagimishinaanin
+     2+aagim+Pej+21+Pl: gidaagimishinaanig
+     2+aagim+Pej+2Pl+Loc: gidaagimishiwaang
+     2+aagim+Pej+2Pl+Obv: gidaagimishiwaan
+     2+aagim+Pej+2Pl+Pl: gidaagimishiwaag
+     3+aagim+Pej+3Obv+Loc: odaagimishiniing
+     3+aagim+Pej+3Obv+Obv: odaagimishiniin
+     3+aagim+Pej+3Obv+Pl: odaagimishiniig
+     3+aagim+Pej+3Pl+Loc: odaagimishiwaang
+     3+aagim+Pej+3Pl+Obv: odaagimishiwaan
+     3+aagim+Pej+3Pl+Pl: odaagimishiwaag
+     
+     #Values from slots numbered: 1, 4, 6, 7
+     1+aagim+Pej+Pret+Loc: nidaagimishibaniing
+     1+aagim+Pej+Pret+Obv: nidaagimishibaniin
+     1+aagim+Pej+Pret+Pl: nidaagimishibaniig
+     2+aagim+Pej+Pret+Loc: gidaagimishibaniing
+     2+aagim+Pej+Pret+Obv: gidaagimishibaniin
+     2+aagim+Pej+Pret+Pl: gidaagimishibaniig
+     3+aagim+Pej+Pret+Loc: odaagimishibaniing
+     3+aagim+Pej+Pret+Obv: odaagimishibaniin
+     3+aagim+Pej+Pret+Pl: odaagimishibaniig
+     X+aagim+Pej+Pret+Loc: idaagimishibaniing
+     X+aagim+Pej+Pret+Obv: idaagimishibaniin
+     X+aagim+Pej+Pret+Pl: idaagimishibaniig
+     
+     #Values from slots numbered: 1, 5, 6, 7
+     1+aagim+1Pl+Pret+Loc: nidaagiminaanibaniing
+     1+aagim+1Pl+Pret+Obv: nidaagiminaanibaniin
+     1+aagim+1Pl+Pret+Pl: nidaagiminaanibaniig
+     1+aagim+1Pl+VocPl+Loc: [nidaagiminaanidig, nidaagiminaanidog]
+     1+aagim+1Pl+VocPl+Obv: [nidaagiminaanidig, nidaagiminaanidog]
+     1+aagim+1Pl+VocPl+Pl: [nidaagiminaanidig, nidaagiminaanidog]
+     2+aagim+21+Pret+Loc: gidaagiminaanibaniing
+     2+aagim+21+Pret+Obv: gidaagiminaanibaniin
+     2+aagim+21+Pret+Pl: gidaagiminaanibaniig
+     2+aagim+21+VocPl+Loc: [gidaagiminaanidig, gidaagiminaanidog]
+     2+aagim+21+VocPl+Obv: [gidaagiminaanidig, gidaagiminaanidog]
+     2+aagim+21+VocPl+Pl: [gidaagiminaanidig, gidaagiminaanidog]
+     2+aagim+2Pl+Pret+Loc: gidaagimiwaabaniing
+     2+aagim+2Pl+Pret+Obv: gidaagimiwaabaniin
+     2+aagim+2Pl+Pret+Pl: gidaagimiwaabaniig
+     2+aagim+2Pl+VocPl+Loc: [gidaagimiwaadig, gidaagimiwaadog]
+     2+aagim+2Pl+VocPl+Obv: [gidaagimiwaadig, gidaagimiwaadog]
+     2+aagim+2Pl+VocPl+Pl: [gidaagimiwaadig, gidaagimiwaadog]
+     3+aagim+3Obv+Pret+Loc: odaagiminiibaniing
+     3+aagim+3Obv+Pret+Obv: odaagiminiibaniin
+     3+aagim+3Obv+Pret+Pl: odaagiminiibaniig
+     3+aagim+3Obv+VocPl+Loc: [odaagiminiidig, odaagiminiidog]
+     3+aagim+3Obv+VocPl+Obv: [odaagiminiidig, odaagiminiidog]
+     3+aagim+3Obv+VocPl+Pl: [odaagiminiidig, odaagiminiidog]
+     3+aagim+3Pl+Pret+Loc: odaagimiwaabaniing
+     3+aagim+3Pl+Pret+Obv: odaagimiwaabaniin
+     3+aagim+3Pl+Pret+Pl: odaagimiwaabaniig
+     3+aagim+3Pl+VocPl+Loc: [odaagimiwaadig, odaagimiwaadog]
+     3+aagim+3Pl+VocPl+Obv: [odaagimiwaadig, odaagimiwaadog]
+     3+aagim+3Pl+VocPl+Pl: [odaagimiwaadig, odaagimiwaadog]
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 2, 4, 6, 7
+     aagim+Con+Pej+Pret+Loc: aagimenyishibaniing
+     aagim+Con+Pej+Pret+Obv: aagimenyishibaniin
+     aagim+Con+Pej+Pret+Pl: aagimenyishibaniig
+     aagim+Dim+Pej+Pret+Loc: aagimensishibaniing
+     aagim+Dim+Pej+Pret+Obv: aagimensishibaniin
+     aagim+Dim+Pej+Pret+Pl: aagimensishibaniig
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5
+     1+aagim+Con+Pos+Pej+1Pl: nidaagimenyimishinaan
+     1+aagim+Dim+Pos+Pej+1Pl: nidaagimensimishinaan
+     2+aagim+Con+Pos+Pej+21: gidaagimenyimishinaan
+     2+aagim+Con+Pos+Pej+2Pl: gidaagimenyimishiwaa
+     2+aagim+Dim+Pos+Pej+21: gidaagimensimishinaan
+     2+aagim+Dim+Pos+Pej+2Pl: gidaagimensimishiwaa
+     3+aagim+Con+Pos+Pej+3Obv: odaagimenyimishini
+     3+aagim+Con+Pos+Pej+3Pl: odaagimenyimishiwaa
+     3+aagim+Dim+Pos+Pej+3Obv: odaagimensimishini
+     3+aagim+Dim+Pos+Pej+3Pl: odaagimensimishiwaa
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6
+     1+aagim+Con+Pos+Pej+Pret: nidaagimenyimishiban
+     1+aagim+Con+Pos+Pej+VocPl: [nidaagimenyimishidig, nidaagimenyimishidog]
+     1+aagim+Dim+Pos+Pej+Pret: nidaagimensimishiban
+     1+aagim+Dim+Pos+Pej+VocPl: [nidaagimensimishidig, nidaagimensimishidog]
+     2+aagim+Con+Pos+Pej+Pret: gidaagimenyimishiban
+     2+aagim+Con+Pos+Pej+VocPl: [gidaagimenyimishidig, gidaagimenyimishidog]
+     2+aagim+Dim+Pos+Pej+Pret: gidaagimensimishiban
+     2+aagim+Dim+Pos+Pej+VocPl: [gidaagimensimishidig, gidaagimensimishidog]
+     3+aagim+Con+Pos+Pej+Pret: odaagimenyimishiban
+     3+aagim+Con+Pos+Pej+VocPl: [odaagimenyimishidig, odaagimenyimishidog]
+     3+aagim+Dim+Pos+Pej+Pret: odaagimensimishiban
+     3+aagim+Dim+Pos+Pej+VocPl: [odaagimensimishidig, odaagimensimishidog]
+     X+aagim+Con+Pos+Pej+Pret: idaagimenyimishiban
+     X+aagim+Con+Pos+Pej+VocPl: [idaagimenyimishidig, idaagimenyimishidog]
+     X+aagim+Dim+Pos+Pej+Pret: idaagimensimishiban
+     X+aagim+Dim+Pos+Pej+VocPl: [idaagimensimishidig, idaagimensimishidog]
+     
+     #Values from slots numbered: 1, 2, 3, 4, 7
+     1+aagim+Con+Pos+Pej+Loc: nidaagimenyimishing
+     1+aagim+Con+Pos+Pej+Obv: nidaagimenyimishan
+     1+aagim+Con+Pos+Pej+Pl: nidaagimenyimishag
+     1+aagim+Dim+Pos+Pej+Loc: nidaagimensimishing
+     1+aagim+Dim+Pos+Pej+Obv: nidaagimensimishan
+     1+aagim+Dim+Pos+Pej+Pl: nidaagimensimishag
+     2+aagim+Con+Pos+Pej+Loc: gidaagimenyimishing
+     2+aagim+Con+Pos+Pej+Obv: gidaagimenyimishan
+     2+aagim+Con+Pos+Pej+Pl: gidaagimenyimishag
+     2+aagim+Dim+Pos+Pej+Loc: gidaagimensimishing
+     2+aagim+Dim+Pos+Pej+Obv: gidaagimensimishan
+     2+aagim+Dim+Pos+Pej+Pl: gidaagimensimishag
+     3+aagim+Con+Pos+Pej+Loc: odaagimenyimishing
+     3+aagim+Con+Pos+Pej+Obv: odaagimenyimishan
+     3+aagim+Con+Pos+Pej+Pl: odaagimenyimishag
+     3+aagim+Dim+Pos+Pej+Loc: odaagimensimishing
+     3+aagim+Dim+Pos+Pej+Obv: odaagimensimishan
+     3+aagim+Dim+Pos+Pej+Pl: odaagimensimishag
+     X+aagim+Con+Pos+Pej+Loc: idaagimenyimishing
+     X+aagim+Con+Pos+Pej+Obv: idaagimenyimishan
+     X+aagim+Con+Pos+Pej+Pl: idaagimenyimishag
+     X+aagim+Dim+Pos+Pej+Loc: idaagimensimishing
+     X+aagim+Dim+Pos+Pej+Obv: idaagimensimishan
+     X+aagim+Dim+Pos+Pej+Pl: idaagimensimishag
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6
+     1+aagim+Con+Pos+1Pl+Pret: nidaagimenyiminaaniban
+     1+aagim+Con+Pos+1Pl+VocPl: [nidaagimenyiminaanidig, nidaagimenyiminaanidog]
+     1+aagim+Dim+Pos+1Pl+Pret: nidaagimensiminaaniban
+     1+aagim+Dim+Pos+1Pl+VocPl: [nidaagimensiminaanidig, nidaagimensiminaanidog]
+     2+aagim+Con+Pos+21+Pret: gidaagimenyiminaaniban
+     2+aagim+Con+Pos+21+VocPl: [gidaagimenyiminaanidig, gidaagimenyiminaanidog]
+     2+aagim+Con+Pos+2Pl+Pret: gidaagimenyimiwaaban
+     2+aagim+Con+Pos+2Pl+VocPl: [gidaagimenyimiwaadig, gidaagimenyimiwaadog]
+     2+aagim+Dim+Pos+21+Pret: gidaagimensiminaaniban
+     2+aagim+Dim+Pos+21+VocPl: [gidaagimensiminaanidig, gidaagimensiminaanidog]
+     2+aagim+Dim+Pos+2Pl+Pret: gidaagimensimiwaaban
+     2+aagim+Dim+Pos+2Pl+VocPl: [gidaagimensimiwaadig, gidaagimensimiwaadog]
+     3+aagim+Con+Pos+3Obv+Pret: odaagimenyiminiiban
+     3+aagim+Con+Pos+3Obv+VocPl: [odaagimenyiminiidig, odaagimenyiminiidog]
+     3+aagim+Con+Pos+3Pl+Pret: odaagimenyimiwaaban
+     3+aagim+Con+Pos+3Pl+VocPl: [odaagimenyimiwaadig, odaagimenyimiwaadog]
+     3+aagim+Dim+Pos+3Obv+Pret: odaagimensiminiiban
+     3+aagim+Dim+Pos+3Obv+VocPl: [odaagimensiminiidig, odaagimensiminiidog]
+     3+aagim+Dim+Pos+3Pl+Pret: odaagimensimiwaaban
+     3+aagim+Dim+Pos+3Pl+VocPl: [odaagimensimiwaadig, odaagimensimiwaadog]
+     
+     #Values from slots numbered: 1, 2, 3, 5, 7
+     1+aagim+Con+Pos+1Pl+Loc: nidaagimenyiminaaning
+     1+aagim+Con+Pos+1Pl+Obv: nidaagimenyiminaanin
+     1+aagim+Con+Pos+1Pl+Pl: nidaagimenyiminaanig
+     1+aagim+Dim+Pos+1Pl+Loc: nidaagimensiminaaning
+     1+aagim+Dim+Pos+1Pl+Obv: nidaagimensiminaanin
+     1+aagim+Dim+Pos+1Pl+Pl: nidaagimensiminaanig
+     2+aagim+Con+Pos+21+Loc: gidaagimenyiminaaning
+     2+aagim+Con+Pos+21+Obv: gidaagimenyiminaanin
+     2+aagim+Con+Pos+21+Pl: gidaagimenyiminaanig
+     2+aagim+Con+Pos+2Pl+Loc: gidaagimenyimiwaang
+     2+aagim+Con+Pos+2Pl+Obv: gidaagimenyimiwaan
+     2+aagim+Con+Pos+2Pl+Pl: gidaagimenyimiwaag
+     2+aagim+Dim+Pos+21+Loc: gidaagimensiminaaning
+     2+aagim+Dim+Pos+21+Obv: gidaagimensiminaanin
+     2+aagim+Dim+Pos+21+Pl: gidaagimensiminaanig
+     2+aagim+Dim+Pos+2Pl+Loc: gidaagimensimiwaang
+     2+aagim+Dim+Pos+2Pl+Obv: gidaagimensimiwaan
+     2+aagim+Dim+Pos+2Pl+Pl: gidaagimensimiwaag
+     3+aagim+Con+Pos+3Obv+Loc: odaagimenyiminiing
+     3+aagim+Con+Pos+3Obv+Obv: odaagimenyiminiin
+     3+aagim+Con+Pos+3Obv+Pl: odaagimenyiminiig
+     3+aagim+Con+Pos+3Pl+Loc: odaagimenyimiwaang
+     3+aagim+Con+Pos+3Pl+Obv: odaagimenyimiwaan
+     3+aagim+Con+Pos+3Pl+Pl: odaagimenyimiwaag
+     3+aagim+Dim+Pos+3Obv+Loc: odaagimensiminiing
+     3+aagim+Dim+Pos+3Obv+Obv: odaagimensiminiin
+     3+aagim+Dim+Pos+3Obv+Pl: odaagimensiminiig
+     3+aagim+Dim+Pos+3Pl+Loc: odaagimensimiwaang
+     3+aagim+Dim+Pos+3Pl+Obv: odaagimensimiwaan
+     3+aagim+Dim+Pos+3Pl+Pl: odaagimensimiwaag
+     
+     #Values from slots numbered: 1, 2, 3, 6, 7
+     1+aagim+Con+Pos+Pret+Loc: nidaagimenyimibaniing
+     1+aagim+Con+Pos+Pret+Obv: nidaagimenyimibaniin
+     1+aagim+Con+Pos+Pret+Pl: nidaagimenyimibaniig
+     1+aagim+Dim+Pos+Pret+Loc: nidaagimensimibaniing
+     1+aagim+Dim+Pos+Pret+Obv: nidaagimensimibaniin
+     1+aagim+Dim+Pos+Pret+Pl: nidaagimensimibaniig
+     2+aagim+Con+Pos+Pret+Loc: gidaagimenyimibaniing
+     2+aagim+Con+Pos+Pret+Obv: gidaagimenyimibaniin
+     2+aagim+Con+Pos+Pret+Pl: gidaagimenyimibaniig
+     2+aagim+Dim+Pos+Pret+Loc: gidaagimensimibaniing
+     2+aagim+Dim+Pos+Pret+Obv: gidaagimensimibaniin
+     2+aagim+Dim+Pos+Pret+Pl: gidaagimensimibaniig
+     3+aagim+Con+Pos+Pret+Loc: odaagimenyimibaniing
+     3+aagim+Con+Pos+Pret+Obv: odaagimenyimibaniin
+     3+aagim+Con+Pos+Pret+Pl: odaagimenyimibaniig
+     3+aagim+Dim+Pos+Pret+Loc: odaagimensimibaniing
+     3+aagim+Dim+Pos+Pret+Obv: odaagimensimibaniin
+     3+aagim+Dim+Pos+Pret+Pl: odaagimensimibaniig
+     X+aagim+Con+Pos+Pret+Loc: idaagimenyimibaniing
+     X+aagim+Con+Pos+Pret+Obv: idaagimenyimibaniin
+     X+aagim+Con+Pos+Pret+Pl: idaagimenyimibaniig
+     X+aagim+Dim+Pos+Pret+Loc: idaagimensimibaniing
+     X+aagim+Dim+Pos+Pret+Obv: idaagimensimibaniin
+     X+aagim+Dim+Pos+Pret+Pl: idaagimensimibaniig
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6
+     1+aagim+Con+Pej+1Pl+Pret: nidaagimenyishinaaniban
+     1+aagim+Con+Pej+1Pl+VocPl: [nidaagimenyishinaanidig, nidaagimenyishinaanidog]
+     1+aagim+Dim+Pej+1Pl+Pret: nidaagimensishinaaniban
+     1+aagim+Dim+Pej+1Pl+VocPl: [nidaagimensishinaanidig, nidaagimensishinaanidog]
+     2+aagim+Con+Pej+21+Pret: gidaagimenyishinaaniban
+     2+aagim+Con+Pej+21+VocPl: [gidaagimenyishinaanidig, gidaagimenyishinaanidog]
+     2+aagim+Con+Pej+2Pl+Pret: gidaagimenyishiwaaban
+     2+aagim+Con+Pej+2Pl+VocPl: [gidaagimenyishiwaadig, gidaagimenyishiwaadog]
+     2+aagim+Dim+Pej+21+Pret: gidaagimensishinaaniban
+     2+aagim+Dim+Pej+21+VocPl: [gidaagimensishinaanidig, gidaagimensishinaanidog]
+     2+aagim+Dim+Pej+2Pl+Pret: gidaagimensishiwaaban
+     2+aagim+Dim+Pej+2Pl+VocPl: [gidaagimensishiwaadig, gidaagimensishiwaadog]
+     3+aagim+Con+Pej+3Obv+Pret: odaagimenyishiniiban
+     3+aagim+Con+Pej+3Obv+VocPl: [odaagimenyishiniidig, odaagimenyishiniidog]
+     3+aagim+Con+Pej+3Pl+Pret: odaagimenyishiwaaban
+     3+aagim+Con+Pej+3Pl+VocPl: [odaagimenyishiwaadig, odaagimenyishiwaadog]
+     3+aagim+Dim+Pej+3Obv+Pret: odaagimensishiniiban
+     3+aagim+Dim+Pej+3Obv+VocPl: [odaagimensishiniidig, odaagimensishiniidog]
+     3+aagim+Dim+Pej+3Pl+Pret: odaagimensishiwaaban
+     3+aagim+Dim+Pej+3Pl+VocPl: [odaagimensishiwaadig, odaagimensishiwaadog]
+     
+     #Values from slots numbered: 1, 2, 4, 5, 7
+     1+aagim+Con+Pej+1Pl+Loc: nidaagimenyishinaaning
+     1+aagim+Con+Pej+1Pl+Obv: nidaagimenyishinaanin
+     1+aagim+Con+Pej+1Pl+Pl: nidaagimenyishinaanig
+     1+aagim+Dim+Pej+1Pl+Loc: nidaagimensishinaaning
+     1+aagim+Dim+Pej+1Pl+Obv: nidaagimensishinaanin
+     1+aagim+Dim+Pej+1Pl+Pl: nidaagimensishinaanig
+     2+aagim+Con+Pej+21+Loc: gidaagimenyishinaaning
+     2+aagim+Con+Pej+21+Obv: gidaagimenyishinaanin
+     2+aagim+Con+Pej+21+Pl: gidaagimenyishinaanig
+     2+aagim+Con+Pej+2Pl+Loc: gidaagimenyishiwaang
+     2+aagim+Con+Pej+2Pl+Obv: gidaagimenyishiwaan
+     2+aagim+Con+Pej+2Pl+Pl: gidaagimenyishiwaag
+     2+aagim+Dim+Pej+21+Loc: gidaagimensishinaaning
+     2+aagim+Dim+Pej+21+Obv: gidaagimensishinaanin
+     2+aagim+Dim+Pej+21+Pl: gidaagimensishinaanig
+     2+aagim+Dim+Pej+2Pl+Loc: gidaagimensishiwaang
+     2+aagim+Dim+Pej+2Pl+Obv: gidaagimensishiwaan
+     2+aagim+Dim+Pej+2Pl+Pl: gidaagimensishiwaag
+     3+aagim+Con+Pej+3Obv+Loc: odaagimenyishiniing
+     3+aagim+Con+Pej+3Obv+Obv: odaagimenyishiniin
+     3+aagim+Con+Pej+3Obv+Pl: odaagimenyishiniig
+     3+aagim+Con+Pej+3Pl+Loc: odaagimenyishiwaang
+     3+aagim+Con+Pej+3Pl+Obv: odaagimenyishiwaan
+     3+aagim+Con+Pej+3Pl+Pl: odaagimenyishiwaag
+     3+aagim+Dim+Pej+3Obv+Loc: odaagimensishiniing
+     3+aagim+Dim+Pej+3Obv+Obv: odaagimensishiniin
+     3+aagim+Dim+Pej+3Obv+Pl: odaagimensishiniig
+     3+aagim+Dim+Pej+3Pl+Loc: odaagimensishiwaang
+     3+aagim+Dim+Pej+3Pl+Obv: odaagimensishiwaan
+     3+aagim+Dim+Pej+3Pl+Pl: odaagimensishiwaag
+     
+     #Values from slots numbered: 1, 2, 4, 6, 7
+     1+aagim+Con+Pej+Pret+Loc: nidaagimenyishibaniing
+     1+aagim+Con+Pej+Pret+Obv: nidaagimenyishibaniin
+     1+aagim+Con+Pej+Pret+Pl: nidaagimenyishibaniig
+     1+aagim+Dim+Pej+Pret+Loc: nidaagimensishibaniing
+     1+aagim+Dim+Pej+Pret+Obv: nidaagimensishibaniin
+     1+aagim+Dim+Pej+Pret+Pl: nidaagimensishibaniig
+     2+aagim+Con+Pej+Pret+Loc: gidaagimenyishibaniing
+     2+aagim+Con+Pej+Pret+Obv: gidaagimenyishibaniin
+     2+aagim+Con+Pej+Pret+Pl: gidaagimenyishibaniig
+     2+aagim+Dim+Pej+Pret+Loc: gidaagimensishibaniing
+     2+aagim+Dim+Pej+Pret+Obv: gidaagimensishibaniin
+     2+aagim+Dim+Pej+Pret+Pl: gidaagimensishibaniig
+     3+aagim+Con+Pej+Pret+Loc: odaagimenyishibaniing
+     3+aagim+Con+Pej+Pret+Obv: odaagimenyishibaniin
+     3+aagim+Con+Pej+Pret+Pl: odaagimenyishibaniig
+     3+aagim+Dim+Pej+Pret+Loc: odaagimensishibaniing
+     3+aagim+Dim+Pej+Pret+Obv: odaagimensishibaniin
+     3+aagim+Dim+Pej+Pret+Pl: odaagimensishibaniig
+     X+aagim+Con+Pej+Pret+Loc: idaagimenyishibaniing
+     X+aagim+Con+Pej+Pret+Obv: idaagimenyishibaniin
+     X+aagim+Con+Pej+Pret+Pl: idaagimenyishibaniig
+     X+aagim+Dim+Pej+Pret+Loc: idaagimensishibaniing
+     X+aagim+Dim+Pej+Pret+Obv: idaagimensishibaniin
+     X+aagim+Dim+Pej+Pret+Pl: idaagimensishibaniig
+     
+     #Values from slots numbered: 1, 2, 5, 6, 7
+     1+aagim+Con+1Pl+Pret+Loc: nidaagimenyinaanibaniing
+     1+aagim+Con+1Pl+Pret+Obv: nidaagimenyinaanibaniin
+     1+aagim+Con+1Pl+Pret+Pl: nidaagimenyinaanibaniig
+     1+aagim+Con+1Pl+VocPl+Loc: [nidaagimenyinaanidig, nidaagimenyinaanidog]
+     1+aagim+Con+1Pl+VocPl+Obv: [nidaagimenyinaanidig, nidaagimenyinaanidog]
+     1+aagim+Con+1Pl+VocPl+Pl: [nidaagimenyinaanidig, nidaagimenyinaanidog]
+     1+aagim+Dim+1Pl+Pret+Loc: nidaagimensinaanibaniing
+     1+aagim+Dim+1Pl+Pret+Obv: nidaagimensinaanibaniin
+     1+aagim+Dim+1Pl+Pret+Pl: nidaagimensinaanibaniig
+     1+aagim+Dim+1Pl+VocPl+Loc: [nidaagimensinaanidig, nidaagimensinaanidog]
+     1+aagim+Dim+1Pl+VocPl+Obv: [nidaagimensinaanidig, nidaagimensinaanidog]
+     1+aagim+Dim+1Pl+VocPl+Pl: [nidaagimensinaanidig, nidaagimensinaanidog]
+     2+aagim+Con+21+Pret+Loc: gidaagimenyinaanibaniing
+     2+aagim+Con+21+Pret+Obv: gidaagimenyinaanibaniin
+     2+aagim+Con+21+Pret+Pl: gidaagimenyinaanibaniig
+     2+aagim+Con+21+VocPl+Loc: [gidaagimenyinaanidig, gidaagimenyinaanidog]
+     2+aagim+Con+21+VocPl+Obv: [gidaagimenyinaanidig, gidaagimenyinaanidog]
+     2+aagim+Con+21+VocPl+Pl: [gidaagimenyinaanidig, gidaagimenyinaanidog]
+     2+aagim+Con+2Pl+Pret+Loc: gidaagimenyiwaabaniing
+     2+aagim+Con+2Pl+Pret+Obv: gidaagimenyiwaabaniin
+     2+aagim+Con+2Pl+Pret+Pl: gidaagimenyiwaabaniig
+     2+aagim+Con+2Pl+VocPl+Loc: [gidaagimenyiwaadig, gidaagimenyiwaadog]
+     2+aagim+Con+2Pl+VocPl+Obv: [gidaagimenyiwaadig, gidaagimenyiwaadog]
+     2+aagim+Con+2Pl+VocPl+Pl: [gidaagimenyiwaadig, gidaagimenyiwaadog]
+     2+aagim+Dim+21+Pret+Loc: gidaagimensinaanibaniing
+     2+aagim+Dim+21+Pret+Obv: gidaagimensinaanibaniin
+     2+aagim+Dim+21+Pret+Pl: gidaagimensinaanibaniig
+     2+aagim+Dim+21+VocPl+Loc: [gidaagimensinaanidig, gidaagimensinaanidog]
+     2+aagim+Dim+21+VocPl+Obv: [gidaagimensinaanidig, gidaagimensinaanidog]
+     2+aagim+Dim+21+VocPl+Pl: [gidaagimensinaanidig, gidaagimensinaanidog]
+     2+aagim+Dim+2Pl+Pret+Loc: gidaagimensiwaabaniing
+     2+aagim+Dim+2Pl+Pret+Obv: gidaagimensiwaabaniin
+     2+aagim+Dim+2Pl+Pret+Pl: gidaagimensiwaabaniig
+     2+aagim+Dim+2Pl+VocPl+Loc: [gidaagimensiwaadig, gidaagimensiwaadog]
+     2+aagim+Dim+2Pl+VocPl+Obv: [gidaagimensiwaadig, gidaagimensiwaadog]
+     2+aagim+Dim+2Pl+VocPl+Pl: [gidaagimensiwaadig, gidaagimensiwaadog]
+     3+aagim+Con+3Obv+Pret+Loc: odaagimenyiniibaniing
+     3+aagim+Con+3Obv+Pret+Obv: odaagimenyiniibaniin
+     3+aagim+Con+3Obv+Pret+Pl: odaagimenyiniibaniig
+     3+aagim+Con+3Obv+VocPl+Loc: [odaagimenyiniidig, odaagimenyiniidog]
+     3+aagim+Con+3Obv+VocPl+Obv: [odaagimenyiniidig, odaagimenyiniidog]
+     3+aagim+Con+3Obv+VocPl+Pl: [odaagimenyiniidig, odaagimenyiniidog]
+     3+aagim+Con+3Pl+Pret+Loc: odaagimenyiwaabaniing
+     3+aagim+Con+3Pl+Pret+Obv: odaagimenyiwaabaniin
+     3+aagim+Con+3Pl+Pret+Pl: odaagimenyiwaabaniig
+     3+aagim+Con+3Pl+VocPl+Loc: [odaagimenyiwaadig, odaagimenyiwaadog]
+     3+aagim+Con+3Pl+VocPl+Obv: [odaagimenyiwaadig, odaagimenyiwaadog]
+     3+aagim+Con+3Pl+VocPl+Pl: [odaagimenyiwaadig, odaagimenyiwaadog]
+     3+aagim+Dim+3Obv+Pret+Loc: odaagimensiniibaniing
+     3+aagim+Dim+3Obv+Pret+Obv: odaagimensiniibaniin
+     3+aagim+Dim+3Obv+Pret+Pl: odaagimensiniibaniig
+     3+aagim+Dim+3Obv+VocPl+Loc: [odaagimensiniidig, odaagimensiniidog]
+     3+aagim+Dim+3Obv+VocPl+Obv: [odaagimensiniidig, odaagimensiniidog]
+     3+aagim+Dim+3Obv+VocPl+Pl: [odaagimensiniidig, odaagimensiniidog]
+     3+aagim+Dim+3Pl+Pret+Loc: odaagimensiwaabaniing
+     3+aagim+Dim+3Pl+Pret+Obv: odaagimensiwaabaniin
+     3+aagim+Dim+3Pl+Pret+Pl: odaagimensiwaabaniig
+     3+aagim+Dim+3Pl+VocPl+Loc: [odaagimensiwaadig, odaagimensiwaadog]
+     3+aagim+Dim+3Pl+VocPl+Obv: [odaagimensiwaadig, odaagimensiwaadog]
+     3+aagim+Dim+3Pl+VocPl+Pl: [odaagimensiwaadig, odaagimensiwaadog]
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6
+     1+aagim+Pos+Pej+1Pl+Pret: nidaagimimishinaaniban
+     1+aagim+Pos+Pej+1Pl+VocPl: [nidaagimimishinaanidig, nidaagimimishinaanidog]
+     2+aagim+Pos+Pej+21+Pret: gidaagimimishinaaniban
+     2+aagim+Pos+Pej+21+VocPl: [gidaagimimishinaanidig, gidaagimimishinaanidog]
+     2+aagim+Pos+Pej+2Pl+Pret: gidaagimimishiwaaban
+     2+aagim+Pos+Pej+2Pl+VocPl: [gidaagimimishiwaadig, gidaagimimishiwaadog]
+     3+aagim+Pos+Pej+3Obv+Pret: odaagimimishiniiban
+     3+aagim+Pos+Pej+3Obv+VocPl: [odaagimimishiniidig, odaagimimishiniidog]
+     3+aagim+Pos+Pej+3Pl+Pret: odaagimimishiwaaban
+     3+aagim+Pos+Pej+3Pl+VocPl: [odaagimimishiwaadig, odaagimimishiwaadog]
+     
+     #Values from slots numbered: 1, 3, 4, 5, 7
+     1+aagim+Pos+Pej+1Pl+Loc: nidaagimimishinaaning
+     1+aagim+Pos+Pej+1Pl+Obv: nidaagimimishinaanin
+     1+aagim+Pos+Pej+1Pl+Pl: nidaagimimishinaanig
+     2+aagim+Pos+Pej+21+Loc: gidaagimimishinaaning
+     2+aagim+Pos+Pej+21+Obv: gidaagimimishinaanin
+     2+aagim+Pos+Pej+21+Pl: gidaagimimishinaanig
+     2+aagim+Pos+Pej+2Pl+Loc: gidaagimimishiwaang
+     2+aagim+Pos+Pej+2Pl+Obv: gidaagimimishiwaan
+     2+aagim+Pos+Pej+2Pl+Pl: gidaagimimishiwaag
+     3+aagim+Pos+Pej+3Obv+Loc: odaagimimishiniing
+     3+aagim+Pos+Pej+3Obv+Obv: odaagimimishiniin
+     3+aagim+Pos+Pej+3Obv+Pl: odaagimimishiniig
+     3+aagim+Pos+Pej+3Pl+Loc: odaagimimishiwaang
+     3+aagim+Pos+Pej+3Pl+Obv: odaagimimishiwaan
+     3+aagim+Pos+Pej+3Pl+Pl: odaagimimishiwaag
+     
+     #Values from slots numbered: 1, 3, 4, 6, 7
+     1+aagim+Pos+Pej+Pret+Loc: nidaagimimishibaniing
+     1+aagim+Pos+Pej+Pret+Obv: nidaagimimishibaniin
+     1+aagim+Pos+Pej+Pret+Pl: nidaagimimishibaniig
+     2+aagim+Pos+Pej+Pret+Loc: gidaagimimishibaniing
+     2+aagim+Pos+Pej+Pret+Obv: gidaagimimishibaniin
+     2+aagim+Pos+Pej+Pret+Pl: gidaagimimishibaniig
+     3+aagim+Pos+Pej+Pret+Loc: odaagimimishibaniing
+     3+aagim+Pos+Pej+Pret+Obv: odaagimimishibaniin
+     3+aagim+Pos+Pej+Pret+Pl: odaagimimishibaniig
+     X+aagim+Pos+Pej+Pret+Loc: idaagimimishibaniing
+     X+aagim+Pos+Pej+Pret+Obv: idaagimimishibaniin
+     X+aagim+Pos+Pej+Pret+Pl: idaagimimishibaniig
+     
+     #Values from slots numbered: 1, 3, 5, 6, 7
+     1+aagim+Pos+1Pl+Pret+Loc: nidaagimiminaanibaniing
+     1+aagim+Pos+1Pl+Pret+Obv: nidaagimiminaanibaniin
+     1+aagim+Pos+1Pl+Pret+Pl: nidaagimiminaanibaniig
+     1+aagim+Pos+1Pl+VocPl+Loc: [nidaagimiminaanidig, nidaagimiminaanidog]
+     1+aagim+Pos+1Pl+VocPl+Obv: [nidaagimiminaanidig, nidaagimiminaanidog]
+     1+aagim+Pos+1Pl+VocPl+Pl: [nidaagimiminaanidig, nidaagimiminaanidog]
+     2+aagim+Pos+21+Pret+Loc: gidaagimiminaanibaniing
+     2+aagim+Pos+21+Pret+Obv: gidaagimiminaanibaniin
+     2+aagim+Pos+21+Pret+Pl: gidaagimiminaanibaniig
+     2+aagim+Pos+21+VocPl+Loc: [gidaagimiminaanidig, gidaagimiminaanidog]
+     2+aagim+Pos+21+VocPl+Obv: [gidaagimiminaanidig, gidaagimiminaanidog]
+     2+aagim+Pos+21+VocPl+Pl: [gidaagimiminaanidig, gidaagimiminaanidog]
+     2+aagim+Pos+2Pl+Pret+Loc: gidaagimimiwaabaniing
+     2+aagim+Pos+2Pl+Pret+Obv: gidaagimimiwaabaniin
+     2+aagim+Pos+2Pl+Pret+Pl: gidaagimimiwaabaniig
+     2+aagim+Pos+2Pl+VocPl+Loc: [gidaagimimiwaadig, gidaagimimiwaadog]
+     2+aagim+Pos+2Pl+VocPl+Obv: [gidaagimimiwaadig, gidaagimimiwaadog]
+     2+aagim+Pos+2Pl+VocPl+Pl: [gidaagimimiwaadig, gidaagimimiwaadog]
+     3+aagim+Pos+3Obv+Pret+Loc: odaagimiminiibaniing
+     3+aagim+Pos+3Obv+Pret+Obv: odaagimiminiibaniin
+     3+aagim+Pos+3Obv+Pret+Pl: odaagimiminiibaniig
+     3+aagim+Pos+3Obv+VocPl+Loc: [odaagimiminiidig, odaagimiminiidog]
+     3+aagim+Pos+3Obv+VocPl+Obv: [odaagimiminiidig, odaagimiminiidog]
+     3+aagim+Pos+3Obv+VocPl+Pl: [odaagimiminiidig, odaagimiminiidog]
+     3+aagim+Pos+3Pl+Pret+Loc: odaagimimiwaabaniing
+     3+aagim+Pos+3Pl+Pret+Obv: odaagimimiwaabaniin
+     3+aagim+Pos+3Pl+Pret+Pl: odaagimimiwaabaniig
+     3+aagim+Pos+3Pl+VocPl+Loc: [odaagimimiwaadig, odaagimimiwaadog]
+     3+aagim+Pos+3Pl+VocPl+Obv: [odaagimimiwaadig, odaagimimiwaadog]
+     3+aagim+Pos+3Pl+VocPl+Pl: [odaagimimiwaadig, odaagimimiwaadog]
+     
+     #Values from slots numbered: 1, 4, 5, 6, 7
+     1+aagim+Pej+1Pl+Pret+Loc: nidaagimishinaanibaniing
+     1+aagim+Pej+1Pl+Pret+Obv: nidaagimishinaanibaniin
+     1+aagim+Pej+1Pl+Pret+Pl: nidaagimishinaanibaniig
+     1+aagim+Pej+1Pl+VocPl+Loc: [nidaagimishinaanidig, nidaagimishinaanidog]
+     1+aagim+Pej+1Pl+VocPl+Obv: [nidaagimishinaanidig, nidaagimishinaanidog]
+     1+aagim+Pej+1Pl+VocPl+Pl: [nidaagimishinaanidig, nidaagimishinaanidog]
+     2+aagim+Pej+21+Pret+Loc: gidaagimishinaanibaniing
+     2+aagim+Pej+21+Pret+Obv: gidaagimishinaanibaniin
+     2+aagim+Pej+21+Pret+Pl: gidaagimishinaanibaniig
+     2+aagim+Pej+21+VocPl+Loc: [gidaagimishinaanidig, gidaagimishinaanidog]
+     2+aagim+Pej+21+VocPl+Obv: [gidaagimishinaanidig, gidaagimishinaanidog]
+     2+aagim+Pej+21+VocPl+Pl: [gidaagimishinaanidig, gidaagimishinaanidog]
+     2+aagim+Pej+2Pl+Pret+Loc: gidaagimishiwaabaniing
+     2+aagim+Pej+2Pl+Pret+Obv: gidaagimishiwaabaniin
+     2+aagim+Pej+2Pl+Pret+Pl: gidaagimishiwaabaniig
+     2+aagim+Pej+2Pl+VocPl+Loc: [gidaagimishiwaadig, gidaagimishiwaadog]
+     2+aagim+Pej+2Pl+VocPl+Obv: [gidaagimishiwaadig, gidaagimishiwaadog]
+     2+aagim+Pej+2Pl+VocPl+Pl: [gidaagimishiwaadig, gidaagimishiwaadog]
+     3+aagim+Pej+3Obv+Pret+Loc: odaagimishiniibaniing
+     3+aagim+Pej+3Obv+Pret+Obv: odaagimishiniibaniin
+     3+aagim+Pej+3Obv+Pret+Pl: odaagimishiniibaniig
+     3+aagim+Pej+3Obv+VocPl+Loc: [odaagimishiniidig, odaagimishiniidog]
+     3+aagim+Pej+3Obv+VocPl+Obv: [odaagimishiniidig, odaagimishiniidog]
+     3+aagim+Pej+3Obv+VocPl+Pl: [odaagimishiniidig, odaagimishiniidog]
+     3+aagim+Pej+3Pl+Pret+Loc: odaagimishiwaabaniing
+     3+aagim+Pej+3Pl+Pret+Obv: odaagimishiwaabaniin
+     3+aagim+Pej+3Pl+Pret+Pl: odaagimishiwaabaniig
+     3+aagim+Pej+3Pl+VocPl+Loc: [odaagimishiwaadig, odaagimishiwaadog]
+     3+aagim+Pej+3Pl+VocPl+Obv: [odaagimishiwaadig, odaagimishiwaadog]
+     3+aagim+Pej+3Pl+VocPl+Pl: [odaagimishiwaadig, odaagimishiwaadog]
+     
+     
+     
+     
+     
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6
+     1+aagim+Con+Pos+Pej+1Pl+Pret: nidaagimenyimishinaaniban
+     1+aagim+Con+Pos+Pej+1Pl+VocPl: [nidaagimenyimishinaanidig, nidaagimenyimishinaanidog]
+     1+aagim+Dim+Pos+Pej+1Pl+Pret: nidaagimensimishinaaniban
+     1+aagim+Dim+Pos+Pej+1Pl+VocPl: [nidaagimensimishinaanidig, nidaagimensimishinaanidog]
+     2+aagim+Con+Pos+Pej+21+Pret: gidaagimenyimishinaaniban
+     2+aagim+Con+Pos+Pej+21+VocPl: [gidaagimenyimishinaanidig, gidaagimenyimishinaanidog]
+     2+aagim+Con+Pos+Pej+2Pl+Pret: gidaagimenyimishiwaaban
+     2+aagim+Con+Pos+Pej+2Pl+VocPl: [gidaagimenyimishiwaadig, gidaagimenyimishiwaadog]
+     2+aagim+Dim+Pos+Pej+21+Pret: gidaagimensimishinaaniban
+     2+aagim+Dim+Pos+Pej+21+VocPl: [gidaagimensimishinaanidig, gidaagimensimishinaanidog]
+     2+aagim+Dim+Pos+Pej+2Pl+Pret: gidaagimensimishiwaaban
+     2+aagim+Dim+Pos+Pej+2Pl+VocPl: [gidaagimensimishiwaadig, gidaagimensimishiwaadog]
+     3+aagim+Con+Pos+Pej+3Obv+Pret: odaagimenyimishiniiban
+     3+aagim+Con+Pos+Pej+3Obv+VocPl: [odaagimenyimishiniidig, odaagimenyimishiniidog]
+     3+aagim+Con+Pos+Pej+3Pl+Pret: odaagimenyimishiwaaban
+     3+aagim+Con+Pos+Pej+3Pl+VocPl: [odaagimenyimishiwaadig, odaagimenyimishiwaadog]
+     3+aagim+Dim+Pos+Pej+3Obv+Pret: odaagimensimishiniiban
+     3+aagim+Dim+Pos+Pej+3Obv+VocPl: [odaagimensimishiniidig, odaagimensimishiniidog]
+     3+aagim+Dim+Pos+Pej+3Pl+Pret: odaagimensimishiwaaban
+     3+aagim+Dim+Pos+Pej+3Pl+VocPl: [odaagimensimishiwaadig, odaagimensimishiwaadog]
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     1+aagim+Con+Pos+Pej+1Pl+Loc: nidaagimenyimishinaaning
+     1+aagim+Con+Pos+Pej+1Pl+Obv: nidaagimenyimishinaanin
+     1+aagim+Con+Pos+Pej+1Pl+Pl: nidaagimenyimishinaanig
+     1+aagim+Dim+Pos+Pej+1Pl+Loc: nidaagimensimishinaaning
+     1+aagim+Dim+Pos+Pej+1Pl+Obv: nidaagimensimishinaanin
+     1+aagim+Dim+Pos+Pej+1Pl+Pl: nidaagimensimishinaanig
+     2+aagim+Con+Pos+Pej+21+Loc: gidaagimenyimishinaaning
+     2+aagim+Con+Pos+Pej+21+Obv: gidaagimenyimishinaanin
+     2+aagim+Con+Pos+Pej+21+Pl: gidaagimenyimishinaanig
+     2+aagim+Con+Pos+Pej+2Pl+Loc: gidaagimenyimishiwaang
+     2+aagim+Con+Pos+Pej+2Pl+Obv: gidaagimenyimishiwaan
+     2+aagim+Con+Pos+Pej+2Pl+Pl: gidaagimenyimishiwaag
+     2+aagim+Dim+Pos+Pej+21+Loc: gidaagimensimishinaaning
+     2+aagim+Dim+Pos+Pej+21+Obv: gidaagimensimishinaanin
+     2+aagim+Dim+Pos+Pej+21+Pl: gidaagimensimishinaanig
+     2+aagim+Dim+Pos+Pej+2Pl+Loc: gidaagimensimishiwaang
+     2+aagim+Dim+Pos+Pej+2Pl+Obv: gidaagimensimishiwaan
+     2+aagim+Dim+Pos+Pej+2Pl+Pl: gidaagimensimishiwaag
+     3+aagim+Con+Pos+Pej+3Obv+Loc: odaagimenyimishiniing
+     3+aagim+Con+Pos+Pej+3Obv+Obv: odaagimenyimishiniin
+     3+aagim+Con+Pos+Pej+3Obv+Pl: odaagimenyimishiniig
+     3+aagim+Con+Pos+Pej+3Pl+Loc: odaagimenyimishiwaang
+     3+aagim+Con+Pos+Pej+3Pl+Obv: odaagimenyimishiwaan
+     3+aagim+Con+Pos+Pej+3Pl+Pl: odaagimenyimishiwaag
+     3+aagim+Dim+Pos+Pej+3Obv+Loc: odaagimensimishiniing
+     3+aagim+Dim+Pos+Pej+3Obv+Obv: odaagimensimishiniin
+     3+aagim+Dim+Pos+Pej+3Obv+Pl: odaagimensimishiniig
+     3+aagim+Dim+Pos+Pej+3Pl+Loc: odaagimensimishiwaang
+     3+aagim+Dim+Pos+Pej+3Pl+Obv: odaagimensimishiwaan
+     3+aagim+Dim+Pos+Pej+3Pl+Pl: odaagimensimishiwaag
+     
+     #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     1+aagim+Con+Pos+Pej+Pret+Loc: nidaagimenyimishibaniing
+     1+aagim+Con+Pos+Pej+Pret+Obv: nidaagimenyimishibaniin
+     1+aagim+Con+Pos+Pej+Pret+Pl: nidaagimenyimishibaniig
+     1+aagim+Dim+Pos+Pej+Pret+Loc: nidaagimensimishibaniing
+     1+aagim+Dim+Pos+Pej+Pret+Obv: nidaagimensimishibaniin
+     1+aagim+Dim+Pos+Pej+Pret+Pl: nidaagimensimishibaniig
+     2+aagim+Con+Pos+Pej+Pret+Loc: gidaagimenyimishibaniing
+     2+aagim+Con+Pos+Pej+Pret+Obv: gidaagimenyimishibaniin
+     2+aagim+Con+Pos+Pej+Pret+Pl: gidaagimenyimishibaniig
+     2+aagim+Dim+Pos+Pej+Pret+Loc: gidaagimensimishibaniing
+     2+aagim+Dim+Pos+Pej+Pret+Obv: gidaagimensimishibaniin
+     2+aagim+Dim+Pos+Pej+Pret+Pl: gidaagimensimishibaniig
+     3+aagim+Con+Pos+Pej+Pret+Loc: odaagimenyimishibaniing
+     3+aagim+Con+Pos+Pej+Pret+Obv: odaagimenyimishibaniin
+     3+aagim+Con+Pos+Pej+Pret+Pl: odaagimenyimishibaniig
+     3+aagim+Dim+Pos+Pej+Pret+Loc: odaagimensimishibaniing
+     3+aagim+Dim+Pos+Pej+Pret+Obv: odaagimensimishibaniin
+     3+aagim+Dim+Pos+Pej+Pret+Pl: odaagimensimishibaniig
+     X+aagim+Con+Pos+Pej+Pret+Loc: idaagimenyimishibaniing
+     X+aagim+Con+Pos+Pej+Pret+Obv: idaagimenyimishibaniin
+     X+aagim+Con+Pos+Pej+Pret+Pl: idaagimenyimishibaniig
+     X+aagim+Dim+Pos+Pej+Pret+Loc: idaagimensimishibaniing
+     X+aagim+Dim+Pos+Pej+Pret+Obv: idaagimensimishibaniin
+     X+aagim+Dim+Pos+Pej+Pret+Pl: idaagimensimishibaniig
+     
+     #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     1+aagim+Con+Pos+1Pl+Pret+Loc: nidaagimenyiminaanibaniing
+     1+aagim+Con+Pos+1Pl+Pret+Obv: nidaagimenyiminaanibaniin
+     1+aagim+Con+Pos+1Pl+Pret+Pl: nidaagimenyiminaanibaniig
+     1+aagim+Con+Pos+1Pl+VocPl+Loc: [nidaagimenyiminaanidig, nidaagimenyiminaanidog]
+     1+aagim+Con+Pos+1Pl+VocPl+Obv: [nidaagimenyiminaanidig, nidaagimenyiminaanidog]
+     1+aagim+Con+Pos+1Pl+VocPl+Pl: [nidaagimenyiminaanidig, nidaagimenyiminaanidog]
+     1+aagim+Dim+Pos+1Pl+Pret+Loc: nidaagimensiminaanibaniing
+     1+aagim+Dim+Pos+1Pl+Pret+Obv: nidaagimensiminaanibaniin
+     1+aagim+Dim+Pos+1Pl+Pret+Pl: nidaagimensiminaanibaniig
+     1+aagim+Dim+Pos+1Pl+VocPl+Loc: [nidaagimensiminaanidig, nidaagimensiminaanidog]
+     1+aagim+Dim+Pos+1Pl+VocPl+Obv: [nidaagimensiminaanidig, nidaagimensiminaanidog]
+     1+aagim+Dim+Pos+1Pl+VocPl+Pl: [nidaagimensiminaanidig, nidaagimensiminaanidog]
+     2+aagim+Con+Pos+21+Pret+Loc: gidaagimenyiminaanibaniing
+     2+aagim+Con+Pos+21+Pret+Obv: gidaagimenyiminaanibaniin
+     2+aagim+Con+Pos+21+Pret+Pl: gidaagimenyiminaanibaniig
+     2+aagim+Con+Pos+21+VocPl+Loc: [gidaagimenyiminaanidig, gidaagimenyiminaanidog]
+     2+aagim+Con+Pos+21+VocPl+Obv: [gidaagimenyiminaanidig, gidaagimenyiminaanidog]
+     2+aagim+Con+Pos+21+VocPl+Pl: [gidaagimenyiminaanidig, gidaagimenyiminaanidog]
+     2+aagim+Con+Pos+2Pl+Pret+Loc: gidaagimenyimiwaabaniing
+     2+aagim+Con+Pos+2Pl+Pret+Obv: gidaagimenyimiwaabaniin
+     2+aagim+Con+Pos+2Pl+Pret+Pl: gidaagimenyimiwaabaniig
+     2+aagim+Con+Pos+2Pl+VocPl+Loc: [gidaagimenyimiwaadig, gidaagimenyimiwaadog]
+     2+aagim+Con+Pos+2Pl+VocPl+Obv: [gidaagimenyimiwaadig, gidaagimenyimiwaadog]
+     2+aagim+Con+Pos+2Pl+VocPl+Pl: [gidaagimenyimiwaadig, gidaagimenyimiwaadog]
+     2+aagim+Dim+Pos+21+Pret+Loc: gidaagimensiminaanibaniing
+     2+aagim+Dim+Pos+21+Pret+Obv: gidaagimensiminaanibaniin
+     2+aagim+Dim+Pos+21+Pret+Pl: gidaagimensiminaanibaniig
+     2+aagim+Dim+Pos+21+VocPl+Loc: [gidaagimensiminaanidig, gidaagimensiminaanidog]
+     2+aagim+Dim+Pos+21+VocPl+Obv: [gidaagimensiminaanidig, gidaagimensiminaanidog]
+     2+aagim+Dim+Pos+21+VocPl+Pl: [gidaagimensiminaanidig, gidaagimensiminaanidog]
+     2+aagim+Dim+Pos+2Pl+Pret+Loc: gidaagimensimiwaabaniing
+     2+aagim+Dim+Pos+2Pl+Pret+Obv: gidaagimensimiwaabaniin
+     2+aagim+Dim+Pos+2Pl+Pret+Pl: gidaagimensimiwaabaniig
+     2+aagim+Dim+Pos+2Pl+VocPl+Loc: [gidaagimensimiwaadig, gidaagimensimiwaadog]
+     2+aagim+Dim+Pos+2Pl+VocPl+Obv: [gidaagimensimiwaadig, gidaagimensimiwaadog]
+     2+aagim+Dim+Pos+2Pl+VocPl+Pl: [gidaagimensimiwaadig, gidaagimensimiwaadog]
+     3+aagim+Con+Pos+3Obv+Pret+Loc: odaagimenyiminiibaniing
+     3+aagim+Con+Pos+3Obv+Pret+Obv: odaagimenyiminiibaniin
+     3+aagim+Con+Pos+3Obv+Pret+Pl: odaagimenyiminiibaniig
+     3+aagim+Con+Pos+3Obv+VocPl+Loc: [odaagimenyiminiidig, odaagimenyiminiidog]
+     3+aagim+Con+Pos+3Obv+VocPl+Obv: [odaagimenyiminiidig, odaagimenyiminiidog]
+     3+aagim+Con+Pos+3Obv+VocPl+Pl: [odaagimenyiminiidig, odaagimenyiminiidog]
+     3+aagim+Con+Pos+3Pl+Pret+Loc: odaagimenyimiwaabaniing
+     3+aagim+Con+Pos+3Pl+Pret+Obv: odaagimenyimiwaabaniin
+     3+aagim+Con+Pos+3Pl+Pret+Pl: odaagimenyimiwaabaniig
+     3+aagim+Con+Pos+3Pl+VocPl+Loc: [odaagimenyimiwaadig, odaagimenyimiwaadog]
+     3+aagim+Con+Pos+3Pl+VocPl+Obv: [odaagimenyimiwaadig, odaagimenyimiwaadog]
+     3+aagim+Con+Pos+3Pl+VocPl+Pl: [odaagimenyimiwaadig, odaagimenyimiwaadog]
+     3+aagim+Dim+Pos+3Obv+Pret+Loc: odaagimensiminiibaniing
+     3+aagim+Dim+Pos+3Obv+Pret+Obv: odaagimensiminiibaniin
+     3+aagim+Dim+Pos+3Obv+Pret+Pl: odaagimensiminiibaniig
+     3+aagim+Dim+Pos+3Obv+VocPl+Loc: [odaagimensiminiidig, odaagimensiminiidog]
+     3+aagim+Dim+Pos+3Obv+VocPl+Obv: [odaagimensiminiidig, odaagimensiminiidog]
+     3+aagim+Dim+Pos+3Obv+VocPl+Pl: [odaagimensiminiidig, odaagimensiminiidog]
+     3+aagim+Dim+Pos+3Pl+Pret+Loc: odaagimensimiwaabaniing
+     3+aagim+Dim+Pos+3Pl+Pret+Obv: odaagimensimiwaabaniin
+     3+aagim+Dim+Pos+3Pl+Pret+Pl: odaagimensimiwaabaniig
+     3+aagim+Dim+Pos+3Pl+VocPl+Loc: [odaagimensimiwaadig, odaagimensimiwaadog]
+     3+aagim+Dim+Pos+3Pl+VocPl+Obv: [odaagimensimiwaadig, odaagimensimiwaadog]
+     3+aagim+Dim+Pos+3Pl+VocPl+Pl: [odaagimensimiwaadig, odaagimensimiwaadog]
+     
+     #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     1+aagim+Con+Pej+1Pl+Pret+Loc: nidaagimenyishinaanibaniing
+     1+aagim+Con+Pej+1Pl+Pret+Obv: nidaagimenyishinaanibaniin
+     1+aagim+Con+Pej+1Pl+Pret+Pl: nidaagimenyishinaanibaniig
+     1+aagim+Con+Pej+1Pl+VocPl+Loc: [nidaagimenyishinaanidig, nidaagimenyishinaanidog]
+     1+aagim+Con+Pej+1Pl+VocPl+Obv: [nidaagimenyishinaanidig, nidaagimenyishinaanidog]
+     1+aagim+Con+Pej+1Pl+VocPl+Pl: [nidaagimenyishinaanidig, nidaagimenyishinaanidog]
+     1+aagim+Dim+Pej+1Pl+Pret+Loc: nidaagimensishinaanibaniing
+     1+aagim+Dim+Pej+1Pl+Pret+Obv: nidaagimensishinaanibaniin
+     1+aagim+Dim+Pej+1Pl+Pret+Pl: nidaagimensishinaanibaniig
+     1+aagim+Dim+Pej+1Pl+VocPl+Loc: [nidaagimensishinaanidig, nidaagimensishinaanidog]
+     1+aagim+Dim+Pej+1Pl+VocPl+Obv: [nidaagimensishinaanidig, nidaagimensishinaanidog]
+     1+aagim+Dim+Pej+1Pl+VocPl+Pl: [nidaagimensishinaanidig, nidaagimensishinaanidog]
+     2+aagim+Con+Pej+21+Pret+Loc: gidaagimenyishinaanibaniing
+     2+aagim+Con+Pej+21+Pret+Obv: gidaagimenyishinaanibaniin
+     2+aagim+Con+Pej+21+Pret+Pl: gidaagimenyishinaanibaniig
+     2+aagim+Con+Pej+21+VocPl+Loc: [gidaagimenyishinaanidig, gidaagimenyishinaanidog]
+     2+aagim+Con+Pej+21+VocPl+Obv: [gidaagimenyishinaanidig, gidaagimenyishinaanidog]
+     2+aagim+Con+Pej+21+VocPl+Pl: [gidaagimenyishinaanidig, gidaagimenyishinaanidog]
+     2+aagim+Con+Pej+2Pl+Pret+Loc: gidaagimenyishiwaabaniing
+     2+aagim+Con+Pej+2Pl+Pret+Obv: gidaagimenyishiwaabaniin
+     2+aagim+Con+Pej+2Pl+Pret+Pl: gidaagimenyishiwaabaniig
+     2+aagim+Con+Pej+2Pl+VocPl+Loc: [gidaagimenyishiwaadig, gidaagimenyishiwaadog]
+     2+aagim+Con+Pej+2Pl+VocPl+Obv: [gidaagimenyishiwaadig, gidaagimenyishiwaadog]
+     2+aagim+Con+Pej+2Pl+VocPl+Pl: [gidaagimenyishiwaadig, gidaagimenyishiwaadog]
+     2+aagim+Dim+Pej+21+Pret+Loc: gidaagimensishinaanibaniing
+     2+aagim+Dim+Pej+21+Pret+Obv: gidaagimensishinaanibaniin
+     2+aagim+Dim+Pej+21+Pret+Pl: gidaagimensishinaanibaniig
+     2+aagim+Dim+Pej+21+VocPl+Loc: [gidaagimensishinaanidig, gidaagimensishinaanidog]
+     2+aagim+Dim+Pej+21+VocPl+Obv: [gidaagimensishinaanidig, gidaagimensishinaanidog]
+     2+aagim+Dim+Pej+21+VocPl+Pl: [gidaagimensishinaanidig, gidaagimensishinaanidog]
+     2+aagim+Dim+Pej+2Pl+Pret+Loc: gidaagimensishiwaabaniing
+     2+aagim+Dim+Pej+2Pl+Pret+Obv: gidaagimensishiwaabaniin
+     2+aagim+Dim+Pej+2Pl+Pret+Pl: gidaagimensishiwaabaniig
+     2+aagim+Dim+Pej+2Pl+VocPl+Loc: [gidaagimensishiwaadig, gidaagimensishiwaadog]
+     2+aagim+Dim+Pej+2Pl+VocPl+Obv: [gidaagimensishiwaadig, gidaagimensishiwaadog]
+     2+aagim+Dim+Pej+2Pl+VocPl+Pl: [gidaagimensishiwaadig, gidaagimensishiwaadog]
+     3+aagim+Con+Pej+3Obv+Pret+Loc: odaagimenyishiniibaniing
+     3+aagim+Con+Pej+3Obv+Pret+Obv: odaagimenyishiniibaniin
+     3+aagim+Con+Pej+3Obv+Pret+Pl: odaagimenyishiniibaniig
+     3+aagim+Con+Pej+3Obv+VocPl+Loc: [odaagimenyishiniidig, odaagimenyishiniidog]
+     3+aagim+Con+Pej+3Obv+VocPl+Obv: [odaagimenyishiniidig, odaagimenyishiniidog]
+     3+aagim+Con+Pej+3Obv+VocPl+Pl: [odaagimenyishiniidig, odaagimenyishiniidog]
+     3+aagim+Con+Pej+3Pl+Pret+Loc: odaagimenyishiwaabaniing
+     3+aagim+Con+Pej+3Pl+Pret+Obv: odaagimenyishiwaabaniin
+     3+aagim+Con+Pej+3Pl+Pret+Pl: odaagimenyishiwaabaniig
+     3+aagim+Con+Pej+3Pl+VocPl+Loc: [odaagimenyishiwaadig, odaagimenyishiwaadog]
+     3+aagim+Con+Pej+3Pl+VocPl+Obv: [odaagimenyishiwaadig, odaagimenyishiwaadog]
+     3+aagim+Con+Pej+3Pl+VocPl+Pl: [odaagimenyishiwaadig, odaagimenyishiwaadog]
+     3+aagim+Dim+Pej+3Obv+Pret+Loc: odaagimensishiniibaniing
+     3+aagim+Dim+Pej+3Obv+Pret+Obv: odaagimensishiniibaniin
+     3+aagim+Dim+Pej+3Obv+Pret+Pl: odaagimensishiniibaniig
+     3+aagim+Dim+Pej+3Obv+VocPl+Loc: [odaagimensishiniidig, odaagimensishiniidog]
+     3+aagim+Dim+Pej+3Obv+VocPl+Obv: [odaagimensishiniidig, odaagimensishiniidog]
+     3+aagim+Dim+Pej+3Obv+VocPl+Pl: [odaagimensishiniidig, odaagimensishiniidog]
+     3+aagim+Dim+Pej+3Pl+Pret+Loc: odaagimensishiwaabaniing
+     3+aagim+Dim+Pej+3Pl+Pret+Obv: odaagimensishiwaabaniin
+     3+aagim+Dim+Pej+3Pl+Pret+Pl: odaagimensishiwaabaniig
+     3+aagim+Dim+Pej+3Pl+VocPl+Loc: [odaagimensishiwaadig, odaagimensishiwaadog]
+     3+aagim+Dim+Pej+3Pl+VocPl+Obv: [odaagimensishiwaadig, odaagimensishiwaadog]
+     3+aagim+Dim+Pej+3Pl+VocPl+Pl: [odaagimensishiwaadig, odaagimensishiwaadog]
+     
+     #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     1+aagim+Pos+Pej+1Pl+Pret+Loc: nidaagimimishinaanibaniing
+     1+aagim+Pos+Pej+1Pl+Pret+Obv: nidaagimimishinaanibaniin
+     1+aagim+Pos+Pej+1Pl+Pret+Pl: nidaagimimishinaanibaniig
+     1+aagim+Pos+Pej+1Pl+VocPl+Loc: [nidaagimimishinaanidig, nidaagimimishinaanidog]
+     1+aagim+Pos+Pej+1Pl+VocPl+Obv: [nidaagimimishinaanidig, nidaagimimishinaanidog]
+     1+aagim+Pos+Pej+1Pl+VocPl+Pl: [nidaagimimishinaanidig, nidaagimimishinaanidog]
+     2+aagim+Pos+Pej+21+Pret+Loc: gidaagimimishinaanibaniing
+     2+aagim+Pos+Pej+21+Pret+Obv: gidaagimimishinaanibaniin
+     2+aagim+Pos+Pej+21+Pret+Pl: gidaagimimishinaanibaniig
+     2+aagim+Pos+Pej+21+VocPl+Loc: [gidaagimimishinaanidig, gidaagimimishinaanidog]
+     2+aagim+Pos+Pej+21+VocPl+Obv: [gidaagimimishinaanidig, gidaagimimishinaanidog]
+     2+aagim+Pos+Pej+21+VocPl+Pl: [gidaagimimishinaanidig, gidaagimimishinaanidog]
+     2+aagim+Pos+Pej+2Pl+Pret+Loc: gidaagimimishiwaabaniing
+     2+aagim+Pos+Pej+2Pl+Pret+Obv: gidaagimimishiwaabaniin
+     2+aagim+Pos+Pej+2Pl+Pret+Pl: gidaagimimishiwaabaniig
+     2+aagim+Pos+Pej+2Pl+VocPl+Loc: [gidaagimimishiwaadig, gidaagimimishiwaadog]
+     2+aagim+Pos+Pej+2Pl+VocPl+Obv: [gidaagimimishiwaadig, gidaagimimishiwaadog]
+     2+aagim+Pos+Pej+2Pl+VocPl+Pl: [gidaagimimishiwaadig, gidaagimimishiwaadog]
+     3+aagim+Pos+Pej+3Obv+Pret+Loc: odaagimimishiniibaniing
+     3+aagim+Pos+Pej+3Obv+Pret+Obv: odaagimimishiniibaniin
+     3+aagim+Pos+Pej+3Obv+Pret+Pl: odaagimimishiniibaniig
+     3+aagim+Pos+Pej+3Obv+VocPl+Loc: [odaagimimishiniidig, odaagimimishiniidog]
+     3+aagim+Pos+Pej+3Obv+VocPl+Obv: [odaagimimishiniidig, odaagimimishiniidog]
+     3+aagim+Pos+Pej+3Obv+VocPl+Pl: [odaagimimishiniidig, odaagimimishiniidog]
+     3+aagim+Pos+Pej+3Pl+Pret+Loc: odaagimimishiwaabaniing
+     3+aagim+Pos+Pej+3Pl+Pret+Obv: odaagimimishiwaabaniin
+     3+aagim+Pos+Pej+3Pl+Pret+Pl: odaagimimishiwaabaniig
+     3+aagim+Pos+Pej+3Pl+VocPl+Loc: [odaagimimishiwaadig, odaagimimishiwaadog]
+     3+aagim+Pos+Pej+3Pl+VocPl+Obv: [odaagimimishiwaadig, odaagimimishiwaadog]
+     3+aagim+Pos+Pej+3Pl+VocPl+Pl: [odaagimimishiwaadig, odaagimimishiwaadog]
+     
+     
+     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     1+aagim+Con+Pos+Pej+1Pl+Pret+Loc: nidaagimenyimishinaanibaniing
+     1+aagim+Con+Pos+Pej+1Pl+Pret+Obv: nidaagimenyimishinaanibaniin
+     1+aagim+Con+Pos+Pej+1Pl+Pret+Pl: nidaagimenyimishinaanibaniig
+     1+aagim+Con+Pos+Pej+1Pl+VocPl+Loc: [nidaagimenyimishinaanidig, nidaagimenyimishinaanidog]
+     1+aagim+Con+Pos+Pej+1Pl+VocPl+Obv: [nidaagimenyimishinaanidig, nidaagimenyimishinaanidog]
+     1+aagim+Con+Pos+Pej+1Pl+VocPl+Pl: [nidaagimenyimishinaanidig, nidaagimenyimishinaanidog]
+     1+aagim+Dim+Pos+Pej+1Pl+Pret+Loc: nidaagimensimishinaanibaniing
+     1+aagim+Dim+Pos+Pej+1Pl+Pret+Obv: nidaagimensimishinaanibaniin
+     1+aagim+Dim+Pos+Pej+1Pl+Pret+Pl: nidaagimensimishinaanibaniig
+     1+aagim+Dim+Pos+Pej+1Pl+VocPl+Loc: [nidaagimensimishinaanidig, nidaagimensimishinaanidog]
+     1+aagim+Dim+Pos+Pej+1Pl+VocPl+Obv: [nidaagimensimishinaanidig, nidaagimensimishinaanidog]
+     1+aagim+Dim+Pos+Pej+1Pl+VocPl+Pl: [nidaagimensimishinaanidig, nidaagimensimishinaanidog]
+     2+aagim+Con+Pos+Pej+21+Pret+Loc: gidaagimenyimishinaanibaniing
+     2+aagim+Con+Pos+Pej+21+Pret+Obv: gidaagimenyimishinaanibaniin
+     2+aagim+Con+Pos+Pej+21+Pret+Pl: gidaagimenyimishinaanibaniig
+     2+aagim+Con+Pos+Pej+21+VocPl+Loc: [gidaagimenyimishinaanidig, gidaagimenyimishinaanidog]
+     2+aagim+Con+Pos+Pej+21+VocPl+Obv: [gidaagimenyimishinaanidig, gidaagimenyimishinaanidog]
+     2+aagim+Con+Pos+Pej+21+VocPl+Pl: [gidaagimenyimishinaanidig, gidaagimenyimishinaanidog]
+     2+aagim+Con+Pos+Pej+2Pl+Pret+Loc: gidaagimenyimishiwaabaniing
+     2+aagim+Con+Pos+Pej+2Pl+Pret+Obv: gidaagimenyimishiwaabaniin
+     2+aagim+Con+Pos+Pej+2Pl+Pret+Pl: gidaagimenyimishiwaabaniig
+     2+aagim+Con+Pos+Pej+2Pl+VocPl+Loc: [gidaagimenyimishiwaadig, gidaagimenyimishiwaadog]
+     2+aagim+Con+Pos+Pej+2Pl+VocPl+Obv: [gidaagimenyimishiwaadig, gidaagimenyimishiwaadog]
+     2+aagim+Con+Pos+Pej+2Pl+VocPl+Pl: [gidaagimenyimishiwaadig, gidaagimenyimishiwaadog]
+     2+aagim+Dim+Pos+Pej+21+Pret+Loc: gidaagimensimishinaanibaniing
+     2+aagim+Dim+Pos+Pej+21+Pret+Obv: gidaagimensimishinaanibaniin
+     2+aagim+Dim+Pos+Pej+21+Pret+Pl: gidaagimensimishinaanibaniig
+     2+aagim+Dim+Pos+Pej+21+VocPl+Loc: [gidaagimensimishinaanidig, gidaagimensimishinaanidog]
+     2+aagim+Dim+Pos+Pej+21+VocPl+Obv: [gidaagimensimishinaanidig, gidaagimensimishinaanidog]
+     2+aagim+Dim+Pos+Pej+21+VocPl+Pl: [gidaagimensimishinaanidig, gidaagimensimishinaanidog]
+     2+aagim+Dim+Pos+Pej+2Pl+Pret+Loc: gidaagimensimishiwaabaniing
+     2+aagim+Dim+Pos+Pej+2Pl+Pret+Obv: gidaagimensimishiwaabaniin
+     2+aagim+Dim+Pos+Pej+2Pl+Pret+Pl: gidaagimensimishiwaabaniig
+     2+aagim+Dim+Pos+Pej+2Pl+VocPl+Loc: [gidaagimensimishiwaadig, gidaagimensimishiwaadog]
+     2+aagim+Dim+Pos+Pej+2Pl+VocPl+Obv: [gidaagimensimishiwaadig, gidaagimensimishiwaadog]
+     2+aagim+Dim+Pos+Pej+2Pl+VocPl+Pl: [gidaagimensimishiwaadig, gidaagimensimishiwaadog]
+     3+aagim+Con+Pos+Pej+3Obv+Pret+Loc: odaagimenyimishiniibaniing
+     3+aagim+Con+Pos+Pej+3Obv+Pret+Obv: odaagimenyimishiniibaniin
+     3+aagim+Con+Pos+Pej+3Obv+Pret+Pl: odaagimenyimishiniibaniig
+     3+aagim+Con+Pos+Pej+3Obv+VocPl+Loc: [odaagimenyimishiniidig, odaagimenyimishiniidog]
+     3+aagim+Con+Pos+Pej+3Obv+VocPl+Obv: [odaagimenyimishiniidig, odaagimenyimishiniidog]
+     3+aagim+Con+Pos+Pej+3Obv+VocPl+Pl: [odaagimenyimishiniidig, odaagimenyimishiniidog]
+     3+aagim+Con+Pos+Pej+3Pl+Pret+Loc: odaagimenyimishiwaabaniing
+     3+aagim+Con+Pos+Pej+3Pl+Pret+Obv: odaagimenyimishiwaabaniin
+     3+aagim+Con+Pos+Pej+3Pl+Pret+Pl: odaagimenyimishiwaabaniig
+     3+aagim+Con+Pos+Pej+3Pl+VocPl+Loc: [odaagimenyimishiwaadig, odaagimenyimishiwaadog]
+     3+aagim+Con+Pos+Pej+3Pl+VocPl+Obv: [odaagimenyimishiwaadig, odaagimenyimishiwaadog]
+     3+aagim+Con+Pos+Pej+3Pl+VocPl+Pl: [odaagimenyimishiwaadig, odaagimenyimishiwaadog]
+     3+aagim+Dim+Pos+Pej+3Obv+Pret+Loc: odaagimensimishiniibaniing
+     3+aagim+Dim+Pos+Pej+3Obv+Pret+Obv: odaagimensimishiniibaniin
+     3+aagim+Dim+Pos+Pej+3Obv+Pret+Pl: odaagimensimishiniibaniig
+     3+aagim+Dim+Pos+Pej+3Obv+VocPl+Loc: [odaagimensimishiniidig, odaagimensimishiniidog]
+     3+aagim+Dim+Pos+Pej+3Obv+VocPl+Obv: [odaagimensimishiniidig, odaagimensimishiniidog]
+     3+aagim+Dim+Pos+Pej+3Obv+VocPl+Pl: [odaagimensimishiniidig, odaagimensimishiniidog]
+     3+aagim+Dim+Pos+Pej+3Pl+Pret+Loc: odaagimensimishiwaabaniing
+     3+aagim+Dim+Pos+Pej+3Pl+Pret+Obv: odaagimensimishiwaabaniin
+     3+aagim+Dim+Pos+Pej+3Pl+Pret+Pl: odaagimensimishiwaabaniig
+     3+aagim+Dim+Pos+Pej+3Pl+VocPl+Loc: [odaagimensimishiwaadig, odaagimensimishiwaadog]
+     3+aagim+Dim+Pos+Pej+3Pl+VocPl+Obv: [odaagimensimishiwaadig, odaagimensimishiwaadog]
+     3+aagim+Dim+Pos+Pej+3Pl+VocPl+Pl: [odaagimensimishiwaadig, odaagimensimishiwaadog]
+     
