@@ -22,7 +22,7 @@ Tests:
      +Px1iitaawis: n
      +Px2iitaawis: g
      +Px3iitaawis: w
-     +PxIndefiitaawis: 
+     +PxIndefiitaawis: x
      
      #Values from slots numbered: 2
      iitaawis+Con: iitaawisenh
@@ -72,13 +72,13 @@ Tests:
      
      #Values from slots numbered: 1, 6
      +Px1iitaawis+Pret: niban
-     +Px1iitaawis+VocPl: [nidig, ni
+     +Px1iitaawis+VocPl: [nidig, ni]
      +Px2iitaawis+Pret: giban
-     +Px2iitaawis+VocPl: [gidig, gi
+     +Px2iitaawis+VocPl: [gidig, gi]
      +Px3iitaawis+Pret: wiban
-     +Px3iitaawis+VocPl: [widig, o
+     +Px3iitaawis+VocPl: [widig, o]
      +PxIndefiitaawis+Pret: iban
-     +PxIndefiitaawis+VocPl: [idig, i
+     +PxIndefiitaawis+VocPl: [idig, i]
      
      #Values from slots numbered: 1, 7
      +Px1iitaawis+Loc: ning
@@ -167,21 +167,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 6
      +Px1iitaawis+Con+Pret: nenyiban
-     +Px1iitaawis+Con+VocPl: [nenyidig, ni
+     +Px1iitaawis+Con+VocPl: [nenyidig, ni]
      +Px1iitaawis+Dim+Pret: nensiban
-     +Px1iitaawis+Dim+VocPl: [nensidig, ni
+     +Px1iitaawis+Dim+VocPl: [nensidig, ni]
      +Px2iitaawis+Con+Pret: genyiban
-     +Px2iitaawis+Con+VocPl: [genyidig, gi
+     +Px2iitaawis+Con+VocPl: [genyidig, gi]
      +Px2iitaawis+Dim+Pret: gensiban
-     +Px2iitaawis+Dim+VocPl: [gensidig, gi
+     +Px2iitaawis+Dim+VocPl: [gensidig, gi]
      +Px3iitaawis+Con+Pret: wenyiban
-     +Px3iitaawis+Con+VocPl: [wenyidig, o
+     +Px3iitaawis+Con+VocPl: [wenyidig, o]
      +Px3iitaawis+Dim+Pret: wensiban
-     +Px3iitaawis+Dim+VocPl: [wensidig, o
+     +Px3iitaawis+Dim+VocPl: [wensidig, o]
      +PxIndefiitaawis+Con+Pret: enyiban
-     +PxIndefiitaawis+Con+VocPl: [enyidig, i
+     +PxIndefiitaawis+Con+VocPl: [enyidig, i]
      +PxIndefiitaawis+Dim+Pret: ensiban
-     +PxIndefiitaawis+Dim+VocPl: [ensidig, i
+     +PxIndefiitaawis+Dim+VocPl: [ensidig, i]
      
      #Values from slots numbered: 1, 2, 7
      +Px1iitaawis+Con+Loc: nenying
@@ -223,13 +223,13 @@ Tests:
      
      #Values from slots numbered: 1, 3, 6
      +Px1iitaawis+Pos+Pret: nimiban
-     +Px1iitaawis+Pos+VocPl: [nimidig, ni
+     +Px1iitaawis+Pos+VocPl: [nimidig, ni]
      +Px2iitaawis+Pos+Pret: gimiban
-     +Px2iitaawis+Pos+VocPl: [gimidig, gi
+     +Px2iitaawis+Pos+VocPl: [gimidig, gi]
      +Px3iitaawis+Pos+Pret: wimiban
-     +Px3iitaawis+Pos+VocPl: [wimidig, o
+     +Px3iitaawis+Pos+VocPl: [wimidig, o]
      +PxIndefiitaawis+Pos+Pret: imiban
-     +PxIndefiitaawis+Pos+VocPl: [imidig, i
+     +PxIndefiitaawis+Pos+VocPl: [imidig, i]
      
      #Values from slots numbered: 1, 3, 7
      +Px1iitaawis+Pos+Loc: niming
@@ -253,13 +253,13 @@ Tests:
      
      #Values from slots numbered: 1, 4, 6
      +Px1iitaawis+Pej+Pret: nishiban
-     +Px1iitaawis+Pej+VocPl: [nishidig, ni
+     +Px1iitaawis+Pej+VocPl: [nishidig, ni]
      +Px2iitaawis+Pej+Pret: gishiban
-     +Px2iitaawis+Pej+VocPl: [gishidig, gi
+     +Px2iitaawis+Pej+VocPl: [gishidig, gi]
      +Px3iitaawis+Pej+Pret: wishiban
-     +Px3iitaawis+Pej+VocPl: [wishidig, o
+     +Px3iitaawis+Pej+VocPl: [wishidig, o]
      +PxIndefiitaawis+Pej+Pret: ishiban
-     +PxIndefiitaawis+Pej+VocPl: [ishidig, i
+     +PxIndefiitaawis+Pej+VocPl: [ishidig, i]
      
      #Values from slots numbered: 1, 4, 7
      +Px1iitaawis+Pej+Loc: nishing
@@ -277,13 +277,13 @@ Tests:
      
      #Values from slots numbered: 1, 5, 6
      +Px1iitaawis+Pos1Pl+Pret: ninaaniban
-     +Px1iitaawis+Pos1Pl+VocPl: [ninaanidig, ni
+     +Px1iitaawis+Pos1Pl+VocPl: [ninaanidig, ni]
      +Px2iitaawis+PosPl+Pret: giwaaiban
-     +Px2iitaawis+PosPl+VocPl: [giwaaidig, gi
+     +Px2iitaawis+PosPl+VocPl: [giwaaidig, gi]
      +Px3iitaawis+PosObv+Pret: winiiban
-     +Px3iitaawis+PosObv+VocPl: [winiidig, o
+     +Px3iitaawis+PosObv+VocPl: [winiidig, o]
      +Px3iitaawis+PosPl+Pret: wiwaaiban
-     +Px3iitaawis+PosPl+VocPl: [wiwaaidig, o
+     +Px3iitaawis+PosPl+VocPl: [wiwaaidig, o]
      
      #Values from slots numbered: 1, 5, 7
      +Px1iitaawis+Pos1Pl+Loc: ninaaning
@@ -378,21 +378,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 3, 6
      +Px1iitaawis+Con+Pos+Pret: nenyimiban
-     +Px1iitaawis+Con+Pos+VocPl: [nenyimidig, ni
+     +Px1iitaawis+Con+Pos+VocPl: [nenyimidig, ni]
      +Px1iitaawis+Dim+Pos+Pret: nensimiban
-     +Px1iitaawis+Dim+Pos+VocPl: [nensimidig, ni
+     +Px1iitaawis+Dim+Pos+VocPl: [nensimidig, ni]
      +Px2iitaawis+Con+Pos+Pret: genyimiban
-     +Px2iitaawis+Con+Pos+VocPl: [genyimidig, gi
+     +Px2iitaawis+Con+Pos+VocPl: [genyimidig, gi]
      +Px2iitaawis+Dim+Pos+Pret: gensimiban
-     +Px2iitaawis+Dim+Pos+VocPl: [gensimidig, gi
+     +Px2iitaawis+Dim+Pos+VocPl: [gensimidig, gi]
      +Px3iitaawis+Con+Pos+Pret: wenyimiban
-     +Px3iitaawis+Con+Pos+VocPl: [wenyimidig, o
+     +Px3iitaawis+Con+Pos+VocPl: [wenyimidig, o]
      +Px3iitaawis+Dim+Pos+Pret: wensimiban
-     +Px3iitaawis+Dim+Pos+VocPl: [wensimidig, o
+     +Px3iitaawis+Dim+Pos+VocPl: [wensimidig, o]
      +PxIndefiitaawis+Con+Pos+Pret: enyimiban
-     +PxIndefiitaawis+Con+Pos+VocPl: [enyimidig, i
+     +PxIndefiitaawis+Con+Pos+VocPl: [enyimidig, i]
      +PxIndefiitaawis+Dim+Pos+Pret: ensimiban
-     +PxIndefiitaawis+Dim+Pos+VocPl: [ensimidig, i
+     +PxIndefiitaawis+Dim+Pos+VocPl: [ensimidig, i]
      
      #Values from slots numbered: 1, 2, 3, 7
      +Px1iitaawis+Con+Pos+Loc: nenyiming
@@ -432,21 +432,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 4, 6
      +Px1iitaawis+Con+Pej+Pret: nenyishiban
-     +Px1iitaawis+Con+Pej+VocPl: [nenyishidig, ni
+     +Px1iitaawis+Con+Pej+VocPl: [nenyishidig, ni]
      +Px1iitaawis+Dim+Pej+Pret: nensishiban
-     +Px1iitaawis+Dim+Pej+VocPl: [nensishidig, ni
+     +Px1iitaawis+Dim+Pej+VocPl: [nensishidig, ni]
      +Px2iitaawis+Con+Pej+Pret: genyishiban
-     +Px2iitaawis+Con+Pej+VocPl: [genyishidig, gi
+     +Px2iitaawis+Con+Pej+VocPl: [genyishidig, gi]
      +Px2iitaawis+Dim+Pej+Pret: gensishiban
-     +Px2iitaawis+Dim+Pej+VocPl: [gensishidig, gi
+     +Px2iitaawis+Dim+Pej+VocPl: [gensishidig, gi]
      +Px3iitaawis+Con+Pej+Pret: wenyishiban
-     +Px3iitaawis+Con+Pej+VocPl: [wenyishidig, o
+     +Px3iitaawis+Con+Pej+VocPl: [wenyishidig, o]
      +Px3iitaawis+Dim+Pej+Pret: wensishiban
-     +Px3iitaawis+Dim+Pej+VocPl: [wensishidig, o
+     +Px3iitaawis+Dim+Pej+VocPl: [wensishidig, o]
      +PxIndefiitaawis+Con+Pej+Pret: enyishiban
-     +PxIndefiitaawis+Con+Pej+VocPl: [enyishidig, i
+     +PxIndefiitaawis+Con+Pej+VocPl: [enyishidig, i]
      +PxIndefiitaawis+Dim+Pej+Pret: ensishiban
-     +PxIndefiitaawis+Dim+Pej+VocPl: [ensishidig, i
+     +PxIndefiitaawis+Dim+Pej+VocPl: [ensishidig, i]
      
      #Values from slots numbered: 1, 2, 4, 7
      +Px1iitaawis+Con+Pej+Loc: nenyishing
@@ -476,21 +476,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 5, 6
      +Px1iitaawis+Con+Pos1Pl+Pret: nenyinaaniban
-     +Px1iitaawis+Con+Pos1Pl+VocPl: [nenyinaanidig, ni
+     +Px1iitaawis+Con+Pos1Pl+VocPl: [nenyinaanidig, ni]
      +Px1iitaawis+Dim+Pos1Pl+Pret: nensinaaniban
-     +Px1iitaawis+Dim+Pos1Pl+VocPl: [nensinaanidig, ni
+     +Px1iitaawis+Dim+Pos1Pl+VocPl: [nensinaanidig, ni]
      +Px2iitaawis+Con+PosPl+Pret: genyiwaaiban
-     +Px2iitaawis+Con+PosPl+VocPl: [genyiwaaidig, gi
+     +Px2iitaawis+Con+PosPl+VocPl: [genyiwaaidig, gi]
      +Px2iitaawis+Dim+PosPl+Pret: gensiwaaiban
-     +Px2iitaawis+Dim+PosPl+VocPl: [gensiwaaidig, gi
+     +Px2iitaawis+Dim+PosPl+VocPl: [gensiwaaidig, gi]
      +Px3iitaawis+Con+PosObv+Pret: wenyiniiban
-     +Px3iitaawis+Con+PosObv+VocPl: [wenyiniidig, o
+     +Px3iitaawis+Con+PosObv+VocPl: [wenyiniidig, o]
      +Px3iitaawis+Con+PosPl+Pret: wenyiwaaiban
-     +Px3iitaawis+Con+PosPl+VocPl: [wenyiwaaidig, o
+     +Px3iitaawis+Con+PosPl+VocPl: [wenyiwaaidig, o]
      +Px3iitaawis+Dim+PosObv+Pret: wensiniiban
-     +Px3iitaawis+Dim+PosObv+VocPl: [wensiniidig, o
+     +Px3iitaawis+Dim+PosObv+VocPl: [wensiniidig, o]
      +Px3iitaawis+Dim+PosPl+Pret: wensiwaaiban
-     +Px3iitaawis+Dim+PosPl+VocPl: [wensiwaaidig, o
+     +Px3iitaawis+Dim+PosPl+VocPl: [wensiwaaidig, o]
      
      #Values from slots numbered: 1, 2, 5, 7
      +Px1iitaawis+Con+Pos1Pl+Loc: nenyinaaning
@@ -552,13 +552,13 @@ Tests:
      
      #Values from slots numbered: 1, 3, 4, 6
      +Px1iitaawis+Pos+Pej+Pret: nimishiban
-     +Px1iitaawis+Pos+Pej+VocPl: [nimishidig, ni
+     +Px1iitaawis+Pos+Pej+VocPl: [nimishidig, ni]
      +Px2iitaawis+Pos+Pej+Pret: gimishiban
-     +Px2iitaawis+Pos+Pej+VocPl: [gimishidig, gi
+     +Px2iitaawis+Pos+Pej+VocPl: [gimishidig, gi]
      +Px3iitaawis+Pos+Pej+Pret: wimishiban
-     +Px3iitaawis+Pos+Pej+VocPl: [wimishidig, o
+     +Px3iitaawis+Pos+Pej+VocPl: [wimishidig, o]
      +PxIndefiitaawis+Pos+Pej+Pret: imishiban
-     +PxIndefiitaawis+Pos+Pej+VocPl: [imishidig, i
+     +PxIndefiitaawis+Pos+Pej+VocPl: [imishidig, i]
      
      #Values from slots numbered: 1, 3, 4, 7
      +Px1iitaawis+Pos+Pej+Loc: nimishing
@@ -576,13 +576,13 @@ Tests:
      
      #Values from slots numbered: 1, 3, 5, 6
      +Px1iitaawis+Pos+Pos1Pl+Pret: niminaaniban
-     +Px1iitaawis+Pos+Pos1Pl+VocPl: [niminaanidig, ni
+     +Px1iitaawis+Pos+Pos1Pl+VocPl: [niminaanidig, ni]
      +Px2iitaawis+Pos+PosPl+Pret: gimiwaaiban
-     +Px2iitaawis+Pos+PosPl+VocPl: [gimiwaaidig, gi
+     +Px2iitaawis+Pos+PosPl+VocPl: [gimiwaaidig, gi]
      +Px3iitaawis+Pos+PosObv+Pret: wiminiiban
-     +Px3iitaawis+Pos+PosObv+VocPl: [wiminiidig, o
+     +Px3iitaawis+Pos+PosObv+VocPl: [wiminiidig, o]
      +Px3iitaawis+Pos+PosPl+Pret: wimiwaaiban
-     +Px3iitaawis+Pos+PosPl+VocPl: [wimiwaaidig, o
+     +Px3iitaawis+Pos+PosPl+VocPl: [wimiwaaidig, o]
      
      #Values from slots numbered: 1, 3, 5, 7
      +Px1iitaawis+Pos+Pos1Pl+Loc: niminaaning
@@ -614,13 +614,13 @@ Tests:
      
      #Values from slots numbered: 1, 4, 5, 6
      +Px1iitaawis+Pej+Pos1Pl+Pret: nishinaaniban
-     +Px1iitaawis+Pej+Pos1Pl+VocPl: [nishinaanidig, ni
+     +Px1iitaawis+Pej+Pos1Pl+VocPl: [nishinaanidig, ni]
      +Px2iitaawis+Pej+PosPl+Pret: gishiwaaiban
-     +Px2iitaawis+Pej+PosPl+VocPl: [gishiwaaidig, gi
+     +Px2iitaawis+Pej+PosPl+VocPl: [gishiwaaidig, gi]
      +Px3iitaawis+Pej+PosObv+Pret: wishiniiban
-     +Px3iitaawis+Pej+PosObv+VocPl: [wishiniidig, o
+     +Px3iitaawis+Pej+PosObv+VocPl: [wishiniidig, o]
      +Px3iitaawis+Pej+PosPl+Pret: wishiwaaiban
-     +Px3iitaawis+Pej+PosPl+VocPl: [wishiwaaidig, o
+     +Px3iitaawis+Pej+PosPl+VocPl: [wishiwaaidig, o]
      
      #Values from slots numbered: 1, 4, 5, 7
      +Px1iitaawis+Pej+Pos1Pl+Loc: nishinaaning
@@ -654,27 +654,27 @@ Tests:
      +Px1iitaawis+Pos1Pl+Pret+Loc: ninaanibaning
      +Px1iitaawis+Pos1Pl+Pret+Obv: ninaanibanan
      +Px1iitaawis+Pos1Pl+Pret+Pl: ninaanibanag
-     +Px1iitaawis+Pos1Pl+VocPl+Loc: [ninaanidig, ni
-     +Px1iitaawis+Pos1Pl+VocPl+Obv: [ninaanidig, ni
-     +Px1iitaawis+Pos1Pl+VocPl+Pl: [ninaanidig, ni
+     +Px1iitaawis+Pos1Pl+VocPl+Loc: [ninaanidig, ni]
+     +Px1iitaawis+Pos1Pl+VocPl+Obv: [ninaanidig, ni]
+     +Px1iitaawis+Pos1Pl+VocPl+Pl: [ninaanidig, ni]
      +Px2iitaawis+PosPl+Pret+Loc: giwaaibaning
      +Px2iitaawis+PosPl+Pret+Obv: giwaaibanan
      +Px2iitaawis+PosPl+Pret+Pl: giwaaibanag
-     +Px2iitaawis+PosPl+VocPl+Loc: [giwaaidig, gi
-     +Px2iitaawis+PosPl+VocPl+Obv: [giwaaidig, gi
-     +Px2iitaawis+PosPl+VocPl+Pl: [giwaaidig, gi
+     +Px2iitaawis+PosPl+VocPl+Loc: [giwaaidig, gi]
+     +Px2iitaawis+PosPl+VocPl+Obv: [giwaaidig, gi]
+     +Px2iitaawis+PosPl+VocPl+Pl: [giwaaidig, gi]
      +Px3iitaawis+PosObv+Pret+Loc: winiibaning
      +Px3iitaawis+PosObv+Pret+Obv: winiibanan
      +Px3iitaawis+PosObv+Pret+Pl: winiibanag
-     +Px3iitaawis+PosObv+VocPl+Loc: [winiidig, o
-     +Px3iitaawis+PosObv+VocPl+Obv: [winiidig, o
-     +Px3iitaawis+PosObv+VocPl+Pl: [winiidig, o
+     +Px3iitaawis+PosObv+VocPl+Loc: [winiidig, o]
+     +Px3iitaawis+PosObv+VocPl+Obv: [winiidig, o]
+     +Px3iitaawis+PosObv+VocPl+Pl: [winiidig, o]
      +Px3iitaawis+PosPl+Pret+Loc: wiwaaibaning
      +Px3iitaawis+PosPl+Pret+Obv: wiwaaibanan
      +Px3iitaawis+PosPl+Pret+Pl: wiwaaibanag
-     +Px3iitaawis+PosPl+VocPl+Loc: [wiwaaidig, o
-     +Px3iitaawis+PosPl+VocPl+Obv: [wiwaaidig, o
-     +Px3iitaawis+PosPl+VocPl+Pl: [wiwaaidig, o
+     +Px3iitaawis+PosPl+VocPl+Loc: [wiwaaidig, o]
+     +Px3iitaawis+PosPl+VocPl+Obv: [wiwaaidig, o]
+     +Px3iitaawis+PosPl+VocPl+Pl: [wiwaaidig, o]
      
      
      
@@ -710,21 +710,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 3, 4, 6
      +Px1iitaawis+Con+Pos+Pej+Pret: nenyimishiban
-     +Px1iitaawis+Con+Pos+Pej+VocPl: [nenyimishidig, ni
+     +Px1iitaawis+Con+Pos+Pej+VocPl: [nenyimishidig, ni]
      +Px1iitaawis+Dim+Pos+Pej+Pret: nensimishiban
-     +Px1iitaawis+Dim+Pos+Pej+VocPl: [nensimishidig, ni
+     +Px1iitaawis+Dim+Pos+Pej+VocPl: [nensimishidig, ni]
      +Px2iitaawis+Con+Pos+Pej+Pret: genyimishiban
-     +Px2iitaawis+Con+Pos+Pej+VocPl: [genyimishidig, gi
+     +Px2iitaawis+Con+Pos+Pej+VocPl: [genyimishidig, gi]
      +Px2iitaawis+Dim+Pos+Pej+Pret: gensimishiban
-     +Px2iitaawis+Dim+Pos+Pej+VocPl: [gensimishidig, gi
+     +Px2iitaawis+Dim+Pos+Pej+VocPl: [gensimishidig, gi]
      +Px3iitaawis+Con+Pos+Pej+Pret: wenyimishiban
-     +Px3iitaawis+Con+Pos+Pej+VocPl: [wenyimishidig, o
+     +Px3iitaawis+Con+Pos+Pej+VocPl: [wenyimishidig, o]
      +Px3iitaawis+Dim+Pos+Pej+Pret: wensimishiban
-     +Px3iitaawis+Dim+Pos+Pej+VocPl: [wensimishidig, o
+     +Px3iitaawis+Dim+Pos+Pej+VocPl: [wensimishidig, o]
      +PxIndefiitaawis+Con+Pos+Pej+Pret: enyimishiban
-     +PxIndefiitaawis+Con+Pos+Pej+VocPl: [enyimishidig, i
+     +PxIndefiitaawis+Con+Pos+Pej+VocPl: [enyimishidig, i]
      +PxIndefiitaawis+Dim+Pos+Pej+Pret: ensimishiban
-     +PxIndefiitaawis+Dim+Pos+Pej+VocPl: [ensimishidig, i
+     +PxIndefiitaawis+Dim+Pos+Pej+VocPl: [ensimishidig, i]
      
      #Values from slots numbered: 1, 2, 3, 4, 7
      +Px1iitaawis+Con+Pos+Pej+Loc: nenyimishing
@@ -754,21 +754,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 3, 5, 6
      +Px1iitaawis+Con+Pos+Pos1Pl+Pret: nenyiminaaniban
-     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl: [nenyiminaanidig, ni
+     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl: [nenyiminaanidig, ni]
      +Px1iitaawis+Dim+Pos+Pos1Pl+Pret: nensiminaaniban
-     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl: [nensiminaanidig, ni
+     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl: [nensiminaanidig, ni]
      +Px2iitaawis+Con+Pos+PosPl+Pret: genyimiwaaiban
-     +Px2iitaawis+Con+Pos+PosPl+VocPl: [genyimiwaaidig, gi
+     +Px2iitaawis+Con+Pos+PosPl+VocPl: [genyimiwaaidig, gi]
      +Px2iitaawis+Dim+Pos+PosPl+Pret: gensimiwaaiban
-     +Px2iitaawis+Dim+Pos+PosPl+VocPl: [gensimiwaaidig, gi
+     +Px2iitaawis+Dim+Pos+PosPl+VocPl: [gensimiwaaidig, gi]
      +Px3iitaawis+Con+Pos+PosObv+Pret: wenyiminiiban
-     +Px3iitaawis+Con+Pos+PosObv+VocPl: [wenyiminiidig, o
+     +Px3iitaawis+Con+Pos+PosObv+VocPl: [wenyiminiidig, o]
      +Px3iitaawis+Con+Pos+PosPl+Pret: wenyimiwaaiban
-     +Px3iitaawis+Con+Pos+PosPl+VocPl: [wenyimiwaaidig, o
+     +Px3iitaawis+Con+Pos+PosPl+VocPl: [wenyimiwaaidig, o]
      +Px3iitaawis+Dim+Pos+PosObv+Pret: wensiminiiban
-     +Px3iitaawis+Dim+Pos+PosObv+VocPl: [wensiminiidig, o
+     +Px3iitaawis+Dim+Pos+PosObv+VocPl: [wensiminiidig, o]
      +Px3iitaawis+Dim+Pos+PosPl+Pret: wensimiwaaiban
-     +Px3iitaawis+Dim+Pos+PosPl+VocPl: [wensimiwaaidig, o
+     +Px3iitaawis+Dim+Pos+PosPl+VocPl: [wensimiwaaidig, o]
      
      #Values from slots numbered: 1, 2, 3, 5, 7
      +Px1iitaawis+Con+Pos+Pos1Pl+Loc: nenyiminaaning
@@ -824,21 +824,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 4, 5, 6
      +Px1iitaawis+Con+Pej+Pos1Pl+Pret: nenyishinaaniban
-     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl: [nenyishinaanidig, ni
+     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl: [nenyishinaanidig, ni]
      +Px1iitaawis+Dim+Pej+Pos1Pl+Pret: nensishinaaniban
-     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl: [nensishinaanidig, ni
+     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl: [nensishinaanidig, ni]
      +Px2iitaawis+Con+Pej+PosPl+Pret: genyishiwaaiban
-     +Px2iitaawis+Con+Pej+PosPl+VocPl: [genyishiwaaidig, gi
+     +Px2iitaawis+Con+Pej+PosPl+VocPl: [genyishiwaaidig, gi]
      +Px2iitaawis+Dim+Pej+PosPl+Pret: gensishiwaaiban
-     +Px2iitaawis+Dim+Pej+PosPl+VocPl: [gensishiwaaidig, gi
+     +Px2iitaawis+Dim+Pej+PosPl+VocPl: [gensishiwaaidig, gi]
      +Px3iitaawis+Con+Pej+PosObv+Pret: wenyishiniiban
-     +Px3iitaawis+Con+Pej+PosObv+VocPl: [wenyishiniidig, o
+     +Px3iitaawis+Con+Pej+PosObv+VocPl: [wenyishiniidig, o]
      +Px3iitaawis+Con+Pej+PosPl+Pret: wenyishiwaaiban
-     +Px3iitaawis+Con+Pej+PosPl+VocPl: [wenyishiwaaidig, o
+     +Px3iitaawis+Con+Pej+PosPl+VocPl: [wenyishiwaaidig, o]
      +Px3iitaawis+Dim+Pej+PosObv+Pret: wensishiniiban
-     +Px3iitaawis+Dim+Pej+PosObv+VocPl: [wensishiniidig, o
+     +Px3iitaawis+Dim+Pej+PosObv+VocPl: [wensishiniidig, o]
      +Px3iitaawis+Dim+Pej+PosPl+Pret: wensishiwaaiban
-     +Px3iitaawis+Dim+Pej+PosPl+VocPl: [wensishiwaaidig, o
+     +Px3iitaawis+Dim+Pej+PosPl+VocPl: [wensishiwaaidig, o]
      
      #Values from slots numbered: 1, 2, 4, 5, 7
      +Px1iitaawis+Con+Pej+Pos1Pl+Loc: nenyishinaaning
@@ -896,61 +896,61 @@ Tests:
      +Px1iitaawis+Con+Pos1Pl+Pret+Loc: nenyinaanibaning
      +Px1iitaawis+Con+Pos1Pl+Pret+Obv: nenyinaanibanan
      +Px1iitaawis+Con+Pos1Pl+Pret+Pl: nenyinaanibanag
-     +Px1iitaawis+Con+Pos1Pl+VocPl+Loc: [nenyinaanidig, ni
-     +Px1iitaawis+Con+Pos1Pl+VocPl+Obv: [nenyinaanidig, ni
-     +Px1iitaawis+Con+Pos1Pl+VocPl+Pl: [nenyinaanidig, ni
+     +Px1iitaawis+Con+Pos1Pl+VocPl+Loc: [nenyinaanidig, ni]
+     +Px1iitaawis+Con+Pos1Pl+VocPl+Obv: [nenyinaanidig, ni]
+     +Px1iitaawis+Con+Pos1Pl+VocPl+Pl: [nenyinaanidig, ni]
      +Px1iitaawis+Dim+Pos1Pl+Pret+Loc: nensinaanibaning
      +Px1iitaawis+Dim+Pos1Pl+Pret+Obv: nensinaanibanan
      +Px1iitaawis+Dim+Pos1Pl+Pret+Pl: nensinaanibanag
-     +Px1iitaawis+Dim+Pos1Pl+VocPl+Loc: [nensinaanidig, ni
-     +Px1iitaawis+Dim+Pos1Pl+VocPl+Obv: [nensinaanidig, ni
-     +Px1iitaawis+Dim+Pos1Pl+VocPl+Pl: [nensinaanidig, ni
+     +Px1iitaawis+Dim+Pos1Pl+VocPl+Loc: [nensinaanidig, ni]
+     +Px1iitaawis+Dim+Pos1Pl+VocPl+Obv: [nensinaanidig, ni]
+     +Px1iitaawis+Dim+Pos1Pl+VocPl+Pl: [nensinaanidig, ni]
      +Px2iitaawis+Con+PosPl+Pret+Loc: genyiwaaibaning
      +Px2iitaawis+Con+PosPl+Pret+Obv: genyiwaaibanan
      +Px2iitaawis+Con+PosPl+Pret+Pl: genyiwaaibanag
-     +Px2iitaawis+Con+PosPl+VocPl+Loc: [genyiwaaidig, gi
-     +Px2iitaawis+Con+PosPl+VocPl+Obv: [genyiwaaidig, gi
-     +Px2iitaawis+Con+PosPl+VocPl+Pl: [genyiwaaidig, gi
+     +Px2iitaawis+Con+PosPl+VocPl+Loc: [genyiwaaidig, gi]
+     +Px2iitaawis+Con+PosPl+VocPl+Obv: [genyiwaaidig, gi]
+     +Px2iitaawis+Con+PosPl+VocPl+Pl: [genyiwaaidig, gi]
      +Px2iitaawis+Dim+PosPl+Pret+Loc: gensiwaaibaning
      +Px2iitaawis+Dim+PosPl+Pret+Obv: gensiwaaibanan
      +Px2iitaawis+Dim+PosPl+Pret+Pl: gensiwaaibanag
-     +Px2iitaawis+Dim+PosPl+VocPl+Loc: [gensiwaaidig, gi
-     +Px2iitaawis+Dim+PosPl+VocPl+Obv: [gensiwaaidig, gi
-     +Px2iitaawis+Dim+PosPl+VocPl+Pl: [gensiwaaidig, gi
+     +Px2iitaawis+Dim+PosPl+VocPl+Loc: [gensiwaaidig, gi]
+     +Px2iitaawis+Dim+PosPl+VocPl+Obv: [gensiwaaidig, gi]
+     +Px2iitaawis+Dim+PosPl+VocPl+Pl: [gensiwaaidig, gi]
      +Px3iitaawis+Con+PosObv+Pret+Loc: wenyiniibaning
      +Px3iitaawis+Con+PosObv+Pret+Obv: wenyiniibanan
      +Px3iitaawis+Con+PosObv+Pret+Pl: wenyiniibanag
-     +Px3iitaawis+Con+PosObv+VocPl+Loc: [wenyiniidig, o
-     +Px3iitaawis+Con+PosObv+VocPl+Obv: [wenyiniidig, o
-     +Px3iitaawis+Con+PosObv+VocPl+Pl: [wenyiniidig, o
+     +Px3iitaawis+Con+PosObv+VocPl+Loc: [wenyiniidig, o]
+     +Px3iitaawis+Con+PosObv+VocPl+Obv: [wenyiniidig, o]
+     +Px3iitaawis+Con+PosObv+VocPl+Pl: [wenyiniidig, o]
      +Px3iitaawis+Con+PosPl+Pret+Loc: wenyiwaaibaning
      +Px3iitaawis+Con+PosPl+Pret+Obv: wenyiwaaibanan
      +Px3iitaawis+Con+PosPl+Pret+Pl: wenyiwaaibanag
-     +Px3iitaawis+Con+PosPl+VocPl+Loc: [wenyiwaaidig, o
-     +Px3iitaawis+Con+PosPl+VocPl+Obv: [wenyiwaaidig, o
-     +Px3iitaawis+Con+PosPl+VocPl+Pl: [wenyiwaaidig, o
+     +Px3iitaawis+Con+PosPl+VocPl+Loc: [wenyiwaaidig, o]
+     +Px3iitaawis+Con+PosPl+VocPl+Obv: [wenyiwaaidig, o]
+     +Px3iitaawis+Con+PosPl+VocPl+Pl: [wenyiwaaidig, o]
      +Px3iitaawis+Dim+PosObv+Pret+Loc: wensiniibaning
      +Px3iitaawis+Dim+PosObv+Pret+Obv: wensiniibanan
      +Px3iitaawis+Dim+PosObv+Pret+Pl: wensiniibanag
-     +Px3iitaawis+Dim+PosObv+VocPl+Loc: [wensiniidig, o
-     +Px3iitaawis+Dim+PosObv+VocPl+Obv: [wensiniidig, o
-     +Px3iitaawis+Dim+PosObv+VocPl+Pl: [wensiniidig, o
+     +Px3iitaawis+Dim+PosObv+VocPl+Loc: [wensiniidig, o]
+     +Px3iitaawis+Dim+PosObv+VocPl+Obv: [wensiniidig, o]
+     +Px3iitaawis+Dim+PosObv+VocPl+Pl: [wensiniidig, o]
      +Px3iitaawis+Dim+PosPl+Pret+Loc: wensiwaaibaning
      +Px3iitaawis+Dim+PosPl+Pret+Obv: wensiwaaibanan
      +Px3iitaawis+Dim+PosPl+Pret+Pl: wensiwaaibanag
-     +Px3iitaawis+Dim+PosPl+VocPl+Loc: [wensiwaaidig, o
-     +Px3iitaawis+Dim+PosPl+VocPl+Obv: [wensiwaaidig, o
-     +Px3iitaawis+Dim+PosPl+VocPl+Pl: [wensiwaaidig, o
+     +Px3iitaawis+Dim+PosPl+VocPl+Loc: [wensiwaaidig, o]
+     +Px3iitaawis+Dim+PosPl+VocPl+Obv: [wensiwaaidig, o]
+     +Px3iitaawis+Dim+PosPl+VocPl+Pl: [wensiwaaidig, o]
      
      #Values from slots numbered: 1, 3, 4, 5, 6
      +Px1iitaawis+Pos+Pej+Pos1Pl+Pret: nimishinaaniban
-     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl: [nimishinaanidig, ni
+     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl: [nimishinaanidig, ni]
      +Px2iitaawis+Pos+Pej+PosPl+Pret: gimishiwaaiban
-     +Px2iitaawis+Pos+Pej+PosPl+VocPl: [gimishiwaaidig, gi
+     +Px2iitaawis+Pos+Pej+PosPl+VocPl: [gimishiwaaidig, gi]
      +Px3iitaawis+Pos+Pej+PosObv+Pret: wimishiniiban
-     +Px3iitaawis+Pos+Pej+PosObv+VocPl: [wimishiniidig, o
+     +Px3iitaawis+Pos+Pej+PosObv+VocPl: [wimishiniidig, o]
      +Px3iitaawis+Pos+Pej+PosPl+Pret: wimishiwaaiban
-     +Px3iitaawis+Pos+Pej+PosPl+VocPl: [wimishiwaaidig, o
+     +Px3iitaawis+Pos+Pej+PosPl+VocPl: [wimishiwaaidig, o]
      
      #Values from slots numbered: 1, 3, 4, 5, 7
      +Px1iitaawis+Pos+Pej+Pos1Pl+Loc: nimishinaaning
@@ -984,53 +984,53 @@ Tests:
      +Px1iitaawis+Pos+Pos1Pl+Pret+Loc: niminaanibaning
      +Px1iitaawis+Pos+Pos1Pl+Pret+Obv: niminaanibanan
      +Px1iitaawis+Pos+Pos1Pl+Pret+Pl: niminaanibanag
-     +Px1iitaawis+Pos+Pos1Pl+VocPl+Loc: [niminaanidig, ni
-     +Px1iitaawis+Pos+Pos1Pl+VocPl+Obv: [niminaanidig, ni
-     +Px1iitaawis+Pos+Pos1Pl+VocPl+Pl: [niminaanidig, ni
+     +Px1iitaawis+Pos+Pos1Pl+VocPl+Loc: [niminaanidig, ni]
+     +Px1iitaawis+Pos+Pos1Pl+VocPl+Obv: [niminaanidig, ni]
+     +Px1iitaawis+Pos+Pos1Pl+VocPl+Pl: [niminaanidig, ni]
      +Px2iitaawis+Pos+PosPl+Pret+Loc: gimiwaaibaning
      +Px2iitaawis+Pos+PosPl+Pret+Obv: gimiwaaibanan
      +Px2iitaawis+Pos+PosPl+Pret+Pl: gimiwaaibanag
-     +Px2iitaawis+Pos+PosPl+VocPl+Loc: [gimiwaaidig, gi
-     +Px2iitaawis+Pos+PosPl+VocPl+Obv: [gimiwaaidig, gi
-     +Px2iitaawis+Pos+PosPl+VocPl+Pl: [gimiwaaidig, gi
+     +Px2iitaawis+Pos+PosPl+VocPl+Loc: [gimiwaaidig, gi]
+     +Px2iitaawis+Pos+PosPl+VocPl+Obv: [gimiwaaidig, gi]
+     +Px2iitaawis+Pos+PosPl+VocPl+Pl: [gimiwaaidig, gi]
      +Px3iitaawis+Pos+PosObv+Pret+Loc: wiminiibaning
      +Px3iitaawis+Pos+PosObv+Pret+Obv: wiminiibanan
      +Px3iitaawis+Pos+PosObv+Pret+Pl: wiminiibanag
-     +Px3iitaawis+Pos+PosObv+VocPl+Loc: [wiminiidig, o
-     +Px3iitaawis+Pos+PosObv+VocPl+Obv: [wiminiidig, o
-     +Px3iitaawis+Pos+PosObv+VocPl+Pl: [wiminiidig, o
+     +Px3iitaawis+Pos+PosObv+VocPl+Loc: [wiminiidig, o]
+     +Px3iitaawis+Pos+PosObv+VocPl+Obv: [wiminiidig, o]
+     +Px3iitaawis+Pos+PosObv+VocPl+Pl: [wiminiidig, o]
      +Px3iitaawis+Pos+PosPl+Pret+Loc: wimiwaaibaning
      +Px3iitaawis+Pos+PosPl+Pret+Obv: wimiwaaibanan
      +Px3iitaawis+Pos+PosPl+Pret+Pl: wimiwaaibanag
-     +Px3iitaawis+Pos+PosPl+VocPl+Loc: [wimiwaaidig, o
-     +Px3iitaawis+Pos+PosPl+VocPl+Obv: [wimiwaaidig, o
-     +Px3iitaawis+Pos+PosPl+VocPl+Pl: [wimiwaaidig, o
+     +Px3iitaawis+Pos+PosPl+VocPl+Loc: [wimiwaaidig, o]
+     +Px3iitaawis+Pos+PosPl+VocPl+Obv: [wimiwaaidig, o]
+     +Px3iitaawis+Pos+PosPl+VocPl+Pl: [wimiwaaidig, o]
      
      #Values from slots numbered: 1, 4, 5, 6, 7
      +Px1iitaawis+Pej+Pos1Pl+Pret+Loc: nishinaanibaning
      +Px1iitaawis+Pej+Pos1Pl+Pret+Obv: nishinaanibanan
      +Px1iitaawis+Pej+Pos1Pl+Pret+Pl: nishinaanibanag
-     +Px1iitaawis+Pej+Pos1Pl+VocPl+Loc: [nishinaanidig, ni
-     +Px1iitaawis+Pej+Pos1Pl+VocPl+Obv: [nishinaanidig, ni
-     +Px1iitaawis+Pej+Pos1Pl+VocPl+Pl: [nishinaanidig, ni
+     +Px1iitaawis+Pej+Pos1Pl+VocPl+Loc: [nishinaanidig, ni]
+     +Px1iitaawis+Pej+Pos1Pl+VocPl+Obv: [nishinaanidig, ni]
+     +Px1iitaawis+Pej+Pos1Pl+VocPl+Pl: [nishinaanidig, ni]
      +Px2iitaawis+Pej+PosPl+Pret+Loc: gishiwaaibaning
      +Px2iitaawis+Pej+PosPl+Pret+Obv: gishiwaaibanan
      +Px2iitaawis+Pej+PosPl+Pret+Pl: gishiwaaibanag
-     +Px2iitaawis+Pej+PosPl+VocPl+Loc: [gishiwaaidig, gi
-     +Px2iitaawis+Pej+PosPl+VocPl+Obv: [gishiwaaidig, gi
-     +Px2iitaawis+Pej+PosPl+VocPl+Pl: [gishiwaaidig, gi
+     +Px2iitaawis+Pej+PosPl+VocPl+Loc: [gishiwaaidig, gi]
+     +Px2iitaawis+Pej+PosPl+VocPl+Obv: [gishiwaaidig, gi]
+     +Px2iitaawis+Pej+PosPl+VocPl+Pl: [gishiwaaidig, gi]
      +Px3iitaawis+Pej+PosObv+Pret+Loc: wishiniibaning
      +Px3iitaawis+Pej+PosObv+Pret+Obv: wishiniibanan
      +Px3iitaawis+Pej+PosObv+Pret+Pl: wishiniibanag
-     +Px3iitaawis+Pej+PosObv+VocPl+Loc: [wishiniidig, o
-     +Px3iitaawis+Pej+PosObv+VocPl+Obv: [wishiniidig, o
-     +Px3iitaawis+Pej+PosObv+VocPl+Pl: [wishiniidig, o
+     +Px3iitaawis+Pej+PosObv+VocPl+Loc: [wishiniidig, o]
+     +Px3iitaawis+Pej+PosObv+VocPl+Obv: [wishiniidig, o]
+     +Px3iitaawis+Pej+PosObv+VocPl+Pl: [wishiniidig, o]
      +Px3iitaawis+Pej+PosPl+Pret+Loc: wishiwaaibaning
      +Px3iitaawis+Pej+PosPl+Pret+Obv: wishiwaaibanan
      +Px3iitaawis+Pej+PosPl+Pret+Pl: wishiwaaibanag
-     +Px3iitaawis+Pej+PosPl+VocPl+Loc: [wishiwaaidig, o
-     +Px3iitaawis+Pej+PosPl+VocPl+Obv: [wishiwaaidig, o
-     +Px3iitaawis+Pej+PosPl+VocPl+Pl: [wishiwaaidig, o
+     +Px3iitaawis+Pej+PosPl+VocPl+Loc: [wishiwaaidig, o]
+     +Px3iitaawis+Pej+PosPl+VocPl+Obv: [wishiwaaidig, o]
+     +Px3iitaawis+Pej+PosPl+VocPl+Pl: [wishiwaaidig, o]
      
      
      
@@ -1040,21 +1040,21 @@ Tests:
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6
      +Px1iitaawis+Con+Pos+Pej+Pos1Pl+Pret: nenyimishinaaniban
-     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl: [nenyimishinaanidig, ni
+     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl: [nenyimishinaanidig, ni]
      +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+Pret: nensimishinaaniban
-     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl: [nensimishinaanidig, ni
+     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl: [nensimishinaanidig, ni]
      +Px2iitaawis+Con+Pos+Pej+PosPl+Pret: genyimishiwaaiban
-     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl: [genyimishiwaaidig, gi
+     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl: [genyimishiwaaidig, gi]
      +Px2iitaawis+Dim+Pos+Pej+PosPl+Pret: gensimishiwaaiban
-     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl: [gensimishiwaaidig, gi
+     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl: [gensimishiwaaidig, gi]
      +Px3iitaawis+Con+Pos+Pej+PosObv+Pret: wenyimishiniiban
-     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl: [wenyimishiniidig, o
+     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl: [wenyimishiniidig, o]
      +Px3iitaawis+Con+Pos+Pej+PosPl+Pret: wenyimishiwaaiban
-     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl: [wenyimishiwaaidig, o
+     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl: [wenyimishiwaaidig, o]
      +Px3iitaawis+Dim+Pos+Pej+PosObv+Pret: wensimishiniiban
-     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl: [wensimishiniidig, o
+     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl: [wensimishiniidig, o]
      +Px3iitaawis+Dim+Pos+Pej+PosPl+Pret: wensimishiwaaiban
-     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl: [wensimishiwaaidig, o
+     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl: [wensimishiwaaidig, o]
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
      +Px1iitaawis+Con+Pos+Pej+Pos1Pl+Loc: nenyimishinaaning
@@ -1112,176 +1112,176 @@ Tests:
      +Px1iitaawis+Con+Pos+Pos1Pl+Pret+Loc: nenyiminaanibaning
      +Px1iitaawis+Con+Pos+Pos1Pl+Pret+Obv: nenyiminaanibanan
      +Px1iitaawis+Con+Pos+Pos1Pl+Pret+Pl: nenyiminaanibanag
-     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Loc: [nenyiminaanidig, ni
-     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Obv: [nenyiminaanidig, ni
-     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Pl: [nenyiminaanidig, ni
+     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Loc: [nenyiminaanidig, ni]
+     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Obv: [nenyiminaanidig, ni]
+     +Px1iitaawis+Con+Pos+Pos1Pl+VocPl+Pl: [nenyiminaanidig, ni]
      +Px1iitaawis+Dim+Pos+Pos1Pl+Pret+Loc: nensiminaanibaning
      +Px1iitaawis+Dim+Pos+Pos1Pl+Pret+Obv: nensiminaanibanan
      +Px1iitaawis+Dim+Pos+Pos1Pl+Pret+Pl: nensiminaanibanag
-     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Loc: [nensiminaanidig, ni
-     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Obv: [nensiminaanidig, ni
-     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Pl: [nensiminaanidig, ni
+     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Loc: [nensiminaanidig, ni]
+     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Obv: [nensiminaanidig, ni]
+     +Px1iitaawis+Dim+Pos+Pos1Pl+VocPl+Pl: [nensiminaanidig, ni]
      +Px2iitaawis+Con+Pos+PosPl+Pret+Loc: genyimiwaaibaning
      +Px2iitaawis+Con+Pos+PosPl+Pret+Obv: genyimiwaaibanan
      +Px2iitaawis+Con+Pos+PosPl+Pret+Pl: genyimiwaaibanag
-     +Px2iitaawis+Con+Pos+PosPl+VocPl+Loc: [genyimiwaaidig, gi
-     +Px2iitaawis+Con+Pos+PosPl+VocPl+Obv: [genyimiwaaidig, gi
-     +Px2iitaawis+Con+Pos+PosPl+VocPl+Pl: [genyimiwaaidig, gi
+     +Px2iitaawis+Con+Pos+PosPl+VocPl+Loc: [genyimiwaaidig, gi]
+     +Px2iitaawis+Con+Pos+PosPl+VocPl+Obv: [genyimiwaaidig, gi]
+     +Px2iitaawis+Con+Pos+PosPl+VocPl+Pl: [genyimiwaaidig, gi]
      +Px2iitaawis+Dim+Pos+PosPl+Pret+Loc: gensimiwaaibaning
      +Px2iitaawis+Dim+Pos+PosPl+Pret+Obv: gensimiwaaibanan
      +Px2iitaawis+Dim+Pos+PosPl+Pret+Pl: gensimiwaaibanag
-     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Loc: [gensimiwaaidig, gi
-     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Obv: [gensimiwaaidig, gi
-     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Pl: [gensimiwaaidig, gi
+     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Loc: [gensimiwaaidig, gi]
+     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Obv: [gensimiwaaidig, gi]
+     +Px2iitaawis+Dim+Pos+PosPl+VocPl+Pl: [gensimiwaaidig, gi]
      +Px3iitaawis+Con+Pos+PosObv+Pret+Loc: wenyiminiibaning
      +Px3iitaawis+Con+Pos+PosObv+Pret+Obv: wenyiminiibanan
      +Px3iitaawis+Con+Pos+PosObv+Pret+Pl: wenyiminiibanag
-     +Px3iitaawis+Con+Pos+PosObv+VocPl+Loc: [wenyiminiidig, o
-     +Px3iitaawis+Con+Pos+PosObv+VocPl+Obv: [wenyiminiidig, o
-     +Px3iitaawis+Con+Pos+PosObv+VocPl+Pl: [wenyiminiidig, o
+     +Px3iitaawis+Con+Pos+PosObv+VocPl+Loc: [wenyiminiidig, o]
+     +Px3iitaawis+Con+Pos+PosObv+VocPl+Obv: [wenyiminiidig, o]
+     +Px3iitaawis+Con+Pos+PosObv+VocPl+Pl: [wenyiminiidig, o]
      +Px3iitaawis+Con+Pos+PosPl+Pret+Loc: wenyimiwaaibaning
      +Px3iitaawis+Con+Pos+PosPl+Pret+Obv: wenyimiwaaibanan
      +Px3iitaawis+Con+Pos+PosPl+Pret+Pl: wenyimiwaaibanag
-     +Px3iitaawis+Con+Pos+PosPl+VocPl+Loc: [wenyimiwaaidig, o
-     +Px3iitaawis+Con+Pos+PosPl+VocPl+Obv: [wenyimiwaaidig, o
-     +Px3iitaawis+Con+Pos+PosPl+VocPl+Pl: [wenyimiwaaidig, o
+     +Px3iitaawis+Con+Pos+PosPl+VocPl+Loc: [wenyimiwaaidig, o]
+     +Px3iitaawis+Con+Pos+PosPl+VocPl+Obv: [wenyimiwaaidig, o]
+     +Px3iitaawis+Con+Pos+PosPl+VocPl+Pl: [wenyimiwaaidig, o]
      +Px3iitaawis+Dim+Pos+PosObv+Pret+Loc: wensiminiibaning
      +Px3iitaawis+Dim+Pos+PosObv+Pret+Obv: wensiminiibanan
      +Px3iitaawis+Dim+Pos+PosObv+Pret+Pl: wensiminiibanag
-     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Loc: [wensiminiidig, o
-     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Obv: [wensiminiidig, o
-     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Pl: [wensiminiidig, o
+     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Loc: [wensiminiidig, o]
+     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Obv: [wensiminiidig, o]
+     +Px3iitaawis+Dim+Pos+PosObv+VocPl+Pl: [wensiminiidig, o]
      +Px3iitaawis+Dim+Pos+PosPl+Pret+Loc: wensimiwaaibaning
      +Px3iitaawis+Dim+Pos+PosPl+Pret+Obv: wensimiwaaibanan
      +Px3iitaawis+Dim+Pos+PosPl+Pret+Pl: wensimiwaaibanag
-     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Loc: [wensimiwaaidig, o
-     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Obv: [wensimiwaaidig, o
-     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Pl: [wensimiwaaidig, o
+     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Loc: [wensimiwaaidig, o]
+     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Obv: [wensimiwaaidig, o]
+     +Px3iitaawis+Dim+Pos+PosPl+VocPl+Pl: [wensimiwaaidig, o]
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
      +Px1iitaawis+Con+Pej+Pos1Pl+Pret+Loc: nenyishinaanibaning
      +Px1iitaawis+Con+Pej+Pos1Pl+Pret+Obv: nenyishinaanibanan
      +Px1iitaawis+Con+Pej+Pos1Pl+Pret+Pl: nenyishinaanibanag
-     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Loc: [nenyishinaanidig, ni
-     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Obv: [nenyishinaanidig, ni
-     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Pl: [nenyishinaanidig, ni
+     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Loc: [nenyishinaanidig, ni]
+     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Obv: [nenyishinaanidig, ni]
+     +Px1iitaawis+Con+Pej+Pos1Pl+VocPl+Pl: [nenyishinaanidig, ni]
      +Px1iitaawis+Dim+Pej+Pos1Pl+Pret+Loc: nensishinaanibaning
      +Px1iitaawis+Dim+Pej+Pos1Pl+Pret+Obv: nensishinaanibanan
      +Px1iitaawis+Dim+Pej+Pos1Pl+Pret+Pl: nensishinaanibanag
-     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Loc: [nensishinaanidig, ni
-     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Obv: [nensishinaanidig, ni
-     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Pl: [nensishinaanidig, ni
+     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Loc: [nensishinaanidig, ni]
+     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Obv: [nensishinaanidig, ni]
+     +Px1iitaawis+Dim+Pej+Pos1Pl+VocPl+Pl: [nensishinaanidig, ni]
      +Px2iitaawis+Con+Pej+PosPl+Pret+Loc: genyishiwaaibaning
      +Px2iitaawis+Con+Pej+PosPl+Pret+Obv: genyishiwaaibanan
      +Px2iitaawis+Con+Pej+PosPl+Pret+Pl: genyishiwaaibanag
-     +Px2iitaawis+Con+Pej+PosPl+VocPl+Loc: [genyishiwaaidig, gi
-     +Px2iitaawis+Con+Pej+PosPl+VocPl+Obv: [genyishiwaaidig, gi
-     +Px2iitaawis+Con+Pej+PosPl+VocPl+Pl: [genyishiwaaidig, gi
+     +Px2iitaawis+Con+Pej+PosPl+VocPl+Loc: [genyishiwaaidig, gi]
+     +Px2iitaawis+Con+Pej+PosPl+VocPl+Obv: [genyishiwaaidig, gi]
+     +Px2iitaawis+Con+Pej+PosPl+VocPl+Pl: [genyishiwaaidig, gi]
      +Px2iitaawis+Dim+Pej+PosPl+Pret+Loc: gensishiwaaibaning
      +Px2iitaawis+Dim+Pej+PosPl+Pret+Obv: gensishiwaaibanan
      +Px2iitaawis+Dim+Pej+PosPl+Pret+Pl: gensishiwaaibanag
-     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Loc: [gensishiwaaidig, gi
-     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Obv: [gensishiwaaidig, gi
-     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Pl: [gensishiwaaidig, gi
+     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Loc: [gensishiwaaidig, gi]
+     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Obv: [gensishiwaaidig, gi]
+     +Px2iitaawis+Dim+Pej+PosPl+VocPl+Pl: [gensishiwaaidig, gi]
      +Px3iitaawis+Con+Pej+PosObv+Pret+Loc: wenyishiniibaning
      +Px3iitaawis+Con+Pej+PosObv+Pret+Obv: wenyishiniibanan
      +Px3iitaawis+Con+Pej+PosObv+Pret+Pl: wenyishiniibanag
-     +Px3iitaawis+Con+Pej+PosObv+VocPl+Loc: [wenyishiniidig, o
-     +Px3iitaawis+Con+Pej+PosObv+VocPl+Obv: [wenyishiniidig, o
-     +Px3iitaawis+Con+Pej+PosObv+VocPl+Pl: [wenyishiniidig, o
+     +Px3iitaawis+Con+Pej+PosObv+VocPl+Loc: [wenyishiniidig, o]
+     +Px3iitaawis+Con+Pej+PosObv+VocPl+Obv: [wenyishiniidig, o]
+     +Px3iitaawis+Con+Pej+PosObv+VocPl+Pl: [wenyishiniidig, o]
      +Px3iitaawis+Con+Pej+PosPl+Pret+Loc: wenyishiwaaibaning
      +Px3iitaawis+Con+Pej+PosPl+Pret+Obv: wenyishiwaaibanan
      +Px3iitaawis+Con+Pej+PosPl+Pret+Pl: wenyishiwaaibanag
-     +Px3iitaawis+Con+Pej+PosPl+VocPl+Loc: [wenyishiwaaidig, o
-     +Px3iitaawis+Con+Pej+PosPl+VocPl+Obv: [wenyishiwaaidig, o
-     +Px3iitaawis+Con+Pej+PosPl+VocPl+Pl: [wenyishiwaaidig, o
+     +Px3iitaawis+Con+Pej+PosPl+VocPl+Loc: [wenyishiwaaidig, o]
+     +Px3iitaawis+Con+Pej+PosPl+VocPl+Obv: [wenyishiwaaidig, o]
+     +Px3iitaawis+Con+Pej+PosPl+VocPl+Pl: [wenyishiwaaidig, o]
      +Px3iitaawis+Dim+Pej+PosObv+Pret+Loc: wensishiniibaning
      +Px3iitaawis+Dim+Pej+PosObv+Pret+Obv: wensishiniibanan
      +Px3iitaawis+Dim+Pej+PosObv+Pret+Pl: wensishiniibanag
-     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Loc: [wensishiniidig, o
-     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Obv: [wensishiniidig, o
-     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Pl: [wensishiniidig, o
+     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Loc: [wensishiniidig, o]
+     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Obv: [wensishiniidig, o]
+     +Px3iitaawis+Dim+Pej+PosObv+VocPl+Pl: [wensishiniidig, o]
      +Px3iitaawis+Dim+Pej+PosPl+Pret+Loc: wensishiwaaibaning
      +Px3iitaawis+Dim+Pej+PosPl+Pret+Obv: wensishiwaaibanan
      +Px3iitaawis+Dim+Pej+PosPl+Pret+Pl: wensishiwaaibanag
-     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Loc: [wensishiwaaidig, o
-     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Obv: [wensishiwaaidig, o
-     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Pl: [wensishiwaaidig, o
+     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Loc: [wensishiwaaidig, o]
+     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Obv: [wensishiwaaidig, o]
+     +Px3iitaawis+Dim+Pej+PosPl+VocPl+Pl: [wensishiwaaidig, o]
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
      +Px1iitaawis+Pos+Pej+Pos1Pl+Pret+Loc: nimishinaanibaning
      +Px1iitaawis+Pos+Pej+Pos1Pl+Pret+Obv: nimishinaanibanan
      +Px1iitaawis+Pos+Pej+Pos1Pl+Pret+Pl: nimishinaanibanag
-     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Loc: [nimishinaanidig, ni
-     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Obv: [nimishinaanidig, ni
-     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Pl: [nimishinaanidig, ni
+     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Loc: [nimishinaanidig, ni]
+     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Obv: [nimishinaanidig, ni]
+     +Px1iitaawis+Pos+Pej+Pos1Pl+VocPl+Pl: [nimishinaanidig, ni]
      +Px2iitaawis+Pos+Pej+PosPl+Pret+Loc: gimishiwaaibaning
      +Px2iitaawis+Pos+Pej+PosPl+Pret+Obv: gimishiwaaibanan
      +Px2iitaawis+Pos+Pej+PosPl+Pret+Pl: gimishiwaaibanag
-     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Loc: [gimishiwaaidig, gi
-     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Obv: [gimishiwaaidig, gi
-     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Pl: [gimishiwaaidig, gi
+     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Loc: [gimishiwaaidig, gi]
+     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Obv: [gimishiwaaidig, gi]
+     +Px2iitaawis+Pos+Pej+PosPl+VocPl+Pl: [gimishiwaaidig, gi]
      +Px3iitaawis+Pos+Pej+PosObv+Pret+Loc: wimishiniibaning
      +Px3iitaawis+Pos+Pej+PosObv+Pret+Obv: wimishiniibanan
      +Px3iitaawis+Pos+Pej+PosObv+Pret+Pl: wimishiniibanag
-     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Loc: [wimishiniidig, o
-     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Obv: [wimishiniidig, o
-     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Pl: [wimishiniidig, o
+     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Loc: [wimishiniidig, o]
+     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Obv: [wimishiniidig, o]
+     +Px3iitaawis+Pos+Pej+PosObv+VocPl+Pl: [wimishiniidig, o]
      +Px3iitaawis+Pos+Pej+PosPl+Pret+Loc: wimishiwaaibaning
      +Px3iitaawis+Pos+Pej+PosPl+Pret+Obv: wimishiwaaibanan
      +Px3iitaawis+Pos+Pej+PosPl+Pret+Pl: wimishiwaaibanag
-     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Loc: [wimishiwaaidig, o
-     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Obv: [wimishiwaaidig, o
-     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Pl: [wimishiwaaidig, o
+     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Loc: [wimishiwaaidig, o]
+     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Obv: [wimishiwaaidig, o]
+     +Px3iitaawis+Pos+Pej+PosPl+VocPl+Pl: [wimishiwaaidig, o]
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
      +Px1iitaawis+Con+Pos+Pej+Pos1Pl+Pret+Loc: nenyimishinaanibaning
      +Px1iitaawis+Con+Pos+Pej+Pos1Pl+Pret+Obv: nenyimishinaanibanan
      +Px1iitaawis+Con+Pos+Pej+Pos1Pl+Pret+Pl: nenyimishinaanibanag
-     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Loc: [nenyimishinaanidig, ni
-     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Obv: [nenyimishinaanidig, ni
-     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Pl: [nenyimishinaanidig, ni
+     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Loc: [nenyimishinaanidig, ni]
+     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Obv: [nenyimishinaanidig, ni]
+     +Px1iitaawis+Con+Pos+Pej+Pos1Pl+VocPl+Pl: [nenyimishinaanidig, ni]
      +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+Pret+Loc: nensimishinaanibaning
      +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+Pret+Obv: nensimishinaanibanan
      +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+Pret+Pl: nensimishinaanibanag
-     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: [nensimishinaanidig, ni
-     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: [nensimishinaanidig, ni
-     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: [nensimishinaanidig, ni
+     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Loc: [nensimishinaanidig, ni]
+     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Obv: [nensimishinaanidig, ni]
+     +Px1iitaawis+Dim+Pos+Pej+Pos1Pl+VocPl+Pl: [nensimishinaanidig, ni]
      +Px2iitaawis+Con+Pos+Pej+PosPl+Pret+Loc: genyimishiwaaibaning
      +Px2iitaawis+Con+Pos+Pej+PosPl+Pret+Obv: genyimishiwaaibanan
      +Px2iitaawis+Con+Pos+Pej+PosPl+Pret+Pl: genyimishiwaaibanag
-     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Loc: [genyimishiwaaidig, gi
-     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Obv: [genyimishiwaaidig, gi
-     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Pl: [genyimishiwaaidig, gi
+     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Loc: [genyimishiwaaidig, gi]
+     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Obv: [genyimishiwaaidig, gi]
+     +Px2iitaawis+Con+Pos+Pej+PosPl+VocPl+Pl: [genyimishiwaaidig, gi]
      +Px2iitaawis+Dim+Pos+Pej+PosPl+Pret+Loc: gensimishiwaaibaning
      +Px2iitaawis+Dim+Pos+Pej+PosPl+Pret+Obv: gensimishiwaaibanan
      +Px2iitaawis+Dim+Pos+Pej+PosPl+Pret+Pl: gensimishiwaaibanag
-     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Loc: [gensimishiwaaidig, gi
-     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Obv: [gensimishiwaaidig, gi
-     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Pl: [gensimishiwaaidig, gi
+     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Loc: [gensimishiwaaidig, gi]
+     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Obv: [gensimishiwaaidig, gi]
+     +Px2iitaawis+Dim+Pos+Pej+PosPl+VocPl+Pl: [gensimishiwaaidig, gi]
      +Px3iitaawis+Con+Pos+Pej+PosObv+Pret+Loc: wenyimishiniibaning
      +Px3iitaawis+Con+Pos+Pej+PosObv+Pret+Obv: wenyimishiniibanan
      +Px3iitaawis+Con+Pos+Pej+PosObv+Pret+Pl: wenyimishiniibanag
-     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Loc: [wenyimishiniidig, o
-     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Obv: [wenyimishiniidig, o
-     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Pl: [wenyimishiniidig, o
+     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Loc: [wenyimishiniidig, o]
+     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Obv: [wenyimishiniidig, o]
+     +Px3iitaawis+Con+Pos+Pej+PosObv+VocPl+Pl: [wenyimishiniidig, o]
      +Px3iitaawis+Con+Pos+Pej+PosPl+Pret+Loc: wenyimishiwaaibaning
      +Px3iitaawis+Con+Pos+Pej+PosPl+Pret+Obv: wenyimishiwaaibanan
      +Px3iitaawis+Con+Pos+Pej+PosPl+Pret+Pl: wenyimishiwaaibanag
-     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Loc: [wenyimishiwaaidig, o
-     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Obv: [wenyimishiwaaidig, o
-     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Pl: [wenyimishiwaaidig, o
+     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Loc: [wenyimishiwaaidig, o]
+     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Obv: [wenyimishiwaaidig, o]
+     +Px3iitaawis+Con+Pos+Pej+PosPl+VocPl+Pl: [wenyimishiwaaidig, o]
      +Px3iitaawis+Dim+Pos+Pej+PosObv+Pret+Loc: wensimishiniibaning
      +Px3iitaawis+Dim+Pos+Pej+PosObv+Pret+Obv: wensimishiniibanan
      +Px3iitaawis+Dim+Pos+Pej+PosObv+Pret+Pl: wensimishiniibanag
-     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Loc: [wensimishiniidig, o
-     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Obv: [wensimishiniidig, o
-     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Pl: [wensimishiniidig, o
+     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Loc: [wensimishiniidig, o]
+     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Obv: [wensimishiniidig, o]
+     +Px3iitaawis+Dim+Pos+Pej+PosObv+VocPl+Pl: [wensimishiniidig, o]
      +Px3iitaawis+Dim+Pos+Pej+PosPl+Pret+Loc: wensimishiwaaibaning
      +Px3iitaawis+Dim+Pos+Pej+PosPl+Pret+Obv: wensimishiwaaibanan
      +Px3iitaawis+Dim+Pos+Pej+PosPl+Pret+Pl: wensimishiwaaibanag
-     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Loc: [wensimishiwaaidig, o
-     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Obv: [wensimishiwaaidig, o
-     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Pl: [wensimishiwaaidig, o
+     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Loc: [wensimishiwaaidig, o]
+     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Obv: [wensimishiwaaidig, o]
+     +Px3iitaawis+Dim+Pos+Pej+PosPl+VocPl+Pl: [wensimishiwaaidig, o]
      
