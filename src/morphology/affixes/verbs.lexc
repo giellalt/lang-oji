@@ -220,6 +220,8 @@ LEXICON VAI_IMPER
 !Valentine (2001):274
 !Insert schematic template here (also update style guide)
 
+!see gt-norm-yamls/OJI_VTA_YAML_NOTES.txt for some discussion
+
 LEXICON VTA_INDEP_THEME_GATEWAY 
 @R.Person.2@  VTA_INDEP_THEME_SECOND_PERSON ;
 @R.Person.1@  VTA_INDEP_THEME_FIRST_PERSON ;
@@ -236,6 +238,7 @@ LEXICON VTA_INDEP_THEME_GATEWAY
 !           2       1       1    1      1   1
 !           3       2   1        3      3   3 
 !           3Obv    2   1   3           3   3
+
 
 LEXICON VTA_INDEP_THEME_SECOND_PERSON !1
 +2Sub+1Obj:i          VTA_INDEP_LOW_PERSON_1_FLAG ; !local direct
@@ -312,7 +315,8 @@ LEXICON VTA_INDEP_NEG
 !   elif (sg v sg) or (2sg vs 1Pl): 0
 !   else: impossible
 !elif 2 prefix or 1 prefix:
-!   if 1Sg arg or 2sg arg: 0 (small exception for inanimate subs)
+!   if 1Sg arg or 2sg arg and not 0 sub: 0 
+!   elif (small exception for inanimate subs)
 
 
 !this needs to get swept up in the general person-number reformation
