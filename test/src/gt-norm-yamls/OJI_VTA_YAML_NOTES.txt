@@ -1,3 +1,109 @@
+"who is doing what to who" is signaled in Algonquian languages by:
+    person prefixes
+    theme signs
+    number suffixes
+    peripheral suffixes (indexing obviation, etc)
+ 
+####
+# theme signs
+####
+ 
+theme signs are used to signal particular argument combinations:
+    (or object agreement)
+    -i      second person sub, first person obj
+    -ini    first person sub, second person obj
+    -igoo   first person plural sub, second person obj
+    -aa:    third person objects (mostly, 3v3 requires more)
+        Sub:    2   1   3
+        Obj:    
+        3       y   y   x
+        3Obv    y   y   y
+    -igo:   elsewhere
+        Sub:    3   3Obv    0
+        Obj:
+        2       y   y       y
+        1       y   y       y
+        3       x   y       y
+        3Obv    n   x       y
+    and the passive theme signs (rerouted to VAI, and henceforth ignored):
+    -aa    "+X" subject  (3rd person obj agr prior to promotion?)
+    -igoo  "+X" subject  (elsewhere obj agr prior to promotion?)
+ 
+theme signs are dependent on what prefixes are being employed:
+    -i      only with second person
+    -ini    only with second person
+    -igoo   only with second person 
+    -aa     with second, first or third persons (non-passive)
+    -igo    with second, first or third persons (also inanimate)
+    -aa     without person prefix (passive) -> VAI paradigm
+    -igoo   only with first or second persons (passive) -> VAI paradigm
+ 
+####
+# Negation
+####
+ 
+the negation suffix -sii/-si may intervene between the theme sign and the number slot
+I don't yet know the distribution of -sii/-si
+ 
+####
+# Number slot
+####
+ 
+number suffixes occur in the following configurations:
+    -min    2nd person sub with 1pl obj
+    -m      2pl with 1
+    -naan   (1pl or 21) with (3, 0)
+    -waa    (2pl or 3pl) with (3)
+    -naawaa (2pl or 3pl) with (0)
+    -n      (1Sg, 2Sg, 3Sg, 3Obv) with (0) 
+
+in chart form: (colored form in my google drive)
+
+Subject:           1Sg     2Sg     1Pl      21        2Pl     3Sg     3Obv    3Pl    0Sg        0Pl         
+Object:    1Sg     x               x        x         m                              n          n                                                     
+           2Sg             x                x         x                              n          n                                                     
+           1Pl     x       min     x        x         min     naan    naan    naan   naan       naan        
+           21      x       x       x        x         x       naan    naan    naan   naan       naan        
+           2Pl     m       x       m        x         x       waa     waa     waa    naawaa     naawaa      
+           3Sg                     naan     naan      waa     x               x      n          n           
+           3Obv                    naan     naan      waa             x       waa    n          n           
+           3Pl                     naan     naan      waa     x       waa     x      naawaa     naawaa      
+
+number suffixes are sensitive to whether only speech act participants are in predication
+also sensitive to animacy of subject
+also dependent on person prefix
+    -min    only with second person
+    -m      only with second person
+    -naan   only with second person or first person
+    -waa    only with second person or third person
+    -naawaa only with (second person or third person) and inanimate subject
+    -n      with any prefix
+ 
+some dependency on theme sign
+    -min    -i
+    -m      -i, -ini, -igoo
+    -naan   -aa, -igo
+    -waa    -aa, -igo
+    -naawaa -igo
+    -n      -igo
+ 
+also in this slot: inanimate subjects acting on non-plural objects are also marked with -n
+ 
+####
+# Mood slot
+####
+ 
+mood suffixes may intervene between the number slot and the peripheral suffixes
+they almost certainly have special "augmented" forms depending on what suffixes precede or follow them
+ 
+####
+# Peripheral slot
+####
+
+-ag 3Pl
+-an 3Obv
+-an 0Pl
+ 
 
 Persnum slot is underdetermined by Valentine 2001:274
 Going through p 287
