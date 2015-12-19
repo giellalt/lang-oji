@@ -60,8 +60,8 @@ number suffixes occur in the following configurations:
 in chart form: (colored form in my google drive)
 
 Subject:           1Sg     2Sg     1Pl      21        2Pl     3Sg     3Obv    3Pl    0Sg        0Pl         
-Object:    1Sg     x               x        x         m                              n          n                                                     
-           2Sg             x                x         x                              n          n                                                     
+Object:    1Sg     x               x        x         m                              n          n
+           2Sg             x                x         x                              n          n
            1Pl     x       min     x        x         min     naan    naan    naan   naan       naan        
            21      x       x       x        x         x       naan    naan    naan   naan       naan        
            2Pl     m       x       m        x         x       waa     waa     waa    naawaa     naawaa      
@@ -112,15 +112,15 @@ sub-dialects ignored
 codes: x: non-existent combination for this
        -: no suffix in this slot
        *: suffix belongs to NONLUCNUM
-Subject:           1Sg     2Sg     3Sg     3Obv    0Sg     1Pl      21        2Pl     3Pl       0Pl         X
-Object:    1Sg     x       -       -       -       n*      x        x         m       og*       nan*        -
-           2Sg     -       x       -       -       n*      o!       x         x       og*       nan*        -
-           3Sg     -       -       x       an*     n*      naan     naan      waa     x         nan*        -
-           3Obv    -       -       n*      x       n*      naan     naan      waa     waa-n*    nan*        wan*
-           1Pl     -       min     naan    naan    naan    x        x         min     naan-ig*  naan-in*    min
-           21      -       x       naan    naan    naan    x        x         x       naan-ig*  naan-in*    min
-           2Pl     m       x       waa     waa     naawaa  om!      x         x       waa-g*    naawaa-n*   m
-           3Pl     g*      g*      x       waa-n*  naawaa  naan-ig* naan-ig*  waa-g*  x         naawaa-n*   wag*
+Subject:           1Sg     2Sg    1Pl      21        2Pl      3Sg     3Obv   3Pl        0Sg     0Pl         X
+Object:    1Sg     x       -      x        x         m        -       -      og*        n*      nan*        -
+           2Sg     -       x               x         x        -       -      og*        n*      nan*        -
+           1Pl     -       min    x        x         min      naan    naan   naan-ig*   naan    naan-in*    min
+           21      -       x      x        x         x        naan    naan   naan-ig*   naan    naan-in*    min
+           2Pl     m       x      m        x         x        waa     waa    waa-g*     naawaa  naawaa-n*   m
+           3Sg     -       -      naan     naan      waa      x       on*    x          n*      nan*        -
+           3Obv    -       -      naan     naan      waa      n*      x      waa-n*     n*      nan*        wan*
+           3Pl     g*      g*     naan-ig* naan-ig*  waa-g*   x       waa-n* x          naawaa  naawaa-n*   wag*
 Analysis
 m      1Sgx2Pl,    2Plx1Sg,    Xx2Pl                   Prefixes:2      2pl
 min    2Sgx1Pl     2Plx1Pl     Xx1Pl   Xx21            Prefixes:2, 1   1Pl object or Xx21
