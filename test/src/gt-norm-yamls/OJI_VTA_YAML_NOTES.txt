@@ -1,3 +1,23 @@
+####
+# Some general notes
+####
+X subjects are true passives, go straight to VAI paradigms (though obviously can't take +X suffix, as subject is promoted object)
+
+
+
+3 obv sub ->  2 sg obj (conj): /iN-g/ 'iN theme, 3 post nas agr' = ik (N-lenis -> fortis), N-fortis -> fortis 
+
+the dialects of Ojibwe have a fair amount of correspondence in the units used within the paradigms (differ in which suffixes are ported to which location)
+    Rand has good ideas of how the porting has happened, it is a good idea to get them jotted down
+
+participles formed with initial change, and j-in/j-ig suffixes
+
+    wiisinid    Dustin (that Dustin ate)
+    wiisiniwaad         (that they ate)
+    waasinid    Dustin who ate
+    waasinijig  they who ate (waasinidig -> waasinijig)
+    waasininijin  the others who ate (waasininidin -> waasininijin)
+ 
 "who is doing what to who" is signaled in Algonquian languages by:
     person prefixes
     theme signs
@@ -103,8 +123,181 @@ they almost certainly have special "augmented" forms depending on what suffixes 
 -ag 3Pl
 -an 3Obv
 -an 0Pl
- 
 
+####
+# CONJUNCT ORDER
+####
+Theme signs
+
+Valentine pp 276-7 has:
+MORPH FEATURES  PHON SPELLOUT
+Actor   Goal    Theme   Goal        Actor
+2s      1s      i                   (y)an
+2p      1s      i                   (y)eg
+3s      1s      i                   d
+3p      1s      i                   waa-d
+0       1s      igo     (y)aan_h_
+X       1s      igoo    (y)aan_h_
+
+2s      1p      i       (y)aang       
+2p      1p      i       (y)aang       
+3s      1p      i       (y)ang        (i)d
+3p      1p      i       (y)aang       (i)d-waa 
+0       1p      igo     (y)aang       
+X       1p      igoo    (y)aang       
+
+1s      2s      iN                  aan
+3s      2s      iN                  g
+1p      2s      igoo    (y)an              
+3p      2s      iN                  g-waa
+0       2s      igo     (y)an           
+X       2s      igoo    (y)an          
+
+3s      21      inin    (y)ang        
+3p      21      inin    (y)ang        waa 
+0       21      igo     (y)ang         
+X       21      igoo    (y)ang       
+
+1s      2p      inin    agog
+3s      2p      inin    (y)eg
+1p      2p      in                  (y)aang
+3p      2p      inin    (y)eg       waa
+X       2p      igoo    (y)eg
+
+1s      3s              ag
+2s      3s              ad
+1p      3s              (y)ang        (i)d 
+21      3s              (y)ang       (i)d-waa 
+3'      3s      igo     
+0       3s      igo     (i)d   
+
+3s      3'      aa                  (i)d
+3p      3'      aa                  waa-d 
+
+3'      3p      igo     waa-d
+
+MISSING:
+3'      1s      XXX                 XXX
+3'      1p      XXX                 XXX
+3'      2s      XXX                 XXX
+3'      21      XXX                 XXX
+3'      2p      XXX                 XXX
+0       2p      XXX     XXXXXXX
+X       3s      XXXX    XXXXX       
+X       3s      XXXX    XXXXX       
+2p      3s      XXXX    XXXX        
+
+#####
+####
+##Reorganizing to better understand
+####
+#####
+
+MORPH FEATURES  PHON SPELLOUT
+Actor   Goal    Theme   Goal        Actor
+
+####
+##1 obj
+####
+2s      1s      i                   (y)an  
+2p      1s      i                   (y)eg
+3s      1s      i                   d
+3p      1s      i                   waa-d
+
+2s      1p      i       (y)aang       
+2p      1p      i       (y)aang       
+3s      1p      i       (y)ang      (i)d
+3p      1p      i       (y)aang     (i)d-waa 
+
+####
+##1pl v 2
+####
+1p      2s      igoo    (y)an              
+1p      2p      in                  (y)aang
+
+####
+##2sg obj
+####
+1s      2s      iN                  aan
+3s      2s      iN                  g
+3p      2s      iN                  g-waa
+
+####
+##2pl/21 obj
+####
+3s      21      inin    (y)ang        
+3p      21      inin    (y)ang      waa 
+
+1s      2p      inin    agog
+3s      2p      inin    (y)eg
+3p      2p      inin    (y)eg       waa
+
+####
+##3s obj
+####
+1s      3s              ag
+2s      3s              ad
+1p      3s              (y)ang      (i)d 
+21      3s              (y)ang      (i)d-waa 
+
+####
+##3 v 3'
+####
+3s      3'      aa                  (i)d
+3p      3'      aa                  waa-d 
+
+####
+##Inan/3' sub
+####
+0       1s      igo     (y)aan_h_
+0       1p      igo     (y)aang       
+0       2s      igo     (y)an           
+0       21      igo     (y)ang         
+0       3s      igo     (i)d   
+3'      3s      igo     
+3'      3p      igo     waa-d
+ 
+####
+##Passives (make sure post igoo is appropriate VAI conj suff)
+####
+X       1s      igoo    (y)aan_h_
+X       1p      igoo    (y)aang       
+X       2s      igoo    (y)an          
+X       21      igoo    (y)ang       
+X       2p      igoo    (y)eg
+
+##MISSING:
+3'      1s      XXX                 XXX
+3'      1p      XXX                 XXX
+3'      2s      XXX                 XXX
+3'      21      XXX                 XXX
+3'      2p      XXX                 XXX
+0       2p      XXX     XXXXXXX
+X       3s      XXXX    XXXXX       
+X       3s      XXXX    XXXXX       
+2p      3s      XXXX    XXXX        
+1s      3p
+2s      3p
+1p      3p
+21      3p
+0       3p
+
+####
+#Number suffixes
+####
+
+Subject:           1Sg     2Sg     1Pl          2Pl     21        3Sg           3Obv    3Pl             0    
+Object:    1Sg     x       (y)an   x            (y)eg   x         -(i)d         xx      waa-d           yaan_h_
+           2Sg     aan     x       (y)an        x       x         -(i)d>g       xx      -g-waa          (y)an
+           1Pl     x       (y)aang x            (y)aang x         (y)ang-(i)d   xx      (y)ang-(i)dwaa  (y)aang      
+           2Pl     agog    x       (y)aang      x       x         (y)eg         xx      (y)eg-waa       xx     
+           21      x       x       x            x       x         (y)ang        xx      (y)ang-waa      (y)ang      
+           3Sg     ag      ad      (y)ang-(i)d  xx      (y)ang    x                     x               -d      
+           3Obv    xx      xx      xx           xx      xx        -d            x       waa-d           xx      
+           3Pl     xx      xx      xx           xx      xx        x             waa-d   x               xx     
+
+# Legacy versions of some notes
+####
 Persnum slot is underdetermined by Valentine 2001:274
 Going through p 287
 axes reversed
@@ -146,19 +339,3 @@ Object:    1Sg     x               x        x         m
            3Obv                    naan     naan      waa             x       waa                           
            3Pl                     naan     naan      waa     x       waa     x      naawaa     naawaa      
 
-X subjects are true passives, go straight to VAI paradigms (though obviously can't take +X suffix, as subject is promoted object)
-
-
-
-3 obv sub ->  2 sg obj (conj): /iN-g/ 'iN theme, 3 post nas agr' = ik (N-lenis -> fortis), N-fortis -> fortis 
-
-the dialects of Ojibwe have a fair amount of correspondence in the units used within the paradigms (differ in which suffixes are ported to which location)
-    Rand has good ideas of how the porting has happened, it is a good idea to get them jotted down
-
-participles formed with initial change, and j-in/j-ig suffixes
-
-    wiisinid    Dustin (that Dustin ate)
-    wiisiniwaad         (that they ate)
-    waasinid    Dustin who ate
-    waasinijig  they who ate (waasinidig -> waasinijig)
-    waasininijin  the others who ate (waasininidin -> waasininijin)
