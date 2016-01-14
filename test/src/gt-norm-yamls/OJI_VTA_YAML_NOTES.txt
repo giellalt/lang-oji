@@ -127,6 +127,9 @@ they almost certainly have special "augmented" forms depending on what suffixes 
 ####
 # CONJUNCT ORDER
 ####
+Valentine p 275 gives 3 suffix slots in the conjunct order:
+    theme   local person/num    non-local person/num
+
 Theme signs
 
 Valentine pp 276-7 has:
@@ -202,11 +205,13 @@ Actor   Goal    Theme   Goal        Actor
 2s      1s      i                   (y)an  
 2p      1s      i                   (y)eg
 3s      1s      i                   d
+3'      1s      i                   d       *filled in from p 295
 3p      1s      i                   waa-d
 
 2s      1p      i       (y)aang       
 2p      1p      i       (y)aang       
 3s      1p      i       (y)ang      (i)d
+3'      1p      i       (y)ang      (i)d    *filled in from p 295
 3p      1p      i       (y)aang     (i)d-waa 
 
 ####
@@ -220,16 +225,19 @@ Actor   Goal    Theme   Goal        Actor
 ####
 1s      2s      iN                  aan
 3s      2s      iN                  g
+3'      2s      in                  d>g
 3p      2s      iN                  g-waa
 
 ####
 ##2pl/21 obj
 ####
+3'      21      inin                (y)ang
 3s      21      inin    (y)ang        
 3p      21      inin    (y)ang      waa 
 
 1s      2p      inin    agog
 3s      2p      inin    (y)eg
+3'      2p      inin    (y)eg
 3p      2p      inin    (y)eg       waa
 
 ####
@@ -238,7 +246,14 @@ Actor   Goal    Theme   Goal        Actor
 1s      3s              ag
 2s      3s              ad
 1p      3s              (y)ang      (i)d 
-21      3s              (y)ang      (i)d-waa 
+21      3s              (y)ang      (i)d 
+2p      3s                          (y)eg       
+
+1s      3p              ag          waa
+2s      3p              ad          waa
+1p      3p              (y)ang      (i)d-waa 
+21      3p              (y)ang      (i)d-waa 
+2p      3p                          (y)eg-waa 
 
 ####
 ##3 v 3'
@@ -253,7 +268,9 @@ Actor   Goal    Theme   Goal        Actor
 0       1p      igo     (y)aang       
 0       2s      igo     (y)an           
 0       21      igo     (y)ang         
+0       2p      igo     (y)eg
 0       3s      igo     (i)d   
+0       3p      igo     waa-d
 3'      3s      igo     
 3'      3p      igo     waa-d
  
@@ -265,36 +282,88 @@ X       1p      igoo    (y)aang
 X       2s      igoo    (y)an          
 X       21      igoo    (y)ang       
 X       2p      igoo    (y)eg
+X       3s      in      d       
+X       3p      in      d       
 
 ##MISSING:
-3'      1s      XXX                 XXX
-3'      1p      XXX                 XXX
-3'      2s      XXX                 XXX
-3'      21      XXX                 XXX
-3'      2p      XXX                 XXX
-0       2p      XXX     XXXXXXX
-X       3s      XXXX    XXXXX       
-X       3s      XXXX    XXXXX       
-2p      3s      XXXX    XXXX        
-1s      3p
-2s      3p
-1p      3p
-21      3p
-0       3p
 
 ####
 #Number suffixes
 ####
 
-Subject:           1Sg     2Sg     1Pl          2Pl     21        3Sg           3Obv    3Pl             0    
-Object:    1Sg     x       (y)an   x            (y)eg   x         -(i)d         xx      waa-d           yaan_h_
-           2Sg     aan     x       (y)an        x       x         -(i)d>g       xx      -g-waa          (y)an
-           1Pl     x       (y)aang x            (y)aang x         (y)ang-(i)d   xx      (y)ang-(i)dwaa  (y)aang      
-           2Pl     agog    x       (y)aang      x       x         (y)eg         xx      (y)eg-waa       xx     
-           21      x       x       x            x       x         (y)ang        xx      (y)ang-waa      (y)ang      
-           3Sg     ag      ad      (y)ang-(i)d  xx      (y)ang    x                     x               -d      
-           3Obv    xx      xx      xx           xx      xx        -d            x       waa-d           xx      
-           3Pl     xx      xx      xx           xx      xx        x             waa-d   x               xx     
+Subject:           1Sg     2Sg      1Pl              21          2Pl         3Sg           3Obv          3Pl             0    
+Object:    1Sg     x       (y)an    x                x           (y)eg       -(i)d         -(i)d         waa-d           yaan_h_
+           2Sg     aan     x        (y)an            x           x           -(i)d>g       -(i)d>g       -d>g-waa        (y)an
+           1Pl     x       (y)aang  x                x           (y)aang     (y)ang-(i)d   (y)ang-(i)d   (y)ang-(i)dwaa  (y)aang      
+           21      x       x        x                x           x           (y)ang        (y)ang        (y)ang-waa      (y)ang      
+           2Pl     agog    x        (y)aang          x           x           (y)eg         (y)eg         (y)eg-waa       (y)eg  
+           3Sg     ag      ad       (y)ang-(i)d      (y)ang      (y)eg       x             -d            x               -d      
+           3Obv    ag      ad       (y)ang-(i)d      (y)ang      (y)eg       -d            x             waa-d           -d      
+           3Pl     ag-waa  ad-waa   (y)ang-(i)d-waa  (y)ang-waa  (y)eg-waa   x             waa-d         x               waa-d     
+
+(40 out of 51 active cells mostly covered (d not covered))
+waa -> 3.pl (13 cells)
+    waa     ->  3.pl v 2.pl
+                3.pl v 21
+                21   v 3.pl
+                2.pl v 3.pl
+                1.sg v 3.pl
+                2.sg v 3.pl
+
+    waa-d   ->  3.pl    v 1.sg
+                3.pl    v 3.obv
+                3.obv   v 3.pl
+                0       v 3.pl
+
+    d-waa   ->  1.pl    v 3.pl
+                3.pl    v 1.pl
+
+    g-waa   ->  3.pl    v 2.sg
+
+
+
+yeg -> 2.pl (esp with 3rd persons) (8 cells)
+        2.pl    v 1.sg
+        2.pl    v 3.sg
+        2.pl    v 3.obv
+        2.pl    v 3.pl
+
+        3.sg    v 2.pl
+        3.obv   v 2.pl
+        3.pl    v 2.pl
+        0       v 2.pl
+
+    2.pl with other persons:
+    agog        (1.sg v 2.pl)
+    (y)aang     (1.pl v 2.pl, 2.pl v 1.pl)
+        
+yaang -> local pl (3 cells) 
+            2.sg v 1.pl
+            2.pl v 1.pl
+            1.pl v 2.pl
+
+yan -> local sg ? (3 cells)
+            2.sg v 1.sg
+            1.pl v 2.sg
+            0    v 2.sg
+
+yang ->    3 v I-full (plus inan on 21) (13 cells)
+            1.pl v 3.sg
+            1.pl v 3.obv
+            1.pl v 3.pl
+
+            21   v 3.sg
+            21   v 3.obv
+            21   v 3.pl
+
+            3.sg v 21
+            3.pl v 21
+            3.ob v 21
+            0    v 21
+
+            3.sg v 1.pl
+            3.ob v 1.pl
+            3.pl v 1.pl
 
 # Legacy versions of some notes
 ####
