@@ -42,6 +42,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Neg
 
 !! Local Person Number
++IFull
++ILess
+!DEPRECATED
 +1Pl +21 +2Pl
 
 !Mood
@@ -54,6 +57,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Obv +Loc +Pl   !Nouns
 
 !VTA features (used in deciding theme sign)
++TSInv  !igo
++TSDir  !aa
++TSPas  !igoo (1/2), aa (3)
++TS2    !i
++TS1Pl  !igoo   
++TS1Sg  !in     
++TSNeg  !isinoon
+
+!DEPRECATED!
 +2Sub +2Obj
 +1Sub +1Obj +1PlSub !this last is only used twice!!
 +3Sub +3Obj +3ObvSub +3ObvObj
@@ -90,6 +102,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !####
 
 !## setting flags
+!X needed?
 @P.Person.1@
 @P.Person.2@
 @P.Person.3@
@@ -109,7 +122,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @R.Person@
 
 !####
-!#Low Person Flags (person in VTA that isn't indexed on prefix)
+!#DEPRECATED Low Person Flags (person in VTA that isn't indexed on prefix)
 !####
 
 !## setting flags
@@ -157,11 +170,46 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @P.Passive.1@
 
 !## checking flags
+!permitting full D and trimmed D ... style?
 @D.Passive.1@
 @D.Passive@
 
 @R.Passive.1@
 @R.Passive@
+
+!####
+!#inverse flag
+!####
+!set
+@P.Inverse.1@
+
+!get
+@R.Inverse.1@
+@R.Inverse@
+
+!####
+!#Negation flag
+!####
+
+!set
+@P.Negation.1@
+
+!get
+@R.Negation@
+
+!####
+!#Inanimate flag (verbs (VTA!) with inanimate subjects)
+!####
+
+!set
+@P.Inanimate.1@
+
+!get
+@D.Inanimate.1@
+@D.Inanimate@
+
+@R.Inanimate.1@
+@R.Inanimate@
 
 LEXICON Root !!= @CODE@ points to the other lexica
 ! Note that whenever a new part of speech, and a new file (like propernouns, etc.)
