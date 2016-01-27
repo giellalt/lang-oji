@@ -39,22 +39,23 @@
 !#####
 
 LEXICON V_PREFIXES
-1+:ni   V_FIRST_PERSON_FLAG ;
-2+:gi   V_SECOND_PERSON_FLAG ;
-3+:o    V_THIRD_PERSON_FLAG ;
+1+:ni   V_FIRST_PERSON_SET ;
+2+:gi   V_SECOND_PERSON_SET ;
+3+:o    V_THIRD_PERSON_SET ;
         VERBS ; 
 !Add alignment recs to style
 
 !style question: PERSON spelled out here and in flags
 !but some sublexicon titles have PERS
 
-LEXICON V_FIRST_PERSON_FLAG !add _FLAG to style
+!_FLAG -> _SET
+LEXICON V_FIRST_PERSON_SET !add _SET to style
 @P.Person.1@  VERBS ;
 
-LEXICON V_SECOND_PERSON_FLAG 
+LEXICON V_SECOND_PERSON_SET 
 @P.Person.2@  VERBS ;
 
-LEXICON V_THIRD_PERSON_FLAG 
+LEXICON V_THIRD_PERSON_SET 
 @P.Person.3@  VERBS ;
 
 !#####
@@ -105,7 +106,7 @@ LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this cou
             VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GATEWAY
 
 LEXICON VAI_INDEP_LOCALNUM_2PL 
-+2Pl:m   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
++2Pl:mw   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
 
 
 !mood slot
@@ -220,200 +221,334 @@ LEXICON VAI_IMPER
 !Valentine (2001):274
 !Insert schematic template here (also update style guide)
 
+
+!prefix theme   negation    number  mode    periph
+!                           inan    number  mode    periph
+
 !see gt-norm-yamls/OJI_VTA_YAML_NOTES.txt for some discussion
 
-LEXICON VTA_INDEP_THEME_GATEWAY 
-@R.Person.2@  VTA_INDEP_THEME_SECOND_PERSON ;
-@R.Person.1@  VTA_INDEP_THEME_FIRST_PERSON ;
-@R.Person.3@  VTA_INDEP_THEME_THIRD_PERSON ;
+!while theme signs are overwhelmingly object agreement,
+!the local person theme signs are quite fused with number, subject ... and even negation
+!which makes it so subject features are fairly unavoidable early on
+!strangely, while the choice of theme sign in conjunction with the prefix tells you a huge amount
+!about the subject and object, there is no dedicated location for subject features
+!they are sprinkled around the verb and get their interpretation from the theme sign ultimately
+!so treating the theme sign like it has subject features actually makes things really complicated,
+!because you might have to be checking whether this was subject number or object number, even though they are the same morph
+!   probably not true, what's wrong with +3Sub ... +3Pl?
+!but you do need to introduce features that you wouldn't normally have to ...
+!inan subjects are disambiguated from 3 subjects after the theme sign
+!so if you are adding inan subject at the theme sign, you need to introduce a feature
 
+!#####
+!#Theme sign slot
+!#####
+
+LEXICON VTA_INDEP_THEME_GET 
+@R.Person@      VTA_INDEP_THEME_GATEWAY ;
+@D.Person.3@    VTA_INDEP_THEME_LOCAL_PASSIVE ; !derived VAIs (passives) 
 @D.Person@    VTA_INDEP_NONLOCAL_PASSIVE ; !derived VAIs (passives) 
+@R.Person.2@      VTA_INDEP_THEME_SECOND_PERSON ;
 !style on new line for substantively different entries of sublexicon
 
-!A chart of where you can find feature combinations:
-!is 0 needed?
-!Sub Feats:         1   2   3    3Obv   0   X
-!Obj Feats:
-!           1           1   2    2      2   2 
-!           2       1       1    1      1   1
-!           3       2   1        3      3   3 
-!           3Obv    2   1   3           3   3
+!trying just giving a name for theme signs, and letting interpretation come later
 
 
-LEXICON VTA_INDEP_THEME_SECOND_PERSON !1
-+2Sub+1Obj:i          VTA_INDEP_LOW_PERSON_1_FLAG ; !local direct
-+1Sub+2Obj:ini        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
-!long name here..., only case in theme sign where we have to track number
-+1PlSub+2Obj:igoo        VTA_INDEP_LOW_PERSON_1_FLAG ; !local inverse
-!multiple feature combinations use the non-local theme signs, so they get own sublex
-<["+2Sub"["+3Obj"|"+3ObvObj"]] .x. [0]> VTA_INDEP_THEME_NONLOCAL_DIRECT ;
-<[["+3Sub"|"+3ObvSub"]"+2Obj"] .x. [0]> VTA_INDEP_THEME_NONLOCAL_INVERSE ;
-!obviatives behave just like 3sg when 1/2 are present...
-+0Sub+2Obj:0        VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
 
-+XSub+2Obj:0         VTA_INDEP_LOCAL_PASSIVE ; !passive
+LEXICON VTA_INDEP_THEME_GATEWAY
++TSInv:igo  VTA_INDEP_THEME_INVERSE_SET ;
++TSDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
+!new tags
 
-LEXICON VTA_INDEP_THEME_FIRST_PERSON !2
-<["+1Sub"["+3Obj"|"+3ObvObj"]] .x. [0]>        VTA_INDEP_THEME_NONLOCAL_DIRECT ; 
-<[["+3Sub"|"+3ObvSub"]"+1Obj"] .x. [0]>    VTA_INDEP_THEME_NONLOCAL_INVERSE ;
-+0Sub+1Obj:0         VTA_INDEP_LOW_PERSON_0_FLAG ; !non-local inverse
-!obviatives behave just like 3sg when 1/2 are present...
+LEXICON VTA_INDEP_THEME_INVERSE_SET 
+@P.Inverse.1@   VTA_INDEP_THEME_INVERSE_NEG ;
+!new flag diacritic
 
-+XSub+1Obj:0           VTA_INDEP_LOCAL_PASSIVE ;
-
-
-LEXICON VTA_INDEP_THEME_THIRD_PERSON !3
-+3Sub+3ObvObj:0       VTA_INDEP_THEME_NONLOCAL_DIRECT ; !non-local direct
-+3ObvSub+3Obj:0      VTA_INDEP_THEME_NONLOCAL_INVERSE ;
-<["+0Sub"["+3Obj"|"+3ObvObj"]] .x. [0]>     VTA_INDEP_LOW_PERSON_0_FLAG ;
-
-LEXICON VTA_INDEP_LOW_PERSON_0_FLAG 
-!setting here so that VTA_INDEP_LOW_PERSON_3_FLAG can avoid setting 0 to 3
-@P.LowPerson.0@     VTA_INDEP_THEME_NONLOCAL_INVERSE ;
-!style note NON_LOCAL vs NONLOCAL
-
-LEXICON VTA_INDEP_THEME_NONLOCAL_DIRECT
-0:aa    VTA_INDEP_LOW_PERSON_3_FLAG ;
-
-LEXICON VTA_INDEP_THEME_NONLOCAL_INVERSE 
-0:igo   VTA_INDEP_LOW_PERSON_3_FLAG ;
-
-LEXICON VTA_INDEP_LOCAL_PASSIVE
-0:igoo          VAI_INDEP_NEG ;
+!#Passives  {
+!ROUTE THROUGH VAI
+LEXICON VTA_INDEP_THEME_LOCAL_PASSIVE
++TSPas:igoo       VAI_INDEP_NEG ;
+!new tags
 
 LEXICON VTA_INDEP_NONLOCAL_PASSIVE
-+XSub+3Obj:aa   VTA_INDEP_PASSIVE_FLAG ; 
-!allow +3ObvObj tag?
-!<["+XSub"["+3Obj"|"+3ObvObj"]] .x. [a a]>          VAI_INDEP_NEG ; !passive
++TSPas:aa   VTA_INDEP_PASSIVE_FLAG ; 
+!new tags
 
 LEXICON VTA_INDEP_PASSIVE_FLAG
 !needed for 3rd person passives to not pick up -m (+X VAI infl)
 @P.Passive.1@ VAI_INDEP_NEG ; 
+!}
 
-LEXICON VTA_INDEP_LOW_PERSON_1_FLAG 
-@P.LowPerson.1@     VTA_INDEP_NEG ;
+!##Second persons {
+!local preds
+LEXICON VTA_INDEP_THEME_SECOND_PERSON 
++TS2:i          VTA_INDEP_2V1_NEG ; !first person object
++TS1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
++TS1Sg:in        VTA_INDEP_1SGV2 ; !first person singular subject
++TSNeg:isinoon  VTA_INDEP_1SGV2 ;!negated first person singular subject
+!new tags
 
-LEXICON VTA_INDEP_LOW_PERSON_3_FLAG !slightly gateway ish
-!general 3rd person setting must avoid setting 0 to 3
-@D.LowPerson.0@@P.LowPerson.3@     VTA_INDEP_NEG ;
-@R.LowPerson.0@                     VTA_INDEP_NEG ;
+!####
+!#negation through number {
+!####
+!#2 v 1 {
+LEXICON VTA_INDEP_2V1_NEG 
++Neg:sii    VTA_INDEP_2V1_GATEWAY ;
+            VTA_INDEP_2V1_GATEWAY ;
 
-!negative morpheme  consistent across VAI, VTA, etc, but making it common would require a lot of flags
+LEXICON VTA_INDEP_2V1_GATEWAY 
++IFull:min  VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++ILess:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
+!}
 
-LEXICON VTA_INDEP_NEG 
-+Neg:sii        VTA_INDEP_PERSNUM_GATEWAY ;
-@R.LowPerson.0@   VTA_INDEP_INAN_SUB ;
-@D.LowPerson.0@     VTA_INDEP_PERSNUM_GATEWAY ;
+!#1Pl v 2 {
+LEXICON VTA_INDEP_1PLV2_NEG
++Neg:sii    VTA_INDEP_1PLV2_GATEWAY ;
+            VTA_INDEP_1PLV2_GATEWAY ;
 
-!Persnum slot is underdetermined in text discussion on Valentine 2001:274
-!see  gt-norm-yamls/OJI_VTA_YAML_NOTES.txt
+LEXICON VTA_INDEP_1PLV2_GATEWAY 
++ILess:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
+!}
 
-!here's how the person number slot works:
-!if 2 prefix and 1 argument: 
-!   if 1Pl obj: -min 
-!   elif 2Pl arg: -m
-!   elif (sg v sg) or (2sg vs 1Pl): 0
-!   else: impossible
-!elif 2 prefix or 1 prefix:
-!   if 1Sg arg or 2sg arg and not 0 sub: 0 
-!   elif (small exception for inanimate subs)
+LEXICON VTA_INDEP_1SGV2 
++ILess:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
+            VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 
+!####
+!#mode and such {
+!####
 
-!this needs to get swept up in the general person-number reformation
-LEXICON VTA_INDEP_INAN_SUB 
-+0Sub:n     VTA_INDEP_PERSNUM_GATEWAY ;
-!need to adjust n-n sequences with n-naan
-!-> no, it only occurs with singular objects :)
+LEXICON VTA_INDEP_LOCAL_PLURAL_PREMODE 
+0:aa    VTA_INDEP_LOCAL_MODE ;
+# ;
 
-LEXICON VTA_INDEP_PERSNUM_GATEWAY 
-!precise distribution fairly complex (Valentine (2001):274)
-@R.Person.2@   VTA_INDEP_PERSNUM_2 ;
-@R.Person.2@    VTA_INDEP_PERSNUM_2 ;
+LEXICON VTA_INDEP_LOCAL_SINGULAR_PREMODE 
+0:naa    VTA_INDEP_LOCAL_MODE ;
+# ;
 
-@R.Person.1@    VTA_INDEP_PERSNUM_1 ;
-!@R.Person.1@@R.LowPerson.0@   VTA_INDEP_PERSNUM_1X0 ;
+LEXICON VTA_INDEP_LOCAL_MODE 
++Pret:ban # ;
++Dub:dig # ;
+!}
+!}
 
-@R.Person.3@                  VTA_INDEP_PERSNUM_3 ;
-!optionality handled in daughters instead of in gateway
+!#####
+!#Negation Slot
+!#####
 
-LEXICON VTA_INDEP_PERSNUM_2
-@R.LowPerson.1@ VTA_INDEP_PERSNUM_2X1 ;
-@R.LowPerson.3@ VTA_INDEP_PERSNUM_2X3 ;
-@R.LowPerson.0@ VTA_INDEP_PERSNUM_2X0 ;
+!direct negation {
+LEXICON VTA_INDEP_THEME_DIRECT_GATEWAY !gateway usage unformalized now
+!probably best to have a coherent mapping between graphviz branches, states, labels and lexc :)
+!currently using quasi_semantic naming principles
++Neg:siwaa VTA_INDEP_THEME_DIRECT_PLURAL_NEGATION_GET ; 
++Neg:sii   VTA_INDEP_THEME_DIRECT_SINGULAR_NEGATION_GET ;
+           VTA_INDEP_NUMBER_GET ;
 
-LEXICON VTA_INDEP_PERSNUM_2X1 
-!one could discuss ways to implement disjunctive blocks
-!currently must specify complete distro
-!for instance, there is a general 2Pl marker -m, which is overridden by 1Pl obj -min
-<[["+2Pl" "+1Sg"]|[["+1Sg"|"+1Pl"]"+2Pl"]] .x. [m]>      VTA_INDEP_MOOD ; 
-<[["+2Pl"|"+2Sg"]"+1Pl"] .x. [m i n]>   VTA_INDEP_MOOD ;
-!most feature combinations with locals are impossible
-!others simply get no marking
-!only allowing those that get no marking to continue
-<[[["+1Sg"|"+1Pl"]"+2Sg"]|["+2Sg" "+1Sg"]] .x. [0]> VTA_INDEP_MOOD ;
-!seems odd that you can't say "you talk to you guys", like in setting up groups"
+!#Direct plural negation 
+LEXICON VTA_INDEP_THEME_DIRECT_PLURAL_NEGATION_GET
+@D.Person.3@    VTA_INDEP_NUMBER_IFULL ; !deviating from graphviz slightly (21, 1pl collapsed, D instead of R)
+@R.Person.2@    VTA_INDEP_NUMBER_ILESS ;
+@R.Person.3@    VTA_INDEP_NUMBER_3 ;
 
-LEXICON VTA_INDEP_PERSNUM_2X3 
-!strongly favor all caps in features...with CamelCase errors are too easy to make and miss
-<[["+3Sg"|"+3Obv"|"+3Pl"]"+21"] .x. [0]>   VTA_INDEP_PERSNUM_IFULL ;
-<["+21"["+3Sg"|"+3Obv"|"+3Pl"]] .x. [0]>   VTA_INDEP_PERSNUM_IFULL ;
-<[["+3Sg"|"+3Obv"|"+3Pl"]"+2Pl"] .x. [0]>   VTA_INDEP_PERSNUM_ILESS ;
-<["+2Pl"["+3Sg"|"+3Obv"|"+3Pl"]] .x. [0]>   VTA_INDEP_PERSNUM_ILESS ;
-!violating general principle of letting 0 go unspecified
-!because in this slot we must distinguish between impossible and unmarked
-!in this case nothing is impossible
-<[["+2Sg"["+3Sg"|"+3Obv"|"+3Pl"]]|[["+3Sg"|"+3Obv"|"+3Pl"|"+0Sg"|"+0Pl"]"+2Sg"]] .x. [0]>   VTA_INDEP_MOOD ;
+!#Direct singular negation 
+LEXICON VTA_INDEP_THEME_DIRECT_SINGULAR_NEGATION_GET
+@D.Person.3@    VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY ; !deviating from graphviz slightly (21, 1pl collapsed, D instead of R)
+@R.Person.3@    VTA_INDEP_3_GATEWAY ;
+!tempting to send to VTA_INDEP_NUMBER_3, but we are out of phase
+!there is a waa-reading state, and a gateway
+!move into the gateway if read nothing
+!gateway is the closest analog to I-less3 NoNum3
+!what style recs do we make here?
+!}
 
-LEXICON VTA_INDEP_PERSNUM_2X0
-<[["+0Sg"|"+0Pl"]"+2Pl"] .x. [0]> VTA_INDEP_PERSNUM_INAN_ILESS ;
-<[["+0Sg"|"+0Pl"]"+21"] .x. [0]>   VTA_INDEP_PERSNUM_IFULL ;
-!non-marking approach differs between 2nd persons and first persons... :(
-                        VTA_INDEP_MOOD ;
+!#inverse negation, inverse no negation, direct no negation {
+LEXICON VTA_INDEP_THEME_INVERSE_NEG 
++Neg:sii    VTA_INDEP_THEME_INVERSE_NEG_SET ; !convention for what to name setters after?
+               VTA_INDEP_NUMBER_GET ;
 
-LEXICON VTA_INDEP_PERSNUM_1
-!it wasn't really necessary to specify lower person when first persons appear
-!... wait till whole shebang is done before modifying though
-!the different categories of 3 and 0 don't matter here
-!not sure if we want to track 0 vs 3 here
-<[["+1Sg"["+3Sg"|"+3Obv"|"+3Pl"]]|["+3Sg"|"+3Obv"|"+3Pl"|"+0Sg"|"+0Pl"]"+1Sg"] .x. [0]> VTA_INDEP_MOOD ;
-<[["+1Pl"["+3Sg"|"+3Obv"|"+3Pl"]]|["+3Sg"|"+3Obv"|"+3Pl"|"+0Sg"|"+0Pl"]"+1Pl"] .x. [0]> VTA_INDEP_PERSNUM_IFULL ;
-!@R.LowPerson.3@ VTA_INDEP_PERSNUM_1X3 ;
+LEXICON VTA_INDEP_THEME_INVERSE_NEG_SET
+@P.Negation.1@  VTA_INDEP_NUMBER_GET ;
+!new flag diacritic
+!}
 
-LEXICON VTA_INDEP_PERSNUM_3 
-!might be good to assign an obviation feature here
-!running the risk of allowing a direct theme sign with inverse arg config (and vice versa)
-!maybe need to ensure that lowerperson is checked? (probably not...)
-!it seems to be only important for 2nd person ... and not even all persons then ...
-<[["+3Pl" "+3Obv"]|["+3Obv" "+3Pl"]] .x. [0]>  VTA_INDEP_PERSNUM_ILESS ;
-<[["+0Pl"|"+0Sg"]"+3Pl"] .x. [0]>   VTA_INDEP_PERSNUM_INAN_ILESS ;
- !plural on singular and singular on plural are impossible
- <[["+3Sg" "+3Obv"]|["+3Obv" "+3Sg"]] .x. [0]>               VTA_INDEP_MOOD ;
+!######
+!#Number Slot
+!#####
 
-LEXICON VTA_INDEP_PERSNUM_INAN_ILESS
-0:naawaa  VTA_INDEP_MOOD ;
+!fed by inverse negation, inverse no negation, direct no negation
+LEXICON VTA_INDEP_NUMBER_GET
+@D.Person.3@    VTA_INDEP_NUMBER_LOCAL_GATEWAY ;
+@R.Person.2@    VTA_INDEP_NUMBER_ILESS ;
+@R.Person.3@    VTA_INDEP_NUMBER_3 ;!pick up waa
+@R.Person.3@    VTA_INDEP_3_GATEWAY ;!pick up nothing
+@R.Inverse@     VTA_INDEP_INAN_SUB;!own slot (maybe own file!), extra options for inverse-marked forms
+!new flag
 
-LEXICON VTA_INDEP_PERSNUM_IFULL
-0:naan  VTA_INDEP_MOOD ;
+!#first person "I-full" plurality {
+LEXICON VTA_INDEP_NUMBER_LOCAL_GATEWAY 
+!what exactly is driving me to diverge from a strict mirroring of graphviz?
+!feature style, and whether incoming arcs in graphviz read different strings
++IFull:minaa    VTA_INDEP_MODE_GATEWAY ;
+                VTA_INDEP_NUMBER_IFULL ;
+                VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY ;
 
-LEXICON VTA_INDEP_PERSNUM_ILESS
-0:waa   VTA_INDEP_MOOD ;
+!fed by VTA_INDEP_NUMBER_GET, direct plural negation
+LEXICON VTA_INDEP_NUMBER_IFULL 
+!style should include recommendations for marking when predication info is being collapsed
++IFull:naan VTA_INDEP_IFULL_PERIPH_GET ;
+!new tag
+!}
 
-LEXICON VTA_INDEP_MOOD 
-+Pret:ban   VTA_INDEP_PERS_GATEWAY ;
-+Dub:dig    VTA_INDEP_PERS_GATEWAY ;!Odawa
-+Dub:dog    VTA_INDEP_PERS_GATEWAY ;!Ojibwe
-            VTA_INDEP_PERS_GATEWAY ;  
+!#second person "I-less" plurality {
+LEXICON VTA_INDEP_NUMBER_ILESS
++ILess:waa  VTA_INDEP_ILESS_GATEWAY ;
+!new tag
 
-LEXICON VTA_INDEP_PERS_GATEWAY !add GATEWAY to style
-!Might need to be revised
-@D.Person.3@ # ; !should ending be an option earlier? -> no, best to wait till nothing can possibly follow.
-@R.Person.3@ VTA_INDEP_NONLOCNUM ;
+LEXICON VTA_INDEP_ILESS_GATEWAY 
+    VTA_INDEP_ILESS_PERIPH ;
+    VTA_INDEP_MODE_GATEWAY ;
+!}
 
-LEXICON VTA_INDEP_NONLOCNUM 
-!precise distribution fairly complex (Valentine (2001):274)
-!this will want an obviation feature from earlier
-+3Obv:an    # ;
-+3Pl:ag     # ;
+!#first or second person singular
+!fed by VTA_INDEP_NUMBER_GET, direct singular negation
+LEXICON VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY 
+    VTA_INDEP_MODE_GATEWAY ; 
+    VTA_INDEP_SINGULAR_PERIPH ; 
+
+!#third person number {
+!fed by VTA_INDEP_NUMBER_GET, direct plural negation
+LEXICON VTA_INDEP_NUMBER_3
++ILess:waa  VTA_INDEP_3_GATEWAY ;
+
+!fed by VTA_INDEP_NUMBER_GET, direct singular negation
+LEXICON VTA_INDEP_3_GATEWAY
+    VTA_INDEP_MODE_GATEWAY ; 
+    VTA_INDEP_3_PERIPH ;
+!}
+
+!probably a good idea to keep a list of the sub-lexicon calls out of a slot
+
+!#####
+!#Mode Slot
+!#####
+
+LEXICON VTA_INDEP_MODE_GATEWAY
++Dub:dig    VTA_INDEP_DUB_PERIPH_GET ;
++Pret:ban   VTA_INDEP_PRET_PERIPH_GET ;
+
+!#####
+!#Periph Slot
+!#####
+
+!#first person pl/inclusive naan {
+LEXICON VTA_INDEP_IFULL_PERIPH_GET
+@R.Inverse@ VTA_INDEP_IFULL_PERIPH_INAN ;
++3Pl:ig # ; !/ag/->[ig]/naan_
+# ; !3rd person singular/obv
+
+LEXICON VTA_INDEP_IFULL_PERIPH_INAN 
++0Pl:in # ; !/an/->[in]
+!}
+
+LEXICON VTA_INDEP_ILESS_PERIPH
++3Pl:g # ; !/ag/->[g]/VV_
+# ; !3rd person singular/obv
+
+LEXICON VTA_INDEP_SINGULAR_PERIPH
++3Pl:ag # ; !/ag/->[g]/VV_, some other allomorphy here
+# ; !3rd person singular/obv
+!careful! negation can't be last in word, n inserted then!
+
+LEXICON VTA_INDEP_3_PERIPH
++3Obv:an # ; !surely plenty of allomorphy here
+
+!#dubitative {
+LEXICON VTA_INDEP_DUB_PERIPH_GET
+@D.Inanimate@@D.Person.3@    VTA_INDEP_DUB_PERIPH_NON_3 ;
+@D.Inanimate@@R.Person.3@    VTA_INDEP_DUB_PERIPH_3 ;
+@D.Inanimate@@R.Inverse@     VTA_INDEP_DUB_PERIPH_INV ;!note, allowing ambiguity
+@R.Inanimate@               VTA_INDEP_DUB_INAN ;
+
+LEXICON VTA_INDEP_DUB_PERIPH_NON_3
++3Pl:enag # ;
+# ;
+
+LEXICON VTA_INDEP_DUB_PERIPH_3
++3Obv:enan # ;
+
+LEXICON VTA_INDEP_DUB_PERIPH_INV
++0Pl:enan # ;
+
+LEXICON VTA_INDEP_DUB_INAN 
++0Pl:enan # ;
+#;
+!}
+
+!#preterit {
+LEXICON VTA_INDEP_PRET_PERIPH_GET 
+@D.Inanimate@@D.Person.3@    VTA_INDEP_PRET_PERIPH_NON_3 ;
+@D.Inanimate@@R.Person.3@    VTA_INDEP_PRET_PERIPH_3 ;
+@D.Inanimate@@R.Inverse@     VTA_INDEP_PRET_PERIPH_INV ;!note, allowing ambiguity
+@R.Inanimate@               VTA_INDEP_PRET_INAN ;
+
+LEXICON VTA_INDEP_PRET_PERIPH_NON_3
++3Pl:iig # ;
+# ;
+
+LEXICON VTA_INDEP_PRET_PERIPH_3 
++3Obv:iin # ;
+
+LEXICON VTA_INDEP_PRET_PERIPH_INV 
++0Pl:iin # ;
+
+LEXICON VTA_INDEP_PRET_INAN 
++0Pl:iin # ;
+#;
+!}
+
+!#####
+!#Inanimate Subjects {
+!#careful! inverse forms with naan are ambiguous between inan sub and 3 sub!
+!#they are not tracked into this area
+!#####
+
+LEXICON VTA_INDEP_INAN_SUB
++0Sub:n VTA_INDEP_INAN_SUB_SET ;
+
+LEXICON VTA_INDEP_INAN_SUB_SET 
+@P.Inanimate.1@ VTA_INDEP_INAN_SUB_GET ;
+
+LEXICON VTA_INDEP_INAN_SUB_GET
+@D.Person.1@    VTA_INDEP_INAN_SUB_ILESS_PL ;!should pl be specified here?
+@R.Negation@@R.Person.3@ VTA_INDEP_INAN_SUB_OBV_NEG ;
+@R.Person.3@    VTA_INDEP_INAN_SUB_OBV ;
+                VTA_INDEP_INAN_SUB_SG_OBJ ;
+
+!##Number
+LEXICON VTA_INDEP_INAN_SUB_SG_OBJ 
+0:aa    VTA_INDEP_MODE_GATEWAY;
++0Pl:an # ;
+# ;
+
+LEXICON VTA_INDEP_INAN_SUB_OBV_NEG 
++3Obv:ini   #;
+
+LEXICON VTA_INDEP_INAN_SUB_OBV 
++3Obv:inaa VTA_INDEP_MODE_GATEWAY;
+
+LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
++ILess:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
+
+LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
++0Pl:an #;
+    VTA_INDEP_MODE_GATEWAY;
+#;
+
+!}
+
+!below there be dragons
 
 !this used to be a generic place for transitives to be sorted
 !now it is just for non-independent order VTA sorting
