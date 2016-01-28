@@ -25,95 +25,95 @@ Tests:
      X+mishoomis: imishoomis
      
      #Values from slots numbered: 2
-     mishoomis+Con: mishoomisenh
-     mishoomis+Dim: mishoomisens
+     mishoomis+N+Con: mishoomisenh
+     mishoomis+N+Dim: mishoomisens
      
      
      #Values from slots numbered: 4
-     mishoomis+Pej: mishoomisish
+     mishoomis+N+Pej: mishoomisish
      
      
      #Values from slots numbered: 6
-     mishoomis+Pret: mishoomisiban
-     mishoomis+VocPl: [mishoomisidig, mishoomisidog]
+     mishoomis+N+Pret: mishoomisiban
+     mishoomis+N+VocPl: [mishoomisidig, mishoomisidog]
      
      #Values from slots numbered: 7
-     mishoomis+Loc: mishoomising
-     mishoomis+Obv: mishoomisan
-     mishoomis+Pl: mishoomisag
+     mishoomis+N+Loc: mishoomising
+     mishoomis+N+Obv: mishoomisan
+     mishoomis+N+Pl: mishoomisag
      
      #Values from slots numbered: 1, 2
-     1+mishoomis+Con: nimishoomisenh
-     1+mishoomis+Dim: nimishoomisens
-     2+mishoomis+Con: gimishoomisenh
-     2+mishoomis+Dim: gimishoomisens
-     3+mishoomis+Con: omishoomisenh
-     3+mishoomis+Dim: omishoomisens
-     X+mishoomis+Con: imishoomisenh
-     X+mishoomis+Dim: imishoomisens
+     1+mishoomis+N+Con: nimishoomisenh
+     1+mishoomis+N+Dim: nimishoomisens
+     2+mishoomis+N+Con: gimishoomisenh
+     2+mishoomis+N+Dim: gimishoomisens
+     3+mishoomis+N+Con: omishoomisenh
+     3+mishoomis+N+Dim: omishoomisens
+     X+mishoomis+N+Con: imishoomisenh
+     X+mishoomis+N+Dim: imishoomisens
      
      #Values from slots numbered: 1, 3
-     1+mishoomis+Pos: nimishoomisim
-     2+mishoomis+Pos: gimishoomisim
-     3+mishoomis+Pos: omishoomisim
-     X+mishoomis+Pos: imishoomisim
+     1+mishoomis+N+Pos: nimishoomisim
+     2+mishoomis+N+Pos: gimishoomisim
+     3+mishoomis+N+Pos: omishoomisim
+     X+mishoomis+N+Pos: imishoomisim
      
      #Values from slots numbered: 1, 4
-     1+mishoomis+Pej: nimishoomisish
-     2+mishoomis+Pej: gimishoomisish
-     3+mishoomis+Pej: omishoomisish
-     X+mishoomis+Pej: imishoomisish
+     1+mishoomis+N+Pej: nimishoomisish
+     2+mishoomis+N+Pej: gimishoomisish
+     3+mishoomis+N+Pej: omishoomisish
+     X+mishoomis+N+Pej: imishoomisish
      
      #Values from slots numbered: 1, 5
-     1+mishoomis+1Pl: nimishoomisinaan
-     2+mishoomis+21: gimishoomisinaan
-     2+mishoomis+2Pl: gimishoomisiwaa
-     3+mishoomis+3Obv: omishoomisini
-     3+mishoomis+3Pl: omishoomisiwaa
+     1+mishoomis+N+1Pl: nimishoomisinaan
+     2+mishoomis+N+21: gimishoomisinaan
+     2+mishoomis+N+2Pl: gimishoomisiwaa
+     3+mishoomis+N+3Obv: omishoomisini
+     3+mishoomis+N+3Pl: omishoomisiwaa
      
      #Values from slots numbered: 1, 6
-     1+mishoomis+Pret: nimishoomisiban
-     1+mishoomis+VocPl: [nimishoomisidig, nimishoomisidog]
-     2+mishoomis+Pret: gimishoomisiban
-     2+mishoomis+VocPl: [gimishoomisidig, gimishoomisidog]
-     3+mishoomis+Pret: omishoomisiban
-     3+mishoomis+VocPl: [omishoomisidig, omishoomisidog]
-     X+mishoomis+Pret: imishoomisiban
-     X+mishoomis+VocPl: [imishoomisidig, imishoomisidog]
+     1+mishoomis+N+Pret: nimishoomisiban
+     1+mishoomis+N+VocPl: [nimishoomisidig, nimishoomisidog]
+     2+mishoomis+N+Pret: gimishoomisiban
+     2+mishoomis+N+VocPl: [gimishoomisidig, gimishoomisidog]
+     3+mishoomis+N+Pret: omishoomisiban
+     3+mishoomis+N+VocPl: [omishoomisidig, omishoomisidog]
+     X+mishoomis+N+Pret: imishoomisiban
+     X+mishoomis+N+VocPl: [imishoomisidig, imishoomisidog]
      
      #Values from slots numbered: 1, 7
-     1+mishoomis+Loc: nimishoomising
-     1+mishoomis+Obv: nimishoomisan
-     1+mishoomis+Pl: nimishoomisag
-     2+mishoomis+Loc: gimishoomising
-     2+mishoomis+Obv: gimishoomisan
-     2+mishoomis+Pl: gimishoomisag
-     3+mishoomis+Loc: omishoomising
-     3+mishoomis+Obv: omishoomisan
-     3+mishoomis+Pl: omishoomisag
-     X+mishoomis+Loc: imishoomising
-     X+mishoomis+Obv: imishoomisan
-     X+mishoomis+Pl: imishoomisag
+     1+mishoomis+N+Loc: nimishoomising
+     1+mishoomis+N+Obv: nimishoomisan
+     1+mishoomis+N+Pl: nimishoomisag
+     2+mishoomis+N+Loc: gimishoomising
+     2+mishoomis+N+Obv: gimishoomisan
+     2+mishoomis+N+Pl: gimishoomisag
+     3+mishoomis+N+Loc: omishoomising
+     3+mishoomis+N+Obv: omishoomisan
+     3+mishoomis+N+Pl: omishoomisag
+     X+mishoomis+N+Loc: imishoomising
+     X+mishoomis+N+Obv: imishoomisan
+     X+mishoomis+N+Pl: imishoomisag
      
      
      #Values from slots numbered: 2, 4
-     mishoomis+Con+Pej: mishoomisenyish
-     mishoomis+Dim+Pej: mishoomisensish
+     mishoomis+N+Con+Pej: mishoomisenyish
+     mishoomis+N+Dim+Pej: mishoomisensish
      
      
      #Values from slots numbered: 2, 6
-     mishoomis+Con+Pret: mishoomisenyiban
-     mishoomis+Con+VocPl: [mishoomisenyidig, mishoomisenyidog]
-     mishoomis+Dim+Pret: mishoomisensiban
-     mishoomis+Dim+VocPl: [mishoomisensidig, mishoomisensidog]
+     mishoomis+N+Con+Pret: mishoomisenyiban
+     mishoomis+N+Con+VocPl: [mishoomisenyidig, mishoomisenyidog]
+     mishoomis+N+Dim+Pret: mishoomisensiban
+     mishoomis+N+Dim+VocPl: [mishoomisensidig, mishoomisensidog]
      
      #Values from slots numbered: 2, 7
-     mishoomis+Con+Loc: mishoomisenying
-     mishoomis+Con+Obv: mishoomisenyin
-     mishoomis+Con+Pl: mishoomisenyig
-     mishoomis+Dim+Loc: mishoomisensing
-     mishoomis+Dim+Obv: mishoomisensan
-     mishoomis+Dim+Pl: mishoomisensag
+     mishoomis+N+Con+Loc: mishoomisenying
+     mishoomis+N+Con+Obv: mishoomisenyin
+     mishoomis+N+Con+Pl: mishoomisenyig
+     mishoomis+N+Dim+Loc: mishoomisensing
+     mishoomis+N+Dim+Obv: mishoomisensan
+     mishoomis+N+Dim+Pl: mishoomisensag
      
      
      
@@ -121,207 +121,207 @@ Tests:
      
      
      #Values from slots numbered: 4, 6
-     mishoomis+Pej+Pret: mishoomisishiban
-     mishoomis+Pej+VocPl: [mishoomisishidig, mishoomisishidog]
+     mishoomis+N+Pej+Pret: mishoomisishiban
+     mishoomis+N+Pej+VocPl: [mishoomisishidig, mishoomisishidog]
      
      #Values from slots numbered: 4, 7
-     mishoomis+Pej+Loc: mishoomisishing
-     mishoomis+Pej+Obv: mishoomisishan
-     mishoomis+Pej+Pl: mishoomisishag
+     mishoomis+N+Pej+Loc: mishoomisishing
+     mishoomis+N+Pej+Obv: mishoomisishan
+     mishoomis+N+Pej+Pl: mishoomisishag
      
      
      
      #Values from slots numbered: 6, 7
-     mishoomis+Pret+Loc: mishoomisibaniing
-     mishoomis+Pret+Obv: mishoomisibaniin
-     mishoomis+Pret+Pl: mishoomisibaniig
+     mishoomis+N+Pret+Loc: mishoomisibaniing
+     mishoomis+N+Pret+Obv: mishoomisibaniin
+     mishoomis+N+Pret+Pl: mishoomisibaniig
      
      #Values from slots numbered: 1, 2, 3
-     1+mishoomis+Con+Pos: nimishoomisenyim
-     1+mishoomis+Dim+Pos: nimishoomisensim
-     2+mishoomis+Con+Pos: gimishoomisenyim
-     2+mishoomis+Dim+Pos: gimishoomisensim
-     3+mishoomis+Con+Pos: omishoomisenyim
-     3+mishoomis+Dim+Pos: omishoomisensim
-     X+mishoomis+Con+Pos: imishoomisenyim
-     X+mishoomis+Dim+Pos: imishoomisensim
+     1+mishoomis+N+Con+Pos: nimishoomisenyim
+     1+mishoomis+N+Dim+Pos: nimishoomisensim
+     2+mishoomis+N+Con+Pos: gimishoomisenyim
+     2+mishoomis+N+Dim+Pos: gimishoomisensim
+     3+mishoomis+N+Con+Pos: omishoomisenyim
+     3+mishoomis+N+Dim+Pos: omishoomisensim
+     X+mishoomis+N+Con+Pos: imishoomisenyim
+     X+mishoomis+N+Dim+Pos: imishoomisensim
      
      #Values from slots numbered: 1, 2, 4
-     1+mishoomis+Con+Pej: nimishoomisenyish
-     1+mishoomis+Dim+Pej: nimishoomisensish
-     2+mishoomis+Con+Pej: gimishoomisenyish
-     2+mishoomis+Dim+Pej: gimishoomisensish
-     3+mishoomis+Con+Pej: omishoomisenyish
-     3+mishoomis+Dim+Pej: omishoomisensish
-     X+mishoomis+Con+Pej: imishoomisenyish
-     X+mishoomis+Dim+Pej: imishoomisensish
+     1+mishoomis+N+Con+Pej: nimishoomisenyish
+     1+mishoomis+N+Dim+Pej: nimishoomisensish
+     2+mishoomis+N+Con+Pej: gimishoomisenyish
+     2+mishoomis+N+Dim+Pej: gimishoomisensish
+     3+mishoomis+N+Con+Pej: omishoomisenyish
+     3+mishoomis+N+Dim+Pej: omishoomisensish
+     X+mishoomis+N+Con+Pej: imishoomisenyish
+     X+mishoomis+N+Dim+Pej: imishoomisensish
      
      #Values from slots numbered: 1, 2, 5
-     1+mishoomis+Con+1Pl: nimishoomisenyinaan
-     1+mishoomis+Dim+1Pl: nimishoomisensinaan
-     2+mishoomis+Con+21: gimishoomisenyinaan
-     2+mishoomis+Con+2Pl: gimishoomisenyiwaa
-     2+mishoomis+Dim+21: gimishoomisensinaan
-     2+mishoomis+Dim+2Pl: gimishoomisensiwaa
-     3+mishoomis+Con+3Obv: omishoomisenyini
-     3+mishoomis+Con+3Pl: omishoomisenyiwaa
-     3+mishoomis+Dim+3Obv: omishoomisensini
-     3+mishoomis+Dim+3Pl: omishoomisensiwaa
+     1+mishoomis+N+Con+1Pl: nimishoomisenyinaan
+     1+mishoomis+N+Dim+1Pl: nimishoomisensinaan
+     2+mishoomis+N+Con+21: gimishoomisenyinaan
+     2+mishoomis+N+Con+2Pl: gimishoomisenyiwaa
+     2+mishoomis+N+Dim+21: gimishoomisensinaan
+     2+mishoomis+N+Dim+2Pl: gimishoomisensiwaa
+     3+mishoomis+N+Con+3Obv: omishoomisenyini
+     3+mishoomis+N+Con+3Pl: omishoomisenyiwaa
+     3+mishoomis+N+Dim+3Obv: omishoomisensini
+     3+mishoomis+N+Dim+3Pl: omishoomisensiwaa
      
      #Values from slots numbered: 1, 2, 6
-     1+mishoomis+Con+Pret: nimishoomisenyiban
-     1+mishoomis+Con+VocPl: [nimishoomisenyidig, nimishoomisenyidog]
-     1+mishoomis+Dim+Pret: nimishoomisensiban
-     1+mishoomis+Dim+VocPl: [nimishoomisensidig, nimishoomisensidog]
-     2+mishoomis+Con+Pret: gimishoomisenyiban
-     2+mishoomis+Con+VocPl: [gimishoomisenyidig, gimishoomisenyidog]
-     2+mishoomis+Dim+Pret: gimishoomisensiban
-     2+mishoomis+Dim+VocPl: [gimishoomisensidig, gimishoomisensidog]
-     3+mishoomis+Con+Pret: omishoomisenyiban
-     3+mishoomis+Con+VocPl: [omishoomisenyidig, omishoomisenyidog]
-     3+mishoomis+Dim+Pret: omishoomisensiban
-     3+mishoomis+Dim+VocPl: [omishoomisensidig, omishoomisensidog]
-     X+mishoomis+Con+Pret: imishoomisenyiban
-     X+mishoomis+Con+VocPl: [imishoomisenyidig, imishoomisenyidog]
-     X+mishoomis+Dim+Pret: imishoomisensiban
-     X+mishoomis+Dim+VocPl: [imishoomisensidig, imishoomisensidog]
+     1+mishoomis+N+Con+Pret: nimishoomisenyiban
+     1+mishoomis+N+Con+VocPl: [nimishoomisenyidig, nimishoomisenyidog]
+     1+mishoomis+N+Dim+Pret: nimishoomisensiban
+     1+mishoomis+N+Dim+VocPl: [nimishoomisensidig, nimishoomisensidog]
+     2+mishoomis+N+Con+Pret: gimishoomisenyiban
+     2+mishoomis+N+Con+VocPl: [gimishoomisenyidig, gimishoomisenyidog]
+     2+mishoomis+N+Dim+Pret: gimishoomisensiban
+     2+mishoomis+N+Dim+VocPl: [gimishoomisensidig, gimishoomisensidog]
+     3+mishoomis+N+Con+Pret: omishoomisenyiban
+     3+mishoomis+N+Con+VocPl: [omishoomisenyidig, omishoomisenyidog]
+     3+mishoomis+N+Dim+Pret: omishoomisensiban
+     3+mishoomis+N+Dim+VocPl: [omishoomisensidig, omishoomisensidog]
+     X+mishoomis+N+Con+Pret: imishoomisenyiban
+     X+mishoomis+N+Con+VocPl: [imishoomisenyidig, imishoomisenyidog]
+     X+mishoomis+N+Dim+Pret: imishoomisensiban
+     X+mishoomis+N+Dim+VocPl: [imishoomisensidig, imishoomisensidog]
      
      #Values from slots numbered: 1, 2, 7
-     1+mishoomis+Con+Loc: nimishoomisenying
-     1+mishoomis+Con+Obv: nimishoomisenyin
-     1+mishoomis+Con+Pl: nimishoomisenyig
-     1+mishoomis+Dim+Loc: nimishoomisensing
-     1+mishoomis+Dim+Obv: nimishoomisensan
-     1+mishoomis+Dim+Pl: nimishoomisensag
-     2+mishoomis+Con+Loc: gimishoomisenying
-     2+mishoomis+Con+Obv: gimishoomisenyin
-     2+mishoomis+Con+Pl: gimishoomisenyig
-     2+mishoomis+Dim+Loc: gimishoomisensing
-     2+mishoomis+Dim+Obv: gimishoomisensan
-     2+mishoomis+Dim+Pl: gimishoomisensag
-     3+mishoomis+Con+Loc: omishoomisenying
-     3+mishoomis+Con+Obv: omishoomisenyin
-     3+mishoomis+Con+Pl: omishoomisenyig
-     3+mishoomis+Dim+Loc: omishoomisensing
-     3+mishoomis+Dim+Obv: omishoomisensan
-     3+mishoomis+Dim+Pl: omishoomisensag
-     X+mishoomis+Con+Loc: imishoomisenying
-     X+mishoomis+Con+Obv: imishoomisenyin
-     X+mishoomis+Con+Pl: imishoomisenyig
-     X+mishoomis+Dim+Loc: imishoomisensing
-     X+mishoomis+Dim+Obv: imishoomisensan
-     X+mishoomis+Dim+Pl: imishoomisensag
+     1+mishoomis+N+Con+Loc: nimishoomisenying
+     1+mishoomis+N+Con+Obv: nimishoomisenyin
+     1+mishoomis+N+Con+Pl: nimishoomisenyig
+     1+mishoomis+N+Dim+Loc: nimishoomisensing
+     1+mishoomis+N+Dim+Obv: nimishoomisensan
+     1+mishoomis+N+Dim+Pl: nimishoomisensag
+     2+mishoomis+N+Con+Loc: gimishoomisenying
+     2+mishoomis+N+Con+Obv: gimishoomisenyin
+     2+mishoomis+N+Con+Pl: gimishoomisenyig
+     2+mishoomis+N+Dim+Loc: gimishoomisensing
+     2+mishoomis+N+Dim+Obv: gimishoomisensan
+     2+mishoomis+N+Dim+Pl: gimishoomisensag
+     3+mishoomis+N+Con+Loc: omishoomisenying
+     3+mishoomis+N+Con+Obv: omishoomisenyin
+     3+mishoomis+N+Con+Pl: omishoomisenyig
+     3+mishoomis+N+Dim+Loc: omishoomisensing
+     3+mishoomis+N+Dim+Obv: omishoomisensan
+     3+mishoomis+N+Dim+Pl: omishoomisensag
+     X+mishoomis+N+Con+Loc: imishoomisenying
+     X+mishoomis+N+Con+Obv: imishoomisenyin
+     X+mishoomis+N+Con+Pl: imishoomisenyig
+     X+mishoomis+N+Dim+Loc: imishoomisensing
+     X+mishoomis+N+Dim+Obv: imishoomisensan
+     X+mishoomis+N+Dim+Pl: imishoomisensag
      
      #Values from slots numbered: 1, 3, 4
-     1+mishoomis+Pos+Pej: nimishoomisimish
-     2+mishoomis+Pos+Pej: gimishoomisimish
-     3+mishoomis+Pos+Pej: omishoomisimish
-     X+mishoomis+Pos+Pej: imishoomisimish
+     1+mishoomis+N+Pos+Pej: nimishoomisimish
+     2+mishoomis+N+Pos+Pej: gimishoomisimish
+     3+mishoomis+N+Pos+Pej: omishoomisimish
+     X+mishoomis+N+Pos+Pej: imishoomisimish
      
      #Values from slots numbered: 1, 3, 5
-     1+mishoomis+Pos+1Pl: nimishoomisiminaan
-     2+mishoomis+Pos+21: gimishoomisiminaan
-     2+mishoomis+Pos+2Pl: gimishoomisimiwaa
-     3+mishoomis+Pos+3Obv: omishoomisimini
-     3+mishoomis+Pos+3Pl: omishoomisimiwaa
+     1+mishoomis+N+Pos+1Pl: nimishoomisiminaan
+     2+mishoomis+N+Pos+21: gimishoomisiminaan
+     2+mishoomis+N+Pos+2Pl: gimishoomisimiwaa
+     3+mishoomis+N+Pos+3Obv: omishoomisimini
+     3+mishoomis+N+Pos+3Pl: omishoomisimiwaa
      
      #Values from slots numbered: 1, 3, 6
-     1+mishoomis+Pos+Pret: nimishoomisimiban
-     1+mishoomis+Pos+VocPl: [nimishoomisimidig, nimishoomisimidog]
-     2+mishoomis+Pos+Pret: gimishoomisimiban
-     2+mishoomis+Pos+VocPl: [gimishoomisimidig, gimishoomisimidog]
-     3+mishoomis+Pos+Pret: omishoomisimiban
-     3+mishoomis+Pos+VocPl: [omishoomisimidig, omishoomisimidog]
-     X+mishoomis+Pos+Pret: imishoomisimiban
-     X+mishoomis+Pos+VocPl: [imishoomisimidig, imishoomisimidog]
+     1+mishoomis+N+Pos+Pret: nimishoomisimiban
+     1+mishoomis+N+Pos+VocPl: [nimishoomisimidig, nimishoomisimidog]
+     2+mishoomis+N+Pos+Pret: gimishoomisimiban
+     2+mishoomis+N+Pos+VocPl: [gimishoomisimidig, gimishoomisimidog]
+     3+mishoomis+N+Pos+Pret: omishoomisimiban
+     3+mishoomis+N+Pos+VocPl: [omishoomisimidig, omishoomisimidog]
+     X+mishoomis+N+Pos+Pret: imishoomisimiban
+     X+mishoomis+N+Pos+VocPl: [imishoomisimidig, imishoomisimidog]
      
      #Values from slots numbered: 1, 3, 7
-     1+mishoomis+Pos+Loc: nimishoomisiming
-     1+mishoomis+Pos+Obv: nimishoomisiman
-     1+mishoomis+Pos+Pl: nimishoomisimag
-     2+mishoomis+Pos+Loc: gimishoomisiming
-     2+mishoomis+Pos+Obv: gimishoomisiman
-     2+mishoomis+Pos+Pl: gimishoomisimag
-     3+mishoomis+Pos+Loc: omishoomisiming
-     3+mishoomis+Pos+Obv: omishoomisiman
-     3+mishoomis+Pos+Pl: omishoomisimag
-     X+mishoomis+Pos+Loc: imishoomisiming
-     X+mishoomis+Pos+Obv: imishoomisiman
-     X+mishoomis+Pos+Pl: imishoomisimag
+     1+mishoomis+N+Pos+Loc: nimishoomisiming
+     1+mishoomis+N+Pos+Obv: nimishoomisiman
+     1+mishoomis+N+Pos+Pl: nimishoomisimag
+     2+mishoomis+N+Pos+Loc: gimishoomisiming
+     2+mishoomis+N+Pos+Obv: gimishoomisiman
+     2+mishoomis+N+Pos+Pl: gimishoomisimag
+     3+mishoomis+N+Pos+Loc: omishoomisiming
+     3+mishoomis+N+Pos+Obv: omishoomisiman
+     3+mishoomis+N+Pos+Pl: omishoomisimag
+     X+mishoomis+N+Pos+Loc: imishoomisiming
+     X+mishoomis+N+Pos+Obv: imishoomisiman
+     X+mishoomis+N+Pos+Pl: imishoomisimag
      
      #Values from slots numbered: 1, 4, 5
-     1+mishoomis+Pej+1Pl: nimishoomisishinaan
-     2+mishoomis+Pej+21: gimishoomisishinaan
-     2+mishoomis+Pej+2Pl: gimishoomisishiwaa
-     3+mishoomis+Pej+3Obv: omishoomisishini
-     3+mishoomis+Pej+3Pl: omishoomisishiwaa
+     1+mishoomis+N+Pej+1Pl: nimishoomisishinaan
+     2+mishoomis+N+Pej+21: gimishoomisishinaan
+     2+mishoomis+N+Pej+2Pl: gimishoomisishiwaa
+     3+mishoomis+N+Pej+3Obv: omishoomisishini
+     3+mishoomis+N+Pej+3Pl: omishoomisishiwaa
      
      #Values from slots numbered: 1, 4, 6
-     1+mishoomis+Pej+Pret: nimishoomisishiban
-     1+mishoomis+Pej+VocPl: [nimishoomisishidig, nimishoomisishidog]
-     2+mishoomis+Pej+Pret: gimishoomisishiban
-     2+mishoomis+Pej+VocPl: [gimishoomisishidig, gimishoomisishidog]
-     3+mishoomis+Pej+Pret: omishoomisishiban
-     3+mishoomis+Pej+VocPl: [omishoomisishidig, omishoomisishidog]
-     X+mishoomis+Pej+Pret: imishoomisishiban
-     X+mishoomis+Pej+VocPl: [imishoomisishidig, imishoomisishidog]
+     1+mishoomis+N+Pej+Pret: nimishoomisishiban
+     1+mishoomis+N+Pej+VocPl: [nimishoomisishidig, nimishoomisishidog]
+     2+mishoomis+N+Pej+Pret: gimishoomisishiban
+     2+mishoomis+N+Pej+VocPl: [gimishoomisishidig, gimishoomisishidog]
+     3+mishoomis+N+Pej+Pret: omishoomisishiban
+     3+mishoomis+N+Pej+VocPl: [omishoomisishidig, omishoomisishidog]
+     X+mishoomis+N+Pej+Pret: imishoomisishiban
+     X+mishoomis+N+Pej+VocPl: [imishoomisishidig, imishoomisishidog]
      
      #Values from slots numbered: 1, 4, 7
-     1+mishoomis+Pej+Loc: nimishoomisishing
-     1+mishoomis+Pej+Obv: nimishoomisishan
-     1+mishoomis+Pej+Pl: nimishoomisishag
-     2+mishoomis+Pej+Loc: gimishoomisishing
-     2+mishoomis+Pej+Obv: gimishoomisishan
-     2+mishoomis+Pej+Pl: gimishoomisishag
-     3+mishoomis+Pej+Loc: omishoomisishing
-     3+mishoomis+Pej+Obv: omishoomisishan
-     3+mishoomis+Pej+Pl: omishoomisishag
-     X+mishoomis+Pej+Loc: imishoomisishing
-     X+mishoomis+Pej+Obv: imishoomisishan
-     X+mishoomis+Pej+Pl: imishoomisishag
+     1+mishoomis+N+Pej+Loc: nimishoomisishing
+     1+mishoomis+N+Pej+Obv: nimishoomisishan
+     1+mishoomis+N+Pej+Pl: nimishoomisishag
+     2+mishoomis+N+Pej+Loc: gimishoomisishing
+     2+mishoomis+N+Pej+Obv: gimishoomisishan
+     2+mishoomis+N+Pej+Pl: gimishoomisishag
+     3+mishoomis+N+Pej+Loc: omishoomisishing
+     3+mishoomis+N+Pej+Obv: omishoomisishan
+     3+mishoomis+N+Pej+Pl: omishoomisishag
+     X+mishoomis+N+Pej+Loc: imishoomisishing
+     X+mishoomis+N+Pej+Obv: imishoomisishan
+     X+mishoomis+N+Pej+Pl: imishoomisishag
      
      #Values from slots numbered: 1, 5, 6
-     1+mishoomis+1Pl+Pret: nimishoomisinaaniban
-     1+mishoomis+1Pl+VocPl: [nimishoomisinaanidig, nimishoomisinaanidog]
-     2+mishoomis+21+Pret: gimishoomisinaaniban
-     2+mishoomis+21+VocPl: [gimishoomisinaanidig, gimishoomisinaanidog]
-     2+mishoomis+2Pl+Pret: gimishoomisiwaaban
-     2+mishoomis+2Pl+VocPl: [gimishoomisiwaadig, gimishoomisiwaadog]
-     3+mishoomis+3Obv+Pret: omishoomisiniiban
-     3+mishoomis+3Obv+VocPl: [omishoomisiniidig, omishoomisiniidog]
-     3+mishoomis+3Pl+Pret: omishoomisiwaaban
-     3+mishoomis+3Pl+VocPl: [omishoomisiwaadig, omishoomisiwaadog]
+     1+mishoomis+N+1Pl+Pret: nimishoomisinaaniban
+     1+mishoomis+N+1Pl+VocPl: [nimishoomisinaanidig, nimishoomisinaanidog]
+     2+mishoomis+N+21+Pret: gimishoomisinaaniban
+     2+mishoomis+N+21+VocPl: [gimishoomisinaanidig, gimishoomisinaanidog]
+     2+mishoomis+N+2Pl+Pret: gimishoomisiwaaban
+     2+mishoomis+N+2Pl+VocPl: [gimishoomisiwaadig, gimishoomisiwaadog]
+     3+mishoomis+N+3Obv+Pret: omishoomisiniiban
+     3+mishoomis+N+3Obv+VocPl: [omishoomisiniidig, omishoomisiniidog]
+     3+mishoomis+N+3Pl+Pret: omishoomisiwaaban
+     3+mishoomis+N+3Pl+VocPl: [omishoomisiwaadig, omishoomisiwaadog]
      
      #Values from slots numbered: 1, 5, 7
-     1+mishoomis+1Pl+Loc: nimishoomisinaaning
-     1+mishoomis+1Pl+Obv: nimishoomisinaanin
-     1+mishoomis+1Pl+Pl: nimishoomisinaanig
-     2+mishoomis+21+Loc: gimishoomisinaaning
-     2+mishoomis+21+Obv: gimishoomisinaanin
-     2+mishoomis+21+Pl: gimishoomisinaanig
-     2+mishoomis+2Pl+Loc: gimishoomisiwaang
-     2+mishoomis+2Pl+Obv: gimishoomisiwaan
-     2+mishoomis+2Pl+Pl: gimishoomisiwaag
-     3+mishoomis+3Obv+Loc: omishoomisiniing
-     3+mishoomis+3Obv+Obv: omishoomisiniin
-     3+mishoomis+3Obv+Pl: omishoomisiniig
-     3+mishoomis+3Pl+Loc: omishoomisiwaang
-     3+mishoomis+3Pl+Obv: omishoomisiwaan
-     3+mishoomis+3Pl+Pl: omishoomisiwaag
+     1+mishoomis+N+1Pl+Loc: nimishoomisinaaning
+     1+mishoomis+N+1Pl+Obv: nimishoomisinaanin
+     1+mishoomis+N+1Pl+Pl: nimishoomisinaanig
+     2+mishoomis+N+21+Loc: gimishoomisinaaning
+     2+mishoomis+N+21+Obv: gimishoomisinaanin
+     2+mishoomis+N+21+Pl: gimishoomisinaanig
+     2+mishoomis+N+2Pl+Loc: gimishoomisiwaang
+     2+mishoomis+N+2Pl+Obv: gimishoomisiwaan
+     2+mishoomis+N+2Pl+Pl: gimishoomisiwaag
+     3+mishoomis+N+3Obv+Loc: omishoomisiniing
+     3+mishoomis+N+3Obv+Obv: omishoomisiniin
+     3+mishoomis+N+3Obv+Pl: omishoomisiniig
+     3+mishoomis+N+3Pl+Loc: omishoomisiwaang
+     3+mishoomis+N+3Pl+Obv: omishoomisiwaan
+     3+mishoomis+N+3Pl+Pl: omishoomisiwaag
      
      #Values from slots numbered: 1, 6, 7
-     1+mishoomis+Pret+Loc: nimishoomisibaniing
-     1+mishoomis+Pret+Obv: nimishoomisibaniin
-     1+mishoomis+Pret+Pl: nimishoomisibaniig
-     2+mishoomis+Pret+Loc: gimishoomisibaniing
-     2+mishoomis+Pret+Obv: gimishoomisibaniin
-     2+mishoomis+Pret+Pl: gimishoomisibaniig
-     3+mishoomis+Pret+Loc: omishoomisibaniing
-     3+mishoomis+Pret+Obv: omishoomisibaniin
-     3+mishoomis+Pret+Pl: omishoomisibaniig
-     X+mishoomis+Pret+Loc: imishoomisibaniing
-     X+mishoomis+Pret+Obv: imishoomisibaniin
-     X+mishoomis+Pret+Pl: imishoomisibaniig
+     1+mishoomis+N+Pret+Loc: nimishoomisibaniing
+     1+mishoomis+N+Pret+Obv: nimishoomisibaniin
+     1+mishoomis+N+Pret+Pl: nimishoomisibaniig
+     2+mishoomis+N+Pret+Loc: gimishoomisibaniing
+     2+mishoomis+N+Pret+Obv: gimishoomisibaniin
+     2+mishoomis+N+Pret+Pl: gimishoomisibaniig
+     3+mishoomis+N+Pret+Loc: omishoomisibaniing
+     3+mishoomis+N+Pret+Obv: omishoomisibaniin
+     3+mishoomis+N+Pret+Pl: omishoomisibaniig
+     X+mishoomis+N+Pret+Loc: imishoomisibaniing
+     X+mishoomis+N+Pret+Obv: imishoomisibaniin
+     X+mishoomis+N+Pret+Pl: imishoomisibaniig
      
      
      
@@ -329,28 +329,28 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6
-     mishoomis+Con+Pej+Pret: mishoomisenyishiban
-     mishoomis+Con+Pej+VocPl: [mishoomisenyishidig, mishoomisenyishidog]
-     mishoomis+Dim+Pej+Pret: mishoomisensishiban
-     mishoomis+Dim+Pej+VocPl: [mishoomisensishidig, mishoomisensishidog]
+     mishoomis+N+Con+Pej+Pret: mishoomisenyishiban
+     mishoomis+N+Con+Pej+VocPl: [mishoomisenyishidig, mishoomisenyishidog]
+     mishoomis+N+Dim+Pej+Pret: mishoomisensishiban
+     mishoomis+N+Dim+Pej+VocPl: [mishoomisensishidig, mishoomisensishidog]
      
      #Values from slots numbered: 2, 4, 7
-     mishoomis+Con+Pej+Loc: mishoomisenyishing
-     mishoomis+Con+Pej+Obv: mishoomisenyishan
-     mishoomis+Con+Pej+Pl: mishoomisenyishag
-     mishoomis+Dim+Pej+Loc: mishoomisensishing
-     mishoomis+Dim+Pej+Obv: mishoomisensishan
-     mishoomis+Dim+Pej+Pl: mishoomisensishag
+     mishoomis+N+Con+Pej+Loc: mishoomisenyishing
+     mishoomis+N+Con+Pej+Obv: mishoomisenyishan
+     mishoomis+N+Con+Pej+Pl: mishoomisenyishag
+     mishoomis+N+Dim+Pej+Loc: mishoomisensishing
+     mishoomis+N+Dim+Pej+Obv: mishoomisensishan
+     mishoomis+N+Dim+Pej+Pl: mishoomisensishag
      
      
      
      #Values from slots numbered: 2, 6, 7
-     mishoomis+Con+Pret+Loc: mishoomisenyibaniing
-     mishoomis+Con+Pret+Obv: mishoomisenyibaniin
-     mishoomis+Con+Pret+Pl: mishoomisenyibaniig
-     mishoomis+Dim+Pret+Loc: mishoomisensibaniing
-     mishoomis+Dim+Pret+Obv: mishoomisensibaniin
-     mishoomis+Dim+Pret+Pl: mishoomisensibaniig
+     mishoomis+N+Con+Pret+Loc: mishoomisenyibaniing
+     mishoomis+N+Con+Pret+Obv: mishoomisenyibaniin
+     mishoomis+N+Con+Pret+Pl: mishoomisenyibaniig
+     mishoomis+N+Dim+Pret+Loc: mishoomisensibaniing
+     mishoomis+N+Dim+Pret+Obv: mishoomisensibaniin
+     mishoomis+N+Dim+Pret+Pl: mishoomisensibaniig
      
      
      
@@ -361,361 +361,361 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
-     mishoomis+Pej+Pret+Loc: mishoomisishibaniing
-     mishoomis+Pej+Pret+Obv: mishoomisishibaniin
-     mishoomis+Pej+Pret+Pl: mishoomisishibaniig
+     mishoomis+N+Pej+Pret+Loc: mishoomisishibaniing
+     mishoomis+N+Pej+Pret+Obv: mishoomisishibaniin
+     mishoomis+N+Pej+Pret+Pl: mishoomisishibaniig
      
      
      #Values from slots numbered: 1, 2, 3, 4
-     1+mishoomis+Con+Pos+Pej: nimishoomisenyimish
-     1+mishoomis+Dim+Pos+Pej: nimishoomisensimish
-     2+mishoomis+Con+Pos+Pej: gimishoomisenyimish
-     2+mishoomis+Dim+Pos+Pej: gimishoomisensimish
-     3+mishoomis+Con+Pos+Pej: omishoomisenyimish
-     3+mishoomis+Dim+Pos+Pej: omishoomisensimish
-     X+mishoomis+Con+Pos+Pej: imishoomisenyimish
-     X+mishoomis+Dim+Pos+Pej: imishoomisensimish
+     1+mishoomis+N+Con+Pos+Pej: nimishoomisenyimish
+     1+mishoomis+N+Dim+Pos+Pej: nimishoomisensimish
+     2+mishoomis+N+Con+Pos+Pej: gimishoomisenyimish
+     2+mishoomis+N+Dim+Pos+Pej: gimishoomisensimish
+     3+mishoomis+N+Con+Pos+Pej: omishoomisenyimish
+     3+mishoomis+N+Dim+Pos+Pej: omishoomisensimish
+     X+mishoomis+N+Con+Pos+Pej: imishoomisenyimish
+     X+mishoomis+N+Dim+Pos+Pej: imishoomisensimish
      
      #Values from slots numbered: 1, 2, 3, 5
-     1+mishoomis+Con+Pos+1Pl: nimishoomisenyiminaan
-     1+mishoomis+Dim+Pos+1Pl: nimishoomisensiminaan
-     2+mishoomis+Con+Pos+21: gimishoomisenyiminaan
-     2+mishoomis+Con+Pos+2Pl: gimishoomisenyimiwaa
-     2+mishoomis+Dim+Pos+21: gimishoomisensiminaan
-     2+mishoomis+Dim+Pos+2Pl: gimishoomisensimiwaa
-     3+mishoomis+Con+Pos+3Obv: omishoomisenyimini
-     3+mishoomis+Con+Pos+3Pl: omishoomisenyimiwaa
-     3+mishoomis+Dim+Pos+3Obv: omishoomisensimini
-     3+mishoomis+Dim+Pos+3Pl: omishoomisensimiwaa
+     1+mishoomis+N+Con+Pos+1Pl: nimishoomisenyiminaan
+     1+mishoomis+N+Dim+Pos+1Pl: nimishoomisensiminaan
+     2+mishoomis+N+Con+Pos+21: gimishoomisenyiminaan
+     2+mishoomis+N+Con+Pos+2Pl: gimishoomisenyimiwaa
+     2+mishoomis+N+Dim+Pos+21: gimishoomisensiminaan
+     2+mishoomis+N+Dim+Pos+2Pl: gimishoomisensimiwaa
+     3+mishoomis+N+Con+Pos+3Obv: omishoomisenyimini
+     3+mishoomis+N+Con+Pos+3Pl: omishoomisenyimiwaa
+     3+mishoomis+N+Dim+Pos+3Obv: omishoomisensimini
+     3+mishoomis+N+Dim+Pos+3Pl: omishoomisensimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
-     1+mishoomis+Con+Pos+Pret: nimishoomisenyimiban
-     1+mishoomis+Con+Pos+VocPl: [nimishoomisenyimidig, nimishoomisenyimidog]
-     1+mishoomis+Dim+Pos+Pret: nimishoomisensimiban
-     1+mishoomis+Dim+Pos+VocPl: [nimishoomisensimidig, nimishoomisensimidog]
-     2+mishoomis+Con+Pos+Pret: gimishoomisenyimiban
-     2+mishoomis+Con+Pos+VocPl: [gimishoomisenyimidig, gimishoomisenyimidog]
-     2+mishoomis+Dim+Pos+Pret: gimishoomisensimiban
-     2+mishoomis+Dim+Pos+VocPl: [gimishoomisensimidig, gimishoomisensimidog]
-     3+mishoomis+Con+Pos+Pret: omishoomisenyimiban
-     3+mishoomis+Con+Pos+VocPl: [omishoomisenyimidig, omishoomisenyimidog]
-     3+mishoomis+Dim+Pos+Pret: omishoomisensimiban
-     3+mishoomis+Dim+Pos+VocPl: [omishoomisensimidig, omishoomisensimidog]
-     X+mishoomis+Con+Pos+Pret: imishoomisenyimiban
-     X+mishoomis+Con+Pos+VocPl: [imishoomisenyimidig, imishoomisenyimidog]
-     X+mishoomis+Dim+Pos+Pret: imishoomisensimiban
-     X+mishoomis+Dim+Pos+VocPl: [imishoomisensimidig, imishoomisensimidog]
+     1+mishoomis+N+Con+Pos+Pret: nimishoomisenyimiban
+     1+mishoomis+N+Con+Pos+VocPl: [nimishoomisenyimidig, nimishoomisenyimidog]
+     1+mishoomis+N+Dim+Pos+Pret: nimishoomisensimiban
+     1+mishoomis+N+Dim+Pos+VocPl: [nimishoomisensimidig, nimishoomisensimidog]
+     2+mishoomis+N+Con+Pos+Pret: gimishoomisenyimiban
+     2+mishoomis+N+Con+Pos+VocPl: [gimishoomisenyimidig, gimishoomisenyimidog]
+     2+mishoomis+N+Dim+Pos+Pret: gimishoomisensimiban
+     2+mishoomis+N+Dim+Pos+VocPl: [gimishoomisensimidig, gimishoomisensimidog]
+     3+mishoomis+N+Con+Pos+Pret: omishoomisenyimiban
+     3+mishoomis+N+Con+Pos+VocPl: [omishoomisenyimidig, omishoomisenyimidog]
+     3+mishoomis+N+Dim+Pos+Pret: omishoomisensimiban
+     3+mishoomis+N+Dim+Pos+VocPl: [omishoomisensimidig, omishoomisensimidog]
+     X+mishoomis+N+Con+Pos+Pret: imishoomisenyimiban
+     X+mishoomis+N+Con+Pos+VocPl: [imishoomisenyimidig, imishoomisenyimidog]
+     X+mishoomis+N+Dim+Pos+Pret: imishoomisensimiban
+     X+mishoomis+N+Dim+Pos+VocPl: [imishoomisensimidig, imishoomisensimidog]
      
      #Values from slots numbered: 1, 2, 3, 7
-     1+mishoomis+Con+Pos+Loc: nimishoomisenyiming
-     1+mishoomis+Con+Pos+Obv: nimishoomisenyiman
-     1+mishoomis+Con+Pos+Pl: nimishoomisenyimag
-     1+mishoomis+Dim+Pos+Loc: nimishoomisensiming
-     1+mishoomis+Dim+Pos+Obv: nimishoomisensiman
-     1+mishoomis+Dim+Pos+Pl: nimishoomisensimag
-     2+mishoomis+Con+Pos+Loc: gimishoomisenyiming
-     2+mishoomis+Con+Pos+Obv: gimishoomisenyiman
-     2+mishoomis+Con+Pos+Pl: gimishoomisenyimag
-     2+mishoomis+Dim+Pos+Loc: gimishoomisensiming
-     2+mishoomis+Dim+Pos+Obv: gimishoomisensiman
-     2+mishoomis+Dim+Pos+Pl: gimishoomisensimag
-     3+mishoomis+Con+Pos+Loc: omishoomisenyiming
-     3+mishoomis+Con+Pos+Obv: omishoomisenyiman
-     3+mishoomis+Con+Pos+Pl: omishoomisenyimag
-     3+mishoomis+Dim+Pos+Loc: omishoomisensiming
-     3+mishoomis+Dim+Pos+Obv: omishoomisensiman
-     3+mishoomis+Dim+Pos+Pl: omishoomisensimag
-     X+mishoomis+Con+Pos+Loc: imishoomisenyiming
-     X+mishoomis+Con+Pos+Obv: imishoomisenyiman
-     X+mishoomis+Con+Pos+Pl: imishoomisenyimag
-     X+mishoomis+Dim+Pos+Loc: imishoomisensiming
-     X+mishoomis+Dim+Pos+Obv: imishoomisensiman
-     X+mishoomis+Dim+Pos+Pl: imishoomisensimag
+     1+mishoomis+N+Con+Pos+Loc: nimishoomisenyiming
+     1+mishoomis+N+Con+Pos+Obv: nimishoomisenyiman
+     1+mishoomis+N+Con+Pos+Pl: nimishoomisenyimag
+     1+mishoomis+N+Dim+Pos+Loc: nimishoomisensiming
+     1+mishoomis+N+Dim+Pos+Obv: nimishoomisensiman
+     1+mishoomis+N+Dim+Pos+Pl: nimishoomisensimag
+     2+mishoomis+N+Con+Pos+Loc: gimishoomisenyiming
+     2+mishoomis+N+Con+Pos+Obv: gimishoomisenyiman
+     2+mishoomis+N+Con+Pos+Pl: gimishoomisenyimag
+     2+mishoomis+N+Dim+Pos+Loc: gimishoomisensiming
+     2+mishoomis+N+Dim+Pos+Obv: gimishoomisensiman
+     2+mishoomis+N+Dim+Pos+Pl: gimishoomisensimag
+     3+mishoomis+N+Con+Pos+Loc: omishoomisenyiming
+     3+mishoomis+N+Con+Pos+Obv: omishoomisenyiman
+     3+mishoomis+N+Con+Pos+Pl: omishoomisenyimag
+     3+mishoomis+N+Dim+Pos+Loc: omishoomisensiming
+     3+mishoomis+N+Dim+Pos+Obv: omishoomisensiman
+     3+mishoomis+N+Dim+Pos+Pl: omishoomisensimag
+     X+mishoomis+N+Con+Pos+Loc: imishoomisenyiming
+     X+mishoomis+N+Con+Pos+Obv: imishoomisenyiman
+     X+mishoomis+N+Con+Pos+Pl: imishoomisenyimag
+     X+mishoomis+N+Dim+Pos+Loc: imishoomisensiming
+     X+mishoomis+N+Dim+Pos+Obv: imishoomisensiman
+     X+mishoomis+N+Dim+Pos+Pl: imishoomisensimag
      
      #Values from slots numbered: 1, 2, 4, 5
-     1+mishoomis+Con+Pej+1Pl: nimishoomisenyishinaan
-     1+mishoomis+Dim+Pej+1Pl: nimishoomisensishinaan
-     2+mishoomis+Con+Pej+21: gimishoomisenyishinaan
-     2+mishoomis+Con+Pej+2Pl: gimishoomisenyishiwaa
-     2+mishoomis+Dim+Pej+21: gimishoomisensishinaan
-     2+mishoomis+Dim+Pej+2Pl: gimishoomisensishiwaa
-     3+mishoomis+Con+Pej+3Obv: omishoomisenyishini
-     3+mishoomis+Con+Pej+3Pl: omishoomisenyishiwaa
-     3+mishoomis+Dim+Pej+3Obv: omishoomisensishini
-     3+mishoomis+Dim+Pej+3Pl: omishoomisensishiwaa
+     1+mishoomis+N+Con+Pej+1Pl: nimishoomisenyishinaan
+     1+mishoomis+N+Dim+Pej+1Pl: nimishoomisensishinaan
+     2+mishoomis+N+Con+Pej+21: gimishoomisenyishinaan
+     2+mishoomis+N+Con+Pej+2Pl: gimishoomisenyishiwaa
+     2+mishoomis+N+Dim+Pej+21: gimishoomisensishinaan
+     2+mishoomis+N+Dim+Pej+2Pl: gimishoomisensishiwaa
+     3+mishoomis+N+Con+Pej+3Obv: omishoomisenyishini
+     3+mishoomis+N+Con+Pej+3Pl: omishoomisenyishiwaa
+     3+mishoomis+N+Dim+Pej+3Obv: omishoomisensishini
+     3+mishoomis+N+Dim+Pej+3Pl: omishoomisensishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
-     1+mishoomis+Con+Pej+Pret: nimishoomisenyishiban
-     1+mishoomis+Con+Pej+VocPl: [nimishoomisenyishidig, nimishoomisenyishidog]
-     1+mishoomis+Dim+Pej+Pret: nimishoomisensishiban
-     1+mishoomis+Dim+Pej+VocPl: [nimishoomisensishidig, nimishoomisensishidog]
-     2+mishoomis+Con+Pej+Pret: gimishoomisenyishiban
-     2+mishoomis+Con+Pej+VocPl: [gimishoomisenyishidig, gimishoomisenyishidog]
-     2+mishoomis+Dim+Pej+Pret: gimishoomisensishiban
-     2+mishoomis+Dim+Pej+VocPl: [gimishoomisensishidig, gimishoomisensishidog]
-     3+mishoomis+Con+Pej+Pret: omishoomisenyishiban
-     3+mishoomis+Con+Pej+VocPl: [omishoomisenyishidig, omishoomisenyishidog]
-     3+mishoomis+Dim+Pej+Pret: omishoomisensishiban
-     3+mishoomis+Dim+Pej+VocPl: [omishoomisensishidig, omishoomisensishidog]
-     X+mishoomis+Con+Pej+Pret: imishoomisenyishiban
-     X+mishoomis+Con+Pej+VocPl: [imishoomisenyishidig, imishoomisenyishidog]
-     X+mishoomis+Dim+Pej+Pret: imishoomisensishiban
-     X+mishoomis+Dim+Pej+VocPl: [imishoomisensishidig, imishoomisensishidog]
+     1+mishoomis+N+Con+Pej+Pret: nimishoomisenyishiban
+     1+mishoomis+N+Con+Pej+VocPl: [nimishoomisenyishidig, nimishoomisenyishidog]
+     1+mishoomis+N+Dim+Pej+Pret: nimishoomisensishiban
+     1+mishoomis+N+Dim+Pej+VocPl: [nimishoomisensishidig, nimishoomisensishidog]
+     2+mishoomis+N+Con+Pej+Pret: gimishoomisenyishiban
+     2+mishoomis+N+Con+Pej+VocPl: [gimishoomisenyishidig, gimishoomisenyishidog]
+     2+mishoomis+N+Dim+Pej+Pret: gimishoomisensishiban
+     2+mishoomis+N+Dim+Pej+VocPl: [gimishoomisensishidig, gimishoomisensishidog]
+     3+mishoomis+N+Con+Pej+Pret: omishoomisenyishiban
+     3+mishoomis+N+Con+Pej+VocPl: [omishoomisenyishidig, omishoomisenyishidog]
+     3+mishoomis+N+Dim+Pej+Pret: omishoomisensishiban
+     3+mishoomis+N+Dim+Pej+VocPl: [omishoomisensishidig, omishoomisensishidog]
+     X+mishoomis+N+Con+Pej+Pret: imishoomisenyishiban
+     X+mishoomis+N+Con+Pej+VocPl: [imishoomisenyishidig, imishoomisenyishidog]
+     X+mishoomis+N+Dim+Pej+Pret: imishoomisensishiban
+     X+mishoomis+N+Dim+Pej+VocPl: [imishoomisensishidig, imishoomisensishidog]
      
      #Values from slots numbered: 1, 2, 4, 7
-     1+mishoomis+Con+Pej+Loc: nimishoomisenyishing
-     1+mishoomis+Con+Pej+Obv: nimishoomisenyishan
-     1+mishoomis+Con+Pej+Pl: nimishoomisenyishag
-     1+mishoomis+Dim+Pej+Loc: nimishoomisensishing
-     1+mishoomis+Dim+Pej+Obv: nimishoomisensishan
-     1+mishoomis+Dim+Pej+Pl: nimishoomisensishag
-     2+mishoomis+Con+Pej+Loc: gimishoomisenyishing
-     2+mishoomis+Con+Pej+Obv: gimishoomisenyishan
-     2+mishoomis+Con+Pej+Pl: gimishoomisenyishag
-     2+mishoomis+Dim+Pej+Loc: gimishoomisensishing
-     2+mishoomis+Dim+Pej+Obv: gimishoomisensishan
-     2+mishoomis+Dim+Pej+Pl: gimishoomisensishag
-     3+mishoomis+Con+Pej+Loc: omishoomisenyishing
-     3+mishoomis+Con+Pej+Obv: omishoomisenyishan
-     3+mishoomis+Con+Pej+Pl: omishoomisenyishag
-     3+mishoomis+Dim+Pej+Loc: omishoomisensishing
-     3+mishoomis+Dim+Pej+Obv: omishoomisensishan
-     3+mishoomis+Dim+Pej+Pl: omishoomisensishag
-     X+mishoomis+Con+Pej+Loc: imishoomisenyishing
-     X+mishoomis+Con+Pej+Obv: imishoomisenyishan
-     X+mishoomis+Con+Pej+Pl: imishoomisenyishag
-     X+mishoomis+Dim+Pej+Loc: imishoomisensishing
-     X+mishoomis+Dim+Pej+Obv: imishoomisensishan
-     X+mishoomis+Dim+Pej+Pl: imishoomisensishag
+     1+mishoomis+N+Con+Pej+Loc: nimishoomisenyishing
+     1+mishoomis+N+Con+Pej+Obv: nimishoomisenyishan
+     1+mishoomis+N+Con+Pej+Pl: nimishoomisenyishag
+     1+mishoomis+N+Dim+Pej+Loc: nimishoomisensishing
+     1+mishoomis+N+Dim+Pej+Obv: nimishoomisensishan
+     1+mishoomis+N+Dim+Pej+Pl: nimishoomisensishag
+     2+mishoomis+N+Con+Pej+Loc: gimishoomisenyishing
+     2+mishoomis+N+Con+Pej+Obv: gimishoomisenyishan
+     2+mishoomis+N+Con+Pej+Pl: gimishoomisenyishag
+     2+mishoomis+N+Dim+Pej+Loc: gimishoomisensishing
+     2+mishoomis+N+Dim+Pej+Obv: gimishoomisensishan
+     2+mishoomis+N+Dim+Pej+Pl: gimishoomisensishag
+     3+mishoomis+N+Con+Pej+Loc: omishoomisenyishing
+     3+mishoomis+N+Con+Pej+Obv: omishoomisenyishan
+     3+mishoomis+N+Con+Pej+Pl: omishoomisenyishag
+     3+mishoomis+N+Dim+Pej+Loc: omishoomisensishing
+     3+mishoomis+N+Dim+Pej+Obv: omishoomisensishan
+     3+mishoomis+N+Dim+Pej+Pl: omishoomisensishag
+     X+mishoomis+N+Con+Pej+Loc: imishoomisenyishing
+     X+mishoomis+N+Con+Pej+Obv: imishoomisenyishan
+     X+mishoomis+N+Con+Pej+Pl: imishoomisenyishag
+     X+mishoomis+N+Dim+Pej+Loc: imishoomisensishing
+     X+mishoomis+N+Dim+Pej+Obv: imishoomisensishan
+     X+mishoomis+N+Dim+Pej+Pl: imishoomisensishag
      
      #Values from slots numbered: 1, 2, 5, 6
-     1+mishoomis+Con+1Pl+Pret: nimishoomisenyinaaniban
-     1+mishoomis+Con+1Pl+VocPl: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
-     1+mishoomis+Dim+1Pl+Pret: nimishoomisensinaaniban
-     1+mishoomis+Dim+1Pl+VocPl: [nimishoomisensinaanidig, nimishoomisensinaanidog]
-     2+mishoomis+Con+21+Pret: gimishoomisenyinaaniban
-     2+mishoomis+Con+21+VocPl: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
-     2+mishoomis+Con+2Pl+Pret: gimishoomisenyiwaaban
-     2+mishoomis+Con+2Pl+VocPl: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
-     2+mishoomis+Dim+21+Pret: gimishoomisensinaaniban
-     2+mishoomis+Dim+21+VocPl: [gimishoomisensinaanidig, gimishoomisensinaanidog]
-     2+mishoomis+Dim+2Pl+Pret: gimishoomisensiwaaban
-     2+mishoomis+Dim+2Pl+VocPl: [gimishoomisensiwaadig, gimishoomisensiwaadog]
-     3+mishoomis+Con+3Obv+Pret: omishoomisenyiniiban
-     3+mishoomis+Con+3Obv+VocPl: [omishoomisenyiniidig, omishoomisenyiniidog]
-     3+mishoomis+Con+3Pl+Pret: omishoomisenyiwaaban
-     3+mishoomis+Con+3Pl+VocPl: [omishoomisenyiwaadig, omishoomisenyiwaadog]
-     3+mishoomis+Dim+3Obv+Pret: omishoomisensiniiban
-     3+mishoomis+Dim+3Obv+VocPl: [omishoomisensiniidig, omishoomisensiniidog]
-     3+mishoomis+Dim+3Pl+Pret: omishoomisensiwaaban
-     3+mishoomis+Dim+3Pl+VocPl: [omishoomisensiwaadig, omishoomisensiwaadog]
+     1+mishoomis+N+Con+1Pl+Pret: nimishoomisenyinaaniban
+     1+mishoomis+N+Con+1Pl+VocPl: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
+     1+mishoomis+N+Dim+1Pl+Pret: nimishoomisensinaaniban
+     1+mishoomis+N+Dim+1Pl+VocPl: [nimishoomisensinaanidig, nimishoomisensinaanidog]
+     2+mishoomis+N+Con+21+Pret: gimishoomisenyinaaniban
+     2+mishoomis+N+Con+21+VocPl: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
+     2+mishoomis+N+Con+2Pl+Pret: gimishoomisenyiwaaban
+     2+mishoomis+N+Con+2Pl+VocPl: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
+     2+mishoomis+N+Dim+21+Pret: gimishoomisensinaaniban
+     2+mishoomis+N+Dim+21+VocPl: [gimishoomisensinaanidig, gimishoomisensinaanidog]
+     2+mishoomis+N+Dim+2Pl+Pret: gimishoomisensiwaaban
+     2+mishoomis+N+Dim+2Pl+VocPl: [gimishoomisensiwaadig, gimishoomisensiwaadog]
+     3+mishoomis+N+Con+3Obv+Pret: omishoomisenyiniiban
+     3+mishoomis+N+Con+3Obv+VocPl: [omishoomisenyiniidig, omishoomisenyiniidog]
+     3+mishoomis+N+Con+3Pl+Pret: omishoomisenyiwaaban
+     3+mishoomis+N+Con+3Pl+VocPl: [omishoomisenyiwaadig, omishoomisenyiwaadog]
+     3+mishoomis+N+Dim+3Obv+Pret: omishoomisensiniiban
+     3+mishoomis+N+Dim+3Obv+VocPl: [omishoomisensiniidig, omishoomisensiniidog]
+     3+mishoomis+N+Dim+3Pl+Pret: omishoomisensiwaaban
+     3+mishoomis+N+Dim+3Pl+VocPl: [omishoomisensiwaadig, omishoomisensiwaadog]
      
      #Values from slots numbered: 1, 2, 5, 7
-     1+mishoomis+Con+1Pl+Loc: nimishoomisenyinaaning
-     1+mishoomis+Con+1Pl+Obv: nimishoomisenyinaanin
-     1+mishoomis+Con+1Pl+Pl: nimishoomisenyinaanig
-     1+mishoomis+Dim+1Pl+Loc: nimishoomisensinaaning
-     1+mishoomis+Dim+1Pl+Obv: nimishoomisensinaanin
-     1+mishoomis+Dim+1Pl+Pl: nimishoomisensinaanig
-     2+mishoomis+Con+21+Loc: gimishoomisenyinaaning
-     2+mishoomis+Con+21+Obv: gimishoomisenyinaanin
-     2+mishoomis+Con+21+Pl: gimishoomisenyinaanig
-     2+mishoomis+Con+2Pl+Loc: gimishoomisenyiwaang
-     2+mishoomis+Con+2Pl+Obv: gimishoomisenyiwaan
-     2+mishoomis+Con+2Pl+Pl: gimishoomisenyiwaag
-     2+mishoomis+Dim+21+Loc: gimishoomisensinaaning
-     2+mishoomis+Dim+21+Obv: gimishoomisensinaanin
-     2+mishoomis+Dim+21+Pl: gimishoomisensinaanig
-     2+mishoomis+Dim+2Pl+Loc: gimishoomisensiwaang
-     2+mishoomis+Dim+2Pl+Obv: gimishoomisensiwaan
-     2+mishoomis+Dim+2Pl+Pl: gimishoomisensiwaag
-     3+mishoomis+Con+3Obv+Loc: omishoomisenyiniing
-     3+mishoomis+Con+3Obv+Obv: omishoomisenyiniin
-     3+mishoomis+Con+3Obv+Pl: omishoomisenyiniig
-     3+mishoomis+Con+3Pl+Loc: omishoomisenyiwaang
-     3+mishoomis+Con+3Pl+Obv: omishoomisenyiwaan
-     3+mishoomis+Con+3Pl+Pl: omishoomisenyiwaag
-     3+mishoomis+Dim+3Obv+Loc: omishoomisensiniing
-     3+mishoomis+Dim+3Obv+Obv: omishoomisensiniin
-     3+mishoomis+Dim+3Obv+Pl: omishoomisensiniig
-     3+mishoomis+Dim+3Pl+Loc: omishoomisensiwaang
-     3+mishoomis+Dim+3Pl+Obv: omishoomisensiwaan
-     3+mishoomis+Dim+3Pl+Pl: omishoomisensiwaag
+     1+mishoomis+N+Con+1Pl+Loc: nimishoomisenyinaaning
+     1+mishoomis+N+Con+1Pl+Obv: nimishoomisenyinaanin
+     1+mishoomis+N+Con+1Pl+Pl: nimishoomisenyinaanig
+     1+mishoomis+N+Dim+1Pl+Loc: nimishoomisensinaaning
+     1+mishoomis+N+Dim+1Pl+Obv: nimishoomisensinaanin
+     1+mishoomis+N+Dim+1Pl+Pl: nimishoomisensinaanig
+     2+mishoomis+N+Con+21+Loc: gimishoomisenyinaaning
+     2+mishoomis+N+Con+21+Obv: gimishoomisenyinaanin
+     2+mishoomis+N+Con+21+Pl: gimishoomisenyinaanig
+     2+mishoomis+N+Con+2Pl+Loc: gimishoomisenyiwaang
+     2+mishoomis+N+Con+2Pl+Obv: gimishoomisenyiwaan
+     2+mishoomis+N+Con+2Pl+Pl: gimishoomisenyiwaag
+     2+mishoomis+N+Dim+21+Loc: gimishoomisensinaaning
+     2+mishoomis+N+Dim+21+Obv: gimishoomisensinaanin
+     2+mishoomis+N+Dim+21+Pl: gimishoomisensinaanig
+     2+mishoomis+N+Dim+2Pl+Loc: gimishoomisensiwaang
+     2+mishoomis+N+Dim+2Pl+Obv: gimishoomisensiwaan
+     2+mishoomis+N+Dim+2Pl+Pl: gimishoomisensiwaag
+     3+mishoomis+N+Con+3Obv+Loc: omishoomisenyiniing
+     3+mishoomis+N+Con+3Obv+Obv: omishoomisenyiniin
+     3+mishoomis+N+Con+3Obv+Pl: omishoomisenyiniig
+     3+mishoomis+N+Con+3Pl+Loc: omishoomisenyiwaang
+     3+mishoomis+N+Con+3Pl+Obv: omishoomisenyiwaan
+     3+mishoomis+N+Con+3Pl+Pl: omishoomisenyiwaag
+     3+mishoomis+N+Dim+3Obv+Loc: omishoomisensiniing
+     3+mishoomis+N+Dim+3Obv+Obv: omishoomisensiniin
+     3+mishoomis+N+Dim+3Obv+Pl: omishoomisensiniig
+     3+mishoomis+N+Dim+3Pl+Loc: omishoomisensiwaang
+     3+mishoomis+N+Dim+3Pl+Obv: omishoomisensiwaan
+     3+mishoomis+N+Dim+3Pl+Pl: omishoomisensiwaag
      
      #Values from slots numbered: 1, 2, 6, 7
-     1+mishoomis+Con+Pret+Loc: nimishoomisenyibaniing
-     1+mishoomis+Con+Pret+Obv: nimishoomisenyibaniin
-     1+mishoomis+Con+Pret+Pl: nimishoomisenyibaniig
-     1+mishoomis+Dim+Pret+Loc: nimishoomisensibaniing
-     1+mishoomis+Dim+Pret+Obv: nimishoomisensibaniin
-     1+mishoomis+Dim+Pret+Pl: nimishoomisensibaniig
-     2+mishoomis+Con+Pret+Loc: gimishoomisenyibaniing
-     2+mishoomis+Con+Pret+Obv: gimishoomisenyibaniin
-     2+mishoomis+Con+Pret+Pl: gimishoomisenyibaniig
-     2+mishoomis+Dim+Pret+Loc: gimishoomisensibaniing
-     2+mishoomis+Dim+Pret+Obv: gimishoomisensibaniin
-     2+mishoomis+Dim+Pret+Pl: gimishoomisensibaniig
-     3+mishoomis+Con+Pret+Loc: omishoomisenyibaniing
-     3+mishoomis+Con+Pret+Obv: omishoomisenyibaniin
-     3+mishoomis+Con+Pret+Pl: omishoomisenyibaniig
-     3+mishoomis+Dim+Pret+Loc: omishoomisensibaniing
-     3+mishoomis+Dim+Pret+Obv: omishoomisensibaniin
-     3+mishoomis+Dim+Pret+Pl: omishoomisensibaniig
-     X+mishoomis+Con+Pret+Loc: imishoomisenyibaniing
-     X+mishoomis+Con+Pret+Obv: imishoomisenyibaniin
-     X+mishoomis+Con+Pret+Pl: imishoomisenyibaniig
-     X+mishoomis+Dim+Pret+Loc: imishoomisensibaniing
-     X+mishoomis+Dim+Pret+Obv: imishoomisensibaniin
-     X+mishoomis+Dim+Pret+Pl: imishoomisensibaniig
+     1+mishoomis+N+Con+Pret+Loc: nimishoomisenyibaniing
+     1+mishoomis+N+Con+Pret+Obv: nimishoomisenyibaniin
+     1+mishoomis+N+Con+Pret+Pl: nimishoomisenyibaniig
+     1+mishoomis+N+Dim+Pret+Loc: nimishoomisensibaniing
+     1+mishoomis+N+Dim+Pret+Obv: nimishoomisensibaniin
+     1+mishoomis+N+Dim+Pret+Pl: nimishoomisensibaniig
+     2+mishoomis+N+Con+Pret+Loc: gimishoomisenyibaniing
+     2+mishoomis+N+Con+Pret+Obv: gimishoomisenyibaniin
+     2+mishoomis+N+Con+Pret+Pl: gimishoomisenyibaniig
+     2+mishoomis+N+Dim+Pret+Loc: gimishoomisensibaniing
+     2+mishoomis+N+Dim+Pret+Obv: gimishoomisensibaniin
+     2+mishoomis+N+Dim+Pret+Pl: gimishoomisensibaniig
+     3+mishoomis+N+Con+Pret+Loc: omishoomisenyibaniing
+     3+mishoomis+N+Con+Pret+Obv: omishoomisenyibaniin
+     3+mishoomis+N+Con+Pret+Pl: omishoomisenyibaniig
+     3+mishoomis+N+Dim+Pret+Loc: omishoomisensibaniing
+     3+mishoomis+N+Dim+Pret+Obv: omishoomisensibaniin
+     3+mishoomis+N+Dim+Pret+Pl: omishoomisensibaniig
+     X+mishoomis+N+Con+Pret+Loc: imishoomisenyibaniing
+     X+mishoomis+N+Con+Pret+Obv: imishoomisenyibaniin
+     X+mishoomis+N+Con+Pret+Pl: imishoomisenyibaniig
+     X+mishoomis+N+Dim+Pret+Loc: imishoomisensibaniing
+     X+mishoomis+N+Dim+Pret+Obv: imishoomisensibaniin
+     X+mishoomis+N+Dim+Pret+Pl: imishoomisensibaniig
      
      #Values from slots numbered: 1, 3, 4, 5
-     1+mishoomis+Pos+Pej+1Pl: nimishoomisimishinaan
-     2+mishoomis+Pos+Pej+21: gimishoomisimishinaan
-     2+mishoomis+Pos+Pej+2Pl: gimishoomisimishiwaa
-     3+mishoomis+Pos+Pej+3Obv: omishoomisimishini
-     3+mishoomis+Pos+Pej+3Pl: omishoomisimishiwaa
+     1+mishoomis+N+Pos+Pej+1Pl: nimishoomisimishinaan
+     2+mishoomis+N+Pos+Pej+21: gimishoomisimishinaan
+     2+mishoomis+N+Pos+Pej+2Pl: gimishoomisimishiwaa
+     3+mishoomis+N+Pos+Pej+3Obv: omishoomisimishini
+     3+mishoomis+N+Pos+Pej+3Pl: omishoomisimishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
-     1+mishoomis+Pos+Pej+Pret: nimishoomisimishiban
-     1+mishoomis+Pos+Pej+VocPl: [nimishoomisimishidig, nimishoomisimishidog]
-     2+mishoomis+Pos+Pej+Pret: gimishoomisimishiban
-     2+mishoomis+Pos+Pej+VocPl: [gimishoomisimishidig, gimishoomisimishidog]
-     3+mishoomis+Pos+Pej+Pret: omishoomisimishiban
-     3+mishoomis+Pos+Pej+VocPl: [omishoomisimishidig, omishoomisimishidog]
-     X+mishoomis+Pos+Pej+Pret: imishoomisimishiban
-     X+mishoomis+Pos+Pej+VocPl: [imishoomisimishidig, imishoomisimishidog]
+     1+mishoomis+N+Pos+Pej+Pret: nimishoomisimishiban
+     1+mishoomis+N+Pos+Pej+VocPl: [nimishoomisimishidig, nimishoomisimishidog]
+     2+mishoomis+N+Pos+Pej+Pret: gimishoomisimishiban
+     2+mishoomis+N+Pos+Pej+VocPl: [gimishoomisimishidig, gimishoomisimishidog]
+     3+mishoomis+N+Pos+Pej+Pret: omishoomisimishiban
+     3+mishoomis+N+Pos+Pej+VocPl: [omishoomisimishidig, omishoomisimishidog]
+     X+mishoomis+N+Pos+Pej+Pret: imishoomisimishiban
+     X+mishoomis+N+Pos+Pej+VocPl: [imishoomisimishidig, imishoomisimishidog]
      
      #Values from slots numbered: 1, 3, 4, 7
-     1+mishoomis+Pos+Pej+Loc: nimishoomisimishing
-     1+mishoomis+Pos+Pej+Obv: nimishoomisimishan
-     1+mishoomis+Pos+Pej+Pl: nimishoomisimishag
-     2+mishoomis+Pos+Pej+Loc: gimishoomisimishing
-     2+mishoomis+Pos+Pej+Obv: gimishoomisimishan
-     2+mishoomis+Pos+Pej+Pl: gimishoomisimishag
-     3+mishoomis+Pos+Pej+Loc: omishoomisimishing
-     3+mishoomis+Pos+Pej+Obv: omishoomisimishan
-     3+mishoomis+Pos+Pej+Pl: omishoomisimishag
-     X+mishoomis+Pos+Pej+Loc: imishoomisimishing
-     X+mishoomis+Pos+Pej+Obv: imishoomisimishan
-     X+mishoomis+Pos+Pej+Pl: imishoomisimishag
+     1+mishoomis+N+Pos+Pej+Loc: nimishoomisimishing
+     1+mishoomis+N+Pos+Pej+Obv: nimishoomisimishan
+     1+mishoomis+N+Pos+Pej+Pl: nimishoomisimishag
+     2+mishoomis+N+Pos+Pej+Loc: gimishoomisimishing
+     2+mishoomis+N+Pos+Pej+Obv: gimishoomisimishan
+     2+mishoomis+N+Pos+Pej+Pl: gimishoomisimishag
+     3+mishoomis+N+Pos+Pej+Loc: omishoomisimishing
+     3+mishoomis+N+Pos+Pej+Obv: omishoomisimishan
+     3+mishoomis+N+Pos+Pej+Pl: omishoomisimishag
+     X+mishoomis+N+Pos+Pej+Loc: imishoomisimishing
+     X+mishoomis+N+Pos+Pej+Obv: imishoomisimishan
+     X+mishoomis+N+Pos+Pej+Pl: imishoomisimishag
      
      #Values from slots numbered: 1, 3, 5, 6
-     1+mishoomis+Pos+1Pl+Pret: nimishoomisiminaaniban
-     1+mishoomis+Pos+1Pl+VocPl: [nimishoomisiminaanidig, nimishoomisiminaanidog]
-     2+mishoomis+Pos+21+Pret: gimishoomisiminaaniban
-     2+mishoomis+Pos+21+VocPl: [gimishoomisiminaanidig, gimishoomisiminaanidog]
-     2+mishoomis+Pos+2Pl+Pret: gimishoomisimiwaaban
-     2+mishoomis+Pos+2Pl+VocPl: [gimishoomisimiwaadig, gimishoomisimiwaadog]
-     3+mishoomis+Pos+3Obv+Pret: omishoomisiminiiban
-     3+mishoomis+Pos+3Obv+VocPl: [omishoomisiminiidig, omishoomisiminiidog]
-     3+mishoomis+Pos+3Pl+Pret: omishoomisimiwaaban
-     3+mishoomis+Pos+3Pl+VocPl: [omishoomisimiwaadig, omishoomisimiwaadog]
+     1+mishoomis+N+Pos+1Pl+Pret: nimishoomisiminaaniban
+     1+mishoomis+N+Pos+1Pl+VocPl: [nimishoomisiminaanidig, nimishoomisiminaanidog]
+     2+mishoomis+N+Pos+21+Pret: gimishoomisiminaaniban
+     2+mishoomis+N+Pos+21+VocPl: [gimishoomisiminaanidig, gimishoomisiminaanidog]
+     2+mishoomis+N+Pos+2Pl+Pret: gimishoomisimiwaaban
+     2+mishoomis+N+Pos+2Pl+VocPl: [gimishoomisimiwaadig, gimishoomisimiwaadog]
+     3+mishoomis+N+Pos+3Obv+Pret: omishoomisiminiiban
+     3+mishoomis+N+Pos+3Obv+VocPl: [omishoomisiminiidig, omishoomisiminiidog]
+     3+mishoomis+N+Pos+3Pl+Pret: omishoomisimiwaaban
+     3+mishoomis+N+Pos+3Pl+VocPl: [omishoomisimiwaadig, omishoomisimiwaadog]
      
      #Values from slots numbered: 1, 3, 5, 7
-     1+mishoomis+Pos+1Pl+Loc: nimishoomisiminaaning
-     1+mishoomis+Pos+1Pl+Obv: nimishoomisiminaanin
-     1+mishoomis+Pos+1Pl+Pl: nimishoomisiminaanig
-     2+mishoomis+Pos+21+Loc: gimishoomisiminaaning
-     2+mishoomis+Pos+21+Obv: gimishoomisiminaanin
-     2+mishoomis+Pos+21+Pl: gimishoomisiminaanig
-     2+mishoomis+Pos+2Pl+Loc: gimishoomisimiwaang
-     2+mishoomis+Pos+2Pl+Obv: gimishoomisimiwaan
-     2+mishoomis+Pos+2Pl+Pl: gimishoomisimiwaag
-     3+mishoomis+Pos+3Obv+Loc: omishoomisiminiing
-     3+mishoomis+Pos+3Obv+Obv: omishoomisiminiin
-     3+mishoomis+Pos+3Obv+Pl: omishoomisiminiig
-     3+mishoomis+Pos+3Pl+Loc: omishoomisimiwaang
-     3+mishoomis+Pos+3Pl+Obv: omishoomisimiwaan
-     3+mishoomis+Pos+3Pl+Pl: omishoomisimiwaag
+     1+mishoomis+N+Pos+1Pl+Loc: nimishoomisiminaaning
+     1+mishoomis+N+Pos+1Pl+Obv: nimishoomisiminaanin
+     1+mishoomis+N+Pos+1Pl+Pl: nimishoomisiminaanig
+     2+mishoomis+N+Pos+21+Loc: gimishoomisiminaaning
+     2+mishoomis+N+Pos+21+Obv: gimishoomisiminaanin
+     2+mishoomis+N+Pos+21+Pl: gimishoomisiminaanig
+     2+mishoomis+N+Pos+2Pl+Loc: gimishoomisimiwaang
+     2+mishoomis+N+Pos+2Pl+Obv: gimishoomisimiwaan
+     2+mishoomis+N+Pos+2Pl+Pl: gimishoomisimiwaag
+     3+mishoomis+N+Pos+3Obv+Loc: omishoomisiminiing
+     3+mishoomis+N+Pos+3Obv+Obv: omishoomisiminiin
+     3+mishoomis+N+Pos+3Obv+Pl: omishoomisiminiig
+     3+mishoomis+N+Pos+3Pl+Loc: omishoomisimiwaang
+     3+mishoomis+N+Pos+3Pl+Obv: omishoomisimiwaan
+     3+mishoomis+N+Pos+3Pl+Pl: omishoomisimiwaag
      
      #Values from slots numbered: 1, 3, 6, 7
-     1+mishoomis+Pos+Pret+Loc: nimishoomisimibaniing
-     1+mishoomis+Pos+Pret+Obv: nimishoomisimibaniin
-     1+mishoomis+Pos+Pret+Pl: nimishoomisimibaniig
-     2+mishoomis+Pos+Pret+Loc: gimishoomisimibaniing
-     2+mishoomis+Pos+Pret+Obv: gimishoomisimibaniin
-     2+mishoomis+Pos+Pret+Pl: gimishoomisimibaniig
-     3+mishoomis+Pos+Pret+Loc: omishoomisimibaniing
-     3+mishoomis+Pos+Pret+Obv: omishoomisimibaniin
-     3+mishoomis+Pos+Pret+Pl: omishoomisimibaniig
-     X+mishoomis+Pos+Pret+Loc: imishoomisimibaniing
-     X+mishoomis+Pos+Pret+Obv: imishoomisimibaniin
-     X+mishoomis+Pos+Pret+Pl: imishoomisimibaniig
+     1+mishoomis+N+Pos+Pret+Loc: nimishoomisimibaniing
+     1+mishoomis+N+Pos+Pret+Obv: nimishoomisimibaniin
+     1+mishoomis+N+Pos+Pret+Pl: nimishoomisimibaniig
+     2+mishoomis+N+Pos+Pret+Loc: gimishoomisimibaniing
+     2+mishoomis+N+Pos+Pret+Obv: gimishoomisimibaniin
+     2+mishoomis+N+Pos+Pret+Pl: gimishoomisimibaniig
+     3+mishoomis+N+Pos+Pret+Loc: omishoomisimibaniing
+     3+mishoomis+N+Pos+Pret+Obv: omishoomisimibaniin
+     3+mishoomis+N+Pos+Pret+Pl: omishoomisimibaniig
+     X+mishoomis+N+Pos+Pret+Loc: imishoomisimibaniing
+     X+mishoomis+N+Pos+Pret+Obv: imishoomisimibaniin
+     X+mishoomis+N+Pos+Pret+Pl: imishoomisimibaniig
      
      #Values from slots numbered: 1, 4, 5, 6
-     1+mishoomis+Pej+1Pl+Pret: nimishoomisishinaaniban
-     1+mishoomis+Pej+1Pl+VocPl: [nimishoomisishinaanidig, nimishoomisishinaanidog]
-     2+mishoomis+Pej+21+Pret: gimishoomisishinaaniban
-     2+mishoomis+Pej+21+VocPl: [gimishoomisishinaanidig, gimishoomisishinaanidog]
-     2+mishoomis+Pej+2Pl+Pret: gimishoomisishiwaaban
-     2+mishoomis+Pej+2Pl+VocPl: [gimishoomisishiwaadig, gimishoomisishiwaadog]
-     3+mishoomis+Pej+3Obv+Pret: omishoomisishiniiban
-     3+mishoomis+Pej+3Obv+VocPl: [omishoomisishiniidig, omishoomisishiniidog]
-     3+mishoomis+Pej+3Pl+Pret: omishoomisishiwaaban
-     3+mishoomis+Pej+3Pl+VocPl: [omishoomisishiwaadig, omishoomisishiwaadog]
+     1+mishoomis+N+Pej+1Pl+Pret: nimishoomisishinaaniban
+     1+mishoomis+N+Pej+1Pl+VocPl: [nimishoomisishinaanidig, nimishoomisishinaanidog]
+     2+mishoomis+N+Pej+21+Pret: gimishoomisishinaaniban
+     2+mishoomis+N+Pej+21+VocPl: [gimishoomisishinaanidig, gimishoomisishinaanidog]
+     2+mishoomis+N+Pej+2Pl+Pret: gimishoomisishiwaaban
+     2+mishoomis+N+Pej+2Pl+VocPl: [gimishoomisishiwaadig, gimishoomisishiwaadog]
+     3+mishoomis+N+Pej+3Obv+Pret: omishoomisishiniiban
+     3+mishoomis+N+Pej+3Obv+VocPl: [omishoomisishiniidig, omishoomisishiniidog]
+     3+mishoomis+N+Pej+3Pl+Pret: omishoomisishiwaaban
+     3+mishoomis+N+Pej+3Pl+VocPl: [omishoomisishiwaadig, omishoomisishiwaadog]
      
      #Values from slots numbered: 1, 4, 5, 7
-     1+mishoomis+Pej+1Pl+Loc: nimishoomisishinaaning
-     1+mishoomis+Pej+1Pl+Obv: nimishoomisishinaanin
-     1+mishoomis+Pej+1Pl+Pl: nimishoomisishinaanig
-     2+mishoomis+Pej+21+Loc: gimishoomisishinaaning
-     2+mishoomis+Pej+21+Obv: gimishoomisishinaanin
-     2+mishoomis+Pej+21+Pl: gimishoomisishinaanig
-     2+mishoomis+Pej+2Pl+Loc: gimishoomisishiwaang
-     2+mishoomis+Pej+2Pl+Obv: gimishoomisishiwaan
-     2+mishoomis+Pej+2Pl+Pl: gimishoomisishiwaag
-     3+mishoomis+Pej+3Obv+Loc: omishoomisishiniing
-     3+mishoomis+Pej+3Obv+Obv: omishoomisishiniin
-     3+mishoomis+Pej+3Obv+Pl: omishoomisishiniig
-     3+mishoomis+Pej+3Pl+Loc: omishoomisishiwaang
-     3+mishoomis+Pej+3Pl+Obv: omishoomisishiwaan
-     3+mishoomis+Pej+3Pl+Pl: omishoomisishiwaag
+     1+mishoomis+N+Pej+1Pl+Loc: nimishoomisishinaaning
+     1+mishoomis+N+Pej+1Pl+Obv: nimishoomisishinaanin
+     1+mishoomis+N+Pej+1Pl+Pl: nimishoomisishinaanig
+     2+mishoomis+N+Pej+21+Loc: gimishoomisishinaaning
+     2+mishoomis+N+Pej+21+Obv: gimishoomisishinaanin
+     2+mishoomis+N+Pej+21+Pl: gimishoomisishinaanig
+     2+mishoomis+N+Pej+2Pl+Loc: gimishoomisishiwaang
+     2+mishoomis+N+Pej+2Pl+Obv: gimishoomisishiwaan
+     2+mishoomis+N+Pej+2Pl+Pl: gimishoomisishiwaag
+     3+mishoomis+N+Pej+3Obv+Loc: omishoomisishiniing
+     3+mishoomis+N+Pej+3Obv+Obv: omishoomisishiniin
+     3+mishoomis+N+Pej+3Obv+Pl: omishoomisishiniig
+     3+mishoomis+N+Pej+3Pl+Loc: omishoomisishiwaang
+     3+mishoomis+N+Pej+3Pl+Obv: omishoomisishiwaan
+     3+mishoomis+N+Pej+3Pl+Pl: omishoomisishiwaag
      
      #Values from slots numbered: 1, 4, 6, 7
-     1+mishoomis+Pej+Pret+Loc: nimishoomisishibaniing
-     1+mishoomis+Pej+Pret+Obv: nimishoomisishibaniin
-     1+mishoomis+Pej+Pret+Pl: nimishoomisishibaniig
-     2+mishoomis+Pej+Pret+Loc: gimishoomisishibaniing
-     2+mishoomis+Pej+Pret+Obv: gimishoomisishibaniin
-     2+mishoomis+Pej+Pret+Pl: gimishoomisishibaniig
-     3+mishoomis+Pej+Pret+Loc: omishoomisishibaniing
-     3+mishoomis+Pej+Pret+Obv: omishoomisishibaniin
-     3+mishoomis+Pej+Pret+Pl: omishoomisishibaniig
-     X+mishoomis+Pej+Pret+Loc: imishoomisishibaniing
-     X+mishoomis+Pej+Pret+Obv: imishoomisishibaniin
-     X+mishoomis+Pej+Pret+Pl: imishoomisishibaniig
+     1+mishoomis+N+Pej+Pret+Loc: nimishoomisishibaniing
+     1+mishoomis+N+Pej+Pret+Obv: nimishoomisishibaniin
+     1+mishoomis+N+Pej+Pret+Pl: nimishoomisishibaniig
+     2+mishoomis+N+Pej+Pret+Loc: gimishoomisishibaniing
+     2+mishoomis+N+Pej+Pret+Obv: gimishoomisishibaniin
+     2+mishoomis+N+Pej+Pret+Pl: gimishoomisishibaniig
+     3+mishoomis+N+Pej+Pret+Loc: omishoomisishibaniing
+     3+mishoomis+N+Pej+Pret+Obv: omishoomisishibaniin
+     3+mishoomis+N+Pej+Pret+Pl: omishoomisishibaniig
+     X+mishoomis+N+Pej+Pret+Loc: imishoomisishibaniing
+     X+mishoomis+N+Pej+Pret+Obv: imishoomisishibaniin
+     X+mishoomis+N+Pej+Pret+Pl: imishoomisishibaniig
      
      #Values from slots numbered: 1, 5, 6, 7
-     1+mishoomis+1Pl+Pret+Loc: nimishoomisinaanibaniing
-     1+mishoomis+1Pl+Pret+Obv: nimishoomisinaanibaniin
-     1+mishoomis+1Pl+Pret+Pl: nimishoomisinaanibaniig
-     1+mishoomis+1Pl+VocPl+Loc: [nimishoomisinaanidig, nimishoomisinaanidog]
-     1+mishoomis+1Pl+VocPl+Obv: [nimishoomisinaanidig, nimishoomisinaanidog]
-     1+mishoomis+1Pl+VocPl+Pl: [nimishoomisinaanidig, nimishoomisinaanidog]
-     2+mishoomis+21+Pret+Loc: gimishoomisinaanibaniing
-     2+mishoomis+21+Pret+Obv: gimishoomisinaanibaniin
-     2+mishoomis+21+Pret+Pl: gimishoomisinaanibaniig
-     2+mishoomis+21+VocPl+Loc: [gimishoomisinaanidig, gimishoomisinaanidog]
-     2+mishoomis+21+VocPl+Obv: [gimishoomisinaanidig, gimishoomisinaanidog]
-     2+mishoomis+21+VocPl+Pl: [gimishoomisinaanidig, gimishoomisinaanidog]
-     2+mishoomis+2Pl+Pret+Loc: gimishoomisiwaabaniing
-     2+mishoomis+2Pl+Pret+Obv: gimishoomisiwaabaniin
-     2+mishoomis+2Pl+Pret+Pl: gimishoomisiwaabaniig
-     2+mishoomis+2Pl+VocPl+Loc: [gimishoomisiwaadig, gimishoomisiwaadog]
-     2+mishoomis+2Pl+VocPl+Obv: [gimishoomisiwaadig, gimishoomisiwaadog]
-     2+mishoomis+2Pl+VocPl+Pl: [gimishoomisiwaadig, gimishoomisiwaadog]
-     3+mishoomis+3Obv+Pret+Loc: omishoomisiniibaniing
-     3+mishoomis+3Obv+Pret+Obv: omishoomisiniibaniin
-     3+mishoomis+3Obv+Pret+Pl: omishoomisiniibaniig
-     3+mishoomis+3Obv+VocPl+Loc: [omishoomisiniidig, omishoomisiniidog]
-     3+mishoomis+3Obv+VocPl+Obv: [omishoomisiniidig, omishoomisiniidog]
-     3+mishoomis+3Obv+VocPl+Pl: [omishoomisiniidig, omishoomisiniidog]
-     3+mishoomis+3Pl+Pret+Loc: omishoomisiwaabaniing
-     3+mishoomis+3Pl+Pret+Obv: omishoomisiwaabaniin
-     3+mishoomis+3Pl+Pret+Pl: omishoomisiwaabaniig
-     3+mishoomis+3Pl+VocPl+Loc: [omishoomisiwaadig, omishoomisiwaadog]
-     3+mishoomis+3Pl+VocPl+Obv: [omishoomisiwaadig, omishoomisiwaadog]
-     3+mishoomis+3Pl+VocPl+Pl: [omishoomisiwaadig, omishoomisiwaadog]
+     1+mishoomis+N+1Pl+Pret+Loc: nimishoomisinaanibaniing
+     1+mishoomis+N+1Pl+Pret+Obv: nimishoomisinaanibaniin
+     1+mishoomis+N+1Pl+Pret+Pl: nimishoomisinaanibaniig
+     1+mishoomis+N+1Pl+VocPl+Loc: [nimishoomisinaanidig, nimishoomisinaanidog]
+     1+mishoomis+N+1Pl+VocPl+Obv: [nimishoomisinaanidig, nimishoomisinaanidog]
+     1+mishoomis+N+1Pl+VocPl+Pl: [nimishoomisinaanidig, nimishoomisinaanidog]
+     2+mishoomis+N+21+Pret+Loc: gimishoomisinaanibaniing
+     2+mishoomis+N+21+Pret+Obv: gimishoomisinaanibaniin
+     2+mishoomis+N+21+Pret+Pl: gimishoomisinaanibaniig
+     2+mishoomis+N+21+VocPl+Loc: [gimishoomisinaanidig, gimishoomisinaanidog]
+     2+mishoomis+N+21+VocPl+Obv: [gimishoomisinaanidig, gimishoomisinaanidog]
+     2+mishoomis+N+21+VocPl+Pl: [gimishoomisinaanidig, gimishoomisinaanidog]
+     2+mishoomis+N+2Pl+Pret+Loc: gimishoomisiwaabaniing
+     2+mishoomis+N+2Pl+Pret+Obv: gimishoomisiwaabaniin
+     2+mishoomis+N+2Pl+Pret+Pl: gimishoomisiwaabaniig
+     2+mishoomis+N+2Pl+VocPl+Loc: [gimishoomisiwaadig, gimishoomisiwaadog]
+     2+mishoomis+N+2Pl+VocPl+Obv: [gimishoomisiwaadig, gimishoomisiwaadog]
+     2+mishoomis+N+2Pl+VocPl+Pl: [gimishoomisiwaadig, gimishoomisiwaadog]
+     3+mishoomis+N+3Obv+Pret+Loc: omishoomisiniibaniing
+     3+mishoomis+N+3Obv+Pret+Obv: omishoomisiniibaniin
+     3+mishoomis+N+3Obv+Pret+Pl: omishoomisiniibaniig
+     3+mishoomis+N+3Obv+VocPl+Loc: [omishoomisiniidig, omishoomisiniidog]
+     3+mishoomis+N+3Obv+VocPl+Obv: [omishoomisiniidig, omishoomisiniidog]
+     3+mishoomis+N+3Obv+VocPl+Pl: [omishoomisiniidig, omishoomisiniidog]
+     3+mishoomis+N+3Pl+Pret+Loc: omishoomisiwaabaniing
+     3+mishoomis+N+3Pl+Pret+Obv: omishoomisiwaabaniin
+     3+mishoomis+N+3Pl+Pret+Pl: omishoomisiwaabaniig
+     3+mishoomis+N+3Pl+VocPl+Loc: [omishoomisiwaadig, omishoomisiwaadog]
+     3+mishoomis+N+3Pl+VocPl+Obv: [omishoomisiwaadig, omishoomisiwaadog]
+     3+mishoomis+N+3Pl+VocPl+Pl: [omishoomisiwaadig, omishoomisiwaadog]
      
      
      
@@ -726,12 +726,12 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
-     mishoomis+Con+Pej+Pret+Loc: mishoomisenyishibaniing
-     mishoomis+Con+Pej+Pret+Obv: mishoomisenyishibaniin
-     mishoomis+Con+Pej+Pret+Pl: mishoomisenyishibaniig
-     mishoomis+Dim+Pej+Pret+Loc: mishoomisensishibaniing
-     mishoomis+Dim+Pej+Pret+Obv: mishoomisensishibaniin
-     mishoomis+Dim+Pej+Pret+Pl: mishoomisensishibaniig
+     mishoomis+N+Con+Pej+Pret+Loc: mishoomisenyishibaniing
+     mishoomis+N+Con+Pej+Pret+Obv: mishoomisenyishibaniin
+     mishoomis+N+Con+Pej+Pret+Pl: mishoomisenyishibaniig
+     mishoomis+N+Dim+Pej+Pret+Loc: mishoomisensishibaniing
+     mishoomis+N+Dim+Pej+Pret+Obv: mishoomisensishibaniin
+     mishoomis+N+Dim+Pej+Pret+Pl: mishoomisensishibaniig
      
      
      
@@ -740,389 +740,389 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5
-     1+mishoomis+Con+Pos+Pej+1Pl: nimishoomisenyimishinaan
-     1+mishoomis+Dim+Pos+Pej+1Pl: nimishoomisensimishinaan
-     2+mishoomis+Con+Pos+Pej+21: gimishoomisenyimishinaan
-     2+mishoomis+Con+Pos+Pej+2Pl: gimishoomisenyimishiwaa
-     2+mishoomis+Dim+Pos+Pej+21: gimishoomisensimishinaan
-     2+mishoomis+Dim+Pos+Pej+2Pl: gimishoomisensimishiwaa
-     3+mishoomis+Con+Pos+Pej+3Obv: omishoomisenyimishini
-     3+mishoomis+Con+Pos+Pej+3Pl: omishoomisenyimishiwaa
-     3+mishoomis+Dim+Pos+Pej+3Obv: omishoomisensimishini
-     3+mishoomis+Dim+Pos+Pej+3Pl: omishoomisensimishiwaa
+     1+mishoomis+N+Con+Pos+Pej+1Pl: nimishoomisenyimishinaan
+     1+mishoomis+N+Dim+Pos+Pej+1Pl: nimishoomisensimishinaan
+     2+mishoomis+N+Con+Pos+Pej+21: gimishoomisenyimishinaan
+     2+mishoomis+N+Con+Pos+Pej+2Pl: gimishoomisenyimishiwaa
+     2+mishoomis+N+Dim+Pos+Pej+21: gimishoomisensimishinaan
+     2+mishoomis+N+Dim+Pos+Pej+2Pl: gimishoomisensimishiwaa
+     3+mishoomis+N+Con+Pos+Pej+3Obv: omishoomisenyimishini
+     3+mishoomis+N+Con+Pos+Pej+3Pl: omishoomisenyimishiwaa
+     3+mishoomis+N+Dim+Pos+Pej+3Obv: omishoomisensimishini
+     3+mishoomis+N+Dim+Pos+Pej+3Pl: omishoomisensimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
-     1+mishoomis+Con+Pos+Pej+Pret: nimishoomisenyimishiban
-     1+mishoomis+Con+Pos+Pej+VocPl: [nimishoomisenyimishidig, nimishoomisenyimishidog]
-     1+mishoomis+Dim+Pos+Pej+Pret: nimishoomisensimishiban
-     1+mishoomis+Dim+Pos+Pej+VocPl: [nimishoomisensimishidig, nimishoomisensimishidog]
-     2+mishoomis+Con+Pos+Pej+Pret: gimishoomisenyimishiban
-     2+mishoomis+Con+Pos+Pej+VocPl: [gimishoomisenyimishidig, gimishoomisenyimishidog]
-     2+mishoomis+Dim+Pos+Pej+Pret: gimishoomisensimishiban
-     2+mishoomis+Dim+Pos+Pej+VocPl: [gimishoomisensimishidig, gimishoomisensimishidog]
-     3+mishoomis+Con+Pos+Pej+Pret: omishoomisenyimishiban
-     3+mishoomis+Con+Pos+Pej+VocPl: [omishoomisenyimishidig, omishoomisenyimishidog]
-     3+mishoomis+Dim+Pos+Pej+Pret: omishoomisensimishiban
-     3+mishoomis+Dim+Pos+Pej+VocPl: [omishoomisensimishidig, omishoomisensimishidog]
-     X+mishoomis+Con+Pos+Pej+Pret: imishoomisenyimishiban
-     X+mishoomis+Con+Pos+Pej+VocPl: [imishoomisenyimishidig, imishoomisenyimishidog]
-     X+mishoomis+Dim+Pos+Pej+Pret: imishoomisensimishiban
-     X+mishoomis+Dim+Pos+Pej+VocPl: [imishoomisensimishidig, imishoomisensimishidog]
+     1+mishoomis+N+Con+Pos+Pej+Pret: nimishoomisenyimishiban
+     1+mishoomis+N+Con+Pos+Pej+VocPl: [nimishoomisenyimishidig, nimishoomisenyimishidog]
+     1+mishoomis+N+Dim+Pos+Pej+Pret: nimishoomisensimishiban
+     1+mishoomis+N+Dim+Pos+Pej+VocPl: [nimishoomisensimishidig, nimishoomisensimishidog]
+     2+mishoomis+N+Con+Pos+Pej+Pret: gimishoomisenyimishiban
+     2+mishoomis+N+Con+Pos+Pej+VocPl: [gimishoomisenyimishidig, gimishoomisenyimishidog]
+     2+mishoomis+N+Dim+Pos+Pej+Pret: gimishoomisensimishiban
+     2+mishoomis+N+Dim+Pos+Pej+VocPl: [gimishoomisensimishidig, gimishoomisensimishidog]
+     3+mishoomis+N+Con+Pos+Pej+Pret: omishoomisenyimishiban
+     3+mishoomis+N+Con+Pos+Pej+VocPl: [omishoomisenyimishidig, omishoomisenyimishidog]
+     3+mishoomis+N+Dim+Pos+Pej+Pret: omishoomisensimishiban
+     3+mishoomis+N+Dim+Pos+Pej+VocPl: [omishoomisensimishidig, omishoomisensimishidog]
+     X+mishoomis+N+Con+Pos+Pej+Pret: imishoomisenyimishiban
+     X+mishoomis+N+Con+Pos+Pej+VocPl: [imishoomisenyimishidig, imishoomisenyimishidog]
+     X+mishoomis+N+Dim+Pos+Pej+Pret: imishoomisensimishiban
+     X+mishoomis+N+Dim+Pos+Pej+VocPl: [imishoomisensimishidig, imishoomisensimishidog]
      
      #Values from slots numbered: 1, 2, 3, 4, 7
-     1+mishoomis+Con+Pos+Pej+Loc: nimishoomisenyimishing
-     1+mishoomis+Con+Pos+Pej+Obv: nimishoomisenyimishan
-     1+mishoomis+Con+Pos+Pej+Pl: nimishoomisenyimishag
-     1+mishoomis+Dim+Pos+Pej+Loc: nimishoomisensimishing
-     1+mishoomis+Dim+Pos+Pej+Obv: nimishoomisensimishan
-     1+mishoomis+Dim+Pos+Pej+Pl: nimishoomisensimishag
-     2+mishoomis+Con+Pos+Pej+Loc: gimishoomisenyimishing
-     2+mishoomis+Con+Pos+Pej+Obv: gimishoomisenyimishan
-     2+mishoomis+Con+Pos+Pej+Pl: gimishoomisenyimishag
-     2+mishoomis+Dim+Pos+Pej+Loc: gimishoomisensimishing
-     2+mishoomis+Dim+Pos+Pej+Obv: gimishoomisensimishan
-     2+mishoomis+Dim+Pos+Pej+Pl: gimishoomisensimishag
-     3+mishoomis+Con+Pos+Pej+Loc: omishoomisenyimishing
-     3+mishoomis+Con+Pos+Pej+Obv: omishoomisenyimishan
-     3+mishoomis+Con+Pos+Pej+Pl: omishoomisenyimishag
-     3+mishoomis+Dim+Pos+Pej+Loc: omishoomisensimishing
-     3+mishoomis+Dim+Pos+Pej+Obv: omishoomisensimishan
-     3+mishoomis+Dim+Pos+Pej+Pl: omishoomisensimishag
-     X+mishoomis+Con+Pos+Pej+Loc: imishoomisenyimishing
-     X+mishoomis+Con+Pos+Pej+Obv: imishoomisenyimishan
-     X+mishoomis+Con+Pos+Pej+Pl: imishoomisenyimishag
-     X+mishoomis+Dim+Pos+Pej+Loc: imishoomisensimishing
-     X+mishoomis+Dim+Pos+Pej+Obv: imishoomisensimishan
-     X+mishoomis+Dim+Pos+Pej+Pl: imishoomisensimishag
+     1+mishoomis+N+Con+Pos+Pej+Loc: nimishoomisenyimishing
+     1+mishoomis+N+Con+Pos+Pej+Obv: nimishoomisenyimishan
+     1+mishoomis+N+Con+Pos+Pej+Pl: nimishoomisenyimishag
+     1+mishoomis+N+Dim+Pos+Pej+Loc: nimishoomisensimishing
+     1+mishoomis+N+Dim+Pos+Pej+Obv: nimishoomisensimishan
+     1+mishoomis+N+Dim+Pos+Pej+Pl: nimishoomisensimishag
+     2+mishoomis+N+Con+Pos+Pej+Loc: gimishoomisenyimishing
+     2+mishoomis+N+Con+Pos+Pej+Obv: gimishoomisenyimishan
+     2+mishoomis+N+Con+Pos+Pej+Pl: gimishoomisenyimishag
+     2+mishoomis+N+Dim+Pos+Pej+Loc: gimishoomisensimishing
+     2+mishoomis+N+Dim+Pos+Pej+Obv: gimishoomisensimishan
+     2+mishoomis+N+Dim+Pos+Pej+Pl: gimishoomisensimishag
+     3+mishoomis+N+Con+Pos+Pej+Loc: omishoomisenyimishing
+     3+mishoomis+N+Con+Pos+Pej+Obv: omishoomisenyimishan
+     3+mishoomis+N+Con+Pos+Pej+Pl: omishoomisenyimishag
+     3+mishoomis+N+Dim+Pos+Pej+Loc: omishoomisensimishing
+     3+mishoomis+N+Dim+Pos+Pej+Obv: omishoomisensimishan
+     3+mishoomis+N+Dim+Pos+Pej+Pl: omishoomisensimishag
+     X+mishoomis+N+Con+Pos+Pej+Loc: imishoomisenyimishing
+     X+mishoomis+N+Con+Pos+Pej+Obv: imishoomisenyimishan
+     X+mishoomis+N+Con+Pos+Pej+Pl: imishoomisenyimishag
+     X+mishoomis+N+Dim+Pos+Pej+Loc: imishoomisensimishing
+     X+mishoomis+N+Dim+Pos+Pej+Obv: imishoomisensimishan
+     X+mishoomis+N+Dim+Pos+Pej+Pl: imishoomisensimishag
      
      #Values from slots numbered: 1, 2, 3, 5, 6
-     1+mishoomis+Con+Pos+1Pl+Pret: nimishoomisenyiminaaniban
-     1+mishoomis+Con+Pos+1Pl+VocPl: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
-     1+mishoomis+Dim+Pos+1Pl+Pret: nimishoomisensiminaaniban
-     1+mishoomis+Dim+Pos+1Pl+VocPl: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
-     2+mishoomis+Con+Pos+21+Pret: gimishoomisenyiminaaniban
-     2+mishoomis+Con+Pos+21+VocPl: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
-     2+mishoomis+Con+Pos+2Pl+Pret: gimishoomisenyimiwaaban
-     2+mishoomis+Con+Pos+2Pl+VocPl: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
-     2+mishoomis+Dim+Pos+21+Pret: gimishoomisensiminaaniban
-     2+mishoomis+Dim+Pos+21+VocPl: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
-     2+mishoomis+Dim+Pos+2Pl+Pret: gimishoomisensimiwaaban
-     2+mishoomis+Dim+Pos+2Pl+VocPl: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
-     3+mishoomis+Con+Pos+3Obv+Pret: omishoomisenyiminiiban
-     3+mishoomis+Con+Pos+3Obv+VocPl: [omishoomisenyiminiidig, omishoomisenyiminiidog]
-     3+mishoomis+Con+Pos+3Pl+Pret: omishoomisenyimiwaaban
-     3+mishoomis+Con+Pos+3Pl+VocPl: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
-     3+mishoomis+Dim+Pos+3Obv+Pret: omishoomisensiminiiban
-     3+mishoomis+Dim+Pos+3Obv+VocPl: [omishoomisensiminiidig, omishoomisensiminiidog]
-     3+mishoomis+Dim+Pos+3Pl+Pret: omishoomisensimiwaaban
-     3+mishoomis+Dim+Pos+3Pl+VocPl: [omishoomisensimiwaadig, omishoomisensimiwaadog]
+     1+mishoomis+N+Con+Pos+1Pl+Pret: nimishoomisenyiminaaniban
+     1+mishoomis+N+Con+Pos+1Pl+VocPl: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
+     1+mishoomis+N+Dim+Pos+1Pl+Pret: nimishoomisensiminaaniban
+     1+mishoomis+N+Dim+Pos+1Pl+VocPl: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
+     2+mishoomis+N+Con+Pos+21+Pret: gimishoomisenyiminaaniban
+     2+mishoomis+N+Con+Pos+21+VocPl: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
+     2+mishoomis+N+Con+Pos+2Pl+Pret: gimishoomisenyimiwaaban
+     2+mishoomis+N+Con+Pos+2Pl+VocPl: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
+     2+mishoomis+N+Dim+Pos+21+Pret: gimishoomisensiminaaniban
+     2+mishoomis+N+Dim+Pos+21+VocPl: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
+     2+mishoomis+N+Dim+Pos+2Pl+Pret: gimishoomisensimiwaaban
+     2+mishoomis+N+Dim+Pos+2Pl+VocPl: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
+     3+mishoomis+N+Con+Pos+3Obv+Pret: omishoomisenyiminiiban
+     3+mishoomis+N+Con+Pos+3Obv+VocPl: [omishoomisenyiminiidig, omishoomisenyiminiidog]
+     3+mishoomis+N+Con+Pos+3Pl+Pret: omishoomisenyimiwaaban
+     3+mishoomis+N+Con+Pos+3Pl+VocPl: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
+     3+mishoomis+N+Dim+Pos+3Obv+Pret: omishoomisensiminiiban
+     3+mishoomis+N+Dim+Pos+3Obv+VocPl: [omishoomisensiminiidig, omishoomisensiminiidog]
+     3+mishoomis+N+Dim+Pos+3Pl+Pret: omishoomisensimiwaaban
+     3+mishoomis+N+Dim+Pos+3Pl+VocPl: [omishoomisensimiwaadig, omishoomisensimiwaadog]
      
      #Values from slots numbered: 1, 2, 3, 5, 7
-     1+mishoomis+Con+Pos+1Pl+Loc: nimishoomisenyiminaaning
-     1+mishoomis+Con+Pos+1Pl+Obv: nimishoomisenyiminaanin
-     1+mishoomis+Con+Pos+1Pl+Pl: nimishoomisenyiminaanig
-     1+mishoomis+Dim+Pos+1Pl+Loc: nimishoomisensiminaaning
-     1+mishoomis+Dim+Pos+1Pl+Obv: nimishoomisensiminaanin
-     1+mishoomis+Dim+Pos+1Pl+Pl: nimishoomisensiminaanig
-     2+mishoomis+Con+Pos+21+Loc: gimishoomisenyiminaaning
-     2+mishoomis+Con+Pos+21+Obv: gimishoomisenyiminaanin
-     2+mishoomis+Con+Pos+21+Pl: gimishoomisenyiminaanig
-     2+mishoomis+Con+Pos+2Pl+Loc: gimishoomisenyimiwaang
-     2+mishoomis+Con+Pos+2Pl+Obv: gimishoomisenyimiwaan
-     2+mishoomis+Con+Pos+2Pl+Pl: gimishoomisenyimiwaag
-     2+mishoomis+Dim+Pos+21+Loc: gimishoomisensiminaaning
-     2+mishoomis+Dim+Pos+21+Obv: gimishoomisensiminaanin
-     2+mishoomis+Dim+Pos+21+Pl: gimishoomisensiminaanig
-     2+mishoomis+Dim+Pos+2Pl+Loc: gimishoomisensimiwaang
-     2+mishoomis+Dim+Pos+2Pl+Obv: gimishoomisensimiwaan
-     2+mishoomis+Dim+Pos+2Pl+Pl: gimishoomisensimiwaag
-     3+mishoomis+Con+Pos+3Obv+Loc: omishoomisenyiminiing
-     3+mishoomis+Con+Pos+3Obv+Obv: omishoomisenyiminiin
-     3+mishoomis+Con+Pos+3Obv+Pl: omishoomisenyiminiig
-     3+mishoomis+Con+Pos+3Pl+Loc: omishoomisenyimiwaang
-     3+mishoomis+Con+Pos+3Pl+Obv: omishoomisenyimiwaan
-     3+mishoomis+Con+Pos+3Pl+Pl: omishoomisenyimiwaag
-     3+mishoomis+Dim+Pos+3Obv+Loc: omishoomisensiminiing
-     3+mishoomis+Dim+Pos+3Obv+Obv: omishoomisensiminiin
-     3+mishoomis+Dim+Pos+3Obv+Pl: omishoomisensiminiig
-     3+mishoomis+Dim+Pos+3Pl+Loc: omishoomisensimiwaang
-     3+mishoomis+Dim+Pos+3Pl+Obv: omishoomisensimiwaan
-     3+mishoomis+Dim+Pos+3Pl+Pl: omishoomisensimiwaag
+     1+mishoomis+N+Con+Pos+1Pl+Loc: nimishoomisenyiminaaning
+     1+mishoomis+N+Con+Pos+1Pl+Obv: nimishoomisenyiminaanin
+     1+mishoomis+N+Con+Pos+1Pl+Pl: nimishoomisenyiminaanig
+     1+mishoomis+N+Dim+Pos+1Pl+Loc: nimishoomisensiminaaning
+     1+mishoomis+N+Dim+Pos+1Pl+Obv: nimishoomisensiminaanin
+     1+mishoomis+N+Dim+Pos+1Pl+Pl: nimishoomisensiminaanig
+     2+mishoomis+N+Con+Pos+21+Loc: gimishoomisenyiminaaning
+     2+mishoomis+N+Con+Pos+21+Obv: gimishoomisenyiminaanin
+     2+mishoomis+N+Con+Pos+21+Pl: gimishoomisenyiminaanig
+     2+mishoomis+N+Con+Pos+2Pl+Loc: gimishoomisenyimiwaang
+     2+mishoomis+N+Con+Pos+2Pl+Obv: gimishoomisenyimiwaan
+     2+mishoomis+N+Con+Pos+2Pl+Pl: gimishoomisenyimiwaag
+     2+mishoomis+N+Dim+Pos+21+Loc: gimishoomisensiminaaning
+     2+mishoomis+N+Dim+Pos+21+Obv: gimishoomisensiminaanin
+     2+mishoomis+N+Dim+Pos+21+Pl: gimishoomisensiminaanig
+     2+mishoomis+N+Dim+Pos+2Pl+Loc: gimishoomisensimiwaang
+     2+mishoomis+N+Dim+Pos+2Pl+Obv: gimishoomisensimiwaan
+     2+mishoomis+N+Dim+Pos+2Pl+Pl: gimishoomisensimiwaag
+     3+mishoomis+N+Con+Pos+3Obv+Loc: omishoomisenyiminiing
+     3+mishoomis+N+Con+Pos+3Obv+Obv: omishoomisenyiminiin
+     3+mishoomis+N+Con+Pos+3Obv+Pl: omishoomisenyiminiig
+     3+mishoomis+N+Con+Pos+3Pl+Loc: omishoomisenyimiwaang
+     3+mishoomis+N+Con+Pos+3Pl+Obv: omishoomisenyimiwaan
+     3+mishoomis+N+Con+Pos+3Pl+Pl: omishoomisenyimiwaag
+     3+mishoomis+N+Dim+Pos+3Obv+Loc: omishoomisensiminiing
+     3+mishoomis+N+Dim+Pos+3Obv+Obv: omishoomisensiminiin
+     3+mishoomis+N+Dim+Pos+3Obv+Pl: omishoomisensiminiig
+     3+mishoomis+N+Dim+Pos+3Pl+Loc: omishoomisensimiwaang
+     3+mishoomis+N+Dim+Pos+3Pl+Obv: omishoomisensimiwaan
+     3+mishoomis+N+Dim+Pos+3Pl+Pl: omishoomisensimiwaag
      
      #Values from slots numbered: 1, 2, 3, 6, 7
-     1+mishoomis+Con+Pos+Pret+Loc: nimishoomisenyimibaniing
-     1+mishoomis+Con+Pos+Pret+Obv: nimishoomisenyimibaniin
-     1+mishoomis+Con+Pos+Pret+Pl: nimishoomisenyimibaniig
-     1+mishoomis+Dim+Pos+Pret+Loc: nimishoomisensimibaniing
-     1+mishoomis+Dim+Pos+Pret+Obv: nimishoomisensimibaniin
-     1+mishoomis+Dim+Pos+Pret+Pl: nimishoomisensimibaniig
-     2+mishoomis+Con+Pos+Pret+Loc: gimishoomisenyimibaniing
-     2+mishoomis+Con+Pos+Pret+Obv: gimishoomisenyimibaniin
-     2+mishoomis+Con+Pos+Pret+Pl: gimishoomisenyimibaniig
-     2+mishoomis+Dim+Pos+Pret+Loc: gimishoomisensimibaniing
-     2+mishoomis+Dim+Pos+Pret+Obv: gimishoomisensimibaniin
-     2+mishoomis+Dim+Pos+Pret+Pl: gimishoomisensimibaniig
-     3+mishoomis+Con+Pos+Pret+Loc: omishoomisenyimibaniing
-     3+mishoomis+Con+Pos+Pret+Obv: omishoomisenyimibaniin
-     3+mishoomis+Con+Pos+Pret+Pl: omishoomisenyimibaniig
-     3+mishoomis+Dim+Pos+Pret+Loc: omishoomisensimibaniing
-     3+mishoomis+Dim+Pos+Pret+Obv: omishoomisensimibaniin
-     3+mishoomis+Dim+Pos+Pret+Pl: omishoomisensimibaniig
-     X+mishoomis+Con+Pos+Pret+Loc: imishoomisenyimibaniing
-     X+mishoomis+Con+Pos+Pret+Obv: imishoomisenyimibaniin
-     X+mishoomis+Con+Pos+Pret+Pl: imishoomisenyimibaniig
-     X+mishoomis+Dim+Pos+Pret+Loc: imishoomisensimibaniing
-     X+mishoomis+Dim+Pos+Pret+Obv: imishoomisensimibaniin
-     X+mishoomis+Dim+Pos+Pret+Pl: imishoomisensimibaniig
+     1+mishoomis+N+Con+Pos+Pret+Loc: nimishoomisenyimibaniing
+     1+mishoomis+N+Con+Pos+Pret+Obv: nimishoomisenyimibaniin
+     1+mishoomis+N+Con+Pos+Pret+Pl: nimishoomisenyimibaniig
+     1+mishoomis+N+Dim+Pos+Pret+Loc: nimishoomisensimibaniing
+     1+mishoomis+N+Dim+Pos+Pret+Obv: nimishoomisensimibaniin
+     1+mishoomis+N+Dim+Pos+Pret+Pl: nimishoomisensimibaniig
+     2+mishoomis+N+Con+Pos+Pret+Loc: gimishoomisenyimibaniing
+     2+mishoomis+N+Con+Pos+Pret+Obv: gimishoomisenyimibaniin
+     2+mishoomis+N+Con+Pos+Pret+Pl: gimishoomisenyimibaniig
+     2+mishoomis+N+Dim+Pos+Pret+Loc: gimishoomisensimibaniing
+     2+mishoomis+N+Dim+Pos+Pret+Obv: gimishoomisensimibaniin
+     2+mishoomis+N+Dim+Pos+Pret+Pl: gimishoomisensimibaniig
+     3+mishoomis+N+Con+Pos+Pret+Loc: omishoomisenyimibaniing
+     3+mishoomis+N+Con+Pos+Pret+Obv: omishoomisenyimibaniin
+     3+mishoomis+N+Con+Pos+Pret+Pl: omishoomisenyimibaniig
+     3+mishoomis+N+Dim+Pos+Pret+Loc: omishoomisensimibaniing
+     3+mishoomis+N+Dim+Pos+Pret+Obv: omishoomisensimibaniin
+     3+mishoomis+N+Dim+Pos+Pret+Pl: omishoomisensimibaniig
+     X+mishoomis+N+Con+Pos+Pret+Loc: imishoomisenyimibaniing
+     X+mishoomis+N+Con+Pos+Pret+Obv: imishoomisenyimibaniin
+     X+mishoomis+N+Con+Pos+Pret+Pl: imishoomisenyimibaniig
+     X+mishoomis+N+Dim+Pos+Pret+Loc: imishoomisensimibaniing
+     X+mishoomis+N+Dim+Pos+Pret+Obv: imishoomisensimibaniin
+     X+mishoomis+N+Dim+Pos+Pret+Pl: imishoomisensimibaniig
      
      #Values from slots numbered: 1, 2, 4, 5, 6
-     1+mishoomis+Con+Pej+1Pl+Pret: nimishoomisenyishinaaniban
-     1+mishoomis+Con+Pej+1Pl+VocPl: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
-     1+mishoomis+Dim+Pej+1Pl+Pret: nimishoomisensishinaaniban
-     1+mishoomis+Dim+Pej+1Pl+VocPl: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
-     2+mishoomis+Con+Pej+21+Pret: gimishoomisenyishinaaniban
-     2+mishoomis+Con+Pej+21+VocPl: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
-     2+mishoomis+Con+Pej+2Pl+Pret: gimishoomisenyishiwaaban
-     2+mishoomis+Con+Pej+2Pl+VocPl: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
-     2+mishoomis+Dim+Pej+21+Pret: gimishoomisensishinaaniban
-     2+mishoomis+Dim+Pej+21+VocPl: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
-     2+mishoomis+Dim+Pej+2Pl+Pret: gimishoomisensishiwaaban
-     2+mishoomis+Dim+Pej+2Pl+VocPl: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
-     3+mishoomis+Con+Pej+3Obv+Pret: omishoomisenyishiniiban
-     3+mishoomis+Con+Pej+3Obv+VocPl: [omishoomisenyishiniidig, omishoomisenyishiniidog]
-     3+mishoomis+Con+Pej+3Pl+Pret: omishoomisenyishiwaaban
-     3+mishoomis+Con+Pej+3Pl+VocPl: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
-     3+mishoomis+Dim+Pej+3Obv+Pret: omishoomisensishiniiban
-     3+mishoomis+Dim+Pej+3Obv+VocPl: [omishoomisensishiniidig, omishoomisensishiniidog]
-     3+mishoomis+Dim+Pej+3Pl+Pret: omishoomisensishiwaaban
-     3+mishoomis+Dim+Pej+3Pl+VocPl: [omishoomisensishiwaadig, omishoomisensishiwaadog]
+     1+mishoomis+N+Con+Pej+1Pl+Pret: nimishoomisenyishinaaniban
+     1+mishoomis+N+Con+Pej+1Pl+VocPl: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
+     1+mishoomis+N+Dim+Pej+1Pl+Pret: nimishoomisensishinaaniban
+     1+mishoomis+N+Dim+Pej+1Pl+VocPl: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
+     2+mishoomis+N+Con+Pej+21+Pret: gimishoomisenyishinaaniban
+     2+mishoomis+N+Con+Pej+21+VocPl: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
+     2+mishoomis+N+Con+Pej+2Pl+Pret: gimishoomisenyishiwaaban
+     2+mishoomis+N+Con+Pej+2Pl+VocPl: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
+     2+mishoomis+N+Dim+Pej+21+Pret: gimishoomisensishinaaniban
+     2+mishoomis+N+Dim+Pej+21+VocPl: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
+     2+mishoomis+N+Dim+Pej+2Pl+Pret: gimishoomisensishiwaaban
+     2+mishoomis+N+Dim+Pej+2Pl+VocPl: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
+     3+mishoomis+N+Con+Pej+3Obv+Pret: omishoomisenyishiniiban
+     3+mishoomis+N+Con+Pej+3Obv+VocPl: [omishoomisenyishiniidig, omishoomisenyishiniidog]
+     3+mishoomis+N+Con+Pej+3Pl+Pret: omishoomisenyishiwaaban
+     3+mishoomis+N+Con+Pej+3Pl+VocPl: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
+     3+mishoomis+N+Dim+Pej+3Obv+Pret: omishoomisensishiniiban
+     3+mishoomis+N+Dim+Pej+3Obv+VocPl: [omishoomisensishiniidig, omishoomisensishiniidog]
+     3+mishoomis+N+Dim+Pej+3Pl+Pret: omishoomisensishiwaaban
+     3+mishoomis+N+Dim+Pej+3Pl+VocPl: [omishoomisensishiwaadig, omishoomisensishiwaadog]
      
      #Values from slots numbered: 1, 2, 4, 5, 7
-     1+mishoomis+Con+Pej+1Pl+Loc: nimishoomisenyishinaaning
-     1+mishoomis+Con+Pej+1Pl+Obv: nimishoomisenyishinaanin
-     1+mishoomis+Con+Pej+1Pl+Pl: nimishoomisenyishinaanig
-     1+mishoomis+Dim+Pej+1Pl+Loc: nimishoomisensishinaaning
-     1+mishoomis+Dim+Pej+1Pl+Obv: nimishoomisensishinaanin
-     1+mishoomis+Dim+Pej+1Pl+Pl: nimishoomisensishinaanig
-     2+mishoomis+Con+Pej+21+Loc: gimishoomisenyishinaaning
-     2+mishoomis+Con+Pej+21+Obv: gimishoomisenyishinaanin
-     2+mishoomis+Con+Pej+21+Pl: gimishoomisenyishinaanig
-     2+mishoomis+Con+Pej+2Pl+Loc: gimishoomisenyishiwaang
-     2+mishoomis+Con+Pej+2Pl+Obv: gimishoomisenyishiwaan
-     2+mishoomis+Con+Pej+2Pl+Pl: gimishoomisenyishiwaag
-     2+mishoomis+Dim+Pej+21+Loc: gimishoomisensishinaaning
-     2+mishoomis+Dim+Pej+21+Obv: gimishoomisensishinaanin
-     2+mishoomis+Dim+Pej+21+Pl: gimishoomisensishinaanig
-     2+mishoomis+Dim+Pej+2Pl+Loc: gimishoomisensishiwaang
-     2+mishoomis+Dim+Pej+2Pl+Obv: gimishoomisensishiwaan
-     2+mishoomis+Dim+Pej+2Pl+Pl: gimishoomisensishiwaag
-     3+mishoomis+Con+Pej+3Obv+Loc: omishoomisenyishiniing
-     3+mishoomis+Con+Pej+3Obv+Obv: omishoomisenyishiniin
-     3+mishoomis+Con+Pej+3Obv+Pl: omishoomisenyishiniig
-     3+mishoomis+Con+Pej+3Pl+Loc: omishoomisenyishiwaang
-     3+mishoomis+Con+Pej+3Pl+Obv: omishoomisenyishiwaan
-     3+mishoomis+Con+Pej+3Pl+Pl: omishoomisenyishiwaag
-     3+mishoomis+Dim+Pej+3Obv+Loc: omishoomisensishiniing
-     3+mishoomis+Dim+Pej+3Obv+Obv: omishoomisensishiniin
-     3+mishoomis+Dim+Pej+3Obv+Pl: omishoomisensishiniig
-     3+mishoomis+Dim+Pej+3Pl+Loc: omishoomisensishiwaang
-     3+mishoomis+Dim+Pej+3Pl+Obv: omishoomisensishiwaan
-     3+mishoomis+Dim+Pej+3Pl+Pl: omishoomisensishiwaag
+     1+mishoomis+N+Con+Pej+1Pl+Loc: nimishoomisenyishinaaning
+     1+mishoomis+N+Con+Pej+1Pl+Obv: nimishoomisenyishinaanin
+     1+mishoomis+N+Con+Pej+1Pl+Pl: nimishoomisenyishinaanig
+     1+mishoomis+N+Dim+Pej+1Pl+Loc: nimishoomisensishinaaning
+     1+mishoomis+N+Dim+Pej+1Pl+Obv: nimishoomisensishinaanin
+     1+mishoomis+N+Dim+Pej+1Pl+Pl: nimishoomisensishinaanig
+     2+mishoomis+N+Con+Pej+21+Loc: gimishoomisenyishinaaning
+     2+mishoomis+N+Con+Pej+21+Obv: gimishoomisenyishinaanin
+     2+mishoomis+N+Con+Pej+21+Pl: gimishoomisenyishinaanig
+     2+mishoomis+N+Con+Pej+2Pl+Loc: gimishoomisenyishiwaang
+     2+mishoomis+N+Con+Pej+2Pl+Obv: gimishoomisenyishiwaan
+     2+mishoomis+N+Con+Pej+2Pl+Pl: gimishoomisenyishiwaag
+     2+mishoomis+N+Dim+Pej+21+Loc: gimishoomisensishinaaning
+     2+mishoomis+N+Dim+Pej+21+Obv: gimishoomisensishinaanin
+     2+mishoomis+N+Dim+Pej+21+Pl: gimishoomisensishinaanig
+     2+mishoomis+N+Dim+Pej+2Pl+Loc: gimishoomisensishiwaang
+     2+mishoomis+N+Dim+Pej+2Pl+Obv: gimishoomisensishiwaan
+     2+mishoomis+N+Dim+Pej+2Pl+Pl: gimishoomisensishiwaag
+     3+mishoomis+N+Con+Pej+3Obv+Loc: omishoomisenyishiniing
+     3+mishoomis+N+Con+Pej+3Obv+Obv: omishoomisenyishiniin
+     3+mishoomis+N+Con+Pej+3Obv+Pl: omishoomisenyishiniig
+     3+mishoomis+N+Con+Pej+3Pl+Loc: omishoomisenyishiwaang
+     3+mishoomis+N+Con+Pej+3Pl+Obv: omishoomisenyishiwaan
+     3+mishoomis+N+Con+Pej+3Pl+Pl: omishoomisenyishiwaag
+     3+mishoomis+N+Dim+Pej+3Obv+Loc: omishoomisensishiniing
+     3+mishoomis+N+Dim+Pej+3Obv+Obv: omishoomisensishiniin
+     3+mishoomis+N+Dim+Pej+3Obv+Pl: omishoomisensishiniig
+     3+mishoomis+N+Dim+Pej+3Pl+Loc: omishoomisensishiwaang
+     3+mishoomis+N+Dim+Pej+3Pl+Obv: omishoomisensishiwaan
+     3+mishoomis+N+Dim+Pej+3Pl+Pl: omishoomisensishiwaag
      
      #Values from slots numbered: 1, 2, 4, 6, 7
-     1+mishoomis+Con+Pej+Pret+Loc: nimishoomisenyishibaniing
-     1+mishoomis+Con+Pej+Pret+Obv: nimishoomisenyishibaniin
-     1+mishoomis+Con+Pej+Pret+Pl: nimishoomisenyishibaniig
-     1+mishoomis+Dim+Pej+Pret+Loc: nimishoomisensishibaniing
-     1+mishoomis+Dim+Pej+Pret+Obv: nimishoomisensishibaniin
-     1+mishoomis+Dim+Pej+Pret+Pl: nimishoomisensishibaniig
-     2+mishoomis+Con+Pej+Pret+Loc: gimishoomisenyishibaniing
-     2+mishoomis+Con+Pej+Pret+Obv: gimishoomisenyishibaniin
-     2+mishoomis+Con+Pej+Pret+Pl: gimishoomisenyishibaniig
-     2+mishoomis+Dim+Pej+Pret+Loc: gimishoomisensishibaniing
-     2+mishoomis+Dim+Pej+Pret+Obv: gimishoomisensishibaniin
-     2+mishoomis+Dim+Pej+Pret+Pl: gimishoomisensishibaniig
-     3+mishoomis+Con+Pej+Pret+Loc: omishoomisenyishibaniing
-     3+mishoomis+Con+Pej+Pret+Obv: omishoomisenyishibaniin
-     3+mishoomis+Con+Pej+Pret+Pl: omishoomisenyishibaniig
-     3+mishoomis+Dim+Pej+Pret+Loc: omishoomisensishibaniing
-     3+mishoomis+Dim+Pej+Pret+Obv: omishoomisensishibaniin
-     3+mishoomis+Dim+Pej+Pret+Pl: omishoomisensishibaniig
-     X+mishoomis+Con+Pej+Pret+Loc: imishoomisenyishibaniing
-     X+mishoomis+Con+Pej+Pret+Obv: imishoomisenyishibaniin
-     X+mishoomis+Con+Pej+Pret+Pl: imishoomisenyishibaniig
-     X+mishoomis+Dim+Pej+Pret+Loc: imishoomisensishibaniing
-     X+mishoomis+Dim+Pej+Pret+Obv: imishoomisensishibaniin
-     X+mishoomis+Dim+Pej+Pret+Pl: imishoomisensishibaniig
+     1+mishoomis+N+Con+Pej+Pret+Loc: nimishoomisenyishibaniing
+     1+mishoomis+N+Con+Pej+Pret+Obv: nimishoomisenyishibaniin
+     1+mishoomis+N+Con+Pej+Pret+Pl: nimishoomisenyishibaniig
+     1+mishoomis+N+Dim+Pej+Pret+Loc: nimishoomisensishibaniing
+     1+mishoomis+N+Dim+Pej+Pret+Obv: nimishoomisensishibaniin
+     1+mishoomis+N+Dim+Pej+Pret+Pl: nimishoomisensishibaniig
+     2+mishoomis+N+Con+Pej+Pret+Loc: gimishoomisenyishibaniing
+     2+mishoomis+N+Con+Pej+Pret+Obv: gimishoomisenyishibaniin
+     2+mishoomis+N+Con+Pej+Pret+Pl: gimishoomisenyishibaniig
+     2+mishoomis+N+Dim+Pej+Pret+Loc: gimishoomisensishibaniing
+     2+mishoomis+N+Dim+Pej+Pret+Obv: gimishoomisensishibaniin
+     2+mishoomis+N+Dim+Pej+Pret+Pl: gimishoomisensishibaniig
+     3+mishoomis+N+Con+Pej+Pret+Loc: omishoomisenyishibaniing
+     3+mishoomis+N+Con+Pej+Pret+Obv: omishoomisenyishibaniin
+     3+mishoomis+N+Con+Pej+Pret+Pl: omishoomisenyishibaniig
+     3+mishoomis+N+Dim+Pej+Pret+Loc: omishoomisensishibaniing
+     3+mishoomis+N+Dim+Pej+Pret+Obv: omishoomisensishibaniin
+     3+mishoomis+N+Dim+Pej+Pret+Pl: omishoomisensishibaniig
+     X+mishoomis+N+Con+Pej+Pret+Loc: imishoomisenyishibaniing
+     X+mishoomis+N+Con+Pej+Pret+Obv: imishoomisenyishibaniin
+     X+mishoomis+N+Con+Pej+Pret+Pl: imishoomisenyishibaniig
+     X+mishoomis+N+Dim+Pej+Pret+Loc: imishoomisensishibaniing
+     X+mishoomis+N+Dim+Pej+Pret+Obv: imishoomisensishibaniin
+     X+mishoomis+N+Dim+Pej+Pret+Pl: imishoomisensishibaniig
      
      #Values from slots numbered: 1, 2, 5, 6, 7
-     1+mishoomis+Con+1Pl+Pret+Loc: nimishoomisenyinaanibaniing
-     1+mishoomis+Con+1Pl+Pret+Obv: nimishoomisenyinaanibaniin
-     1+mishoomis+Con+1Pl+Pret+Pl: nimishoomisenyinaanibaniig
-     1+mishoomis+Con+1Pl+VocPl+Loc: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
-     1+mishoomis+Con+1Pl+VocPl+Obv: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
-     1+mishoomis+Con+1Pl+VocPl+Pl: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
-     1+mishoomis+Dim+1Pl+Pret+Loc: nimishoomisensinaanibaniing
-     1+mishoomis+Dim+1Pl+Pret+Obv: nimishoomisensinaanibaniin
-     1+mishoomis+Dim+1Pl+Pret+Pl: nimishoomisensinaanibaniig
-     1+mishoomis+Dim+1Pl+VocPl+Loc: [nimishoomisensinaanidig, nimishoomisensinaanidog]
-     1+mishoomis+Dim+1Pl+VocPl+Obv: [nimishoomisensinaanidig, nimishoomisensinaanidog]
-     1+mishoomis+Dim+1Pl+VocPl+Pl: [nimishoomisensinaanidig, nimishoomisensinaanidog]
-     2+mishoomis+Con+21+Pret+Loc: gimishoomisenyinaanibaniing
-     2+mishoomis+Con+21+Pret+Obv: gimishoomisenyinaanibaniin
-     2+mishoomis+Con+21+Pret+Pl: gimishoomisenyinaanibaniig
-     2+mishoomis+Con+21+VocPl+Loc: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
-     2+mishoomis+Con+21+VocPl+Obv: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
-     2+mishoomis+Con+21+VocPl+Pl: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
-     2+mishoomis+Con+2Pl+Pret+Loc: gimishoomisenyiwaabaniing
-     2+mishoomis+Con+2Pl+Pret+Obv: gimishoomisenyiwaabaniin
-     2+mishoomis+Con+2Pl+Pret+Pl: gimishoomisenyiwaabaniig
-     2+mishoomis+Con+2Pl+VocPl+Loc: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
-     2+mishoomis+Con+2Pl+VocPl+Obv: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
-     2+mishoomis+Con+2Pl+VocPl+Pl: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
-     2+mishoomis+Dim+21+Pret+Loc: gimishoomisensinaanibaniing
-     2+mishoomis+Dim+21+Pret+Obv: gimishoomisensinaanibaniin
-     2+mishoomis+Dim+21+Pret+Pl: gimishoomisensinaanibaniig
-     2+mishoomis+Dim+21+VocPl+Loc: [gimishoomisensinaanidig, gimishoomisensinaanidog]
-     2+mishoomis+Dim+21+VocPl+Obv: [gimishoomisensinaanidig, gimishoomisensinaanidog]
-     2+mishoomis+Dim+21+VocPl+Pl: [gimishoomisensinaanidig, gimishoomisensinaanidog]
-     2+mishoomis+Dim+2Pl+Pret+Loc: gimishoomisensiwaabaniing
-     2+mishoomis+Dim+2Pl+Pret+Obv: gimishoomisensiwaabaniin
-     2+mishoomis+Dim+2Pl+Pret+Pl: gimishoomisensiwaabaniig
-     2+mishoomis+Dim+2Pl+VocPl+Loc: [gimishoomisensiwaadig, gimishoomisensiwaadog]
-     2+mishoomis+Dim+2Pl+VocPl+Obv: [gimishoomisensiwaadig, gimishoomisensiwaadog]
-     2+mishoomis+Dim+2Pl+VocPl+Pl: [gimishoomisensiwaadig, gimishoomisensiwaadog]
-     3+mishoomis+Con+3Obv+Pret+Loc: omishoomisenyiniibaniing
-     3+mishoomis+Con+3Obv+Pret+Obv: omishoomisenyiniibaniin
-     3+mishoomis+Con+3Obv+Pret+Pl: omishoomisenyiniibaniig
-     3+mishoomis+Con+3Obv+VocPl+Loc: [omishoomisenyiniidig, omishoomisenyiniidog]
-     3+mishoomis+Con+3Obv+VocPl+Obv: [omishoomisenyiniidig, omishoomisenyiniidog]
-     3+mishoomis+Con+3Obv+VocPl+Pl: [omishoomisenyiniidig, omishoomisenyiniidog]
-     3+mishoomis+Con+3Pl+Pret+Loc: omishoomisenyiwaabaniing
-     3+mishoomis+Con+3Pl+Pret+Obv: omishoomisenyiwaabaniin
-     3+mishoomis+Con+3Pl+Pret+Pl: omishoomisenyiwaabaniig
-     3+mishoomis+Con+3Pl+VocPl+Loc: [omishoomisenyiwaadig, omishoomisenyiwaadog]
-     3+mishoomis+Con+3Pl+VocPl+Obv: [omishoomisenyiwaadig, omishoomisenyiwaadog]
-     3+mishoomis+Con+3Pl+VocPl+Pl: [omishoomisenyiwaadig, omishoomisenyiwaadog]
-     3+mishoomis+Dim+3Obv+Pret+Loc: omishoomisensiniibaniing
-     3+mishoomis+Dim+3Obv+Pret+Obv: omishoomisensiniibaniin
-     3+mishoomis+Dim+3Obv+Pret+Pl: omishoomisensiniibaniig
-     3+mishoomis+Dim+3Obv+VocPl+Loc: [omishoomisensiniidig, omishoomisensiniidog]
-     3+mishoomis+Dim+3Obv+VocPl+Obv: [omishoomisensiniidig, omishoomisensiniidog]
-     3+mishoomis+Dim+3Obv+VocPl+Pl: [omishoomisensiniidig, omishoomisensiniidog]
-     3+mishoomis+Dim+3Pl+Pret+Loc: omishoomisensiwaabaniing
-     3+mishoomis+Dim+3Pl+Pret+Obv: omishoomisensiwaabaniin
-     3+mishoomis+Dim+3Pl+Pret+Pl: omishoomisensiwaabaniig
-     3+mishoomis+Dim+3Pl+VocPl+Loc: [omishoomisensiwaadig, omishoomisensiwaadog]
-     3+mishoomis+Dim+3Pl+VocPl+Obv: [omishoomisensiwaadig, omishoomisensiwaadog]
-     3+mishoomis+Dim+3Pl+VocPl+Pl: [omishoomisensiwaadig, omishoomisensiwaadog]
+     1+mishoomis+N+Con+1Pl+Pret+Loc: nimishoomisenyinaanibaniing
+     1+mishoomis+N+Con+1Pl+Pret+Obv: nimishoomisenyinaanibaniin
+     1+mishoomis+N+Con+1Pl+Pret+Pl: nimishoomisenyinaanibaniig
+     1+mishoomis+N+Con+1Pl+VocPl+Loc: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
+     1+mishoomis+N+Con+1Pl+VocPl+Obv: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
+     1+mishoomis+N+Con+1Pl+VocPl+Pl: [nimishoomisenyinaanidig, nimishoomisenyinaanidog]
+     1+mishoomis+N+Dim+1Pl+Pret+Loc: nimishoomisensinaanibaniing
+     1+mishoomis+N+Dim+1Pl+Pret+Obv: nimishoomisensinaanibaniin
+     1+mishoomis+N+Dim+1Pl+Pret+Pl: nimishoomisensinaanibaniig
+     1+mishoomis+N+Dim+1Pl+VocPl+Loc: [nimishoomisensinaanidig, nimishoomisensinaanidog]
+     1+mishoomis+N+Dim+1Pl+VocPl+Obv: [nimishoomisensinaanidig, nimishoomisensinaanidog]
+     1+mishoomis+N+Dim+1Pl+VocPl+Pl: [nimishoomisensinaanidig, nimishoomisensinaanidog]
+     2+mishoomis+N+Con+21+Pret+Loc: gimishoomisenyinaanibaniing
+     2+mishoomis+N+Con+21+Pret+Obv: gimishoomisenyinaanibaniin
+     2+mishoomis+N+Con+21+Pret+Pl: gimishoomisenyinaanibaniig
+     2+mishoomis+N+Con+21+VocPl+Loc: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
+     2+mishoomis+N+Con+21+VocPl+Obv: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
+     2+mishoomis+N+Con+21+VocPl+Pl: [gimishoomisenyinaanidig, gimishoomisenyinaanidog]
+     2+mishoomis+N+Con+2Pl+Pret+Loc: gimishoomisenyiwaabaniing
+     2+mishoomis+N+Con+2Pl+Pret+Obv: gimishoomisenyiwaabaniin
+     2+mishoomis+N+Con+2Pl+Pret+Pl: gimishoomisenyiwaabaniig
+     2+mishoomis+N+Con+2Pl+VocPl+Loc: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
+     2+mishoomis+N+Con+2Pl+VocPl+Obv: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
+     2+mishoomis+N+Con+2Pl+VocPl+Pl: [gimishoomisenyiwaadig, gimishoomisenyiwaadog]
+     2+mishoomis+N+Dim+21+Pret+Loc: gimishoomisensinaanibaniing
+     2+mishoomis+N+Dim+21+Pret+Obv: gimishoomisensinaanibaniin
+     2+mishoomis+N+Dim+21+Pret+Pl: gimishoomisensinaanibaniig
+     2+mishoomis+N+Dim+21+VocPl+Loc: [gimishoomisensinaanidig, gimishoomisensinaanidog]
+     2+mishoomis+N+Dim+21+VocPl+Obv: [gimishoomisensinaanidig, gimishoomisensinaanidog]
+     2+mishoomis+N+Dim+21+VocPl+Pl: [gimishoomisensinaanidig, gimishoomisensinaanidog]
+     2+mishoomis+N+Dim+2Pl+Pret+Loc: gimishoomisensiwaabaniing
+     2+mishoomis+N+Dim+2Pl+Pret+Obv: gimishoomisensiwaabaniin
+     2+mishoomis+N+Dim+2Pl+Pret+Pl: gimishoomisensiwaabaniig
+     2+mishoomis+N+Dim+2Pl+VocPl+Loc: [gimishoomisensiwaadig, gimishoomisensiwaadog]
+     2+mishoomis+N+Dim+2Pl+VocPl+Obv: [gimishoomisensiwaadig, gimishoomisensiwaadog]
+     2+mishoomis+N+Dim+2Pl+VocPl+Pl: [gimishoomisensiwaadig, gimishoomisensiwaadog]
+     3+mishoomis+N+Con+3Obv+Pret+Loc: omishoomisenyiniibaniing
+     3+mishoomis+N+Con+3Obv+Pret+Obv: omishoomisenyiniibaniin
+     3+mishoomis+N+Con+3Obv+Pret+Pl: omishoomisenyiniibaniig
+     3+mishoomis+N+Con+3Obv+VocPl+Loc: [omishoomisenyiniidig, omishoomisenyiniidog]
+     3+mishoomis+N+Con+3Obv+VocPl+Obv: [omishoomisenyiniidig, omishoomisenyiniidog]
+     3+mishoomis+N+Con+3Obv+VocPl+Pl: [omishoomisenyiniidig, omishoomisenyiniidog]
+     3+mishoomis+N+Con+3Pl+Pret+Loc: omishoomisenyiwaabaniing
+     3+mishoomis+N+Con+3Pl+Pret+Obv: omishoomisenyiwaabaniin
+     3+mishoomis+N+Con+3Pl+Pret+Pl: omishoomisenyiwaabaniig
+     3+mishoomis+N+Con+3Pl+VocPl+Loc: [omishoomisenyiwaadig, omishoomisenyiwaadog]
+     3+mishoomis+N+Con+3Pl+VocPl+Obv: [omishoomisenyiwaadig, omishoomisenyiwaadog]
+     3+mishoomis+N+Con+3Pl+VocPl+Pl: [omishoomisenyiwaadig, omishoomisenyiwaadog]
+     3+mishoomis+N+Dim+3Obv+Pret+Loc: omishoomisensiniibaniing
+     3+mishoomis+N+Dim+3Obv+Pret+Obv: omishoomisensiniibaniin
+     3+mishoomis+N+Dim+3Obv+Pret+Pl: omishoomisensiniibaniig
+     3+mishoomis+N+Dim+3Obv+VocPl+Loc: [omishoomisensiniidig, omishoomisensiniidog]
+     3+mishoomis+N+Dim+3Obv+VocPl+Obv: [omishoomisensiniidig, omishoomisensiniidog]
+     3+mishoomis+N+Dim+3Obv+VocPl+Pl: [omishoomisensiniidig, omishoomisensiniidog]
+     3+mishoomis+N+Dim+3Pl+Pret+Loc: omishoomisensiwaabaniing
+     3+mishoomis+N+Dim+3Pl+Pret+Obv: omishoomisensiwaabaniin
+     3+mishoomis+N+Dim+3Pl+Pret+Pl: omishoomisensiwaabaniig
+     3+mishoomis+N+Dim+3Pl+VocPl+Loc: [omishoomisensiwaadig, omishoomisensiwaadog]
+     3+mishoomis+N+Dim+3Pl+VocPl+Obv: [omishoomisensiwaadig, omishoomisensiwaadog]
+     3+mishoomis+N+Dim+3Pl+VocPl+Pl: [omishoomisensiwaadig, omishoomisensiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 6
-     1+mishoomis+Pos+Pej+1Pl+Pret: nimishoomisimishinaaniban
-     1+mishoomis+Pos+Pej+1Pl+VocPl: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+21+Pret: gimishoomisimishinaaniban
-     2+mishoomis+Pos+Pej+21+VocPl: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+2Pl+Pret: gimishoomisimishiwaaban
-     2+mishoomis+Pos+Pej+2Pl+VocPl: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
-     3+mishoomis+Pos+Pej+3Obv+Pret: omishoomisimishiniiban
-     3+mishoomis+Pos+Pej+3Obv+VocPl: [omishoomisimishiniidig, omishoomisimishiniidog]
-     3+mishoomis+Pos+Pej+3Pl+Pret: omishoomisimishiwaaban
-     3+mishoomis+Pos+Pej+3Pl+VocPl: [omishoomisimishiwaadig, omishoomisimishiwaadog]
+     1+mishoomis+N+Pos+Pej+1Pl+Pret: nimishoomisimishinaaniban
+     1+mishoomis+N+Pos+Pej+1Pl+VocPl: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+21+Pret: gimishoomisimishinaaniban
+     2+mishoomis+N+Pos+Pej+21+VocPl: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+2Pl+Pret: gimishoomisimishiwaaban
+     2+mishoomis+N+Pos+Pej+2Pl+VocPl: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
+     3+mishoomis+N+Pos+Pej+3Obv+Pret: omishoomisimishiniiban
+     3+mishoomis+N+Pos+Pej+3Obv+VocPl: [omishoomisimishiniidig, omishoomisimishiniidog]
+     3+mishoomis+N+Pos+Pej+3Pl+Pret: omishoomisimishiwaaban
+     3+mishoomis+N+Pos+Pej+3Pl+VocPl: [omishoomisimishiwaadig, omishoomisimishiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 7
-     1+mishoomis+Pos+Pej+1Pl+Loc: nimishoomisimishinaaning
-     1+mishoomis+Pos+Pej+1Pl+Obv: nimishoomisimishinaanin
-     1+mishoomis+Pos+Pej+1Pl+Pl: nimishoomisimishinaanig
-     2+mishoomis+Pos+Pej+21+Loc: gimishoomisimishinaaning
-     2+mishoomis+Pos+Pej+21+Obv: gimishoomisimishinaanin
-     2+mishoomis+Pos+Pej+21+Pl: gimishoomisimishinaanig
-     2+mishoomis+Pos+Pej+2Pl+Loc: gimishoomisimishiwaang
-     2+mishoomis+Pos+Pej+2Pl+Obv: gimishoomisimishiwaan
-     2+mishoomis+Pos+Pej+2Pl+Pl: gimishoomisimishiwaag
-     3+mishoomis+Pos+Pej+3Obv+Loc: omishoomisimishiniing
-     3+mishoomis+Pos+Pej+3Obv+Obv: omishoomisimishiniin
-     3+mishoomis+Pos+Pej+3Obv+Pl: omishoomisimishiniig
-     3+mishoomis+Pos+Pej+3Pl+Loc: omishoomisimishiwaang
-     3+mishoomis+Pos+Pej+3Pl+Obv: omishoomisimishiwaan
-     3+mishoomis+Pos+Pej+3Pl+Pl: omishoomisimishiwaag
+     1+mishoomis+N+Pos+Pej+1Pl+Loc: nimishoomisimishinaaning
+     1+mishoomis+N+Pos+Pej+1Pl+Obv: nimishoomisimishinaanin
+     1+mishoomis+N+Pos+Pej+1Pl+Pl: nimishoomisimishinaanig
+     2+mishoomis+N+Pos+Pej+21+Loc: gimishoomisimishinaaning
+     2+mishoomis+N+Pos+Pej+21+Obv: gimishoomisimishinaanin
+     2+mishoomis+N+Pos+Pej+21+Pl: gimishoomisimishinaanig
+     2+mishoomis+N+Pos+Pej+2Pl+Loc: gimishoomisimishiwaang
+     2+mishoomis+N+Pos+Pej+2Pl+Obv: gimishoomisimishiwaan
+     2+mishoomis+N+Pos+Pej+2Pl+Pl: gimishoomisimishiwaag
+     3+mishoomis+N+Pos+Pej+3Obv+Loc: omishoomisimishiniing
+     3+mishoomis+N+Pos+Pej+3Obv+Obv: omishoomisimishiniin
+     3+mishoomis+N+Pos+Pej+3Obv+Pl: omishoomisimishiniig
+     3+mishoomis+N+Pos+Pej+3Pl+Loc: omishoomisimishiwaang
+     3+mishoomis+N+Pos+Pej+3Pl+Obv: omishoomisimishiwaan
+     3+mishoomis+N+Pos+Pej+3Pl+Pl: omishoomisimishiwaag
      
      #Values from slots numbered: 1, 3, 4, 6, 7
-     1+mishoomis+Pos+Pej+Pret+Loc: nimishoomisimishibaniing
-     1+mishoomis+Pos+Pej+Pret+Obv: nimishoomisimishibaniin
-     1+mishoomis+Pos+Pej+Pret+Pl: nimishoomisimishibaniig
-     2+mishoomis+Pos+Pej+Pret+Loc: gimishoomisimishibaniing
-     2+mishoomis+Pos+Pej+Pret+Obv: gimishoomisimishibaniin
-     2+mishoomis+Pos+Pej+Pret+Pl: gimishoomisimishibaniig
-     3+mishoomis+Pos+Pej+Pret+Loc: omishoomisimishibaniing
-     3+mishoomis+Pos+Pej+Pret+Obv: omishoomisimishibaniin
-     3+mishoomis+Pos+Pej+Pret+Pl: omishoomisimishibaniig
-     X+mishoomis+Pos+Pej+Pret+Loc: imishoomisimishibaniing
-     X+mishoomis+Pos+Pej+Pret+Obv: imishoomisimishibaniin
-     X+mishoomis+Pos+Pej+Pret+Pl: imishoomisimishibaniig
+     1+mishoomis+N+Pos+Pej+Pret+Loc: nimishoomisimishibaniing
+     1+mishoomis+N+Pos+Pej+Pret+Obv: nimishoomisimishibaniin
+     1+mishoomis+N+Pos+Pej+Pret+Pl: nimishoomisimishibaniig
+     2+mishoomis+N+Pos+Pej+Pret+Loc: gimishoomisimishibaniing
+     2+mishoomis+N+Pos+Pej+Pret+Obv: gimishoomisimishibaniin
+     2+mishoomis+N+Pos+Pej+Pret+Pl: gimishoomisimishibaniig
+     3+mishoomis+N+Pos+Pej+Pret+Loc: omishoomisimishibaniing
+     3+mishoomis+N+Pos+Pej+Pret+Obv: omishoomisimishibaniin
+     3+mishoomis+N+Pos+Pej+Pret+Pl: omishoomisimishibaniig
+     X+mishoomis+N+Pos+Pej+Pret+Loc: imishoomisimishibaniing
+     X+mishoomis+N+Pos+Pej+Pret+Obv: imishoomisimishibaniin
+     X+mishoomis+N+Pos+Pej+Pret+Pl: imishoomisimishibaniig
      
      #Values from slots numbered: 1, 3, 5, 6, 7
-     1+mishoomis+Pos+1Pl+Pret+Loc: nimishoomisiminaanibaniing
-     1+mishoomis+Pos+1Pl+Pret+Obv: nimishoomisiminaanibaniin
-     1+mishoomis+Pos+1Pl+Pret+Pl: nimishoomisiminaanibaniig
-     1+mishoomis+Pos+1Pl+VocPl+Loc: [nimishoomisiminaanidig, nimishoomisiminaanidog]
-     1+mishoomis+Pos+1Pl+VocPl+Obv: [nimishoomisiminaanidig, nimishoomisiminaanidog]
-     1+mishoomis+Pos+1Pl+VocPl+Pl: [nimishoomisiminaanidig, nimishoomisiminaanidog]
-     2+mishoomis+Pos+21+Pret+Loc: gimishoomisiminaanibaniing
-     2+mishoomis+Pos+21+Pret+Obv: gimishoomisiminaanibaniin
-     2+mishoomis+Pos+21+Pret+Pl: gimishoomisiminaanibaniig
-     2+mishoomis+Pos+21+VocPl+Loc: [gimishoomisiminaanidig, gimishoomisiminaanidog]
-     2+mishoomis+Pos+21+VocPl+Obv: [gimishoomisiminaanidig, gimishoomisiminaanidog]
-     2+mishoomis+Pos+21+VocPl+Pl: [gimishoomisiminaanidig, gimishoomisiminaanidog]
-     2+mishoomis+Pos+2Pl+Pret+Loc: gimishoomisimiwaabaniing
-     2+mishoomis+Pos+2Pl+Pret+Obv: gimishoomisimiwaabaniin
-     2+mishoomis+Pos+2Pl+Pret+Pl: gimishoomisimiwaabaniig
-     2+mishoomis+Pos+2Pl+VocPl+Loc: [gimishoomisimiwaadig, gimishoomisimiwaadog]
-     2+mishoomis+Pos+2Pl+VocPl+Obv: [gimishoomisimiwaadig, gimishoomisimiwaadog]
-     2+mishoomis+Pos+2Pl+VocPl+Pl: [gimishoomisimiwaadig, gimishoomisimiwaadog]
-     3+mishoomis+Pos+3Obv+Pret+Loc: omishoomisiminiibaniing
-     3+mishoomis+Pos+3Obv+Pret+Obv: omishoomisiminiibaniin
-     3+mishoomis+Pos+3Obv+Pret+Pl: omishoomisiminiibaniig
-     3+mishoomis+Pos+3Obv+VocPl+Loc: [omishoomisiminiidig, omishoomisiminiidog]
-     3+mishoomis+Pos+3Obv+VocPl+Obv: [omishoomisiminiidig, omishoomisiminiidog]
-     3+mishoomis+Pos+3Obv+VocPl+Pl: [omishoomisiminiidig, omishoomisiminiidog]
-     3+mishoomis+Pos+3Pl+Pret+Loc: omishoomisimiwaabaniing
-     3+mishoomis+Pos+3Pl+Pret+Obv: omishoomisimiwaabaniin
-     3+mishoomis+Pos+3Pl+Pret+Pl: omishoomisimiwaabaniig
-     3+mishoomis+Pos+3Pl+VocPl+Loc: [omishoomisimiwaadig, omishoomisimiwaadog]
-     3+mishoomis+Pos+3Pl+VocPl+Obv: [omishoomisimiwaadig, omishoomisimiwaadog]
-     3+mishoomis+Pos+3Pl+VocPl+Pl: [omishoomisimiwaadig, omishoomisimiwaadog]
+     1+mishoomis+N+Pos+1Pl+Pret+Loc: nimishoomisiminaanibaniing
+     1+mishoomis+N+Pos+1Pl+Pret+Obv: nimishoomisiminaanibaniin
+     1+mishoomis+N+Pos+1Pl+Pret+Pl: nimishoomisiminaanibaniig
+     1+mishoomis+N+Pos+1Pl+VocPl+Loc: [nimishoomisiminaanidig, nimishoomisiminaanidog]
+     1+mishoomis+N+Pos+1Pl+VocPl+Obv: [nimishoomisiminaanidig, nimishoomisiminaanidog]
+     1+mishoomis+N+Pos+1Pl+VocPl+Pl: [nimishoomisiminaanidig, nimishoomisiminaanidog]
+     2+mishoomis+N+Pos+21+Pret+Loc: gimishoomisiminaanibaniing
+     2+mishoomis+N+Pos+21+Pret+Obv: gimishoomisiminaanibaniin
+     2+mishoomis+N+Pos+21+Pret+Pl: gimishoomisiminaanibaniig
+     2+mishoomis+N+Pos+21+VocPl+Loc: [gimishoomisiminaanidig, gimishoomisiminaanidog]
+     2+mishoomis+N+Pos+21+VocPl+Obv: [gimishoomisiminaanidig, gimishoomisiminaanidog]
+     2+mishoomis+N+Pos+21+VocPl+Pl: [gimishoomisiminaanidig, gimishoomisiminaanidog]
+     2+mishoomis+N+Pos+2Pl+Pret+Loc: gimishoomisimiwaabaniing
+     2+mishoomis+N+Pos+2Pl+Pret+Obv: gimishoomisimiwaabaniin
+     2+mishoomis+N+Pos+2Pl+Pret+Pl: gimishoomisimiwaabaniig
+     2+mishoomis+N+Pos+2Pl+VocPl+Loc: [gimishoomisimiwaadig, gimishoomisimiwaadog]
+     2+mishoomis+N+Pos+2Pl+VocPl+Obv: [gimishoomisimiwaadig, gimishoomisimiwaadog]
+     2+mishoomis+N+Pos+2Pl+VocPl+Pl: [gimishoomisimiwaadig, gimishoomisimiwaadog]
+     3+mishoomis+N+Pos+3Obv+Pret+Loc: omishoomisiminiibaniing
+     3+mishoomis+N+Pos+3Obv+Pret+Obv: omishoomisiminiibaniin
+     3+mishoomis+N+Pos+3Obv+Pret+Pl: omishoomisiminiibaniig
+     3+mishoomis+N+Pos+3Obv+VocPl+Loc: [omishoomisiminiidig, omishoomisiminiidog]
+     3+mishoomis+N+Pos+3Obv+VocPl+Obv: [omishoomisiminiidig, omishoomisiminiidog]
+     3+mishoomis+N+Pos+3Obv+VocPl+Pl: [omishoomisiminiidig, omishoomisiminiidog]
+     3+mishoomis+N+Pos+3Pl+Pret+Loc: omishoomisimiwaabaniing
+     3+mishoomis+N+Pos+3Pl+Pret+Obv: omishoomisimiwaabaniin
+     3+mishoomis+N+Pos+3Pl+Pret+Pl: omishoomisimiwaabaniig
+     3+mishoomis+N+Pos+3Pl+VocPl+Loc: [omishoomisimiwaadig, omishoomisimiwaadog]
+     3+mishoomis+N+Pos+3Pl+VocPl+Obv: [omishoomisimiwaadig, omishoomisimiwaadog]
+     3+mishoomis+N+Pos+3Pl+VocPl+Pl: [omishoomisimiwaadig, omishoomisimiwaadog]
      
      #Values from slots numbered: 1, 4, 5, 6, 7
-     1+mishoomis+Pej+1Pl+Pret+Loc: nimishoomisishinaanibaniing
-     1+mishoomis+Pej+1Pl+Pret+Obv: nimishoomisishinaanibaniin
-     1+mishoomis+Pej+1Pl+Pret+Pl: nimishoomisishinaanibaniig
-     1+mishoomis+Pej+1Pl+VocPl+Loc: [nimishoomisishinaanidig, nimishoomisishinaanidog]
-     1+mishoomis+Pej+1Pl+VocPl+Obv: [nimishoomisishinaanidig, nimishoomisishinaanidog]
-     1+mishoomis+Pej+1Pl+VocPl+Pl: [nimishoomisishinaanidig, nimishoomisishinaanidog]
-     2+mishoomis+Pej+21+Pret+Loc: gimishoomisishinaanibaniing
-     2+mishoomis+Pej+21+Pret+Obv: gimishoomisishinaanibaniin
-     2+mishoomis+Pej+21+Pret+Pl: gimishoomisishinaanibaniig
-     2+mishoomis+Pej+21+VocPl+Loc: [gimishoomisishinaanidig, gimishoomisishinaanidog]
-     2+mishoomis+Pej+21+VocPl+Obv: [gimishoomisishinaanidig, gimishoomisishinaanidog]
-     2+mishoomis+Pej+21+VocPl+Pl: [gimishoomisishinaanidig, gimishoomisishinaanidog]
-     2+mishoomis+Pej+2Pl+Pret+Loc: gimishoomisishiwaabaniing
-     2+mishoomis+Pej+2Pl+Pret+Obv: gimishoomisishiwaabaniin
-     2+mishoomis+Pej+2Pl+Pret+Pl: gimishoomisishiwaabaniig
-     2+mishoomis+Pej+2Pl+VocPl+Loc: [gimishoomisishiwaadig, gimishoomisishiwaadog]
-     2+mishoomis+Pej+2Pl+VocPl+Obv: [gimishoomisishiwaadig, gimishoomisishiwaadog]
-     2+mishoomis+Pej+2Pl+VocPl+Pl: [gimishoomisishiwaadig, gimishoomisishiwaadog]
-     3+mishoomis+Pej+3Obv+Pret+Loc: omishoomisishiniibaniing
-     3+mishoomis+Pej+3Obv+Pret+Obv: omishoomisishiniibaniin
-     3+mishoomis+Pej+3Obv+Pret+Pl: omishoomisishiniibaniig
-     3+mishoomis+Pej+3Obv+VocPl+Loc: [omishoomisishiniidig, omishoomisishiniidog]
-     3+mishoomis+Pej+3Obv+VocPl+Obv: [omishoomisishiniidig, omishoomisishiniidog]
-     3+mishoomis+Pej+3Obv+VocPl+Pl: [omishoomisishiniidig, omishoomisishiniidog]
-     3+mishoomis+Pej+3Pl+Pret+Loc: omishoomisishiwaabaniing
-     3+mishoomis+Pej+3Pl+Pret+Obv: omishoomisishiwaabaniin
-     3+mishoomis+Pej+3Pl+Pret+Pl: omishoomisishiwaabaniig
-     3+mishoomis+Pej+3Pl+VocPl+Loc: [omishoomisishiwaadig, omishoomisishiwaadog]
-     3+mishoomis+Pej+3Pl+VocPl+Obv: [omishoomisishiwaadig, omishoomisishiwaadog]
-     3+mishoomis+Pej+3Pl+VocPl+Pl: [omishoomisishiwaadig, omishoomisishiwaadog]
+     1+mishoomis+N+Pej+1Pl+Pret+Loc: nimishoomisishinaanibaniing
+     1+mishoomis+N+Pej+1Pl+Pret+Obv: nimishoomisishinaanibaniin
+     1+mishoomis+N+Pej+1Pl+Pret+Pl: nimishoomisishinaanibaniig
+     1+mishoomis+N+Pej+1Pl+VocPl+Loc: [nimishoomisishinaanidig, nimishoomisishinaanidog]
+     1+mishoomis+N+Pej+1Pl+VocPl+Obv: [nimishoomisishinaanidig, nimishoomisishinaanidog]
+     1+mishoomis+N+Pej+1Pl+VocPl+Pl: [nimishoomisishinaanidig, nimishoomisishinaanidog]
+     2+mishoomis+N+Pej+21+Pret+Loc: gimishoomisishinaanibaniing
+     2+mishoomis+N+Pej+21+Pret+Obv: gimishoomisishinaanibaniin
+     2+mishoomis+N+Pej+21+Pret+Pl: gimishoomisishinaanibaniig
+     2+mishoomis+N+Pej+21+VocPl+Loc: [gimishoomisishinaanidig, gimishoomisishinaanidog]
+     2+mishoomis+N+Pej+21+VocPl+Obv: [gimishoomisishinaanidig, gimishoomisishinaanidog]
+     2+mishoomis+N+Pej+21+VocPl+Pl: [gimishoomisishinaanidig, gimishoomisishinaanidog]
+     2+mishoomis+N+Pej+2Pl+Pret+Loc: gimishoomisishiwaabaniing
+     2+mishoomis+N+Pej+2Pl+Pret+Obv: gimishoomisishiwaabaniin
+     2+mishoomis+N+Pej+2Pl+Pret+Pl: gimishoomisishiwaabaniig
+     2+mishoomis+N+Pej+2Pl+VocPl+Loc: [gimishoomisishiwaadig, gimishoomisishiwaadog]
+     2+mishoomis+N+Pej+2Pl+VocPl+Obv: [gimishoomisishiwaadig, gimishoomisishiwaadog]
+     2+mishoomis+N+Pej+2Pl+VocPl+Pl: [gimishoomisishiwaadig, gimishoomisishiwaadog]
+     3+mishoomis+N+Pej+3Obv+Pret+Loc: omishoomisishiniibaniing
+     3+mishoomis+N+Pej+3Obv+Pret+Obv: omishoomisishiniibaniin
+     3+mishoomis+N+Pej+3Obv+Pret+Pl: omishoomisishiniibaniig
+     3+mishoomis+N+Pej+3Obv+VocPl+Loc: [omishoomisishiniidig, omishoomisishiniidog]
+     3+mishoomis+N+Pej+3Obv+VocPl+Obv: [omishoomisishiniidig, omishoomisishiniidog]
+     3+mishoomis+N+Pej+3Obv+VocPl+Pl: [omishoomisishiniidig, omishoomisishiniidog]
+     3+mishoomis+N+Pej+3Pl+Pret+Loc: omishoomisishiwaabaniing
+     3+mishoomis+N+Pej+3Pl+Pret+Obv: omishoomisishiwaabaniin
+     3+mishoomis+N+Pej+3Pl+Pret+Pl: omishoomisishiwaabaniig
+     3+mishoomis+N+Pej+3Pl+VocPl+Loc: [omishoomisishiwaadig, omishoomisishiwaadog]
+     3+mishoomis+N+Pej+3Pl+VocPl+Obv: [omishoomisishiwaadig, omishoomisishiwaadog]
+     3+mishoomis+N+Pej+3Pl+VocPl+Pl: [omishoomisishiwaadig, omishoomisishiwaadog]
      
      
      
@@ -1131,301 +1131,301 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6
-     1+mishoomis+Con+Pos+Pej+1Pl+Pret: nimishoomisenyimishinaaniban
-     1+mishoomis+Con+Pos+Pej+1Pl+VocPl: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
-     1+mishoomis+Dim+Pos+Pej+1Pl+Pret: nimishoomisensimishinaaniban
-     1+mishoomis+Dim+Pos+Pej+1Pl+VocPl: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+21+Pret: gimishoomisenyimishinaaniban
-     2+mishoomis+Con+Pos+Pej+21+VocPl: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+2Pl+Pret: gimishoomisenyimishiwaaban
-     2+mishoomis+Con+Pos+Pej+2Pl+VocPl: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
-     2+mishoomis+Dim+Pos+Pej+21+Pret: gimishoomisensimishinaaniban
-     2+mishoomis+Dim+Pos+Pej+21+VocPl: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
-     2+mishoomis+Dim+Pos+Pej+2Pl+Pret: gimishoomisensimishiwaaban
-     2+mishoomis+Dim+Pos+Pej+2Pl+VocPl: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
-     3+mishoomis+Con+Pos+Pej+3Obv+Pret: omishoomisenyimishiniiban
-     3+mishoomis+Con+Pos+Pej+3Obv+VocPl: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
-     3+mishoomis+Con+Pos+Pej+3Pl+Pret: omishoomisenyimishiwaaban
-     3+mishoomis+Con+Pos+Pej+3Pl+VocPl: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
-     3+mishoomis+Dim+Pos+Pej+3Obv+Pret: omishoomisensimishiniiban
-     3+mishoomis+Dim+Pos+Pej+3Obv+VocPl: [omishoomisensimishiniidig, omishoomisensimishiniidog]
-     3+mishoomis+Dim+Pos+Pej+3Pl+Pret: omishoomisensimishiwaaban
-     3+mishoomis+Dim+Pos+Pej+3Pl+VocPl: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Pret: nimishoomisenyimishinaaniban
+     1+mishoomis+N+Con+Pos+Pej+1Pl+VocPl: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Pret: nimishoomisensimishinaaniban
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+VocPl: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+21+Pret: gimishoomisenyimishinaaniban
+     2+mishoomis+N+Con+Pos+Pej+21+VocPl: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Pret: gimishoomisenyimishiwaaban
+     2+mishoomis+N+Con+Pos+Pej+2Pl+VocPl: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
+     2+mishoomis+N+Dim+Pos+Pej+21+Pret: gimishoomisensimishinaaniban
+     2+mishoomis+N+Dim+Pos+Pej+21+VocPl: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Pret: gimishoomisensimishiwaaban
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+VocPl: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Pret: omishoomisenyimishiniiban
+     3+mishoomis+N+Con+Pos+Pej+3Obv+VocPl: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Pret: omishoomisenyimishiwaaban
+     3+mishoomis+N+Con+Pos+Pej+3Pl+VocPl: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Pret: omishoomisensimishiniiban
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+VocPl: [omishoomisensimishiniidig, omishoomisensimishiniidog]
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Pret: omishoomisensimishiwaaban
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+VocPl: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
-     1+mishoomis+Con+Pos+Pej+1Pl+Loc: nimishoomisenyimishinaaning
-     1+mishoomis+Con+Pos+Pej+1Pl+Obv: nimishoomisenyimishinaanin
-     1+mishoomis+Con+Pos+Pej+1Pl+Pl: nimishoomisenyimishinaanig
-     1+mishoomis+Dim+Pos+Pej+1Pl+Loc: nimishoomisensimishinaaning
-     1+mishoomis+Dim+Pos+Pej+1Pl+Obv: nimishoomisensimishinaanin
-     1+mishoomis+Dim+Pos+Pej+1Pl+Pl: nimishoomisensimishinaanig
-     2+mishoomis+Con+Pos+Pej+21+Loc: gimishoomisenyimishinaaning
-     2+mishoomis+Con+Pos+Pej+21+Obv: gimishoomisenyimishinaanin
-     2+mishoomis+Con+Pos+Pej+21+Pl: gimishoomisenyimishinaanig
-     2+mishoomis+Con+Pos+Pej+2Pl+Loc: gimishoomisenyimishiwaang
-     2+mishoomis+Con+Pos+Pej+2Pl+Obv: gimishoomisenyimishiwaan
-     2+mishoomis+Con+Pos+Pej+2Pl+Pl: gimishoomisenyimishiwaag
-     2+mishoomis+Dim+Pos+Pej+21+Loc: gimishoomisensimishinaaning
-     2+mishoomis+Dim+Pos+Pej+21+Obv: gimishoomisensimishinaanin
-     2+mishoomis+Dim+Pos+Pej+21+Pl: gimishoomisensimishinaanig
-     2+mishoomis+Dim+Pos+Pej+2Pl+Loc: gimishoomisensimishiwaang
-     2+mishoomis+Dim+Pos+Pej+2Pl+Obv: gimishoomisensimishiwaan
-     2+mishoomis+Dim+Pos+Pej+2Pl+Pl: gimishoomisensimishiwaag
-     3+mishoomis+Con+Pos+Pej+3Obv+Loc: omishoomisenyimishiniing
-     3+mishoomis+Con+Pos+Pej+3Obv+Obv: omishoomisenyimishiniin
-     3+mishoomis+Con+Pos+Pej+3Obv+Pl: omishoomisenyimishiniig
-     3+mishoomis+Con+Pos+Pej+3Pl+Loc: omishoomisenyimishiwaang
-     3+mishoomis+Con+Pos+Pej+3Pl+Obv: omishoomisenyimishiwaan
-     3+mishoomis+Con+Pos+Pej+3Pl+Pl: omishoomisenyimishiwaag
-     3+mishoomis+Dim+Pos+Pej+3Obv+Loc: omishoomisensimishiniing
-     3+mishoomis+Dim+Pos+Pej+3Obv+Obv: omishoomisensimishiniin
-     3+mishoomis+Dim+Pos+Pej+3Obv+Pl: omishoomisensimishiniig
-     3+mishoomis+Dim+Pos+Pej+3Pl+Loc: omishoomisensimishiwaang
-     3+mishoomis+Dim+Pos+Pej+3Pl+Obv: omishoomisensimishiwaan
-     3+mishoomis+Dim+Pos+Pej+3Pl+Pl: omishoomisensimishiwaag
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Loc: nimishoomisenyimishinaaning
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Obv: nimishoomisenyimishinaanin
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Pl: nimishoomisenyimishinaanig
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Loc: nimishoomisensimishinaaning
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Obv: nimishoomisensimishinaanin
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Pl: nimishoomisensimishinaanig
+     2+mishoomis+N+Con+Pos+Pej+21+Loc: gimishoomisenyimishinaaning
+     2+mishoomis+N+Con+Pos+Pej+21+Obv: gimishoomisenyimishinaanin
+     2+mishoomis+N+Con+Pos+Pej+21+Pl: gimishoomisenyimishinaanig
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Loc: gimishoomisenyimishiwaang
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Obv: gimishoomisenyimishiwaan
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Pl: gimishoomisenyimishiwaag
+     2+mishoomis+N+Dim+Pos+Pej+21+Loc: gimishoomisensimishinaaning
+     2+mishoomis+N+Dim+Pos+Pej+21+Obv: gimishoomisensimishinaanin
+     2+mishoomis+N+Dim+Pos+Pej+21+Pl: gimishoomisensimishinaanig
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Loc: gimishoomisensimishiwaang
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Obv: gimishoomisensimishiwaan
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Pl: gimishoomisensimishiwaag
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Loc: omishoomisenyimishiniing
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Obv: omishoomisenyimishiniin
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Pl: omishoomisenyimishiniig
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Loc: omishoomisenyimishiwaang
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Obv: omishoomisenyimishiwaan
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Pl: omishoomisenyimishiwaag
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Loc: omishoomisensimishiniing
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Obv: omishoomisensimishiniin
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Pl: omishoomisensimishiniig
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Loc: omishoomisensimishiwaang
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Obv: omishoomisensimishiwaan
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Pl: omishoomisensimishiwaag
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
-     1+mishoomis+Con+Pos+Pej+Pret+Loc: nimishoomisenyimishibaniing
-     1+mishoomis+Con+Pos+Pej+Pret+Obv: nimishoomisenyimishibaniin
-     1+mishoomis+Con+Pos+Pej+Pret+Pl: nimishoomisenyimishibaniig
-     1+mishoomis+Dim+Pos+Pej+Pret+Loc: nimishoomisensimishibaniing
-     1+mishoomis+Dim+Pos+Pej+Pret+Obv: nimishoomisensimishibaniin
-     1+mishoomis+Dim+Pos+Pej+Pret+Pl: nimishoomisensimishibaniig
-     2+mishoomis+Con+Pos+Pej+Pret+Loc: gimishoomisenyimishibaniing
-     2+mishoomis+Con+Pos+Pej+Pret+Obv: gimishoomisenyimishibaniin
-     2+mishoomis+Con+Pos+Pej+Pret+Pl: gimishoomisenyimishibaniig
-     2+mishoomis+Dim+Pos+Pej+Pret+Loc: gimishoomisensimishibaniing
-     2+mishoomis+Dim+Pos+Pej+Pret+Obv: gimishoomisensimishibaniin
-     2+mishoomis+Dim+Pos+Pej+Pret+Pl: gimishoomisensimishibaniig
-     3+mishoomis+Con+Pos+Pej+Pret+Loc: omishoomisenyimishibaniing
-     3+mishoomis+Con+Pos+Pej+Pret+Obv: omishoomisenyimishibaniin
-     3+mishoomis+Con+Pos+Pej+Pret+Pl: omishoomisenyimishibaniig
-     3+mishoomis+Dim+Pos+Pej+Pret+Loc: omishoomisensimishibaniing
-     3+mishoomis+Dim+Pos+Pej+Pret+Obv: omishoomisensimishibaniin
-     3+mishoomis+Dim+Pos+Pej+Pret+Pl: omishoomisensimishibaniig
-     X+mishoomis+Con+Pos+Pej+Pret+Loc: imishoomisenyimishibaniing
-     X+mishoomis+Con+Pos+Pej+Pret+Obv: imishoomisenyimishibaniin
-     X+mishoomis+Con+Pos+Pej+Pret+Pl: imishoomisenyimishibaniig
-     X+mishoomis+Dim+Pos+Pej+Pret+Loc: imishoomisensimishibaniing
-     X+mishoomis+Dim+Pos+Pej+Pret+Obv: imishoomisensimishibaniin
-     X+mishoomis+Dim+Pos+Pej+Pret+Pl: imishoomisensimishibaniig
+     1+mishoomis+N+Con+Pos+Pej+Pret+Loc: nimishoomisenyimishibaniing
+     1+mishoomis+N+Con+Pos+Pej+Pret+Obv: nimishoomisenyimishibaniin
+     1+mishoomis+N+Con+Pos+Pej+Pret+Pl: nimishoomisenyimishibaniig
+     1+mishoomis+N+Dim+Pos+Pej+Pret+Loc: nimishoomisensimishibaniing
+     1+mishoomis+N+Dim+Pos+Pej+Pret+Obv: nimishoomisensimishibaniin
+     1+mishoomis+N+Dim+Pos+Pej+Pret+Pl: nimishoomisensimishibaniig
+     2+mishoomis+N+Con+Pos+Pej+Pret+Loc: gimishoomisenyimishibaniing
+     2+mishoomis+N+Con+Pos+Pej+Pret+Obv: gimishoomisenyimishibaniin
+     2+mishoomis+N+Con+Pos+Pej+Pret+Pl: gimishoomisenyimishibaniig
+     2+mishoomis+N+Dim+Pos+Pej+Pret+Loc: gimishoomisensimishibaniing
+     2+mishoomis+N+Dim+Pos+Pej+Pret+Obv: gimishoomisensimishibaniin
+     2+mishoomis+N+Dim+Pos+Pej+Pret+Pl: gimishoomisensimishibaniig
+     3+mishoomis+N+Con+Pos+Pej+Pret+Loc: omishoomisenyimishibaniing
+     3+mishoomis+N+Con+Pos+Pej+Pret+Obv: omishoomisenyimishibaniin
+     3+mishoomis+N+Con+Pos+Pej+Pret+Pl: omishoomisenyimishibaniig
+     3+mishoomis+N+Dim+Pos+Pej+Pret+Loc: omishoomisensimishibaniing
+     3+mishoomis+N+Dim+Pos+Pej+Pret+Obv: omishoomisensimishibaniin
+     3+mishoomis+N+Dim+Pos+Pej+Pret+Pl: omishoomisensimishibaniig
+     X+mishoomis+N+Con+Pos+Pej+Pret+Loc: imishoomisenyimishibaniing
+     X+mishoomis+N+Con+Pos+Pej+Pret+Obv: imishoomisenyimishibaniin
+     X+mishoomis+N+Con+Pos+Pej+Pret+Pl: imishoomisenyimishibaniig
+     X+mishoomis+N+Dim+Pos+Pej+Pret+Loc: imishoomisensimishibaniing
+     X+mishoomis+N+Dim+Pos+Pej+Pret+Obv: imishoomisensimishibaniin
+     X+mishoomis+N+Dim+Pos+Pej+Pret+Pl: imishoomisensimishibaniig
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
-     1+mishoomis+Con+Pos+1Pl+Pret+Loc: nimishoomisenyiminaanibaniing
-     1+mishoomis+Con+Pos+1Pl+Pret+Obv: nimishoomisenyiminaanibaniin
-     1+mishoomis+Con+Pos+1Pl+Pret+Pl: nimishoomisenyiminaanibaniig
-     1+mishoomis+Con+Pos+1Pl+VocPl+Loc: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
-     1+mishoomis+Con+Pos+1Pl+VocPl+Obv: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
-     1+mishoomis+Con+Pos+1Pl+VocPl+Pl: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
-     1+mishoomis+Dim+Pos+1Pl+Pret+Loc: nimishoomisensiminaanibaniing
-     1+mishoomis+Dim+Pos+1Pl+Pret+Obv: nimishoomisensiminaanibaniin
-     1+mishoomis+Dim+Pos+1Pl+Pret+Pl: nimishoomisensiminaanibaniig
-     1+mishoomis+Dim+Pos+1Pl+VocPl+Loc: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
-     1+mishoomis+Dim+Pos+1Pl+VocPl+Obv: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
-     1+mishoomis+Dim+Pos+1Pl+VocPl+Pl: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
-     2+mishoomis+Con+Pos+21+Pret+Loc: gimishoomisenyiminaanibaniing
-     2+mishoomis+Con+Pos+21+Pret+Obv: gimishoomisenyiminaanibaniin
-     2+mishoomis+Con+Pos+21+Pret+Pl: gimishoomisenyiminaanibaniig
-     2+mishoomis+Con+Pos+21+VocPl+Loc: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
-     2+mishoomis+Con+Pos+21+VocPl+Obv: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
-     2+mishoomis+Con+Pos+21+VocPl+Pl: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
-     2+mishoomis+Con+Pos+2Pl+Pret+Loc: gimishoomisenyimiwaabaniing
-     2+mishoomis+Con+Pos+2Pl+Pret+Obv: gimishoomisenyimiwaabaniin
-     2+mishoomis+Con+Pos+2Pl+Pret+Pl: gimishoomisenyimiwaabaniig
-     2+mishoomis+Con+Pos+2Pl+VocPl+Loc: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
-     2+mishoomis+Con+Pos+2Pl+VocPl+Obv: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
-     2+mishoomis+Con+Pos+2Pl+VocPl+Pl: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
-     2+mishoomis+Dim+Pos+21+Pret+Loc: gimishoomisensiminaanibaniing
-     2+mishoomis+Dim+Pos+21+Pret+Obv: gimishoomisensiminaanibaniin
-     2+mishoomis+Dim+Pos+21+Pret+Pl: gimishoomisensiminaanibaniig
-     2+mishoomis+Dim+Pos+21+VocPl+Loc: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
-     2+mishoomis+Dim+Pos+21+VocPl+Obv: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
-     2+mishoomis+Dim+Pos+21+VocPl+Pl: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
-     2+mishoomis+Dim+Pos+2Pl+Pret+Loc: gimishoomisensimiwaabaniing
-     2+mishoomis+Dim+Pos+2Pl+Pret+Obv: gimishoomisensimiwaabaniin
-     2+mishoomis+Dim+Pos+2Pl+Pret+Pl: gimishoomisensimiwaabaniig
-     2+mishoomis+Dim+Pos+2Pl+VocPl+Loc: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
-     2+mishoomis+Dim+Pos+2Pl+VocPl+Obv: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
-     2+mishoomis+Dim+Pos+2Pl+VocPl+Pl: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
-     3+mishoomis+Con+Pos+3Obv+Pret+Loc: omishoomisenyiminiibaniing
-     3+mishoomis+Con+Pos+3Obv+Pret+Obv: omishoomisenyiminiibaniin
-     3+mishoomis+Con+Pos+3Obv+Pret+Pl: omishoomisenyiminiibaniig
-     3+mishoomis+Con+Pos+3Obv+VocPl+Loc: [omishoomisenyiminiidig, omishoomisenyiminiidog]
-     3+mishoomis+Con+Pos+3Obv+VocPl+Obv: [omishoomisenyiminiidig, omishoomisenyiminiidog]
-     3+mishoomis+Con+Pos+3Obv+VocPl+Pl: [omishoomisenyiminiidig, omishoomisenyiminiidog]
-     3+mishoomis+Con+Pos+3Pl+Pret+Loc: omishoomisenyimiwaabaniing
-     3+mishoomis+Con+Pos+3Pl+Pret+Obv: omishoomisenyimiwaabaniin
-     3+mishoomis+Con+Pos+3Pl+Pret+Pl: omishoomisenyimiwaabaniig
-     3+mishoomis+Con+Pos+3Pl+VocPl+Loc: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
-     3+mishoomis+Con+Pos+3Pl+VocPl+Obv: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
-     3+mishoomis+Con+Pos+3Pl+VocPl+Pl: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
-     3+mishoomis+Dim+Pos+3Obv+Pret+Loc: omishoomisensiminiibaniing
-     3+mishoomis+Dim+Pos+3Obv+Pret+Obv: omishoomisensiminiibaniin
-     3+mishoomis+Dim+Pos+3Obv+Pret+Pl: omishoomisensiminiibaniig
-     3+mishoomis+Dim+Pos+3Obv+VocPl+Loc: [omishoomisensiminiidig, omishoomisensiminiidog]
-     3+mishoomis+Dim+Pos+3Obv+VocPl+Obv: [omishoomisensiminiidig, omishoomisensiminiidog]
-     3+mishoomis+Dim+Pos+3Obv+VocPl+Pl: [omishoomisensiminiidig, omishoomisensiminiidog]
-     3+mishoomis+Dim+Pos+3Pl+Pret+Loc: omishoomisensimiwaabaniing
-     3+mishoomis+Dim+Pos+3Pl+Pret+Obv: omishoomisensimiwaabaniin
-     3+mishoomis+Dim+Pos+3Pl+Pret+Pl: omishoomisensimiwaabaniig
-     3+mishoomis+Dim+Pos+3Pl+VocPl+Loc: [omishoomisensimiwaadig, omishoomisensimiwaadog]
-     3+mishoomis+Dim+Pos+3Pl+VocPl+Obv: [omishoomisensimiwaadig, omishoomisensimiwaadog]
-     3+mishoomis+Dim+Pos+3Pl+VocPl+Pl: [omishoomisensimiwaadig, omishoomisensimiwaadog]
+     1+mishoomis+N+Con+Pos+1Pl+Pret+Loc: nimishoomisenyiminaanibaniing
+     1+mishoomis+N+Con+Pos+1Pl+Pret+Obv: nimishoomisenyiminaanibaniin
+     1+mishoomis+N+Con+Pos+1Pl+Pret+Pl: nimishoomisenyiminaanibaniig
+     1+mishoomis+N+Con+Pos+1Pl+VocPl+Loc: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
+     1+mishoomis+N+Con+Pos+1Pl+VocPl+Obv: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
+     1+mishoomis+N+Con+Pos+1Pl+VocPl+Pl: [nimishoomisenyiminaanidig, nimishoomisenyiminaanidog]
+     1+mishoomis+N+Dim+Pos+1Pl+Pret+Loc: nimishoomisensiminaanibaniing
+     1+mishoomis+N+Dim+Pos+1Pl+Pret+Obv: nimishoomisensiminaanibaniin
+     1+mishoomis+N+Dim+Pos+1Pl+Pret+Pl: nimishoomisensiminaanibaniig
+     1+mishoomis+N+Dim+Pos+1Pl+VocPl+Loc: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
+     1+mishoomis+N+Dim+Pos+1Pl+VocPl+Obv: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
+     1+mishoomis+N+Dim+Pos+1Pl+VocPl+Pl: [nimishoomisensiminaanidig, nimishoomisensiminaanidog]
+     2+mishoomis+N+Con+Pos+21+Pret+Loc: gimishoomisenyiminaanibaniing
+     2+mishoomis+N+Con+Pos+21+Pret+Obv: gimishoomisenyiminaanibaniin
+     2+mishoomis+N+Con+Pos+21+Pret+Pl: gimishoomisenyiminaanibaniig
+     2+mishoomis+N+Con+Pos+21+VocPl+Loc: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
+     2+mishoomis+N+Con+Pos+21+VocPl+Obv: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
+     2+mishoomis+N+Con+Pos+21+VocPl+Pl: [gimishoomisenyiminaanidig, gimishoomisenyiminaanidog]
+     2+mishoomis+N+Con+Pos+2Pl+Pret+Loc: gimishoomisenyimiwaabaniing
+     2+mishoomis+N+Con+Pos+2Pl+Pret+Obv: gimishoomisenyimiwaabaniin
+     2+mishoomis+N+Con+Pos+2Pl+Pret+Pl: gimishoomisenyimiwaabaniig
+     2+mishoomis+N+Con+Pos+2Pl+VocPl+Loc: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
+     2+mishoomis+N+Con+Pos+2Pl+VocPl+Obv: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
+     2+mishoomis+N+Con+Pos+2Pl+VocPl+Pl: [gimishoomisenyimiwaadig, gimishoomisenyimiwaadog]
+     2+mishoomis+N+Dim+Pos+21+Pret+Loc: gimishoomisensiminaanibaniing
+     2+mishoomis+N+Dim+Pos+21+Pret+Obv: gimishoomisensiminaanibaniin
+     2+mishoomis+N+Dim+Pos+21+Pret+Pl: gimishoomisensiminaanibaniig
+     2+mishoomis+N+Dim+Pos+21+VocPl+Loc: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
+     2+mishoomis+N+Dim+Pos+21+VocPl+Obv: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
+     2+mishoomis+N+Dim+Pos+21+VocPl+Pl: [gimishoomisensiminaanidig, gimishoomisensiminaanidog]
+     2+mishoomis+N+Dim+Pos+2Pl+Pret+Loc: gimishoomisensimiwaabaniing
+     2+mishoomis+N+Dim+Pos+2Pl+Pret+Obv: gimishoomisensimiwaabaniin
+     2+mishoomis+N+Dim+Pos+2Pl+Pret+Pl: gimishoomisensimiwaabaniig
+     2+mishoomis+N+Dim+Pos+2Pl+VocPl+Loc: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
+     2+mishoomis+N+Dim+Pos+2Pl+VocPl+Obv: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
+     2+mishoomis+N+Dim+Pos+2Pl+VocPl+Pl: [gimishoomisensimiwaadig, gimishoomisensimiwaadog]
+     3+mishoomis+N+Con+Pos+3Obv+Pret+Loc: omishoomisenyiminiibaniing
+     3+mishoomis+N+Con+Pos+3Obv+Pret+Obv: omishoomisenyiminiibaniin
+     3+mishoomis+N+Con+Pos+3Obv+Pret+Pl: omishoomisenyiminiibaniig
+     3+mishoomis+N+Con+Pos+3Obv+VocPl+Loc: [omishoomisenyiminiidig, omishoomisenyiminiidog]
+     3+mishoomis+N+Con+Pos+3Obv+VocPl+Obv: [omishoomisenyiminiidig, omishoomisenyiminiidog]
+     3+mishoomis+N+Con+Pos+3Obv+VocPl+Pl: [omishoomisenyiminiidig, omishoomisenyiminiidog]
+     3+mishoomis+N+Con+Pos+3Pl+Pret+Loc: omishoomisenyimiwaabaniing
+     3+mishoomis+N+Con+Pos+3Pl+Pret+Obv: omishoomisenyimiwaabaniin
+     3+mishoomis+N+Con+Pos+3Pl+Pret+Pl: omishoomisenyimiwaabaniig
+     3+mishoomis+N+Con+Pos+3Pl+VocPl+Loc: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
+     3+mishoomis+N+Con+Pos+3Pl+VocPl+Obv: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
+     3+mishoomis+N+Con+Pos+3Pl+VocPl+Pl: [omishoomisenyimiwaadig, omishoomisenyimiwaadog]
+     3+mishoomis+N+Dim+Pos+3Obv+Pret+Loc: omishoomisensiminiibaniing
+     3+mishoomis+N+Dim+Pos+3Obv+Pret+Obv: omishoomisensiminiibaniin
+     3+mishoomis+N+Dim+Pos+3Obv+Pret+Pl: omishoomisensiminiibaniig
+     3+mishoomis+N+Dim+Pos+3Obv+VocPl+Loc: [omishoomisensiminiidig, omishoomisensiminiidog]
+     3+mishoomis+N+Dim+Pos+3Obv+VocPl+Obv: [omishoomisensiminiidig, omishoomisensiminiidog]
+     3+mishoomis+N+Dim+Pos+3Obv+VocPl+Pl: [omishoomisensiminiidig, omishoomisensiminiidog]
+     3+mishoomis+N+Dim+Pos+3Pl+Pret+Loc: omishoomisensimiwaabaniing
+     3+mishoomis+N+Dim+Pos+3Pl+Pret+Obv: omishoomisensimiwaabaniin
+     3+mishoomis+N+Dim+Pos+3Pl+Pret+Pl: omishoomisensimiwaabaniig
+     3+mishoomis+N+Dim+Pos+3Pl+VocPl+Loc: [omishoomisensimiwaadig, omishoomisensimiwaadog]
+     3+mishoomis+N+Dim+Pos+3Pl+VocPl+Obv: [omishoomisensimiwaadig, omishoomisensimiwaadog]
+     3+mishoomis+N+Dim+Pos+3Pl+VocPl+Pl: [omishoomisensimiwaadig, omishoomisensimiwaadog]
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
-     1+mishoomis+Con+Pej+1Pl+Pret+Loc: nimishoomisenyishinaanibaniing
-     1+mishoomis+Con+Pej+1Pl+Pret+Obv: nimishoomisenyishinaanibaniin
-     1+mishoomis+Con+Pej+1Pl+Pret+Pl: nimishoomisenyishinaanibaniig
-     1+mishoomis+Con+Pej+1Pl+VocPl+Loc: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
-     1+mishoomis+Con+Pej+1Pl+VocPl+Obv: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
-     1+mishoomis+Con+Pej+1Pl+VocPl+Pl: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
-     1+mishoomis+Dim+Pej+1Pl+Pret+Loc: nimishoomisensishinaanibaniing
-     1+mishoomis+Dim+Pej+1Pl+Pret+Obv: nimishoomisensishinaanibaniin
-     1+mishoomis+Dim+Pej+1Pl+Pret+Pl: nimishoomisensishinaanibaniig
-     1+mishoomis+Dim+Pej+1Pl+VocPl+Loc: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
-     1+mishoomis+Dim+Pej+1Pl+VocPl+Obv: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
-     1+mishoomis+Dim+Pej+1Pl+VocPl+Pl: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
-     2+mishoomis+Con+Pej+21+Pret+Loc: gimishoomisenyishinaanibaniing
-     2+mishoomis+Con+Pej+21+Pret+Obv: gimishoomisenyishinaanibaniin
-     2+mishoomis+Con+Pej+21+Pret+Pl: gimishoomisenyishinaanibaniig
-     2+mishoomis+Con+Pej+21+VocPl+Loc: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
-     2+mishoomis+Con+Pej+21+VocPl+Obv: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
-     2+mishoomis+Con+Pej+21+VocPl+Pl: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
-     2+mishoomis+Con+Pej+2Pl+Pret+Loc: gimishoomisenyishiwaabaniing
-     2+mishoomis+Con+Pej+2Pl+Pret+Obv: gimishoomisenyishiwaabaniin
-     2+mishoomis+Con+Pej+2Pl+Pret+Pl: gimishoomisenyishiwaabaniig
-     2+mishoomis+Con+Pej+2Pl+VocPl+Loc: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
-     2+mishoomis+Con+Pej+2Pl+VocPl+Obv: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
-     2+mishoomis+Con+Pej+2Pl+VocPl+Pl: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
-     2+mishoomis+Dim+Pej+21+Pret+Loc: gimishoomisensishinaanibaniing
-     2+mishoomis+Dim+Pej+21+Pret+Obv: gimishoomisensishinaanibaniin
-     2+mishoomis+Dim+Pej+21+Pret+Pl: gimishoomisensishinaanibaniig
-     2+mishoomis+Dim+Pej+21+VocPl+Loc: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
-     2+mishoomis+Dim+Pej+21+VocPl+Obv: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
-     2+mishoomis+Dim+Pej+21+VocPl+Pl: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
-     2+mishoomis+Dim+Pej+2Pl+Pret+Loc: gimishoomisensishiwaabaniing
-     2+mishoomis+Dim+Pej+2Pl+Pret+Obv: gimishoomisensishiwaabaniin
-     2+mishoomis+Dim+Pej+2Pl+Pret+Pl: gimishoomisensishiwaabaniig
-     2+mishoomis+Dim+Pej+2Pl+VocPl+Loc: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
-     2+mishoomis+Dim+Pej+2Pl+VocPl+Obv: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
-     2+mishoomis+Dim+Pej+2Pl+VocPl+Pl: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
-     3+mishoomis+Con+Pej+3Obv+Pret+Loc: omishoomisenyishiniibaniing
-     3+mishoomis+Con+Pej+3Obv+Pret+Obv: omishoomisenyishiniibaniin
-     3+mishoomis+Con+Pej+3Obv+Pret+Pl: omishoomisenyishiniibaniig
-     3+mishoomis+Con+Pej+3Obv+VocPl+Loc: [omishoomisenyishiniidig, omishoomisenyishiniidog]
-     3+mishoomis+Con+Pej+3Obv+VocPl+Obv: [omishoomisenyishiniidig, omishoomisenyishiniidog]
-     3+mishoomis+Con+Pej+3Obv+VocPl+Pl: [omishoomisenyishiniidig, omishoomisenyishiniidog]
-     3+mishoomis+Con+Pej+3Pl+Pret+Loc: omishoomisenyishiwaabaniing
-     3+mishoomis+Con+Pej+3Pl+Pret+Obv: omishoomisenyishiwaabaniin
-     3+mishoomis+Con+Pej+3Pl+Pret+Pl: omishoomisenyishiwaabaniig
-     3+mishoomis+Con+Pej+3Pl+VocPl+Loc: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
-     3+mishoomis+Con+Pej+3Pl+VocPl+Obv: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
-     3+mishoomis+Con+Pej+3Pl+VocPl+Pl: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
-     3+mishoomis+Dim+Pej+3Obv+Pret+Loc: omishoomisensishiniibaniing
-     3+mishoomis+Dim+Pej+3Obv+Pret+Obv: omishoomisensishiniibaniin
-     3+mishoomis+Dim+Pej+3Obv+Pret+Pl: omishoomisensishiniibaniig
-     3+mishoomis+Dim+Pej+3Obv+VocPl+Loc: [omishoomisensishiniidig, omishoomisensishiniidog]
-     3+mishoomis+Dim+Pej+3Obv+VocPl+Obv: [omishoomisensishiniidig, omishoomisensishiniidog]
-     3+mishoomis+Dim+Pej+3Obv+VocPl+Pl: [omishoomisensishiniidig, omishoomisensishiniidog]
-     3+mishoomis+Dim+Pej+3Pl+Pret+Loc: omishoomisensishiwaabaniing
-     3+mishoomis+Dim+Pej+3Pl+Pret+Obv: omishoomisensishiwaabaniin
-     3+mishoomis+Dim+Pej+3Pl+Pret+Pl: omishoomisensishiwaabaniig
-     3+mishoomis+Dim+Pej+3Pl+VocPl+Loc: [omishoomisensishiwaadig, omishoomisensishiwaadog]
-     3+mishoomis+Dim+Pej+3Pl+VocPl+Obv: [omishoomisensishiwaadig, omishoomisensishiwaadog]
-     3+mishoomis+Dim+Pej+3Pl+VocPl+Pl: [omishoomisensishiwaadig, omishoomisensishiwaadog]
+     1+mishoomis+N+Con+Pej+1Pl+Pret+Loc: nimishoomisenyishinaanibaniing
+     1+mishoomis+N+Con+Pej+1Pl+Pret+Obv: nimishoomisenyishinaanibaniin
+     1+mishoomis+N+Con+Pej+1Pl+Pret+Pl: nimishoomisenyishinaanibaniig
+     1+mishoomis+N+Con+Pej+1Pl+VocPl+Loc: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
+     1+mishoomis+N+Con+Pej+1Pl+VocPl+Obv: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
+     1+mishoomis+N+Con+Pej+1Pl+VocPl+Pl: [nimishoomisenyishinaanidig, nimishoomisenyishinaanidog]
+     1+mishoomis+N+Dim+Pej+1Pl+Pret+Loc: nimishoomisensishinaanibaniing
+     1+mishoomis+N+Dim+Pej+1Pl+Pret+Obv: nimishoomisensishinaanibaniin
+     1+mishoomis+N+Dim+Pej+1Pl+Pret+Pl: nimishoomisensishinaanibaniig
+     1+mishoomis+N+Dim+Pej+1Pl+VocPl+Loc: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
+     1+mishoomis+N+Dim+Pej+1Pl+VocPl+Obv: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
+     1+mishoomis+N+Dim+Pej+1Pl+VocPl+Pl: [nimishoomisensishinaanidig, nimishoomisensishinaanidog]
+     2+mishoomis+N+Con+Pej+21+Pret+Loc: gimishoomisenyishinaanibaniing
+     2+mishoomis+N+Con+Pej+21+Pret+Obv: gimishoomisenyishinaanibaniin
+     2+mishoomis+N+Con+Pej+21+Pret+Pl: gimishoomisenyishinaanibaniig
+     2+mishoomis+N+Con+Pej+21+VocPl+Loc: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
+     2+mishoomis+N+Con+Pej+21+VocPl+Obv: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
+     2+mishoomis+N+Con+Pej+21+VocPl+Pl: [gimishoomisenyishinaanidig, gimishoomisenyishinaanidog]
+     2+mishoomis+N+Con+Pej+2Pl+Pret+Loc: gimishoomisenyishiwaabaniing
+     2+mishoomis+N+Con+Pej+2Pl+Pret+Obv: gimishoomisenyishiwaabaniin
+     2+mishoomis+N+Con+Pej+2Pl+Pret+Pl: gimishoomisenyishiwaabaniig
+     2+mishoomis+N+Con+Pej+2Pl+VocPl+Loc: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
+     2+mishoomis+N+Con+Pej+2Pl+VocPl+Obv: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
+     2+mishoomis+N+Con+Pej+2Pl+VocPl+Pl: [gimishoomisenyishiwaadig, gimishoomisenyishiwaadog]
+     2+mishoomis+N+Dim+Pej+21+Pret+Loc: gimishoomisensishinaanibaniing
+     2+mishoomis+N+Dim+Pej+21+Pret+Obv: gimishoomisensishinaanibaniin
+     2+mishoomis+N+Dim+Pej+21+Pret+Pl: gimishoomisensishinaanibaniig
+     2+mishoomis+N+Dim+Pej+21+VocPl+Loc: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
+     2+mishoomis+N+Dim+Pej+21+VocPl+Obv: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
+     2+mishoomis+N+Dim+Pej+21+VocPl+Pl: [gimishoomisensishinaanidig, gimishoomisensishinaanidog]
+     2+mishoomis+N+Dim+Pej+2Pl+Pret+Loc: gimishoomisensishiwaabaniing
+     2+mishoomis+N+Dim+Pej+2Pl+Pret+Obv: gimishoomisensishiwaabaniin
+     2+mishoomis+N+Dim+Pej+2Pl+Pret+Pl: gimishoomisensishiwaabaniig
+     2+mishoomis+N+Dim+Pej+2Pl+VocPl+Loc: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
+     2+mishoomis+N+Dim+Pej+2Pl+VocPl+Obv: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
+     2+mishoomis+N+Dim+Pej+2Pl+VocPl+Pl: [gimishoomisensishiwaadig, gimishoomisensishiwaadog]
+     3+mishoomis+N+Con+Pej+3Obv+Pret+Loc: omishoomisenyishiniibaniing
+     3+mishoomis+N+Con+Pej+3Obv+Pret+Obv: omishoomisenyishiniibaniin
+     3+mishoomis+N+Con+Pej+3Obv+Pret+Pl: omishoomisenyishiniibaniig
+     3+mishoomis+N+Con+Pej+3Obv+VocPl+Loc: [omishoomisenyishiniidig, omishoomisenyishiniidog]
+     3+mishoomis+N+Con+Pej+3Obv+VocPl+Obv: [omishoomisenyishiniidig, omishoomisenyishiniidog]
+     3+mishoomis+N+Con+Pej+3Obv+VocPl+Pl: [omishoomisenyishiniidig, omishoomisenyishiniidog]
+     3+mishoomis+N+Con+Pej+3Pl+Pret+Loc: omishoomisenyishiwaabaniing
+     3+mishoomis+N+Con+Pej+3Pl+Pret+Obv: omishoomisenyishiwaabaniin
+     3+mishoomis+N+Con+Pej+3Pl+Pret+Pl: omishoomisenyishiwaabaniig
+     3+mishoomis+N+Con+Pej+3Pl+VocPl+Loc: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
+     3+mishoomis+N+Con+Pej+3Pl+VocPl+Obv: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
+     3+mishoomis+N+Con+Pej+3Pl+VocPl+Pl: [omishoomisenyishiwaadig, omishoomisenyishiwaadog]
+     3+mishoomis+N+Dim+Pej+3Obv+Pret+Loc: omishoomisensishiniibaniing
+     3+mishoomis+N+Dim+Pej+3Obv+Pret+Obv: omishoomisensishiniibaniin
+     3+mishoomis+N+Dim+Pej+3Obv+Pret+Pl: omishoomisensishiniibaniig
+     3+mishoomis+N+Dim+Pej+3Obv+VocPl+Loc: [omishoomisensishiniidig, omishoomisensishiniidog]
+     3+mishoomis+N+Dim+Pej+3Obv+VocPl+Obv: [omishoomisensishiniidig, omishoomisensishiniidog]
+     3+mishoomis+N+Dim+Pej+3Obv+VocPl+Pl: [omishoomisensishiniidig, omishoomisensishiniidog]
+     3+mishoomis+N+Dim+Pej+3Pl+Pret+Loc: omishoomisensishiwaabaniing
+     3+mishoomis+N+Dim+Pej+3Pl+Pret+Obv: omishoomisensishiwaabaniin
+     3+mishoomis+N+Dim+Pej+3Pl+Pret+Pl: omishoomisensishiwaabaniig
+     3+mishoomis+N+Dim+Pej+3Pl+VocPl+Loc: [omishoomisensishiwaadig, omishoomisensishiwaadog]
+     3+mishoomis+N+Dim+Pej+3Pl+VocPl+Obv: [omishoomisensishiwaadig, omishoomisensishiwaadog]
+     3+mishoomis+N+Dim+Pej+3Pl+VocPl+Pl: [omishoomisensishiwaadig, omishoomisensishiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
-     1+mishoomis+Pos+Pej+1Pl+Pret+Loc: nimishoomisimishinaanibaniing
-     1+mishoomis+Pos+Pej+1Pl+Pret+Obv: nimishoomisimishinaanibaniin
-     1+mishoomis+Pos+Pej+1Pl+Pret+Pl: nimishoomisimishinaanibaniig
-     1+mishoomis+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
-     1+mishoomis+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
-     1+mishoomis+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+21+Pret+Loc: gimishoomisimishinaanibaniing
-     2+mishoomis+Pos+Pej+21+Pret+Obv: gimishoomisimishinaanibaniin
-     2+mishoomis+Pos+Pej+21+Pret+Pl: gimishoomisimishinaanibaniig
-     2+mishoomis+Pos+Pej+21+VocPl+Loc: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+21+VocPl+Obv: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+21+VocPl+Pl: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
-     2+mishoomis+Pos+Pej+2Pl+Pret+Loc: gimishoomisimishiwaabaniing
-     2+mishoomis+Pos+Pej+2Pl+Pret+Obv: gimishoomisimishiwaabaniin
-     2+mishoomis+Pos+Pej+2Pl+Pret+Pl: gimishoomisimishiwaabaniig
-     2+mishoomis+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
-     2+mishoomis+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
-     2+mishoomis+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
-     3+mishoomis+Pos+Pej+3Obv+Pret+Loc: omishoomisimishiniibaniing
-     3+mishoomis+Pos+Pej+3Obv+Pret+Obv: omishoomisimishiniibaniin
-     3+mishoomis+Pos+Pej+3Obv+Pret+Pl: omishoomisimishiniibaniig
-     3+mishoomis+Pos+Pej+3Obv+VocPl+Loc: [omishoomisimishiniidig, omishoomisimishiniidog]
-     3+mishoomis+Pos+Pej+3Obv+VocPl+Obv: [omishoomisimishiniidig, omishoomisimishiniidog]
-     3+mishoomis+Pos+Pej+3Obv+VocPl+Pl: [omishoomisimishiniidig, omishoomisimishiniidog]
-     3+mishoomis+Pos+Pej+3Pl+Pret+Loc: omishoomisimishiwaabaniing
-     3+mishoomis+Pos+Pej+3Pl+Pret+Obv: omishoomisimishiwaabaniin
-     3+mishoomis+Pos+Pej+3Pl+Pret+Pl: omishoomisimishiwaabaniig
-     3+mishoomis+Pos+Pej+3Pl+VocPl+Loc: [omishoomisimishiwaadig, omishoomisimishiwaadog]
-     3+mishoomis+Pos+Pej+3Pl+VocPl+Obv: [omishoomisimishiwaadig, omishoomisimishiwaadog]
-     3+mishoomis+Pos+Pej+3Pl+VocPl+Pl: [omishoomisimishiwaadig, omishoomisimishiwaadog]
+     1+mishoomis+N+Pos+Pej+1Pl+Pret+Loc: nimishoomisimishinaanibaniing
+     1+mishoomis+N+Pos+Pej+1Pl+Pret+Obv: nimishoomisimishinaanibaniin
+     1+mishoomis+N+Pos+Pej+1Pl+Pret+Pl: nimishoomisimishinaanibaniig
+     1+mishoomis+N+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
+     1+mishoomis+N+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
+     1+mishoomis+N+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisimishinaanidig, nimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+21+Pret+Loc: gimishoomisimishinaanibaniing
+     2+mishoomis+N+Pos+Pej+21+Pret+Obv: gimishoomisimishinaanibaniin
+     2+mishoomis+N+Pos+Pej+21+Pret+Pl: gimishoomisimishinaanibaniig
+     2+mishoomis+N+Pos+Pej+21+VocPl+Loc: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+21+VocPl+Obv: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+21+VocPl+Pl: [gimishoomisimishinaanidig, gimishoomisimishinaanidog]
+     2+mishoomis+N+Pos+Pej+2Pl+Pret+Loc: gimishoomisimishiwaabaniing
+     2+mishoomis+N+Pos+Pej+2Pl+Pret+Obv: gimishoomisimishiwaabaniin
+     2+mishoomis+N+Pos+Pej+2Pl+Pret+Pl: gimishoomisimishiwaabaniig
+     2+mishoomis+N+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
+     2+mishoomis+N+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
+     2+mishoomis+N+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisimishiwaadig, gimishoomisimishiwaadog]
+     3+mishoomis+N+Pos+Pej+3Obv+Pret+Loc: omishoomisimishiniibaniing
+     3+mishoomis+N+Pos+Pej+3Obv+Pret+Obv: omishoomisimishiniibaniin
+     3+mishoomis+N+Pos+Pej+3Obv+Pret+Pl: omishoomisimishiniibaniig
+     3+mishoomis+N+Pos+Pej+3Obv+VocPl+Loc: [omishoomisimishiniidig, omishoomisimishiniidog]
+     3+mishoomis+N+Pos+Pej+3Obv+VocPl+Obv: [omishoomisimishiniidig, omishoomisimishiniidog]
+     3+mishoomis+N+Pos+Pej+3Obv+VocPl+Pl: [omishoomisimishiniidig, omishoomisimishiniidog]
+     3+mishoomis+N+Pos+Pej+3Pl+Pret+Loc: omishoomisimishiwaabaniing
+     3+mishoomis+N+Pos+Pej+3Pl+Pret+Obv: omishoomisimishiwaabaniin
+     3+mishoomis+N+Pos+Pej+3Pl+Pret+Pl: omishoomisimishiwaabaniig
+     3+mishoomis+N+Pos+Pej+3Pl+VocPl+Loc: [omishoomisimishiwaadig, omishoomisimishiwaadog]
+     3+mishoomis+N+Pos+Pej+3Pl+VocPl+Obv: [omishoomisimishiwaadig, omishoomisimishiwaadog]
+     3+mishoomis+N+Pos+Pej+3Pl+VocPl+Pl: [omishoomisimishiwaadig, omishoomisimishiwaadog]
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
-     1+mishoomis+Con+Pos+Pej+1Pl+Pret+Loc: nimishoomisenyimishinaanibaniing
-     1+mishoomis+Con+Pos+Pej+1Pl+Pret+Obv: nimishoomisenyimishinaanibaniin
-     1+mishoomis+Con+Pos+Pej+1Pl+Pret+Pl: nimishoomisenyimishinaanibaniig
-     1+mishoomis+Con+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
-     1+mishoomis+Con+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
-     1+mishoomis+Con+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
-     1+mishoomis+Dim+Pos+Pej+1Pl+Pret+Loc: nimishoomisensimishinaanibaniing
-     1+mishoomis+Dim+Pos+Pej+1Pl+Pret+Obv: nimishoomisensimishinaanibaniin
-     1+mishoomis+Dim+Pos+Pej+1Pl+Pret+Pl: nimishoomisensimishinaanibaniig
-     1+mishoomis+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
-     1+mishoomis+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
-     1+mishoomis+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+21+Pret+Loc: gimishoomisenyimishinaanibaniing
-     2+mishoomis+Con+Pos+Pej+21+Pret+Obv: gimishoomisenyimishinaanibaniin
-     2+mishoomis+Con+Pos+Pej+21+Pret+Pl: gimishoomisenyimishinaanibaniig
-     2+mishoomis+Con+Pos+Pej+21+VocPl+Loc: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+21+VocPl+Obv: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+21+VocPl+Pl: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
-     2+mishoomis+Con+Pos+Pej+2Pl+Pret+Loc: gimishoomisenyimishiwaabaniing
-     2+mishoomis+Con+Pos+Pej+2Pl+Pret+Obv: gimishoomisenyimishiwaabaniin
-     2+mishoomis+Con+Pos+Pej+2Pl+Pret+Pl: gimishoomisenyimishiwaabaniig
-     2+mishoomis+Con+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
-     2+mishoomis+Con+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
-     2+mishoomis+Con+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
-     2+mishoomis+Dim+Pos+Pej+21+Pret+Loc: gimishoomisensimishinaanibaniing
-     2+mishoomis+Dim+Pos+Pej+21+Pret+Obv: gimishoomisensimishinaanibaniin
-     2+mishoomis+Dim+Pos+Pej+21+Pret+Pl: gimishoomisensimishinaanibaniig
-     2+mishoomis+Dim+Pos+Pej+21+VocPl+Loc: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
-     2+mishoomis+Dim+Pos+Pej+21+VocPl+Obv: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
-     2+mishoomis+Dim+Pos+Pej+21+VocPl+Pl: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
-     2+mishoomis+Dim+Pos+Pej+2Pl+Pret+Loc: gimishoomisensimishiwaabaniing
-     2+mishoomis+Dim+Pos+Pej+2Pl+Pret+Obv: gimishoomisensimishiwaabaniin
-     2+mishoomis+Dim+Pos+Pej+2Pl+Pret+Pl: gimishoomisensimishiwaabaniig
-     2+mishoomis+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
-     2+mishoomis+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
-     2+mishoomis+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
-     3+mishoomis+Con+Pos+Pej+3Obv+Pret+Loc: omishoomisenyimishiniibaniing
-     3+mishoomis+Con+Pos+Pej+3Obv+Pret+Obv: omishoomisenyimishiniibaniin
-     3+mishoomis+Con+Pos+Pej+3Obv+Pret+Pl: omishoomisenyimishiniibaniig
-     3+mishoomis+Con+Pos+Pej+3Obv+VocPl+Loc: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
-     3+mishoomis+Con+Pos+Pej+3Obv+VocPl+Obv: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
-     3+mishoomis+Con+Pos+Pej+3Obv+VocPl+Pl: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
-     3+mishoomis+Con+Pos+Pej+3Pl+Pret+Loc: omishoomisenyimishiwaabaniing
-     3+mishoomis+Con+Pos+Pej+3Pl+Pret+Obv: omishoomisenyimishiwaabaniin
-     3+mishoomis+Con+Pos+Pej+3Pl+Pret+Pl: omishoomisenyimishiwaabaniig
-     3+mishoomis+Con+Pos+Pej+3Pl+VocPl+Loc: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
-     3+mishoomis+Con+Pos+Pej+3Pl+VocPl+Obv: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
-     3+mishoomis+Con+Pos+Pej+3Pl+VocPl+Pl: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
-     3+mishoomis+Dim+Pos+Pej+3Obv+Pret+Loc: omishoomisensimishiniibaniing
-     3+mishoomis+Dim+Pos+Pej+3Obv+Pret+Obv: omishoomisensimishiniibaniin
-     3+mishoomis+Dim+Pos+Pej+3Obv+Pret+Pl: omishoomisensimishiniibaniig
-     3+mishoomis+Dim+Pos+Pej+3Obv+VocPl+Loc: [omishoomisensimishiniidig, omishoomisensimishiniidog]
-     3+mishoomis+Dim+Pos+Pej+3Obv+VocPl+Obv: [omishoomisensimishiniidig, omishoomisensimishiniidog]
-     3+mishoomis+Dim+Pos+Pej+3Obv+VocPl+Pl: [omishoomisensimishiniidig, omishoomisensimishiniidog]
-     3+mishoomis+Dim+Pos+Pej+3Pl+Pret+Loc: omishoomisensimishiwaabaniing
-     3+mishoomis+Dim+Pos+Pej+3Pl+Pret+Obv: omishoomisensimishiwaabaniin
-     3+mishoomis+Dim+Pos+Pej+3Pl+Pret+Pl: omishoomisensimishiwaabaniig
-     3+mishoomis+Dim+Pos+Pej+3Pl+VocPl+Loc: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
-     3+mishoomis+Dim+Pos+Pej+3Pl+VocPl+Obv: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
-     3+mishoomis+Dim+Pos+Pej+3Pl+VocPl+Pl: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Pret+Loc: nimishoomisenyimishinaanibaniing
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Pret+Obv: nimishoomisenyimishinaanibaniin
+     1+mishoomis+N+Con+Pos+Pej+1Pl+Pret+Pl: nimishoomisenyimishinaanibaniig
+     1+mishoomis+N+Con+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
+     1+mishoomis+N+Con+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
+     1+mishoomis+N+Con+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisenyimishinaanidig, nimishoomisenyimishinaanidog]
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Pret+Loc: nimishoomisensimishinaanibaniing
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Pret+Obv: nimishoomisensimishinaanibaniin
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+Pret+Pl: nimishoomisensimishinaanibaniig
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
+     1+mishoomis+N+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimishoomisensimishinaanidig, nimishoomisensimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+21+Pret+Loc: gimishoomisenyimishinaanibaniing
+     2+mishoomis+N+Con+Pos+Pej+21+Pret+Obv: gimishoomisenyimishinaanibaniin
+     2+mishoomis+N+Con+Pos+Pej+21+Pret+Pl: gimishoomisenyimishinaanibaniig
+     2+mishoomis+N+Con+Pos+Pej+21+VocPl+Loc: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+21+VocPl+Obv: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+21+VocPl+Pl: [gimishoomisenyimishinaanidig, gimishoomisenyimishinaanidog]
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Pret+Loc: gimishoomisenyimishiwaabaniing
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Pret+Obv: gimishoomisenyimishiwaabaniin
+     2+mishoomis+N+Con+Pos+Pej+2Pl+Pret+Pl: gimishoomisenyimishiwaabaniig
+     2+mishoomis+N+Con+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
+     2+mishoomis+N+Con+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
+     2+mishoomis+N+Con+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisenyimishiwaadig, gimishoomisenyimishiwaadog]
+     2+mishoomis+N+Dim+Pos+Pej+21+Pret+Loc: gimishoomisensimishinaanibaniing
+     2+mishoomis+N+Dim+Pos+Pej+21+Pret+Obv: gimishoomisensimishinaanibaniin
+     2+mishoomis+N+Dim+Pos+Pej+21+Pret+Pl: gimishoomisensimishinaanibaniig
+     2+mishoomis+N+Dim+Pos+Pej+21+VocPl+Loc: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
+     2+mishoomis+N+Dim+Pos+Pej+21+VocPl+Obv: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
+     2+mishoomis+N+Dim+Pos+Pej+21+VocPl+Pl: [gimishoomisensimishinaanidig, gimishoomisensimishinaanidog]
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Pret+Loc: gimishoomisensimishiwaabaniing
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Pret+Obv: gimishoomisensimishiwaabaniin
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+Pret+Pl: gimishoomisensimishiwaabaniig
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
+     2+mishoomis+N+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimishoomisensimishiwaadig, gimishoomisensimishiwaadog]
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Pret+Loc: omishoomisenyimishiniibaniing
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Pret+Obv: omishoomisenyimishiniibaniin
+     3+mishoomis+N+Con+Pos+Pej+3Obv+Pret+Pl: omishoomisenyimishiniibaniig
+     3+mishoomis+N+Con+Pos+Pej+3Obv+VocPl+Loc: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
+     3+mishoomis+N+Con+Pos+Pej+3Obv+VocPl+Obv: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
+     3+mishoomis+N+Con+Pos+Pej+3Obv+VocPl+Pl: [omishoomisenyimishiniidig, omishoomisenyimishiniidog]
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Pret+Loc: omishoomisenyimishiwaabaniing
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Pret+Obv: omishoomisenyimishiwaabaniin
+     3+mishoomis+N+Con+Pos+Pej+3Pl+Pret+Pl: omishoomisenyimishiwaabaniig
+     3+mishoomis+N+Con+Pos+Pej+3Pl+VocPl+Loc: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
+     3+mishoomis+N+Con+Pos+Pej+3Pl+VocPl+Obv: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
+     3+mishoomis+N+Con+Pos+Pej+3Pl+VocPl+Pl: [omishoomisenyimishiwaadig, omishoomisenyimishiwaadog]
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Pret+Loc: omishoomisensimishiniibaniing
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Pret+Obv: omishoomisensimishiniibaniin
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+Pret+Pl: omishoomisensimishiniibaniig
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+VocPl+Loc: [omishoomisensimishiniidig, omishoomisensimishiniidog]
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+VocPl+Obv: [omishoomisensimishiniidig, omishoomisensimishiniidog]
+     3+mishoomis+N+Dim+Pos+Pej+3Obv+VocPl+Pl: [omishoomisensimishiniidig, omishoomisensimishiniidog]
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Pret+Loc: omishoomisensimishiwaabaniing
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Pret+Obv: omishoomisensimishiwaabaniin
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+Pret+Pl: omishoomisensimishiwaabaniig
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+VocPl+Loc: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+VocPl+Obv: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
+     3+mishoomis+N+Dim+Pos+Pej+3Pl+VocPl+Pl: [omishoomisensimishiwaadig, omishoomisensimishiwaadog]
      

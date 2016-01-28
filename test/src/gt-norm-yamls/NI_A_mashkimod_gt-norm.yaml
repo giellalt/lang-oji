@@ -25,95 +25,95 @@ Tests:
      X+mashkimod: imashkimod
      
      #Values from slots numbered: 2
-     mashkimod+Con: mashkimodenh
-     mashkimod+Dim: mashkimodens
+     mashkimod+N+Con: mashkimodenh
+     mashkimod+N+Dim: mashkimodens
      
      
      #Values from slots numbered: 4
-     mashkimod+Pej: mashkimodaash
+     mashkimod+N+Pej: mashkimodaash
      
      
      #Values from slots numbered: 6
-     mashkimod+Pret: mashkimodaaban
-     mashkimod+VocPl: [mashkimodaadig, mashkimodaadog]
+     mashkimod+N+Pret: mashkimodaaban
+     mashkimod+N+VocPl: [mashkimodaadig, mashkimodaadog]
      
      #Values from slots numbered: 7
-     mashkimod+Loc: mashkimodaang
-     mashkimod+Obv: mashkimodan
-     mashkimod+Pl: mashkimodan
+     mashkimod+N+Loc: mashkimodaang
+     mashkimod+N+Obv: mashkimodan
+     mashkimod+N+Pl: mashkimodan
      
      #Values from slots numbered: 1, 2
-     1+mashkimod+Con: nimashkimodenh
-     1+mashkimod+Dim: nimashkimodens
-     2+mashkimod+Con: gimashkimodenh
-     2+mashkimod+Dim: gimashkimodens
-     3+mashkimod+Con: omashkimodenh
-     3+mashkimod+Dim: omashkimodens
-     X+mashkimod+Con: imashkimodenh
-     X+mashkimod+Dim: imashkimodens
+     1+mashkimod+N+Con: nimashkimodenh
+     1+mashkimod+N+Dim: nimashkimodens
+     2+mashkimod+N+Con: gimashkimodenh
+     2+mashkimod+N+Dim: gimashkimodens
+     3+mashkimod+N+Con: omashkimodenh
+     3+mashkimod+N+Dim: omashkimodens
+     X+mashkimod+N+Con: imashkimodenh
+     X+mashkimod+N+Dim: imashkimodens
      
      #Values from slots numbered: 1, 3
-     1+mashkimod+Pos: nimashkimodaam
-     2+mashkimod+Pos: gimashkimodaam
-     3+mashkimod+Pos: omashkimodaam
-     X+mashkimod+Pos: imashkimodaam
+     1+mashkimod+N+Pos: nimashkimodaam
+     2+mashkimod+N+Pos: gimashkimodaam
+     3+mashkimod+N+Pos: omashkimodaam
+     X+mashkimod+N+Pos: imashkimodaam
      
      #Values from slots numbered: 1, 4
-     1+mashkimod+Pej: nimashkimodaash
-     2+mashkimod+Pej: gimashkimodaash
-     3+mashkimod+Pej: omashkimodaash
-     X+mashkimod+Pej: imashkimodaash
+     1+mashkimod+N+Pej: nimashkimodaash
+     2+mashkimod+N+Pej: gimashkimodaash
+     3+mashkimod+N+Pej: omashkimodaash
+     X+mashkimod+N+Pej: imashkimodaash
      
      #Values from slots numbered: 1, 5
-     1+mashkimod+1Pl: nimashkimodaanaan
-     2+mashkimod+21: gimashkimodaanaan
-     2+mashkimod+2Pl: gimashkimodaawaa
-     3+mashkimod+3Obv: omashkimodaani
-     3+mashkimod+3Pl: omashkimodaawaa
+     1+mashkimod+N+1Pl: nimashkimodaanaan
+     2+mashkimod+N+21: gimashkimodaanaan
+     2+mashkimod+N+2Pl: gimashkimodaawaa
+     3+mashkimod+N+3Obv: omashkimodaani
+     3+mashkimod+N+3Pl: omashkimodaawaa
      
      #Values from slots numbered: 1, 6
-     1+mashkimod+Pret: nimashkimodaaban
-     1+mashkimod+VocPl: [nimashkimodaadig, nimashkimodaadog]
-     2+mashkimod+Pret: gimashkimodaaban
-     2+mashkimod+VocPl: [gimashkimodaadig, gimashkimodaadog]
-     3+mashkimod+Pret: omashkimodaaban
-     3+mashkimod+VocPl: [omashkimodaadig, omashkimodaadog]
-     X+mashkimod+Pret: imashkimodaaban
-     X+mashkimod+VocPl: [imashkimodaadig, imashkimodaadog]
+     1+mashkimod+N+Pret: nimashkimodaaban
+     1+mashkimod+N+VocPl: [nimashkimodaadig, nimashkimodaadog]
+     2+mashkimod+N+Pret: gimashkimodaaban
+     2+mashkimod+N+VocPl: [gimashkimodaadig, gimashkimodaadog]
+     3+mashkimod+N+Pret: omashkimodaaban
+     3+mashkimod+N+VocPl: [omashkimodaadig, omashkimodaadog]
+     X+mashkimod+N+Pret: imashkimodaaban
+     X+mashkimod+N+VocPl: [imashkimodaadig, imashkimodaadog]
      
      #Values from slots numbered: 1, 7
-     1+mashkimod+Loc: nimashkimodaang
-     1+mashkimod+Obv: nimashkimodan
-     1+mashkimod+Pl: nimashkimodan
-     2+mashkimod+Loc: gimashkimodaang
-     2+mashkimod+Obv: gimashkimodan
-     2+mashkimod+Pl: gimashkimodan
-     3+mashkimod+Loc: omashkimodaang
-     3+mashkimod+Obv: omashkimodan
-     3+mashkimod+Pl: omashkimodan
-     X+mashkimod+Loc: imashkimodaang
-     X+mashkimod+Obv: imashkimodan
-     X+mashkimod+Pl: imashkimodan
+     1+mashkimod+N+Loc: nimashkimodaang
+     1+mashkimod+N+Obv: nimashkimodan
+     1+mashkimod+N+Pl: nimashkimodan
+     2+mashkimod+N+Loc: gimashkimodaang
+     2+mashkimod+N+Obv: gimashkimodan
+     2+mashkimod+N+Pl: gimashkimodan
+     3+mashkimod+N+Loc: omashkimodaang
+     3+mashkimod+N+Obv: omashkimodan
+     3+mashkimod+N+Pl: omashkimodan
+     X+mashkimod+N+Loc: imashkimodaang
+     X+mashkimod+N+Obv: imashkimodan
+     X+mashkimod+N+Pl: imashkimodan
      
      
      #Values from slots numbered: 2, 4
-     mashkimod+Con+Pej: mashkimodenyish
-     mashkimod+Dim+Pej: mashkimodensish
+     mashkimod+N+Con+Pej: mashkimodenyish
+     mashkimod+N+Dim+Pej: mashkimodensish
      
      
      #Values from slots numbered: 2, 6
-     mashkimod+Con+Pret: mashkimodenyiban
-     mashkimod+Con+VocPl: [mashkimodenyidig, mashkimodenyidog]
-     mashkimod+Dim+Pret: mashkimodensiban
-     mashkimod+Dim+VocPl: [mashkimodensidig, mashkimodensidog]
+     mashkimod+N+Con+Pret: mashkimodenyiban
+     mashkimod+N+Con+VocPl: [mashkimodenyidig, mashkimodenyidog]
+     mashkimod+N+Dim+Pret: mashkimodensiban
+     mashkimod+N+Dim+VocPl: [mashkimodensidig, mashkimodensidog]
      
      #Values from slots numbered: 2, 7
-     mashkimod+Con+Loc: mashkimodenying
-     mashkimod+Con+Obv: mashkimodenyin
-     mashkimod+Con+Pl: mashkimodenyin
-     mashkimod+Dim+Loc: mashkimodensing
-     mashkimod+Dim+Obv: mashkimodensan
-     mashkimod+Dim+Pl: mashkimodensan
+     mashkimod+N+Con+Loc: mashkimodenying
+     mashkimod+N+Con+Obv: mashkimodenyin
+     mashkimod+N+Con+Pl: mashkimodenyin
+     mashkimod+N+Dim+Loc: mashkimodensing
+     mashkimod+N+Dim+Obv: mashkimodensan
+     mashkimod+N+Dim+Pl: mashkimodensan
      
      
      
@@ -121,207 +121,207 @@ Tests:
      
      
      #Values from slots numbered: 4, 6
-     mashkimod+Pej+Pret: mashkimodaashiban
-     mashkimod+Pej+VocPl: [mashkimodaashidig, mashkimodaashidog]
+     mashkimod+N+Pej+Pret: mashkimodaashiban
+     mashkimod+N+Pej+VocPl: [mashkimodaashidig, mashkimodaashidog]
      
      #Values from slots numbered: 4, 7
-     mashkimod+Pej+Loc: mashkimodaashing
-     mashkimod+Pej+Obv: mashkimodaashan
-     mashkimod+Pej+Pl: mashkimodaashan
+     mashkimod+N+Pej+Loc: mashkimodaashing
+     mashkimod+N+Pej+Obv: mashkimodaashan
+     mashkimod+N+Pej+Pl: mashkimodaashan
      
      
      
      #Values from slots numbered: 6, 7
-     mashkimod+Pret+Loc: mashkimodaabaniing
-     mashkimod+Pret+Obv: mashkimodaabaniin
-     mashkimod+Pret+Pl: mashkimodaabaniin
+     mashkimod+N+Pret+Loc: mashkimodaabaniing
+     mashkimod+N+Pret+Obv: mashkimodaabaniin
+     mashkimod+N+Pret+Pl: mashkimodaabaniin
      
      #Values from slots numbered: 1, 2, 3
-     1+mashkimod+Con+Pos: nimashkimodenyim
-     1+mashkimod+Dim+Pos: nimashkimodensim
-     2+mashkimod+Con+Pos: gimashkimodenyim
-     2+mashkimod+Dim+Pos: gimashkimodensim
-     3+mashkimod+Con+Pos: omashkimodenyim
-     3+mashkimod+Dim+Pos: omashkimodensim
-     X+mashkimod+Con+Pos: imashkimodenyim
-     X+mashkimod+Dim+Pos: imashkimodensim
+     1+mashkimod+N+Con+Pos: nimashkimodenyim
+     1+mashkimod+N+Dim+Pos: nimashkimodensim
+     2+mashkimod+N+Con+Pos: gimashkimodenyim
+     2+mashkimod+N+Dim+Pos: gimashkimodensim
+     3+mashkimod+N+Con+Pos: omashkimodenyim
+     3+mashkimod+N+Dim+Pos: omashkimodensim
+     X+mashkimod+N+Con+Pos: imashkimodenyim
+     X+mashkimod+N+Dim+Pos: imashkimodensim
      
      #Values from slots numbered: 1, 2, 4
-     1+mashkimod+Con+Pej: nimashkimodenyish
-     1+mashkimod+Dim+Pej: nimashkimodensish
-     2+mashkimod+Con+Pej: gimashkimodenyish
-     2+mashkimod+Dim+Pej: gimashkimodensish
-     3+mashkimod+Con+Pej: omashkimodenyish
-     3+mashkimod+Dim+Pej: omashkimodensish
-     X+mashkimod+Con+Pej: imashkimodenyish
-     X+mashkimod+Dim+Pej: imashkimodensish
+     1+mashkimod+N+Con+Pej: nimashkimodenyish
+     1+mashkimod+N+Dim+Pej: nimashkimodensish
+     2+mashkimod+N+Con+Pej: gimashkimodenyish
+     2+mashkimod+N+Dim+Pej: gimashkimodensish
+     3+mashkimod+N+Con+Pej: omashkimodenyish
+     3+mashkimod+N+Dim+Pej: omashkimodensish
+     X+mashkimod+N+Con+Pej: imashkimodenyish
+     X+mashkimod+N+Dim+Pej: imashkimodensish
      
      #Values from slots numbered: 1, 2, 5
-     1+mashkimod+Con+1Pl: nimashkimodenyinaan
-     1+mashkimod+Dim+1Pl: nimashkimodensinaan
-     2+mashkimod+Con+21: gimashkimodenyinaan
-     2+mashkimod+Con+2Pl: gimashkimodenyiwaa
-     2+mashkimod+Dim+21: gimashkimodensinaan
-     2+mashkimod+Dim+2Pl: gimashkimodensiwaa
-     3+mashkimod+Con+3Obv: omashkimodenyini
-     3+mashkimod+Con+3Pl: omashkimodenyiwaa
-     3+mashkimod+Dim+3Obv: omashkimodensini
-     3+mashkimod+Dim+3Pl: omashkimodensiwaa
+     1+mashkimod+N+Con+1Pl: nimashkimodenyinaan
+     1+mashkimod+N+Dim+1Pl: nimashkimodensinaan
+     2+mashkimod+N+Con+21: gimashkimodenyinaan
+     2+mashkimod+N+Con+2Pl: gimashkimodenyiwaa
+     2+mashkimod+N+Dim+21: gimashkimodensinaan
+     2+mashkimod+N+Dim+2Pl: gimashkimodensiwaa
+     3+mashkimod+N+Con+3Obv: omashkimodenyini
+     3+mashkimod+N+Con+3Pl: omashkimodenyiwaa
+     3+mashkimod+N+Dim+3Obv: omashkimodensini
+     3+mashkimod+N+Dim+3Pl: omashkimodensiwaa
      
      #Values from slots numbered: 1, 2, 6
-     1+mashkimod+Con+Pret: nimashkimodenyiban
-     1+mashkimod+Con+VocPl: [nimashkimodenyidig, nimashkimodenyidog]
-     1+mashkimod+Dim+Pret: nimashkimodensiban
-     1+mashkimod+Dim+VocPl: [nimashkimodensidig, nimashkimodensidog]
-     2+mashkimod+Con+Pret: gimashkimodenyiban
-     2+mashkimod+Con+VocPl: [gimashkimodenyidig, gimashkimodenyidog]
-     2+mashkimod+Dim+Pret: gimashkimodensiban
-     2+mashkimod+Dim+VocPl: [gimashkimodensidig, gimashkimodensidog]
-     3+mashkimod+Con+Pret: omashkimodenyiban
-     3+mashkimod+Con+VocPl: [omashkimodenyidig, omashkimodenyidog]
-     3+mashkimod+Dim+Pret: omashkimodensiban
-     3+mashkimod+Dim+VocPl: [omashkimodensidig, omashkimodensidog]
-     X+mashkimod+Con+Pret: imashkimodenyiban
-     X+mashkimod+Con+VocPl: [imashkimodenyidig, imashkimodenyidog]
-     X+mashkimod+Dim+Pret: imashkimodensiban
-     X+mashkimod+Dim+VocPl: [imashkimodensidig, imashkimodensidog]
+     1+mashkimod+N+Con+Pret: nimashkimodenyiban
+     1+mashkimod+N+Con+VocPl: [nimashkimodenyidig, nimashkimodenyidog]
+     1+mashkimod+N+Dim+Pret: nimashkimodensiban
+     1+mashkimod+N+Dim+VocPl: [nimashkimodensidig, nimashkimodensidog]
+     2+mashkimod+N+Con+Pret: gimashkimodenyiban
+     2+mashkimod+N+Con+VocPl: [gimashkimodenyidig, gimashkimodenyidog]
+     2+mashkimod+N+Dim+Pret: gimashkimodensiban
+     2+mashkimod+N+Dim+VocPl: [gimashkimodensidig, gimashkimodensidog]
+     3+mashkimod+N+Con+Pret: omashkimodenyiban
+     3+mashkimod+N+Con+VocPl: [omashkimodenyidig, omashkimodenyidog]
+     3+mashkimod+N+Dim+Pret: omashkimodensiban
+     3+mashkimod+N+Dim+VocPl: [omashkimodensidig, omashkimodensidog]
+     X+mashkimod+N+Con+Pret: imashkimodenyiban
+     X+mashkimod+N+Con+VocPl: [imashkimodenyidig, imashkimodenyidog]
+     X+mashkimod+N+Dim+Pret: imashkimodensiban
+     X+mashkimod+N+Dim+VocPl: [imashkimodensidig, imashkimodensidog]
      
      #Values from slots numbered: 1, 2, 7
-     1+mashkimod+Con+Loc: nimashkimodenying
-     1+mashkimod+Con+Obv: nimashkimodenyin
-     1+mashkimod+Con+Pl: nimashkimodenyin
-     1+mashkimod+Dim+Loc: nimashkimodensing
-     1+mashkimod+Dim+Obv: nimashkimodensan
-     1+mashkimod+Dim+Pl: nimashkimodensan
-     2+mashkimod+Con+Loc: gimashkimodenying
-     2+mashkimod+Con+Obv: gimashkimodenyin
-     2+mashkimod+Con+Pl: gimashkimodenyin
-     2+mashkimod+Dim+Loc: gimashkimodensing
-     2+mashkimod+Dim+Obv: gimashkimodensan
-     2+mashkimod+Dim+Pl: gimashkimodensan
-     3+mashkimod+Con+Loc: omashkimodenying
-     3+mashkimod+Con+Obv: omashkimodenyin
-     3+mashkimod+Con+Pl: omashkimodenyin
-     3+mashkimod+Dim+Loc: omashkimodensing
-     3+mashkimod+Dim+Obv: omashkimodensan
-     3+mashkimod+Dim+Pl: omashkimodensan
-     X+mashkimod+Con+Loc: imashkimodenying
-     X+mashkimod+Con+Obv: imashkimodenyin
-     X+mashkimod+Con+Pl: imashkimodenyin
-     X+mashkimod+Dim+Loc: imashkimodensing
-     X+mashkimod+Dim+Obv: imashkimodensan
-     X+mashkimod+Dim+Pl: imashkimodensan
+     1+mashkimod+N+Con+Loc: nimashkimodenying
+     1+mashkimod+N+Con+Obv: nimashkimodenyin
+     1+mashkimod+N+Con+Pl: nimashkimodenyin
+     1+mashkimod+N+Dim+Loc: nimashkimodensing
+     1+mashkimod+N+Dim+Obv: nimashkimodensan
+     1+mashkimod+N+Dim+Pl: nimashkimodensan
+     2+mashkimod+N+Con+Loc: gimashkimodenying
+     2+mashkimod+N+Con+Obv: gimashkimodenyin
+     2+mashkimod+N+Con+Pl: gimashkimodenyin
+     2+mashkimod+N+Dim+Loc: gimashkimodensing
+     2+mashkimod+N+Dim+Obv: gimashkimodensan
+     2+mashkimod+N+Dim+Pl: gimashkimodensan
+     3+mashkimod+N+Con+Loc: omashkimodenying
+     3+mashkimod+N+Con+Obv: omashkimodenyin
+     3+mashkimod+N+Con+Pl: omashkimodenyin
+     3+mashkimod+N+Dim+Loc: omashkimodensing
+     3+mashkimod+N+Dim+Obv: omashkimodensan
+     3+mashkimod+N+Dim+Pl: omashkimodensan
+     X+mashkimod+N+Con+Loc: imashkimodenying
+     X+mashkimod+N+Con+Obv: imashkimodenyin
+     X+mashkimod+N+Con+Pl: imashkimodenyin
+     X+mashkimod+N+Dim+Loc: imashkimodensing
+     X+mashkimod+N+Dim+Obv: imashkimodensan
+     X+mashkimod+N+Dim+Pl: imashkimodensan
      
      #Values from slots numbered: 1, 3, 4
-     1+mashkimod+Pos+Pej: nimashkimodaamish
-     2+mashkimod+Pos+Pej: gimashkimodaamish
-     3+mashkimod+Pos+Pej: omashkimodaamish
-     X+mashkimod+Pos+Pej: imashkimodaamish
+     1+mashkimod+N+Pos+Pej: nimashkimodaamish
+     2+mashkimod+N+Pos+Pej: gimashkimodaamish
+     3+mashkimod+N+Pos+Pej: omashkimodaamish
+     X+mashkimod+N+Pos+Pej: imashkimodaamish
      
      #Values from slots numbered: 1, 3, 5
-     1+mashkimod+Pos+1Pl: nimashkimodaaminaan
-     2+mashkimod+Pos+21: gimashkimodaaminaan
-     2+mashkimod+Pos+2Pl: gimashkimodaamiwaa
-     3+mashkimod+Pos+3Obv: omashkimodaamini
-     3+mashkimod+Pos+3Pl: omashkimodaamiwaa
+     1+mashkimod+N+Pos+1Pl: nimashkimodaaminaan
+     2+mashkimod+N+Pos+21: gimashkimodaaminaan
+     2+mashkimod+N+Pos+2Pl: gimashkimodaamiwaa
+     3+mashkimod+N+Pos+3Obv: omashkimodaamini
+     3+mashkimod+N+Pos+3Pl: omashkimodaamiwaa
      
      #Values from slots numbered: 1, 3, 6
-     1+mashkimod+Pos+Pret: nimashkimodaamiban
-     1+mashkimod+Pos+VocPl: [nimashkimodaamidig, nimashkimodaamidog]
-     2+mashkimod+Pos+Pret: gimashkimodaamiban
-     2+mashkimod+Pos+VocPl: [gimashkimodaamidig, gimashkimodaamidog]
-     3+mashkimod+Pos+Pret: omashkimodaamiban
-     3+mashkimod+Pos+VocPl: [omashkimodaamidig, omashkimodaamidog]
-     X+mashkimod+Pos+Pret: imashkimodaamiban
-     X+mashkimod+Pos+VocPl: [imashkimodaamidig, imashkimodaamidog]
+     1+mashkimod+N+Pos+Pret: nimashkimodaamiban
+     1+mashkimod+N+Pos+VocPl: [nimashkimodaamidig, nimashkimodaamidog]
+     2+mashkimod+N+Pos+Pret: gimashkimodaamiban
+     2+mashkimod+N+Pos+VocPl: [gimashkimodaamidig, gimashkimodaamidog]
+     3+mashkimod+N+Pos+Pret: omashkimodaamiban
+     3+mashkimod+N+Pos+VocPl: [omashkimodaamidig, omashkimodaamidog]
+     X+mashkimod+N+Pos+Pret: imashkimodaamiban
+     X+mashkimod+N+Pos+VocPl: [imashkimodaamidig, imashkimodaamidog]
      
      #Values from slots numbered: 1, 3, 7
-     1+mashkimod+Pos+Loc: nimashkimodaaming
-     1+mashkimod+Pos+Obv: nimashkimodaaman
-     1+mashkimod+Pos+Pl: nimashkimodaaman
-     2+mashkimod+Pos+Loc: gimashkimodaaming
-     2+mashkimod+Pos+Obv: gimashkimodaaman
-     2+mashkimod+Pos+Pl: gimashkimodaaman
-     3+mashkimod+Pos+Loc: omashkimodaaming
-     3+mashkimod+Pos+Obv: omashkimodaaman
-     3+mashkimod+Pos+Pl: omashkimodaaman
-     X+mashkimod+Pos+Loc: imashkimodaaming
-     X+mashkimod+Pos+Obv: imashkimodaaman
-     X+mashkimod+Pos+Pl: imashkimodaaman
+     1+mashkimod+N+Pos+Loc: nimashkimodaaming
+     1+mashkimod+N+Pos+Obv: nimashkimodaaman
+     1+mashkimod+N+Pos+Pl: nimashkimodaaman
+     2+mashkimod+N+Pos+Loc: gimashkimodaaming
+     2+mashkimod+N+Pos+Obv: gimashkimodaaman
+     2+mashkimod+N+Pos+Pl: gimashkimodaaman
+     3+mashkimod+N+Pos+Loc: omashkimodaaming
+     3+mashkimod+N+Pos+Obv: omashkimodaaman
+     3+mashkimod+N+Pos+Pl: omashkimodaaman
+     X+mashkimod+N+Pos+Loc: imashkimodaaming
+     X+mashkimod+N+Pos+Obv: imashkimodaaman
+     X+mashkimod+N+Pos+Pl: imashkimodaaman
      
      #Values from slots numbered: 1, 4, 5
-     1+mashkimod+Pej+1Pl: nimashkimodaashinaan
-     2+mashkimod+Pej+21: gimashkimodaashinaan
-     2+mashkimod+Pej+2Pl: gimashkimodaashiwaa
-     3+mashkimod+Pej+3Obv: omashkimodaashini
-     3+mashkimod+Pej+3Pl: omashkimodaashiwaa
+     1+mashkimod+N+Pej+1Pl: nimashkimodaashinaan
+     2+mashkimod+N+Pej+21: gimashkimodaashinaan
+     2+mashkimod+N+Pej+2Pl: gimashkimodaashiwaa
+     3+mashkimod+N+Pej+3Obv: omashkimodaashini
+     3+mashkimod+N+Pej+3Pl: omashkimodaashiwaa
      
      #Values from slots numbered: 1, 4, 6
-     1+mashkimod+Pej+Pret: nimashkimodaashiban
-     1+mashkimod+Pej+VocPl: [nimashkimodaashidig, nimashkimodaashidog]
-     2+mashkimod+Pej+Pret: gimashkimodaashiban
-     2+mashkimod+Pej+VocPl: [gimashkimodaashidig, gimashkimodaashidog]
-     3+mashkimod+Pej+Pret: omashkimodaashiban
-     3+mashkimod+Pej+VocPl: [omashkimodaashidig, omashkimodaashidog]
-     X+mashkimod+Pej+Pret: imashkimodaashiban
-     X+mashkimod+Pej+VocPl: [imashkimodaashidig, imashkimodaashidog]
+     1+mashkimod+N+Pej+Pret: nimashkimodaashiban
+     1+mashkimod+N+Pej+VocPl: [nimashkimodaashidig, nimashkimodaashidog]
+     2+mashkimod+N+Pej+Pret: gimashkimodaashiban
+     2+mashkimod+N+Pej+VocPl: [gimashkimodaashidig, gimashkimodaashidog]
+     3+mashkimod+N+Pej+Pret: omashkimodaashiban
+     3+mashkimod+N+Pej+VocPl: [omashkimodaashidig, omashkimodaashidog]
+     X+mashkimod+N+Pej+Pret: imashkimodaashiban
+     X+mashkimod+N+Pej+VocPl: [imashkimodaashidig, imashkimodaashidog]
      
      #Values from slots numbered: 1, 4, 7
-     1+mashkimod+Pej+Loc: nimashkimodaashing
-     1+mashkimod+Pej+Obv: nimashkimodaashan
-     1+mashkimod+Pej+Pl: nimashkimodaashan
-     2+mashkimod+Pej+Loc: gimashkimodaashing
-     2+mashkimod+Pej+Obv: gimashkimodaashan
-     2+mashkimod+Pej+Pl: gimashkimodaashan
-     3+mashkimod+Pej+Loc: omashkimodaashing
-     3+mashkimod+Pej+Obv: omashkimodaashan
-     3+mashkimod+Pej+Pl: omashkimodaashan
-     X+mashkimod+Pej+Loc: imashkimodaashing
-     X+mashkimod+Pej+Obv: imashkimodaashan
-     X+mashkimod+Pej+Pl: imashkimodaashan
+     1+mashkimod+N+Pej+Loc: nimashkimodaashing
+     1+mashkimod+N+Pej+Obv: nimashkimodaashan
+     1+mashkimod+N+Pej+Pl: nimashkimodaashan
+     2+mashkimod+N+Pej+Loc: gimashkimodaashing
+     2+mashkimod+N+Pej+Obv: gimashkimodaashan
+     2+mashkimod+N+Pej+Pl: gimashkimodaashan
+     3+mashkimod+N+Pej+Loc: omashkimodaashing
+     3+mashkimod+N+Pej+Obv: omashkimodaashan
+     3+mashkimod+N+Pej+Pl: omashkimodaashan
+     X+mashkimod+N+Pej+Loc: imashkimodaashing
+     X+mashkimod+N+Pej+Obv: imashkimodaashan
+     X+mashkimod+N+Pej+Pl: imashkimodaashan
      
      #Values from slots numbered: 1, 5, 6
-     1+mashkimod+1Pl+Pret: nimashkimodaanaaniban
-     1+mashkimod+1Pl+VocPl: [nimashkimodaanaanidig, nimashkimodaanaanidog]
-     2+mashkimod+21+Pret: gimashkimodaanaaniban
-     2+mashkimod+21+VocPl: [gimashkimodaanaanidig, gimashkimodaanaanidog]
-     2+mashkimod+2Pl+Pret: gimashkimodaawaaban
-     2+mashkimod+2Pl+VocPl: [gimashkimodaawaadig, gimashkimodaawaadog]
-     3+mashkimod+3Obv+Pret: omashkimodaaniiban
-     3+mashkimod+3Obv+VocPl: [omashkimodaaniidig, omashkimodaaniidog]
-     3+mashkimod+3Pl+Pret: omashkimodaawaaban
-     3+mashkimod+3Pl+VocPl: [omashkimodaawaadig, omashkimodaawaadog]
+     1+mashkimod+N+1Pl+Pret: nimashkimodaanaaniban
+     1+mashkimod+N+1Pl+VocPl: [nimashkimodaanaanidig, nimashkimodaanaanidog]
+     2+mashkimod+N+21+Pret: gimashkimodaanaaniban
+     2+mashkimod+N+21+VocPl: [gimashkimodaanaanidig, gimashkimodaanaanidog]
+     2+mashkimod+N+2Pl+Pret: gimashkimodaawaaban
+     2+mashkimod+N+2Pl+VocPl: [gimashkimodaawaadig, gimashkimodaawaadog]
+     3+mashkimod+N+3Obv+Pret: omashkimodaaniiban
+     3+mashkimod+N+3Obv+VocPl: [omashkimodaaniidig, omashkimodaaniidog]
+     3+mashkimod+N+3Pl+Pret: omashkimodaawaaban
+     3+mashkimod+N+3Pl+VocPl: [omashkimodaawaadig, omashkimodaawaadog]
      
      #Values from slots numbered: 1, 5, 7
-     1+mashkimod+1Pl+Loc: nimashkimodaanaaning
-     1+mashkimod+1Pl+Obv: nimashkimodaanaanin
-     1+mashkimod+1Pl+Pl: nimashkimodaanaanin
-     2+mashkimod+21+Loc: gimashkimodaanaaning
-     2+mashkimod+21+Obv: gimashkimodaanaanin
-     2+mashkimod+21+Pl: gimashkimodaanaanin
-     2+mashkimod+2Pl+Loc: gimashkimodaawaang
-     2+mashkimod+2Pl+Obv: gimashkimodaawaan
-     2+mashkimod+2Pl+Pl: gimashkimodaawaan
-     3+mashkimod+3Obv+Loc: omashkimodaaniing
-     3+mashkimod+3Obv+Obv: omashkimodaaniin
-     3+mashkimod+3Obv+Pl: omashkimodaaniin
-     3+mashkimod+3Pl+Loc: omashkimodaawaang
-     3+mashkimod+3Pl+Obv: omashkimodaawaan
-     3+mashkimod+3Pl+Pl: omashkimodaawaan
+     1+mashkimod+N+1Pl+Loc: nimashkimodaanaaning
+     1+mashkimod+N+1Pl+Obv: nimashkimodaanaanin
+     1+mashkimod+N+1Pl+Pl: nimashkimodaanaanin
+     2+mashkimod+N+21+Loc: gimashkimodaanaaning
+     2+mashkimod+N+21+Obv: gimashkimodaanaanin
+     2+mashkimod+N+21+Pl: gimashkimodaanaanin
+     2+mashkimod+N+2Pl+Loc: gimashkimodaawaang
+     2+mashkimod+N+2Pl+Obv: gimashkimodaawaan
+     2+mashkimod+N+2Pl+Pl: gimashkimodaawaan
+     3+mashkimod+N+3Obv+Loc: omashkimodaaniing
+     3+mashkimod+N+3Obv+Obv: omashkimodaaniin
+     3+mashkimod+N+3Obv+Pl: omashkimodaaniin
+     3+mashkimod+N+3Pl+Loc: omashkimodaawaang
+     3+mashkimod+N+3Pl+Obv: omashkimodaawaan
+     3+mashkimod+N+3Pl+Pl: omashkimodaawaan
      
      #Values from slots numbered: 1, 6, 7
-     1+mashkimod+Pret+Loc: nimashkimodaabaniing
-     1+mashkimod+Pret+Obv: nimashkimodaabaniin
-     1+mashkimod+Pret+Pl: nimashkimodaabaniin
-     2+mashkimod+Pret+Loc: gimashkimodaabaniing
-     2+mashkimod+Pret+Obv: gimashkimodaabaniin
-     2+mashkimod+Pret+Pl: gimashkimodaabaniin
-     3+mashkimod+Pret+Loc: omashkimodaabaniing
-     3+mashkimod+Pret+Obv: omashkimodaabaniin
-     3+mashkimod+Pret+Pl: omashkimodaabaniin
-     X+mashkimod+Pret+Loc: imashkimodaabaniing
-     X+mashkimod+Pret+Obv: imashkimodaabaniin
-     X+mashkimod+Pret+Pl: imashkimodaabaniin
+     1+mashkimod+N+Pret+Loc: nimashkimodaabaniing
+     1+mashkimod+N+Pret+Obv: nimashkimodaabaniin
+     1+mashkimod+N+Pret+Pl: nimashkimodaabaniin
+     2+mashkimod+N+Pret+Loc: gimashkimodaabaniing
+     2+mashkimod+N+Pret+Obv: gimashkimodaabaniin
+     2+mashkimod+N+Pret+Pl: gimashkimodaabaniin
+     3+mashkimod+N+Pret+Loc: omashkimodaabaniing
+     3+mashkimod+N+Pret+Obv: omashkimodaabaniin
+     3+mashkimod+N+Pret+Pl: omashkimodaabaniin
+     X+mashkimod+N+Pret+Loc: imashkimodaabaniing
+     X+mashkimod+N+Pret+Obv: imashkimodaabaniin
+     X+mashkimod+N+Pret+Pl: imashkimodaabaniin
      
      
      
@@ -329,28 +329,28 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6
-     mashkimod+Con+Pej+Pret: mashkimodenyishiban
-     mashkimod+Con+Pej+VocPl: [mashkimodenyishidig, mashkimodenyishidog]
-     mashkimod+Dim+Pej+Pret: mashkimodensishiban
-     mashkimod+Dim+Pej+VocPl: [mashkimodensishidig, mashkimodensishidog]
+     mashkimod+N+Con+Pej+Pret: mashkimodenyishiban
+     mashkimod+N+Con+Pej+VocPl: [mashkimodenyishidig, mashkimodenyishidog]
+     mashkimod+N+Dim+Pej+Pret: mashkimodensishiban
+     mashkimod+N+Dim+Pej+VocPl: [mashkimodensishidig, mashkimodensishidog]
      
      #Values from slots numbered: 2, 4, 7
-     mashkimod+Con+Pej+Loc: mashkimodenyishing
-     mashkimod+Con+Pej+Obv: mashkimodenyishan
-     mashkimod+Con+Pej+Pl: mashkimodenyishan
-     mashkimod+Dim+Pej+Loc: mashkimodensishing
-     mashkimod+Dim+Pej+Obv: mashkimodensishan
-     mashkimod+Dim+Pej+Pl: mashkimodensishan
+     mashkimod+N+Con+Pej+Loc: mashkimodenyishing
+     mashkimod+N+Con+Pej+Obv: mashkimodenyishan
+     mashkimod+N+Con+Pej+Pl: mashkimodenyishan
+     mashkimod+N+Dim+Pej+Loc: mashkimodensishing
+     mashkimod+N+Dim+Pej+Obv: mashkimodensishan
+     mashkimod+N+Dim+Pej+Pl: mashkimodensishan
      
      
      
      #Values from slots numbered: 2, 6, 7
-     mashkimod+Con+Pret+Loc: mashkimodenyibaniing
-     mashkimod+Con+Pret+Obv: mashkimodenyibaniin
-     mashkimod+Con+Pret+Pl: mashkimodenyibaniin
-     mashkimod+Dim+Pret+Loc: mashkimodensibaniing
-     mashkimod+Dim+Pret+Obv: mashkimodensibaniin
-     mashkimod+Dim+Pret+Pl: mashkimodensibaniin
+     mashkimod+N+Con+Pret+Loc: mashkimodenyibaniing
+     mashkimod+N+Con+Pret+Obv: mashkimodenyibaniin
+     mashkimod+N+Con+Pret+Pl: mashkimodenyibaniin
+     mashkimod+N+Dim+Pret+Loc: mashkimodensibaniing
+     mashkimod+N+Dim+Pret+Obv: mashkimodensibaniin
+     mashkimod+N+Dim+Pret+Pl: mashkimodensibaniin
      
      
      
@@ -361,361 +361,361 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
-     mashkimod+Pej+Pret+Loc: mashkimodaashibaniing
-     mashkimod+Pej+Pret+Obv: mashkimodaashibaniin
-     mashkimod+Pej+Pret+Pl: mashkimodaashibaniin
+     mashkimod+N+Pej+Pret+Loc: mashkimodaashibaniing
+     mashkimod+N+Pej+Pret+Obv: mashkimodaashibaniin
+     mashkimod+N+Pej+Pret+Pl: mashkimodaashibaniin
      
      
      #Values from slots numbered: 1, 2, 3, 4
-     1+mashkimod+Con+Pos+Pej: nimashkimodenyimish
-     1+mashkimod+Dim+Pos+Pej: nimashkimodensimish
-     2+mashkimod+Con+Pos+Pej: gimashkimodenyimish
-     2+mashkimod+Dim+Pos+Pej: gimashkimodensimish
-     3+mashkimod+Con+Pos+Pej: omashkimodenyimish
-     3+mashkimod+Dim+Pos+Pej: omashkimodensimish
-     X+mashkimod+Con+Pos+Pej: imashkimodenyimish
-     X+mashkimod+Dim+Pos+Pej: imashkimodensimish
+     1+mashkimod+N+Con+Pos+Pej: nimashkimodenyimish
+     1+mashkimod+N+Dim+Pos+Pej: nimashkimodensimish
+     2+mashkimod+N+Con+Pos+Pej: gimashkimodenyimish
+     2+mashkimod+N+Dim+Pos+Pej: gimashkimodensimish
+     3+mashkimod+N+Con+Pos+Pej: omashkimodenyimish
+     3+mashkimod+N+Dim+Pos+Pej: omashkimodensimish
+     X+mashkimod+N+Con+Pos+Pej: imashkimodenyimish
+     X+mashkimod+N+Dim+Pos+Pej: imashkimodensimish
      
      #Values from slots numbered: 1, 2, 3, 5
-     1+mashkimod+Con+Pos+1Pl: nimashkimodenyiminaan
-     1+mashkimod+Dim+Pos+1Pl: nimashkimodensiminaan
-     2+mashkimod+Con+Pos+21: gimashkimodenyiminaan
-     2+mashkimod+Con+Pos+2Pl: gimashkimodenyimiwaa
-     2+mashkimod+Dim+Pos+21: gimashkimodensiminaan
-     2+mashkimod+Dim+Pos+2Pl: gimashkimodensimiwaa
-     3+mashkimod+Con+Pos+3Obv: omashkimodenyimini
-     3+mashkimod+Con+Pos+3Pl: omashkimodenyimiwaa
-     3+mashkimod+Dim+Pos+3Obv: omashkimodensimini
-     3+mashkimod+Dim+Pos+3Pl: omashkimodensimiwaa
+     1+mashkimod+N+Con+Pos+1Pl: nimashkimodenyiminaan
+     1+mashkimod+N+Dim+Pos+1Pl: nimashkimodensiminaan
+     2+mashkimod+N+Con+Pos+21: gimashkimodenyiminaan
+     2+mashkimod+N+Con+Pos+2Pl: gimashkimodenyimiwaa
+     2+mashkimod+N+Dim+Pos+21: gimashkimodensiminaan
+     2+mashkimod+N+Dim+Pos+2Pl: gimashkimodensimiwaa
+     3+mashkimod+N+Con+Pos+3Obv: omashkimodenyimini
+     3+mashkimod+N+Con+Pos+3Pl: omashkimodenyimiwaa
+     3+mashkimod+N+Dim+Pos+3Obv: omashkimodensimini
+     3+mashkimod+N+Dim+Pos+3Pl: omashkimodensimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
-     1+mashkimod+Con+Pos+Pret: nimashkimodenyimiban
-     1+mashkimod+Con+Pos+VocPl: [nimashkimodenyimidig, nimashkimodenyimidog]
-     1+mashkimod+Dim+Pos+Pret: nimashkimodensimiban
-     1+mashkimod+Dim+Pos+VocPl: [nimashkimodensimidig, nimashkimodensimidog]
-     2+mashkimod+Con+Pos+Pret: gimashkimodenyimiban
-     2+mashkimod+Con+Pos+VocPl: [gimashkimodenyimidig, gimashkimodenyimidog]
-     2+mashkimod+Dim+Pos+Pret: gimashkimodensimiban
-     2+mashkimod+Dim+Pos+VocPl: [gimashkimodensimidig, gimashkimodensimidog]
-     3+mashkimod+Con+Pos+Pret: omashkimodenyimiban
-     3+mashkimod+Con+Pos+VocPl: [omashkimodenyimidig, omashkimodenyimidog]
-     3+mashkimod+Dim+Pos+Pret: omashkimodensimiban
-     3+mashkimod+Dim+Pos+VocPl: [omashkimodensimidig, omashkimodensimidog]
-     X+mashkimod+Con+Pos+Pret: imashkimodenyimiban
-     X+mashkimod+Con+Pos+VocPl: [imashkimodenyimidig, imashkimodenyimidog]
-     X+mashkimod+Dim+Pos+Pret: imashkimodensimiban
-     X+mashkimod+Dim+Pos+VocPl: [imashkimodensimidig, imashkimodensimidog]
+     1+mashkimod+N+Con+Pos+Pret: nimashkimodenyimiban
+     1+mashkimod+N+Con+Pos+VocPl: [nimashkimodenyimidig, nimashkimodenyimidog]
+     1+mashkimod+N+Dim+Pos+Pret: nimashkimodensimiban
+     1+mashkimod+N+Dim+Pos+VocPl: [nimashkimodensimidig, nimashkimodensimidog]
+     2+mashkimod+N+Con+Pos+Pret: gimashkimodenyimiban
+     2+mashkimod+N+Con+Pos+VocPl: [gimashkimodenyimidig, gimashkimodenyimidog]
+     2+mashkimod+N+Dim+Pos+Pret: gimashkimodensimiban
+     2+mashkimod+N+Dim+Pos+VocPl: [gimashkimodensimidig, gimashkimodensimidog]
+     3+mashkimod+N+Con+Pos+Pret: omashkimodenyimiban
+     3+mashkimod+N+Con+Pos+VocPl: [omashkimodenyimidig, omashkimodenyimidog]
+     3+mashkimod+N+Dim+Pos+Pret: omashkimodensimiban
+     3+mashkimod+N+Dim+Pos+VocPl: [omashkimodensimidig, omashkimodensimidog]
+     X+mashkimod+N+Con+Pos+Pret: imashkimodenyimiban
+     X+mashkimod+N+Con+Pos+VocPl: [imashkimodenyimidig, imashkimodenyimidog]
+     X+mashkimod+N+Dim+Pos+Pret: imashkimodensimiban
+     X+mashkimod+N+Dim+Pos+VocPl: [imashkimodensimidig, imashkimodensimidog]
      
      #Values from slots numbered: 1, 2, 3, 7
-     1+mashkimod+Con+Pos+Loc: nimashkimodenyiming
-     1+mashkimod+Con+Pos+Obv: nimashkimodenyiman
-     1+mashkimod+Con+Pos+Pl: nimashkimodenyiman
-     1+mashkimod+Dim+Pos+Loc: nimashkimodensiming
-     1+mashkimod+Dim+Pos+Obv: nimashkimodensiman
-     1+mashkimod+Dim+Pos+Pl: nimashkimodensiman
-     2+mashkimod+Con+Pos+Loc: gimashkimodenyiming
-     2+mashkimod+Con+Pos+Obv: gimashkimodenyiman
-     2+mashkimod+Con+Pos+Pl: gimashkimodenyiman
-     2+mashkimod+Dim+Pos+Loc: gimashkimodensiming
-     2+mashkimod+Dim+Pos+Obv: gimashkimodensiman
-     2+mashkimod+Dim+Pos+Pl: gimashkimodensiman
-     3+mashkimod+Con+Pos+Loc: omashkimodenyiming
-     3+mashkimod+Con+Pos+Obv: omashkimodenyiman
-     3+mashkimod+Con+Pos+Pl: omashkimodenyiman
-     3+mashkimod+Dim+Pos+Loc: omashkimodensiming
-     3+mashkimod+Dim+Pos+Obv: omashkimodensiman
-     3+mashkimod+Dim+Pos+Pl: omashkimodensiman
-     X+mashkimod+Con+Pos+Loc: imashkimodenyiming
-     X+mashkimod+Con+Pos+Obv: imashkimodenyiman
-     X+mashkimod+Con+Pos+Pl: imashkimodenyiman
-     X+mashkimod+Dim+Pos+Loc: imashkimodensiming
-     X+mashkimod+Dim+Pos+Obv: imashkimodensiman
-     X+mashkimod+Dim+Pos+Pl: imashkimodensiman
+     1+mashkimod+N+Con+Pos+Loc: nimashkimodenyiming
+     1+mashkimod+N+Con+Pos+Obv: nimashkimodenyiman
+     1+mashkimod+N+Con+Pos+Pl: nimashkimodenyiman
+     1+mashkimod+N+Dim+Pos+Loc: nimashkimodensiming
+     1+mashkimod+N+Dim+Pos+Obv: nimashkimodensiman
+     1+mashkimod+N+Dim+Pos+Pl: nimashkimodensiman
+     2+mashkimod+N+Con+Pos+Loc: gimashkimodenyiming
+     2+mashkimod+N+Con+Pos+Obv: gimashkimodenyiman
+     2+mashkimod+N+Con+Pos+Pl: gimashkimodenyiman
+     2+mashkimod+N+Dim+Pos+Loc: gimashkimodensiming
+     2+mashkimod+N+Dim+Pos+Obv: gimashkimodensiman
+     2+mashkimod+N+Dim+Pos+Pl: gimashkimodensiman
+     3+mashkimod+N+Con+Pos+Loc: omashkimodenyiming
+     3+mashkimod+N+Con+Pos+Obv: omashkimodenyiman
+     3+mashkimod+N+Con+Pos+Pl: omashkimodenyiman
+     3+mashkimod+N+Dim+Pos+Loc: omashkimodensiming
+     3+mashkimod+N+Dim+Pos+Obv: omashkimodensiman
+     3+mashkimod+N+Dim+Pos+Pl: omashkimodensiman
+     X+mashkimod+N+Con+Pos+Loc: imashkimodenyiming
+     X+mashkimod+N+Con+Pos+Obv: imashkimodenyiman
+     X+mashkimod+N+Con+Pos+Pl: imashkimodenyiman
+     X+mashkimod+N+Dim+Pos+Loc: imashkimodensiming
+     X+mashkimod+N+Dim+Pos+Obv: imashkimodensiman
+     X+mashkimod+N+Dim+Pos+Pl: imashkimodensiman
      
      #Values from slots numbered: 1, 2, 4, 5
-     1+mashkimod+Con+Pej+1Pl: nimashkimodenyishinaan
-     1+mashkimod+Dim+Pej+1Pl: nimashkimodensishinaan
-     2+mashkimod+Con+Pej+21: gimashkimodenyishinaan
-     2+mashkimod+Con+Pej+2Pl: gimashkimodenyishiwaa
-     2+mashkimod+Dim+Pej+21: gimashkimodensishinaan
-     2+mashkimod+Dim+Pej+2Pl: gimashkimodensishiwaa
-     3+mashkimod+Con+Pej+3Obv: omashkimodenyishini
-     3+mashkimod+Con+Pej+3Pl: omashkimodenyishiwaa
-     3+mashkimod+Dim+Pej+3Obv: omashkimodensishini
-     3+mashkimod+Dim+Pej+3Pl: omashkimodensishiwaa
+     1+mashkimod+N+Con+Pej+1Pl: nimashkimodenyishinaan
+     1+mashkimod+N+Dim+Pej+1Pl: nimashkimodensishinaan
+     2+mashkimod+N+Con+Pej+21: gimashkimodenyishinaan
+     2+mashkimod+N+Con+Pej+2Pl: gimashkimodenyishiwaa
+     2+mashkimod+N+Dim+Pej+21: gimashkimodensishinaan
+     2+mashkimod+N+Dim+Pej+2Pl: gimashkimodensishiwaa
+     3+mashkimod+N+Con+Pej+3Obv: omashkimodenyishini
+     3+mashkimod+N+Con+Pej+3Pl: omashkimodenyishiwaa
+     3+mashkimod+N+Dim+Pej+3Obv: omashkimodensishini
+     3+mashkimod+N+Dim+Pej+3Pl: omashkimodensishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
-     1+mashkimod+Con+Pej+Pret: nimashkimodenyishiban
-     1+mashkimod+Con+Pej+VocPl: [nimashkimodenyishidig, nimashkimodenyishidog]
-     1+mashkimod+Dim+Pej+Pret: nimashkimodensishiban
-     1+mashkimod+Dim+Pej+VocPl: [nimashkimodensishidig, nimashkimodensishidog]
-     2+mashkimod+Con+Pej+Pret: gimashkimodenyishiban
-     2+mashkimod+Con+Pej+VocPl: [gimashkimodenyishidig, gimashkimodenyishidog]
-     2+mashkimod+Dim+Pej+Pret: gimashkimodensishiban
-     2+mashkimod+Dim+Pej+VocPl: [gimashkimodensishidig, gimashkimodensishidog]
-     3+mashkimod+Con+Pej+Pret: omashkimodenyishiban
-     3+mashkimod+Con+Pej+VocPl: [omashkimodenyishidig, omashkimodenyishidog]
-     3+mashkimod+Dim+Pej+Pret: omashkimodensishiban
-     3+mashkimod+Dim+Pej+VocPl: [omashkimodensishidig, omashkimodensishidog]
-     X+mashkimod+Con+Pej+Pret: imashkimodenyishiban
-     X+mashkimod+Con+Pej+VocPl: [imashkimodenyishidig, imashkimodenyishidog]
-     X+mashkimod+Dim+Pej+Pret: imashkimodensishiban
-     X+mashkimod+Dim+Pej+VocPl: [imashkimodensishidig, imashkimodensishidog]
+     1+mashkimod+N+Con+Pej+Pret: nimashkimodenyishiban
+     1+mashkimod+N+Con+Pej+VocPl: [nimashkimodenyishidig, nimashkimodenyishidog]
+     1+mashkimod+N+Dim+Pej+Pret: nimashkimodensishiban
+     1+mashkimod+N+Dim+Pej+VocPl: [nimashkimodensishidig, nimashkimodensishidog]
+     2+mashkimod+N+Con+Pej+Pret: gimashkimodenyishiban
+     2+mashkimod+N+Con+Pej+VocPl: [gimashkimodenyishidig, gimashkimodenyishidog]
+     2+mashkimod+N+Dim+Pej+Pret: gimashkimodensishiban
+     2+mashkimod+N+Dim+Pej+VocPl: [gimashkimodensishidig, gimashkimodensishidog]
+     3+mashkimod+N+Con+Pej+Pret: omashkimodenyishiban
+     3+mashkimod+N+Con+Pej+VocPl: [omashkimodenyishidig, omashkimodenyishidog]
+     3+mashkimod+N+Dim+Pej+Pret: omashkimodensishiban
+     3+mashkimod+N+Dim+Pej+VocPl: [omashkimodensishidig, omashkimodensishidog]
+     X+mashkimod+N+Con+Pej+Pret: imashkimodenyishiban
+     X+mashkimod+N+Con+Pej+VocPl: [imashkimodenyishidig, imashkimodenyishidog]
+     X+mashkimod+N+Dim+Pej+Pret: imashkimodensishiban
+     X+mashkimod+N+Dim+Pej+VocPl: [imashkimodensishidig, imashkimodensishidog]
      
      #Values from slots numbered: 1, 2, 4, 7
-     1+mashkimod+Con+Pej+Loc: nimashkimodenyishing
-     1+mashkimod+Con+Pej+Obv: nimashkimodenyishan
-     1+mashkimod+Con+Pej+Pl: nimashkimodenyishan
-     1+mashkimod+Dim+Pej+Loc: nimashkimodensishing
-     1+mashkimod+Dim+Pej+Obv: nimashkimodensishan
-     1+mashkimod+Dim+Pej+Pl: nimashkimodensishan
-     2+mashkimod+Con+Pej+Loc: gimashkimodenyishing
-     2+mashkimod+Con+Pej+Obv: gimashkimodenyishan
-     2+mashkimod+Con+Pej+Pl: gimashkimodenyishan
-     2+mashkimod+Dim+Pej+Loc: gimashkimodensishing
-     2+mashkimod+Dim+Pej+Obv: gimashkimodensishan
-     2+mashkimod+Dim+Pej+Pl: gimashkimodensishan
-     3+mashkimod+Con+Pej+Loc: omashkimodenyishing
-     3+mashkimod+Con+Pej+Obv: omashkimodenyishan
-     3+mashkimod+Con+Pej+Pl: omashkimodenyishan
-     3+mashkimod+Dim+Pej+Loc: omashkimodensishing
-     3+mashkimod+Dim+Pej+Obv: omashkimodensishan
-     3+mashkimod+Dim+Pej+Pl: omashkimodensishan
-     X+mashkimod+Con+Pej+Loc: imashkimodenyishing
-     X+mashkimod+Con+Pej+Obv: imashkimodenyishan
-     X+mashkimod+Con+Pej+Pl: imashkimodenyishan
-     X+mashkimod+Dim+Pej+Loc: imashkimodensishing
-     X+mashkimod+Dim+Pej+Obv: imashkimodensishan
-     X+mashkimod+Dim+Pej+Pl: imashkimodensishan
+     1+mashkimod+N+Con+Pej+Loc: nimashkimodenyishing
+     1+mashkimod+N+Con+Pej+Obv: nimashkimodenyishan
+     1+mashkimod+N+Con+Pej+Pl: nimashkimodenyishan
+     1+mashkimod+N+Dim+Pej+Loc: nimashkimodensishing
+     1+mashkimod+N+Dim+Pej+Obv: nimashkimodensishan
+     1+mashkimod+N+Dim+Pej+Pl: nimashkimodensishan
+     2+mashkimod+N+Con+Pej+Loc: gimashkimodenyishing
+     2+mashkimod+N+Con+Pej+Obv: gimashkimodenyishan
+     2+mashkimod+N+Con+Pej+Pl: gimashkimodenyishan
+     2+mashkimod+N+Dim+Pej+Loc: gimashkimodensishing
+     2+mashkimod+N+Dim+Pej+Obv: gimashkimodensishan
+     2+mashkimod+N+Dim+Pej+Pl: gimashkimodensishan
+     3+mashkimod+N+Con+Pej+Loc: omashkimodenyishing
+     3+mashkimod+N+Con+Pej+Obv: omashkimodenyishan
+     3+mashkimod+N+Con+Pej+Pl: omashkimodenyishan
+     3+mashkimod+N+Dim+Pej+Loc: omashkimodensishing
+     3+mashkimod+N+Dim+Pej+Obv: omashkimodensishan
+     3+mashkimod+N+Dim+Pej+Pl: omashkimodensishan
+     X+mashkimod+N+Con+Pej+Loc: imashkimodenyishing
+     X+mashkimod+N+Con+Pej+Obv: imashkimodenyishan
+     X+mashkimod+N+Con+Pej+Pl: imashkimodenyishan
+     X+mashkimod+N+Dim+Pej+Loc: imashkimodensishing
+     X+mashkimod+N+Dim+Pej+Obv: imashkimodensishan
+     X+mashkimod+N+Dim+Pej+Pl: imashkimodensishan
      
      #Values from slots numbered: 1, 2, 5, 6
-     1+mashkimod+Con+1Pl+Pret: nimashkimodenyinaaniban
-     1+mashkimod+Con+1Pl+VocPl: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
-     1+mashkimod+Dim+1Pl+Pret: nimashkimodensinaaniban
-     1+mashkimod+Dim+1Pl+VocPl: [nimashkimodensinaanidig, nimashkimodensinaanidog]
-     2+mashkimod+Con+21+Pret: gimashkimodenyinaaniban
-     2+mashkimod+Con+21+VocPl: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
-     2+mashkimod+Con+2Pl+Pret: gimashkimodenyiwaaban
-     2+mashkimod+Con+2Pl+VocPl: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
-     2+mashkimod+Dim+21+Pret: gimashkimodensinaaniban
-     2+mashkimod+Dim+21+VocPl: [gimashkimodensinaanidig, gimashkimodensinaanidog]
-     2+mashkimod+Dim+2Pl+Pret: gimashkimodensiwaaban
-     2+mashkimod+Dim+2Pl+VocPl: [gimashkimodensiwaadig, gimashkimodensiwaadog]
-     3+mashkimod+Con+3Obv+Pret: omashkimodenyiniiban
-     3+mashkimod+Con+3Obv+VocPl: [omashkimodenyiniidig, omashkimodenyiniidog]
-     3+mashkimod+Con+3Pl+Pret: omashkimodenyiwaaban
-     3+mashkimod+Con+3Pl+VocPl: [omashkimodenyiwaadig, omashkimodenyiwaadog]
-     3+mashkimod+Dim+3Obv+Pret: omashkimodensiniiban
-     3+mashkimod+Dim+3Obv+VocPl: [omashkimodensiniidig, omashkimodensiniidog]
-     3+mashkimod+Dim+3Pl+Pret: omashkimodensiwaaban
-     3+mashkimod+Dim+3Pl+VocPl: [omashkimodensiwaadig, omashkimodensiwaadog]
+     1+mashkimod+N+Con+1Pl+Pret: nimashkimodenyinaaniban
+     1+mashkimod+N+Con+1Pl+VocPl: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
+     1+mashkimod+N+Dim+1Pl+Pret: nimashkimodensinaaniban
+     1+mashkimod+N+Dim+1Pl+VocPl: [nimashkimodensinaanidig, nimashkimodensinaanidog]
+     2+mashkimod+N+Con+21+Pret: gimashkimodenyinaaniban
+     2+mashkimod+N+Con+21+VocPl: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
+     2+mashkimod+N+Con+2Pl+Pret: gimashkimodenyiwaaban
+     2+mashkimod+N+Con+2Pl+VocPl: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
+     2+mashkimod+N+Dim+21+Pret: gimashkimodensinaaniban
+     2+mashkimod+N+Dim+21+VocPl: [gimashkimodensinaanidig, gimashkimodensinaanidog]
+     2+mashkimod+N+Dim+2Pl+Pret: gimashkimodensiwaaban
+     2+mashkimod+N+Dim+2Pl+VocPl: [gimashkimodensiwaadig, gimashkimodensiwaadog]
+     3+mashkimod+N+Con+3Obv+Pret: omashkimodenyiniiban
+     3+mashkimod+N+Con+3Obv+VocPl: [omashkimodenyiniidig, omashkimodenyiniidog]
+     3+mashkimod+N+Con+3Pl+Pret: omashkimodenyiwaaban
+     3+mashkimod+N+Con+3Pl+VocPl: [omashkimodenyiwaadig, omashkimodenyiwaadog]
+     3+mashkimod+N+Dim+3Obv+Pret: omashkimodensiniiban
+     3+mashkimod+N+Dim+3Obv+VocPl: [omashkimodensiniidig, omashkimodensiniidog]
+     3+mashkimod+N+Dim+3Pl+Pret: omashkimodensiwaaban
+     3+mashkimod+N+Dim+3Pl+VocPl: [omashkimodensiwaadig, omashkimodensiwaadog]
      
      #Values from slots numbered: 1, 2, 5, 7
-     1+mashkimod+Con+1Pl+Loc: nimashkimodenyinaaning
-     1+mashkimod+Con+1Pl+Obv: nimashkimodenyinaanin
-     1+mashkimod+Con+1Pl+Pl: nimashkimodenyinaanin
-     1+mashkimod+Dim+1Pl+Loc: nimashkimodensinaaning
-     1+mashkimod+Dim+1Pl+Obv: nimashkimodensinaanin
-     1+mashkimod+Dim+1Pl+Pl: nimashkimodensinaanin
-     2+mashkimod+Con+21+Loc: gimashkimodenyinaaning
-     2+mashkimod+Con+21+Obv: gimashkimodenyinaanin
-     2+mashkimod+Con+21+Pl: gimashkimodenyinaanin
-     2+mashkimod+Con+2Pl+Loc: gimashkimodenyiwaang
-     2+mashkimod+Con+2Pl+Obv: gimashkimodenyiwaan
-     2+mashkimod+Con+2Pl+Pl: gimashkimodenyiwaan
-     2+mashkimod+Dim+21+Loc: gimashkimodensinaaning
-     2+mashkimod+Dim+21+Obv: gimashkimodensinaanin
-     2+mashkimod+Dim+21+Pl: gimashkimodensinaanin
-     2+mashkimod+Dim+2Pl+Loc: gimashkimodensiwaang
-     2+mashkimod+Dim+2Pl+Obv: gimashkimodensiwaan
-     2+mashkimod+Dim+2Pl+Pl: gimashkimodensiwaan
-     3+mashkimod+Con+3Obv+Loc: omashkimodenyiniing
-     3+mashkimod+Con+3Obv+Obv: omashkimodenyiniin
-     3+mashkimod+Con+3Obv+Pl: omashkimodenyiniin
-     3+mashkimod+Con+3Pl+Loc: omashkimodenyiwaang
-     3+mashkimod+Con+3Pl+Obv: omashkimodenyiwaan
-     3+mashkimod+Con+3Pl+Pl: omashkimodenyiwaan
-     3+mashkimod+Dim+3Obv+Loc: omashkimodensiniing
-     3+mashkimod+Dim+3Obv+Obv: omashkimodensiniin
-     3+mashkimod+Dim+3Obv+Pl: omashkimodensiniin
-     3+mashkimod+Dim+3Pl+Loc: omashkimodensiwaang
-     3+mashkimod+Dim+3Pl+Obv: omashkimodensiwaan
-     3+mashkimod+Dim+3Pl+Pl: omashkimodensiwaan
+     1+mashkimod+N+Con+1Pl+Loc: nimashkimodenyinaaning
+     1+mashkimod+N+Con+1Pl+Obv: nimashkimodenyinaanin
+     1+mashkimod+N+Con+1Pl+Pl: nimashkimodenyinaanin
+     1+mashkimod+N+Dim+1Pl+Loc: nimashkimodensinaaning
+     1+mashkimod+N+Dim+1Pl+Obv: nimashkimodensinaanin
+     1+mashkimod+N+Dim+1Pl+Pl: nimashkimodensinaanin
+     2+mashkimod+N+Con+21+Loc: gimashkimodenyinaaning
+     2+mashkimod+N+Con+21+Obv: gimashkimodenyinaanin
+     2+mashkimod+N+Con+21+Pl: gimashkimodenyinaanin
+     2+mashkimod+N+Con+2Pl+Loc: gimashkimodenyiwaang
+     2+mashkimod+N+Con+2Pl+Obv: gimashkimodenyiwaan
+     2+mashkimod+N+Con+2Pl+Pl: gimashkimodenyiwaan
+     2+mashkimod+N+Dim+21+Loc: gimashkimodensinaaning
+     2+mashkimod+N+Dim+21+Obv: gimashkimodensinaanin
+     2+mashkimod+N+Dim+21+Pl: gimashkimodensinaanin
+     2+mashkimod+N+Dim+2Pl+Loc: gimashkimodensiwaang
+     2+mashkimod+N+Dim+2Pl+Obv: gimashkimodensiwaan
+     2+mashkimod+N+Dim+2Pl+Pl: gimashkimodensiwaan
+     3+mashkimod+N+Con+3Obv+Loc: omashkimodenyiniing
+     3+mashkimod+N+Con+3Obv+Obv: omashkimodenyiniin
+     3+mashkimod+N+Con+3Obv+Pl: omashkimodenyiniin
+     3+mashkimod+N+Con+3Pl+Loc: omashkimodenyiwaang
+     3+mashkimod+N+Con+3Pl+Obv: omashkimodenyiwaan
+     3+mashkimod+N+Con+3Pl+Pl: omashkimodenyiwaan
+     3+mashkimod+N+Dim+3Obv+Loc: omashkimodensiniing
+     3+mashkimod+N+Dim+3Obv+Obv: omashkimodensiniin
+     3+mashkimod+N+Dim+3Obv+Pl: omashkimodensiniin
+     3+mashkimod+N+Dim+3Pl+Loc: omashkimodensiwaang
+     3+mashkimod+N+Dim+3Pl+Obv: omashkimodensiwaan
+     3+mashkimod+N+Dim+3Pl+Pl: omashkimodensiwaan
      
      #Values from slots numbered: 1, 2, 6, 7
-     1+mashkimod+Con+Pret+Loc: nimashkimodenyibaniing
-     1+mashkimod+Con+Pret+Obv: nimashkimodenyibaniin
-     1+mashkimod+Con+Pret+Pl: nimashkimodenyibaniin
-     1+mashkimod+Dim+Pret+Loc: nimashkimodensibaniing
-     1+mashkimod+Dim+Pret+Obv: nimashkimodensibaniin
-     1+mashkimod+Dim+Pret+Pl: nimashkimodensibaniin
-     2+mashkimod+Con+Pret+Loc: gimashkimodenyibaniing
-     2+mashkimod+Con+Pret+Obv: gimashkimodenyibaniin
-     2+mashkimod+Con+Pret+Pl: gimashkimodenyibaniin
-     2+mashkimod+Dim+Pret+Loc: gimashkimodensibaniing
-     2+mashkimod+Dim+Pret+Obv: gimashkimodensibaniin
-     2+mashkimod+Dim+Pret+Pl: gimashkimodensibaniin
-     3+mashkimod+Con+Pret+Loc: omashkimodenyibaniing
-     3+mashkimod+Con+Pret+Obv: omashkimodenyibaniin
-     3+mashkimod+Con+Pret+Pl: omashkimodenyibaniin
-     3+mashkimod+Dim+Pret+Loc: omashkimodensibaniing
-     3+mashkimod+Dim+Pret+Obv: omashkimodensibaniin
-     3+mashkimod+Dim+Pret+Pl: omashkimodensibaniin
-     X+mashkimod+Con+Pret+Loc: imashkimodenyibaniing
-     X+mashkimod+Con+Pret+Obv: imashkimodenyibaniin
-     X+mashkimod+Con+Pret+Pl: imashkimodenyibaniin
-     X+mashkimod+Dim+Pret+Loc: imashkimodensibaniing
-     X+mashkimod+Dim+Pret+Obv: imashkimodensibaniin
-     X+mashkimod+Dim+Pret+Pl: imashkimodensibaniin
+     1+mashkimod+N+Con+Pret+Loc: nimashkimodenyibaniing
+     1+mashkimod+N+Con+Pret+Obv: nimashkimodenyibaniin
+     1+mashkimod+N+Con+Pret+Pl: nimashkimodenyibaniin
+     1+mashkimod+N+Dim+Pret+Loc: nimashkimodensibaniing
+     1+mashkimod+N+Dim+Pret+Obv: nimashkimodensibaniin
+     1+mashkimod+N+Dim+Pret+Pl: nimashkimodensibaniin
+     2+mashkimod+N+Con+Pret+Loc: gimashkimodenyibaniing
+     2+mashkimod+N+Con+Pret+Obv: gimashkimodenyibaniin
+     2+mashkimod+N+Con+Pret+Pl: gimashkimodenyibaniin
+     2+mashkimod+N+Dim+Pret+Loc: gimashkimodensibaniing
+     2+mashkimod+N+Dim+Pret+Obv: gimashkimodensibaniin
+     2+mashkimod+N+Dim+Pret+Pl: gimashkimodensibaniin
+     3+mashkimod+N+Con+Pret+Loc: omashkimodenyibaniing
+     3+mashkimod+N+Con+Pret+Obv: omashkimodenyibaniin
+     3+mashkimod+N+Con+Pret+Pl: omashkimodenyibaniin
+     3+mashkimod+N+Dim+Pret+Loc: omashkimodensibaniing
+     3+mashkimod+N+Dim+Pret+Obv: omashkimodensibaniin
+     3+mashkimod+N+Dim+Pret+Pl: omashkimodensibaniin
+     X+mashkimod+N+Con+Pret+Loc: imashkimodenyibaniing
+     X+mashkimod+N+Con+Pret+Obv: imashkimodenyibaniin
+     X+mashkimod+N+Con+Pret+Pl: imashkimodenyibaniin
+     X+mashkimod+N+Dim+Pret+Loc: imashkimodensibaniing
+     X+mashkimod+N+Dim+Pret+Obv: imashkimodensibaniin
+     X+mashkimod+N+Dim+Pret+Pl: imashkimodensibaniin
      
      #Values from slots numbered: 1, 3, 4, 5
-     1+mashkimod+Pos+Pej+1Pl: nimashkimodaamishinaan
-     2+mashkimod+Pos+Pej+21: gimashkimodaamishinaan
-     2+mashkimod+Pos+Pej+2Pl: gimashkimodaamishiwaa
-     3+mashkimod+Pos+Pej+3Obv: omashkimodaamishini
-     3+mashkimod+Pos+Pej+3Pl: omashkimodaamishiwaa
+     1+mashkimod+N+Pos+Pej+1Pl: nimashkimodaamishinaan
+     2+mashkimod+N+Pos+Pej+21: gimashkimodaamishinaan
+     2+mashkimod+N+Pos+Pej+2Pl: gimashkimodaamishiwaa
+     3+mashkimod+N+Pos+Pej+3Obv: omashkimodaamishini
+     3+mashkimod+N+Pos+Pej+3Pl: omashkimodaamishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
-     1+mashkimod+Pos+Pej+Pret: nimashkimodaamishiban
-     1+mashkimod+Pos+Pej+VocPl: [nimashkimodaamishidig, nimashkimodaamishidog]
-     2+mashkimod+Pos+Pej+Pret: gimashkimodaamishiban
-     2+mashkimod+Pos+Pej+VocPl: [gimashkimodaamishidig, gimashkimodaamishidog]
-     3+mashkimod+Pos+Pej+Pret: omashkimodaamishiban
-     3+mashkimod+Pos+Pej+VocPl: [omashkimodaamishidig, omashkimodaamishidog]
-     X+mashkimod+Pos+Pej+Pret: imashkimodaamishiban
-     X+mashkimod+Pos+Pej+VocPl: [imashkimodaamishidig, imashkimodaamishidog]
+     1+mashkimod+N+Pos+Pej+Pret: nimashkimodaamishiban
+     1+mashkimod+N+Pos+Pej+VocPl: [nimashkimodaamishidig, nimashkimodaamishidog]
+     2+mashkimod+N+Pos+Pej+Pret: gimashkimodaamishiban
+     2+mashkimod+N+Pos+Pej+VocPl: [gimashkimodaamishidig, gimashkimodaamishidog]
+     3+mashkimod+N+Pos+Pej+Pret: omashkimodaamishiban
+     3+mashkimod+N+Pos+Pej+VocPl: [omashkimodaamishidig, omashkimodaamishidog]
+     X+mashkimod+N+Pos+Pej+Pret: imashkimodaamishiban
+     X+mashkimod+N+Pos+Pej+VocPl: [imashkimodaamishidig, imashkimodaamishidog]
      
      #Values from slots numbered: 1, 3, 4, 7
-     1+mashkimod+Pos+Pej+Loc: nimashkimodaamishing
-     1+mashkimod+Pos+Pej+Obv: nimashkimodaamishan
-     1+mashkimod+Pos+Pej+Pl: nimashkimodaamishan
-     2+mashkimod+Pos+Pej+Loc: gimashkimodaamishing
-     2+mashkimod+Pos+Pej+Obv: gimashkimodaamishan
-     2+mashkimod+Pos+Pej+Pl: gimashkimodaamishan
-     3+mashkimod+Pos+Pej+Loc: omashkimodaamishing
-     3+mashkimod+Pos+Pej+Obv: omashkimodaamishan
-     3+mashkimod+Pos+Pej+Pl: omashkimodaamishan
-     X+mashkimod+Pos+Pej+Loc: imashkimodaamishing
-     X+mashkimod+Pos+Pej+Obv: imashkimodaamishan
-     X+mashkimod+Pos+Pej+Pl: imashkimodaamishan
+     1+mashkimod+N+Pos+Pej+Loc: nimashkimodaamishing
+     1+mashkimod+N+Pos+Pej+Obv: nimashkimodaamishan
+     1+mashkimod+N+Pos+Pej+Pl: nimashkimodaamishan
+     2+mashkimod+N+Pos+Pej+Loc: gimashkimodaamishing
+     2+mashkimod+N+Pos+Pej+Obv: gimashkimodaamishan
+     2+mashkimod+N+Pos+Pej+Pl: gimashkimodaamishan
+     3+mashkimod+N+Pos+Pej+Loc: omashkimodaamishing
+     3+mashkimod+N+Pos+Pej+Obv: omashkimodaamishan
+     3+mashkimod+N+Pos+Pej+Pl: omashkimodaamishan
+     X+mashkimod+N+Pos+Pej+Loc: imashkimodaamishing
+     X+mashkimod+N+Pos+Pej+Obv: imashkimodaamishan
+     X+mashkimod+N+Pos+Pej+Pl: imashkimodaamishan
      
      #Values from slots numbered: 1, 3, 5, 6
-     1+mashkimod+Pos+1Pl+Pret: nimashkimodaaminaaniban
-     1+mashkimod+Pos+1Pl+VocPl: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
-     2+mashkimod+Pos+21+Pret: gimashkimodaaminaaniban
-     2+mashkimod+Pos+21+VocPl: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
-     2+mashkimod+Pos+2Pl+Pret: gimashkimodaamiwaaban
-     2+mashkimod+Pos+2Pl+VocPl: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
-     3+mashkimod+Pos+3Obv+Pret: omashkimodaaminiiban
-     3+mashkimod+Pos+3Obv+VocPl: [omashkimodaaminiidig, omashkimodaaminiidog]
-     3+mashkimod+Pos+3Pl+Pret: omashkimodaamiwaaban
-     3+mashkimod+Pos+3Pl+VocPl: [omashkimodaamiwaadig, omashkimodaamiwaadog]
+     1+mashkimod+N+Pos+1Pl+Pret: nimashkimodaaminaaniban
+     1+mashkimod+N+Pos+1Pl+VocPl: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+21+Pret: gimashkimodaaminaaniban
+     2+mashkimod+N+Pos+21+VocPl: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+2Pl+Pret: gimashkimodaamiwaaban
+     2+mashkimod+N+Pos+2Pl+VocPl: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
+     3+mashkimod+N+Pos+3Obv+Pret: omashkimodaaminiiban
+     3+mashkimod+N+Pos+3Obv+VocPl: [omashkimodaaminiidig, omashkimodaaminiidog]
+     3+mashkimod+N+Pos+3Pl+Pret: omashkimodaamiwaaban
+     3+mashkimod+N+Pos+3Pl+VocPl: [omashkimodaamiwaadig, omashkimodaamiwaadog]
      
      #Values from slots numbered: 1, 3, 5, 7
-     1+mashkimod+Pos+1Pl+Loc: nimashkimodaaminaaning
-     1+mashkimod+Pos+1Pl+Obv: nimashkimodaaminaanin
-     1+mashkimod+Pos+1Pl+Pl: nimashkimodaaminaanin
-     2+mashkimod+Pos+21+Loc: gimashkimodaaminaaning
-     2+mashkimod+Pos+21+Obv: gimashkimodaaminaanin
-     2+mashkimod+Pos+21+Pl: gimashkimodaaminaanin
-     2+mashkimod+Pos+2Pl+Loc: gimashkimodaamiwaang
-     2+mashkimod+Pos+2Pl+Obv: gimashkimodaamiwaan
-     2+mashkimod+Pos+2Pl+Pl: gimashkimodaamiwaan
-     3+mashkimod+Pos+3Obv+Loc: omashkimodaaminiing
-     3+mashkimod+Pos+3Obv+Obv: omashkimodaaminiin
-     3+mashkimod+Pos+3Obv+Pl: omashkimodaaminiin
-     3+mashkimod+Pos+3Pl+Loc: omashkimodaamiwaang
-     3+mashkimod+Pos+3Pl+Obv: omashkimodaamiwaan
-     3+mashkimod+Pos+3Pl+Pl: omashkimodaamiwaan
+     1+mashkimod+N+Pos+1Pl+Loc: nimashkimodaaminaaning
+     1+mashkimod+N+Pos+1Pl+Obv: nimashkimodaaminaanin
+     1+mashkimod+N+Pos+1Pl+Pl: nimashkimodaaminaanin
+     2+mashkimod+N+Pos+21+Loc: gimashkimodaaminaaning
+     2+mashkimod+N+Pos+21+Obv: gimashkimodaaminaanin
+     2+mashkimod+N+Pos+21+Pl: gimashkimodaaminaanin
+     2+mashkimod+N+Pos+2Pl+Loc: gimashkimodaamiwaang
+     2+mashkimod+N+Pos+2Pl+Obv: gimashkimodaamiwaan
+     2+mashkimod+N+Pos+2Pl+Pl: gimashkimodaamiwaan
+     3+mashkimod+N+Pos+3Obv+Loc: omashkimodaaminiing
+     3+mashkimod+N+Pos+3Obv+Obv: omashkimodaaminiin
+     3+mashkimod+N+Pos+3Obv+Pl: omashkimodaaminiin
+     3+mashkimod+N+Pos+3Pl+Loc: omashkimodaamiwaang
+     3+mashkimod+N+Pos+3Pl+Obv: omashkimodaamiwaan
+     3+mashkimod+N+Pos+3Pl+Pl: omashkimodaamiwaan
      
      #Values from slots numbered: 1, 3, 6, 7
-     1+mashkimod+Pos+Pret+Loc: nimashkimodaamibaniing
-     1+mashkimod+Pos+Pret+Obv: nimashkimodaamibaniin
-     1+mashkimod+Pos+Pret+Pl: nimashkimodaamibaniin
-     2+mashkimod+Pos+Pret+Loc: gimashkimodaamibaniing
-     2+mashkimod+Pos+Pret+Obv: gimashkimodaamibaniin
-     2+mashkimod+Pos+Pret+Pl: gimashkimodaamibaniin
-     3+mashkimod+Pos+Pret+Loc: omashkimodaamibaniing
-     3+mashkimod+Pos+Pret+Obv: omashkimodaamibaniin
-     3+mashkimod+Pos+Pret+Pl: omashkimodaamibaniin
-     X+mashkimod+Pos+Pret+Loc: imashkimodaamibaniing
-     X+mashkimod+Pos+Pret+Obv: imashkimodaamibaniin
-     X+mashkimod+Pos+Pret+Pl: imashkimodaamibaniin
+     1+mashkimod+N+Pos+Pret+Loc: nimashkimodaamibaniing
+     1+mashkimod+N+Pos+Pret+Obv: nimashkimodaamibaniin
+     1+mashkimod+N+Pos+Pret+Pl: nimashkimodaamibaniin
+     2+mashkimod+N+Pos+Pret+Loc: gimashkimodaamibaniing
+     2+mashkimod+N+Pos+Pret+Obv: gimashkimodaamibaniin
+     2+mashkimod+N+Pos+Pret+Pl: gimashkimodaamibaniin
+     3+mashkimod+N+Pos+Pret+Loc: omashkimodaamibaniing
+     3+mashkimod+N+Pos+Pret+Obv: omashkimodaamibaniin
+     3+mashkimod+N+Pos+Pret+Pl: omashkimodaamibaniin
+     X+mashkimod+N+Pos+Pret+Loc: imashkimodaamibaniing
+     X+mashkimod+N+Pos+Pret+Obv: imashkimodaamibaniin
+     X+mashkimod+N+Pos+Pret+Pl: imashkimodaamibaniin
      
      #Values from slots numbered: 1, 4, 5, 6
-     1+mashkimod+Pej+1Pl+Pret: nimashkimodaashinaaniban
-     1+mashkimod+Pej+1Pl+VocPl: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
-     2+mashkimod+Pej+21+Pret: gimashkimodaashinaaniban
-     2+mashkimod+Pej+21+VocPl: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
-     2+mashkimod+Pej+2Pl+Pret: gimashkimodaashiwaaban
-     2+mashkimod+Pej+2Pl+VocPl: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
-     3+mashkimod+Pej+3Obv+Pret: omashkimodaashiniiban
-     3+mashkimod+Pej+3Obv+VocPl: [omashkimodaashiniidig, omashkimodaashiniidog]
-     3+mashkimod+Pej+3Pl+Pret: omashkimodaashiwaaban
-     3+mashkimod+Pej+3Pl+VocPl: [omashkimodaashiwaadig, omashkimodaashiwaadog]
+     1+mashkimod+N+Pej+1Pl+Pret: nimashkimodaashinaaniban
+     1+mashkimod+N+Pej+1Pl+VocPl: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+21+Pret: gimashkimodaashinaaniban
+     2+mashkimod+N+Pej+21+VocPl: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+2Pl+Pret: gimashkimodaashiwaaban
+     2+mashkimod+N+Pej+2Pl+VocPl: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
+     3+mashkimod+N+Pej+3Obv+Pret: omashkimodaashiniiban
+     3+mashkimod+N+Pej+3Obv+VocPl: [omashkimodaashiniidig, omashkimodaashiniidog]
+     3+mashkimod+N+Pej+3Pl+Pret: omashkimodaashiwaaban
+     3+mashkimod+N+Pej+3Pl+VocPl: [omashkimodaashiwaadig, omashkimodaashiwaadog]
      
      #Values from slots numbered: 1, 4, 5, 7
-     1+mashkimod+Pej+1Pl+Loc: nimashkimodaashinaaning
-     1+mashkimod+Pej+1Pl+Obv: nimashkimodaashinaanin
-     1+mashkimod+Pej+1Pl+Pl: nimashkimodaashinaanin
-     2+mashkimod+Pej+21+Loc: gimashkimodaashinaaning
-     2+mashkimod+Pej+21+Obv: gimashkimodaashinaanin
-     2+mashkimod+Pej+21+Pl: gimashkimodaashinaanin
-     2+mashkimod+Pej+2Pl+Loc: gimashkimodaashiwaang
-     2+mashkimod+Pej+2Pl+Obv: gimashkimodaashiwaan
-     2+mashkimod+Pej+2Pl+Pl: gimashkimodaashiwaan
-     3+mashkimod+Pej+3Obv+Loc: omashkimodaashiniing
-     3+mashkimod+Pej+3Obv+Obv: omashkimodaashiniin
-     3+mashkimod+Pej+3Obv+Pl: omashkimodaashiniin
-     3+mashkimod+Pej+3Pl+Loc: omashkimodaashiwaang
-     3+mashkimod+Pej+3Pl+Obv: omashkimodaashiwaan
-     3+mashkimod+Pej+3Pl+Pl: omashkimodaashiwaan
+     1+mashkimod+N+Pej+1Pl+Loc: nimashkimodaashinaaning
+     1+mashkimod+N+Pej+1Pl+Obv: nimashkimodaashinaanin
+     1+mashkimod+N+Pej+1Pl+Pl: nimashkimodaashinaanin
+     2+mashkimod+N+Pej+21+Loc: gimashkimodaashinaaning
+     2+mashkimod+N+Pej+21+Obv: gimashkimodaashinaanin
+     2+mashkimod+N+Pej+21+Pl: gimashkimodaashinaanin
+     2+mashkimod+N+Pej+2Pl+Loc: gimashkimodaashiwaang
+     2+mashkimod+N+Pej+2Pl+Obv: gimashkimodaashiwaan
+     2+mashkimod+N+Pej+2Pl+Pl: gimashkimodaashiwaan
+     3+mashkimod+N+Pej+3Obv+Loc: omashkimodaashiniing
+     3+mashkimod+N+Pej+3Obv+Obv: omashkimodaashiniin
+     3+mashkimod+N+Pej+3Obv+Pl: omashkimodaashiniin
+     3+mashkimod+N+Pej+3Pl+Loc: omashkimodaashiwaang
+     3+mashkimod+N+Pej+3Pl+Obv: omashkimodaashiwaan
+     3+mashkimod+N+Pej+3Pl+Pl: omashkimodaashiwaan
      
      #Values from slots numbered: 1, 4, 6, 7
-     1+mashkimod+Pej+Pret+Loc: nimashkimodaashibaniing
-     1+mashkimod+Pej+Pret+Obv: nimashkimodaashibaniin
-     1+mashkimod+Pej+Pret+Pl: nimashkimodaashibaniin
-     2+mashkimod+Pej+Pret+Loc: gimashkimodaashibaniing
-     2+mashkimod+Pej+Pret+Obv: gimashkimodaashibaniin
-     2+mashkimod+Pej+Pret+Pl: gimashkimodaashibaniin
-     3+mashkimod+Pej+Pret+Loc: omashkimodaashibaniing
-     3+mashkimod+Pej+Pret+Obv: omashkimodaashibaniin
-     3+mashkimod+Pej+Pret+Pl: omashkimodaashibaniin
-     X+mashkimod+Pej+Pret+Loc: imashkimodaashibaniing
-     X+mashkimod+Pej+Pret+Obv: imashkimodaashibaniin
-     X+mashkimod+Pej+Pret+Pl: imashkimodaashibaniin
+     1+mashkimod+N+Pej+Pret+Loc: nimashkimodaashibaniing
+     1+mashkimod+N+Pej+Pret+Obv: nimashkimodaashibaniin
+     1+mashkimod+N+Pej+Pret+Pl: nimashkimodaashibaniin
+     2+mashkimod+N+Pej+Pret+Loc: gimashkimodaashibaniing
+     2+mashkimod+N+Pej+Pret+Obv: gimashkimodaashibaniin
+     2+mashkimod+N+Pej+Pret+Pl: gimashkimodaashibaniin
+     3+mashkimod+N+Pej+Pret+Loc: omashkimodaashibaniing
+     3+mashkimod+N+Pej+Pret+Obv: omashkimodaashibaniin
+     3+mashkimod+N+Pej+Pret+Pl: omashkimodaashibaniin
+     X+mashkimod+N+Pej+Pret+Loc: imashkimodaashibaniing
+     X+mashkimod+N+Pej+Pret+Obv: imashkimodaashibaniin
+     X+mashkimod+N+Pej+Pret+Pl: imashkimodaashibaniin
      
      #Values from slots numbered: 1, 5, 6, 7
-     1+mashkimod+1Pl+Pret+Loc: nimashkimodaanaanibaniing
-     1+mashkimod+1Pl+Pret+Obv: nimashkimodaanaanibaniin
-     1+mashkimod+1Pl+Pret+Pl: nimashkimodaanaanibaniin
-     1+mashkimod+1Pl+VocPl+Loc: [nimashkimodaanaanidig, nimashkimodaanaanidog]
-     1+mashkimod+1Pl+VocPl+Obv: [nimashkimodaanaanidig, nimashkimodaanaanidog]
-     1+mashkimod+1Pl+VocPl+Pl: [nimashkimodaanaanidig, nimashkimodaanaanidog]
-     2+mashkimod+21+Pret+Loc: gimashkimodaanaanibaniing
-     2+mashkimod+21+Pret+Obv: gimashkimodaanaanibaniin
-     2+mashkimod+21+Pret+Pl: gimashkimodaanaanibaniin
-     2+mashkimod+21+VocPl+Loc: [gimashkimodaanaanidig, gimashkimodaanaanidog]
-     2+mashkimod+21+VocPl+Obv: [gimashkimodaanaanidig, gimashkimodaanaanidog]
-     2+mashkimod+21+VocPl+Pl: [gimashkimodaanaanidig, gimashkimodaanaanidog]
-     2+mashkimod+2Pl+Pret+Loc: gimashkimodaawaabaniing
-     2+mashkimod+2Pl+Pret+Obv: gimashkimodaawaabaniin
-     2+mashkimod+2Pl+Pret+Pl: gimashkimodaawaabaniin
-     2+mashkimod+2Pl+VocPl+Loc: [gimashkimodaawaadig, gimashkimodaawaadog]
-     2+mashkimod+2Pl+VocPl+Obv: [gimashkimodaawaadig, gimashkimodaawaadog]
-     2+mashkimod+2Pl+VocPl+Pl: [gimashkimodaawaadig, gimashkimodaawaadog]
-     3+mashkimod+3Obv+Pret+Loc: omashkimodaaniibaniing
-     3+mashkimod+3Obv+Pret+Obv: omashkimodaaniibaniin
-     3+mashkimod+3Obv+Pret+Pl: omashkimodaaniibaniin
-     3+mashkimod+3Obv+VocPl+Loc: [omashkimodaaniidig, omashkimodaaniidog]
-     3+mashkimod+3Obv+VocPl+Obv: [omashkimodaaniidig, omashkimodaaniidog]
-     3+mashkimod+3Obv+VocPl+Pl: [omashkimodaaniidig, omashkimodaaniidog]
-     3+mashkimod+3Pl+Pret+Loc: omashkimodaawaabaniing
-     3+mashkimod+3Pl+Pret+Obv: omashkimodaawaabaniin
-     3+mashkimod+3Pl+Pret+Pl: omashkimodaawaabaniin
-     3+mashkimod+3Pl+VocPl+Loc: [omashkimodaawaadig, omashkimodaawaadog]
-     3+mashkimod+3Pl+VocPl+Obv: [omashkimodaawaadig, omashkimodaawaadog]
-     3+mashkimod+3Pl+VocPl+Pl: [omashkimodaawaadig, omashkimodaawaadog]
+     1+mashkimod+N+1Pl+Pret+Loc: nimashkimodaanaanibaniing
+     1+mashkimod+N+1Pl+Pret+Obv: nimashkimodaanaanibaniin
+     1+mashkimod+N+1Pl+Pret+Pl: nimashkimodaanaanibaniin
+     1+mashkimod+N+1Pl+VocPl+Loc: [nimashkimodaanaanidig, nimashkimodaanaanidog]
+     1+mashkimod+N+1Pl+VocPl+Obv: [nimashkimodaanaanidig, nimashkimodaanaanidog]
+     1+mashkimod+N+1Pl+VocPl+Pl: [nimashkimodaanaanidig, nimashkimodaanaanidog]
+     2+mashkimod+N+21+Pret+Loc: gimashkimodaanaanibaniing
+     2+mashkimod+N+21+Pret+Obv: gimashkimodaanaanibaniin
+     2+mashkimod+N+21+Pret+Pl: gimashkimodaanaanibaniin
+     2+mashkimod+N+21+VocPl+Loc: [gimashkimodaanaanidig, gimashkimodaanaanidog]
+     2+mashkimod+N+21+VocPl+Obv: [gimashkimodaanaanidig, gimashkimodaanaanidog]
+     2+mashkimod+N+21+VocPl+Pl: [gimashkimodaanaanidig, gimashkimodaanaanidog]
+     2+mashkimod+N+2Pl+Pret+Loc: gimashkimodaawaabaniing
+     2+mashkimod+N+2Pl+Pret+Obv: gimashkimodaawaabaniin
+     2+mashkimod+N+2Pl+Pret+Pl: gimashkimodaawaabaniin
+     2+mashkimod+N+2Pl+VocPl+Loc: [gimashkimodaawaadig, gimashkimodaawaadog]
+     2+mashkimod+N+2Pl+VocPl+Obv: [gimashkimodaawaadig, gimashkimodaawaadog]
+     2+mashkimod+N+2Pl+VocPl+Pl: [gimashkimodaawaadig, gimashkimodaawaadog]
+     3+mashkimod+N+3Obv+Pret+Loc: omashkimodaaniibaniing
+     3+mashkimod+N+3Obv+Pret+Obv: omashkimodaaniibaniin
+     3+mashkimod+N+3Obv+Pret+Pl: omashkimodaaniibaniin
+     3+mashkimod+N+3Obv+VocPl+Loc: [omashkimodaaniidig, omashkimodaaniidog]
+     3+mashkimod+N+3Obv+VocPl+Obv: [omashkimodaaniidig, omashkimodaaniidog]
+     3+mashkimod+N+3Obv+VocPl+Pl: [omashkimodaaniidig, omashkimodaaniidog]
+     3+mashkimod+N+3Pl+Pret+Loc: omashkimodaawaabaniing
+     3+mashkimod+N+3Pl+Pret+Obv: omashkimodaawaabaniin
+     3+mashkimod+N+3Pl+Pret+Pl: omashkimodaawaabaniin
+     3+mashkimod+N+3Pl+VocPl+Loc: [omashkimodaawaadig, omashkimodaawaadog]
+     3+mashkimod+N+3Pl+VocPl+Obv: [omashkimodaawaadig, omashkimodaawaadog]
+     3+mashkimod+N+3Pl+VocPl+Pl: [omashkimodaawaadig, omashkimodaawaadog]
      
      
      
@@ -726,12 +726,12 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
-     mashkimod+Con+Pej+Pret+Loc: mashkimodenyishibaniing
-     mashkimod+Con+Pej+Pret+Obv: mashkimodenyishibaniin
-     mashkimod+Con+Pej+Pret+Pl: mashkimodenyishibaniin
-     mashkimod+Dim+Pej+Pret+Loc: mashkimodensishibaniing
-     mashkimod+Dim+Pej+Pret+Obv: mashkimodensishibaniin
-     mashkimod+Dim+Pej+Pret+Pl: mashkimodensishibaniin
+     mashkimod+N+Con+Pej+Pret+Loc: mashkimodenyishibaniing
+     mashkimod+N+Con+Pej+Pret+Obv: mashkimodenyishibaniin
+     mashkimod+N+Con+Pej+Pret+Pl: mashkimodenyishibaniin
+     mashkimod+N+Dim+Pej+Pret+Loc: mashkimodensishibaniing
+     mashkimod+N+Dim+Pej+Pret+Obv: mashkimodensishibaniin
+     mashkimod+N+Dim+Pej+Pret+Pl: mashkimodensishibaniin
      
      
      
@@ -740,389 +740,389 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5
-     1+mashkimod+Con+Pos+Pej+1Pl: nimashkimodenyimishinaan
-     1+mashkimod+Dim+Pos+Pej+1Pl: nimashkimodensimishinaan
-     2+mashkimod+Con+Pos+Pej+21: gimashkimodenyimishinaan
-     2+mashkimod+Con+Pos+Pej+2Pl: gimashkimodenyimishiwaa
-     2+mashkimod+Dim+Pos+Pej+21: gimashkimodensimishinaan
-     2+mashkimod+Dim+Pos+Pej+2Pl: gimashkimodensimishiwaa
-     3+mashkimod+Con+Pos+Pej+3Obv: omashkimodenyimishini
-     3+mashkimod+Con+Pos+Pej+3Pl: omashkimodenyimishiwaa
-     3+mashkimod+Dim+Pos+Pej+3Obv: omashkimodensimishini
-     3+mashkimod+Dim+Pos+Pej+3Pl: omashkimodensimishiwaa
+     1+mashkimod+N+Con+Pos+Pej+1Pl: nimashkimodenyimishinaan
+     1+mashkimod+N+Dim+Pos+Pej+1Pl: nimashkimodensimishinaan
+     2+mashkimod+N+Con+Pos+Pej+21: gimashkimodenyimishinaan
+     2+mashkimod+N+Con+Pos+Pej+2Pl: gimashkimodenyimishiwaa
+     2+mashkimod+N+Dim+Pos+Pej+21: gimashkimodensimishinaan
+     2+mashkimod+N+Dim+Pos+Pej+2Pl: gimashkimodensimishiwaa
+     3+mashkimod+N+Con+Pos+Pej+3Obv: omashkimodenyimishini
+     3+mashkimod+N+Con+Pos+Pej+3Pl: omashkimodenyimishiwaa
+     3+mashkimod+N+Dim+Pos+Pej+3Obv: omashkimodensimishini
+     3+mashkimod+N+Dim+Pos+Pej+3Pl: omashkimodensimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
-     1+mashkimod+Con+Pos+Pej+Pret: nimashkimodenyimishiban
-     1+mashkimod+Con+Pos+Pej+VocPl: [nimashkimodenyimishidig, nimashkimodenyimishidog]
-     1+mashkimod+Dim+Pos+Pej+Pret: nimashkimodensimishiban
-     1+mashkimod+Dim+Pos+Pej+VocPl: [nimashkimodensimishidig, nimashkimodensimishidog]
-     2+mashkimod+Con+Pos+Pej+Pret: gimashkimodenyimishiban
-     2+mashkimod+Con+Pos+Pej+VocPl: [gimashkimodenyimishidig, gimashkimodenyimishidog]
-     2+mashkimod+Dim+Pos+Pej+Pret: gimashkimodensimishiban
-     2+mashkimod+Dim+Pos+Pej+VocPl: [gimashkimodensimishidig, gimashkimodensimishidog]
-     3+mashkimod+Con+Pos+Pej+Pret: omashkimodenyimishiban
-     3+mashkimod+Con+Pos+Pej+VocPl: [omashkimodenyimishidig, omashkimodenyimishidog]
-     3+mashkimod+Dim+Pos+Pej+Pret: omashkimodensimishiban
-     3+mashkimod+Dim+Pos+Pej+VocPl: [omashkimodensimishidig, omashkimodensimishidog]
-     X+mashkimod+Con+Pos+Pej+Pret: imashkimodenyimishiban
-     X+mashkimod+Con+Pos+Pej+VocPl: [imashkimodenyimishidig, imashkimodenyimishidog]
-     X+mashkimod+Dim+Pos+Pej+Pret: imashkimodensimishiban
-     X+mashkimod+Dim+Pos+Pej+VocPl: [imashkimodensimishidig, imashkimodensimishidog]
+     1+mashkimod+N+Con+Pos+Pej+Pret: nimashkimodenyimishiban
+     1+mashkimod+N+Con+Pos+Pej+VocPl: [nimashkimodenyimishidig, nimashkimodenyimishidog]
+     1+mashkimod+N+Dim+Pos+Pej+Pret: nimashkimodensimishiban
+     1+mashkimod+N+Dim+Pos+Pej+VocPl: [nimashkimodensimishidig, nimashkimodensimishidog]
+     2+mashkimod+N+Con+Pos+Pej+Pret: gimashkimodenyimishiban
+     2+mashkimod+N+Con+Pos+Pej+VocPl: [gimashkimodenyimishidig, gimashkimodenyimishidog]
+     2+mashkimod+N+Dim+Pos+Pej+Pret: gimashkimodensimishiban
+     2+mashkimod+N+Dim+Pos+Pej+VocPl: [gimashkimodensimishidig, gimashkimodensimishidog]
+     3+mashkimod+N+Con+Pos+Pej+Pret: omashkimodenyimishiban
+     3+mashkimod+N+Con+Pos+Pej+VocPl: [omashkimodenyimishidig, omashkimodenyimishidog]
+     3+mashkimod+N+Dim+Pos+Pej+Pret: omashkimodensimishiban
+     3+mashkimod+N+Dim+Pos+Pej+VocPl: [omashkimodensimishidig, omashkimodensimishidog]
+     X+mashkimod+N+Con+Pos+Pej+Pret: imashkimodenyimishiban
+     X+mashkimod+N+Con+Pos+Pej+VocPl: [imashkimodenyimishidig, imashkimodenyimishidog]
+     X+mashkimod+N+Dim+Pos+Pej+Pret: imashkimodensimishiban
+     X+mashkimod+N+Dim+Pos+Pej+VocPl: [imashkimodensimishidig, imashkimodensimishidog]
      
      #Values from slots numbered: 1, 2, 3, 4, 7
-     1+mashkimod+Con+Pos+Pej+Loc: nimashkimodenyimishing
-     1+mashkimod+Con+Pos+Pej+Obv: nimashkimodenyimishan
-     1+mashkimod+Con+Pos+Pej+Pl: nimashkimodenyimishan
-     1+mashkimod+Dim+Pos+Pej+Loc: nimashkimodensimishing
-     1+mashkimod+Dim+Pos+Pej+Obv: nimashkimodensimishan
-     1+mashkimod+Dim+Pos+Pej+Pl: nimashkimodensimishan
-     2+mashkimod+Con+Pos+Pej+Loc: gimashkimodenyimishing
-     2+mashkimod+Con+Pos+Pej+Obv: gimashkimodenyimishan
-     2+mashkimod+Con+Pos+Pej+Pl: gimashkimodenyimishan
-     2+mashkimod+Dim+Pos+Pej+Loc: gimashkimodensimishing
-     2+mashkimod+Dim+Pos+Pej+Obv: gimashkimodensimishan
-     2+mashkimod+Dim+Pos+Pej+Pl: gimashkimodensimishan
-     3+mashkimod+Con+Pos+Pej+Loc: omashkimodenyimishing
-     3+mashkimod+Con+Pos+Pej+Obv: omashkimodenyimishan
-     3+mashkimod+Con+Pos+Pej+Pl: omashkimodenyimishan
-     3+mashkimod+Dim+Pos+Pej+Loc: omashkimodensimishing
-     3+mashkimod+Dim+Pos+Pej+Obv: omashkimodensimishan
-     3+mashkimod+Dim+Pos+Pej+Pl: omashkimodensimishan
-     X+mashkimod+Con+Pos+Pej+Loc: imashkimodenyimishing
-     X+mashkimod+Con+Pos+Pej+Obv: imashkimodenyimishan
-     X+mashkimod+Con+Pos+Pej+Pl: imashkimodenyimishan
-     X+mashkimod+Dim+Pos+Pej+Loc: imashkimodensimishing
-     X+mashkimod+Dim+Pos+Pej+Obv: imashkimodensimishan
-     X+mashkimod+Dim+Pos+Pej+Pl: imashkimodensimishan
+     1+mashkimod+N+Con+Pos+Pej+Loc: nimashkimodenyimishing
+     1+mashkimod+N+Con+Pos+Pej+Obv: nimashkimodenyimishan
+     1+mashkimod+N+Con+Pos+Pej+Pl: nimashkimodenyimishan
+     1+mashkimod+N+Dim+Pos+Pej+Loc: nimashkimodensimishing
+     1+mashkimod+N+Dim+Pos+Pej+Obv: nimashkimodensimishan
+     1+mashkimod+N+Dim+Pos+Pej+Pl: nimashkimodensimishan
+     2+mashkimod+N+Con+Pos+Pej+Loc: gimashkimodenyimishing
+     2+mashkimod+N+Con+Pos+Pej+Obv: gimashkimodenyimishan
+     2+mashkimod+N+Con+Pos+Pej+Pl: gimashkimodenyimishan
+     2+mashkimod+N+Dim+Pos+Pej+Loc: gimashkimodensimishing
+     2+mashkimod+N+Dim+Pos+Pej+Obv: gimashkimodensimishan
+     2+mashkimod+N+Dim+Pos+Pej+Pl: gimashkimodensimishan
+     3+mashkimod+N+Con+Pos+Pej+Loc: omashkimodenyimishing
+     3+mashkimod+N+Con+Pos+Pej+Obv: omashkimodenyimishan
+     3+mashkimod+N+Con+Pos+Pej+Pl: omashkimodenyimishan
+     3+mashkimod+N+Dim+Pos+Pej+Loc: omashkimodensimishing
+     3+mashkimod+N+Dim+Pos+Pej+Obv: omashkimodensimishan
+     3+mashkimod+N+Dim+Pos+Pej+Pl: omashkimodensimishan
+     X+mashkimod+N+Con+Pos+Pej+Loc: imashkimodenyimishing
+     X+mashkimod+N+Con+Pos+Pej+Obv: imashkimodenyimishan
+     X+mashkimod+N+Con+Pos+Pej+Pl: imashkimodenyimishan
+     X+mashkimod+N+Dim+Pos+Pej+Loc: imashkimodensimishing
+     X+mashkimod+N+Dim+Pos+Pej+Obv: imashkimodensimishan
+     X+mashkimod+N+Dim+Pos+Pej+Pl: imashkimodensimishan
      
      #Values from slots numbered: 1, 2, 3, 5, 6
-     1+mashkimod+Con+Pos+1Pl+Pret: nimashkimodenyiminaaniban
-     1+mashkimod+Con+Pos+1Pl+VocPl: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
-     1+mashkimod+Dim+Pos+1Pl+Pret: nimashkimodensiminaaniban
-     1+mashkimod+Dim+Pos+1Pl+VocPl: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
-     2+mashkimod+Con+Pos+21+Pret: gimashkimodenyiminaaniban
-     2+mashkimod+Con+Pos+21+VocPl: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
-     2+mashkimod+Con+Pos+2Pl+Pret: gimashkimodenyimiwaaban
-     2+mashkimod+Con+Pos+2Pl+VocPl: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
-     2+mashkimod+Dim+Pos+21+Pret: gimashkimodensiminaaniban
-     2+mashkimod+Dim+Pos+21+VocPl: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
-     2+mashkimod+Dim+Pos+2Pl+Pret: gimashkimodensimiwaaban
-     2+mashkimod+Dim+Pos+2Pl+VocPl: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
-     3+mashkimod+Con+Pos+3Obv+Pret: omashkimodenyiminiiban
-     3+mashkimod+Con+Pos+3Obv+VocPl: [omashkimodenyiminiidig, omashkimodenyiminiidog]
-     3+mashkimod+Con+Pos+3Pl+Pret: omashkimodenyimiwaaban
-     3+mashkimod+Con+Pos+3Pl+VocPl: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
-     3+mashkimod+Dim+Pos+3Obv+Pret: omashkimodensiminiiban
-     3+mashkimod+Dim+Pos+3Obv+VocPl: [omashkimodensiminiidig, omashkimodensiminiidog]
-     3+mashkimod+Dim+Pos+3Pl+Pret: omashkimodensimiwaaban
-     3+mashkimod+Dim+Pos+3Pl+VocPl: [omashkimodensimiwaadig, omashkimodensimiwaadog]
+     1+mashkimod+N+Con+Pos+1Pl+Pret: nimashkimodenyiminaaniban
+     1+mashkimod+N+Con+Pos+1Pl+VocPl: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
+     1+mashkimod+N+Dim+Pos+1Pl+Pret: nimashkimodensiminaaniban
+     1+mashkimod+N+Dim+Pos+1Pl+VocPl: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
+     2+mashkimod+N+Con+Pos+21+Pret: gimashkimodenyiminaaniban
+     2+mashkimod+N+Con+Pos+21+VocPl: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
+     2+mashkimod+N+Con+Pos+2Pl+Pret: gimashkimodenyimiwaaban
+     2+mashkimod+N+Con+Pos+2Pl+VocPl: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
+     2+mashkimod+N+Dim+Pos+21+Pret: gimashkimodensiminaaniban
+     2+mashkimod+N+Dim+Pos+21+VocPl: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
+     2+mashkimod+N+Dim+Pos+2Pl+Pret: gimashkimodensimiwaaban
+     2+mashkimod+N+Dim+Pos+2Pl+VocPl: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
+     3+mashkimod+N+Con+Pos+3Obv+Pret: omashkimodenyiminiiban
+     3+mashkimod+N+Con+Pos+3Obv+VocPl: [omashkimodenyiminiidig, omashkimodenyiminiidog]
+     3+mashkimod+N+Con+Pos+3Pl+Pret: omashkimodenyimiwaaban
+     3+mashkimod+N+Con+Pos+3Pl+VocPl: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
+     3+mashkimod+N+Dim+Pos+3Obv+Pret: omashkimodensiminiiban
+     3+mashkimod+N+Dim+Pos+3Obv+VocPl: [omashkimodensiminiidig, omashkimodensiminiidog]
+     3+mashkimod+N+Dim+Pos+3Pl+Pret: omashkimodensimiwaaban
+     3+mashkimod+N+Dim+Pos+3Pl+VocPl: [omashkimodensimiwaadig, omashkimodensimiwaadog]
      
      #Values from slots numbered: 1, 2, 3, 5, 7
-     1+mashkimod+Con+Pos+1Pl+Loc: nimashkimodenyiminaaning
-     1+mashkimod+Con+Pos+1Pl+Obv: nimashkimodenyiminaanin
-     1+mashkimod+Con+Pos+1Pl+Pl: nimashkimodenyiminaanin
-     1+mashkimod+Dim+Pos+1Pl+Loc: nimashkimodensiminaaning
-     1+mashkimod+Dim+Pos+1Pl+Obv: nimashkimodensiminaanin
-     1+mashkimod+Dim+Pos+1Pl+Pl: nimashkimodensiminaanin
-     2+mashkimod+Con+Pos+21+Loc: gimashkimodenyiminaaning
-     2+mashkimod+Con+Pos+21+Obv: gimashkimodenyiminaanin
-     2+mashkimod+Con+Pos+21+Pl: gimashkimodenyiminaanin
-     2+mashkimod+Con+Pos+2Pl+Loc: gimashkimodenyimiwaang
-     2+mashkimod+Con+Pos+2Pl+Obv: gimashkimodenyimiwaan
-     2+mashkimod+Con+Pos+2Pl+Pl: gimashkimodenyimiwaan
-     2+mashkimod+Dim+Pos+21+Loc: gimashkimodensiminaaning
-     2+mashkimod+Dim+Pos+21+Obv: gimashkimodensiminaanin
-     2+mashkimod+Dim+Pos+21+Pl: gimashkimodensiminaanin
-     2+mashkimod+Dim+Pos+2Pl+Loc: gimashkimodensimiwaang
-     2+mashkimod+Dim+Pos+2Pl+Obv: gimashkimodensimiwaan
-     2+mashkimod+Dim+Pos+2Pl+Pl: gimashkimodensimiwaan
-     3+mashkimod+Con+Pos+3Obv+Loc: omashkimodenyiminiing
-     3+mashkimod+Con+Pos+3Obv+Obv: omashkimodenyiminiin
-     3+mashkimod+Con+Pos+3Obv+Pl: omashkimodenyiminiin
-     3+mashkimod+Con+Pos+3Pl+Loc: omashkimodenyimiwaang
-     3+mashkimod+Con+Pos+3Pl+Obv: omashkimodenyimiwaan
-     3+mashkimod+Con+Pos+3Pl+Pl: omashkimodenyimiwaan
-     3+mashkimod+Dim+Pos+3Obv+Loc: omashkimodensiminiing
-     3+mashkimod+Dim+Pos+3Obv+Obv: omashkimodensiminiin
-     3+mashkimod+Dim+Pos+3Obv+Pl: omashkimodensiminiin
-     3+mashkimod+Dim+Pos+3Pl+Loc: omashkimodensimiwaang
-     3+mashkimod+Dim+Pos+3Pl+Obv: omashkimodensimiwaan
-     3+mashkimod+Dim+Pos+3Pl+Pl: omashkimodensimiwaan
+     1+mashkimod+N+Con+Pos+1Pl+Loc: nimashkimodenyiminaaning
+     1+mashkimod+N+Con+Pos+1Pl+Obv: nimashkimodenyiminaanin
+     1+mashkimod+N+Con+Pos+1Pl+Pl: nimashkimodenyiminaanin
+     1+mashkimod+N+Dim+Pos+1Pl+Loc: nimashkimodensiminaaning
+     1+mashkimod+N+Dim+Pos+1Pl+Obv: nimashkimodensiminaanin
+     1+mashkimod+N+Dim+Pos+1Pl+Pl: nimashkimodensiminaanin
+     2+mashkimod+N+Con+Pos+21+Loc: gimashkimodenyiminaaning
+     2+mashkimod+N+Con+Pos+21+Obv: gimashkimodenyiminaanin
+     2+mashkimod+N+Con+Pos+21+Pl: gimashkimodenyiminaanin
+     2+mashkimod+N+Con+Pos+2Pl+Loc: gimashkimodenyimiwaang
+     2+mashkimod+N+Con+Pos+2Pl+Obv: gimashkimodenyimiwaan
+     2+mashkimod+N+Con+Pos+2Pl+Pl: gimashkimodenyimiwaan
+     2+mashkimod+N+Dim+Pos+21+Loc: gimashkimodensiminaaning
+     2+mashkimod+N+Dim+Pos+21+Obv: gimashkimodensiminaanin
+     2+mashkimod+N+Dim+Pos+21+Pl: gimashkimodensiminaanin
+     2+mashkimod+N+Dim+Pos+2Pl+Loc: gimashkimodensimiwaang
+     2+mashkimod+N+Dim+Pos+2Pl+Obv: gimashkimodensimiwaan
+     2+mashkimod+N+Dim+Pos+2Pl+Pl: gimashkimodensimiwaan
+     3+mashkimod+N+Con+Pos+3Obv+Loc: omashkimodenyiminiing
+     3+mashkimod+N+Con+Pos+3Obv+Obv: omashkimodenyiminiin
+     3+mashkimod+N+Con+Pos+3Obv+Pl: omashkimodenyiminiin
+     3+mashkimod+N+Con+Pos+3Pl+Loc: omashkimodenyimiwaang
+     3+mashkimod+N+Con+Pos+3Pl+Obv: omashkimodenyimiwaan
+     3+mashkimod+N+Con+Pos+3Pl+Pl: omashkimodenyimiwaan
+     3+mashkimod+N+Dim+Pos+3Obv+Loc: omashkimodensiminiing
+     3+mashkimod+N+Dim+Pos+3Obv+Obv: omashkimodensiminiin
+     3+mashkimod+N+Dim+Pos+3Obv+Pl: omashkimodensiminiin
+     3+mashkimod+N+Dim+Pos+3Pl+Loc: omashkimodensimiwaang
+     3+mashkimod+N+Dim+Pos+3Pl+Obv: omashkimodensimiwaan
+     3+mashkimod+N+Dim+Pos+3Pl+Pl: omashkimodensimiwaan
      
      #Values from slots numbered: 1, 2, 3, 6, 7
-     1+mashkimod+Con+Pos+Pret+Loc: nimashkimodenyimibaniing
-     1+mashkimod+Con+Pos+Pret+Obv: nimashkimodenyimibaniin
-     1+mashkimod+Con+Pos+Pret+Pl: nimashkimodenyimibaniin
-     1+mashkimod+Dim+Pos+Pret+Loc: nimashkimodensimibaniing
-     1+mashkimod+Dim+Pos+Pret+Obv: nimashkimodensimibaniin
-     1+mashkimod+Dim+Pos+Pret+Pl: nimashkimodensimibaniin
-     2+mashkimod+Con+Pos+Pret+Loc: gimashkimodenyimibaniing
-     2+mashkimod+Con+Pos+Pret+Obv: gimashkimodenyimibaniin
-     2+mashkimod+Con+Pos+Pret+Pl: gimashkimodenyimibaniin
-     2+mashkimod+Dim+Pos+Pret+Loc: gimashkimodensimibaniing
-     2+mashkimod+Dim+Pos+Pret+Obv: gimashkimodensimibaniin
-     2+mashkimod+Dim+Pos+Pret+Pl: gimashkimodensimibaniin
-     3+mashkimod+Con+Pos+Pret+Loc: omashkimodenyimibaniing
-     3+mashkimod+Con+Pos+Pret+Obv: omashkimodenyimibaniin
-     3+mashkimod+Con+Pos+Pret+Pl: omashkimodenyimibaniin
-     3+mashkimod+Dim+Pos+Pret+Loc: omashkimodensimibaniing
-     3+mashkimod+Dim+Pos+Pret+Obv: omashkimodensimibaniin
-     3+mashkimod+Dim+Pos+Pret+Pl: omashkimodensimibaniin
-     X+mashkimod+Con+Pos+Pret+Loc: imashkimodenyimibaniing
-     X+mashkimod+Con+Pos+Pret+Obv: imashkimodenyimibaniin
-     X+mashkimod+Con+Pos+Pret+Pl: imashkimodenyimibaniin
-     X+mashkimod+Dim+Pos+Pret+Loc: imashkimodensimibaniing
-     X+mashkimod+Dim+Pos+Pret+Obv: imashkimodensimibaniin
-     X+mashkimod+Dim+Pos+Pret+Pl: imashkimodensimibaniin
+     1+mashkimod+N+Con+Pos+Pret+Loc: nimashkimodenyimibaniing
+     1+mashkimod+N+Con+Pos+Pret+Obv: nimashkimodenyimibaniin
+     1+mashkimod+N+Con+Pos+Pret+Pl: nimashkimodenyimibaniin
+     1+mashkimod+N+Dim+Pos+Pret+Loc: nimashkimodensimibaniing
+     1+mashkimod+N+Dim+Pos+Pret+Obv: nimashkimodensimibaniin
+     1+mashkimod+N+Dim+Pos+Pret+Pl: nimashkimodensimibaniin
+     2+mashkimod+N+Con+Pos+Pret+Loc: gimashkimodenyimibaniing
+     2+mashkimod+N+Con+Pos+Pret+Obv: gimashkimodenyimibaniin
+     2+mashkimod+N+Con+Pos+Pret+Pl: gimashkimodenyimibaniin
+     2+mashkimod+N+Dim+Pos+Pret+Loc: gimashkimodensimibaniing
+     2+mashkimod+N+Dim+Pos+Pret+Obv: gimashkimodensimibaniin
+     2+mashkimod+N+Dim+Pos+Pret+Pl: gimashkimodensimibaniin
+     3+mashkimod+N+Con+Pos+Pret+Loc: omashkimodenyimibaniing
+     3+mashkimod+N+Con+Pos+Pret+Obv: omashkimodenyimibaniin
+     3+mashkimod+N+Con+Pos+Pret+Pl: omashkimodenyimibaniin
+     3+mashkimod+N+Dim+Pos+Pret+Loc: omashkimodensimibaniing
+     3+mashkimod+N+Dim+Pos+Pret+Obv: omashkimodensimibaniin
+     3+mashkimod+N+Dim+Pos+Pret+Pl: omashkimodensimibaniin
+     X+mashkimod+N+Con+Pos+Pret+Loc: imashkimodenyimibaniing
+     X+mashkimod+N+Con+Pos+Pret+Obv: imashkimodenyimibaniin
+     X+mashkimod+N+Con+Pos+Pret+Pl: imashkimodenyimibaniin
+     X+mashkimod+N+Dim+Pos+Pret+Loc: imashkimodensimibaniing
+     X+mashkimod+N+Dim+Pos+Pret+Obv: imashkimodensimibaniin
+     X+mashkimod+N+Dim+Pos+Pret+Pl: imashkimodensimibaniin
      
      #Values from slots numbered: 1, 2, 4, 5, 6
-     1+mashkimod+Con+Pej+1Pl+Pret: nimashkimodenyishinaaniban
-     1+mashkimod+Con+Pej+1Pl+VocPl: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
-     1+mashkimod+Dim+Pej+1Pl+Pret: nimashkimodensishinaaniban
-     1+mashkimod+Dim+Pej+1Pl+VocPl: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
-     2+mashkimod+Con+Pej+21+Pret: gimashkimodenyishinaaniban
-     2+mashkimod+Con+Pej+21+VocPl: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
-     2+mashkimod+Con+Pej+2Pl+Pret: gimashkimodenyishiwaaban
-     2+mashkimod+Con+Pej+2Pl+VocPl: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
-     2+mashkimod+Dim+Pej+21+Pret: gimashkimodensishinaaniban
-     2+mashkimod+Dim+Pej+21+VocPl: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
-     2+mashkimod+Dim+Pej+2Pl+Pret: gimashkimodensishiwaaban
-     2+mashkimod+Dim+Pej+2Pl+VocPl: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
-     3+mashkimod+Con+Pej+3Obv+Pret: omashkimodenyishiniiban
-     3+mashkimod+Con+Pej+3Obv+VocPl: [omashkimodenyishiniidig, omashkimodenyishiniidog]
-     3+mashkimod+Con+Pej+3Pl+Pret: omashkimodenyishiwaaban
-     3+mashkimod+Con+Pej+3Pl+VocPl: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
-     3+mashkimod+Dim+Pej+3Obv+Pret: omashkimodensishiniiban
-     3+mashkimod+Dim+Pej+3Obv+VocPl: [omashkimodensishiniidig, omashkimodensishiniidog]
-     3+mashkimod+Dim+Pej+3Pl+Pret: omashkimodensishiwaaban
-     3+mashkimod+Dim+Pej+3Pl+VocPl: [omashkimodensishiwaadig, omashkimodensishiwaadog]
+     1+mashkimod+N+Con+Pej+1Pl+Pret: nimashkimodenyishinaaniban
+     1+mashkimod+N+Con+Pej+1Pl+VocPl: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
+     1+mashkimod+N+Dim+Pej+1Pl+Pret: nimashkimodensishinaaniban
+     1+mashkimod+N+Dim+Pej+1Pl+VocPl: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
+     2+mashkimod+N+Con+Pej+21+Pret: gimashkimodenyishinaaniban
+     2+mashkimod+N+Con+Pej+21+VocPl: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
+     2+mashkimod+N+Con+Pej+2Pl+Pret: gimashkimodenyishiwaaban
+     2+mashkimod+N+Con+Pej+2Pl+VocPl: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
+     2+mashkimod+N+Dim+Pej+21+Pret: gimashkimodensishinaaniban
+     2+mashkimod+N+Dim+Pej+21+VocPl: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
+     2+mashkimod+N+Dim+Pej+2Pl+Pret: gimashkimodensishiwaaban
+     2+mashkimod+N+Dim+Pej+2Pl+VocPl: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
+     3+mashkimod+N+Con+Pej+3Obv+Pret: omashkimodenyishiniiban
+     3+mashkimod+N+Con+Pej+3Obv+VocPl: [omashkimodenyishiniidig, omashkimodenyishiniidog]
+     3+mashkimod+N+Con+Pej+3Pl+Pret: omashkimodenyishiwaaban
+     3+mashkimod+N+Con+Pej+3Pl+VocPl: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
+     3+mashkimod+N+Dim+Pej+3Obv+Pret: omashkimodensishiniiban
+     3+mashkimod+N+Dim+Pej+3Obv+VocPl: [omashkimodensishiniidig, omashkimodensishiniidog]
+     3+mashkimod+N+Dim+Pej+3Pl+Pret: omashkimodensishiwaaban
+     3+mashkimod+N+Dim+Pej+3Pl+VocPl: [omashkimodensishiwaadig, omashkimodensishiwaadog]
      
      #Values from slots numbered: 1, 2, 4, 5, 7
-     1+mashkimod+Con+Pej+1Pl+Loc: nimashkimodenyishinaaning
-     1+mashkimod+Con+Pej+1Pl+Obv: nimashkimodenyishinaanin
-     1+mashkimod+Con+Pej+1Pl+Pl: nimashkimodenyishinaanin
-     1+mashkimod+Dim+Pej+1Pl+Loc: nimashkimodensishinaaning
-     1+mashkimod+Dim+Pej+1Pl+Obv: nimashkimodensishinaanin
-     1+mashkimod+Dim+Pej+1Pl+Pl: nimashkimodensishinaanin
-     2+mashkimod+Con+Pej+21+Loc: gimashkimodenyishinaaning
-     2+mashkimod+Con+Pej+21+Obv: gimashkimodenyishinaanin
-     2+mashkimod+Con+Pej+21+Pl: gimashkimodenyishinaanin
-     2+mashkimod+Con+Pej+2Pl+Loc: gimashkimodenyishiwaang
-     2+mashkimod+Con+Pej+2Pl+Obv: gimashkimodenyishiwaan
-     2+mashkimod+Con+Pej+2Pl+Pl: gimashkimodenyishiwaan
-     2+mashkimod+Dim+Pej+21+Loc: gimashkimodensishinaaning
-     2+mashkimod+Dim+Pej+21+Obv: gimashkimodensishinaanin
-     2+mashkimod+Dim+Pej+21+Pl: gimashkimodensishinaanin
-     2+mashkimod+Dim+Pej+2Pl+Loc: gimashkimodensishiwaang
-     2+mashkimod+Dim+Pej+2Pl+Obv: gimashkimodensishiwaan
-     2+mashkimod+Dim+Pej+2Pl+Pl: gimashkimodensishiwaan
-     3+mashkimod+Con+Pej+3Obv+Loc: omashkimodenyishiniing
-     3+mashkimod+Con+Pej+3Obv+Obv: omashkimodenyishiniin
-     3+mashkimod+Con+Pej+3Obv+Pl: omashkimodenyishiniin
-     3+mashkimod+Con+Pej+3Pl+Loc: omashkimodenyishiwaang
-     3+mashkimod+Con+Pej+3Pl+Obv: omashkimodenyishiwaan
-     3+mashkimod+Con+Pej+3Pl+Pl: omashkimodenyishiwaan
-     3+mashkimod+Dim+Pej+3Obv+Loc: omashkimodensishiniing
-     3+mashkimod+Dim+Pej+3Obv+Obv: omashkimodensishiniin
-     3+mashkimod+Dim+Pej+3Obv+Pl: omashkimodensishiniin
-     3+mashkimod+Dim+Pej+3Pl+Loc: omashkimodensishiwaang
-     3+mashkimod+Dim+Pej+3Pl+Obv: omashkimodensishiwaan
-     3+mashkimod+Dim+Pej+3Pl+Pl: omashkimodensishiwaan
+     1+mashkimod+N+Con+Pej+1Pl+Loc: nimashkimodenyishinaaning
+     1+mashkimod+N+Con+Pej+1Pl+Obv: nimashkimodenyishinaanin
+     1+mashkimod+N+Con+Pej+1Pl+Pl: nimashkimodenyishinaanin
+     1+mashkimod+N+Dim+Pej+1Pl+Loc: nimashkimodensishinaaning
+     1+mashkimod+N+Dim+Pej+1Pl+Obv: nimashkimodensishinaanin
+     1+mashkimod+N+Dim+Pej+1Pl+Pl: nimashkimodensishinaanin
+     2+mashkimod+N+Con+Pej+21+Loc: gimashkimodenyishinaaning
+     2+mashkimod+N+Con+Pej+21+Obv: gimashkimodenyishinaanin
+     2+mashkimod+N+Con+Pej+21+Pl: gimashkimodenyishinaanin
+     2+mashkimod+N+Con+Pej+2Pl+Loc: gimashkimodenyishiwaang
+     2+mashkimod+N+Con+Pej+2Pl+Obv: gimashkimodenyishiwaan
+     2+mashkimod+N+Con+Pej+2Pl+Pl: gimashkimodenyishiwaan
+     2+mashkimod+N+Dim+Pej+21+Loc: gimashkimodensishinaaning
+     2+mashkimod+N+Dim+Pej+21+Obv: gimashkimodensishinaanin
+     2+mashkimod+N+Dim+Pej+21+Pl: gimashkimodensishinaanin
+     2+mashkimod+N+Dim+Pej+2Pl+Loc: gimashkimodensishiwaang
+     2+mashkimod+N+Dim+Pej+2Pl+Obv: gimashkimodensishiwaan
+     2+mashkimod+N+Dim+Pej+2Pl+Pl: gimashkimodensishiwaan
+     3+mashkimod+N+Con+Pej+3Obv+Loc: omashkimodenyishiniing
+     3+mashkimod+N+Con+Pej+3Obv+Obv: omashkimodenyishiniin
+     3+mashkimod+N+Con+Pej+3Obv+Pl: omashkimodenyishiniin
+     3+mashkimod+N+Con+Pej+3Pl+Loc: omashkimodenyishiwaang
+     3+mashkimod+N+Con+Pej+3Pl+Obv: omashkimodenyishiwaan
+     3+mashkimod+N+Con+Pej+3Pl+Pl: omashkimodenyishiwaan
+     3+mashkimod+N+Dim+Pej+3Obv+Loc: omashkimodensishiniing
+     3+mashkimod+N+Dim+Pej+3Obv+Obv: omashkimodensishiniin
+     3+mashkimod+N+Dim+Pej+3Obv+Pl: omashkimodensishiniin
+     3+mashkimod+N+Dim+Pej+3Pl+Loc: omashkimodensishiwaang
+     3+mashkimod+N+Dim+Pej+3Pl+Obv: omashkimodensishiwaan
+     3+mashkimod+N+Dim+Pej+3Pl+Pl: omashkimodensishiwaan
      
      #Values from slots numbered: 1, 2, 4, 6, 7
-     1+mashkimod+Con+Pej+Pret+Loc: nimashkimodenyishibaniing
-     1+mashkimod+Con+Pej+Pret+Obv: nimashkimodenyishibaniin
-     1+mashkimod+Con+Pej+Pret+Pl: nimashkimodenyishibaniin
-     1+mashkimod+Dim+Pej+Pret+Loc: nimashkimodensishibaniing
-     1+mashkimod+Dim+Pej+Pret+Obv: nimashkimodensishibaniin
-     1+mashkimod+Dim+Pej+Pret+Pl: nimashkimodensishibaniin
-     2+mashkimod+Con+Pej+Pret+Loc: gimashkimodenyishibaniing
-     2+mashkimod+Con+Pej+Pret+Obv: gimashkimodenyishibaniin
-     2+mashkimod+Con+Pej+Pret+Pl: gimashkimodenyishibaniin
-     2+mashkimod+Dim+Pej+Pret+Loc: gimashkimodensishibaniing
-     2+mashkimod+Dim+Pej+Pret+Obv: gimashkimodensishibaniin
-     2+mashkimod+Dim+Pej+Pret+Pl: gimashkimodensishibaniin
-     3+mashkimod+Con+Pej+Pret+Loc: omashkimodenyishibaniing
-     3+mashkimod+Con+Pej+Pret+Obv: omashkimodenyishibaniin
-     3+mashkimod+Con+Pej+Pret+Pl: omashkimodenyishibaniin
-     3+mashkimod+Dim+Pej+Pret+Loc: omashkimodensishibaniing
-     3+mashkimod+Dim+Pej+Pret+Obv: omashkimodensishibaniin
-     3+mashkimod+Dim+Pej+Pret+Pl: omashkimodensishibaniin
-     X+mashkimod+Con+Pej+Pret+Loc: imashkimodenyishibaniing
-     X+mashkimod+Con+Pej+Pret+Obv: imashkimodenyishibaniin
-     X+mashkimod+Con+Pej+Pret+Pl: imashkimodenyishibaniin
-     X+mashkimod+Dim+Pej+Pret+Loc: imashkimodensishibaniing
-     X+mashkimod+Dim+Pej+Pret+Obv: imashkimodensishibaniin
-     X+mashkimod+Dim+Pej+Pret+Pl: imashkimodensishibaniin
+     1+mashkimod+N+Con+Pej+Pret+Loc: nimashkimodenyishibaniing
+     1+mashkimod+N+Con+Pej+Pret+Obv: nimashkimodenyishibaniin
+     1+mashkimod+N+Con+Pej+Pret+Pl: nimashkimodenyishibaniin
+     1+mashkimod+N+Dim+Pej+Pret+Loc: nimashkimodensishibaniing
+     1+mashkimod+N+Dim+Pej+Pret+Obv: nimashkimodensishibaniin
+     1+mashkimod+N+Dim+Pej+Pret+Pl: nimashkimodensishibaniin
+     2+mashkimod+N+Con+Pej+Pret+Loc: gimashkimodenyishibaniing
+     2+mashkimod+N+Con+Pej+Pret+Obv: gimashkimodenyishibaniin
+     2+mashkimod+N+Con+Pej+Pret+Pl: gimashkimodenyishibaniin
+     2+mashkimod+N+Dim+Pej+Pret+Loc: gimashkimodensishibaniing
+     2+mashkimod+N+Dim+Pej+Pret+Obv: gimashkimodensishibaniin
+     2+mashkimod+N+Dim+Pej+Pret+Pl: gimashkimodensishibaniin
+     3+mashkimod+N+Con+Pej+Pret+Loc: omashkimodenyishibaniing
+     3+mashkimod+N+Con+Pej+Pret+Obv: omashkimodenyishibaniin
+     3+mashkimod+N+Con+Pej+Pret+Pl: omashkimodenyishibaniin
+     3+mashkimod+N+Dim+Pej+Pret+Loc: omashkimodensishibaniing
+     3+mashkimod+N+Dim+Pej+Pret+Obv: omashkimodensishibaniin
+     3+mashkimod+N+Dim+Pej+Pret+Pl: omashkimodensishibaniin
+     X+mashkimod+N+Con+Pej+Pret+Loc: imashkimodenyishibaniing
+     X+mashkimod+N+Con+Pej+Pret+Obv: imashkimodenyishibaniin
+     X+mashkimod+N+Con+Pej+Pret+Pl: imashkimodenyishibaniin
+     X+mashkimod+N+Dim+Pej+Pret+Loc: imashkimodensishibaniing
+     X+mashkimod+N+Dim+Pej+Pret+Obv: imashkimodensishibaniin
+     X+mashkimod+N+Dim+Pej+Pret+Pl: imashkimodensishibaniin
      
      #Values from slots numbered: 1, 2, 5, 6, 7
-     1+mashkimod+Con+1Pl+Pret+Loc: nimashkimodenyinaanibaniing
-     1+mashkimod+Con+1Pl+Pret+Obv: nimashkimodenyinaanibaniin
-     1+mashkimod+Con+1Pl+Pret+Pl: nimashkimodenyinaanibaniin
-     1+mashkimod+Con+1Pl+VocPl+Loc: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
-     1+mashkimod+Con+1Pl+VocPl+Obv: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
-     1+mashkimod+Con+1Pl+VocPl+Pl: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
-     1+mashkimod+Dim+1Pl+Pret+Loc: nimashkimodensinaanibaniing
-     1+mashkimod+Dim+1Pl+Pret+Obv: nimashkimodensinaanibaniin
-     1+mashkimod+Dim+1Pl+Pret+Pl: nimashkimodensinaanibaniin
-     1+mashkimod+Dim+1Pl+VocPl+Loc: [nimashkimodensinaanidig, nimashkimodensinaanidog]
-     1+mashkimod+Dim+1Pl+VocPl+Obv: [nimashkimodensinaanidig, nimashkimodensinaanidog]
-     1+mashkimod+Dim+1Pl+VocPl+Pl: [nimashkimodensinaanidig, nimashkimodensinaanidog]
-     2+mashkimod+Con+21+Pret+Loc: gimashkimodenyinaanibaniing
-     2+mashkimod+Con+21+Pret+Obv: gimashkimodenyinaanibaniin
-     2+mashkimod+Con+21+Pret+Pl: gimashkimodenyinaanibaniin
-     2+mashkimod+Con+21+VocPl+Loc: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
-     2+mashkimod+Con+21+VocPl+Obv: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
-     2+mashkimod+Con+21+VocPl+Pl: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
-     2+mashkimod+Con+2Pl+Pret+Loc: gimashkimodenyiwaabaniing
-     2+mashkimod+Con+2Pl+Pret+Obv: gimashkimodenyiwaabaniin
-     2+mashkimod+Con+2Pl+Pret+Pl: gimashkimodenyiwaabaniin
-     2+mashkimod+Con+2Pl+VocPl+Loc: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
-     2+mashkimod+Con+2Pl+VocPl+Obv: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
-     2+mashkimod+Con+2Pl+VocPl+Pl: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
-     2+mashkimod+Dim+21+Pret+Loc: gimashkimodensinaanibaniing
-     2+mashkimod+Dim+21+Pret+Obv: gimashkimodensinaanibaniin
-     2+mashkimod+Dim+21+Pret+Pl: gimashkimodensinaanibaniin
-     2+mashkimod+Dim+21+VocPl+Loc: [gimashkimodensinaanidig, gimashkimodensinaanidog]
-     2+mashkimod+Dim+21+VocPl+Obv: [gimashkimodensinaanidig, gimashkimodensinaanidog]
-     2+mashkimod+Dim+21+VocPl+Pl: [gimashkimodensinaanidig, gimashkimodensinaanidog]
-     2+mashkimod+Dim+2Pl+Pret+Loc: gimashkimodensiwaabaniing
-     2+mashkimod+Dim+2Pl+Pret+Obv: gimashkimodensiwaabaniin
-     2+mashkimod+Dim+2Pl+Pret+Pl: gimashkimodensiwaabaniin
-     2+mashkimod+Dim+2Pl+VocPl+Loc: [gimashkimodensiwaadig, gimashkimodensiwaadog]
-     2+mashkimod+Dim+2Pl+VocPl+Obv: [gimashkimodensiwaadig, gimashkimodensiwaadog]
-     2+mashkimod+Dim+2Pl+VocPl+Pl: [gimashkimodensiwaadig, gimashkimodensiwaadog]
-     3+mashkimod+Con+3Obv+Pret+Loc: omashkimodenyiniibaniing
-     3+mashkimod+Con+3Obv+Pret+Obv: omashkimodenyiniibaniin
-     3+mashkimod+Con+3Obv+Pret+Pl: omashkimodenyiniibaniin
-     3+mashkimod+Con+3Obv+VocPl+Loc: [omashkimodenyiniidig, omashkimodenyiniidog]
-     3+mashkimod+Con+3Obv+VocPl+Obv: [omashkimodenyiniidig, omashkimodenyiniidog]
-     3+mashkimod+Con+3Obv+VocPl+Pl: [omashkimodenyiniidig, omashkimodenyiniidog]
-     3+mashkimod+Con+3Pl+Pret+Loc: omashkimodenyiwaabaniing
-     3+mashkimod+Con+3Pl+Pret+Obv: omashkimodenyiwaabaniin
-     3+mashkimod+Con+3Pl+Pret+Pl: omashkimodenyiwaabaniin
-     3+mashkimod+Con+3Pl+VocPl+Loc: [omashkimodenyiwaadig, omashkimodenyiwaadog]
-     3+mashkimod+Con+3Pl+VocPl+Obv: [omashkimodenyiwaadig, omashkimodenyiwaadog]
-     3+mashkimod+Con+3Pl+VocPl+Pl: [omashkimodenyiwaadig, omashkimodenyiwaadog]
-     3+mashkimod+Dim+3Obv+Pret+Loc: omashkimodensiniibaniing
-     3+mashkimod+Dim+3Obv+Pret+Obv: omashkimodensiniibaniin
-     3+mashkimod+Dim+3Obv+Pret+Pl: omashkimodensiniibaniin
-     3+mashkimod+Dim+3Obv+VocPl+Loc: [omashkimodensiniidig, omashkimodensiniidog]
-     3+mashkimod+Dim+3Obv+VocPl+Obv: [omashkimodensiniidig, omashkimodensiniidog]
-     3+mashkimod+Dim+3Obv+VocPl+Pl: [omashkimodensiniidig, omashkimodensiniidog]
-     3+mashkimod+Dim+3Pl+Pret+Loc: omashkimodensiwaabaniing
-     3+mashkimod+Dim+3Pl+Pret+Obv: omashkimodensiwaabaniin
-     3+mashkimod+Dim+3Pl+Pret+Pl: omashkimodensiwaabaniin
-     3+mashkimod+Dim+3Pl+VocPl+Loc: [omashkimodensiwaadig, omashkimodensiwaadog]
-     3+mashkimod+Dim+3Pl+VocPl+Obv: [omashkimodensiwaadig, omashkimodensiwaadog]
-     3+mashkimod+Dim+3Pl+VocPl+Pl: [omashkimodensiwaadig, omashkimodensiwaadog]
+     1+mashkimod+N+Con+1Pl+Pret+Loc: nimashkimodenyinaanibaniing
+     1+mashkimod+N+Con+1Pl+Pret+Obv: nimashkimodenyinaanibaniin
+     1+mashkimod+N+Con+1Pl+Pret+Pl: nimashkimodenyinaanibaniin
+     1+mashkimod+N+Con+1Pl+VocPl+Loc: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
+     1+mashkimod+N+Con+1Pl+VocPl+Obv: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
+     1+mashkimod+N+Con+1Pl+VocPl+Pl: [nimashkimodenyinaanidig, nimashkimodenyinaanidog]
+     1+mashkimod+N+Dim+1Pl+Pret+Loc: nimashkimodensinaanibaniing
+     1+mashkimod+N+Dim+1Pl+Pret+Obv: nimashkimodensinaanibaniin
+     1+mashkimod+N+Dim+1Pl+Pret+Pl: nimashkimodensinaanibaniin
+     1+mashkimod+N+Dim+1Pl+VocPl+Loc: [nimashkimodensinaanidig, nimashkimodensinaanidog]
+     1+mashkimod+N+Dim+1Pl+VocPl+Obv: [nimashkimodensinaanidig, nimashkimodensinaanidog]
+     1+mashkimod+N+Dim+1Pl+VocPl+Pl: [nimashkimodensinaanidig, nimashkimodensinaanidog]
+     2+mashkimod+N+Con+21+Pret+Loc: gimashkimodenyinaanibaniing
+     2+mashkimod+N+Con+21+Pret+Obv: gimashkimodenyinaanibaniin
+     2+mashkimod+N+Con+21+Pret+Pl: gimashkimodenyinaanibaniin
+     2+mashkimod+N+Con+21+VocPl+Loc: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
+     2+mashkimod+N+Con+21+VocPl+Obv: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
+     2+mashkimod+N+Con+21+VocPl+Pl: [gimashkimodenyinaanidig, gimashkimodenyinaanidog]
+     2+mashkimod+N+Con+2Pl+Pret+Loc: gimashkimodenyiwaabaniing
+     2+mashkimod+N+Con+2Pl+Pret+Obv: gimashkimodenyiwaabaniin
+     2+mashkimod+N+Con+2Pl+Pret+Pl: gimashkimodenyiwaabaniin
+     2+mashkimod+N+Con+2Pl+VocPl+Loc: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
+     2+mashkimod+N+Con+2Pl+VocPl+Obv: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
+     2+mashkimod+N+Con+2Pl+VocPl+Pl: [gimashkimodenyiwaadig, gimashkimodenyiwaadog]
+     2+mashkimod+N+Dim+21+Pret+Loc: gimashkimodensinaanibaniing
+     2+mashkimod+N+Dim+21+Pret+Obv: gimashkimodensinaanibaniin
+     2+mashkimod+N+Dim+21+Pret+Pl: gimashkimodensinaanibaniin
+     2+mashkimod+N+Dim+21+VocPl+Loc: [gimashkimodensinaanidig, gimashkimodensinaanidog]
+     2+mashkimod+N+Dim+21+VocPl+Obv: [gimashkimodensinaanidig, gimashkimodensinaanidog]
+     2+mashkimod+N+Dim+21+VocPl+Pl: [gimashkimodensinaanidig, gimashkimodensinaanidog]
+     2+mashkimod+N+Dim+2Pl+Pret+Loc: gimashkimodensiwaabaniing
+     2+mashkimod+N+Dim+2Pl+Pret+Obv: gimashkimodensiwaabaniin
+     2+mashkimod+N+Dim+2Pl+Pret+Pl: gimashkimodensiwaabaniin
+     2+mashkimod+N+Dim+2Pl+VocPl+Loc: [gimashkimodensiwaadig, gimashkimodensiwaadog]
+     2+mashkimod+N+Dim+2Pl+VocPl+Obv: [gimashkimodensiwaadig, gimashkimodensiwaadog]
+     2+mashkimod+N+Dim+2Pl+VocPl+Pl: [gimashkimodensiwaadig, gimashkimodensiwaadog]
+     3+mashkimod+N+Con+3Obv+Pret+Loc: omashkimodenyiniibaniing
+     3+mashkimod+N+Con+3Obv+Pret+Obv: omashkimodenyiniibaniin
+     3+mashkimod+N+Con+3Obv+Pret+Pl: omashkimodenyiniibaniin
+     3+mashkimod+N+Con+3Obv+VocPl+Loc: [omashkimodenyiniidig, omashkimodenyiniidog]
+     3+mashkimod+N+Con+3Obv+VocPl+Obv: [omashkimodenyiniidig, omashkimodenyiniidog]
+     3+mashkimod+N+Con+3Obv+VocPl+Pl: [omashkimodenyiniidig, omashkimodenyiniidog]
+     3+mashkimod+N+Con+3Pl+Pret+Loc: omashkimodenyiwaabaniing
+     3+mashkimod+N+Con+3Pl+Pret+Obv: omashkimodenyiwaabaniin
+     3+mashkimod+N+Con+3Pl+Pret+Pl: omashkimodenyiwaabaniin
+     3+mashkimod+N+Con+3Pl+VocPl+Loc: [omashkimodenyiwaadig, omashkimodenyiwaadog]
+     3+mashkimod+N+Con+3Pl+VocPl+Obv: [omashkimodenyiwaadig, omashkimodenyiwaadog]
+     3+mashkimod+N+Con+3Pl+VocPl+Pl: [omashkimodenyiwaadig, omashkimodenyiwaadog]
+     3+mashkimod+N+Dim+3Obv+Pret+Loc: omashkimodensiniibaniing
+     3+mashkimod+N+Dim+3Obv+Pret+Obv: omashkimodensiniibaniin
+     3+mashkimod+N+Dim+3Obv+Pret+Pl: omashkimodensiniibaniin
+     3+mashkimod+N+Dim+3Obv+VocPl+Loc: [omashkimodensiniidig, omashkimodensiniidog]
+     3+mashkimod+N+Dim+3Obv+VocPl+Obv: [omashkimodensiniidig, omashkimodensiniidog]
+     3+mashkimod+N+Dim+3Obv+VocPl+Pl: [omashkimodensiniidig, omashkimodensiniidog]
+     3+mashkimod+N+Dim+3Pl+Pret+Loc: omashkimodensiwaabaniing
+     3+mashkimod+N+Dim+3Pl+Pret+Obv: omashkimodensiwaabaniin
+     3+mashkimod+N+Dim+3Pl+Pret+Pl: omashkimodensiwaabaniin
+     3+mashkimod+N+Dim+3Pl+VocPl+Loc: [omashkimodensiwaadig, omashkimodensiwaadog]
+     3+mashkimod+N+Dim+3Pl+VocPl+Obv: [omashkimodensiwaadig, omashkimodensiwaadog]
+     3+mashkimod+N+Dim+3Pl+VocPl+Pl: [omashkimodensiwaadig, omashkimodensiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 6
-     1+mashkimod+Pos+Pej+1Pl+Pret: nimashkimodaamishinaaniban
-     1+mashkimod+Pos+Pej+1Pl+VocPl: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+21+Pret: gimashkimodaamishinaaniban
-     2+mashkimod+Pos+Pej+21+VocPl: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+2Pl+Pret: gimashkimodaamishiwaaban
-     2+mashkimod+Pos+Pej+2Pl+VocPl: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
-     3+mashkimod+Pos+Pej+3Obv+Pret: omashkimodaamishiniiban
-     3+mashkimod+Pos+Pej+3Obv+VocPl: [omashkimodaamishiniidig, omashkimodaamishiniidog]
-     3+mashkimod+Pos+Pej+3Pl+Pret: omashkimodaamishiwaaban
-     3+mashkimod+Pos+Pej+3Pl+VocPl: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
+     1+mashkimod+N+Pos+Pej+1Pl+Pret: nimashkimodaamishinaaniban
+     1+mashkimod+N+Pos+Pej+1Pl+VocPl: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+21+Pret: gimashkimodaamishinaaniban
+     2+mashkimod+N+Pos+Pej+21+VocPl: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+2Pl+Pret: gimashkimodaamishiwaaban
+     2+mashkimod+N+Pos+Pej+2Pl+VocPl: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
+     3+mashkimod+N+Pos+Pej+3Obv+Pret: omashkimodaamishiniiban
+     3+mashkimod+N+Pos+Pej+3Obv+VocPl: [omashkimodaamishiniidig, omashkimodaamishiniidog]
+     3+mashkimod+N+Pos+Pej+3Pl+Pret: omashkimodaamishiwaaban
+     3+mashkimod+N+Pos+Pej+3Pl+VocPl: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 7
-     1+mashkimod+Pos+Pej+1Pl+Loc: nimashkimodaamishinaaning
-     1+mashkimod+Pos+Pej+1Pl+Obv: nimashkimodaamishinaanin
-     1+mashkimod+Pos+Pej+1Pl+Pl: nimashkimodaamishinaanin
-     2+mashkimod+Pos+Pej+21+Loc: gimashkimodaamishinaaning
-     2+mashkimod+Pos+Pej+21+Obv: gimashkimodaamishinaanin
-     2+mashkimod+Pos+Pej+21+Pl: gimashkimodaamishinaanin
-     2+mashkimod+Pos+Pej+2Pl+Loc: gimashkimodaamishiwaang
-     2+mashkimod+Pos+Pej+2Pl+Obv: gimashkimodaamishiwaan
-     2+mashkimod+Pos+Pej+2Pl+Pl: gimashkimodaamishiwaan
-     3+mashkimod+Pos+Pej+3Obv+Loc: omashkimodaamishiniing
-     3+mashkimod+Pos+Pej+3Obv+Obv: omashkimodaamishiniin
-     3+mashkimod+Pos+Pej+3Obv+Pl: omashkimodaamishiniin
-     3+mashkimod+Pos+Pej+3Pl+Loc: omashkimodaamishiwaang
-     3+mashkimod+Pos+Pej+3Pl+Obv: omashkimodaamishiwaan
-     3+mashkimod+Pos+Pej+3Pl+Pl: omashkimodaamishiwaan
+     1+mashkimod+N+Pos+Pej+1Pl+Loc: nimashkimodaamishinaaning
+     1+mashkimod+N+Pos+Pej+1Pl+Obv: nimashkimodaamishinaanin
+     1+mashkimod+N+Pos+Pej+1Pl+Pl: nimashkimodaamishinaanin
+     2+mashkimod+N+Pos+Pej+21+Loc: gimashkimodaamishinaaning
+     2+mashkimod+N+Pos+Pej+21+Obv: gimashkimodaamishinaanin
+     2+mashkimod+N+Pos+Pej+21+Pl: gimashkimodaamishinaanin
+     2+mashkimod+N+Pos+Pej+2Pl+Loc: gimashkimodaamishiwaang
+     2+mashkimod+N+Pos+Pej+2Pl+Obv: gimashkimodaamishiwaan
+     2+mashkimod+N+Pos+Pej+2Pl+Pl: gimashkimodaamishiwaan
+     3+mashkimod+N+Pos+Pej+3Obv+Loc: omashkimodaamishiniing
+     3+mashkimod+N+Pos+Pej+3Obv+Obv: omashkimodaamishiniin
+     3+mashkimod+N+Pos+Pej+3Obv+Pl: omashkimodaamishiniin
+     3+mashkimod+N+Pos+Pej+3Pl+Loc: omashkimodaamishiwaang
+     3+mashkimod+N+Pos+Pej+3Pl+Obv: omashkimodaamishiwaan
+     3+mashkimod+N+Pos+Pej+3Pl+Pl: omashkimodaamishiwaan
      
      #Values from slots numbered: 1, 3, 4, 6, 7
-     1+mashkimod+Pos+Pej+Pret+Loc: nimashkimodaamishibaniing
-     1+mashkimod+Pos+Pej+Pret+Obv: nimashkimodaamishibaniin
-     1+mashkimod+Pos+Pej+Pret+Pl: nimashkimodaamishibaniin
-     2+mashkimod+Pos+Pej+Pret+Loc: gimashkimodaamishibaniing
-     2+mashkimod+Pos+Pej+Pret+Obv: gimashkimodaamishibaniin
-     2+mashkimod+Pos+Pej+Pret+Pl: gimashkimodaamishibaniin
-     3+mashkimod+Pos+Pej+Pret+Loc: omashkimodaamishibaniing
-     3+mashkimod+Pos+Pej+Pret+Obv: omashkimodaamishibaniin
-     3+mashkimod+Pos+Pej+Pret+Pl: omashkimodaamishibaniin
-     X+mashkimod+Pos+Pej+Pret+Loc: imashkimodaamishibaniing
-     X+mashkimod+Pos+Pej+Pret+Obv: imashkimodaamishibaniin
-     X+mashkimod+Pos+Pej+Pret+Pl: imashkimodaamishibaniin
+     1+mashkimod+N+Pos+Pej+Pret+Loc: nimashkimodaamishibaniing
+     1+mashkimod+N+Pos+Pej+Pret+Obv: nimashkimodaamishibaniin
+     1+mashkimod+N+Pos+Pej+Pret+Pl: nimashkimodaamishibaniin
+     2+mashkimod+N+Pos+Pej+Pret+Loc: gimashkimodaamishibaniing
+     2+mashkimod+N+Pos+Pej+Pret+Obv: gimashkimodaamishibaniin
+     2+mashkimod+N+Pos+Pej+Pret+Pl: gimashkimodaamishibaniin
+     3+mashkimod+N+Pos+Pej+Pret+Loc: omashkimodaamishibaniing
+     3+mashkimod+N+Pos+Pej+Pret+Obv: omashkimodaamishibaniin
+     3+mashkimod+N+Pos+Pej+Pret+Pl: omashkimodaamishibaniin
+     X+mashkimod+N+Pos+Pej+Pret+Loc: imashkimodaamishibaniing
+     X+mashkimod+N+Pos+Pej+Pret+Obv: imashkimodaamishibaniin
+     X+mashkimod+N+Pos+Pej+Pret+Pl: imashkimodaamishibaniin
      
      #Values from slots numbered: 1, 3, 5, 6, 7
-     1+mashkimod+Pos+1Pl+Pret+Loc: nimashkimodaaminaanibaniing
-     1+mashkimod+Pos+1Pl+Pret+Obv: nimashkimodaaminaanibaniin
-     1+mashkimod+Pos+1Pl+Pret+Pl: nimashkimodaaminaanibaniin
-     1+mashkimod+Pos+1Pl+VocPl+Loc: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
-     1+mashkimod+Pos+1Pl+VocPl+Obv: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
-     1+mashkimod+Pos+1Pl+VocPl+Pl: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
-     2+mashkimod+Pos+21+Pret+Loc: gimashkimodaaminaanibaniing
-     2+mashkimod+Pos+21+Pret+Obv: gimashkimodaaminaanibaniin
-     2+mashkimod+Pos+21+Pret+Pl: gimashkimodaaminaanibaniin
-     2+mashkimod+Pos+21+VocPl+Loc: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
-     2+mashkimod+Pos+21+VocPl+Obv: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
-     2+mashkimod+Pos+21+VocPl+Pl: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
-     2+mashkimod+Pos+2Pl+Pret+Loc: gimashkimodaamiwaabaniing
-     2+mashkimod+Pos+2Pl+Pret+Obv: gimashkimodaamiwaabaniin
-     2+mashkimod+Pos+2Pl+Pret+Pl: gimashkimodaamiwaabaniin
-     2+mashkimod+Pos+2Pl+VocPl+Loc: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
-     2+mashkimod+Pos+2Pl+VocPl+Obv: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
-     2+mashkimod+Pos+2Pl+VocPl+Pl: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
-     3+mashkimod+Pos+3Obv+Pret+Loc: omashkimodaaminiibaniing
-     3+mashkimod+Pos+3Obv+Pret+Obv: omashkimodaaminiibaniin
-     3+mashkimod+Pos+3Obv+Pret+Pl: omashkimodaaminiibaniin
-     3+mashkimod+Pos+3Obv+VocPl+Loc: [omashkimodaaminiidig, omashkimodaaminiidog]
-     3+mashkimod+Pos+3Obv+VocPl+Obv: [omashkimodaaminiidig, omashkimodaaminiidog]
-     3+mashkimod+Pos+3Obv+VocPl+Pl: [omashkimodaaminiidig, omashkimodaaminiidog]
-     3+mashkimod+Pos+3Pl+Pret+Loc: omashkimodaamiwaabaniing
-     3+mashkimod+Pos+3Pl+Pret+Obv: omashkimodaamiwaabaniin
-     3+mashkimod+Pos+3Pl+Pret+Pl: omashkimodaamiwaabaniin
-     3+mashkimod+Pos+3Pl+VocPl+Loc: [omashkimodaamiwaadig, omashkimodaamiwaadog]
-     3+mashkimod+Pos+3Pl+VocPl+Obv: [omashkimodaamiwaadig, omashkimodaamiwaadog]
-     3+mashkimod+Pos+3Pl+VocPl+Pl: [omashkimodaamiwaadig, omashkimodaamiwaadog]
+     1+mashkimod+N+Pos+1Pl+Pret+Loc: nimashkimodaaminaanibaniing
+     1+mashkimod+N+Pos+1Pl+Pret+Obv: nimashkimodaaminaanibaniin
+     1+mashkimod+N+Pos+1Pl+Pret+Pl: nimashkimodaaminaanibaniin
+     1+mashkimod+N+Pos+1Pl+VocPl+Loc: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
+     1+mashkimod+N+Pos+1Pl+VocPl+Obv: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
+     1+mashkimod+N+Pos+1Pl+VocPl+Pl: [nimashkimodaaminaanidig, nimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+21+Pret+Loc: gimashkimodaaminaanibaniing
+     2+mashkimod+N+Pos+21+Pret+Obv: gimashkimodaaminaanibaniin
+     2+mashkimod+N+Pos+21+Pret+Pl: gimashkimodaaminaanibaniin
+     2+mashkimod+N+Pos+21+VocPl+Loc: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+21+VocPl+Obv: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+21+VocPl+Pl: [gimashkimodaaminaanidig, gimashkimodaaminaanidog]
+     2+mashkimod+N+Pos+2Pl+Pret+Loc: gimashkimodaamiwaabaniing
+     2+mashkimod+N+Pos+2Pl+Pret+Obv: gimashkimodaamiwaabaniin
+     2+mashkimod+N+Pos+2Pl+Pret+Pl: gimashkimodaamiwaabaniin
+     2+mashkimod+N+Pos+2Pl+VocPl+Loc: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
+     2+mashkimod+N+Pos+2Pl+VocPl+Obv: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
+     2+mashkimod+N+Pos+2Pl+VocPl+Pl: [gimashkimodaamiwaadig, gimashkimodaamiwaadog]
+     3+mashkimod+N+Pos+3Obv+Pret+Loc: omashkimodaaminiibaniing
+     3+mashkimod+N+Pos+3Obv+Pret+Obv: omashkimodaaminiibaniin
+     3+mashkimod+N+Pos+3Obv+Pret+Pl: omashkimodaaminiibaniin
+     3+mashkimod+N+Pos+3Obv+VocPl+Loc: [omashkimodaaminiidig, omashkimodaaminiidog]
+     3+mashkimod+N+Pos+3Obv+VocPl+Obv: [omashkimodaaminiidig, omashkimodaaminiidog]
+     3+mashkimod+N+Pos+3Obv+VocPl+Pl: [omashkimodaaminiidig, omashkimodaaminiidog]
+     3+mashkimod+N+Pos+3Pl+Pret+Loc: omashkimodaamiwaabaniing
+     3+mashkimod+N+Pos+3Pl+Pret+Obv: omashkimodaamiwaabaniin
+     3+mashkimod+N+Pos+3Pl+Pret+Pl: omashkimodaamiwaabaniin
+     3+mashkimod+N+Pos+3Pl+VocPl+Loc: [omashkimodaamiwaadig, omashkimodaamiwaadog]
+     3+mashkimod+N+Pos+3Pl+VocPl+Obv: [omashkimodaamiwaadig, omashkimodaamiwaadog]
+     3+mashkimod+N+Pos+3Pl+VocPl+Pl: [omashkimodaamiwaadig, omashkimodaamiwaadog]
      
      #Values from slots numbered: 1, 4, 5, 6, 7
-     1+mashkimod+Pej+1Pl+Pret+Loc: nimashkimodaashinaanibaniing
-     1+mashkimod+Pej+1Pl+Pret+Obv: nimashkimodaashinaanibaniin
-     1+mashkimod+Pej+1Pl+Pret+Pl: nimashkimodaashinaanibaniin
-     1+mashkimod+Pej+1Pl+VocPl+Loc: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
-     1+mashkimod+Pej+1Pl+VocPl+Obv: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
-     1+mashkimod+Pej+1Pl+VocPl+Pl: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
-     2+mashkimod+Pej+21+Pret+Loc: gimashkimodaashinaanibaniing
-     2+mashkimod+Pej+21+Pret+Obv: gimashkimodaashinaanibaniin
-     2+mashkimod+Pej+21+Pret+Pl: gimashkimodaashinaanibaniin
-     2+mashkimod+Pej+21+VocPl+Loc: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
-     2+mashkimod+Pej+21+VocPl+Obv: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
-     2+mashkimod+Pej+21+VocPl+Pl: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
-     2+mashkimod+Pej+2Pl+Pret+Loc: gimashkimodaashiwaabaniing
-     2+mashkimod+Pej+2Pl+Pret+Obv: gimashkimodaashiwaabaniin
-     2+mashkimod+Pej+2Pl+Pret+Pl: gimashkimodaashiwaabaniin
-     2+mashkimod+Pej+2Pl+VocPl+Loc: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
-     2+mashkimod+Pej+2Pl+VocPl+Obv: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
-     2+mashkimod+Pej+2Pl+VocPl+Pl: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
-     3+mashkimod+Pej+3Obv+Pret+Loc: omashkimodaashiniibaniing
-     3+mashkimod+Pej+3Obv+Pret+Obv: omashkimodaashiniibaniin
-     3+mashkimod+Pej+3Obv+Pret+Pl: omashkimodaashiniibaniin
-     3+mashkimod+Pej+3Obv+VocPl+Loc: [omashkimodaashiniidig, omashkimodaashiniidog]
-     3+mashkimod+Pej+3Obv+VocPl+Obv: [omashkimodaashiniidig, omashkimodaashiniidog]
-     3+mashkimod+Pej+3Obv+VocPl+Pl: [omashkimodaashiniidig, omashkimodaashiniidog]
-     3+mashkimod+Pej+3Pl+Pret+Loc: omashkimodaashiwaabaniing
-     3+mashkimod+Pej+3Pl+Pret+Obv: omashkimodaashiwaabaniin
-     3+mashkimod+Pej+3Pl+Pret+Pl: omashkimodaashiwaabaniin
-     3+mashkimod+Pej+3Pl+VocPl+Loc: [omashkimodaashiwaadig, omashkimodaashiwaadog]
-     3+mashkimod+Pej+3Pl+VocPl+Obv: [omashkimodaashiwaadig, omashkimodaashiwaadog]
-     3+mashkimod+Pej+3Pl+VocPl+Pl: [omashkimodaashiwaadig, omashkimodaashiwaadog]
+     1+mashkimod+N+Pej+1Pl+Pret+Loc: nimashkimodaashinaanibaniing
+     1+mashkimod+N+Pej+1Pl+Pret+Obv: nimashkimodaashinaanibaniin
+     1+mashkimod+N+Pej+1Pl+Pret+Pl: nimashkimodaashinaanibaniin
+     1+mashkimod+N+Pej+1Pl+VocPl+Loc: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
+     1+mashkimod+N+Pej+1Pl+VocPl+Obv: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
+     1+mashkimod+N+Pej+1Pl+VocPl+Pl: [nimashkimodaashinaanidig, nimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+21+Pret+Loc: gimashkimodaashinaanibaniing
+     2+mashkimod+N+Pej+21+Pret+Obv: gimashkimodaashinaanibaniin
+     2+mashkimod+N+Pej+21+Pret+Pl: gimashkimodaashinaanibaniin
+     2+mashkimod+N+Pej+21+VocPl+Loc: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+21+VocPl+Obv: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+21+VocPl+Pl: [gimashkimodaashinaanidig, gimashkimodaashinaanidog]
+     2+mashkimod+N+Pej+2Pl+Pret+Loc: gimashkimodaashiwaabaniing
+     2+mashkimod+N+Pej+2Pl+Pret+Obv: gimashkimodaashiwaabaniin
+     2+mashkimod+N+Pej+2Pl+Pret+Pl: gimashkimodaashiwaabaniin
+     2+mashkimod+N+Pej+2Pl+VocPl+Loc: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
+     2+mashkimod+N+Pej+2Pl+VocPl+Obv: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
+     2+mashkimod+N+Pej+2Pl+VocPl+Pl: [gimashkimodaashiwaadig, gimashkimodaashiwaadog]
+     3+mashkimod+N+Pej+3Obv+Pret+Loc: omashkimodaashiniibaniing
+     3+mashkimod+N+Pej+3Obv+Pret+Obv: omashkimodaashiniibaniin
+     3+mashkimod+N+Pej+3Obv+Pret+Pl: omashkimodaashiniibaniin
+     3+mashkimod+N+Pej+3Obv+VocPl+Loc: [omashkimodaashiniidig, omashkimodaashiniidog]
+     3+mashkimod+N+Pej+3Obv+VocPl+Obv: [omashkimodaashiniidig, omashkimodaashiniidog]
+     3+mashkimod+N+Pej+3Obv+VocPl+Pl: [omashkimodaashiniidig, omashkimodaashiniidog]
+     3+mashkimod+N+Pej+3Pl+Pret+Loc: omashkimodaashiwaabaniing
+     3+mashkimod+N+Pej+3Pl+Pret+Obv: omashkimodaashiwaabaniin
+     3+mashkimod+N+Pej+3Pl+Pret+Pl: omashkimodaashiwaabaniin
+     3+mashkimod+N+Pej+3Pl+VocPl+Loc: [omashkimodaashiwaadig, omashkimodaashiwaadog]
+     3+mashkimod+N+Pej+3Pl+VocPl+Obv: [omashkimodaashiwaadig, omashkimodaashiwaadog]
+     3+mashkimod+N+Pej+3Pl+VocPl+Pl: [omashkimodaashiwaadig, omashkimodaashiwaadog]
      
      
      
@@ -1131,301 +1131,301 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6
-     1+mashkimod+Con+Pos+Pej+1Pl+Pret: nimashkimodenyimishinaaniban
-     1+mashkimod+Con+Pos+Pej+1Pl+VocPl: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
-     1+mashkimod+Dim+Pos+Pej+1Pl+Pret: nimashkimodensimishinaaniban
-     1+mashkimod+Dim+Pos+Pej+1Pl+VocPl: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+21+Pret: gimashkimodenyimishinaaniban
-     2+mashkimod+Con+Pos+Pej+21+VocPl: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+2Pl+Pret: gimashkimodenyimishiwaaban
-     2+mashkimod+Con+Pos+Pej+2Pl+VocPl: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
-     2+mashkimod+Dim+Pos+Pej+21+Pret: gimashkimodensimishinaaniban
-     2+mashkimod+Dim+Pos+Pej+21+VocPl: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
-     2+mashkimod+Dim+Pos+Pej+2Pl+Pret: gimashkimodensimishiwaaban
-     2+mashkimod+Dim+Pos+Pej+2Pl+VocPl: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
-     3+mashkimod+Con+Pos+Pej+3Obv+Pret: omashkimodenyimishiniiban
-     3+mashkimod+Con+Pos+Pej+3Obv+VocPl: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
-     3+mashkimod+Con+Pos+Pej+3Pl+Pret: omashkimodenyimishiwaaban
-     3+mashkimod+Con+Pos+Pej+3Pl+VocPl: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
-     3+mashkimod+Dim+Pos+Pej+3Obv+Pret: omashkimodensimishiniiban
-     3+mashkimod+Dim+Pos+Pej+3Obv+VocPl: [omashkimodensimishiniidig, omashkimodensimishiniidog]
-     3+mashkimod+Dim+Pos+Pej+3Pl+Pret: omashkimodensimishiwaaban
-     3+mashkimod+Dim+Pos+Pej+3Pl+VocPl: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Pret: nimashkimodenyimishinaaniban
+     1+mashkimod+N+Con+Pos+Pej+1Pl+VocPl: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Pret: nimashkimodensimishinaaniban
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+VocPl: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+21+Pret: gimashkimodenyimishinaaniban
+     2+mashkimod+N+Con+Pos+Pej+21+VocPl: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Pret: gimashkimodenyimishiwaaban
+     2+mashkimod+N+Con+Pos+Pej+2Pl+VocPl: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
+     2+mashkimod+N+Dim+Pos+Pej+21+Pret: gimashkimodensimishinaaniban
+     2+mashkimod+N+Dim+Pos+Pej+21+VocPl: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Pret: gimashkimodensimishiwaaban
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+VocPl: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Pret: omashkimodenyimishiniiban
+     3+mashkimod+N+Con+Pos+Pej+3Obv+VocPl: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Pret: omashkimodenyimishiwaaban
+     3+mashkimod+N+Con+Pos+Pej+3Pl+VocPl: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Pret: omashkimodensimishiniiban
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+VocPl: [omashkimodensimishiniidig, omashkimodensimishiniidog]
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Pret: omashkimodensimishiwaaban
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+VocPl: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
-     1+mashkimod+Con+Pos+Pej+1Pl+Loc: nimashkimodenyimishinaaning
-     1+mashkimod+Con+Pos+Pej+1Pl+Obv: nimashkimodenyimishinaanin
-     1+mashkimod+Con+Pos+Pej+1Pl+Pl: nimashkimodenyimishinaanin
-     1+mashkimod+Dim+Pos+Pej+1Pl+Loc: nimashkimodensimishinaaning
-     1+mashkimod+Dim+Pos+Pej+1Pl+Obv: nimashkimodensimishinaanin
-     1+mashkimod+Dim+Pos+Pej+1Pl+Pl: nimashkimodensimishinaanin
-     2+mashkimod+Con+Pos+Pej+21+Loc: gimashkimodenyimishinaaning
-     2+mashkimod+Con+Pos+Pej+21+Obv: gimashkimodenyimishinaanin
-     2+mashkimod+Con+Pos+Pej+21+Pl: gimashkimodenyimishinaanin
-     2+mashkimod+Con+Pos+Pej+2Pl+Loc: gimashkimodenyimishiwaang
-     2+mashkimod+Con+Pos+Pej+2Pl+Obv: gimashkimodenyimishiwaan
-     2+mashkimod+Con+Pos+Pej+2Pl+Pl: gimashkimodenyimishiwaan
-     2+mashkimod+Dim+Pos+Pej+21+Loc: gimashkimodensimishinaaning
-     2+mashkimod+Dim+Pos+Pej+21+Obv: gimashkimodensimishinaanin
-     2+mashkimod+Dim+Pos+Pej+21+Pl: gimashkimodensimishinaanin
-     2+mashkimod+Dim+Pos+Pej+2Pl+Loc: gimashkimodensimishiwaang
-     2+mashkimod+Dim+Pos+Pej+2Pl+Obv: gimashkimodensimishiwaan
-     2+mashkimod+Dim+Pos+Pej+2Pl+Pl: gimashkimodensimishiwaan
-     3+mashkimod+Con+Pos+Pej+3Obv+Loc: omashkimodenyimishiniing
-     3+mashkimod+Con+Pos+Pej+3Obv+Obv: omashkimodenyimishiniin
-     3+mashkimod+Con+Pos+Pej+3Obv+Pl: omashkimodenyimishiniin
-     3+mashkimod+Con+Pos+Pej+3Pl+Loc: omashkimodenyimishiwaang
-     3+mashkimod+Con+Pos+Pej+3Pl+Obv: omashkimodenyimishiwaan
-     3+mashkimod+Con+Pos+Pej+3Pl+Pl: omashkimodenyimishiwaan
-     3+mashkimod+Dim+Pos+Pej+3Obv+Loc: omashkimodensimishiniing
-     3+mashkimod+Dim+Pos+Pej+3Obv+Obv: omashkimodensimishiniin
-     3+mashkimod+Dim+Pos+Pej+3Obv+Pl: omashkimodensimishiniin
-     3+mashkimod+Dim+Pos+Pej+3Pl+Loc: omashkimodensimishiwaang
-     3+mashkimod+Dim+Pos+Pej+3Pl+Obv: omashkimodensimishiwaan
-     3+mashkimod+Dim+Pos+Pej+3Pl+Pl: omashkimodensimishiwaan
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Loc: nimashkimodenyimishinaaning
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Obv: nimashkimodenyimishinaanin
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Pl: nimashkimodenyimishinaanin
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Loc: nimashkimodensimishinaaning
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Obv: nimashkimodensimishinaanin
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Pl: nimashkimodensimishinaanin
+     2+mashkimod+N+Con+Pos+Pej+21+Loc: gimashkimodenyimishinaaning
+     2+mashkimod+N+Con+Pos+Pej+21+Obv: gimashkimodenyimishinaanin
+     2+mashkimod+N+Con+Pos+Pej+21+Pl: gimashkimodenyimishinaanin
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Loc: gimashkimodenyimishiwaang
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Obv: gimashkimodenyimishiwaan
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Pl: gimashkimodenyimishiwaan
+     2+mashkimod+N+Dim+Pos+Pej+21+Loc: gimashkimodensimishinaaning
+     2+mashkimod+N+Dim+Pos+Pej+21+Obv: gimashkimodensimishinaanin
+     2+mashkimod+N+Dim+Pos+Pej+21+Pl: gimashkimodensimishinaanin
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Loc: gimashkimodensimishiwaang
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Obv: gimashkimodensimishiwaan
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Pl: gimashkimodensimishiwaan
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Loc: omashkimodenyimishiniing
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Obv: omashkimodenyimishiniin
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Pl: omashkimodenyimishiniin
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Loc: omashkimodenyimishiwaang
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Obv: omashkimodenyimishiwaan
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Pl: omashkimodenyimishiwaan
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Loc: omashkimodensimishiniing
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Obv: omashkimodensimishiniin
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Pl: omashkimodensimishiniin
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Loc: omashkimodensimishiwaang
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Obv: omashkimodensimishiwaan
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Pl: omashkimodensimishiwaan
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
-     1+mashkimod+Con+Pos+Pej+Pret+Loc: nimashkimodenyimishibaniing
-     1+mashkimod+Con+Pos+Pej+Pret+Obv: nimashkimodenyimishibaniin
-     1+mashkimod+Con+Pos+Pej+Pret+Pl: nimashkimodenyimishibaniin
-     1+mashkimod+Dim+Pos+Pej+Pret+Loc: nimashkimodensimishibaniing
-     1+mashkimod+Dim+Pos+Pej+Pret+Obv: nimashkimodensimishibaniin
-     1+mashkimod+Dim+Pos+Pej+Pret+Pl: nimashkimodensimishibaniin
-     2+mashkimod+Con+Pos+Pej+Pret+Loc: gimashkimodenyimishibaniing
-     2+mashkimod+Con+Pos+Pej+Pret+Obv: gimashkimodenyimishibaniin
-     2+mashkimod+Con+Pos+Pej+Pret+Pl: gimashkimodenyimishibaniin
-     2+mashkimod+Dim+Pos+Pej+Pret+Loc: gimashkimodensimishibaniing
-     2+mashkimod+Dim+Pos+Pej+Pret+Obv: gimashkimodensimishibaniin
-     2+mashkimod+Dim+Pos+Pej+Pret+Pl: gimashkimodensimishibaniin
-     3+mashkimod+Con+Pos+Pej+Pret+Loc: omashkimodenyimishibaniing
-     3+mashkimod+Con+Pos+Pej+Pret+Obv: omashkimodenyimishibaniin
-     3+mashkimod+Con+Pos+Pej+Pret+Pl: omashkimodenyimishibaniin
-     3+mashkimod+Dim+Pos+Pej+Pret+Loc: omashkimodensimishibaniing
-     3+mashkimod+Dim+Pos+Pej+Pret+Obv: omashkimodensimishibaniin
-     3+mashkimod+Dim+Pos+Pej+Pret+Pl: omashkimodensimishibaniin
-     X+mashkimod+Con+Pos+Pej+Pret+Loc: imashkimodenyimishibaniing
-     X+mashkimod+Con+Pos+Pej+Pret+Obv: imashkimodenyimishibaniin
-     X+mashkimod+Con+Pos+Pej+Pret+Pl: imashkimodenyimishibaniin
-     X+mashkimod+Dim+Pos+Pej+Pret+Loc: imashkimodensimishibaniing
-     X+mashkimod+Dim+Pos+Pej+Pret+Obv: imashkimodensimishibaniin
-     X+mashkimod+Dim+Pos+Pej+Pret+Pl: imashkimodensimishibaniin
+     1+mashkimod+N+Con+Pos+Pej+Pret+Loc: nimashkimodenyimishibaniing
+     1+mashkimod+N+Con+Pos+Pej+Pret+Obv: nimashkimodenyimishibaniin
+     1+mashkimod+N+Con+Pos+Pej+Pret+Pl: nimashkimodenyimishibaniin
+     1+mashkimod+N+Dim+Pos+Pej+Pret+Loc: nimashkimodensimishibaniing
+     1+mashkimod+N+Dim+Pos+Pej+Pret+Obv: nimashkimodensimishibaniin
+     1+mashkimod+N+Dim+Pos+Pej+Pret+Pl: nimashkimodensimishibaniin
+     2+mashkimod+N+Con+Pos+Pej+Pret+Loc: gimashkimodenyimishibaniing
+     2+mashkimod+N+Con+Pos+Pej+Pret+Obv: gimashkimodenyimishibaniin
+     2+mashkimod+N+Con+Pos+Pej+Pret+Pl: gimashkimodenyimishibaniin
+     2+mashkimod+N+Dim+Pos+Pej+Pret+Loc: gimashkimodensimishibaniing
+     2+mashkimod+N+Dim+Pos+Pej+Pret+Obv: gimashkimodensimishibaniin
+     2+mashkimod+N+Dim+Pos+Pej+Pret+Pl: gimashkimodensimishibaniin
+     3+mashkimod+N+Con+Pos+Pej+Pret+Loc: omashkimodenyimishibaniing
+     3+mashkimod+N+Con+Pos+Pej+Pret+Obv: omashkimodenyimishibaniin
+     3+mashkimod+N+Con+Pos+Pej+Pret+Pl: omashkimodenyimishibaniin
+     3+mashkimod+N+Dim+Pos+Pej+Pret+Loc: omashkimodensimishibaniing
+     3+mashkimod+N+Dim+Pos+Pej+Pret+Obv: omashkimodensimishibaniin
+     3+mashkimod+N+Dim+Pos+Pej+Pret+Pl: omashkimodensimishibaniin
+     X+mashkimod+N+Con+Pos+Pej+Pret+Loc: imashkimodenyimishibaniing
+     X+mashkimod+N+Con+Pos+Pej+Pret+Obv: imashkimodenyimishibaniin
+     X+mashkimod+N+Con+Pos+Pej+Pret+Pl: imashkimodenyimishibaniin
+     X+mashkimod+N+Dim+Pos+Pej+Pret+Loc: imashkimodensimishibaniing
+     X+mashkimod+N+Dim+Pos+Pej+Pret+Obv: imashkimodensimishibaniin
+     X+mashkimod+N+Dim+Pos+Pej+Pret+Pl: imashkimodensimishibaniin
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
-     1+mashkimod+Con+Pos+1Pl+Pret+Loc: nimashkimodenyiminaanibaniing
-     1+mashkimod+Con+Pos+1Pl+Pret+Obv: nimashkimodenyiminaanibaniin
-     1+mashkimod+Con+Pos+1Pl+Pret+Pl: nimashkimodenyiminaanibaniin
-     1+mashkimod+Con+Pos+1Pl+VocPl+Loc: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
-     1+mashkimod+Con+Pos+1Pl+VocPl+Obv: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
-     1+mashkimod+Con+Pos+1Pl+VocPl+Pl: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
-     1+mashkimod+Dim+Pos+1Pl+Pret+Loc: nimashkimodensiminaanibaniing
-     1+mashkimod+Dim+Pos+1Pl+Pret+Obv: nimashkimodensiminaanibaniin
-     1+mashkimod+Dim+Pos+1Pl+Pret+Pl: nimashkimodensiminaanibaniin
-     1+mashkimod+Dim+Pos+1Pl+VocPl+Loc: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
-     1+mashkimod+Dim+Pos+1Pl+VocPl+Obv: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
-     1+mashkimod+Dim+Pos+1Pl+VocPl+Pl: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
-     2+mashkimod+Con+Pos+21+Pret+Loc: gimashkimodenyiminaanibaniing
-     2+mashkimod+Con+Pos+21+Pret+Obv: gimashkimodenyiminaanibaniin
-     2+mashkimod+Con+Pos+21+Pret+Pl: gimashkimodenyiminaanibaniin
-     2+mashkimod+Con+Pos+21+VocPl+Loc: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
-     2+mashkimod+Con+Pos+21+VocPl+Obv: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
-     2+mashkimod+Con+Pos+21+VocPl+Pl: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
-     2+mashkimod+Con+Pos+2Pl+Pret+Loc: gimashkimodenyimiwaabaniing
-     2+mashkimod+Con+Pos+2Pl+Pret+Obv: gimashkimodenyimiwaabaniin
-     2+mashkimod+Con+Pos+2Pl+Pret+Pl: gimashkimodenyimiwaabaniin
-     2+mashkimod+Con+Pos+2Pl+VocPl+Loc: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
-     2+mashkimod+Con+Pos+2Pl+VocPl+Obv: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
-     2+mashkimod+Con+Pos+2Pl+VocPl+Pl: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
-     2+mashkimod+Dim+Pos+21+Pret+Loc: gimashkimodensiminaanibaniing
-     2+mashkimod+Dim+Pos+21+Pret+Obv: gimashkimodensiminaanibaniin
-     2+mashkimod+Dim+Pos+21+Pret+Pl: gimashkimodensiminaanibaniin
-     2+mashkimod+Dim+Pos+21+VocPl+Loc: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
-     2+mashkimod+Dim+Pos+21+VocPl+Obv: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
-     2+mashkimod+Dim+Pos+21+VocPl+Pl: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
-     2+mashkimod+Dim+Pos+2Pl+Pret+Loc: gimashkimodensimiwaabaniing
-     2+mashkimod+Dim+Pos+2Pl+Pret+Obv: gimashkimodensimiwaabaniin
-     2+mashkimod+Dim+Pos+2Pl+Pret+Pl: gimashkimodensimiwaabaniin
-     2+mashkimod+Dim+Pos+2Pl+VocPl+Loc: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
-     2+mashkimod+Dim+Pos+2Pl+VocPl+Obv: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
-     2+mashkimod+Dim+Pos+2Pl+VocPl+Pl: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
-     3+mashkimod+Con+Pos+3Obv+Pret+Loc: omashkimodenyiminiibaniing
-     3+mashkimod+Con+Pos+3Obv+Pret+Obv: omashkimodenyiminiibaniin
-     3+mashkimod+Con+Pos+3Obv+Pret+Pl: omashkimodenyiminiibaniin
-     3+mashkimod+Con+Pos+3Obv+VocPl+Loc: [omashkimodenyiminiidig, omashkimodenyiminiidog]
-     3+mashkimod+Con+Pos+3Obv+VocPl+Obv: [omashkimodenyiminiidig, omashkimodenyiminiidog]
-     3+mashkimod+Con+Pos+3Obv+VocPl+Pl: [omashkimodenyiminiidig, omashkimodenyiminiidog]
-     3+mashkimod+Con+Pos+3Pl+Pret+Loc: omashkimodenyimiwaabaniing
-     3+mashkimod+Con+Pos+3Pl+Pret+Obv: omashkimodenyimiwaabaniin
-     3+mashkimod+Con+Pos+3Pl+Pret+Pl: omashkimodenyimiwaabaniin
-     3+mashkimod+Con+Pos+3Pl+VocPl+Loc: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
-     3+mashkimod+Con+Pos+3Pl+VocPl+Obv: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
-     3+mashkimod+Con+Pos+3Pl+VocPl+Pl: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
-     3+mashkimod+Dim+Pos+3Obv+Pret+Loc: omashkimodensiminiibaniing
-     3+mashkimod+Dim+Pos+3Obv+Pret+Obv: omashkimodensiminiibaniin
-     3+mashkimod+Dim+Pos+3Obv+Pret+Pl: omashkimodensiminiibaniin
-     3+mashkimod+Dim+Pos+3Obv+VocPl+Loc: [omashkimodensiminiidig, omashkimodensiminiidog]
-     3+mashkimod+Dim+Pos+3Obv+VocPl+Obv: [omashkimodensiminiidig, omashkimodensiminiidog]
-     3+mashkimod+Dim+Pos+3Obv+VocPl+Pl: [omashkimodensiminiidig, omashkimodensiminiidog]
-     3+mashkimod+Dim+Pos+3Pl+Pret+Loc: omashkimodensimiwaabaniing
-     3+mashkimod+Dim+Pos+3Pl+Pret+Obv: omashkimodensimiwaabaniin
-     3+mashkimod+Dim+Pos+3Pl+Pret+Pl: omashkimodensimiwaabaniin
-     3+mashkimod+Dim+Pos+3Pl+VocPl+Loc: [omashkimodensimiwaadig, omashkimodensimiwaadog]
-     3+mashkimod+Dim+Pos+3Pl+VocPl+Obv: [omashkimodensimiwaadig, omashkimodensimiwaadog]
-     3+mashkimod+Dim+Pos+3Pl+VocPl+Pl: [omashkimodensimiwaadig, omashkimodensimiwaadog]
+     1+mashkimod+N+Con+Pos+1Pl+Pret+Loc: nimashkimodenyiminaanibaniing
+     1+mashkimod+N+Con+Pos+1Pl+Pret+Obv: nimashkimodenyiminaanibaniin
+     1+mashkimod+N+Con+Pos+1Pl+Pret+Pl: nimashkimodenyiminaanibaniin
+     1+mashkimod+N+Con+Pos+1Pl+VocPl+Loc: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
+     1+mashkimod+N+Con+Pos+1Pl+VocPl+Obv: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
+     1+mashkimod+N+Con+Pos+1Pl+VocPl+Pl: [nimashkimodenyiminaanidig, nimashkimodenyiminaanidog]
+     1+mashkimod+N+Dim+Pos+1Pl+Pret+Loc: nimashkimodensiminaanibaniing
+     1+mashkimod+N+Dim+Pos+1Pl+Pret+Obv: nimashkimodensiminaanibaniin
+     1+mashkimod+N+Dim+Pos+1Pl+Pret+Pl: nimashkimodensiminaanibaniin
+     1+mashkimod+N+Dim+Pos+1Pl+VocPl+Loc: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
+     1+mashkimod+N+Dim+Pos+1Pl+VocPl+Obv: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
+     1+mashkimod+N+Dim+Pos+1Pl+VocPl+Pl: [nimashkimodensiminaanidig, nimashkimodensiminaanidog]
+     2+mashkimod+N+Con+Pos+21+Pret+Loc: gimashkimodenyiminaanibaniing
+     2+mashkimod+N+Con+Pos+21+Pret+Obv: gimashkimodenyiminaanibaniin
+     2+mashkimod+N+Con+Pos+21+Pret+Pl: gimashkimodenyiminaanibaniin
+     2+mashkimod+N+Con+Pos+21+VocPl+Loc: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
+     2+mashkimod+N+Con+Pos+21+VocPl+Obv: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
+     2+mashkimod+N+Con+Pos+21+VocPl+Pl: [gimashkimodenyiminaanidig, gimashkimodenyiminaanidog]
+     2+mashkimod+N+Con+Pos+2Pl+Pret+Loc: gimashkimodenyimiwaabaniing
+     2+mashkimod+N+Con+Pos+2Pl+Pret+Obv: gimashkimodenyimiwaabaniin
+     2+mashkimod+N+Con+Pos+2Pl+Pret+Pl: gimashkimodenyimiwaabaniin
+     2+mashkimod+N+Con+Pos+2Pl+VocPl+Loc: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
+     2+mashkimod+N+Con+Pos+2Pl+VocPl+Obv: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
+     2+mashkimod+N+Con+Pos+2Pl+VocPl+Pl: [gimashkimodenyimiwaadig, gimashkimodenyimiwaadog]
+     2+mashkimod+N+Dim+Pos+21+Pret+Loc: gimashkimodensiminaanibaniing
+     2+mashkimod+N+Dim+Pos+21+Pret+Obv: gimashkimodensiminaanibaniin
+     2+mashkimod+N+Dim+Pos+21+Pret+Pl: gimashkimodensiminaanibaniin
+     2+mashkimod+N+Dim+Pos+21+VocPl+Loc: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
+     2+mashkimod+N+Dim+Pos+21+VocPl+Obv: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
+     2+mashkimod+N+Dim+Pos+21+VocPl+Pl: [gimashkimodensiminaanidig, gimashkimodensiminaanidog]
+     2+mashkimod+N+Dim+Pos+2Pl+Pret+Loc: gimashkimodensimiwaabaniing
+     2+mashkimod+N+Dim+Pos+2Pl+Pret+Obv: gimashkimodensimiwaabaniin
+     2+mashkimod+N+Dim+Pos+2Pl+Pret+Pl: gimashkimodensimiwaabaniin
+     2+mashkimod+N+Dim+Pos+2Pl+VocPl+Loc: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
+     2+mashkimod+N+Dim+Pos+2Pl+VocPl+Obv: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
+     2+mashkimod+N+Dim+Pos+2Pl+VocPl+Pl: [gimashkimodensimiwaadig, gimashkimodensimiwaadog]
+     3+mashkimod+N+Con+Pos+3Obv+Pret+Loc: omashkimodenyiminiibaniing
+     3+mashkimod+N+Con+Pos+3Obv+Pret+Obv: omashkimodenyiminiibaniin
+     3+mashkimod+N+Con+Pos+3Obv+Pret+Pl: omashkimodenyiminiibaniin
+     3+mashkimod+N+Con+Pos+3Obv+VocPl+Loc: [omashkimodenyiminiidig, omashkimodenyiminiidog]
+     3+mashkimod+N+Con+Pos+3Obv+VocPl+Obv: [omashkimodenyiminiidig, omashkimodenyiminiidog]
+     3+mashkimod+N+Con+Pos+3Obv+VocPl+Pl: [omashkimodenyiminiidig, omashkimodenyiminiidog]
+     3+mashkimod+N+Con+Pos+3Pl+Pret+Loc: omashkimodenyimiwaabaniing
+     3+mashkimod+N+Con+Pos+3Pl+Pret+Obv: omashkimodenyimiwaabaniin
+     3+mashkimod+N+Con+Pos+3Pl+Pret+Pl: omashkimodenyimiwaabaniin
+     3+mashkimod+N+Con+Pos+3Pl+VocPl+Loc: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
+     3+mashkimod+N+Con+Pos+3Pl+VocPl+Obv: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
+     3+mashkimod+N+Con+Pos+3Pl+VocPl+Pl: [omashkimodenyimiwaadig, omashkimodenyimiwaadog]
+     3+mashkimod+N+Dim+Pos+3Obv+Pret+Loc: omashkimodensiminiibaniing
+     3+mashkimod+N+Dim+Pos+3Obv+Pret+Obv: omashkimodensiminiibaniin
+     3+mashkimod+N+Dim+Pos+3Obv+Pret+Pl: omashkimodensiminiibaniin
+     3+mashkimod+N+Dim+Pos+3Obv+VocPl+Loc: [omashkimodensiminiidig, omashkimodensiminiidog]
+     3+mashkimod+N+Dim+Pos+3Obv+VocPl+Obv: [omashkimodensiminiidig, omashkimodensiminiidog]
+     3+mashkimod+N+Dim+Pos+3Obv+VocPl+Pl: [omashkimodensiminiidig, omashkimodensiminiidog]
+     3+mashkimod+N+Dim+Pos+3Pl+Pret+Loc: omashkimodensimiwaabaniing
+     3+mashkimod+N+Dim+Pos+3Pl+Pret+Obv: omashkimodensimiwaabaniin
+     3+mashkimod+N+Dim+Pos+3Pl+Pret+Pl: omashkimodensimiwaabaniin
+     3+mashkimod+N+Dim+Pos+3Pl+VocPl+Loc: [omashkimodensimiwaadig, omashkimodensimiwaadog]
+     3+mashkimod+N+Dim+Pos+3Pl+VocPl+Obv: [omashkimodensimiwaadig, omashkimodensimiwaadog]
+     3+mashkimod+N+Dim+Pos+3Pl+VocPl+Pl: [omashkimodensimiwaadig, omashkimodensimiwaadog]
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
-     1+mashkimod+Con+Pej+1Pl+Pret+Loc: nimashkimodenyishinaanibaniing
-     1+mashkimod+Con+Pej+1Pl+Pret+Obv: nimashkimodenyishinaanibaniin
-     1+mashkimod+Con+Pej+1Pl+Pret+Pl: nimashkimodenyishinaanibaniin
-     1+mashkimod+Con+Pej+1Pl+VocPl+Loc: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
-     1+mashkimod+Con+Pej+1Pl+VocPl+Obv: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
-     1+mashkimod+Con+Pej+1Pl+VocPl+Pl: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
-     1+mashkimod+Dim+Pej+1Pl+Pret+Loc: nimashkimodensishinaanibaniing
-     1+mashkimod+Dim+Pej+1Pl+Pret+Obv: nimashkimodensishinaanibaniin
-     1+mashkimod+Dim+Pej+1Pl+Pret+Pl: nimashkimodensishinaanibaniin
-     1+mashkimod+Dim+Pej+1Pl+VocPl+Loc: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
-     1+mashkimod+Dim+Pej+1Pl+VocPl+Obv: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
-     1+mashkimod+Dim+Pej+1Pl+VocPl+Pl: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
-     2+mashkimod+Con+Pej+21+Pret+Loc: gimashkimodenyishinaanibaniing
-     2+mashkimod+Con+Pej+21+Pret+Obv: gimashkimodenyishinaanibaniin
-     2+mashkimod+Con+Pej+21+Pret+Pl: gimashkimodenyishinaanibaniin
-     2+mashkimod+Con+Pej+21+VocPl+Loc: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
-     2+mashkimod+Con+Pej+21+VocPl+Obv: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
-     2+mashkimod+Con+Pej+21+VocPl+Pl: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
-     2+mashkimod+Con+Pej+2Pl+Pret+Loc: gimashkimodenyishiwaabaniing
-     2+mashkimod+Con+Pej+2Pl+Pret+Obv: gimashkimodenyishiwaabaniin
-     2+mashkimod+Con+Pej+2Pl+Pret+Pl: gimashkimodenyishiwaabaniin
-     2+mashkimod+Con+Pej+2Pl+VocPl+Loc: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
-     2+mashkimod+Con+Pej+2Pl+VocPl+Obv: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
-     2+mashkimod+Con+Pej+2Pl+VocPl+Pl: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
-     2+mashkimod+Dim+Pej+21+Pret+Loc: gimashkimodensishinaanibaniing
-     2+mashkimod+Dim+Pej+21+Pret+Obv: gimashkimodensishinaanibaniin
-     2+mashkimod+Dim+Pej+21+Pret+Pl: gimashkimodensishinaanibaniin
-     2+mashkimod+Dim+Pej+21+VocPl+Loc: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
-     2+mashkimod+Dim+Pej+21+VocPl+Obv: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
-     2+mashkimod+Dim+Pej+21+VocPl+Pl: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
-     2+mashkimod+Dim+Pej+2Pl+Pret+Loc: gimashkimodensishiwaabaniing
-     2+mashkimod+Dim+Pej+2Pl+Pret+Obv: gimashkimodensishiwaabaniin
-     2+mashkimod+Dim+Pej+2Pl+Pret+Pl: gimashkimodensishiwaabaniin
-     2+mashkimod+Dim+Pej+2Pl+VocPl+Loc: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
-     2+mashkimod+Dim+Pej+2Pl+VocPl+Obv: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
-     2+mashkimod+Dim+Pej+2Pl+VocPl+Pl: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
-     3+mashkimod+Con+Pej+3Obv+Pret+Loc: omashkimodenyishiniibaniing
-     3+mashkimod+Con+Pej+3Obv+Pret+Obv: omashkimodenyishiniibaniin
-     3+mashkimod+Con+Pej+3Obv+Pret+Pl: omashkimodenyishiniibaniin
-     3+mashkimod+Con+Pej+3Obv+VocPl+Loc: [omashkimodenyishiniidig, omashkimodenyishiniidog]
-     3+mashkimod+Con+Pej+3Obv+VocPl+Obv: [omashkimodenyishiniidig, omashkimodenyishiniidog]
-     3+mashkimod+Con+Pej+3Obv+VocPl+Pl: [omashkimodenyishiniidig, omashkimodenyishiniidog]
-     3+mashkimod+Con+Pej+3Pl+Pret+Loc: omashkimodenyishiwaabaniing
-     3+mashkimod+Con+Pej+3Pl+Pret+Obv: omashkimodenyishiwaabaniin
-     3+mashkimod+Con+Pej+3Pl+Pret+Pl: omashkimodenyishiwaabaniin
-     3+mashkimod+Con+Pej+3Pl+VocPl+Loc: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
-     3+mashkimod+Con+Pej+3Pl+VocPl+Obv: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
-     3+mashkimod+Con+Pej+3Pl+VocPl+Pl: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
-     3+mashkimod+Dim+Pej+3Obv+Pret+Loc: omashkimodensishiniibaniing
-     3+mashkimod+Dim+Pej+3Obv+Pret+Obv: omashkimodensishiniibaniin
-     3+mashkimod+Dim+Pej+3Obv+Pret+Pl: omashkimodensishiniibaniin
-     3+mashkimod+Dim+Pej+3Obv+VocPl+Loc: [omashkimodensishiniidig, omashkimodensishiniidog]
-     3+mashkimod+Dim+Pej+3Obv+VocPl+Obv: [omashkimodensishiniidig, omashkimodensishiniidog]
-     3+mashkimod+Dim+Pej+3Obv+VocPl+Pl: [omashkimodensishiniidig, omashkimodensishiniidog]
-     3+mashkimod+Dim+Pej+3Pl+Pret+Loc: omashkimodensishiwaabaniing
-     3+mashkimod+Dim+Pej+3Pl+Pret+Obv: omashkimodensishiwaabaniin
-     3+mashkimod+Dim+Pej+3Pl+Pret+Pl: omashkimodensishiwaabaniin
-     3+mashkimod+Dim+Pej+3Pl+VocPl+Loc: [omashkimodensishiwaadig, omashkimodensishiwaadog]
-     3+mashkimod+Dim+Pej+3Pl+VocPl+Obv: [omashkimodensishiwaadig, omashkimodensishiwaadog]
-     3+mashkimod+Dim+Pej+3Pl+VocPl+Pl: [omashkimodensishiwaadig, omashkimodensishiwaadog]
+     1+mashkimod+N+Con+Pej+1Pl+Pret+Loc: nimashkimodenyishinaanibaniing
+     1+mashkimod+N+Con+Pej+1Pl+Pret+Obv: nimashkimodenyishinaanibaniin
+     1+mashkimod+N+Con+Pej+1Pl+Pret+Pl: nimashkimodenyishinaanibaniin
+     1+mashkimod+N+Con+Pej+1Pl+VocPl+Loc: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
+     1+mashkimod+N+Con+Pej+1Pl+VocPl+Obv: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
+     1+mashkimod+N+Con+Pej+1Pl+VocPl+Pl: [nimashkimodenyishinaanidig, nimashkimodenyishinaanidog]
+     1+mashkimod+N+Dim+Pej+1Pl+Pret+Loc: nimashkimodensishinaanibaniing
+     1+mashkimod+N+Dim+Pej+1Pl+Pret+Obv: nimashkimodensishinaanibaniin
+     1+mashkimod+N+Dim+Pej+1Pl+Pret+Pl: nimashkimodensishinaanibaniin
+     1+mashkimod+N+Dim+Pej+1Pl+VocPl+Loc: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
+     1+mashkimod+N+Dim+Pej+1Pl+VocPl+Obv: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
+     1+mashkimod+N+Dim+Pej+1Pl+VocPl+Pl: [nimashkimodensishinaanidig, nimashkimodensishinaanidog]
+     2+mashkimod+N+Con+Pej+21+Pret+Loc: gimashkimodenyishinaanibaniing
+     2+mashkimod+N+Con+Pej+21+Pret+Obv: gimashkimodenyishinaanibaniin
+     2+mashkimod+N+Con+Pej+21+Pret+Pl: gimashkimodenyishinaanibaniin
+     2+mashkimod+N+Con+Pej+21+VocPl+Loc: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
+     2+mashkimod+N+Con+Pej+21+VocPl+Obv: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
+     2+mashkimod+N+Con+Pej+21+VocPl+Pl: [gimashkimodenyishinaanidig, gimashkimodenyishinaanidog]
+     2+mashkimod+N+Con+Pej+2Pl+Pret+Loc: gimashkimodenyishiwaabaniing
+     2+mashkimod+N+Con+Pej+2Pl+Pret+Obv: gimashkimodenyishiwaabaniin
+     2+mashkimod+N+Con+Pej+2Pl+Pret+Pl: gimashkimodenyishiwaabaniin
+     2+mashkimod+N+Con+Pej+2Pl+VocPl+Loc: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
+     2+mashkimod+N+Con+Pej+2Pl+VocPl+Obv: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
+     2+mashkimod+N+Con+Pej+2Pl+VocPl+Pl: [gimashkimodenyishiwaadig, gimashkimodenyishiwaadog]
+     2+mashkimod+N+Dim+Pej+21+Pret+Loc: gimashkimodensishinaanibaniing
+     2+mashkimod+N+Dim+Pej+21+Pret+Obv: gimashkimodensishinaanibaniin
+     2+mashkimod+N+Dim+Pej+21+Pret+Pl: gimashkimodensishinaanibaniin
+     2+mashkimod+N+Dim+Pej+21+VocPl+Loc: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
+     2+mashkimod+N+Dim+Pej+21+VocPl+Obv: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
+     2+mashkimod+N+Dim+Pej+21+VocPl+Pl: [gimashkimodensishinaanidig, gimashkimodensishinaanidog]
+     2+mashkimod+N+Dim+Pej+2Pl+Pret+Loc: gimashkimodensishiwaabaniing
+     2+mashkimod+N+Dim+Pej+2Pl+Pret+Obv: gimashkimodensishiwaabaniin
+     2+mashkimod+N+Dim+Pej+2Pl+Pret+Pl: gimashkimodensishiwaabaniin
+     2+mashkimod+N+Dim+Pej+2Pl+VocPl+Loc: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
+     2+mashkimod+N+Dim+Pej+2Pl+VocPl+Obv: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
+     2+mashkimod+N+Dim+Pej+2Pl+VocPl+Pl: [gimashkimodensishiwaadig, gimashkimodensishiwaadog]
+     3+mashkimod+N+Con+Pej+3Obv+Pret+Loc: omashkimodenyishiniibaniing
+     3+mashkimod+N+Con+Pej+3Obv+Pret+Obv: omashkimodenyishiniibaniin
+     3+mashkimod+N+Con+Pej+3Obv+Pret+Pl: omashkimodenyishiniibaniin
+     3+mashkimod+N+Con+Pej+3Obv+VocPl+Loc: [omashkimodenyishiniidig, omashkimodenyishiniidog]
+     3+mashkimod+N+Con+Pej+3Obv+VocPl+Obv: [omashkimodenyishiniidig, omashkimodenyishiniidog]
+     3+mashkimod+N+Con+Pej+3Obv+VocPl+Pl: [omashkimodenyishiniidig, omashkimodenyishiniidog]
+     3+mashkimod+N+Con+Pej+3Pl+Pret+Loc: omashkimodenyishiwaabaniing
+     3+mashkimod+N+Con+Pej+3Pl+Pret+Obv: omashkimodenyishiwaabaniin
+     3+mashkimod+N+Con+Pej+3Pl+Pret+Pl: omashkimodenyishiwaabaniin
+     3+mashkimod+N+Con+Pej+3Pl+VocPl+Loc: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
+     3+mashkimod+N+Con+Pej+3Pl+VocPl+Obv: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
+     3+mashkimod+N+Con+Pej+3Pl+VocPl+Pl: [omashkimodenyishiwaadig, omashkimodenyishiwaadog]
+     3+mashkimod+N+Dim+Pej+3Obv+Pret+Loc: omashkimodensishiniibaniing
+     3+mashkimod+N+Dim+Pej+3Obv+Pret+Obv: omashkimodensishiniibaniin
+     3+mashkimod+N+Dim+Pej+3Obv+Pret+Pl: omashkimodensishiniibaniin
+     3+mashkimod+N+Dim+Pej+3Obv+VocPl+Loc: [omashkimodensishiniidig, omashkimodensishiniidog]
+     3+mashkimod+N+Dim+Pej+3Obv+VocPl+Obv: [omashkimodensishiniidig, omashkimodensishiniidog]
+     3+mashkimod+N+Dim+Pej+3Obv+VocPl+Pl: [omashkimodensishiniidig, omashkimodensishiniidog]
+     3+mashkimod+N+Dim+Pej+3Pl+Pret+Loc: omashkimodensishiwaabaniing
+     3+mashkimod+N+Dim+Pej+3Pl+Pret+Obv: omashkimodensishiwaabaniin
+     3+mashkimod+N+Dim+Pej+3Pl+Pret+Pl: omashkimodensishiwaabaniin
+     3+mashkimod+N+Dim+Pej+3Pl+VocPl+Loc: [omashkimodensishiwaadig, omashkimodensishiwaadog]
+     3+mashkimod+N+Dim+Pej+3Pl+VocPl+Obv: [omashkimodensishiwaadig, omashkimodensishiwaadog]
+     3+mashkimod+N+Dim+Pej+3Pl+VocPl+Pl: [omashkimodensishiwaadig, omashkimodensishiwaadog]
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
-     1+mashkimod+Pos+Pej+1Pl+Pret+Loc: nimashkimodaamishinaanibaniing
-     1+mashkimod+Pos+Pej+1Pl+Pret+Obv: nimashkimodaamishinaanibaniin
-     1+mashkimod+Pos+Pej+1Pl+Pret+Pl: nimashkimodaamishinaanibaniin
-     1+mashkimod+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
-     1+mashkimod+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
-     1+mashkimod+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+21+Pret+Loc: gimashkimodaamishinaanibaniing
-     2+mashkimod+Pos+Pej+21+Pret+Obv: gimashkimodaamishinaanibaniin
-     2+mashkimod+Pos+Pej+21+Pret+Pl: gimashkimodaamishinaanibaniin
-     2+mashkimod+Pos+Pej+21+VocPl+Loc: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+21+VocPl+Obv: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+21+VocPl+Pl: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
-     2+mashkimod+Pos+Pej+2Pl+Pret+Loc: gimashkimodaamishiwaabaniing
-     2+mashkimod+Pos+Pej+2Pl+Pret+Obv: gimashkimodaamishiwaabaniin
-     2+mashkimod+Pos+Pej+2Pl+Pret+Pl: gimashkimodaamishiwaabaniin
-     2+mashkimod+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
-     2+mashkimod+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
-     2+mashkimod+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
-     3+mashkimod+Pos+Pej+3Obv+Pret+Loc: omashkimodaamishiniibaniing
-     3+mashkimod+Pos+Pej+3Obv+Pret+Obv: omashkimodaamishiniibaniin
-     3+mashkimod+Pos+Pej+3Obv+Pret+Pl: omashkimodaamishiniibaniin
-     3+mashkimod+Pos+Pej+3Obv+VocPl+Loc: [omashkimodaamishiniidig, omashkimodaamishiniidog]
-     3+mashkimod+Pos+Pej+3Obv+VocPl+Obv: [omashkimodaamishiniidig, omashkimodaamishiniidog]
-     3+mashkimod+Pos+Pej+3Obv+VocPl+Pl: [omashkimodaamishiniidig, omashkimodaamishiniidog]
-     3+mashkimod+Pos+Pej+3Pl+Pret+Loc: omashkimodaamishiwaabaniing
-     3+mashkimod+Pos+Pej+3Pl+Pret+Obv: omashkimodaamishiwaabaniin
-     3+mashkimod+Pos+Pej+3Pl+Pret+Pl: omashkimodaamishiwaabaniin
-     3+mashkimod+Pos+Pej+3Pl+VocPl+Loc: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
-     3+mashkimod+Pos+Pej+3Pl+VocPl+Obv: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
-     3+mashkimod+Pos+Pej+3Pl+VocPl+Pl: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
+     1+mashkimod+N+Pos+Pej+1Pl+Pret+Loc: nimashkimodaamishinaanibaniing
+     1+mashkimod+N+Pos+Pej+1Pl+Pret+Obv: nimashkimodaamishinaanibaniin
+     1+mashkimod+N+Pos+Pej+1Pl+Pret+Pl: nimashkimodaamishinaanibaniin
+     1+mashkimod+N+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
+     1+mashkimod+N+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
+     1+mashkimod+N+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodaamishinaanidig, nimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+21+Pret+Loc: gimashkimodaamishinaanibaniing
+     2+mashkimod+N+Pos+Pej+21+Pret+Obv: gimashkimodaamishinaanibaniin
+     2+mashkimod+N+Pos+Pej+21+Pret+Pl: gimashkimodaamishinaanibaniin
+     2+mashkimod+N+Pos+Pej+21+VocPl+Loc: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+21+VocPl+Obv: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+21+VocPl+Pl: [gimashkimodaamishinaanidig, gimashkimodaamishinaanidog]
+     2+mashkimod+N+Pos+Pej+2Pl+Pret+Loc: gimashkimodaamishiwaabaniing
+     2+mashkimod+N+Pos+Pej+2Pl+Pret+Obv: gimashkimodaamishiwaabaniin
+     2+mashkimod+N+Pos+Pej+2Pl+Pret+Pl: gimashkimodaamishiwaabaniin
+     2+mashkimod+N+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
+     2+mashkimod+N+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
+     2+mashkimod+N+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodaamishiwaadig, gimashkimodaamishiwaadog]
+     3+mashkimod+N+Pos+Pej+3Obv+Pret+Loc: omashkimodaamishiniibaniing
+     3+mashkimod+N+Pos+Pej+3Obv+Pret+Obv: omashkimodaamishiniibaniin
+     3+mashkimod+N+Pos+Pej+3Obv+Pret+Pl: omashkimodaamishiniibaniin
+     3+mashkimod+N+Pos+Pej+3Obv+VocPl+Loc: [omashkimodaamishiniidig, omashkimodaamishiniidog]
+     3+mashkimod+N+Pos+Pej+3Obv+VocPl+Obv: [omashkimodaamishiniidig, omashkimodaamishiniidog]
+     3+mashkimod+N+Pos+Pej+3Obv+VocPl+Pl: [omashkimodaamishiniidig, omashkimodaamishiniidog]
+     3+mashkimod+N+Pos+Pej+3Pl+Pret+Loc: omashkimodaamishiwaabaniing
+     3+mashkimod+N+Pos+Pej+3Pl+Pret+Obv: omashkimodaamishiwaabaniin
+     3+mashkimod+N+Pos+Pej+3Pl+Pret+Pl: omashkimodaamishiwaabaniin
+     3+mashkimod+N+Pos+Pej+3Pl+VocPl+Loc: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
+     3+mashkimod+N+Pos+Pej+3Pl+VocPl+Obv: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
+     3+mashkimod+N+Pos+Pej+3Pl+VocPl+Pl: [omashkimodaamishiwaadig, omashkimodaamishiwaadog]
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
-     1+mashkimod+Con+Pos+Pej+1Pl+Pret+Loc: nimashkimodenyimishinaanibaniing
-     1+mashkimod+Con+Pos+Pej+1Pl+Pret+Obv: nimashkimodenyimishinaanibaniin
-     1+mashkimod+Con+Pos+Pej+1Pl+Pret+Pl: nimashkimodenyimishinaanibaniin
-     1+mashkimod+Con+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
-     1+mashkimod+Con+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
-     1+mashkimod+Con+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
-     1+mashkimod+Dim+Pos+Pej+1Pl+Pret+Loc: nimashkimodensimishinaanibaniing
-     1+mashkimod+Dim+Pos+Pej+1Pl+Pret+Obv: nimashkimodensimishinaanibaniin
-     1+mashkimod+Dim+Pos+Pej+1Pl+Pret+Pl: nimashkimodensimishinaanibaniin
-     1+mashkimod+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
-     1+mashkimod+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
-     1+mashkimod+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+21+Pret+Loc: gimashkimodenyimishinaanibaniing
-     2+mashkimod+Con+Pos+Pej+21+Pret+Obv: gimashkimodenyimishinaanibaniin
-     2+mashkimod+Con+Pos+Pej+21+Pret+Pl: gimashkimodenyimishinaanibaniin
-     2+mashkimod+Con+Pos+Pej+21+VocPl+Loc: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+21+VocPl+Obv: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+21+VocPl+Pl: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
-     2+mashkimod+Con+Pos+Pej+2Pl+Pret+Loc: gimashkimodenyimishiwaabaniing
-     2+mashkimod+Con+Pos+Pej+2Pl+Pret+Obv: gimashkimodenyimishiwaabaniin
-     2+mashkimod+Con+Pos+Pej+2Pl+Pret+Pl: gimashkimodenyimishiwaabaniin
-     2+mashkimod+Con+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
-     2+mashkimod+Con+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
-     2+mashkimod+Con+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
-     2+mashkimod+Dim+Pos+Pej+21+Pret+Loc: gimashkimodensimishinaanibaniing
-     2+mashkimod+Dim+Pos+Pej+21+Pret+Obv: gimashkimodensimishinaanibaniin
-     2+mashkimod+Dim+Pos+Pej+21+Pret+Pl: gimashkimodensimishinaanibaniin
-     2+mashkimod+Dim+Pos+Pej+21+VocPl+Loc: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
-     2+mashkimod+Dim+Pos+Pej+21+VocPl+Obv: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
-     2+mashkimod+Dim+Pos+Pej+21+VocPl+Pl: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
-     2+mashkimod+Dim+Pos+Pej+2Pl+Pret+Loc: gimashkimodensimishiwaabaniing
-     2+mashkimod+Dim+Pos+Pej+2Pl+Pret+Obv: gimashkimodensimishiwaabaniin
-     2+mashkimod+Dim+Pos+Pej+2Pl+Pret+Pl: gimashkimodensimishiwaabaniin
-     2+mashkimod+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
-     2+mashkimod+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
-     2+mashkimod+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
-     3+mashkimod+Con+Pos+Pej+3Obv+Pret+Loc: omashkimodenyimishiniibaniing
-     3+mashkimod+Con+Pos+Pej+3Obv+Pret+Obv: omashkimodenyimishiniibaniin
-     3+mashkimod+Con+Pos+Pej+3Obv+Pret+Pl: omashkimodenyimishiniibaniin
-     3+mashkimod+Con+Pos+Pej+3Obv+VocPl+Loc: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
-     3+mashkimod+Con+Pos+Pej+3Obv+VocPl+Obv: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
-     3+mashkimod+Con+Pos+Pej+3Obv+VocPl+Pl: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
-     3+mashkimod+Con+Pos+Pej+3Pl+Pret+Loc: omashkimodenyimishiwaabaniing
-     3+mashkimod+Con+Pos+Pej+3Pl+Pret+Obv: omashkimodenyimishiwaabaniin
-     3+mashkimod+Con+Pos+Pej+3Pl+Pret+Pl: omashkimodenyimishiwaabaniin
-     3+mashkimod+Con+Pos+Pej+3Pl+VocPl+Loc: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
-     3+mashkimod+Con+Pos+Pej+3Pl+VocPl+Obv: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
-     3+mashkimod+Con+Pos+Pej+3Pl+VocPl+Pl: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
-     3+mashkimod+Dim+Pos+Pej+3Obv+Pret+Loc: omashkimodensimishiniibaniing
-     3+mashkimod+Dim+Pos+Pej+3Obv+Pret+Obv: omashkimodensimishiniibaniin
-     3+mashkimod+Dim+Pos+Pej+3Obv+Pret+Pl: omashkimodensimishiniibaniin
-     3+mashkimod+Dim+Pos+Pej+3Obv+VocPl+Loc: [omashkimodensimishiniidig, omashkimodensimishiniidog]
-     3+mashkimod+Dim+Pos+Pej+3Obv+VocPl+Obv: [omashkimodensimishiniidig, omashkimodensimishiniidog]
-     3+mashkimod+Dim+Pos+Pej+3Obv+VocPl+Pl: [omashkimodensimishiniidig, omashkimodensimishiniidog]
-     3+mashkimod+Dim+Pos+Pej+3Pl+Pret+Loc: omashkimodensimishiwaabaniing
-     3+mashkimod+Dim+Pos+Pej+3Pl+Pret+Obv: omashkimodensimishiwaabaniin
-     3+mashkimod+Dim+Pos+Pej+3Pl+Pret+Pl: omashkimodensimishiwaabaniin
-     3+mashkimod+Dim+Pos+Pej+3Pl+VocPl+Loc: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
-     3+mashkimod+Dim+Pos+Pej+3Pl+VocPl+Obv: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
-     3+mashkimod+Dim+Pos+Pej+3Pl+VocPl+Pl: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Pret+Loc: nimashkimodenyimishinaanibaniing
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Pret+Obv: nimashkimodenyimishinaanibaniin
+     1+mashkimod+N+Con+Pos+Pej+1Pl+Pret+Pl: nimashkimodenyimishinaanibaniin
+     1+mashkimod+N+Con+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
+     1+mashkimod+N+Con+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
+     1+mashkimod+N+Con+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodenyimishinaanidig, nimashkimodenyimishinaanidog]
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Pret+Loc: nimashkimodensimishinaanibaniing
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Pret+Obv: nimashkimodensimishinaanibaniin
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+Pret+Pl: nimashkimodensimishinaanibaniin
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
+     1+mashkimod+N+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimashkimodensimishinaanidig, nimashkimodensimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+21+Pret+Loc: gimashkimodenyimishinaanibaniing
+     2+mashkimod+N+Con+Pos+Pej+21+Pret+Obv: gimashkimodenyimishinaanibaniin
+     2+mashkimod+N+Con+Pos+Pej+21+Pret+Pl: gimashkimodenyimishinaanibaniin
+     2+mashkimod+N+Con+Pos+Pej+21+VocPl+Loc: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+21+VocPl+Obv: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+21+VocPl+Pl: [gimashkimodenyimishinaanidig, gimashkimodenyimishinaanidog]
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Pret+Loc: gimashkimodenyimishiwaabaniing
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Pret+Obv: gimashkimodenyimishiwaabaniin
+     2+mashkimod+N+Con+Pos+Pej+2Pl+Pret+Pl: gimashkimodenyimishiwaabaniin
+     2+mashkimod+N+Con+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
+     2+mashkimod+N+Con+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
+     2+mashkimod+N+Con+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodenyimishiwaadig, gimashkimodenyimishiwaadog]
+     2+mashkimod+N+Dim+Pos+Pej+21+Pret+Loc: gimashkimodensimishinaanibaniing
+     2+mashkimod+N+Dim+Pos+Pej+21+Pret+Obv: gimashkimodensimishinaanibaniin
+     2+mashkimod+N+Dim+Pos+Pej+21+Pret+Pl: gimashkimodensimishinaanibaniin
+     2+mashkimod+N+Dim+Pos+Pej+21+VocPl+Loc: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
+     2+mashkimod+N+Dim+Pos+Pej+21+VocPl+Obv: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
+     2+mashkimod+N+Dim+Pos+Pej+21+VocPl+Pl: [gimashkimodensimishinaanidig, gimashkimodensimishinaanidog]
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Pret+Loc: gimashkimodensimishiwaabaniing
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Pret+Obv: gimashkimodensimishiwaabaniin
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+Pret+Pl: gimashkimodensimishiwaabaniin
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
+     2+mashkimod+N+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimashkimodensimishiwaadig, gimashkimodensimishiwaadog]
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Pret+Loc: omashkimodenyimishiniibaniing
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Pret+Obv: omashkimodenyimishiniibaniin
+     3+mashkimod+N+Con+Pos+Pej+3Obv+Pret+Pl: omashkimodenyimishiniibaniin
+     3+mashkimod+N+Con+Pos+Pej+3Obv+VocPl+Loc: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
+     3+mashkimod+N+Con+Pos+Pej+3Obv+VocPl+Obv: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
+     3+mashkimod+N+Con+Pos+Pej+3Obv+VocPl+Pl: [omashkimodenyimishiniidig, omashkimodenyimishiniidog]
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Pret+Loc: omashkimodenyimishiwaabaniing
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Pret+Obv: omashkimodenyimishiwaabaniin
+     3+mashkimod+N+Con+Pos+Pej+3Pl+Pret+Pl: omashkimodenyimishiwaabaniin
+     3+mashkimod+N+Con+Pos+Pej+3Pl+VocPl+Loc: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
+     3+mashkimod+N+Con+Pos+Pej+3Pl+VocPl+Obv: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
+     3+mashkimod+N+Con+Pos+Pej+3Pl+VocPl+Pl: [omashkimodenyimishiwaadig, omashkimodenyimishiwaadog]
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Pret+Loc: omashkimodensimishiniibaniing
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Pret+Obv: omashkimodensimishiniibaniin
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+Pret+Pl: omashkimodensimishiniibaniin
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+VocPl+Loc: [omashkimodensimishiniidig, omashkimodensimishiniidog]
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+VocPl+Obv: [omashkimodensimishiniidig, omashkimodensimishiniidog]
+     3+mashkimod+N+Dim+Pos+Pej+3Obv+VocPl+Pl: [omashkimodensimishiniidig, omashkimodensimishiniidog]
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Pret+Loc: omashkimodensimishiwaabaniing
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Pret+Obv: omashkimodensimishiwaabaniin
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+Pret+Pl: omashkimodensimishiwaabaniin
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+VocPl+Loc: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+VocPl+Obv: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
+     3+mashkimod+N+Dim+Pos+Pej+3Pl+VocPl+Pl: [omashkimodensimishiwaadig, omashkimodensimishiwaadog]
      
