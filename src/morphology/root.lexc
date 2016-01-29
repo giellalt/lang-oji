@@ -25,10 +25,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !####
 
 !Verb Major Class
-+VAI +VII +VTI +VTA
++VAI +VII +VTI +VTA ! could be V+II etc.
 
 !Verb Order
-+Conj +Imper
++Conj +Imper ! (Ind abs only) Cnj Imp 
 
 !####
 !#Concrete features (associated with a particular morpheme)
@@ -39,30 +39,30 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +3 +X       !suffixes, if used, occur in Local Person Number slot
 
 !! Verb Negation
-+Neg
++Neg ! ( abs: +Pos / +Aff )
 
 !! Local Person Number
-+IFull
-+ILess
++IFull ! ?
++ILess ! ?
 !DEPRECATED (conjunct order, imperative order might require)
 !could do +1+IFull, +2+IFull, +2+ILess
 +1Pl +21 +2Pl
 
 !Mood
-+Pret +Dub
++Pret +Dub ! abs: Prt, Neu
 +VocPl  !only nouns, though form is quite like dub
 
 !Non-Local Person Number/Obviation
-+3Obv +3Pl  !verbs
-+0Sg +0Pl   !verbs
++3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
++0Sg +0Pl   ! verbs
 +Obv +Loc +Pl   !Nouns
 
 !VTA features (used in deciding theme sign)
-+TSInv  !igo
-+TSDir  !aa
-+TSPas  !igoo (1/2), aa (3)
-+TS2    !i
-+TS1Pl  !igoo   
++TSInv  !igo ThmInv?
++TSDir  !aa  ThmDir?
++TSPas  !igoo (1/2), aa (3) ThmPass?
++TS2    !i Thm2
++TS1Pl  !igoo 
 +TS1Sg  !in     
 +TSNeg  !isinoon
 
@@ -74,21 +74,25 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +XSub
 
 !Noun tags
-+N
++N ! +NA +NI (how about dependent nouns)
 +Con 
 +Dim 
 +Pej
-+Pos
++Pos ! Must be distinguished from tag for positive polarity
 
 !##Conjunct order tags
 
 !Verb Other Person/Number combinations (conjunct order crosses person with number)
 +1Sg +2Sg +3Sg
 
+! VAI, VTI, VTA: 1Sg, 2Sg, 3Sg, 1Pl denotes Subject, add O for objects
+
+! Leipzig marking 3rd person participants: VII, VAI: 3SS, VTI: 3SA, VTA: 3SA, 3SP  
+
 !! Imperative order tags
 +Imm 
 +Del 
-+Prob
++Prob ! +Proh
 
 !! Punctuation
 
