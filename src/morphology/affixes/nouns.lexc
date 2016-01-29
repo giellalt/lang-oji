@@ -37,7 +37,7 @@ LEXICON N_THIRD_PERSON_FLAG
 LEXICON N_X_PERSON_FLAG 
 @P.Person.X@    NOUNS ;
 
-LEXICON N_CON_DIM 
+LEXICON NA_CON_DIM  ! was: N_CON_DIM, but the only _DIM around was NA_
 +Con:enh    N_POS_THEME_GATEWAY ;
 +Dim:ens    N_POS_THEME_GATEWAY ;
             N_POS_THEME_GATEWAY ;
