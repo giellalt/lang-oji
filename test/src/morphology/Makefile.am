@@ -1,69 +1,35 @@
 ## Process this file with automake to produce Makefile.in
+## Copyright: Sámediggi/Divvun/UiT
+## Licence: GPL v3+
 
-## Copyright (C) 2011 Samediggi
+######## Test targets: ###########
 
-## This program is free software: you can redistribute it and/or modify
-## it under the terms of the GNU General Public License as published by
-## the Free Software Foundation, either version 3 of the License, or
-## (at your option) any later version.
+# List here (space separated) all test scripts that should be run
+# unconditionally:
+TESTS=
 
-## This program is distributed in the hope that it will be useful,
-## but WITHOUT ANY WARRANTY; without even the implied warranty of
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-## GNU General Public License for more details.
+# Add your shell scripts for running tests requiring only a generator:
+GENERATION_TESTS_IN=generate-adjective-lemmas.sh.in  \
+                    generate-noun-lemmas.sh.in       \
+                    generate-propernoun-lemmas.sh.in \
+                    generate-verb-lemmas.sh.in
 
-## You should have received a copy of the GNU General Public License
-## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+GENERATION_TESTS=$(basename $(GENERATION_TESTS_IN))
 
-# Add language-specific flags for hfst-lexc compilation here:
-HFST_LEXC_LOCAL_FLAGS=
+if WANT_GENERATION
+TESTS+=$(GENERATION_TESTS)
+endif # WANT_GENERATION
 
-# Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
-GT_LEXC_ROOT=root.lexc
+# List tests that are presently (expected) failures here, ie things that should
+# be fixed *later*, but is not critical at the moment:
+XFAIL_TESTS=generate-adjective-lemmas.sh  \
+            generate-noun-lemmas.sh       \
+            generate-propernoun-lemmas.sh \
+            generate-verb-lemmas.sh
 
-# Set this to the names of all regular lexc source files:
-GT_LEXC_SRCS_L1_L2=\
-			 affixes/nouns.lexc       \
-			 affixes/verbs.lexc       \
-			 stems/nouns.lexc         \
-			 stems/numerals.lexc      \
-			 stems/pronouns.lexc      \
-			 stems/punctuation.lexc   \
-			 stems/verbs.lexc
+# Make sure all tests scripts are included in the distributed tarballs:
+EXTRA_DIST=$(TESTS) $(GENERATION_TESTS_IN)
 
-#			 affixes/propernouns.lexc \
-# If you are building an error-detecting L2 analyser, specify the lexc files
-# that differ between the regular L1 and the L2 analysers below, in L1 and
-# L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.
-L1=
-
-L2=
-
-GT_LEXC_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L1)
-
-GT_LEXC_L2_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L2)
-
-# Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=
-
-# Set this to the names of all source xml files, if any
-GT_XML_SRCS=
-
-# Define any additional sources here (compiled on their own):
-GT_LOCAL_SRCS=
-
-# Define here any additional sources just included in the distro:
-GT_DISTRO_SRCS=
-
-### BEGIN: Local processing: ###
-
-
-### END: Local processing: ###
-
-include $(top_srcdir)/am-shared/src-morphology-dir-include.am
-
-# vim: set ft=automake:
+####### Other targets: ###########
+clean-local:
+	-rm -f *.txt
