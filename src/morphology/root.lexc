@@ -28,7 +28,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +VAI +VII +VTI +VTA ! could be V+II etc.
 
 !Verb Order
-+Conj +Imper ! (Ind abs only) Cnj Imp 
++Cnj +Imp ! (Ind for abstract mode only?)
 
 !####
 !#Concrete features (associated with a particular morpheme)
@@ -42,15 +42,79 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Neg ! ( abs: +Pos / +Aff )
 
 !! Local Person Number
-+IFull ! ?
-+ILess ! ?
++21Pl ! Pl for preceding 2/1 prefix
+        !trad name: "I-full"
+        !aka: plurality that includes speaker
+        !2...21Pl = 1.pl.incl
+        !1...21Pl = 1.pl.excl
++23Pl ! Pl for preceding 2/3 prefix
+        !trad name: "I-less" 
+        !aka: a plurality that excludes speaker
+        !2...23pl = 2.pl
+        !3...23pl = 3.pl
+        !there are 3.pls in another slot
+        !such 3.pls don't overlap with 2.pl
+        !so a 3Pl tag is necessary
+
+!simplest theory of person/number tags is probably:
+!3 person tags:
+    !1, 2, 3
+        !n.b. 0 is used to mark inanimate agreement
+        !but it isn't really a person
+        !though agr for 0 pl competes in num2 slot!
+!2-4 number tags:
+    !pl, (sg) (permitted with all numbers)
+        !can drop sg, since no affix
+    !(in) (restrict to 2 prefix, interp 1.incl)
+        !can drop in, person tag can pick up slack
+        !see analysis space below
+    !ob (restrict to 3 prefix (verbs), = obv)
+!total of 5-7 tags :)
+!when recognizing forms...
+!will it be necessary to have 3+...+3+pl
+!or can 3+...+pl work?
+    !depends on how many plurals can follow prefix
+    !1st person prefix can have 1 flavor:
+        !in this case you don't need two 1's
+        !obviously wouldn't hurt to include it
+            !1+...+Pl (=+21Pl above)
+    !2nd person prefix can have 2 flavors:
+        !one which may also follow 1
+            !2+...+1+Pl (=+21Pl above)
+        !one which may also follow 3
+            !2+...+3+Pl (=+23Pl above)
+    !3rd person prefix can have 1 flavor:
+        !in this case you don't need two 3's
+        !obviously wouldn't hurt to include it
+            !3+...+Pl (=+23Pl above)
+                !this pl *must* be followed by obv
+                !obv suff is required after 3 pre
+                !unless inan agr occurs :)
+        !the other 3pl only comes after 1/2 prefixes
+!analysis space (including redundant specs):
+    !pre    num1      num2
+    !1.....(1 pl).....(3 pl) = 1sg/pl & 3sg/pl
+    !2.....([1|3] pl).(3 pl) = 2sg/pl/1.inc & 3sg/pl
+    !3.....(3 pl).....(3 ob) = 3sg/pl & 3ob
+        !modulo inanimate agr
+        !careful with inanimate pl agr in num2
+    !one more wrinkle 1 v 2/2 v 1:
+    !2.....([2|1] pl)        = 2sg/pl & 1sg/pl
+        !1.inc is illegal here
+        !extra: number also appears in some theme sign
+!if you like things minimal:
+    !pre    num1      num2
+    !1.....(pl).......(pl) = 1sg/pl & 3sg/pl
+    !2.....([1|3] pl).(pl) = 2sg/pl/1.inc & 3sg/pl
+    !3.....(pl).......(ob) = 3sg/pl & 3ob
+
 !DEPRECATED (conjunct order, imperative order might require)
-!could do +1+IFull, +2+IFull, +2+ILess
+!could do +1+21Pl, +2+21Pl, +2+23Pl
 +1Pl +21 +2Pl
 
 !Mood
-+Pret +Dub ! abs: Prt, Neu
-+VocPl  !only nouns, though form is quite like dub
++Prt +Dub ! abs: Prt, Neu
++Voc  !only nouns, though form is quite like dub
 
 !Non-Local Person Number/Obviation
 +3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
@@ -58,13 +122,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Obv +Loc +Pl   !Nouns
 
 !VTA features (used in deciding theme sign)
-+TSInv  !igo ThmInv?
-+TSDir  !aa  ThmDir?
-+TSPas  !igoo (1/2), aa (3) ThmPass?
-+TS2    !i Thm2
-+TS1Pl  !igoo 
-+TS1Sg  !in     
-+TSNeg  !isinoon
++ThmDir  !aa        (3rd obj) 
++Thm2    !i         (1st obj, 2 sub) 
++Thm1Pl  !igoo      (2nd obj, 1.pl sub) 
++Thm1Sg  !in        (2nd obj, 1.sg sub) 
++ThmNeg  !isinoon   (2nd obj, 1.sg sub, neg)
++ThmInv  !igo       (pre=obj, 0/3 sub) 
++ThmPas  !igoo, aa  (passive)
 
 !DEPRECATED!
 +2Sub +2Obj
@@ -74,7 +138,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +XSub
 
 !Noun tags
-+N ! +NA +NI (how about dependent nouns)
++NA +NI +NAD +NID 
 +Con 
 +Dim 
 +Pej
@@ -92,7 +156,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! Imperative order tags
 +Imm 
 +Del 
-+Prob ! +Proh
++Proh 
 
 !! Punctuation
 

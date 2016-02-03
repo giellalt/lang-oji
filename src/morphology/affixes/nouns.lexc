@@ -102,14 +102,14 @@ LEXICON N_POS_NUM_2PL_3PL
 !style note: terminal symbols only introduced when no further morphemes can possibly follow
 
 LEXICON N_MOOD 
-+Pret:iban  N_NUM_GATEWAY ;
++Prt:iban  N_NUM_GATEWAY ;
 !there are not inanimate vocative plurals (-idin)
 @R.Animate.1@   NA_VOCPL ;
             N_NUM_GATEWAY ;
 
 LEXICON NA_VOCPL !Long feat name
-+VocPl:idig # ; !odawa specific variant (included because we are gearing towards Nish now)
-+VocPl:idog # ; !general oji variant
++Voc+Pl:idig # ; !odawa specific variant (included because we are gearing towards Nish now)
++Voc+Pl:idog # ; !general oji variant
 
 LEXICON N_NUM_GATEWAY 
 @R.Animate.1@   NA_NUM ;

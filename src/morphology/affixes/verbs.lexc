@@ -1,7 +1,6 @@
 !todo: 
     !VII, VTI (all). 
     !VTA 
-    !   number slot (inan sub, confirm all and only necessary features are checked/introduced)
     !   conjunct, imperative
     !   write up description of how theme-sign, number, peripheral slots are interacting
     !VAI fine tuning, de-nasalize conjunct order.
@@ -69,8 +68,8 @@ LEXICON VAI_ORDERS
 @D.Person@    VAI_NON_INDEP ;
 
 LEXICON VAI_NON_INDEP 
-+Conj:0     VAI_CONJ_NEG ;
-+Imper:0    VAI_IMPER ;
++Cnj:0     VAI_CONJ_NEG ;
++Imp:0    VAI_IMPER ;
 
 !#####
 !#VAI Independent suffixes
@@ -111,9 +110,9 @@ LEXICON VAI_INDEP_LOCALNUM_2PL
 
 !mood slot
 LEXICON VAI_INDEP_MOOD 
-+Pret:ban       VAI_INDEP_PERS_GATEWAY ;
++Prt:ban       VAI_INDEP_PERS_GATEWAY ;
 +Dub:dig        VAI_INDEP_PERS_GATEWAY ; 
-+Pret+Dub:goban VAI_INDEP_PERS_GATEWAY ;
++Prt+Dub:goban VAI_INDEP_PERS_GATEWAY ;
                 VAI_INDEP_PERS_GATEWAY ; !intended ... no suffix, just go to gateway
 
 !non-local number slot
@@ -164,7 +163,7 @@ LEXICON VAI_CONJ_PERSNUM
 
 !preterite slot
 LEXICON VAI_CONJ_PRET 
-+Pret:ban   VAI_CONJ_DUB ;
++Prt:ban   VAI_CONJ_DUB ;
             VAI_CONJ_DUB ;
 
 !dubitative slot
@@ -184,18 +183,17 @@ LEXICON VAI_IMPER
 +Imm+21:daa      # ;
 +Del+2Sg:kan     # ;
 +Del+2Pl:kag     # ;
-+Prob+2Sg:ken    # ;
-+Prob+2Pl:kegon  # ;
-+Prob+21:siidaa  # ;
++Proh+2Sg:ken    # ;
++Proh+2Pl:kegon  # ;
++Proh+21:siidaa  # ;
 
 !#####
 !# VII Morphological sub-classes
 !#####
 
 !LEXICON VII_ORDERS 
-!+Indep ;
-!+Conj ;
-!+Imper ;
+!+Cnj ;
+!+Imp ;
 
 !#####
 !#Transitive Verb Morphological sub-classes
@@ -256,8 +254,8 @@ LEXICON VTA_INDEP_THEME_GET
 
 
 LEXICON VTA_INDEP_THEME_GATEWAY
-+TSInv:igo  VTA_INDEP_THEME_INVERSE_SET ;
-+TSDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
++ThmInv:igo  VTA_INDEP_THEME_INVERSE_SET ;
++ThmDir:aa   VTA_INDEP_THEME_DIRECT_GATEWAY ; !gateway usage unformalized now
 !new tags
 
 LEXICON VTA_INDEP_THEME_INVERSE_SET 
@@ -267,11 +265,11 @@ LEXICON VTA_INDEP_THEME_INVERSE_SET
 !#Passives  {
 !ROUTE THROUGH VAI
 LEXICON VTA_INDEP_THEME_LOCAL_PASSIVE
-+TSPas:igoo       VAI_INDEP_NEG ;
++ThmPas:igoo       VAI_INDEP_NEG ;
 !new tags
 
 LEXICON VTA_INDEP_NONLOCAL_PASSIVE
-+TSPas:aa   VTA_INDEP_PASSIVE_FLAG ; 
++ThmPas:aa   VTA_INDEP_PASSIVE_FLAG ; 
 !new tags
 
 LEXICON VTA_INDEP_PASSIVE_FLAG
@@ -282,10 +280,10 @@ LEXICON VTA_INDEP_PASSIVE_FLAG
 !##Second persons {
 !local preds
 LEXICON VTA_INDEP_THEME_SECOND_PERSON 
-+TS2:i          VTA_INDEP_2V1_NEG ; !first person object
-+TS1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
-+TS1Sg:in        VTA_INDEP_1SGV2 ; !first person singular subject
-+TSNeg:isinoon  VTA_INDEP_1SGV2 ;!negated first person singular subject
++Thm2:i          VTA_INDEP_2V1_NEG ; !first person object
++Thm1Pl:igoo        VTA_INDEP_1PLV2_NEG ; !first person plural subject
++Thm1Sg:in        VTA_INDEP_1SGV2 ; !first person singular subject
++ThmNeg:isinoon  VTA_INDEP_1SGV2 ;!negated first person singular subject
 !new tags
 
 !####
@@ -297,8 +295,8 @@ LEXICON VTA_INDEP_2V1_NEG
             VTA_INDEP_2V1_GATEWAY ;
 
 LEXICON VTA_INDEP_2V1_GATEWAY 
-+IFull:min  VTA_INDEP_LOCAL_PLURAL_PREMODE ;
-+ILess:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++21Pl:min  VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++23Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !}
 
@@ -308,12 +306,12 @@ LEXICON VTA_INDEP_1PLV2_NEG
             VTA_INDEP_1PLV2_GATEWAY ;
 
 LEXICON VTA_INDEP_1PLV2_GATEWAY 
-+ILess:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++23Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !}
 
 LEXICON VTA_INDEP_1SGV2 
-+ILess:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++23Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 
 !####
@@ -329,7 +327,7 @@ LEXICON VTA_INDEP_LOCAL_SINGULAR_PREMODE
 # ;
 
 LEXICON VTA_INDEP_LOCAL_MODE 
-+Pret:ban # ;
++Prt:ban # ;
 +Dub:dig # ;
 !}
 !}
@@ -390,20 +388,20 @@ LEXICON VTA_INDEP_NUMBER_GET
 LEXICON VTA_INDEP_NUMBER_LOCAL_GATEWAY 
 !what exactly is driving me to diverge from a strict mirroring of graphviz?
 !feature style, and whether incoming arcs in graphviz read different strings
-+IFull:minaa    VTA_INDEP_MODE_GATEWAY ;
++21Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
                 VTA_INDEP_NUMBER_IFULL ;
                 VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY ;
 
 !fed by VTA_INDEP_NUMBER_GET, direct plural negation
 LEXICON VTA_INDEP_NUMBER_IFULL 
 !style should include recommendations for marking when predication info is being collapsed
-+IFull:naan VTA_INDEP_IFULL_PERIPH_GET ;
++21Pl:naan VTA_INDEP_IFULL_PERIPH_GET ;
 !new tag
 !}
 
 !#second person "I-less" plurality {
 LEXICON VTA_INDEP_NUMBER_ILESS
-+ILess:waa  VTA_INDEP_ILESS_GATEWAY ;
++23Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
 !new tag
 
 LEXICON VTA_INDEP_ILESS_GATEWAY 
@@ -420,7 +418,7 @@ LEXICON VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY
 !#third person number {
 !fed by VTA_INDEP_NUMBER_GET, direct plural negation
 LEXICON VTA_INDEP_NUMBER_3
-+ILess:waa  VTA_INDEP_3_GATEWAY ;
++23Pl:waa  VTA_INDEP_3_GATEWAY ;
 
 !fed by VTA_INDEP_NUMBER_GET, direct singular negation
 LEXICON VTA_INDEP_3_GATEWAY
@@ -436,7 +434,7 @@ LEXICON VTA_INDEP_3_GATEWAY
 
 LEXICON VTA_INDEP_MODE_GATEWAY
 +Dub:dig    VTA_INDEP_DUB_PERIPH_GET ;
-+Pret:ban   VTA_INDEP_PRET_PERIPH_GET ;
++Prt:ban   VTA_INDEP_PRET_PERIPH_GET ;
 
 !#####
 !#Periph Slot
@@ -539,7 +537,7 @@ LEXICON VTA_INDEP_INAN_SUB_OBV
 +3Obv:inaa VTA_INDEP_MODE_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
-+ILess:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
++23Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 +0Pl:an #;
@@ -554,10 +552,10 @@ LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 !now it is just for non-independent order VTA sorting
 LEXICON VTA_NON_INDEP_GATEWAY 
 # ;
-!+VTA+Conj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
-!+VTA+Imper:0       VTA_IMPER ; !name needs to be followed by morpheme slot
-!+VTI+Conj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
-!+VTI+Imper:0       VTI_IMPER ;!name needs to be followed by morpheme slot
+!+VTA+Cnj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
+!+VTA+Imp:0       VTA_IMPER ; !name needs to be followed by morpheme slot
+!+VTI+Cnj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
+!+VTI+Imp:0       VTI_IMPER ;!name needs to be followed by morpheme slot
 
 LEXICON VTI_INDEP !name needs to be followed with a morpheme slot
 # ;
