@@ -14,10 +14,10 @@
 !indefinite pos cannot be inflected for number/obviation (correct?)
 
 LEXICON N_PREFIXES 
-1+:ni N_FIRST_PERSON_FLAG ;
-2+:gi N_SECOND_PERSON_FLAG ;
-3+:o  N_THIRD_PERSON_FLAG ;
-X+:i  N_X_PERSON_FLAG ; !will need to disallow indefinite possession on alienable
+1+:ni N_FIRST_PERSON_SET ;
+2+:gi N_SECOND_PERSON_SET ;
+3+:o  N_THIRD_PERSON_SET ;
+X+:i  N_X_PERSON_SET ; !will need to disallow indefinite possession on alienable
         NOUNS ;
 !prefix features do not currently agree with yaml
 
@@ -25,45 +25,45 @@ X+:i  N_X_PERSON_FLAG ; !will need to disallow indefinite possession on alienabl
 !small redundancy, but spares memory and allows agreement checking if not inflected
 !memory not spared, because you might not want to accept the wrong gendered plural marker (though it does happen under certain discursive contexts)
 
-LEXICON N_FIRST_PERSON_FLAG 
+LEXICON N_FIRST_PERSON_SET 
 @P.Person.1@    NOUNS ;
 
-LEXICON N_SECOND_PERSON_FLAG 
+LEXICON N_SECOND_PERSON_SET 
 @P.Person.2@    NOUNS ;
 
-LEXICON N_THIRD_PERSON_FLAG 
+LEXICON N_THIRD_PERSON_SET 
 @P.Person.3@    NOUNS ;
 
-LEXICON N_X_PERSON_FLAG 
+LEXICON N_X_PERSON_SET 
 @P.Person.X@    NOUNS ;
 
 LEXICON N_CON_DIM   !changed back to N_CON_DIM (with corresponding change in stems/nouns.lexc). There are semantics to the sublexicon names, to help the coder navigate. Please don't change sublexicon names unless you understand the semantic effects it will have. 
-+Con:enh    N_POS_THEME_GATEWAY ;
-+Dim:ens    N_POS_THEME_GATEWAY ;
-            N_POS_THEME_GATEWAY ;
++Con:enh    N_POS_THEME_GET ;
++Dim:ens    N_POS_THEME_GET ;
+            N_POS_THEME_GET ;
 
-LEXICON N_POS_THEME_GATEWAY 
+LEXICON N_POS_THEME_GET 
 !go to N_POS_THEME only if you have person
 !go to N_PEJ is legit alternative
 @R.Person@  N_POS_THEME ;
             N_PEJ ;
 
 LEXICON N_POS_THEME
-!optionality of +Pos instantiated in N_POS_THEME_GATEWAY
+!optionality of +Pos instantiated in N_POS_THEME_GET
 !entrance requires a person flag, person flags are not forced to enter
 +Pos:im N_PEJ ;
 
 LEXICON N_PEJ 
-+Pej:ish    N_POS_NUM_GATEWAY ;
-            N_POS_NUM_GATEWAY ;
++Pej:ish    N_POS_NUM_GET ;
+            N_POS_NUM_GET ;
 
-LEXICON N_POS_NUM_GATEWAY 
-@R.Person.1@            N_POS_NUM_1 ;
-@R.Person.2@            N_POS_NUM_2 ;
+LEXICON N_POS_NUM_GET 
+@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
+@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
 @R.Person.3@            N_POS_NUM_3 ; 
-                        N_MOOD ;
+                        N_MOOD_GET ;
 
-!optionality of possessor number instantiated in GATEWAY
+!optionality of possessor number instantiated in GET
 !entrance requires a person flag, person flags are not forced to enter
 
 !should there be a nomenclature for the descendants of gateways?
@@ -71,20 +71,16 @@ LEXICON N_POS_NUM_GATEWAY
 !it seems that one could have some indentation or bracketing to indicate when a sublexicon is under a gateway
 !though within a lexicon, whitespace matters (?)
 
-LEXICON N_POS_NUM_1
-+1Pl:0    N_POS_NUM_1PL_21 ;
+LEXICON N_POS_NUM_2_1
+!2 prefix may be followed by 1pl suff=1.pl.inc
++1+Pl:inaan N_MOOD_GET ;
 
-LEXICON N_POS_NUM_2
-+21:0   N_POS_NUM_1PL_21 ;
-+2Pl:0  N_POS_NUM_2PL_3PL ;
+LEXICON N_POS_NUM_2_3
+!2 prefix may be followed by 3pl suff=2.pl
++3+Pl:iwaa   N_MOOD_GET ;
 
 LEXICON N_POS_NUM_3
-+3Pl:0      N_POS_NUM_2PL_3PL ;
-+3Obv:ini   N_MOOD ;
-
-LEXICON N_POS_NUM_1PL_21 
-0:inaan N_MOOD ;
-!<["+1Pl"|"+21"] .x. [i n a a n]>   N_MOOD ; !this allowed +2 ... +1Pl when N_POS_NUM_GATEWAY redirected here
++3+Obv:ini   N_MOOD_GET ;
 
 !style/syntax note
 !the following might be intuitive, but it is wrong
@@ -92,26 +88,22 @@ LEXICON N_POS_NUM_1PL_21
 !further, to make an output, you need to cross the fsas. 
 !   [a|b] .x. [c|d] -> a:c, b:d
 !   [a|b] .x. [c] -> a:c, b:c
-!<"+"[1Pl|21]>:inaan   N_MOOD ; !yaml currently excludes second person prefix, though this is used for first person inclusive
+!<"+"[1Pl|21]>:inaan   N_MOOD_GET ; !yaml currently excludes second person prefix, though this is used for first person inclusive
 !style on regexes for features
-
-LEXICON N_POS_NUM_2PL_3PL 
-0:iwaa  N_MOOD ;
-!<["+2Pl"|"+3Pl"] .x. [i w a a]>     N_MOOD ;
 
 !style note: terminal symbols only introduced when no further morphemes can possibly follow
 
-LEXICON N_MOOD 
-+Prt:iban  N_NUM_GATEWAY ;
+LEXICON N_MOOD_GET 
++Prt:iban  N_NUM_GET ;
 !there are not inanimate vocative plurals (-idin)
 @R.Animate.1@   NA_VOCPL ;
-            N_NUM_GATEWAY ;
+            N_NUM_GET ;
 
 LEXICON NA_VOCPL !Long feat name
 +Voc+Pl:idig # ; !odawa specific variant (included because we are gearing towards Nish now)
-+Voc+Pl:idog # ; !general oji variant
+!+Voc+Pl:idog # ; !general oji variant
 
-LEXICON N_NUM_GATEWAY 
+LEXICON N_NUM_GET 
 @R.Animate.1@   NA_NUM ;
 @R.Animate.0@   NI_NUM ;
 +Obv:an              # ;
