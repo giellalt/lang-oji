@@ -16,13 +16,13 @@ Tests:
   #per	dim	the	pej	pos	mod	num
      
      #Isolation form
-     bagwaaniigin: bagwaaniigin
+     bagwaaniigin+NI: bagwaaniigin
      
      #Values from slots numbered: 1
-     1+bagwaaniigin: nibagwaaniigin
-     2+bagwaaniigin: gibagwaaniigin
-     3+bagwaaniigin: obagwaaniigin
-     X+bagwaaniigin: ibagwaaniigin
+     1+bagwaaniigin+NI: nibagwaaniigin
+     2+bagwaaniigin+NI: gibagwaaniigin
+     3+bagwaaniigin+NI: obagwaaniigin
+     X+bagwaaniigin+NI: ibagwaaniigin
      
      #Values from slots numbered: 2
      bagwaaniigin+NI+Con: bagwaaniiginoonh
@@ -34,8 +34,8 @@ Tests:
      
      
      #Values from slots numbered: 6
-     bagwaaniigin+NI+Pret: bagwaaniiginoban
-     bagwaaniigin+NI+VocPl: [bagwaaniiginodig, bagwaaniiginodog]
+     bagwaaniigin+NI+Prt: bagwaaniiginoban
+     bagwaaniigin+NI+Voc+Pl: bagwaaniiginodin
      
      #Values from slots numbered: 7
      bagwaaniigin+NI+Loc: bagwaaniiginong
@@ -65,21 +65,21 @@ Tests:
      X+bagwaaniigin+NI+Pej: ibagwaaniiginosh
      
      #Values from slots numbered: 1, 5
-     1+bagwaaniigin+NI+1Pl: nibagwaaniiginonaan
-     2+bagwaaniigin+NI+21: gibagwaaniiginonaan
-     2+bagwaaniigin+NI+2Pl: gibagwaaniiginowaa
-     3+bagwaaniigin+NI+3Obv: obagwaaniiginoni
-     3+bagwaaniigin+NI+3Pl: obagwaaniiginowaa
+     1+bagwaaniigin+NI+1+Pl: nibagwaaniiginonaan
+     2+bagwaaniigin+NI+1+Pl: gibagwaaniiginonaan
+     2+bagwaaniigin+NI+3+Pl: gibagwaaniiginowaa
+     3+bagwaaniigin+NI+3+Obv: obagwaaniiginoni
+     3+bagwaaniigin+NI+3+Pl: obagwaaniiginowaa
      
      #Values from slots numbered: 1, 6
-     1+bagwaaniigin+NI+Pret: nibagwaaniiginoban
-     1+bagwaaniigin+NI+VocPl: [nibagwaaniiginodig, nibagwaaniiginodog]
-     2+bagwaaniigin+NI+Pret: gibagwaaniiginoban
-     2+bagwaaniigin+NI+VocPl: [gibagwaaniiginodig, gibagwaaniiginodog]
-     3+bagwaaniigin+NI+Pret: obagwaaniiginoban
-     3+bagwaaniigin+NI+VocPl: [obagwaaniiginodig, obagwaaniiginodog]
-     X+bagwaaniigin+NI+Pret: ibagwaaniiginoban
-     X+bagwaaniigin+NI+VocPl: [ibagwaaniiginodig, ibagwaaniiginodog]
+     1+bagwaaniigin+NI+Prt: nibagwaaniiginoban
+     1+bagwaaniigin+NI+Voc+Pl: nibagwaaniiginodin
+     2+bagwaaniigin+NI+Prt: gibagwaaniiginoban
+     2+bagwaaniigin+NI+Voc+Pl: gibagwaaniiginodin
+     3+bagwaaniigin+NI+Prt: obagwaaniiginoban
+     3+bagwaaniigin+NI+Voc+Pl: obagwaaniiginodin
+     X+bagwaaniigin+NI+Prt: ibagwaaniiginoban
+     X+bagwaaniigin+NI+Voc+Pl: ibagwaaniiginodin
      
      #Values from slots numbered: 1, 7
      1+bagwaaniigin+NI+Loc: nibagwaaniiginong
@@ -102,10 +102,10 @@ Tests:
      
      
      #Values from slots numbered: 2, 6
-     bagwaaniigin+NI+Con+Pret: bagwaaniiginoonyiban
-     bagwaaniigin+NI+Con+VocPl: [bagwaaniiginoonyidig, bagwaaniiginoonyidog]
-     bagwaaniigin+NI+Dim+Pret: bagwaaniiginoonsiban
-     bagwaaniigin+NI+Dim+VocPl: [bagwaaniiginoonsidig, bagwaaniiginoonsidog]
+     bagwaaniigin+NI+Con+Prt: bagwaaniiginoonyiban
+     bagwaaniigin+NI+Con+Voc+Pl: bagwaaniiginoonyidin
+     bagwaaniigin+NI+Dim+Prt: bagwaaniiginoonsiban
+     bagwaaniigin+NI+Dim+Voc+Pl: bagwaaniiginoonsidin
      
      #Values from slots numbered: 2, 7
      bagwaaniigin+NI+Con+Loc: bagwaaniiginoonying
@@ -121,8 +121,8 @@ Tests:
      
      
      #Values from slots numbered: 4, 6
-     bagwaaniigin+NI+Pej+Pret: bagwaaniiginoshiban
-     bagwaaniigin+NI+Pej+VocPl: [bagwaaniiginoshidig, bagwaaniiginoshidog]
+     bagwaaniigin+NI+Pej+Prt: bagwaaniiginoshiban
+     bagwaaniigin+NI+Pej+Voc+Pl: bagwaaniiginoshidin
      
      #Values from slots numbered: 4, 7
      bagwaaniigin+NI+Pej+Loc: bagwaaniiginoshing
@@ -132,9 +132,9 @@ Tests:
      
      
      #Values from slots numbered: 6, 7
-     bagwaaniigin+NI+Pret+Loc: bagwaaniiginobaniing
-     bagwaaniigin+NI+Pret+Obv: bagwaaniiginobaniin
-     bagwaaniigin+NI+Pret+Pl: bagwaaniiginobaniin
+     bagwaaniigin+NI+Prt+Loc: bagwaaniiginobaniing
+     bagwaaniigin+NI+Prt+Obv: bagwaaniiginobaniin
+     bagwaaniigin+NI+Prt+Pl: bagwaaniiginobaniin
      
      #Values from slots numbered: 1, 2, 3
      1+bagwaaniigin+NI+Con+Pos: nibagwaaniiginoonyim
@@ -157,34 +157,34 @@ Tests:
      X+bagwaaniigin+NI+Dim+Pej: ibagwaaniiginoonsish
      
      #Values from slots numbered: 1, 2, 5
-     1+bagwaaniigin+NI+Con+1Pl: nibagwaaniiginoonyinaan
-     1+bagwaaniigin+NI+Dim+1Pl: nibagwaaniiginoonsinaan
-     2+bagwaaniigin+NI+Con+21: gibagwaaniiginoonyinaan
-     2+bagwaaniigin+NI+Con+2Pl: gibagwaaniiginoonyiwaa
-     2+bagwaaniigin+NI+Dim+21: gibagwaaniiginoonsinaan
-     2+bagwaaniigin+NI+Dim+2Pl: gibagwaaniiginoonsiwaa
-     3+bagwaaniigin+NI+Con+3Obv: obagwaaniiginoonyini
-     3+bagwaaniigin+NI+Con+3Pl: obagwaaniiginoonyiwaa
-     3+bagwaaniigin+NI+Dim+3Obv: obagwaaniiginoonsini
-     3+bagwaaniigin+NI+Dim+3Pl: obagwaaniiginoonsiwaa
+     1+bagwaaniigin+NI+Con+1+Pl: nibagwaaniiginoonyinaan
+     1+bagwaaniigin+NI+Dim+1+Pl: nibagwaaniiginoonsinaan
+     2+bagwaaniigin+NI+Con+1+Pl: gibagwaaniiginoonyinaan
+     2+bagwaaniigin+NI+Con+3+Pl: gibagwaaniiginoonyiwaa
+     2+bagwaaniigin+NI+Dim+1+Pl: gibagwaaniiginoonsinaan
+     2+bagwaaniigin+NI+Dim+3+Pl: gibagwaaniiginoonsiwaa
+     3+bagwaaniigin+NI+Con+3+Obv: obagwaaniiginoonyini
+     3+bagwaaniigin+NI+Con+3+Pl: obagwaaniiginoonyiwaa
+     3+bagwaaniigin+NI+Dim+3+Obv: obagwaaniiginoonsini
+     3+bagwaaniigin+NI+Dim+3+Pl: obagwaaniiginoonsiwaa
      
      #Values from slots numbered: 1, 2, 6
-     1+bagwaaniigin+NI+Con+Pret: nibagwaaniiginoonyiban
-     1+bagwaaniigin+NI+Con+VocPl: [nibagwaaniiginoonyidig, nibagwaaniiginoonyidog]
-     1+bagwaaniigin+NI+Dim+Pret: nibagwaaniiginoonsiban
-     1+bagwaaniigin+NI+Dim+VocPl: [nibagwaaniiginoonsidig, nibagwaaniiginoonsidog]
-     2+bagwaaniigin+NI+Con+Pret: gibagwaaniiginoonyiban
-     2+bagwaaniigin+NI+Con+VocPl: [gibagwaaniiginoonyidig, gibagwaaniiginoonyidog]
-     2+bagwaaniigin+NI+Dim+Pret: gibagwaaniiginoonsiban
-     2+bagwaaniigin+NI+Dim+VocPl: [gibagwaaniiginoonsidig, gibagwaaniiginoonsidog]
-     3+bagwaaniigin+NI+Con+Pret: obagwaaniiginoonyiban
-     3+bagwaaniigin+NI+Con+VocPl: [obagwaaniiginoonyidig, obagwaaniiginoonyidog]
-     3+bagwaaniigin+NI+Dim+Pret: obagwaaniiginoonsiban
-     3+bagwaaniigin+NI+Dim+VocPl: [obagwaaniiginoonsidig, obagwaaniiginoonsidog]
-     X+bagwaaniigin+NI+Con+Pret: ibagwaaniiginoonyiban
-     X+bagwaaniigin+NI+Con+VocPl: [ibagwaaniiginoonyidig, ibagwaaniiginoonyidog]
-     X+bagwaaniigin+NI+Dim+Pret: ibagwaaniiginoonsiban
-     X+bagwaaniigin+NI+Dim+VocPl: [ibagwaaniiginoonsidig, ibagwaaniiginoonsidog]
+     1+bagwaaniigin+NI+Con+Prt: nibagwaaniiginoonyiban
+     1+bagwaaniigin+NI+Con+Voc+Pl: nibagwaaniiginoonyidin
+     1+bagwaaniigin+NI+Dim+Prt: nibagwaaniiginoonsiban
+     1+bagwaaniigin+NI+Dim+Voc+Pl: nibagwaaniiginoonsidin
+     2+bagwaaniigin+NI+Con+Prt: gibagwaaniiginoonyiban
+     2+bagwaaniigin+NI+Con+Voc+Pl: gibagwaaniiginoonyidin
+     2+bagwaaniigin+NI+Dim+Prt: gibagwaaniiginoonsiban
+     2+bagwaaniigin+NI+Dim+Voc+Pl: gibagwaaniiginoonsidin
+     3+bagwaaniigin+NI+Con+Prt: obagwaaniiginoonyiban
+     3+bagwaaniigin+NI+Con+Voc+Pl: obagwaaniiginoonyidin
+     3+bagwaaniigin+NI+Dim+Prt: obagwaaniiginoonsiban
+     3+bagwaaniigin+NI+Dim+Voc+Pl: obagwaaniiginoonsidin
+     X+bagwaaniigin+NI+Con+Prt: ibagwaaniiginoonyiban
+     X+bagwaaniigin+NI+Con+Voc+Pl: ibagwaaniiginoonyidin
+     X+bagwaaniigin+NI+Dim+Prt: ibagwaaniiginoonsiban
+     X+bagwaaniigin+NI+Dim+Voc+Pl: ibagwaaniiginoonsidin
      
      #Values from slots numbered: 1, 2, 7
      1+bagwaaniigin+NI+Con+Loc: nibagwaaniiginoonying
@@ -219,21 +219,21 @@ Tests:
      X+bagwaaniigin+NI+Pos+Pej: ibagwaaniiginomish
      
      #Values from slots numbered: 1, 3, 5
-     1+bagwaaniigin+NI+Pos+1Pl: nibagwaaniiginominaan
-     2+bagwaaniigin+NI+Pos+21: gibagwaaniiginominaan
-     2+bagwaaniigin+NI+Pos+2Pl: gibagwaaniiginomiwaa
-     3+bagwaaniigin+NI+Pos+3Obv: obagwaaniiginomini
-     3+bagwaaniigin+NI+Pos+3Pl: obagwaaniiginomiwaa
+     1+bagwaaniigin+NI+Pos+1+Pl: nibagwaaniiginominaan
+     2+bagwaaniigin+NI+Pos+1+Pl: gibagwaaniiginominaan
+     2+bagwaaniigin+NI+Pos+3+Pl: gibagwaaniiginomiwaa
+     3+bagwaaniigin+NI+Pos+3+Obv: obagwaaniiginomini
+     3+bagwaaniigin+NI+Pos+3+Pl: obagwaaniiginomiwaa
      
      #Values from slots numbered: 1, 3, 6
-     1+bagwaaniigin+NI+Pos+Pret: nibagwaaniiginomiban
-     1+bagwaaniigin+NI+Pos+VocPl: [nibagwaaniiginomidig, nibagwaaniiginomidog]
-     2+bagwaaniigin+NI+Pos+Pret: gibagwaaniiginomiban
-     2+bagwaaniigin+NI+Pos+VocPl: [gibagwaaniiginomidig, gibagwaaniiginomidog]
-     3+bagwaaniigin+NI+Pos+Pret: obagwaaniiginomiban
-     3+bagwaaniigin+NI+Pos+VocPl: [obagwaaniiginomidig, obagwaaniiginomidog]
-     X+bagwaaniigin+NI+Pos+Pret: ibagwaaniiginomiban
-     X+bagwaaniigin+NI+Pos+VocPl: [ibagwaaniiginomidig, ibagwaaniiginomidog]
+     1+bagwaaniigin+NI+Pos+Prt: nibagwaaniiginomiban
+     1+bagwaaniigin+NI+Pos+Voc+Pl: nibagwaaniiginomidin
+     2+bagwaaniigin+NI+Pos+Prt: gibagwaaniiginomiban
+     2+bagwaaniigin+NI+Pos+Voc+Pl: gibagwaaniiginomidin
+     3+bagwaaniigin+NI+Pos+Prt: obagwaaniiginomiban
+     3+bagwaaniigin+NI+Pos+Voc+Pl: obagwaaniiginomidin
+     X+bagwaaniigin+NI+Pos+Prt: ibagwaaniiginomiban
+     X+bagwaaniigin+NI+Pos+Voc+Pl: ibagwaaniiginomidin
      
      #Values from slots numbered: 1, 3, 7
      1+bagwaaniigin+NI+Pos+Loc: nibagwaaniiginoming
@@ -250,21 +250,21 @@ Tests:
      X+bagwaaniigin+NI+Pos+Pl: ibagwaaniiginoman
      
      #Values from slots numbered: 1, 4, 5
-     1+bagwaaniigin+NI+Pej+1Pl: nibagwaaniiginoshinaan
-     2+bagwaaniigin+NI+Pej+21: gibagwaaniiginoshinaan
-     2+bagwaaniigin+NI+Pej+2Pl: gibagwaaniiginoshiwaa
-     3+bagwaaniigin+NI+Pej+3Obv: obagwaaniiginoshini
-     3+bagwaaniigin+NI+Pej+3Pl: obagwaaniiginoshiwaa
+     1+bagwaaniigin+NI+Pej+1+Pl: nibagwaaniiginoshinaan
+     2+bagwaaniigin+NI+Pej+1+Pl: gibagwaaniiginoshinaan
+     2+bagwaaniigin+NI+Pej+3+Pl: gibagwaaniiginoshiwaa
+     3+bagwaaniigin+NI+Pej+3+Obv: obagwaaniiginoshini
+     3+bagwaaniigin+NI+Pej+3+Pl: obagwaaniiginoshiwaa
      
      #Values from slots numbered: 1, 4, 6
-     1+bagwaaniigin+NI+Pej+Pret: nibagwaaniiginoshiban
-     1+bagwaaniigin+NI+Pej+VocPl: [nibagwaaniiginoshidig, nibagwaaniiginoshidog]
-     2+bagwaaniigin+NI+Pej+Pret: gibagwaaniiginoshiban
-     2+bagwaaniigin+NI+Pej+VocPl: [gibagwaaniiginoshidig, gibagwaaniiginoshidog]
-     3+bagwaaniigin+NI+Pej+Pret: obagwaaniiginoshiban
-     3+bagwaaniigin+NI+Pej+VocPl: [obagwaaniiginoshidig, obagwaaniiginoshidog]
-     X+bagwaaniigin+NI+Pej+Pret: ibagwaaniiginoshiban
-     X+bagwaaniigin+NI+Pej+VocPl: [ibagwaaniiginoshidig, ibagwaaniiginoshidog]
+     1+bagwaaniigin+NI+Pej+Prt: nibagwaaniiginoshiban
+     1+bagwaaniigin+NI+Pej+Voc+Pl: nibagwaaniiginoshidin
+     2+bagwaaniigin+NI+Pej+Prt: gibagwaaniiginoshiban
+     2+bagwaaniigin+NI+Pej+Voc+Pl: gibagwaaniiginoshidin
+     3+bagwaaniigin+NI+Pej+Prt: obagwaaniiginoshiban
+     3+bagwaaniigin+NI+Pej+Voc+Pl: obagwaaniiginoshidin
+     X+bagwaaniigin+NI+Pej+Prt: ibagwaaniiginoshiban
+     X+bagwaaniigin+NI+Pej+Voc+Pl: ibagwaaniiginoshidin
      
      #Values from slots numbered: 1, 4, 7
      1+bagwaaniigin+NI+Pej+Loc: nibagwaaniiginoshing
@@ -281,47 +281,47 @@ Tests:
      X+bagwaaniigin+NI+Pej+Pl: ibagwaaniiginoshan
      
      #Values from slots numbered: 1, 5, 6
-     1+bagwaaniigin+NI+1Pl+Pret: nibagwaaniiginonaaniban
-     1+bagwaaniigin+NI+1Pl+VocPl: [nibagwaaniiginonaanidig, nibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+21+Pret: gibagwaaniiginonaaniban
-     2+bagwaaniigin+NI+21+VocPl: [gibagwaaniiginonaanidig, gibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+2Pl+Pret: gibagwaaniiginowaaban
-     2+bagwaaniigin+NI+2Pl+VocPl: [gibagwaaniiginowaadig, gibagwaaniiginowaadog]
-     3+bagwaaniigin+NI+3Obv+Pret: obagwaaniiginoniiban
-     3+bagwaaniigin+NI+3Obv+VocPl: [obagwaaniiginoniidig, obagwaaniiginoniidog]
-     3+bagwaaniigin+NI+3Pl+Pret: obagwaaniiginowaaban
-     3+bagwaaniigin+NI+3Pl+VocPl: [obagwaaniiginowaadig, obagwaaniiginowaadog]
+     1+bagwaaniigin+NI+1+Pl+Prt: nibagwaaniiginonaaniban
+     1+bagwaaniigin+NI+1+Pl+Voc+Pl: nibagwaaniiginonaanidig
+     2+bagwaaniigin+NI+1+Pl+Prt: gibagwaaniiginonaaniban
+     2+bagwaaniigin+NI+1+Pl+Voc+Pl: gibagwaaniiginonaanidig
+     2+bagwaaniigin+NI+3+Pl+Prt: gibagwaaniiginowaaban
+     2+bagwaaniigin+NI+3+Pl+Voc+Pl: gibagwaaniiginowaadig
+     3+bagwaaniigin+NI+3+Obv+Prt: obagwaaniiginoniiban
+     3+bagwaaniigin+NI+3+Obv+Voc+Pl: obagwaaniiginoniidin
+     3+bagwaaniigin+NI+3+Pl+Prt: obagwaaniiginowaaban
+     3+bagwaaniigin+NI+3+Pl+Voc+Pl: obagwaaniiginowaadig
      
      #Values from slots numbered: 1, 5, 7
-     1+bagwaaniigin+NI+1Pl+Loc: nibagwaaniiginonaaning
-     1+bagwaaniigin+NI+1Pl+Obv: nibagwaaniiginonaanin
-     1+bagwaaniigin+NI+1Pl+Pl: nibagwaaniiginonaanin
-     2+bagwaaniigin+NI+21+Loc: gibagwaaniiginonaaning
-     2+bagwaaniigin+NI+21+Obv: gibagwaaniiginonaanin
-     2+bagwaaniigin+NI+21+Pl: gibagwaaniiginonaanin
-     2+bagwaaniigin+NI+2Pl+Loc: gibagwaaniiginowaang
-     2+bagwaaniigin+NI+2Pl+Obv: gibagwaaniiginowaan
-     2+bagwaaniigin+NI+2Pl+Pl: gibagwaaniiginowaan
-     3+bagwaaniigin+NI+3Obv+Loc: obagwaaniiginoniing
-     3+bagwaaniigin+NI+3Obv+Obv: obagwaaniiginoniin
-     3+bagwaaniigin+NI+3Obv+Pl: obagwaaniiginoniin
-     3+bagwaaniigin+NI+3Pl+Loc: obagwaaniiginowaang
-     3+bagwaaniigin+NI+3Pl+Obv: obagwaaniiginowaan
-     3+bagwaaniigin+NI+3Pl+Pl: obagwaaniiginowaan
+     1+bagwaaniigin+NI+1+Pl+Loc: nibagwaaniiginonaaning
+     1+bagwaaniigin+NI+1+Pl+Obv: nibagwaaniiginonaanin
+     1+bagwaaniigin+NI+1+Pl+Pl: nibagwaaniiginonaanig
+     2+bagwaaniigin+NI+1+Pl+Loc: gibagwaaniiginonaaning
+     2+bagwaaniigin+NI+1+Pl+Obv: gibagwaaniiginonaanin
+     2+bagwaaniigin+NI+1+Pl+Pl: gibagwaaniiginonaanig
+     2+bagwaaniigin+NI+3+Pl+Loc: gibagwaaniiginowaang
+     2+bagwaaniigin+NI+3+Pl+Obv: gibagwaaniiginowaan
+     2+bagwaaniigin+NI+3+Pl+Pl: gibagwaaniiginowaag
+     3+bagwaaniigin+NI+3+Obv+Loc: obagwaaniiginoniing
+     3+bagwaaniigin+NI+3+Obv+Obv: obagwaaniiginoniwa
+     3+bagwaaniigin+NI+3+Obv+Pl: obagwaaniiginoniwa
+     3+bagwaaniigin+NI+3+Pl+Loc: obagwaaniiginowaang
+     3+bagwaaniigin+NI+3+Pl+Obv: obagwaaniiginowaan
+     3+bagwaaniigin+NI+3+Pl+Pl: obagwaaniiginowaag
      
      #Values from slots numbered: 1, 6, 7
-     1+bagwaaniigin+NI+Pret+Loc: nibagwaaniiginobaniing
-     1+bagwaaniigin+NI+Pret+Obv: nibagwaaniiginobaniin
-     1+bagwaaniigin+NI+Pret+Pl: nibagwaaniiginobaniin
-     2+bagwaaniigin+NI+Pret+Loc: gibagwaaniiginobaniing
-     2+bagwaaniigin+NI+Pret+Obv: gibagwaaniiginobaniin
-     2+bagwaaniigin+NI+Pret+Pl: gibagwaaniiginobaniin
-     3+bagwaaniigin+NI+Pret+Loc: obagwaaniiginobaniing
-     3+bagwaaniigin+NI+Pret+Obv: obagwaaniiginobaniin
-     3+bagwaaniigin+NI+Pret+Pl: obagwaaniiginobaniin
-     X+bagwaaniigin+NI+Pret+Loc: ibagwaaniiginobaniing
-     X+bagwaaniigin+NI+Pret+Obv: ibagwaaniiginobaniin
-     X+bagwaaniigin+NI+Pret+Pl: ibagwaaniiginobaniin
+     1+bagwaaniigin+NI+Prt+Loc: nibagwaaniiginobaniing
+     1+bagwaaniigin+NI+Prt+Obv: nibagwaaniiginobaniin
+     1+bagwaaniigin+NI+Prt+Pl: nibagwaaniiginobaniin
+     2+bagwaaniigin+NI+Prt+Loc: gibagwaaniiginobaniing
+     2+bagwaaniigin+NI+Prt+Obv: gibagwaaniiginobaniin
+     2+bagwaaniigin+NI+Prt+Pl: gibagwaaniiginobaniin
+     3+bagwaaniigin+NI+Prt+Loc: obagwaaniiginobaniing
+     3+bagwaaniigin+NI+Prt+Obv: obagwaaniiginobaniin
+     3+bagwaaniigin+NI+Prt+Pl: obagwaaniiginobaniin
+     X+bagwaaniigin+NI+Prt+Loc: ibagwaaniiginobaniing
+     X+bagwaaniigin+NI+Prt+Obv: ibagwaaniiginobaniin
+     X+bagwaaniigin+NI+Prt+Pl: ibagwaaniiginobaniin
      
      
      
@@ -329,10 +329,10 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6
-     bagwaaniigin+NI+Con+Pej+Pret: bagwaaniiginoonyishiban
-     bagwaaniigin+NI+Con+Pej+VocPl: [bagwaaniiginoonyishidig, bagwaaniiginoonyishidog]
-     bagwaaniigin+NI+Dim+Pej+Pret: bagwaaniiginoonsishiban
-     bagwaaniigin+NI+Dim+Pej+VocPl: [bagwaaniiginoonsishidig, bagwaaniiginoonsishidog]
+     bagwaaniigin+NI+Con+Pej+Prt: bagwaaniiginoonyishiban
+     bagwaaniigin+NI+Con+Pej+Voc+Pl: bagwaaniiginoonyishidin
+     bagwaaniigin+NI+Dim+Pej+Prt: bagwaaniiginoonsishiban
+     bagwaaniigin+NI+Dim+Pej+Voc+Pl: bagwaaniiginoonsishidin
      
      #Values from slots numbered: 2, 4, 7
      bagwaaniigin+NI+Con+Pej+Loc: bagwaaniiginoonyishing
@@ -345,12 +345,12 @@ Tests:
      
      
      #Values from slots numbered: 2, 6, 7
-     bagwaaniigin+NI+Con+Pret+Loc: bagwaaniiginoonyibaniing
-     bagwaaniigin+NI+Con+Pret+Obv: bagwaaniiginoonyibaniin
-     bagwaaniigin+NI+Con+Pret+Pl: bagwaaniiginoonyibaniin
-     bagwaaniigin+NI+Dim+Pret+Loc: bagwaaniiginoonsibaniing
-     bagwaaniigin+NI+Dim+Pret+Obv: bagwaaniiginoonsibaniin
-     bagwaaniigin+NI+Dim+Pret+Pl: bagwaaniiginoonsibaniin
+     bagwaaniigin+NI+Con+Prt+Loc: bagwaaniiginoonyibaniing
+     bagwaaniigin+NI+Con+Prt+Obv: bagwaaniiginoonyibaniin
+     bagwaaniigin+NI+Con+Prt+Pl: bagwaaniiginoonyibaniin
+     bagwaaniigin+NI+Dim+Prt+Loc: bagwaaniiginoonsibaniing
+     bagwaaniigin+NI+Dim+Prt+Obv: bagwaaniiginoonsibaniin
+     bagwaaniigin+NI+Dim+Prt+Pl: bagwaaniiginoonsibaniin
      
      
      
@@ -361,9 +361,9 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
-     bagwaaniigin+NI+Pej+Pret+Loc: bagwaaniiginoshibaniing
-     bagwaaniigin+NI+Pej+Pret+Obv: bagwaaniiginoshibaniin
-     bagwaaniigin+NI+Pej+Pret+Pl: bagwaaniiginoshibaniin
+     bagwaaniigin+NI+Pej+Prt+Loc: bagwaaniiginoshibaniing
+     bagwaaniigin+NI+Pej+Prt+Obv: bagwaaniiginoshibaniin
+     bagwaaniigin+NI+Pej+Prt+Pl: bagwaaniiginoshibaniin
      
      
      #Values from slots numbered: 1, 2, 3, 4
@@ -377,34 +377,34 @@ Tests:
      X+bagwaaniigin+NI+Dim+Pos+Pej: ibagwaaniiginoonsimish
      
      #Values from slots numbered: 1, 2, 3, 5
-     1+bagwaaniigin+NI+Con+Pos+1Pl: nibagwaaniiginoonyiminaan
-     1+bagwaaniigin+NI+Dim+Pos+1Pl: nibagwaaniiginoonsiminaan
-     2+bagwaaniigin+NI+Con+Pos+21: gibagwaaniiginoonyiminaan
-     2+bagwaaniigin+NI+Con+Pos+2Pl: gibagwaaniiginoonyimiwaa
-     2+bagwaaniigin+NI+Dim+Pos+21: gibagwaaniiginoonsiminaan
-     2+bagwaaniigin+NI+Dim+Pos+2Pl: gibagwaaniiginoonsimiwaa
-     3+bagwaaniigin+NI+Con+Pos+3Obv: obagwaaniiginoonyimini
-     3+bagwaaniigin+NI+Con+Pos+3Pl: obagwaaniiginoonyimiwaa
-     3+bagwaaniigin+NI+Dim+Pos+3Obv: obagwaaniiginoonsimini
-     3+bagwaaniigin+NI+Dim+Pos+3Pl: obagwaaniiginoonsimiwaa
+     1+bagwaaniigin+NI+Con+Pos+1+Pl: nibagwaaniiginoonyiminaan
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl: nibagwaaniiginoonsiminaan
+     2+bagwaaniigin+NI+Con+Pos+1+Pl: gibagwaaniiginoonyiminaan
+     2+bagwaaniigin+NI+Con+Pos+3+Pl: gibagwaaniiginoonyimiwaa
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl: gibagwaaniiginoonsiminaan
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl: gibagwaaniiginoonsimiwaa
+     3+bagwaaniigin+NI+Con+Pos+3+Obv: obagwaaniiginoonyimini
+     3+bagwaaniigin+NI+Con+Pos+3+Pl: obagwaaniiginoonyimiwaa
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv: obagwaaniiginoonsimini
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl: obagwaaniiginoonsimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
-     1+bagwaaniigin+NI+Con+Pos+Pret: nibagwaaniiginoonyimiban
-     1+bagwaaniigin+NI+Con+Pos+VocPl: [nibagwaaniiginoonyimidig, nibagwaaniiginoonyimidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pret: nibagwaaniiginoonsimiban
-     1+bagwaaniigin+NI+Dim+Pos+VocPl: [nibagwaaniiginoonsimidig, nibagwaaniiginoonsimidog]
-     2+bagwaaniigin+NI+Con+Pos+Pret: gibagwaaniiginoonyimiban
-     2+bagwaaniigin+NI+Con+Pos+VocPl: [gibagwaaniiginoonyimidig, gibagwaaniiginoonyimidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pret: gibagwaaniiginoonsimiban
-     2+bagwaaniigin+NI+Dim+Pos+VocPl: [gibagwaaniiginoonsimidig, gibagwaaniiginoonsimidog]
-     3+bagwaaniigin+NI+Con+Pos+Pret: obagwaaniiginoonyimiban
-     3+bagwaaniigin+NI+Con+Pos+VocPl: [obagwaaniiginoonyimidig, obagwaaniiginoonyimidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pret: obagwaaniiginoonsimiban
-     3+bagwaaniigin+NI+Dim+Pos+VocPl: [obagwaaniiginoonsimidig, obagwaaniiginoonsimidog]
-     X+bagwaaniigin+NI+Con+Pos+Pret: ibagwaaniiginoonyimiban
-     X+bagwaaniigin+NI+Con+Pos+VocPl: [ibagwaaniiginoonyimidig, ibagwaaniiginoonyimidog]
-     X+bagwaaniigin+NI+Dim+Pos+Pret: ibagwaaniiginoonsimiban
-     X+bagwaaniigin+NI+Dim+Pos+VocPl: [ibagwaaniiginoonsimidig, ibagwaaniiginoonsimidog]
+     1+bagwaaniigin+NI+Con+Pos+Prt: nibagwaaniiginoonyimiban
+     1+bagwaaniigin+NI+Con+Pos+Voc+Pl: nibagwaaniiginoonyimidin
+     1+bagwaaniigin+NI+Dim+Pos+Prt: nibagwaaniiginoonsimiban
+     1+bagwaaniigin+NI+Dim+Pos+Voc+Pl: nibagwaaniiginoonsimidin
+     2+bagwaaniigin+NI+Con+Pos+Prt: gibagwaaniiginoonyimiban
+     2+bagwaaniigin+NI+Con+Pos+Voc+Pl: gibagwaaniiginoonyimidin
+     2+bagwaaniigin+NI+Dim+Pos+Prt: gibagwaaniiginoonsimiban
+     2+bagwaaniigin+NI+Dim+Pos+Voc+Pl: gibagwaaniiginoonsimidin
+     3+bagwaaniigin+NI+Con+Pos+Prt: obagwaaniiginoonyimiban
+     3+bagwaaniigin+NI+Con+Pos+Voc+Pl: obagwaaniiginoonyimidin
+     3+bagwaaniigin+NI+Dim+Pos+Prt: obagwaaniiginoonsimiban
+     3+bagwaaniigin+NI+Dim+Pos+Voc+Pl: obagwaaniiginoonsimidin
+     X+bagwaaniigin+NI+Con+Pos+Prt: ibagwaaniiginoonyimiban
+     X+bagwaaniigin+NI+Con+Pos+Voc+Pl: ibagwaaniiginoonyimidin
+     X+bagwaaniigin+NI+Dim+Pos+Prt: ibagwaaniiginoonsimiban
+     X+bagwaaniigin+NI+Dim+Pos+Voc+Pl: ibagwaaniiginoonsimidin
      
      #Values from slots numbered: 1, 2, 3, 7
      1+bagwaaniigin+NI+Con+Pos+Loc: nibagwaaniiginoonyiming
@@ -433,34 +433,34 @@ Tests:
      X+bagwaaniigin+NI+Dim+Pos+Pl: ibagwaaniiginoonsiman
      
      #Values from slots numbered: 1, 2, 4, 5
-     1+bagwaaniigin+NI+Con+Pej+1Pl: nibagwaaniiginoonyishinaan
-     1+bagwaaniigin+NI+Dim+Pej+1Pl: nibagwaaniiginoonsishinaan
-     2+bagwaaniigin+NI+Con+Pej+21: gibagwaaniiginoonyishinaan
-     2+bagwaaniigin+NI+Con+Pej+2Pl: gibagwaaniiginoonyishiwaa
-     2+bagwaaniigin+NI+Dim+Pej+21: gibagwaaniiginoonsishinaan
-     2+bagwaaniigin+NI+Dim+Pej+2Pl: gibagwaaniiginoonsishiwaa
-     3+bagwaaniigin+NI+Con+Pej+3Obv: obagwaaniiginoonyishini
-     3+bagwaaniigin+NI+Con+Pej+3Pl: obagwaaniiginoonyishiwaa
-     3+bagwaaniigin+NI+Dim+Pej+3Obv: obagwaaniiginoonsishini
-     3+bagwaaniigin+NI+Dim+Pej+3Pl: obagwaaniiginoonsishiwaa
+     1+bagwaaniigin+NI+Con+Pej+1+Pl: nibagwaaniiginoonyishinaan
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl: nibagwaaniiginoonsishinaan
+     2+bagwaaniigin+NI+Con+Pej+1+Pl: gibagwaaniiginoonyishinaan
+     2+bagwaaniigin+NI+Con+Pej+3+Pl: gibagwaaniiginoonyishiwaa
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl: gibagwaaniiginoonsishinaan
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl: gibagwaaniiginoonsishiwaa
+     3+bagwaaniigin+NI+Con+Pej+3+Obv: obagwaaniiginoonyishini
+     3+bagwaaniigin+NI+Con+Pej+3+Pl: obagwaaniiginoonyishiwaa
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv: obagwaaniiginoonsishini
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl: obagwaaniiginoonsishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
-     1+bagwaaniigin+NI+Con+Pej+Pret: nibagwaaniiginoonyishiban
-     1+bagwaaniigin+NI+Con+Pej+VocPl: [nibagwaaniiginoonyishidig, nibagwaaniiginoonyishidog]
-     1+bagwaaniigin+NI+Dim+Pej+Pret: nibagwaaniiginoonsishiban
-     1+bagwaaniigin+NI+Dim+Pej+VocPl: [nibagwaaniiginoonsishidig, nibagwaaniiginoonsishidog]
-     2+bagwaaniigin+NI+Con+Pej+Pret: gibagwaaniiginoonyishiban
-     2+bagwaaniigin+NI+Con+Pej+VocPl: [gibagwaaniiginoonyishidig, gibagwaaniiginoonyishidog]
-     2+bagwaaniigin+NI+Dim+Pej+Pret: gibagwaaniiginoonsishiban
-     2+bagwaaniigin+NI+Dim+Pej+VocPl: [gibagwaaniiginoonsishidig, gibagwaaniiginoonsishidog]
-     3+bagwaaniigin+NI+Con+Pej+Pret: obagwaaniiginoonyishiban
-     3+bagwaaniigin+NI+Con+Pej+VocPl: [obagwaaniiginoonyishidig, obagwaaniiginoonyishidog]
-     3+bagwaaniigin+NI+Dim+Pej+Pret: obagwaaniiginoonsishiban
-     3+bagwaaniigin+NI+Dim+Pej+VocPl: [obagwaaniiginoonsishidig, obagwaaniiginoonsishidog]
-     X+bagwaaniigin+NI+Con+Pej+Pret: ibagwaaniiginoonyishiban
-     X+bagwaaniigin+NI+Con+Pej+VocPl: [ibagwaaniiginoonyishidig, ibagwaaniiginoonyishidog]
-     X+bagwaaniigin+NI+Dim+Pej+Pret: ibagwaaniiginoonsishiban
-     X+bagwaaniigin+NI+Dim+Pej+VocPl: [ibagwaaniiginoonsishidig, ibagwaaniiginoonsishidog]
+     1+bagwaaniigin+NI+Con+Pej+Prt: nibagwaaniiginoonyishiban
+     1+bagwaaniigin+NI+Con+Pej+Voc+Pl: nibagwaaniiginoonyishidin
+     1+bagwaaniigin+NI+Dim+Pej+Prt: nibagwaaniiginoonsishiban
+     1+bagwaaniigin+NI+Dim+Pej+Voc+Pl: nibagwaaniiginoonsishidin
+     2+bagwaaniigin+NI+Con+Pej+Prt: gibagwaaniiginoonyishiban
+     2+bagwaaniigin+NI+Con+Pej+Voc+Pl: gibagwaaniiginoonyishidin
+     2+bagwaaniigin+NI+Dim+Pej+Prt: gibagwaaniiginoonsishiban
+     2+bagwaaniigin+NI+Dim+Pej+Voc+Pl: gibagwaaniiginoonsishidin
+     3+bagwaaniigin+NI+Con+Pej+Prt: obagwaaniiginoonyishiban
+     3+bagwaaniigin+NI+Con+Pej+Voc+Pl: obagwaaniiginoonyishidin
+     3+bagwaaniigin+NI+Dim+Pej+Prt: obagwaaniiginoonsishiban
+     3+bagwaaniigin+NI+Dim+Pej+Voc+Pl: obagwaaniiginoonsishidin
+     X+bagwaaniigin+NI+Con+Pej+Prt: ibagwaaniiginoonyishiban
+     X+bagwaaniigin+NI+Con+Pej+Voc+Pl: ibagwaaniiginoonyishidin
+     X+bagwaaniigin+NI+Dim+Pej+Prt: ibagwaaniiginoonsishiban
+     X+bagwaaniigin+NI+Dim+Pej+Voc+Pl: ibagwaaniiginoonsishidin
      
      #Values from slots numbered: 1, 2, 4, 7
      1+bagwaaniigin+NI+Con+Pej+Loc: nibagwaaniiginoonyishing
@@ -489,101 +489,101 @@ Tests:
      X+bagwaaniigin+NI+Dim+Pej+Pl: ibagwaaniiginoonsishan
      
      #Values from slots numbered: 1, 2, 5, 6
-     1+bagwaaniigin+NI+Con+1Pl+Pret: nibagwaaniiginoonyinaaniban
-     1+bagwaaniigin+NI+Con+1Pl+VocPl: [nibagwaaniiginoonyinaanidig, nibagwaaniiginoonyinaanidog]
-     1+bagwaaniigin+NI+Dim+1Pl+Pret: nibagwaaniiginoonsinaaniban
-     1+bagwaaniigin+NI+Dim+1Pl+VocPl: [nibagwaaniiginoonsinaanidig, nibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Con+21+Pret: gibagwaaniiginoonyinaaniban
-     2+bagwaaniigin+NI+Con+21+VocPl: [gibagwaaniiginoonyinaanidig, gibagwaaniiginoonyinaanidog]
-     2+bagwaaniigin+NI+Con+2Pl+Pret: gibagwaaniiginoonyiwaaban
-     2+bagwaaniigin+NI+Con+2Pl+VocPl: [gibagwaaniiginoonyiwaadig, gibagwaaniiginoonyiwaadog]
-     2+bagwaaniigin+NI+Dim+21+Pret: gibagwaaniiginoonsinaaniban
-     2+bagwaaniigin+NI+Dim+21+VocPl: [gibagwaaniiginoonsinaanidig, gibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Dim+2Pl+Pret: gibagwaaniiginoonsiwaaban
-     2+bagwaaniigin+NI+Dim+2Pl+VocPl: [gibagwaaniiginoonsiwaadig, gibagwaaniiginoonsiwaadog]
-     3+bagwaaniigin+NI+Con+3Obv+Pret: obagwaaniiginoonyiniiban
-     3+bagwaaniigin+NI+Con+3Obv+VocPl: [obagwaaniiginoonyiniidig, obagwaaniiginoonyiniidog]
-     3+bagwaaniigin+NI+Con+3Pl+Pret: obagwaaniiginoonyiwaaban
-     3+bagwaaniigin+NI+Con+3Pl+VocPl: [obagwaaniiginoonyiwaadig, obagwaaniiginoonyiwaadog]
-     3+bagwaaniigin+NI+Dim+3Obv+Pret: obagwaaniiginoonsiniiban
-     3+bagwaaniigin+NI+Dim+3Obv+VocPl: [obagwaaniiginoonsiniidig, obagwaaniiginoonsiniidog]
-     3+bagwaaniigin+NI+Dim+3Pl+Pret: obagwaaniiginoonsiwaaban
-     3+bagwaaniigin+NI+Dim+3Pl+VocPl: [obagwaaniiginoonsiwaadig, obagwaaniiginoonsiwaadog]
+     1+bagwaaniigin+NI+Con+1+Pl+Prt: nibagwaaniiginoonyinaaniban
+     1+bagwaaniigin+NI+Con+1+Pl+Voc+Pl: nibagwaaniiginoonyinaanidig
+     1+bagwaaniigin+NI+Dim+1+Pl+Prt: nibagwaaniiginoonsinaaniban
+     1+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl: nibagwaaniiginoonsinaanidig
+     2+bagwaaniigin+NI+Con+1+Pl+Prt: gibagwaaniiginoonyinaaniban
+     2+bagwaaniigin+NI+Con+1+Pl+Voc+Pl: gibagwaaniiginoonyinaanidig
+     2+bagwaaniigin+NI+Con+3+Pl+Prt: gibagwaaniiginoonyiwaaban
+     2+bagwaaniigin+NI+Con+3+Pl+Voc+Pl: gibagwaaniiginoonyiwaadig
+     2+bagwaaniigin+NI+Dim+1+Pl+Prt: gibagwaaniiginoonsinaaniban
+     2+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl: gibagwaaniiginoonsinaanidig
+     2+bagwaaniigin+NI+Dim+3+Pl+Prt: gibagwaaniiginoonsiwaaban
+     2+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl: gibagwaaniiginoonsiwaadig
+     3+bagwaaniigin+NI+Con+3+Obv+Prt: obagwaaniiginoonyiniiban
+     3+bagwaaniigin+NI+Con+3+Obv+Voc+Pl: obagwaaniiginoonyiniidin
+     3+bagwaaniigin+NI+Con+3+Pl+Prt: obagwaaniiginoonyiwaaban
+     3+bagwaaniigin+NI+Con+3+Pl+Voc+Pl: obagwaaniiginoonyiwaadig
+     3+bagwaaniigin+NI+Dim+3+Obv+Prt: obagwaaniiginoonsiniiban
+     3+bagwaaniigin+NI+Dim+3+Obv+Voc+Pl: obagwaaniiginoonsiniidin
+     3+bagwaaniigin+NI+Dim+3+Pl+Prt: obagwaaniiginoonsiwaaban
+     3+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl: obagwaaniiginoonsiwaadig
      
      #Values from slots numbered: 1, 2, 5, 7
-     1+bagwaaniigin+NI+Con+1Pl+Loc: nibagwaaniiginoonyinaaning
-     1+bagwaaniigin+NI+Con+1Pl+Obv: nibagwaaniiginoonyinaanin
-     1+bagwaaniigin+NI+Con+1Pl+Pl: nibagwaaniiginoonyinaanin
-     1+bagwaaniigin+NI+Dim+1Pl+Loc: nibagwaaniiginoonsinaaning
-     1+bagwaaniigin+NI+Dim+1Pl+Obv: nibagwaaniiginoonsinaanin
-     1+bagwaaniigin+NI+Dim+1Pl+Pl: nibagwaaniiginoonsinaanin
-     2+bagwaaniigin+NI+Con+21+Loc: gibagwaaniiginoonyinaaning
-     2+bagwaaniigin+NI+Con+21+Obv: gibagwaaniiginoonyinaanin
-     2+bagwaaniigin+NI+Con+21+Pl: gibagwaaniiginoonyinaanin
-     2+bagwaaniigin+NI+Con+2Pl+Loc: gibagwaaniiginoonyiwaang
-     2+bagwaaniigin+NI+Con+2Pl+Obv: gibagwaaniiginoonyiwaan
-     2+bagwaaniigin+NI+Con+2Pl+Pl: gibagwaaniiginoonyiwaan
-     2+bagwaaniigin+NI+Dim+21+Loc: gibagwaaniiginoonsinaaning
-     2+bagwaaniigin+NI+Dim+21+Obv: gibagwaaniiginoonsinaanin
-     2+bagwaaniigin+NI+Dim+21+Pl: gibagwaaniiginoonsinaanin
-     2+bagwaaniigin+NI+Dim+2Pl+Loc: gibagwaaniiginoonsiwaang
-     2+bagwaaniigin+NI+Dim+2Pl+Obv: gibagwaaniiginoonsiwaan
-     2+bagwaaniigin+NI+Dim+2Pl+Pl: gibagwaaniiginoonsiwaan
-     3+bagwaaniigin+NI+Con+3Obv+Loc: obagwaaniiginoonyiniing
-     3+bagwaaniigin+NI+Con+3Obv+Obv: obagwaaniiginoonyiniin
-     3+bagwaaniigin+NI+Con+3Obv+Pl: obagwaaniiginoonyiniin
-     3+bagwaaniigin+NI+Con+3Pl+Loc: obagwaaniiginoonyiwaang
-     3+bagwaaniigin+NI+Con+3Pl+Obv: obagwaaniiginoonyiwaan
-     3+bagwaaniigin+NI+Con+3Pl+Pl: obagwaaniiginoonyiwaan
-     3+bagwaaniigin+NI+Dim+3Obv+Loc: obagwaaniiginoonsiniing
-     3+bagwaaniigin+NI+Dim+3Obv+Obv: obagwaaniiginoonsiniin
-     3+bagwaaniigin+NI+Dim+3Obv+Pl: obagwaaniiginoonsiniin
-     3+bagwaaniigin+NI+Dim+3Pl+Loc: obagwaaniiginoonsiwaang
-     3+bagwaaniigin+NI+Dim+3Pl+Obv: obagwaaniiginoonsiwaan
-     3+bagwaaniigin+NI+Dim+3Pl+Pl: obagwaaniiginoonsiwaan
+     1+bagwaaniigin+NI+Con+1+Pl+Loc: nibagwaaniiginoonyinaaning
+     1+bagwaaniigin+NI+Con+1+Pl+Obv: nibagwaaniiginoonyinaanin
+     1+bagwaaniigin+NI+Con+1+Pl+Pl: nibagwaaniiginoonyinaanig
+     1+bagwaaniigin+NI+Dim+1+Pl+Loc: nibagwaaniiginoonsinaaning
+     1+bagwaaniigin+NI+Dim+1+Pl+Obv: nibagwaaniiginoonsinaanin
+     1+bagwaaniigin+NI+Dim+1+Pl+Pl: nibagwaaniiginoonsinaanig
+     2+bagwaaniigin+NI+Con+1+Pl+Loc: gibagwaaniiginoonyinaaning
+     2+bagwaaniigin+NI+Con+1+Pl+Obv: gibagwaaniiginoonyinaanin
+     2+bagwaaniigin+NI+Con+1+Pl+Pl: gibagwaaniiginoonyinaanig
+     2+bagwaaniigin+NI+Con+3+Pl+Loc: gibagwaaniiginoonyiwaang
+     2+bagwaaniigin+NI+Con+3+Pl+Obv: gibagwaaniiginoonyiwaan
+     2+bagwaaniigin+NI+Con+3+Pl+Pl: gibagwaaniiginoonyiwaag
+     2+bagwaaniigin+NI+Dim+1+Pl+Loc: gibagwaaniiginoonsinaaning
+     2+bagwaaniigin+NI+Dim+1+Pl+Obv: gibagwaaniiginoonsinaanin
+     2+bagwaaniigin+NI+Dim+1+Pl+Pl: gibagwaaniiginoonsinaanig
+     2+bagwaaniigin+NI+Dim+3+Pl+Loc: gibagwaaniiginoonsiwaang
+     2+bagwaaniigin+NI+Dim+3+Pl+Obv: gibagwaaniiginoonsiwaan
+     2+bagwaaniigin+NI+Dim+3+Pl+Pl: gibagwaaniiginoonsiwaag
+     3+bagwaaniigin+NI+Con+3+Obv+Loc: obagwaaniiginoonyiniing
+     3+bagwaaniigin+NI+Con+3+Obv+Obv: obagwaaniiginoonyiniwa
+     3+bagwaaniigin+NI+Con+3+Obv+Pl: obagwaaniiginoonyiniwa
+     3+bagwaaniigin+NI+Con+3+Pl+Loc: obagwaaniiginoonyiwaang
+     3+bagwaaniigin+NI+Con+3+Pl+Obv: obagwaaniiginoonyiwaan
+     3+bagwaaniigin+NI+Con+3+Pl+Pl: obagwaaniiginoonyiwaag
+     3+bagwaaniigin+NI+Dim+3+Obv+Loc: obagwaaniiginoonsiniing
+     3+bagwaaniigin+NI+Dim+3+Obv+Obv: obagwaaniiginoonsiniwa
+     3+bagwaaniigin+NI+Dim+3+Obv+Pl: obagwaaniiginoonsiniwa
+     3+bagwaaniigin+NI+Dim+3+Pl+Loc: obagwaaniiginoonsiwaang
+     3+bagwaaniigin+NI+Dim+3+Pl+Obv: obagwaaniiginoonsiwaan
+     3+bagwaaniigin+NI+Dim+3+Pl+Pl: obagwaaniiginoonsiwaag
      
      #Values from slots numbered: 1, 2, 6, 7
-     1+bagwaaniigin+NI+Con+Pret+Loc: nibagwaaniiginoonyibaniing
-     1+bagwaaniigin+NI+Con+Pret+Obv: nibagwaaniiginoonyibaniin
-     1+bagwaaniigin+NI+Con+Pret+Pl: nibagwaaniiginoonyibaniin
-     1+bagwaaniigin+NI+Dim+Pret+Loc: nibagwaaniiginoonsibaniing
-     1+bagwaaniigin+NI+Dim+Pret+Obv: nibagwaaniiginoonsibaniin
-     1+bagwaaniigin+NI+Dim+Pret+Pl: nibagwaaniiginoonsibaniin
-     2+bagwaaniigin+NI+Con+Pret+Loc: gibagwaaniiginoonyibaniing
-     2+bagwaaniigin+NI+Con+Pret+Obv: gibagwaaniiginoonyibaniin
-     2+bagwaaniigin+NI+Con+Pret+Pl: gibagwaaniiginoonyibaniin
-     2+bagwaaniigin+NI+Dim+Pret+Loc: gibagwaaniiginoonsibaniing
-     2+bagwaaniigin+NI+Dim+Pret+Obv: gibagwaaniiginoonsibaniin
-     2+bagwaaniigin+NI+Dim+Pret+Pl: gibagwaaniiginoonsibaniin
-     3+bagwaaniigin+NI+Con+Pret+Loc: obagwaaniiginoonyibaniing
-     3+bagwaaniigin+NI+Con+Pret+Obv: obagwaaniiginoonyibaniin
-     3+bagwaaniigin+NI+Con+Pret+Pl: obagwaaniiginoonyibaniin
-     3+bagwaaniigin+NI+Dim+Pret+Loc: obagwaaniiginoonsibaniing
-     3+bagwaaniigin+NI+Dim+Pret+Obv: obagwaaniiginoonsibaniin
-     3+bagwaaniigin+NI+Dim+Pret+Pl: obagwaaniiginoonsibaniin
-     X+bagwaaniigin+NI+Con+Pret+Loc: ibagwaaniiginoonyibaniing
-     X+bagwaaniigin+NI+Con+Pret+Obv: ibagwaaniiginoonyibaniin
-     X+bagwaaniigin+NI+Con+Pret+Pl: ibagwaaniiginoonyibaniin
-     X+bagwaaniigin+NI+Dim+Pret+Loc: ibagwaaniiginoonsibaniing
-     X+bagwaaniigin+NI+Dim+Pret+Obv: ibagwaaniiginoonsibaniin
-     X+bagwaaniigin+NI+Dim+Pret+Pl: ibagwaaniiginoonsibaniin
+     1+bagwaaniigin+NI+Con+Prt+Loc: nibagwaaniiginoonyibaniing
+     1+bagwaaniigin+NI+Con+Prt+Obv: nibagwaaniiginoonyibaniin
+     1+bagwaaniigin+NI+Con+Prt+Pl: nibagwaaniiginoonyibaniin
+     1+bagwaaniigin+NI+Dim+Prt+Loc: nibagwaaniiginoonsibaniing
+     1+bagwaaniigin+NI+Dim+Prt+Obv: nibagwaaniiginoonsibaniin
+     1+bagwaaniigin+NI+Dim+Prt+Pl: nibagwaaniiginoonsibaniin
+     2+bagwaaniigin+NI+Con+Prt+Loc: gibagwaaniiginoonyibaniing
+     2+bagwaaniigin+NI+Con+Prt+Obv: gibagwaaniiginoonyibaniin
+     2+bagwaaniigin+NI+Con+Prt+Pl: gibagwaaniiginoonyibaniin
+     2+bagwaaniigin+NI+Dim+Prt+Loc: gibagwaaniiginoonsibaniing
+     2+bagwaaniigin+NI+Dim+Prt+Obv: gibagwaaniiginoonsibaniin
+     2+bagwaaniigin+NI+Dim+Prt+Pl: gibagwaaniiginoonsibaniin
+     3+bagwaaniigin+NI+Con+Prt+Loc: obagwaaniiginoonyibaniing
+     3+bagwaaniigin+NI+Con+Prt+Obv: obagwaaniiginoonyibaniin
+     3+bagwaaniigin+NI+Con+Prt+Pl: obagwaaniiginoonyibaniin
+     3+bagwaaniigin+NI+Dim+Prt+Loc: obagwaaniiginoonsibaniing
+     3+bagwaaniigin+NI+Dim+Prt+Obv: obagwaaniiginoonsibaniin
+     3+bagwaaniigin+NI+Dim+Prt+Pl: obagwaaniiginoonsibaniin
+     X+bagwaaniigin+NI+Con+Prt+Loc: ibagwaaniiginoonyibaniing
+     X+bagwaaniigin+NI+Con+Prt+Obv: ibagwaaniiginoonyibaniin
+     X+bagwaaniigin+NI+Con+Prt+Pl: ibagwaaniiginoonyibaniin
+     X+bagwaaniigin+NI+Dim+Prt+Loc: ibagwaaniiginoonsibaniing
+     X+bagwaaniigin+NI+Dim+Prt+Obv: ibagwaaniiginoonsibaniin
+     X+bagwaaniigin+NI+Dim+Prt+Pl: ibagwaaniiginoonsibaniin
      
      #Values from slots numbered: 1, 3, 4, 5
-     1+bagwaaniigin+NI+Pos+Pej+1Pl: nibagwaaniiginomishinaan
-     2+bagwaaniigin+NI+Pos+Pej+21: gibagwaaniiginomishinaan
-     2+bagwaaniigin+NI+Pos+Pej+2Pl: gibagwaaniiginomishiwaa
-     3+bagwaaniigin+NI+Pos+Pej+3Obv: obagwaaniiginomishini
-     3+bagwaaniigin+NI+Pos+Pej+3Pl: obagwaaniiginomishiwaa
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl: nibagwaaniiginomishinaan
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl: gibagwaaniiginomishinaan
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl: gibagwaaniiginomishiwaa
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv: obagwaaniiginomishini
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl: obagwaaniiginomishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
-     1+bagwaaniigin+NI+Pos+Pej+Pret: nibagwaaniiginomishiban
-     1+bagwaaniigin+NI+Pos+Pej+VocPl: [nibagwaaniiginomishidig, nibagwaaniiginomishidog]
-     2+bagwaaniigin+NI+Pos+Pej+Pret: gibagwaaniiginomishiban
-     2+bagwaaniigin+NI+Pos+Pej+VocPl: [gibagwaaniiginomishidig, gibagwaaniiginomishidog]
-     3+bagwaaniigin+NI+Pos+Pej+Pret: obagwaaniiginomishiban
-     3+bagwaaniigin+NI+Pos+Pej+VocPl: [obagwaaniiginomishidig, obagwaaniiginomishidog]
-     X+bagwaaniigin+NI+Pos+Pej+Pret: ibagwaaniiginomishiban
-     X+bagwaaniigin+NI+Pos+Pej+VocPl: [ibagwaaniiginomishidig, ibagwaaniiginomishidog]
+     1+bagwaaniigin+NI+Pos+Pej+Prt: nibagwaaniiginomishiban
+     1+bagwaaniigin+NI+Pos+Pej+Voc+Pl: nibagwaaniiginomishidin
+     2+bagwaaniigin+NI+Pos+Pej+Prt: gibagwaaniiginomishiban
+     2+bagwaaniigin+NI+Pos+Pej+Voc+Pl: gibagwaaniiginomishidin
+     3+bagwaaniigin+NI+Pos+Pej+Prt: obagwaaniiginomishiban
+     3+bagwaaniigin+NI+Pos+Pej+Voc+Pl: obagwaaniiginomishidin
+     X+bagwaaniigin+NI+Pos+Pej+Prt: ibagwaaniiginomishiban
+     X+bagwaaniigin+NI+Pos+Pej+Voc+Pl: ibagwaaniiginomishidin
      
      #Values from slots numbered: 1, 3, 4, 7
      1+bagwaaniigin+NI+Pos+Pej+Loc: nibagwaaniiginomishing
@@ -600,122 +600,122 @@ Tests:
      X+bagwaaniigin+NI+Pos+Pej+Pl: ibagwaaniiginomishan
      
      #Values from slots numbered: 1, 3, 5, 6
-     1+bagwaaniigin+NI+Pos+1Pl+Pret: nibagwaaniiginominaaniban
-     1+bagwaaniigin+NI+Pos+1Pl+VocPl: [nibagwaaniiginominaanidig, nibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+21+Pret: gibagwaaniiginominaaniban
-     2+bagwaaniigin+NI+Pos+21+VocPl: [gibagwaaniiginominaanidig, gibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+2Pl+Pret: gibagwaaniiginomiwaaban
-     2+bagwaaniigin+NI+Pos+2Pl+VocPl: [gibagwaaniiginomiwaadig, gibagwaaniiginomiwaadog]
-     3+bagwaaniigin+NI+Pos+3Obv+Pret: obagwaaniiginominiiban
-     3+bagwaaniigin+NI+Pos+3Obv+VocPl: [obagwaaniiginominiidig, obagwaaniiginominiidog]
-     3+bagwaaniigin+NI+Pos+3Pl+Pret: obagwaaniiginomiwaaban
-     3+bagwaaniigin+NI+Pos+3Pl+VocPl: [obagwaaniiginomiwaadig, obagwaaniiginomiwaadog]
+     1+bagwaaniigin+NI+Pos+1+Pl+Prt: nibagwaaniiginominaaniban
+     1+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl: nibagwaaniiginominaanidig
+     2+bagwaaniigin+NI+Pos+1+Pl+Prt: gibagwaaniiginominaaniban
+     2+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl: gibagwaaniiginominaanidig
+     2+bagwaaniigin+NI+Pos+3+Pl+Prt: gibagwaaniiginomiwaaban
+     2+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl: gibagwaaniiginomiwaadig
+     3+bagwaaniigin+NI+Pos+3+Obv+Prt: obagwaaniiginominiiban
+     3+bagwaaniigin+NI+Pos+3+Obv+Voc+Pl: obagwaaniiginominiidin
+     3+bagwaaniigin+NI+Pos+3+Pl+Prt: obagwaaniiginomiwaaban
+     3+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl: obagwaaniiginomiwaadig
      
      #Values from slots numbered: 1, 3, 5, 7
-     1+bagwaaniigin+NI+Pos+1Pl+Loc: nibagwaaniiginominaaning
-     1+bagwaaniigin+NI+Pos+1Pl+Obv: nibagwaaniiginominaanin
-     1+bagwaaniigin+NI+Pos+1Pl+Pl: nibagwaaniiginominaanin
-     2+bagwaaniigin+NI+Pos+21+Loc: gibagwaaniiginominaaning
-     2+bagwaaniigin+NI+Pos+21+Obv: gibagwaaniiginominaanin
-     2+bagwaaniigin+NI+Pos+21+Pl: gibagwaaniiginominaanin
-     2+bagwaaniigin+NI+Pos+2Pl+Loc: gibagwaaniiginomiwaang
-     2+bagwaaniigin+NI+Pos+2Pl+Obv: gibagwaaniiginomiwaan
-     2+bagwaaniigin+NI+Pos+2Pl+Pl: gibagwaaniiginomiwaan
-     3+bagwaaniigin+NI+Pos+3Obv+Loc: obagwaaniiginominiing
-     3+bagwaaniigin+NI+Pos+3Obv+Obv: obagwaaniiginominiin
-     3+bagwaaniigin+NI+Pos+3Obv+Pl: obagwaaniiginominiin
-     3+bagwaaniigin+NI+Pos+3Pl+Loc: obagwaaniiginomiwaang
-     3+bagwaaniigin+NI+Pos+3Pl+Obv: obagwaaniiginomiwaan
-     3+bagwaaniigin+NI+Pos+3Pl+Pl: obagwaaniiginomiwaan
+     1+bagwaaniigin+NI+Pos+1+Pl+Loc: nibagwaaniiginominaaning
+     1+bagwaaniigin+NI+Pos+1+Pl+Obv: nibagwaaniiginominaanin
+     1+bagwaaniigin+NI+Pos+1+Pl+Pl: nibagwaaniiginominaanig
+     2+bagwaaniigin+NI+Pos+1+Pl+Loc: gibagwaaniiginominaaning
+     2+bagwaaniigin+NI+Pos+1+Pl+Obv: gibagwaaniiginominaanin
+     2+bagwaaniigin+NI+Pos+1+Pl+Pl: gibagwaaniiginominaanig
+     2+bagwaaniigin+NI+Pos+3+Pl+Loc: gibagwaaniiginomiwaang
+     2+bagwaaniigin+NI+Pos+3+Pl+Obv: gibagwaaniiginomiwaan
+     2+bagwaaniigin+NI+Pos+3+Pl+Pl: gibagwaaniiginomiwaag
+     3+bagwaaniigin+NI+Pos+3+Obv+Loc: obagwaaniiginominiing
+     3+bagwaaniigin+NI+Pos+3+Obv+Obv: obagwaaniiginominiwa
+     3+bagwaaniigin+NI+Pos+3+Obv+Pl: obagwaaniiginominiwa
+     3+bagwaaniigin+NI+Pos+3+Pl+Loc: obagwaaniiginomiwaang
+     3+bagwaaniigin+NI+Pos+3+Pl+Obv: obagwaaniiginomiwaan
+     3+bagwaaniigin+NI+Pos+3+Pl+Pl: obagwaaniiginomiwaag
      
      #Values from slots numbered: 1, 3, 6, 7
-     1+bagwaaniigin+NI+Pos+Pret+Loc: nibagwaaniiginomibaniing
-     1+bagwaaniigin+NI+Pos+Pret+Obv: nibagwaaniiginomibaniin
-     1+bagwaaniigin+NI+Pos+Pret+Pl: nibagwaaniiginomibaniin
-     2+bagwaaniigin+NI+Pos+Pret+Loc: gibagwaaniiginomibaniing
-     2+bagwaaniigin+NI+Pos+Pret+Obv: gibagwaaniiginomibaniin
-     2+bagwaaniigin+NI+Pos+Pret+Pl: gibagwaaniiginomibaniin
-     3+bagwaaniigin+NI+Pos+Pret+Loc: obagwaaniiginomibaniing
-     3+bagwaaniigin+NI+Pos+Pret+Obv: obagwaaniiginomibaniin
-     3+bagwaaniigin+NI+Pos+Pret+Pl: obagwaaniiginomibaniin
-     X+bagwaaniigin+NI+Pos+Pret+Loc: ibagwaaniiginomibaniing
-     X+bagwaaniigin+NI+Pos+Pret+Obv: ibagwaaniiginomibaniin
-     X+bagwaaniigin+NI+Pos+Pret+Pl: ibagwaaniiginomibaniin
+     1+bagwaaniigin+NI+Pos+Prt+Loc: nibagwaaniiginomibaniing
+     1+bagwaaniigin+NI+Pos+Prt+Obv: nibagwaaniiginomibaniin
+     1+bagwaaniigin+NI+Pos+Prt+Pl: nibagwaaniiginomibaniin
+     2+bagwaaniigin+NI+Pos+Prt+Loc: gibagwaaniiginomibaniing
+     2+bagwaaniigin+NI+Pos+Prt+Obv: gibagwaaniiginomibaniin
+     2+bagwaaniigin+NI+Pos+Prt+Pl: gibagwaaniiginomibaniin
+     3+bagwaaniigin+NI+Pos+Prt+Loc: obagwaaniiginomibaniing
+     3+bagwaaniigin+NI+Pos+Prt+Obv: obagwaaniiginomibaniin
+     3+bagwaaniigin+NI+Pos+Prt+Pl: obagwaaniiginomibaniin
+     X+bagwaaniigin+NI+Pos+Prt+Loc: ibagwaaniiginomibaniing
+     X+bagwaaniigin+NI+Pos+Prt+Obv: ibagwaaniiginomibaniin
+     X+bagwaaniigin+NI+Pos+Prt+Pl: ibagwaaniiginomibaniin
      
      #Values from slots numbered: 1, 4, 5, 6
-     1+bagwaaniigin+NI+Pej+1Pl+Pret: nibagwaaniiginoshinaaniban
-     1+bagwaaniigin+NI+Pej+1Pl+VocPl: [nibagwaaniiginoshinaanidig, nibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+21+Pret: gibagwaaniiginoshinaaniban
-     2+bagwaaniigin+NI+Pej+21+VocPl: [gibagwaaniiginoshinaanidig, gibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+2Pl+Pret: gibagwaaniiginoshiwaaban
-     2+bagwaaniigin+NI+Pej+2Pl+VocPl: [gibagwaaniiginoshiwaadig, gibagwaaniiginoshiwaadog]
-     3+bagwaaniigin+NI+Pej+3Obv+Pret: obagwaaniiginoshiniiban
-     3+bagwaaniigin+NI+Pej+3Obv+VocPl: [obagwaaniiginoshiniidig, obagwaaniiginoshiniidog]
-     3+bagwaaniigin+NI+Pej+3Pl+Pret: obagwaaniiginoshiwaaban
-     3+bagwaaniigin+NI+Pej+3Pl+VocPl: [obagwaaniiginoshiwaadig, obagwaaniiginoshiwaadog]
+     1+bagwaaniigin+NI+Pej+1+Pl+Prt: nibagwaaniiginoshinaaniban
+     1+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl: nibagwaaniiginoshinaanidig
+     2+bagwaaniigin+NI+Pej+1+Pl+Prt: gibagwaaniiginoshinaaniban
+     2+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl: gibagwaaniiginoshinaanidig
+     2+bagwaaniigin+NI+Pej+3+Pl+Prt: gibagwaaniiginoshiwaaban
+     2+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl: gibagwaaniiginoshiwaadig
+     3+bagwaaniigin+NI+Pej+3+Obv+Prt: obagwaaniiginoshiniiban
+     3+bagwaaniigin+NI+Pej+3+Obv+Voc+Pl: obagwaaniiginoshiniidin
+     3+bagwaaniigin+NI+Pej+3+Pl+Prt: obagwaaniiginoshiwaaban
+     3+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl: obagwaaniiginoshiwaadig
      
      #Values from slots numbered: 1, 4, 5, 7
-     1+bagwaaniigin+NI+Pej+1Pl+Loc: nibagwaaniiginoshinaaning
-     1+bagwaaniigin+NI+Pej+1Pl+Obv: nibagwaaniiginoshinaanin
-     1+bagwaaniigin+NI+Pej+1Pl+Pl: nibagwaaniiginoshinaanin
-     2+bagwaaniigin+NI+Pej+21+Loc: gibagwaaniiginoshinaaning
-     2+bagwaaniigin+NI+Pej+21+Obv: gibagwaaniiginoshinaanin
-     2+bagwaaniigin+NI+Pej+21+Pl: gibagwaaniiginoshinaanin
-     2+bagwaaniigin+NI+Pej+2Pl+Loc: gibagwaaniiginoshiwaang
-     2+bagwaaniigin+NI+Pej+2Pl+Obv: gibagwaaniiginoshiwaan
-     2+bagwaaniigin+NI+Pej+2Pl+Pl: gibagwaaniiginoshiwaan
-     3+bagwaaniigin+NI+Pej+3Obv+Loc: obagwaaniiginoshiniing
-     3+bagwaaniigin+NI+Pej+3Obv+Obv: obagwaaniiginoshiniin
-     3+bagwaaniigin+NI+Pej+3Obv+Pl: obagwaaniiginoshiniin
-     3+bagwaaniigin+NI+Pej+3Pl+Loc: obagwaaniiginoshiwaang
-     3+bagwaaniigin+NI+Pej+3Pl+Obv: obagwaaniiginoshiwaan
-     3+bagwaaniigin+NI+Pej+3Pl+Pl: obagwaaniiginoshiwaan
+     1+bagwaaniigin+NI+Pej+1+Pl+Loc: nibagwaaniiginoshinaaning
+     1+bagwaaniigin+NI+Pej+1+Pl+Obv: nibagwaaniiginoshinaanin
+     1+bagwaaniigin+NI+Pej+1+Pl+Pl: nibagwaaniiginoshinaanig
+     2+bagwaaniigin+NI+Pej+1+Pl+Loc: gibagwaaniiginoshinaaning
+     2+bagwaaniigin+NI+Pej+1+Pl+Obv: gibagwaaniiginoshinaanin
+     2+bagwaaniigin+NI+Pej+1+Pl+Pl: gibagwaaniiginoshinaanig
+     2+bagwaaniigin+NI+Pej+3+Pl+Loc: gibagwaaniiginoshiwaang
+     2+bagwaaniigin+NI+Pej+3+Pl+Obv: gibagwaaniiginoshiwaan
+     2+bagwaaniigin+NI+Pej+3+Pl+Pl: gibagwaaniiginoshiwaag
+     3+bagwaaniigin+NI+Pej+3+Obv+Loc: obagwaaniiginoshiniing
+     3+bagwaaniigin+NI+Pej+3+Obv+Obv: obagwaaniiginoshiniwa
+     3+bagwaaniigin+NI+Pej+3+Obv+Pl: obagwaaniiginoshiniwa
+     3+bagwaaniigin+NI+Pej+3+Pl+Loc: obagwaaniiginoshiwaang
+     3+bagwaaniigin+NI+Pej+3+Pl+Obv: obagwaaniiginoshiwaan
+     3+bagwaaniigin+NI+Pej+3+Pl+Pl: obagwaaniiginoshiwaag
      
      #Values from slots numbered: 1, 4, 6, 7
-     1+bagwaaniigin+NI+Pej+Pret+Loc: nibagwaaniiginoshibaniing
-     1+bagwaaniigin+NI+Pej+Pret+Obv: nibagwaaniiginoshibaniin
-     1+bagwaaniigin+NI+Pej+Pret+Pl: nibagwaaniiginoshibaniin
-     2+bagwaaniigin+NI+Pej+Pret+Loc: gibagwaaniiginoshibaniing
-     2+bagwaaniigin+NI+Pej+Pret+Obv: gibagwaaniiginoshibaniin
-     2+bagwaaniigin+NI+Pej+Pret+Pl: gibagwaaniiginoshibaniin
-     3+bagwaaniigin+NI+Pej+Pret+Loc: obagwaaniiginoshibaniing
-     3+bagwaaniigin+NI+Pej+Pret+Obv: obagwaaniiginoshibaniin
-     3+bagwaaniigin+NI+Pej+Pret+Pl: obagwaaniiginoshibaniin
-     X+bagwaaniigin+NI+Pej+Pret+Loc: ibagwaaniiginoshibaniing
-     X+bagwaaniigin+NI+Pej+Pret+Obv: ibagwaaniiginoshibaniin
-     X+bagwaaniigin+NI+Pej+Pret+Pl: ibagwaaniiginoshibaniin
+     1+bagwaaniigin+NI+Pej+Prt+Loc: nibagwaaniiginoshibaniing
+     1+bagwaaniigin+NI+Pej+Prt+Obv: nibagwaaniiginoshibaniin
+     1+bagwaaniigin+NI+Pej+Prt+Pl: nibagwaaniiginoshibaniin
+     2+bagwaaniigin+NI+Pej+Prt+Loc: gibagwaaniiginoshibaniing
+     2+bagwaaniigin+NI+Pej+Prt+Obv: gibagwaaniiginoshibaniin
+     2+bagwaaniigin+NI+Pej+Prt+Pl: gibagwaaniiginoshibaniin
+     3+bagwaaniigin+NI+Pej+Prt+Loc: obagwaaniiginoshibaniing
+     3+bagwaaniigin+NI+Pej+Prt+Obv: obagwaaniiginoshibaniin
+     3+bagwaaniigin+NI+Pej+Prt+Pl: obagwaaniiginoshibaniin
+     X+bagwaaniigin+NI+Pej+Prt+Loc: ibagwaaniiginoshibaniing
+     X+bagwaaniigin+NI+Pej+Prt+Obv: ibagwaaniiginoshibaniin
+     X+bagwaaniigin+NI+Pej+Prt+Pl: ibagwaaniiginoshibaniin
      
      #Values from slots numbered: 1, 5, 6, 7
-     1+bagwaaniigin+NI+1Pl+Pret+Loc: nibagwaaniiginonaanibaniing
-     1+bagwaaniigin+NI+1Pl+Pret+Obv: nibagwaaniiginonaanibaniin
-     1+bagwaaniigin+NI+1Pl+Pret+Pl: nibagwaaniiginonaanibaniin
-     1+bagwaaniigin+NI+1Pl+VocPl+Loc: [nibagwaaniiginonaanidig, nibagwaaniiginonaanidog]
-     1+bagwaaniigin+NI+1Pl+VocPl+Obv: [nibagwaaniiginonaanidig, nibagwaaniiginonaanidog]
-     1+bagwaaniigin+NI+1Pl+VocPl+Pl: [nibagwaaniiginonaanidig, nibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+21+Pret+Loc: gibagwaaniiginonaanibaniing
-     2+bagwaaniigin+NI+21+Pret+Obv: gibagwaaniiginonaanibaniin
-     2+bagwaaniigin+NI+21+Pret+Pl: gibagwaaniiginonaanibaniin
-     2+bagwaaniigin+NI+21+VocPl+Loc: [gibagwaaniiginonaanidig, gibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+21+VocPl+Obv: [gibagwaaniiginonaanidig, gibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+21+VocPl+Pl: [gibagwaaniiginonaanidig, gibagwaaniiginonaanidog]
-     2+bagwaaniigin+NI+2Pl+Pret+Loc: gibagwaaniiginowaabaniing
-     2+bagwaaniigin+NI+2Pl+Pret+Obv: gibagwaaniiginowaabaniin
-     2+bagwaaniigin+NI+2Pl+Pret+Pl: gibagwaaniiginowaabaniin
-     2+bagwaaniigin+NI+2Pl+VocPl+Loc: [gibagwaaniiginowaadig, gibagwaaniiginowaadog]
-     2+bagwaaniigin+NI+2Pl+VocPl+Obv: [gibagwaaniiginowaadig, gibagwaaniiginowaadog]
-     2+bagwaaniigin+NI+2Pl+VocPl+Pl: [gibagwaaniiginowaadig, gibagwaaniiginowaadog]
-     3+bagwaaniigin+NI+3Obv+Pret+Loc: obagwaaniiginoniibaniing
-     3+bagwaaniigin+NI+3Obv+Pret+Obv: obagwaaniiginoniibaniin
-     3+bagwaaniigin+NI+3Obv+Pret+Pl: obagwaaniiginoniibaniin
-     3+bagwaaniigin+NI+3Obv+VocPl+Loc: [obagwaaniiginoniidig, obagwaaniiginoniidog]
-     3+bagwaaniigin+NI+3Obv+VocPl+Obv: [obagwaaniiginoniidig, obagwaaniiginoniidog]
-     3+bagwaaniigin+NI+3Obv+VocPl+Pl: [obagwaaniiginoniidig, obagwaaniiginoniidog]
-     3+bagwaaniigin+NI+3Pl+Pret+Loc: obagwaaniiginowaabaniing
-     3+bagwaaniigin+NI+3Pl+Pret+Obv: obagwaaniiginowaabaniin
-     3+bagwaaniigin+NI+3Pl+Pret+Pl: obagwaaniiginowaabaniin
-     3+bagwaaniigin+NI+3Pl+VocPl+Loc: [obagwaaniiginowaadig, obagwaaniiginowaadog]
-     3+bagwaaniigin+NI+3Pl+VocPl+Obv: [obagwaaniiginowaadig, obagwaaniiginowaadog]
-     3+bagwaaniigin+NI+3Pl+VocPl+Pl: [obagwaaniiginowaadig, obagwaaniiginowaadog]
+     1+bagwaaniigin+NI+1+Pl+Prt+Loc: nibagwaaniiginonaanibaniing
+     1+bagwaaniigin+NI+1+Pl+Prt+Obv: nibagwaaniiginonaanibaniin
+     1+bagwaaniigin+NI+1+Pl+Prt+Pl: nibagwaaniiginonaanibaniig
+     1+bagwaaniigin+NI+1+Pl+Voc+Pl+Loc: nibagwaaniiginonaanidiging
+     1+bagwaaniigin+NI+1+Pl+Voc+Pl+Obv: nibagwaaniiginonaanidigan
+     1+bagwaaniigin+NI+1+Pl+Voc+Pl+Pl: nibagwaaniiginonaanidigag
+     2+bagwaaniigin+NI+1+Pl+Prt+Loc: gibagwaaniiginonaanibaniing
+     2+bagwaaniigin+NI+1+Pl+Prt+Obv: gibagwaaniiginonaanibaniin
+     2+bagwaaniigin+NI+1+Pl+Prt+Pl: gibagwaaniiginonaanibaniig
+     2+bagwaaniigin+NI+1+Pl+Voc+Pl+Loc: gibagwaaniiginonaanidiging
+     2+bagwaaniigin+NI+1+Pl+Voc+Pl+Obv: gibagwaaniiginonaanidigan
+     2+bagwaaniigin+NI+1+Pl+Voc+Pl+Pl: gibagwaaniiginonaanidigag
+     2+bagwaaniigin+NI+3+Pl+Prt+Loc: gibagwaaniiginowaabaniing
+     2+bagwaaniigin+NI+3+Pl+Prt+Obv: gibagwaaniiginowaabaniin
+     2+bagwaaniigin+NI+3+Pl+Prt+Pl: gibagwaaniiginowaabaniig
+     2+bagwaaniigin+NI+3+Pl+Voc+Pl+Loc: gibagwaaniiginowaadiging
+     2+bagwaaniigin+NI+3+Pl+Voc+Pl+Obv: gibagwaaniiginowaadigan
+     2+bagwaaniigin+NI+3+Pl+Voc+Pl+Pl: gibagwaaniiginowaadigag
+     3+bagwaaniigin+NI+3+Obv+Prt+Loc: obagwaaniiginoniibaniing
+     3+bagwaaniigin+NI+3+Obv+Prt+Obv: obagwaaniiginoniibaniin
+     3+bagwaaniigin+NI+3+Obv+Prt+Pl: obagwaaniiginoniibaniin
+     3+bagwaaniigin+NI+3+Obv+Voc+Pl+Loc: obagwaaniiginoniidiging
+     3+bagwaaniigin+NI+3+Obv+Voc+Pl+Obv: obagwaaniiginoniidigan
+     3+bagwaaniigin+NI+3+Obv+Voc+Pl+Pl: obagwaaniiginoniidigan
+     3+bagwaaniigin+NI+3+Pl+Prt+Loc: obagwaaniiginowaabaniing
+     3+bagwaaniigin+NI+3+Pl+Prt+Obv: obagwaaniiginowaabaniin
+     3+bagwaaniigin+NI+3+Pl+Prt+Pl: obagwaaniiginowaabaniig
+     3+bagwaaniigin+NI+3+Pl+Voc+Pl+Loc: obagwaaniiginowaadiging
+     3+bagwaaniigin+NI+3+Pl+Voc+Pl+Obv: obagwaaniiginowaadigan
+     3+bagwaaniigin+NI+3+Pl+Voc+Pl+Pl: obagwaaniiginowaadigag
      
      
      
@@ -726,12 +726,12 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
-     bagwaaniigin+NI+Con+Pej+Pret+Loc: bagwaaniiginoonyishibaniing
-     bagwaaniigin+NI+Con+Pej+Pret+Obv: bagwaaniiginoonyishibaniin
-     bagwaaniigin+NI+Con+Pej+Pret+Pl: bagwaaniiginoonyishibaniin
-     bagwaaniigin+NI+Dim+Pej+Pret+Loc: bagwaaniiginoonsishibaniing
-     bagwaaniigin+NI+Dim+Pej+Pret+Obv: bagwaaniiginoonsishibaniin
-     bagwaaniigin+NI+Dim+Pej+Pret+Pl: bagwaaniiginoonsishibaniin
+     bagwaaniigin+NI+Con+Pej+Prt+Loc: bagwaaniiginoonyishibaniing
+     bagwaaniigin+NI+Con+Pej+Prt+Obv: bagwaaniiginoonyishibaniin
+     bagwaaniigin+NI+Con+Pej+Prt+Pl: bagwaaniiginoonyishibaniin
+     bagwaaniigin+NI+Dim+Pej+Prt+Loc: bagwaaniiginoonsishibaniing
+     bagwaaniigin+NI+Dim+Pej+Prt+Obv: bagwaaniiginoonsishibaniin
+     bagwaaniigin+NI+Dim+Pej+Prt+Pl: bagwaaniiginoonsishibaniin
      
      
      
@@ -740,34 +740,34 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl: nibagwaaniiginoonyimishinaan
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl: nibagwaaniiginoonsimishinaan
-     2+bagwaaniigin+NI+Con+Pos+Pej+21: gibagwaaniiginoonyimishinaan
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl: gibagwaaniiginoonyimishiwaa
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21: gibagwaaniiginoonsimishinaan
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl: gibagwaaniiginoonsimishiwaa
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv: obagwaaniiginoonyimishini
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl: obagwaaniiginoonyimishiwaa
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv: obagwaaniiginoonsimishini
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl: obagwaaniiginoonsimishiwaa
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl: nibagwaaniiginoonyimishinaan
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl: nibagwaaniiginoonsimishinaan
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl: gibagwaaniiginoonyimishinaan
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl: gibagwaaniiginoonyimishiwaa
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl: gibagwaaniiginoonsimishinaan
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl: gibagwaaniiginoonsimishiwaa
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv: obagwaaniiginoonyimishini
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl: obagwaaniiginoonyimishiwaa
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv: obagwaaniiginoonsimishini
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl: obagwaaniiginoonsimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
-     1+bagwaaniigin+NI+Con+Pos+Pej+Pret: nibagwaaniiginoonyimishiban
-     1+bagwaaniigin+NI+Con+Pos+Pej+VocPl: [nibagwaaniiginoonyimishidig, nibagwaaniiginoonyimishidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pej+Pret: nibagwaaniiginoonsimishiban
-     1+bagwaaniigin+NI+Dim+Pos+Pej+VocPl: [nibagwaaniiginoonsimishidig, nibagwaaniiginoonsimishidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+Pret: gibagwaaniiginoonyimishiban
-     2+bagwaaniigin+NI+Con+Pos+Pej+VocPl: [gibagwaaniiginoonyimishidig, gibagwaaniiginoonyimishidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+Pret: gibagwaaniiginoonsimishiban
-     2+bagwaaniigin+NI+Dim+Pos+Pej+VocPl: [gibagwaaniiginoonsimishidig, gibagwaaniiginoonsimishidog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+Pret: obagwaaniiginoonyimishiban
-     3+bagwaaniigin+NI+Con+Pos+Pej+VocPl: [obagwaaniiginoonyimishidig, obagwaaniiginoonyimishidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+Pret: obagwaaniiginoonsimishiban
-     3+bagwaaniigin+NI+Dim+Pos+Pej+VocPl: [obagwaaniiginoonsimishidig, obagwaaniiginoonsimishidog]
-     X+bagwaaniigin+NI+Con+Pos+Pej+Pret: ibagwaaniiginoonyimishiban
-     X+bagwaaniigin+NI+Con+Pos+Pej+VocPl: [ibagwaaniiginoonyimishidig, ibagwaaniiginoonyimishidog]
-     X+bagwaaniigin+NI+Dim+Pos+Pej+Pret: ibagwaaniiginoonsimishiban
-     X+bagwaaniigin+NI+Dim+Pos+Pej+VocPl: [ibagwaaniiginoonsimishidig, ibagwaaniiginoonsimishidog]
+     1+bagwaaniigin+NI+Con+Pos+Pej+Prt: nibagwaaniiginoonyimishiban
+     1+bagwaaniigin+NI+Con+Pos+Pej+Voc+Pl: nibagwaaniiginoonyimishidin
+     1+bagwaaniigin+NI+Dim+Pos+Pej+Prt: nibagwaaniiginoonsimishiban
+     1+bagwaaniigin+NI+Dim+Pos+Pej+Voc+Pl: nibagwaaniiginoonsimishidin
+     2+bagwaaniigin+NI+Con+Pos+Pej+Prt: gibagwaaniiginoonyimishiban
+     2+bagwaaniigin+NI+Con+Pos+Pej+Voc+Pl: gibagwaaniiginoonyimishidin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+Prt: gibagwaaniiginoonsimishiban
+     2+bagwaaniigin+NI+Dim+Pos+Pej+Voc+Pl: gibagwaaniiginoonsimishidin
+     3+bagwaaniigin+NI+Con+Pos+Pej+Prt: obagwaaniiginoonyimishiban
+     3+bagwaaniigin+NI+Con+Pos+Pej+Voc+Pl: obagwaaniiginoonyimishidin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+Prt: obagwaaniiginoonsimishiban
+     3+bagwaaniigin+NI+Dim+Pos+Pej+Voc+Pl: obagwaaniiginoonsimishidin
+     X+bagwaaniigin+NI+Con+Pos+Pej+Prt: ibagwaaniiginoonyimishiban
+     X+bagwaaniigin+NI+Con+Pos+Pej+Voc+Pl: ibagwaaniiginoonyimishidin
+     X+bagwaaniigin+NI+Dim+Pos+Pej+Prt: ibagwaaniiginoonsimishiban
+     X+bagwaaniigin+NI+Dim+Pos+Pej+Voc+Pl: ibagwaaniiginoonsimishidin
      
      #Values from slots numbered: 1, 2, 3, 4, 7
      1+bagwaaniigin+NI+Con+Pos+Pej+Loc: nibagwaaniiginoonyimishing
@@ -796,333 +796,333 @@ Tests:
      X+bagwaaniigin+NI+Dim+Pos+Pej+Pl: ibagwaaniiginoonsimishan
      
      #Values from slots numbered: 1, 2, 3, 5, 6
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Pret: nibagwaaniiginoonyiminaaniban
-     1+bagwaaniigin+NI+Con+Pos+1Pl+VocPl: [nibagwaaniiginoonyiminaanidig, nibagwaaniiginoonyiminaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Pret: nibagwaaniiginoonsiminaaniban
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+VocPl: [nibagwaaniiginoonsiminaanidig, nibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+21+Pret: gibagwaaniiginoonyiminaaniban
-     2+bagwaaniigin+NI+Con+Pos+21+VocPl: [gibagwaaniiginoonyiminaanidig, gibagwaaniiginoonyiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Pret: gibagwaaniiginoonyimiwaaban
-     2+bagwaaniigin+NI+Con+Pos+2Pl+VocPl: [gibagwaaniiginoonyimiwaadig, gibagwaaniiginoonyimiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+21+Pret: gibagwaaniiginoonsiminaaniban
-     2+bagwaaniigin+NI+Dim+Pos+21+VocPl: [gibagwaaniiginoonsiminaanidig, gibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Pret: gibagwaaniiginoonsimiwaaban
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+VocPl: [gibagwaaniiginoonsimiwaadig, gibagwaaniiginoonsimiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Pret: obagwaaniiginoonyiminiiban
-     3+bagwaaniigin+NI+Con+Pos+3Obv+VocPl: [obagwaaniiginoonyiminiidig, obagwaaniiginoonyiminiidog]
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Pret: obagwaaniiginoonyimiwaaban
-     3+bagwaaniigin+NI+Con+Pos+3Pl+VocPl: [obagwaaniiginoonyimiwaadig, obagwaaniiginoonyimiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Pret: obagwaaniiginoonsiminiiban
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+VocPl: [obagwaaniiginoonsiminiidig, obagwaaniiginoonsiminiidog]
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Pret: obagwaaniiginoonsimiwaaban
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+VocPl: [obagwaaniiginoonsimiwaadig, obagwaaniiginoonsimiwaadog]
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Prt: nibagwaaniiginoonyiminaaniban
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl: nibagwaaniiginoonyiminaanidig
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt: nibagwaaniiginoonsiminaaniban
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl: nibagwaaniiginoonsiminaanidig
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Prt: gibagwaaniiginoonyiminaaniban
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl: gibagwaaniiginoonyiminaanidig
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Prt: gibagwaaniiginoonyimiwaaban
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl: gibagwaaniiginoonyimiwaadig
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt: gibagwaaniiginoonsiminaaniban
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl: gibagwaaniiginoonsiminaanidig
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt: gibagwaaniiginoonsimiwaaban
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl: gibagwaaniiginoonsimiwaadig
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Prt: obagwaaniiginoonyiminiiban
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Voc+Pl: obagwaaniiginoonyiminiidin
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Prt: obagwaaniiginoonyimiwaaban
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl: obagwaaniiginoonyimiwaadig
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Prt: obagwaaniiginoonsiminiiban
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Voc+Pl: obagwaaniiginoonsiminiidin
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt: obagwaaniiginoonsimiwaaban
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl: obagwaaniiginoonsimiwaadig
      
      #Values from slots numbered: 1, 2, 3, 5, 7
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Loc: nibagwaaniiginoonyiminaaning
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Obv: nibagwaaniiginoonyiminaanin
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Pl: nibagwaaniiginoonyiminaanin
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Loc: nibagwaaniiginoonsiminaaning
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Obv: nibagwaaniiginoonsiminaanin
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Pl: nibagwaaniiginoonsiminaanin
-     2+bagwaaniigin+NI+Con+Pos+21+Loc: gibagwaaniiginoonyiminaaning
-     2+bagwaaniigin+NI+Con+Pos+21+Obv: gibagwaaniiginoonyiminaanin
-     2+bagwaaniigin+NI+Con+Pos+21+Pl: gibagwaaniiginoonyiminaanin
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Loc: gibagwaaniiginoonyimiwaang
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Obv: gibagwaaniiginoonyimiwaan
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Pl: gibagwaaniiginoonyimiwaan
-     2+bagwaaniigin+NI+Dim+Pos+21+Loc: gibagwaaniiginoonsiminaaning
-     2+bagwaaniigin+NI+Dim+Pos+21+Obv: gibagwaaniiginoonsiminaanin
-     2+bagwaaniigin+NI+Dim+Pos+21+Pl: gibagwaaniiginoonsiminaanin
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Loc: gibagwaaniiginoonsimiwaang
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Obv: gibagwaaniiginoonsimiwaan
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Pl: gibagwaaniiginoonsimiwaan
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Loc: obagwaaniiginoonyiminiing
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Obv: obagwaaniiginoonyiminiin
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Pl: obagwaaniiginoonyiminiin
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Loc: obagwaaniiginoonyimiwaang
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Obv: obagwaaniiginoonyimiwaan
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Pl: obagwaaniiginoonyimiwaan
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Loc: obagwaaniiginoonsiminiing
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Obv: obagwaaniiginoonsiminiin
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Pl: obagwaaniiginoonsiminiin
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Loc: obagwaaniiginoonsimiwaang
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Obv: obagwaaniiginoonsimiwaan
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Pl: obagwaaniiginoonsimiwaan
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Loc: nibagwaaniiginoonyiminaaning
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Obv: nibagwaaniiginoonyiminaanin
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Pl: nibagwaaniiginoonyiminaanig
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Loc: nibagwaaniiginoonsiminaaning
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Obv: nibagwaaniiginoonsiminaanin
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Pl: nibagwaaniiginoonsiminaanig
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Loc: gibagwaaniiginoonyiminaaning
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Obv: gibagwaaniiginoonyiminaanin
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Pl: gibagwaaniiginoonyiminaanig
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Loc: gibagwaaniiginoonyimiwaang
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Obv: gibagwaaniiginoonyimiwaan
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Pl: gibagwaaniiginoonyimiwaag
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Loc: gibagwaaniiginoonsiminaaning
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Obv: gibagwaaniiginoonsiminaanin
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Pl: gibagwaaniiginoonsiminaanig
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Loc: gibagwaaniiginoonsimiwaang
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Obv: gibagwaaniiginoonsimiwaan
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Pl: gibagwaaniiginoonsimiwaag
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Loc: obagwaaniiginoonyiminiing
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Obv: obagwaaniiginoonyiminiwa
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Pl: obagwaaniiginoonyiminiwa
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Loc: obagwaaniiginoonyimiwaang
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Obv: obagwaaniiginoonyimiwaan
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Pl: obagwaaniiginoonyimiwaag
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Loc: obagwaaniiginoonsiminiing
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Obv: obagwaaniiginoonsiminiwa
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Pl: obagwaaniiginoonsiminiwa
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Loc: obagwaaniiginoonsimiwaang
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Obv: obagwaaniiginoonsimiwaan
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Pl: obagwaaniiginoonsimiwaag
      
      #Values from slots numbered: 1, 2, 3, 6, 7
-     1+bagwaaniigin+NI+Con+Pos+Pret+Loc: nibagwaaniiginoonyimibaniing
-     1+bagwaaniigin+NI+Con+Pos+Pret+Obv: nibagwaaniiginoonyimibaniin
-     1+bagwaaniigin+NI+Con+Pos+Pret+Pl: nibagwaaniiginoonyimibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pret+Loc: nibagwaaniiginoonsimibaniing
-     1+bagwaaniigin+NI+Dim+Pos+Pret+Obv: nibagwaaniiginoonsimibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pret+Pl: nibagwaaniiginoonsimibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pret+Loc: gibagwaaniiginoonyimibaniing
-     2+bagwaaniigin+NI+Con+Pos+Pret+Obv: gibagwaaniiginoonyimibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pret+Pl: gibagwaaniiginoonyimibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pret+Loc: gibagwaaniiginoonsimibaniing
-     2+bagwaaniigin+NI+Dim+Pos+Pret+Obv: gibagwaaniiginoonsimibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pret+Pl: gibagwaaniiginoonsimibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pret+Loc: obagwaaniiginoonyimibaniing
-     3+bagwaaniigin+NI+Con+Pos+Pret+Obv: obagwaaniiginoonyimibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pret+Pl: obagwaaniiginoonyimibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pret+Loc: obagwaaniiginoonsimibaniing
-     3+bagwaaniigin+NI+Dim+Pos+Pret+Obv: obagwaaniiginoonsimibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pret+Pl: obagwaaniiginoonsimibaniin
-     X+bagwaaniigin+NI+Con+Pos+Pret+Loc: ibagwaaniiginoonyimibaniing
-     X+bagwaaniigin+NI+Con+Pos+Pret+Obv: ibagwaaniiginoonyimibaniin
-     X+bagwaaniigin+NI+Con+Pos+Pret+Pl: ibagwaaniiginoonyimibaniin
-     X+bagwaaniigin+NI+Dim+Pos+Pret+Loc: ibagwaaniiginoonsimibaniing
-     X+bagwaaniigin+NI+Dim+Pos+Pret+Obv: ibagwaaniiginoonsimibaniin
-     X+bagwaaniigin+NI+Dim+Pos+Pret+Pl: ibagwaaniiginoonsimibaniin
+     1+bagwaaniigin+NI+Con+Pos+Prt+Loc: nibagwaaniiginoonyimibaniing
+     1+bagwaaniigin+NI+Con+Pos+Prt+Obv: nibagwaaniiginoonyimibaniin
+     1+bagwaaniigin+NI+Con+Pos+Prt+Pl: nibagwaaniiginoonyimibaniin
+     1+bagwaaniigin+NI+Dim+Pos+Prt+Loc: nibagwaaniiginoonsimibaniing
+     1+bagwaaniigin+NI+Dim+Pos+Prt+Obv: nibagwaaniiginoonsimibaniin
+     1+bagwaaniigin+NI+Dim+Pos+Prt+Pl: nibagwaaniiginoonsimibaniin
+     2+bagwaaniigin+NI+Con+Pos+Prt+Loc: gibagwaaniiginoonyimibaniing
+     2+bagwaaniigin+NI+Con+Pos+Prt+Obv: gibagwaaniiginoonyimibaniin
+     2+bagwaaniigin+NI+Con+Pos+Prt+Pl: gibagwaaniiginoonyimibaniin
+     2+bagwaaniigin+NI+Dim+Pos+Prt+Loc: gibagwaaniiginoonsimibaniing
+     2+bagwaaniigin+NI+Dim+Pos+Prt+Obv: gibagwaaniiginoonsimibaniin
+     2+bagwaaniigin+NI+Dim+Pos+Prt+Pl: gibagwaaniiginoonsimibaniin
+     3+bagwaaniigin+NI+Con+Pos+Prt+Loc: obagwaaniiginoonyimibaniing
+     3+bagwaaniigin+NI+Con+Pos+Prt+Obv: obagwaaniiginoonyimibaniin
+     3+bagwaaniigin+NI+Con+Pos+Prt+Pl: obagwaaniiginoonyimibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Prt+Loc: obagwaaniiginoonsimibaniing
+     3+bagwaaniigin+NI+Dim+Pos+Prt+Obv: obagwaaniiginoonsimibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Prt+Pl: obagwaaniiginoonsimibaniin
+     X+bagwaaniigin+NI+Con+Pos+Prt+Loc: ibagwaaniiginoonyimibaniing
+     X+bagwaaniigin+NI+Con+Pos+Prt+Obv: ibagwaaniiginoonyimibaniin
+     X+bagwaaniigin+NI+Con+Pos+Prt+Pl: ibagwaaniiginoonyimibaniin
+     X+bagwaaniigin+NI+Dim+Pos+Prt+Loc: ibagwaaniiginoonsimibaniing
+     X+bagwaaniigin+NI+Dim+Pos+Prt+Obv: ibagwaaniiginoonsimibaniin
+     X+bagwaaniigin+NI+Dim+Pos+Prt+Pl: ibagwaaniiginoonsimibaniin
      
      #Values from slots numbered: 1, 2, 4, 5, 6
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Pret: nibagwaaniiginoonyishinaaniban
-     1+bagwaaniigin+NI+Con+Pej+1Pl+VocPl: [nibagwaaniiginoonyishinaanidig, nibagwaaniiginoonyishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Pret: nibagwaaniiginoonsishinaaniban
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+VocPl: [nibagwaaniiginoonsishinaanidig, nibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+21+Pret: gibagwaaniiginoonyishinaaniban
-     2+bagwaaniigin+NI+Con+Pej+21+VocPl: [gibagwaaniiginoonyishinaanidig, gibagwaaniiginoonyishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Pret: gibagwaaniiginoonyishiwaaban
-     2+bagwaaniigin+NI+Con+Pej+2Pl+VocPl: [gibagwaaniiginoonyishiwaadig, gibagwaaniiginoonyishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pej+21+Pret: gibagwaaniiginoonsishinaaniban
-     2+bagwaaniigin+NI+Dim+Pej+21+VocPl: [gibagwaaniiginoonsishinaanidig, gibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Pret: gibagwaaniiginoonsishiwaaban
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+VocPl: [gibagwaaniiginoonsishiwaadig, gibagwaaniiginoonsishiwaadog]
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Pret: obagwaaniiginoonyishiniiban
-     3+bagwaaniigin+NI+Con+Pej+3Obv+VocPl: [obagwaaniiginoonyishiniidig, obagwaaniiginoonyishiniidog]
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Pret: obagwaaniiginoonyishiwaaban
-     3+bagwaaniigin+NI+Con+Pej+3Pl+VocPl: [obagwaaniiginoonyishiwaadig, obagwaaniiginoonyishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Pret: obagwaaniiginoonsishiniiban
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+VocPl: [obagwaaniiginoonsishiniidig, obagwaaniiginoonsishiniidog]
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Pret: obagwaaniiginoonsishiwaaban
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+VocPl: [obagwaaniiginoonsishiwaadig, obagwaaniiginoonsishiwaadog]
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Prt: nibagwaaniiginoonyishinaaniban
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl: nibagwaaniiginoonyishinaanidig
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt: nibagwaaniiginoonsishinaaniban
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl: nibagwaaniiginoonsishinaanidig
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Prt: gibagwaaniiginoonyishinaaniban
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl: gibagwaaniiginoonyishinaanidig
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Prt: gibagwaaniiginoonyishiwaaban
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl: gibagwaaniiginoonyishiwaadig
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt: gibagwaaniiginoonsishinaaniban
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl: gibagwaaniiginoonsishinaanidig
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt: gibagwaaniiginoonsishiwaaban
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl: gibagwaaniiginoonsishiwaadig
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Prt: obagwaaniiginoonyishiniiban
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Voc+Pl: obagwaaniiginoonyishiniidin
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Prt: obagwaaniiginoonyishiwaaban
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl: obagwaaniiginoonyishiwaadig
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Prt: obagwaaniiginoonsishiniiban
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Voc+Pl: obagwaaniiginoonsishiniidin
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt: obagwaaniiginoonsishiwaaban
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl: obagwaaniiginoonsishiwaadig
      
      #Values from slots numbered: 1, 2, 4, 5, 7
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Loc: nibagwaaniiginoonyishinaaning
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Obv: nibagwaaniiginoonyishinaanin
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Pl: nibagwaaniiginoonyishinaanin
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Loc: nibagwaaniiginoonsishinaaning
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Obv: nibagwaaniiginoonsishinaanin
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Pl: nibagwaaniiginoonsishinaanin
-     2+bagwaaniigin+NI+Con+Pej+21+Loc: gibagwaaniiginoonyishinaaning
-     2+bagwaaniigin+NI+Con+Pej+21+Obv: gibagwaaniiginoonyishinaanin
-     2+bagwaaniigin+NI+Con+Pej+21+Pl: gibagwaaniiginoonyishinaanin
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Loc: gibagwaaniiginoonyishiwaang
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Obv: gibagwaaniiginoonyishiwaan
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Pl: gibagwaaniiginoonyishiwaan
-     2+bagwaaniigin+NI+Dim+Pej+21+Loc: gibagwaaniiginoonsishinaaning
-     2+bagwaaniigin+NI+Dim+Pej+21+Obv: gibagwaaniiginoonsishinaanin
-     2+bagwaaniigin+NI+Dim+Pej+21+Pl: gibagwaaniiginoonsishinaanin
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Loc: gibagwaaniiginoonsishiwaang
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Obv: gibagwaaniiginoonsishiwaan
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Pl: gibagwaaniiginoonsishiwaan
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Loc: obagwaaniiginoonyishiniing
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Obv: obagwaaniiginoonyishiniin
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Pl: obagwaaniiginoonyishiniin
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Loc: obagwaaniiginoonyishiwaang
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Obv: obagwaaniiginoonyishiwaan
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Pl: obagwaaniiginoonyishiwaan
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Loc: obagwaaniiginoonsishiniing
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Obv: obagwaaniiginoonsishiniin
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Pl: obagwaaniiginoonsishiniin
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Loc: obagwaaniiginoonsishiwaang
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Obv: obagwaaniiginoonsishiwaan
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Pl: obagwaaniiginoonsishiwaan
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Loc: nibagwaaniiginoonyishinaaning
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Obv: nibagwaaniiginoonyishinaanin
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Pl: nibagwaaniiginoonyishinaanig
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Loc: nibagwaaniiginoonsishinaaning
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Obv: nibagwaaniiginoonsishinaanin
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Pl: nibagwaaniiginoonsishinaanig
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Loc: gibagwaaniiginoonyishinaaning
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Obv: gibagwaaniiginoonyishinaanin
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Pl: gibagwaaniiginoonyishinaanig
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Loc: gibagwaaniiginoonyishiwaang
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Obv: gibagwaaniiginoonyishiwaan
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Pl: gibagwaaniiginoonyishiwaag
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Loc: gibagwaaniiginoonsishinaaning
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Obv: gibagwaaniiginoonsishinaanin
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Pl: gibagwaaniiginoonsishinaanig
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Loc: gibagwaaniiginoonsishiwaang
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Obv: gibagwaaniiginoonsishiwaan
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Pl: gibagwaaniiginoonsishiwaag
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Loc: obagwaaniiginoonyishiniing
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Obv: obagwaaniiginoonyishiniwa
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Pl: obagwaaniiginoonyishiniwa
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Loc: obagwaaniiginoonyishiwaang
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Obv: obagwaaniiginoonyishiwaan
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Pl: obagwaaniiginoonyishiwaag
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Loc: obagwaaniiginoonsishiniing
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Obv: obagwaaniiginoonsishiniwa
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Pl: obagwaaniiginoonsishiniwa
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Loc: obagwaaniiginoonsishiwaang
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Obv: obagwaaniiginoonsishiwaan
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Pl: obagwaaniiginoonsishiwaag
      
      #Values from slots numbered: 1, 2, 4, 6, 7
-     1+bagwaaniigin+NI+Con+Pej+Pret+Loc: nibagwaaniiginoonyishibaniing
-     1+bagwaaniigin+NI+Con+Pej+Pret+Obv: nibagwaaniiginoonyishibaniin
-     1+bagwaaniigin+NI+Con+Pej+Pret+Pl: nibagwaaniiginoonyishibaniin
-     1+bagwaaniigin+NI+Dim+Pej+Pret+Loc: nibagwaaniiginoonsishibaniing
-     1+bagwaaniigin+NI+Dim+Pej+Pret+Obv: nibagwaaniiginoonsishibaniin
-     1+bagwaaniigin+NI+Dim+Pej+Pret+Pl: nibagwaaniiginoonsishibaniin
-     2+bagwaaniigin+NI+Con+Pej+Pret+Loc: gibagwaaniiginoonyishibaniing
-     2+bagwaaniigin+NI+Con+Pej+Pret+Obv: gibagwaaniiginoonyishibaniin
-     2+bagwaaniigin+NI+Con+Pej+Pret+Pl: gibagwaaniiginoonyishibaniin
-     2+bagwaaniigin+NI+Dim+Pej+Pret+Loc: gibagwaaniiginoonsishibaniing
-     2+bagwaaniigin+NI+Dim+Pej+Pret+Obv: gibagwaaniiginoonsishibaniin
-     2+bagwaaniigin+NI+Dim+Pej+Pret+Pl: gibagwaaniiginoonsishibaniin
-     3+bagwaaniigin+NI+Con+Pej+Pret+Loc: obagwaaniiginoonyishibaniing
-     3+bagwaaniigin+NI+Con+Pej+Pret+Obv: obagwaaniiginoonyishibaniin
-     3+bagwaaniigin+NI+Con+Pej+Pret+Pl: obagwaaniiginoonyishibaniin
-     3+bagwaaniigin+NI+Dim+Pej+Pret+Loc: obagwaaniiginoonsishibaniing
-     3+bagwaaniigin+NI+Dim+Pej+Pret+Obv: obagwaaniiginoonsishibaniin
-     3+bagwaaniigin+NI+Dim+Pej+Pret+Pl: obagwaaniiginoonsishibaniin
-     X+bagwaaniigin+NI+Con+Pej+Pret+Loc: ibagwaaniiginoonyishibaniing
-     X+bagwaaniigin+NI+Con+Pej+Pret+Obv: ibagwaaniiginoonyishibaniin
-     X+bagwaaniigin+NI+Con+Pej+Pret+Pl: ibagwaaniiginoonyishibaniin
-     X+bagwaaniigin+NI+Dim+Pej+Pret+Loc: ibagwaaniiginoonsishibaniing
-     X+bagwaaniigin+NI+Dim+Pej+Pret+Obv: ibagwaaniiginoonsishibaniin
-     X+bagwaaniigin+NI+Dim+Pej+Pret+Pl: ibagwaaniiginoonsishibaniin
+     1+bagwaaniigin+NI+Con+Pej+Prt+Loc: nibagwaaniiginoonyishibaniing
+     1+bagwaaniigin+NI+Con+Pej+Prt+Obv: nibagwaaniiginoonyishibaniin
+     1+bagwaaniigin+NI+Con+Pej+Prt+Pl: nibagwaaniiginoonyishibaniin
+     1+bagwaaniigin+NI+Dim+Pej+Prt+Loc: nibagwaaniiginoonsishibaniing
+     1+bagwaaniigin+NI+Dim+Pej+Prt+Obv: nibagwaaniiginoonsishibaniin
+     1+bagwaaniigin+NI+Dim+Pej+Prt+Pl: nibagwaaniiginoonsishibaniin
+     2+bagwaaniigin+NI+Con+Pej+Prt+Loc: gibagwaaniiginoonyishibaniing
+     2+bagwaaniigin+NI+Con+Pej+Prt+Obv: gibagwaaniiginoonyishibaniin
+     2+bagwaaniigin+NI+Con+Pej+Prt+Pl: gibagwaaniiginoonyishibaniin
+     2+bagwaaniigin+NI+Dim+Pej+Prt+Loc: gibagwaaniiginoonsishibaniing
+     2+bagwaaniigin+NI+Dim+Pej+Prt+Obv: gibagwaaniiginoonsishibaniin
+     2+bagwaaniigin+NI+Dim+Pej+Prt+Pl: gibagwaaniiginoonsishibaniin
+     3+bagwaaniigin+NI+Con+Pej+Prt+Loc: obagwaaniiginoonyishibaniing
+     3+bagwaaniigin+NI+Con+Pej+Prt+Obv: obagwaaniiginoonyishibaniin
+     3+bagwaaniigin+NI+Con+Pej+Prt+Pl: obagwaaniiginoonyishibaniin
+     3+bagwaaniigin+NI+Dim+Pej+Prt+Loc: obagwaaniiginoonsishibaniing
+     3+bagwaaniigin+NI+Dim+Pej+Prt+Obv: obagwaaniiginoonsishibaniin
+     3+bagwaaniigin+NI+Dim+Pej+Prt+Pl: obagwaaniiginoonsishibaniin
+     X+bagwaaniigin+NI+Con+Pej+Prt+Loc: ibagwaaniiginoonyishibaniing
+     X+bagwaaniigin+NI+Con+Pej+Prt+Obv: ibagwaaniiginoonyishibaniin
+     X+bagwaaniigin+NI+Con+Pej+Prt+Pl: ibagwaaniiginoonyishibaniin
+     X+bagwaaniigin+NI+Dim+Pej+Prt+Loc: ibagwaaniiginoonsishibaniing
+     X+bagwaaniigin+NI+Dim+Pej+Prt+Obv: ibagwaaniiginoonsishibaniin
+     X+bagwaaniigin+NI+Dim+Pej+Prt+Pl: ibagwaaniiginoonsishibaniin
      
      #Values from slots numbered: 1, 2, 5, 6, 7
-     1+bagwaaniigin+NI+Con+1Pl+Pret+Loc: nibagwaaniiginoonyinaanibaniing
-     1+bagwaaniigin+NI+Con+1Pl+Pret+Obv: nibagwaaniiginoonyinaanibaniin
-     1+bagwaaniigin+NI+Con+1Pl+Pret+Pl: nibagwaaniiginoonyinaanibaniin
-     1+bagwaaniigin+NI+Con+1Pl+VocPl+Loc: [nibagwaaniiginoonyinaanidig, nibagwaaniiginoonyinaanidog]
-     1+bagwaaniigin+NI+Con+1Pl+VocPl+Obv: [nibagwaaniiginoonyinaanidig, nibagwaaniiginoonyinaanidog]
-     1+bagwaaniigin+NI+Con+1Pl+VocPl+Pl: [nibagwaaniiginoonyinaanidig, nibagwaaniiginoonyinaanidog]
-     1+bagwaaniigin+NI+Dim+1Pl+Pret+Loc: nibagwaaniiginoonsinaanibaniing
-     1+bagwaaniigin+NI+Dim+1Pl+Pret+Obv: nibagwaaniiginoonsinaanibaniin
-     1+bagwaaniigin+NI+Dim+1Pl+Pret+Pl: nibagwaaniiginoonsinaanibaniin
-     1+bagwaaniigin+NI+Dim+1Pl+VocPl+Loc: [nibagwaaniiginoonsinaanidig, nibagwaaniiginoonsinaanidog]
-     1+bagwaaniigin+NI+Dim+1Pl+VocPl+Obv: [nibagwaaniiginoonsinaanidig, nibagwaaniiginoonsinaanidog]
-     1+bagwaaniigin+NI+Dim+1Pl+VocPl+Pl: [nibagwaaniiginoonsinaanidig, nibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Con+21+Pret+Loc: gibagwaaniiginoonyinaanibaniing
-     2+bagwaaniigin+NI+Con+21+Pret+Obv: gibagwaaniiginoonyinaanibaniin
-     2+bagwaaniigin+NI+Con+21+Pret+Pl: gibagwaaniiginoonyinaanibaniin
-     2+bagwaaniigin+NI+Con+21+VocPl+Loc: [gibagwaaniiginoonyinaanidig, gibagwaaniiginoonyinaanidog]
-     2+bagwaaniigin+NI+Con+21+VocPl+Obv: [gibagwaaniiginoonyinaanidig, gibagwaaniiginoonyinaanidog]
-     2+bagwaaniigin+NI+Con+21+VocPl+Pl: [gibagwaaniiginoonyinaanidig, gibagwaaniiginoonyinaanidog]
-     2+bagwaaniigin+NI+Con+2Pl+Pret+Loc: gibagwaaniiginoonyiwaabaniing
-     2+bagwaaniigin+NI+Con+2Pl+Pret+Obv: gibagwaaniiginoonyiwaabaniin
-     2+bagwaaniigin+NI+Con+2Pl+Pret+Pl: gibagwaaniiginoonyiwaabaniin
-     2+bagwaaniigin+NI+Con+2Pl+VocPl+Loc: [gibagwaaniiginoonyiwaadig, gibagwaaniiginoonyiwaadog]
-     2+bagwaaniigin+NI+Con+2Pl+VocPl+Obv: [gibagwaaniiginoonyiwaadig, gibagwaaniiginoonyiwaadog]
-     2+bagwaaniigin+NI+Con+2Pl+VocPl+Pl: [gibagwaaniiginoonyiwaadig, gibagwaaniiginoonyiwaadog]
-     2+bagwaaniigin+NI+Dim+21+Pret+Loc: gibagwaaniiginoonsinaanibaniing
-     2+bagwaaniigin+NI+Dim+21+Pret+Obv: gibagwaaniiginoonsinaanibaniin
-     2+bagwaaniigin+NI+Dim+21+Pret+Pl: gibagwaaniiginoonsinaanibaniin
-     2+bagwaaniigin+NI+Dim+21+VocPl+Loc: [gibagwaaniiginoonsinaanidig, gibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Dim+21+VocPl+Obv: [gibagwaaniiginoonsinaanidig, gibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Dim+21+VocPl+Pl: [gibagwaaniiginoonsinaanidig, gibagwaaniiginoonsinaanidog]
-     2+bagwaaniigin+NI+Dim+2Pl+Pret+Loc: gibagwaaniiginoonsiwaabaniing
-     2+bagwaaniigin+NI+Dim+2Pl+Pret+Obv: gibagwaaniiginoonsiwaabaniin
-     2+bagwaaniigin+NI+Dim+2Pl+Pret+Pl: gibagwaaniiginoonsiwaabaniin
-     2+bagwaaniigin+NI+Dim+2Pl+VocPl+Loc: [gibagwaaniiginoonsiwaadig, gibagwaaniiginoonsiwaadog]
-     2+bagwaaniigin+NI+Dim+2Pl+VocPl+Obv: [gibagwaaniiginoonsiwaadig, gibagwaaniiginoonsiwaadog]
-     2+bagwaaniigin+NI+Dim+2Pl+VocPl+Pl: [gibagwaaniiginoonsiwaadig, gibagwaaniiginoonsiwaadog]
-     3+bagwaaniigin+NI+Con+3Obv+Pret+Loc: obagwaaniiginoonyiniibaniing
-     3+bagwaaniigin+NI+Con+3Obv+Pret+Obv: obagwaaniiginoonyiniibaniin
-     3+bagwaaniigin+NI+Con+3Obv+Pret+Pl: obagwaaniiginoonyiniibaniin
-     3+bagwaaniigin+NI+Con+3Obv+VocPl+Loc: [obagwaaniiginoonyiniidig, obagwaaniiginoonyiniidog]
-     3+bagwaaniigin+NI+Con+3Obv+VocPl+Obv: [obagwaaniiginoonyiniidig, obagwaaniiginoonyiniidog]
-     3+bagwaaniigin+NI+Con+3Obv+VocPl+Pl: [obagwaaniiginoonyiniidig, obagwaaniiginoonyiniidog]
-     3+bagwaaniigin+NI+Con+3Pl+Pret+Loc: obagwaaniiginoonyiwaabaniing
-     3+bagwaaniigin+NI+Con+3Pl+Pret+Obv: obagwaaniiginoonyiwaabaniin
-     3+bagwaaniigin+NI+Con+3Pl+Pret+Pl: obagwaaniiginoonyiwaabaniin
-     3+bagwaaniigin+NI+Con+3Pl+VocPl+Loc: [obagwaaniiginoonyiwaadig, obagwaaniiginoonyiwaadog]
-     3+bagwaaniigin+NI+Con+3Pl+VocPl+Obv: [obagwaaniiginoonyiwaadig, obagwaaniiginoonyiwaadog]
-     3+bagwaaniigin+NI+Con+3Pl+VocPl+Pl: [obagwaaniiginoonyiwaadig, obagwaaniiginoonyiwaadog]
-     3+bagwaaniigin+NI+Dim+3Obv+Pret+Loc: obagwaaniiginoonsiniibaniing
-     3+bagwaaniigin+NI+Dim+3Obv+Pret+Obv: obagwaaniiginoonsiniibaniin
-     3+bagwaaniigin+NI+Dim+3Obv+Pret+Pl: obagwaaniiginoonsiniibaniin
-     3+bagwaaniigin+NI+Dim+3Obv+VocPl+Loc: [obagwaaniiginoonsiniidig, obagwaaniiginoonsiniidog]
-     3+bagwaaniigin+NI+Dim+3Obv+VocPl+Obv: [obagwaaniiginoonsiniidig, obagwaaniiginoonsiniidog]
-     3+bagwaaniigin+NI+Dim+3Obv+VocPl+Pl: [obagwaaniiginoonsiniidig, obagwaaniiginoonsiniidog]
-     3+bagwaaniigin+NI+Dim+3Pl+Pret+Loc: obagwaaniiginoonsiwaabaniing
-     3+bagwaaniigin+NI+Dim+3Pl+Pret+Obv: obagwaaniiginoonsiwaabaniin
-     3+bagwaaniigin+NI+Dim+3Pl+Pret+Pl: obagwaaniiginoonsiwaabaniin
-     3+bagwaaniigin+NI+Dim+3Pl+VocPl+Loc: [obagwaaniiginoonsiwaadig, obagwaaniiginoonsiwaadog]
-     3+bagwaaniigin+NI+Dim+3Pl+VocPl+Obv: [obagwaaniiginoonsiwaadig, obagwaaniiginoonsiwaadog]
-     3+bagwaaniigin+NI+Dim+3Pl+VocPl+Pl: [obagwaaniiginoonsiwaadig, obagwaaniiginoonsiwaadog]
+     1+bagwaaniigin+NI+Con+1+Pl+Prt+Loc: nibagwaaniiginoonyinaanibaniing
+     1+bagwaaniigin+NI+Con+1+Pl+Prt+Obv: nibagwaaniiginoonyinaanibaniin
+     1+bagwaaniigin+NI+Con+1+Pl+Prt+Pl: nibagwaaniiginoonyinaanibaniig
+     1+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonyinaanidiging
+     1+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonyinaanidigan
+     1+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonyinaanidigag
+     1+bagwaaniigin+NI+Dim+1+Pl+Prt+Loc: nibagwaaniiginoonsinaanibaniing
+     1+bagwaaniigin+NI+Dim+1+Pl+Prt+Obv: nibagwaaniiginoonsinaanibaniin
+     1+bagwaaniigin+NI+Dim+1+Pl+Prt+Pl: nibagwaaniiginoonsinaanibaniig
+     1+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonsinaanidiging
+     1+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonsinaanidigan
+     1+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonsinaanidigag
+     2+bagwaaniigin+NI+Con+1+Pl+Prt+Loc: gibagwaaniiginoonyinaanibaniing
+     2+bagwaaniigin+NI+Con+1+Pl+Prt+Obv: gibagwaaniiginoonyinaanibaniin
+     2+bagwaaniigin+NI+Con+1+Pl+Prt+Pl: gibagwaaniiginoonyinaanibaniig
+     2+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonyinaanidiging
+     2+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonyinaanidigan
+     2+bagwaaniigin+NI+Con+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonyinaanidigag
+     2+bagwaaniigin+NI+Con+3+Pl+Prt+Loc: gibagwaaniiginoonyiwaabaniing
+     2+bagwaaniigin+NI+Con+3+Pl+Prt+Obv: gibagwaaniiginoonyiwaabaniin
+     2+bagwaaniigin+NI+Con+3+Pl+Prt+Pl: gibagwaaniiginoonyiwaabaniig
+     2+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonyiwaadiging
+     2+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonyiwaadigan
+     2+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonyiwaadigag
+     2+bagwaaniigin+NI+Dim+1+Pl+Prt+Loc: gibagwaaniiginoonsinaanibaniing
+     2+bagwaaniigin+NI+Dim+1+Pl+Prt+Obv: gibagwaaniiginoonsinaanibaniin
+     2+bagwaaniigin+NI+Dim+1+Pl+Prt+Pl: gibagwaaniiginoonsinaanibaniig
+     2+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonsinaanidiging
+     2+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonsinaanidigan
+     2+bagwaaniigin+NI+Dim+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonsinaanidigag
+     2+bagwaaniigin+NI+Dim+3+Pl+Prt+Loc: gibagwaaniiginoonsiwaabaniing
+     2+bagwaaniigin+NI+Dim+3+Pl+Prt+Obv: gibagwaaniiginoonsiwaabaniin
+     2+bagwaaniigin+NI+Dim+3+Pl+Prt+Pl: gibagwaaniiginoonsiwaabaniig
+     2+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonsiwaadiging
+     2+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonsiwaadigan
+     2+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonsiwaadigag
+     3+bagwaaniigin+NI+Con+3+Obv+Prt+Loc: obagwaaniiginoonyiniibaniing
+     3+bagwaaniigin+NI+Con+3+Obv+Prt+Obv: obagwaaniiginoonyiniibaniin
+     3+bagwaaniigin+NI+Con+3+Obv+Prt+Pl: obagwaaniiginoonyiniibaniin
+     3+bagwaaniigin+NI+Con+3+Obv+Voc+Pl+Loc: obagwaaniiginoonyiniidiging
+     3+bagwaaniigin+NI+Con+3+Obv+Voc+Pl+Obv: obagwaaniiginoonyiniidigan
+     3+bagwaaniigin+NI+Con+3+Obv+Voc+Pl+Pl: obagwaaniiginoonyiniidigan
+     3+bagwaaniigin+NI+Con+3+Pl+Prt+Loc: obagwaaniiginoonyiwaabaniing
+     3+bagwaaniigin+NI+Con+3+Pl+Prt+Obv: obagwaaniiginoonyiwaabaniin
+     3+bagwaaniigin+NI+Con+3+Pl+Prt+Pl: obagwaaniiginoonyiwaabaniig
+     3+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Loc: obagwaaniiginoonyiwaadiging
+     3+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Obv: obagwaaniiginoonyiwaadigan
+     3+bagwaaniigin+NI+Con+3+Pl+Voc+Pl+Pl: obagwaaniiginoonyiwaadigag
+     3+bagwaaniigin+NI+Dim+3+Obv+Prt+Loc: obagwaaniiginoonsiniibaniing
+     3+bagwaaniigin+NI+Dim+3+Obv+Prt+Obv: obagwaaniiginoonsiniibaniin
+     3+bagwaaniigin+NI+Dim+3+Obv+Prt+Pl: obagwaaniiginoonsiniibaniin
+     3+bagwaaniigin+NI+Dim+3+Obv+Voc+Pl+Loc: obagwaaniiginoonsiniidiging
+     3+bagwaaniigin+NI+Dim+3+Obv+Voc+Pl+Obv: obagwaaniiginoonsiniidigan
+     3+bagwaaniigin+NI+Dim+3+Obv+Voc+Pl+Pl: obagwaaniiginoonsiniidigan
+     3+bagwaaniigin+NI+Dim+3+Pl+Prt+Loc: obagwaaniiginoonsiwaabaniing
+     3+bagwaaniigin+NI+Dim+3+Pl+Prt+Obv: obagwaaniiginoonsiwaabaniin
+     3+bagwaaniigin+NI+Dim+3+Pl+Prt+Pl: obagwaaniiginoonsiwaabaniig
+     3+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Loc: obagwaaniiginoonsiwaadiging
+     3+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Obv: obagwaaniiginoonsiwaadigan
+     3+bagwaaniigin+NI+Dim+3+Pl+Voc+Pl+Pl: obagwaaniiginoonsiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Pret: nibagwaaniiginomishinaaniban
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+VocPl: [nibagwaaniiginomishinaanidig, nibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+21+Pret: gibagwaaniiginomishinaaniban
-     2+bagwaaniigin+NI+Pos+Pej+21+VocPl: [gibagwaaniiginomishinaanidig, gibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Pret: gibagwaaniiginomishiwaaban
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+VocPl: [gibagwaaniiginomishiwaadig, gibagwaaniiginomishiwaadog]
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Pret: obagwaaniiginomishiniiban
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+VocPl: [obagwaaniiginomishiniidig, obagwaaniiginomishiniidog]
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Pret: obagwaaniiginomishiwaaban
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+VocPl: [obagwaaniiginomishiwaadig, obagwaaniiginomishiwaadog]
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt: nibagwaaniiginomishinaaniban
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl: nibagwaaniiginomishinaanidig
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt: gibagwaaniiginomishinaaniban
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl: gibagwaaniiginomishinaanidig
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt: gibagwaaniiginomishiwaaban
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl: gibagwaaniiginomishiwaadig
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Prt: obagwaaniiginomishiniiban
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Voc+Pl: obagwaaniiginomishiniidin
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt: obagwaaniiginomishiwaaban
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl: obagwaaniiginomishiwaadig
      
      #Values from slots numbered: 1, 3, 4, 5, 7
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Loc: nibagwaaniiginomishinaaning
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Obv: nibagwaaniiginomishinaanin
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Pl: nibagwaaniiginomishinaanin
-     2+bagwaaniigin+NI+Pos+Pej+21+Loc: gibagwaaniiginomishinaaning
-     2+bagwaaniigin+NI+Pos+Pej+21+Obv: gibagwaaniiginomishinaanin
-     2+bagwaaniigin+NI+Pos+Pej+21+Pl: gibagwaaniiginomishinaanin
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Loc: gibagwaaniiginomishiwaang
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Obv: gibagwaaniiginomishiwaan
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Pl: gibagwaaniiginomishiwaan
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Loc: obagwaaniiginomishiniing
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Obv: obagwaaniiginomishiniin
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Pl: obagwaaniiginomishiniin
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Loc: obagwaaniiginomishiwaang
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Obv: obagwaaniiginomishiwaan
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Pl: obagwaaniiginomishiwaan
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Loc: nibagwaaniiginomishinaaning
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Obv: nibagwaaniiginomishinaanin
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Pl: nibagwaaniiginomishinaanig
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Loc: gibagwaaniiginomishinaaning
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Obv: gibagwaaniiginomishinaanin
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Pl: gibagwaaniiginomishinaanig
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Loc: gibagwaaniiginomishiwaang
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Obv: gibagwaaniiginomishiwaan
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Pl: gibagwaaniiginomishiwaag
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Loc: obagwaaniiginomishiniing
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Obv: obagwaaniiginomishiniwa
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Pl: obagwaaniiginomishiniwa
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Loc: obagwaaniiginomishiwaang
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Obv: obagwaaniiginomishiwaan
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Pl: obagwaaniiginomishiwaag
      
      #Values from slots numbered: 1, 3, 4, 6, 7
-     1+bagwaaniigin+NI+Pos+Pej+Pret+Loc: nibagwaaniiginomishibaniing
-     1+bagwaaniigin+NI+Pos+Pej+Pret+Obv: nibagwaaniiginomishibaniin
-     1+bagwaaniigin+NI+Pos+Pej+Pret+Pl: nibagwaaniiginomishibaniin
-     2+bagwaaniigin+NI+Pos+Pej+Pret+Loc: gibagwaaniiginomishibaniing
-     2+bagwaaniigin+NI+Pos+Pej+Pret+Obv: gibagwaaniiginomishibaniin
-     2+bagwaaniigin+NI+Pos+Pej+Pret+Pl: gibagwaaniiginomishibaniin
-     3+bagwaaniigin+NI+Pos+Pej+Pret+Loc: obagwaaniiginomishibaniing
-     3+bagwaaniigin+NI+Pos+Pej+Pret+Obv: obagwaaniiginomishibaniin
-     3+bagwaaniigin+NI+Pos+Pej+Pret+Pl: obagwaaniiginomishibaniin
-     X+bagwaaniigin+NI+Pos+Pej+Pret+Loc: ibagwaaniiginomishibaniing
-     X+bagwaaniigin+NI+Pos+Pej+Pret+Obv: ibagwaaniiginomishibaniin
-     X+bagwaaniigin+NI+Pos+Pej+Pret+Pl: ibagwaaniiginomishibaniin
+     1+bagwaaniigin+NI+Pos+Pej+Prt+Loc: nibagwaaniiginomishibaniing
+     1+bagwaaniigin+NI+Pos+Pej+Prt+Obv: nibagwaaniiginomishibaniin
+     1+bagwaaniigin+NI+Pos+Pej+Prt+Pl: nibagwaaniiginomishibaniin
+     2+bagwaaniigin+NI+Pos+Pej+Prt+Loc: gibagwaaniiginomishibaniing
+     2+bagwaaniigin+NI+Pos+Pej+Prt+Obv: gibagwaaniiginomishibaniin
+     2+bagwaaniigin+NI+Pos+Pej+Prt+Pl: gibagwaaniiginomishibaniin
+     3+bagwaaniigin+NI+Pos+Pej+Prt+Loc: obagwaaniiginomishibaniing
+     3+bagwaaniigin+NI+Pos+Pej+Prt+Obv: obagwaaniiginomishibaniin
+     3+bagwaaniigin+NI+Pos+Pej+Prt+Pl: obagwaaniiginomishibaniin
+     X+bagwaaniigin+NI+Pos+Pej+Prt+Loc: ibagwaaniiginomishibaniing
+     X+bagwaaniigin+NI+Pos+Pej+Prt+Obv: ibagwaaniiginomishibaniin
+     X+bagwaaniigin+NI+Pos+Pej+Prt+Pl: ibagwaaniiginomishibaniin
      
      #Values from slots numbered: 1, 3, 5, 6, 7
-     1+bagwaaniigin+NI+Pos+1Pl+Pret+Loc: nibagwaaniiginominaanibaniing
-     1+bagwaaniigin+NI+Pos+1Pl+Pret+Obv: nibagwaaniiginominaanibaniin
-     1+bagwaaniigin+NI+Pos+1Pl+Pret+Pl: nibagwaaniiginominaanibaniin
-     1+bagwaaniigin+NI+Pos+1Pl+VocPl+Loc: [nibagwaaniiginominaanidig, nibagwaaniiginominaanidog]
-     1+bagwaaniigin+NI+Pos+1Pl+VocPl+Obv: [nibagwaaniiginominaanidig, nibagwaaniiginominaanidog]
-     1+bagwaaniigin+NI+Pos+1Pl+VocPl+Pl: [nibagwaaniiginominaanidig, nibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+21+Pret+Loc: gibagwaaniiginominaanibaniing
-     2+bagwaaniigin+NI+Pos+21+Pret+Obv: gibagwaaniiginominaanibaniin
-     2+bagwaaniigin+NI+Pos+21+Pret+Pl: gibagwaaniiginominaanibaniin
-     2+bagwaaniigin+NI+Pos+21+VocPl+Loc: [gibagwaaniiginominaanidig, gibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+21+VocPl+Obv: [gibagwaaniiginominaanidig, gibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+21+VocPl+Pl: [gibagwaaniiginominaanidig, gibagwaaniiginominaanidog]
-     2+bagwaaniigin+NI+Pos+2Pl+Pret+Loc: gibagwaaniiginomiwaabaniing
-     2+bagwaaniigin+NI+Pos+2Pl+Pret+Obv: gibagwaaniiginomiwaabaniin
-     2+bagwaaniigin+NI+Pos+2Pl+Pret+Pl: gibagwaaniiginomiwaabaniin
-     2+bagwaaniigin+NI+Pos+2Pl+VocPl+Loc: [gibagwaaniiginomiwaadig, gibagwaaniiginomiwaadog]
-     2+bagwaaniigin+NI+Pos+2Pl+VocPl+Obv: [gibagwaaniiginomiwaadig, gibagwaaniiginomiwaadog]
-     2+bagwaaniigin+NI+Pos+2Pl+VocPl+Pl: [gibagwaaniiginomiwaadig, gibagwaaniiginomiwaadog]
-     3+bagwaaniigin+NI+Pos+3Obv+Pret+Loc: obagwaaniiginominiibaniing
-     3+bagwaaniigin+NI+Pos+3Obv+Pret+Obv: obagwaaniiginominiibaniin
-     3+bagwaaniigin+NI+Pos+3Obv+Pret+Pl: obagwaaniiginominiibaniin
-     3+bagwaaniigin+NI+Pos+3Obv+VocPl+Loc: [obagwaaniiginominiidig, obagwaaniiginominiidog]
-     3+bagwaaniigin+NI+Pos+3Obv+VocPl+Obv: [obagwaaniiginominiidig, obagwaaniiginominiidog]
-     3+bagwaaniigin+NI+Pos+3Obv+VocPl+Pl: [obagwaaniiginominiidig, obagwaaniiginominiidog]
-     3+bagwaaniigin+NI+Pos+3Pl+Pret+Loc: obagwaaniiginomiwaabaniing
-     3+bagwaaniigin+NI+Pos+3Pl+Pret+Obv: obagwaaniiginomiwaabaniin
-     3+bagwaaniigin+NI+Pos+3Pl+Pret+Pl: obagwaaniiginomiwaabaniin
-     3+bagwaaniigin+NI+Pos+3Pl+VocPl+Loc: [obagwaaniiginomiwaadig, obagwaaniiginomiwaadog]
-     3+bagwaaniigin+NI+Pos+3Pl+VocPl+Obv: [obagwaaniiginomiwaadig, obagwaaniiginomiwaadog]
-     3+bagwaaniigin+NI+Pos+3Pl+VocPl+Pl: [obagwaaniiginomiwaadig, obagwaaniiginomiwaadog]
+     1+bagwaaniigin+NI+Pos+1+Pl+Prt+Loc: nibagwaaniiginominaanibaniing
+     1+bagwaaniigin+NI+Pos+1+Pl+Prt+Obv: nibagwaaniiginominaanibaniin
+     1+bagwaaniigin+NI+Pos+1+Pl+Prt+Pl: nibagwaaniiginominaanibaniig
+     1+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Loc: nibagwaaniiginominaanidiging
+     1+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Obv: nibagwaaniiginominaanidigan
+     1+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Pl: nibagwaaniiginominaanidigag
+     2+bagwaaniigin+NI+Pos+1+Pl+Prt+Loc: gibagwaaniiginominaanibaniing
+     2+bagwaaniigin+NI+Pos+1+Pl+Prt+Obv: gibagwaaniiginominaanibaniin
+     2+bagwaaniigin+NI+Pos+1+Pl+Prt+Pl: gibagwaaniiginominaanibaniig
+     2+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Loc: gibagwaaniiginominaanidiging
+     2+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Obv: gibagwaaniiginominaanidigan
+     2+bagwaaniigin+NI+Pos+1+Pl+Voc+Pl+Pl: gibagwaaniiginominaanidigag
+     2+bagwaaniigin+NI+Pos+3+Pl+Prt+Loc: gibagwaaniiginomiwaabaniing
+     2+bagwaaniigin+NI+Pos+3+Pl+Prt+Obv: gibagwaaniiginomiwaabaniin
+     2+bagwaaniigin+NI+Pos+3+Pl+Prt+Pl: gibagwaaniiginomiwaabaniig
+     2+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Loc: gibagwaaniiginomiwaadiging
+     2+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Obv: gibagwaaniiginomiwaadigan
+     2+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Pl: gibagwaaniiginomiwaadigag
+     3+bagwaaniigin+NI+Pos+3+Obv+Prt+Loc: obagwaaniiginominiibaniing
+     3+bagwaaniigin+NI+Pos+3+Obv+Prt+Obv: obagwaaniiginominiibaniin
+     3+bagwaaniigin+NI+Pos+3+Obv+Prt+Pl: obagwaaniiginominiibaniin
+     3+bagwaaniigin+NI+Pos+3+Obv+Voc+Pl+Loc: obagwaaniiginominiidiging
+     3+bagwaaniigin+NI+Pos+3+Obv+Voc+Pl+Obv: obagwaaniiginominiidigan
+     3+bagwaaniigin+NI+Pos+3+Obv+Voc+Pl+Pl: obagwaaniiginominiidigan
+     3+bagwaaniigin+NI+Pos+3+Pl+Prt+Loc: obagwaaniiginomiwaabaniing
+     3+bagwaaniigin+NI+Pos+3+Pl+Prt+Obv: obagwaaniiginomiwaabaniin
+     3+bagwaaniigin+NI+Pos+3+Pl+Prt+Pl: obagwaaniiginomiwaabaniig
+     3+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Loc: obagwaaniiginomiwaadiging
+     3+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Obv: obagwaaniiginomiwaadigan
+     3+bagwaaniigin+NI+Pos+3+Pl+Voc+Pl+Pl: obagwaaniiginomiwaadigag
      
      #Values from slots numbered: 1, 4, 5, 6, 7
-     1+bagwaaniigin+NI+Pej+1Pl+Pret+Loc: nibagwaaniiginoshinaanibaniing
-     1+bagwaaniigin+NI+Pej+1Pl+Pret+Obv: nibagwaaniiginoshinaanibaniin
-     1+bagwaaniigin+NI+Pej+1Pl+Pret+Pl: nibagwaaniiginoshinaanibaniin
-     1+bagwaaniigin+NI+Pej+1Pl+VocPl+Loc: [nibagwaaniiginoshinaanidig, nibagwaaniiginoshinaanidog]
-     1+bagwaaniigin+NI+Pej+1Pl+VocPl+Obv: [nibagwaaniiginoshinaanidig, nibagwaaniiginoshinaanidog]
-     1+bagwaaniigin+NI+Pej+1Pl+VocPl+Pl: [nibagwaaniiginoshinaanidig, nibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+21+Pret+Loc: gibagwaaniiginoshinaanibaniing
-     2+bagwaaniigin+NI+Pej+21+Pret+Obv: gibagwaaniiginoshinaanibaniin
-     2+bagwaaniigin+NI+Pej+21+Pret+Pl: gibagwaaniiginoshinaanibaniin
-     2+bagwaaniigin+NI+Pej+21+VocPl+Loc: [gibagwaaniiginoshinaanidig, gibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+21+VocPl+Obv: [gibagwaaniiginoshinaanidig, gibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+21+VocPl+Pl: [gibagwaaniiginoshinaanidig, gibagwaaniiginoshinaanidog]
-     2+bagwaaniigin+NI+Pej+2Pl+Pret+Loc: gibagwaaniiginoshiwaabaniing
-     2+bagwaaniigin+NI+Pej+2Pl+Pret+Obv: gibagwaaniiginoshiwaabaniin
-     2+bagwaaniigin+NI+Pej+2Pl+Pret+Pl: gibagwaaniiginoshiwaabaniin
-     2+bagwaaniigin+NI+Pej+2Pl+VocPl+Loc: [gibagwaaniiginoshiwaadig, gibagwaaniiginoshiwaadog]
-     2+bagwaaniigin+NI+Pej+2Pl+VocPl+Obv: [gibagwaaniiginoshiwaadig, gibagwaaniiginoshiwaadog]
-     2+bagwaaniigin+NI+Pej+2Pl+VocPl+Pl: [gibagwaaniiginoshiwaadig, gibagwaaniiginoshiwaadog]
-     3+bagwaaniigin+NI+Pej+3Obv+Pret+Loc: obagwaaniiginoshiniibaniing
-     3+bagwaaniigin+NI+Pej+3Obv+Pret+Obv: obagwaaniiginoshiniibaniin
-     3+bagwaaniigin+NI+Pej+3Obv+Pret+Pl: obagwaaniiginoshiniibaniin
-     3+bagwaaniigin+NI+Pej+3Obv+VocPl+Loc: [obagwaaniiginoshiniidig, obagwaaniiginoshiniidog]
-     3+bagwaaniigin+NI+Pej+3Obv+VocPl+Obv: [obagwaaniiginoshiniidig, obagwaaniiginoshiniidog]
-     3+bagwaaniigin+NI+Pej+3Obv+VocPl+Pl: [obagwaaniiginoshiniidig, obagwaaniiginoshiniidog]
-     3+bagwaaniigin+NI+Pej+3Pl+Pret+Loc: obagwaaniiginoshiwaabaniing
-     3+bagwaaniigin+NI+Pej+3Pl+Pret+Obv: obagwaaniiginoshiwaabaniin
-     3+bagwaaniigin+NI+Pej+3Pl+Pret+Pl: obagwaaniiginoshiwaabaniin
-     3+bagwaaniigin+NI+Pej+3Pl+VocPl+Loc: [obagwaaniiginoshiwaadig, obagwaaniiginoshiwaadog]
-     3+bagwaaniigin+NI+Pej+3Pl+VocPl+Obv: [obagwaaniiginoshiwaadig, obagwaaniiginoshiwaadog]
-     3+bagwaaniigin+NI+Pej+3Pl+VocPl+Pl: [obagwaaniiginoshiwaadig, obagwaaniiginoshiwaadog]
+     1+bagwaaniigin+NI+Pej+1+Pl+Prt+Loc: nibagwaaniiginoshinaanibaniing
+     1+bagwaaniigin+NI+Pej+1+Pl+Prt+Obv: nibagwaaniiginoshinaanibaniin
+     1+bagwaaniigin+NI+Pej+1+Pl+Prt+Pl: nibagwaaniiginoshinaanibaniig
+     1+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginoshinaanidiging
+     1+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginoshinaanidigan
+     1+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginoshinaanidigag
+     2+bagwaaniigin+NI+Pej+1+Pl+Prt+Loc: gibagwaaniiginoshinaanibaniing
+     2+bagwaaniigin+NI+Pej+1+Pl+Prt+Obv: gibagwaaniiginoshinaanibaniin
+     2+bagwaaniigin+NI+Pej+1+Pl+Prt+Pl: gibagwaaniiginoshinaanibaniig
+     2+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginoshinaanidiging
+     2+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginoshinaanidigan
+     2+bagwaaniigin+NI+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginoshinaanidigag
+     2+bagwaaniigin+NI+Pej+3+Pl+Prt+Loc: gibagwaaniiginoshiwaabaniing
+     2+bagwaaniigin+NI+Pej+3+Pl+Prt+Obv: gibagwaaniiginoshiwaabaniin
+     2+bagwaaniigin+NI+Pej+3+Pl+Prt+Pl: gibagwaaniiginoshiwaabaniig
+     2+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginoshiwaadiging
+     2+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginoshiwaadigan
+     2+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginoshiwaadigag
+     3+bagwaaniigin+NI+Pej+3+Obv+Prt+Loc: obagwaaniiginoshiniibaniing
+     3+bagwaaniigin+NI+Pej+3+Obv+Prt+Obv: obagwaaniiginoshiniibaniin
+     3+bagwaaniigin+NI+Pej+3+Obv+Prt+Pl: obagwaaniiginoshiniibaniin
+     3+bagwaaniigin+NI+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginoshiniidiging
+     3+bagwaaniigin+NI+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginoshiniidigan
+     3+bagwaaniigin+NI+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginoshiniidigan
+     3+bagwaaniigin+NI+Pej+3+Pl+Prt+Loc: obagwaaniiginoshiwaabaniing
+     3+bagwaaniigin+NI+Pej+3+Pl+Prt+Obv: obagwaaniiginoshiwaabaniin
+     3+bagwaaniigin+NI+Pej+3+Pl+Prt+Pl: obagwaaniiginoshiwaabaniig
+     3+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginoshiwaadiging
+     3+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginoshiwaadigan
+     3+bagwaaniigin+NI+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginoshiwaadigag
      
      
      
@@ -1131,301 +1131,301 @@ Tests:
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Pret: nibagwaaniiginoonyimishinaaniban
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+VocPl: [nibagwaaniiginoonyimishinaanidig, nibagwaaniiginoonyimishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Pret: nibagwaaniiginoonsimishinaaniban
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+VocPl: [nibagwaaniiginoonsimishinaanidig, nibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Pret: gibagwaaniiginoonyimishinaaniban
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+VocPl: [gibagwaaniiginoonyimishinaanidig, gibagwaaniiginoonyimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Pret: gibagwaaniiginoonyimishiwaaban
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+VocPl: [gibagwaaniiginoonyimishiwaadig, gibagwaaniiginoonyimishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Pret: gibagwaaniiginoonsimishinaaniban
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+VocPl: [gibagwaaniiginoonsimishinaanidig, gibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Pret: gibagwaaniiginoonsimishiwaaban
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+VocPl: [gibagwaaniiginoonsimishiwaadig, gibagwaaniiginoonsimishiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Pret: obagwaaniiginoonyimishiniiban
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+VocPl: [obagwaaniiginoonyimishiniidig, obagwaaniiginoonyimishiniidog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Pret: obagwaaniiginoonyimishiwaaban
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+VocPl: [obagwaaniiginoonyimishiwaadig, obagwaaniiginoonyimishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Pret: obagwaaniiginoonsimishiniiban
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+VocPl: [obagwaaniiginoonsimishiniidig, obagwaaniiginoonsimishiniidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Pret: obagwaaniiginoonsimishiwaaban
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+VocPl: [obagwaaniiginoonsimishiwaadig, obagwaaniiginoonsimishiwaadog]
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt: nibagwaaniiginoonyimishinaaniban
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl: nibagwaaniiginoonyimishinaanidig
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt: nibagwaaniiginoonsimishinaaniban
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl: nibagwaaniiginoonsimishinaanidig
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt: gibagwaaniiginoonyimishinaaniban
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl: gibagwaaniiginoonyimishinaanidig
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt: gibagwaaniiginoonyimishiwaaban
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl: gibagwaaniiginoonyimishiwaadig
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt: gibagwaaniiginoonsimishinaaniban
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl: gibagwaaniiginoonsimishinaanidig
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt: gibagwaaniiginoonsimishiwaaban
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl: gibagwaaniiginoonsimishiwaadig
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Prt: obagwaaniiginoonyimishiniiban
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Voc+Pl: obagwaaniiginoonyimishiniidin
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt: obagwaaniiginoonyimishiwaaban
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl: obagwaaniiginoonyimishiwaadig
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Prt: obagwaaniiginoonsimishiniiban
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Voc+Pl: obagwaaniiginoonsimishiniidin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt: obagwaaniiginoonsimishiwaaban
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl: obagwaaniiginoonsimishiwaadig
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Loc: nibagwaaniiginoonyimishinaaning
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Obv: nibagwaaniiginoonyimishinaanin
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Pl: nibagwaaniiginoonyimishinaanin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Loc: nibagwaaniiginoonsimishinaaning
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Obv: nibagwaaniiginoonsimishinaanin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Pl: nibagwaaniiginoonsimishinaanin
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Loc: gibagwaaniiginoonyimishinaaning
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Obv: gibagwaaniiginoonyimishinaanin
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Pl: gibagwaaniiginoonyimishinaanin
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Loc: gibagwaaniiginoonyimishiwaang
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Obv: gibagwaaniiginoonyimishiwaan
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Pl: gibagwaaniiginoonyimishiwaan
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Loc: gibagwaaniiginoonsimishinaaning
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Obv: gibagwaaniiginoonsimishinaanin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Pl: gibagwaaniiginoonsimishinaanin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Loc: gibagwaaniiginoonsimishiwaang
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Obv: gibagwaaniiginoonsimishiwaan
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Pl: gibagwaaniiginoonsimishiwaan
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Loc: obagwaaniiginoonyimishiniing
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Obv: obagwaaniiginoonyimishiniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Pl: obagwaaniiginoonyimishiniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Loc: obagwaaniiginoonyimishiwaang
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Obv: obagwaaniiginoonyimishiwaan
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Pl: obagwaaniiginoonyimishiwaan
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Loc: obagwaaniiginoonsimishiniing
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Obv: obagwaaniiginoonsimishiniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Pl: obagwaaniiginoonsimishiniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Loc: obagwaaniiginoonsimishiwaang
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Obv: obagwaaniiginoonsimishiwaan
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Pl: obagwaaniiginoonsimishiwaan
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Loc: nibagwaaniiginoonyimishinaaning
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Obv: nibagwaaniiginoonyimishinaanin
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Pl: nibagwaaniiginoonyimishinaanig
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Loc: nibagwaaniiginoonsimishinaaning
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Obv: nibagwaaniiginoonsimishinaanin
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Pl: nibagwaaniiginoonsimishinaanig
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Loc: gibagwaaniiginoonyimishinaaning
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Obv: gibagwaaniiginoonyimishinaanin
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Pl: gibagwaaniiginoonyimishinaanig
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Loc: gibagwaaniiginoonyimishiwaang
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Obv: gibagwaaniiginoonyimishiwaan
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Pl: gibagwaaniiginoonyimishiwaag
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Loc: gibagwaaniiginoonsimishinaaning
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Obv: gibagwaaniiginoonsimishinaanin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Pl: gibagwaaniiginoonsimishinaanig
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Loc: gibagwaaniiginoonsimishiwaang
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Obv: gibagwaaniiginoonsimishiwaan
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Pl: gibagwaaniiginoonsimishiwaag
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Loc: obagwaaniiginoonyimishiniing
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Obv: obagwaaniiginoonyimishiniwa
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Pl: obagwaaniiginoonyimishiniwa
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Loc: obagwaaniiginoonyimishiwaang
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Obv: obagwaaniiginoonyimishiwaan
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Pl: obagwaaniiginoonyimishiwaag
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Loc: obagwaaniiginoonsimishiniing
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Obv: obagwaaniiginoonsimishiniwa
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Pl: obagwaaniiginoonsimishiniwa
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Loc: obagwaaniiginoonsimishiwaang
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Obv: obagwaaniiginoonsimishiwaan
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Pl: obagwaaniiginoonsimishiwaag
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
-     1+bagwaaniigin+NI+Con+Pos+Pej+Pret+Loc: nibagwaaniiginoonyimishibaniing
-     1+bagwaaniigin+NI+Con+Pos+Pej+Pret+Obv: nibagwaaniiginoonyimishibaniin
-     1+bagwaaniigin+NI+Con+Pos+Pej+Pret+Pl: nibagwaaniiginoonyimishibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Loc: nibagwaaniiginoonsimishibaniing
-     1+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Obv: nibagwaaniiginoonsimishibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Pl: nibagwaaniiginoonsimishibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+Pret+Loc: gibagwaaniiginoonyimishibaniing
-     2+bagwaaniigin+NI+Con+Pos+Pej+Pret+Obv: gibagwaaniiginoonyimishibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+Pret+Pl: gibagwaaniiginoonyimishibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Loc: gibagwaaniiginoonsimishibaniing
-     2+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Obv: gibagwaaniiginoonsimishibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Pl: gibagwaaniiginoonsimishibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+Pret+Loc: obagwaaniiginoonyimishibaniing
-     3+bagwaaniigin+NI+Con+Pos+Pej+Pret+Obv: obagwaaniiginoonyimishibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+Pret+Pl: obagwaaniiginoonyimishibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Loc: obagwaaniiginoonsimishibaniing
-     3+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Obv: obagwaaniiginoonsimishibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Pl: obagwaaniiginoonsimishibaniin
-     X+bagwaaniigin+NI+Con+Pos+Pej+Pret+Loc: ibagwaaniiginoonyimishibaniing
-     X+bagwaaniigin+NI+Con+Pos+Pej+Pret+Obv: ibagwaaniiginoonyimishibaniin
-     X+bagwaaniigin+NI+Con+Pos+Pej+Pret+Pl: ibagwaaniiginoonyimishibaniin
-     X+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Loc: ibagwaaniiginoonsimishibaniing
-     X+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Obv: ibagwaaniiginoonsimishibaniin
-     X+bagwaaniigin+NI+Dim+Pos+Pej+Pret+Pl: ibagwaaniiginoonsimishibaniin
+     1+bagwaaniigin+NI+Con+Pos+Pej+Prt+Loc: nibagwaaniiginoonyimishibaniing
+     1+bagwaaniigin+NI+Con+Pos+Pej+Prt+Obv: nibagwaaniiginoonyimishibaniin
+     1+bagwaaniigin+NI+Con+Pos+Pej+Prt+Pl: nibagwaaniiginoonyimishibaniin
+     1+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Loc: nibagwaaniiginoonsimishibaniing
+     1+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Obv: nibagwaaniiginoonsimishibaniin
+     1+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Pl: nibagwaaniiginoonsimishibaniin
+     2+bagwaaniigin+NI+Con+Pos+Pej+Prt+Loc: gibagwaaniiginoonyimishibaniing
+     2+bagwaaniigin+NI+Con+Pos+Pej+Prt+Obv: gibagwaaniiginoonyimishibaniin
+     2+bagwaaniigin+NI+Con+Pos+Pej+Prt+Pl: gibagwaaniiginoonyimishibaniin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Loc: gibagwaaniiginoonsimishibaniing
+     2+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Obv: gibagwaaniiginoonsimishibaniin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Pl: gibagwaaniiginoonsimishibaniin
+     3+bagwaaniigin+NI+Con+Pos+Pej+Prt+Loc: obagwaaniiginoonyimishibaniing
+     3+bagwaaniigin+NI+Con+Pos+Pej+Prt+Obv: obagwaaniiginoonyimishibaniin
+     3+bagwaaniigin+NI+Con+Pos+Pej+Prt+Pl: obagwaaniiginoonyimishibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Loc: obagwaaniiginoonsimishibaniing
+     3+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Obv: obagwaaniiginoonsimishibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Pl: obagwaaniiginoonsimishibaniin
+     X+bagwaaniigin+NI+Con+Pos+Pej+Prt+Loc: ibagwaaniiginoonyimishibaniing
+     X+bagwaaniigin+NI+Con+Pos+Pej+Prt+Obv: ibagwaaniiginoonyimishibaniin
+     X+bagwaaniigin+NI+Con+Pos+Pej+Prt+Pl: ibagwaaniiginoonyimishibaniin
+     X+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Loc: ibagwaaniiginoonsimishibaniing
+     X+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Obv: ibagwaaniiginoonsimishibaniin
+     X+bagwaaniigin+NI+Dim+Pos+Pej+Prt+Pl: ibagwaaniiginoonsimishibaniin
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Pret+Loc: nibagwaaniiginoonyiminaanibaniing
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Pret+Obv: nibagwaaniiginoonyiminaanibaniin
-     1+bagwaaniigin+NI+Con+Pos+1Pl+Pret+Pl: nibagwaaniiginoonyiminaanibaniin
-     1+bagwaaniigin+NI+Con+Pos+1Pl+VocPl+Loc: [nibagwaaniiginoonyiminaanidig, nibagwaaniiginoonyiminaanidog]
-     1+bagwaaniigin+NI+Con+Pos+1Pl+VocPl+Obv: [nibagwaaniiginoonyiminaanidig, nibagwaaniiginoonyiminaanidog]
-     1+bagwaaniigin+NI+Con+Pos+1Pl+VocPl+Pl: [nibagwaaniiginoonyiminaanidig, nibagwaaniiginoonyiminaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Pret+Loc: nibagwaaniiginoonsiminaanibaniing
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Pret+Obv: nibagwaaniiginoonsiminaanibaniin
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+Pret+Pl: nibagwaaniiginoonsiminaanibaniin
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+VocPl+Loc: [nibagwaaniiginoonsiminaanidig, nibagwaaniiginoonsiminaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+VocPl+Obv: [nibagwaaniiginoonsiminaanidig, nibagwaaniiginoonsiminaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+1Pl+VocPl+Pl: [nibagwaaniiginoonsiminaanidig, nibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+21+Pret+Loc: gibagwaaniiginoonyiminaanibaniing
-     2+bagwaaniigin+NI+Con+Pos+21+Pret+Obv: gibagwaaniiginoonyiminaanibaniin
-     2+bagwaaniigin+NI+Con+Pos+21+Pret+Pl: gibagwaaniiginoonyiminaanibaniin
-     2+bagwaaniigin+NI+Con+Pos+21+VocPl+Loc: [gibagwaaniiginoonyiminaanidig, gibagwaaniiginoonyiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+21+VocPl+Obv: [gibagwaaniiginoonyiminaanidig, gibagwaaniiginoonyiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+21+VocPl+Pl: [gibagwaaniiginoonyiminaanidig, gibagwaaniiginoonyiminaanidog]
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Pret+Loc: gibagwaaniiginoonyimiwaabaniing
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Pret+Obv: gibagwaaniiginoonyimiwaabaniin
-     2+bagwaaniigin+NI+Con+Pos+2Pl+Pret+Pl: gibagwaaniiginoonyimiwaabaniin
-     2+bagwaaniigin+NI+Con+Pos+2Pl+VocPl+Loc: [gibagwaaniiginoonyimiwaadig, gibagwaaniiginoonyimiwaadog]
-     2+bagwaaniigin+NI+Con+Pos+2Pl+VocPl+Obv: [gibagwaaniiginoonyimiwaadig, gibagwaaniiginoonyimiwaadog]
-     2+bagwaaniigin+NI+Con+Pos+2Pl+VocPl+Pl: [gibagwaaniiginoonyimiwaadig, gibagwaaniiginoonyimiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+21+Pret+Loc: gibagwaaniiginoonsiminaanibaniing
-     2+bagwaaniigin+NI+Dim+Pos+21+Pret+Obv: gibagwaaniiginoonsiminaanibaniin
-     2+bagwaaniigin+NI+Dim+Pos+21+Pret+Pl: gibagwaaniiginoonsiminaanibaniin
-     2+bagwaaniigin+NI+Dim+Pos+21+VocPl+Loc: [gibagwaaniiginoonsiminaanidig, gibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+21+VocPl+Obv: [gibagwaaniiginoonsiminaanidig, gibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+21+VocPl+Pl: [gibagwaaniiginoonsiminaanidig, gibagwaaniiginoonsiminaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Pret+Loc: gibagwaaniiginoonsimiwaabaniing
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Pret+Obv: gibagwaaniiginoonsimiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+Pret+Pl: gibagwaaniiginoonsimiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+VocPl+Loc: [gibagwaaniiginoonsimiwaadig, gibagwaaniiginoonsimiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+VocPl+Obv: [gibagwaaniiginoonsimiwaadig, gibagwaaniiginoonsimiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+2Pl+VocPl+Pl: [gibagwaaniiginoonsimiwaadig, gibagwaaniiginoonsimiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Pret+Loc: obagwaaniiginoonyiminiibaniing
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Pret+Obv: obagwaaniiginoonyiminiibaniin
-     3+bagwaaniigin+NI+Con+Pos+3Obv+Pret+Pl: obagwaaniiginoonyiminiibaniin
-     3+bagwaaniigin+NI+Con+Pos+3Obv+VocPl+Loc: [obagwaaniiginoonyiminiidig, obagwaaniiginoonyiminiidog]
-     3+bagwaaniigin+NI+Con+Pos+3Obv+VocPl+Obv: [obagwaaniiginoonyiminiidig, obagwaaniiginoonyiminiidog]
-     3+bagwaaniigin+NI+Con+Pos+3Obv+VocPl+Pl: [obagwaaniiginoonyiminiidig, obagwaaniiginoonyiminiidog]
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Pret+Loc: obagwaaniiginoonyimiwaabaniing
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Pret+Obv: obagwaaniiginoonyimiwaabaniin
-     3+bagwaaniigin+NI+Con+Pos+3Pl+Pret+Pl: obagwaaniiginoonyimiwaabaniin
-     3+bagwaaniigin+NI+Con+Pos+3Pl+VocPl+Loc: [obagwaaniiginoonyimiwaadig, obagwaaniiginoonyimiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+3Pl+VocPl+Obv: [obagwaaniiginoonyimiwaadig, obagwaaniiginoonyimiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+3Pl+VocPl+Pl: [obagwaaniiginoonyimiwaadig, obagwaaniiginoonyimiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Pret+Loc: obagwaaniiginoonsiminiibaniing
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Pret+Obv: obagwaaniiginoonsiminiibaniin
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+Pret+Pl: obagwaaniiginoonsiminiibaniin
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+VocPl+Loc: [obagwaaniiginoonsiminiidig, obagwaaniiginoonsiminiidog]
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+VocPl+Obv: [obagwaaniiginoonsiminiidig, obagwaaniiginoonsiminiidog]
-     3+bagwaaniigin+NI+Dim+Pos+3Obv+VocPl+Pl: [obagwaaniiginoonsiminiidig, obagwaaniiginoonsiminiidog]
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Pret+Loc: obagwaaniiginoonsimiwaabaniing
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Pret+Obv: obagwaaniiginoonsimiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+Pret+Pl: obagwaaniiginoonsimiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+VocPl+Loc: [obagwaaniiginoonsimiwaadig, obagwaaniiginoonsimiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+VocPl+Obv: [obagwaaniiginoonsimiwaadig, obagwaaniiginoonsimiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+3Pl+VocPl+Pl: [obagwaaniiginoonsimiwaadig, obagwaaniiginoonsimiwaadog]
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Loc: nibagwaaniiginoonyiminaanibaniing
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Obv: nibagwaaniiginoonyiminaanibaniin
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Pl: nibagwaaniiginoonyiminaanibaniig
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonyiminaanidiging
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonyiminaanidigan
+     1+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonyiminaanidigag
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Loc: nibagwaaniiginoonsiminaanibaniing
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Obv: nibagwaaniiginoonsiminaanibaniin
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Pl: nibagwaaniiginoonsiminaanibaniig
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonsiminaanidiging
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonsiminaanidigan
+     1+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonsiminaanidigag
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Loc: gibagwaaniiginoonyiminaanibaniing
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Obv: gibagwaaniiginoonyiminaanibaniin
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Prt+Pl: gibagwaaniiginoonyiminaanibaniig
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonyiminaanidiging
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonyiminaanidigan
+     2+bagwaaniigin+NI+Con+Pos+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonyiminaanidigag
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Loc: gibagwaaniiginoonyimiwaabaniing
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Obv: gibagwaaniiginoonyimiwaabaniin
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Pl: gibagwaaniiginoonyimiwaabaniig
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonyimiwaadiging
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonyimiwaadigan
+     2+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonyimiwaadigag
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Loc: gibagwaaniiginoonsiminaanibaniing
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Obv: gibagwaaniiginoonsiminaanibaniin
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Prt+Pl: gibagwaaniiginoonsiminaanibaniig
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonsiminaanidiging
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonsiminaanidigan
+     2+bagwaaniigin+NI+Dim+Pos+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonsiminaanidigag
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Loc: gibagwaaniiginoonsimiwaabaniing
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Obv: gibagwaaniiginoonsimiwaabaniin
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Pl: gibagwaaniiginoonsimiwaabaniig
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonsimiwaadiging
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonsimiwaadigan
+     2+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonsimiwaadigag
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Prt+Loc: obagwaaniiginoonyiminiibaniing
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Prt+Obv: obagwaaniiginoonyiminiibaniin
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Prt+Pl: obagwaaniiginoonyiminiibaniin
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Voc+Pl+Loc: obagwaaniiginoonyiminiidiging
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Voc+Pl+Obv: obagwaaniiginoonyiminiidigan
+     3+bagwaaniigin+NI+Con+Pos+3+Obv+Voc+Pl+Pl: obagwaaniiginoonyiminiidigan
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Loc: obagwaaniiginoonyimiwaabaniing
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Obv: obagwaaniiginoonyimiwaabaniin
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Prt+Pl: obagwaaniiginoonyimiwaabaniig
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Loc: obagwaaniiginoonyimiwaadiging
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Obv: obagwaaniiginoonyimiwaadigan
+     3+bagwaaniigin+NI+Con+Pos+3+Pl+Voc+Pl+Pl: obagwaaniiginoonyimiwaadigag
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Prt+Loc: obagwaaniiginoonsiminiibaniing
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Prt+Obv: obagwaaniiginoonsiminiibaniin
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Prt+Pl: obagwaaniiginoonsiminiibaniin
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Voc+Pl+Loc: obagwaaniiginoonsiminiidiging
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Voc+Pl+Obv: obagwaaniiginoonsiminiidigan
+     3+bagwaaniigin+NI+Dim+Pos+3+Obv+Voc+Pl+Pl: obagwaaniiginoonsiminiidigan
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Loc: obagwaaniiginoonsimiwaabaniing
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Obv: obagwaaniiginoonsimiwaabaniin
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Prt+Pl: obagwaaniiginoonsimiwaabaniig
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Loc: obagwaaniiginoonsimiwaadiging
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Obv: obagwaaniiginoonsimiwaadigan
+     3+bagwaaniigin+NI+Dim+Pos+3+Pl+Voc+Pl+Pl: obagwaaniiginoonsimiwaadigag
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Pret+Loc: nibagwaaniiginoonyishinaanibaniing
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Pret+Obv: nibagwaaniiginoonyishinaanibaniin
-     1+bagwaaniigin+NI+Con+Pej+1Pl+Pret+Pl: nibagwaaniiginoonyishinaanibaniin
-     1+bagwaaniigin+NI+Con+Pej+1Pl+VocPl+Loc: [nibagwaaniiginoonyishinaanidig, nibagwaaniiginoonyishinaanidog]
-     1+bagwaaniigin+NI+Con+Pej+1Pl+VocPl+Obv: [nibagwaaniiginoonyishinaanidig, nibagwaaniiginoonyishinaanidog]
-     1+bagwaaniigin+NI+Con+Pej+1Pl+VocPl+Pl: [nibagwaaniiginoonyishinaanidig, nibagwaaniiginoonyishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Pret+Loc: nibagwaaniiginoonsishinaanibaniing
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Pret+Obv: nibagwaaniiginoonsishinaanibaniin
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+Pret+Pl: nibagwaaniiginoonsishinaanibaniin
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+VocPl+Loc: [nibagwaaniiginoonsishinaanidig, nibagwaaniiginoonsishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+VocPl+Obv: [nibagwaaniiginoonsishinaanidig, nibagwaaniiginoonsishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pej+1Pl+VocPl+Pl: [nibagwaaniiginoonsishinaanidig, nibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+21+Pret+Loc: gibagwaaniiginoonyishinaanibaniing
-     2+bagwaaniigin+NI+Con+Pej+21+Pret+Obv: gibagwaaniiginoonyishinaanibaniin
-     2+bagwaaniigin+NI+Con+Pej+21+Pret+Pl: gibagwaaniiginoonyishinaanibaniin
-     2+bagwaaniigin+NI+Con+Pej+21+VocPl+Loc: [gibagwaaniiginoonyishinaanidig, gibagwaaniiginoonyishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+21+VocPl+Obv: [gibagwaaniiginoonyishinaanidig, gibagwaaniiginoonyishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+21+VocPl+Pl: [gibagwaaniiginoonyishinaanidig, gibagwaaniiginoonyishinaanidog]
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Pret+Loc: gibagwaaniiginoonyishiwaabaniing
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Pret+Obv: gibagwaaniiginoonyishiwaabaniin
-     2+bagwaaniigin+NI+Con+Pej+2Pl+Pret+Pl: gibagwaaniiginoonyishiwaabaniin
-     2+bagwaaniigin+NI+Con+Pej+2Pl+VocPl+Loc: [gibagwaaniiginoonyishiwaadig, gibagwaaniiginoonyishiwaadog]
-     2+bagwaaniigin+NI+Con+Pej+2Pl+VocPl+Obv: [gibagwaaniiginoonyishiwaadig, gibagwaaniiginoonyishiwaadog]
-     2+bagwaaniigin+NI+Con+Pej+2Pl+VocPl+Pl: [gibagwaaniiginoonyishiwaadig, gibagwaaniiginoonyishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pej+21+Pret+Loc: gibagwaaniiginoonsishinaanibaniing
-     2+bagwaaniigin+NI+Dim+Pej+21+Pret+Obv: gibagwaaniiginoonsishinaanibaniin
-     2+bagwaaniigin+NI+Dim+Pej+21+Pret+Pl: gibagwaaniiginoonsishinaanibaniin
-     2+bagwaaniigin+NI+Dim+Pej+21+VocPl+Loc: [gibagwaaniiginoonsishinaanidig, gibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pej+21+VocPl+Obv: [gibagwaaniiginoonsishinaanidig, gibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pej+21+VocPl+Pl: [gibagwaaniiginoonsishinaanidig, gibagwaaniiginoonsishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Pret+Loc: gibagwaaniiginoonsishiwaabaniing
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Pret+Obv: gibagwaaniiginoonsishiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+Pret+Pl: gibagwaaniiginoonsishiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+VocPl+Loc: [gibagwaaniiginoonsishiwaadig, gibagwaaniiginoonsishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+VocPl+Obv: [gibagwaaniiginoonsishiwaadig, gibagwaaniiginoonsishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pej+2Pl+VocPl+Pl: [gibagwaaniiginoonsishiwaadig, gibagwaaniiginoonsishiwaadog]
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Pret+Loc: obagwaaniiginoonyishiniibaniing
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Pret+Obv: obagwaaniiginoonyishiniibaniin
-     3+bagwaaniigin+NI+Con+Pej+3Obv+Pret+Pl: obagwaaniiginoonyishiniibaniin
-     3+bagwaaniigin+NI+Con+Pej+3Obv+VocPl+Loc: [obagwaaniiginoonyishiniidig, obagwaaniiginoonyishiniidog]
-     3+bagwaaniigin+NI+Con+Pej+3Obv+VocPl+Obv: [obagwaaniiginoonyishiniidig, obagwaaniiginoonyishiniidog]
-     3+bagwaaniigin+NI+Con+Pej+3Obv+VocPl+Pl: [obagwaaniiginoonyishiniidig, obagwaaniiginoonyishiniidog]
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Pret+Loc: obagwaaniiginoonyishiwaabaniing
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Pret+Obv: obagwaaniiginoonyishiwaabaniin
-     3+bagwaaniigin+NI+Con+Pej+3Pl+Pret+Pl: obagwaaniiginoonyishiwaabaniin
-     3+bagwaaniigin+NI+Con+Pej+3Pl+VocPl+Loc: [obagwaaniiginoonyishiwaadig, obagwaaniiginoonyishiwaadog]
-     3+bagwaaniigin+NI+Con+Pej+3Pl+VocPl+Obv: [obagwaaniiginoonyishiwaadig, obagwaaniiginoonyishiwaadog]
-     3+bagwaaniigin+NI+Con+Pej+3Pl+VocPl+Pl: [obagwaaniiginoonyishiwaadig, obagwaaniiginoonyishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Pret+Loc: obagwaaniiginoonsishiniibaniing
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Pret+Obv: obagwaaniiginoonsishiniibaniin
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+Pret+Pl: obagwaaniiginoonsishiniibaniin
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+VocPl+Loc: [obagwaaniiginoonsishiniidig, obagwaaniiginoonsishiniidog]
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+VocPl+Obv: [obagwaaniiginoonsishiniidig, obagwaaniiginoonsishiniidog]
-     3+bagwaaniigin+NI+Dim+Pej+3Obv+VocPl+Pl: [obagwaaniiginoonsishiniidig, obagwaaniiginoonsishiniidog]
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Pret+Loc: obagwaaniiginoonsishiwaabaniing
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Pret+Obv: obagwaaniiginoonsishiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+Pret+Pl: obagwaaniiginoonsishiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+VocPl+Loc: [obagwaaniiginoonsishiwaadig, obagwaaniiginoonsishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+VocPl+Obv: [obagwaaniiginoonsishiwaadig, obagwaaniiginoonsishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pej+3Pl+VocPl+Pl: [obagwaaniiginoonsishiwaadig, obagwaaniiginoonsishiwaadog]
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Loc: nibagwaaniiginoonyishinaanibaniing
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Obv: nibagwaaniiginoonyishinaanibaniin
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Pl: nibagwaaniiginoonyishinaanibaniig
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonyishinaanidiging
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonyishinaanidigan
+     1+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonyishinaanidigag
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Loc: nibagwaaniiginoonsishinaanibaniing
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Obv: nibagwaaniiginoonsishinaanibaniin
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Pl: nibagwaaniiginoonsishinaanibaniig
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonsishinaanidiging
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonsishinaanidigan
+     1+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonsishinaanidigag
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Loc: gibagwaaniiginoonyishinaanibaniing
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Obv: gibagwaaniiginoonyishinaanibaniin
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Prt+Pl: gibagwaaniiginoonyishinaanibaniig
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonyishinaanidiging
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonyishinaanidigan
+     2+bagwaaniigin+NI+Con+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonyishinaanidigag
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Loc: gibagwaaniiginoonyishiwaabaniing
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Obv: gibagwaaniiginoonyishiwaabaniin
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Pl: gibagwaaniiginoonyishiwaabaniig
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonyishiwaadiging
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonyishiwaadigan
+     2+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonyishiwaadigag
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Loc: gibagwaaniiginoonsishinaanibaniing
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Obv: gibagwaaniiginoonsishinaanibaniin
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Prt+Pl: gibagwaaniiginoonsishinaanibaniig
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonsishinaanidiging
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonsishinaanidigan
+     2+bagwaaniigin+NI+Dim+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonsishinaanidigag
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Loc: gibagwaaniiginoonsishiwaabaniing
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Obv: gibagwaaniiginoonsishiwaabaniin
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Pl: gibagwaaniiginoonsishiwaabaniig
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonsishiwaadiging
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonsishiwaadigan
+     2+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonsishiwaadigag
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Prt+Loc: obagwaaniiginoonyishiniibaniing
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Prt+Obv: obagwaaniiginoonyishiniibaniin
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Prt+Pl: obagwaaniiginoonyishiniibaniin
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginoonyishiniidiging
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginoonyishiniidigan
+     3+bagwaaniigin+NI+Con+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginoonyishiniidigan
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Loc: obagwaaniiginoonyishiwaabaniing
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Obv: obagwaaniiginoonyishiwaabaniin
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Prt+Pl: obagwaaniiginoonyishiwaabaniig
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginoonyishiwaadiging
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginoonyishiwaadigan
+     3+bagwaaniigin+NI+Con+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginoonyishiwaadigag
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Prt+Loc: obagwaaniiginoonsishiniibaniing
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Prt+Obv: obagwaaniiginoonsishiniibaniin
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Prt+Pl: obagwaaniiginoonsishiniibaniin
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginoonsishiniidiging
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginoonsishiniidigan
+     3+bagwaaniigin+NI+Dim+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginoonsishiniidigan
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Loc: obagwaaniiginoonsishiwaabaniing
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Obv: obagwaaniiginoonsishiwaabaniin
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Prt+Pl: obagwaaniiginoonsishiwaabaniig
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginoonsishiwaadiging
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginoonsishiwaadigan
+     3+bagwaaniigin+NI+Dim+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginoonsishiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Pret+Loc: nibagwaaniiginomishinaanibaniing
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Pret+Obv: nibagwaaniiginomishinaanibaniin
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+Pret+Pl: nibagwaaniiginomishinaanibaniin
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+VocPl+Loc: [nibagwaaniiginomishinaanidig, nibagwaaniiginomishinaanidog]
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+VocPl+Obv: [nibagwaaniiginomishinaanidig, nibagwaaniiginomishinaanidog]
-     1+bagwaaniigin+NI+Pos+Pej+1Pl+VocPl+Pl: [nibagwaaniiginomishinaanidig, nibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+21+Pret+Loc: gibagwaaniiginomishinaanibaniing
-     2+bagwaaniigin+NI+Pos+Pej+21+Pret+Obv: gibagwaaniiginomishinaanibaniin
-     2+bagwaaniigin+NI+Pos+Pej+21+Pret+Pl: gibagwaaniiginomishinaanibaniin
-     2+bagwaaniigin+NI+Pos+Pej+21+VocPl+Loc: [gibagwaaniiginomishinaanidig, gibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+21+VocPl+Obv: [gibagwaaniiginomishinaanidig, gibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+21+VocPl+Pl: [gibagwaaniiginomishinaanidig, gibagwaaniiginomishinaanidog]
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Pret+Loc: gibagwaaniiginomishiwaabaniing
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Pret+Obv: gibagwaaniiginomishiwaabaniin
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+Pret+Pl: gibagwaaniiginomishiwaabaniin
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+VocPl+Loc: [gibagwaaniiginomishiwaadig, gibagwaaniiginomishiwaadog]
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+VocPl+Obv: [gibagwaaniiginomishiwaadig, gibagwaaniiginomishiwaadog]
-     2+bagwaaniigin+NI+Pos+Pej+2Pl+VocPl+Pl: [gibagwaaniiginomishiwaadig, gibagwaaniiginomishiwaadog]
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Pret+Loc: obagwaaniiginomishiniibaniing
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Pret+Obv: obagwaaniiginomishiniibaniin
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+Pret+Pl: obagwaaniiginomishiniibaniin
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+VocPl+Loc: [obagwaaniiginomishiniidig, obagwaaniiginomishiniidog]
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+VocPl+Obv: [obagwaaniiginomishiniidig, obagwaaniiginomishiniidog]
-     3+bagwaaniigin+NI+Pos+Pej+3Obv+VocPl+Pl: [obagwaaniiginomishiniidig, obagwaaniiginomishiniidog]
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Pret+Loc: obagwaaniiginomishiwaabaniing
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Pret+Obv: obagwaaniiginomishiwaabaniin
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+Pret+Pl: obagwaaniiginomishiwaabaniin
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+VocPl+Loc: [obagwaaniiginomishiwaadig, obagwaaniiginomishiwaadog]
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+VocPl+Obv: [obagwaaniiginomishiwaadig, obagwaaniiginomishiwaadog]
-     3+bagwaaniigin+NI+Pos+Pej+3Pl+VocPl+Pl: [obagwaaniiginomishiwaadig, obagwaaniiginomishiwaadog]
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Loc: nibagwaaniiginomishinaanibaniing
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Obv: nibagwaaniiginomishinaanibaniin
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Pl: nibagwaaniiginomishinaanibaniig
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginomishinaanidiging
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginomishinaanidigan
+     1+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginomishinaanidigag
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Loc: gibagwaaniiginomishinaanibaniing
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Obv: gibagwaaniiginomishinaanibaniin
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Prt+Pl: gibagwaaniiginomishinaanibaniig
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginomishinaanidiging
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginomishinaanidigan
+     2+bagwaaniigin+NI+Pos+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginomishinaanidigag
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Loc: gibagwaaniiginomishiwaabaniing
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Obv: gibagwaaniiginomishiwaabaniin
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Pl: gibagwaaniiginomishiwaabaniig
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginomishiwaadiging
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginomishiwaadigan
+     2+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginomishiwaadigag
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Prt+Loc: obagwaaniiginomishiniibaniing
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Prt+Obv: obagwaaniiginomishiniibaniin
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Prt+Pl: obagwaaniiginomishiniibaniin
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginomishiniidiging
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginomishiniidigan
+     3+bagwaaniigin+NI+Pos+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginomishiniidigan
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Loc: obagwaaniiginomishiwaabaniing
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Obv: obagwaaniiginomishiwaabaniin
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Prt+Pl: obagwaaniiginomishiwaabaniig
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginomishiwaadiging
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginomishiwaadigan
+     3+bagwaaniigin+NI+Pos+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginomishiwaadigag
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Pret+Loc: nibagwaaniiginoonyimishinaanibaniing
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Pret+Obv: nibagwaaniiginoonyimishinaanibaniin
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+Pret+Pl: nibagwaaniiginoonyimishinaanibaniin
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+VocPl+Loc: [nibagwaaniiginoonyimishinaanidig, nibagwaaniiginoonyimishinaanidog]
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+VocPl+Obv: [nibagwaaniiginoonyimishinaanidig, nibagwaaniiginoonyimishinaanidog]
-     1+bagwaaniigin+NI+Con+Pos+Pej+1Pl+VocPl+Pl: [nibagwaaniiginoonyimishinaanidig, nibagwaaniiginoonyimishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Pret+Loc: nibagwaaniiginoonsimishinaanibaniing
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Pret+Obv: nibagwaaniiginoonsimishinaanibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+Pret+Pl: nibagwaaniiginoonsimishinaanibaniin
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+VocPl+Loc: [nibagwaaniiginoonsimishinaanidig, nibagwaaniiginoonsimishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+VocPl+Obv: [nibagwaaniiginoonsimishinaanidig, nibagwaaniiginoonsimishinaanidog]
-     1+bagwaaniigin+NI+Dim+Pos+Pej+1Pl+VocPl+Pl: [nibagwaaniiginoonsimishinaanidig, nibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Pret+Loc: gibagwaaniiginoonyimishinaanibaniing
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Pret+Obv: gibagwaaniiginoonyimishinaanibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+Pret+Pl: gibagwaaniiginoonyimishinaanibaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+VocPl+Loc: [gibagwaaniiginoonyimishinaanidig, gibagwaaniiginoonyimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+VocPl+Obv: [gibagwaaniiginoonyimishinaanidig, gibagwaaniiginoonyimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+21+VocPl+Pl: [gibagwaaniiginoonyimishinaanidig, gibagwaaniiginoonyimishinaanidog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Pret+Loc: gibagwaaniiginoonyimishiwaabaniing
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Pret+Obv: gibagwaaniiginoonyimishiwaabaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+Pret+Pl: gibagwaaniiginoonyimishiwaabaniin
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+VocPl+Loc: [gibagwaaniiginoonyimishiwaadig, gibagwaaniiginoonyimishiwaadog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+VocPl+Obv: [gibagwaaniiginoonyimishiwaadig, gibagwaaniiginoonyimishiwaadog]
-     2+bagwaaniigin+NI+Con+Pos+Pej+2Pl+VocPl+Pl: [gibagwaaniiginoonyimishiwaadig, gibagwaaniiginoonyimishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Pret+Loc: gibagwaaniiginoonsimishinaanibaniing
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Pret+Obv: gibagwaaniiginoonsimishinaanibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+Pret+Pl: gibagwaaniiginoonsimishinaanibaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+VocPl+Loc: [gibagwaaniiginoonsimishinaanidig, gibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+VocPl+Obv: [gibagwaaniiginoonsimishinaanidig, gibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+21+VocPl+Pl: [gibagwaaniiginoonsimishinaanidig, gibagwaaniiginoonsimishinaanidog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Pret+Loc: gibagwaaniiginoonsimishiwaabaniing
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Pret+Obv: gibagwaaniiginoonsimishiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+Pret+Pl: gibagwaaniiginoonsimishiwaabaniin
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+VocPl+Loc: [gibagwaaniiginoonsimishiwaadig, gibagwaaniiginoonsimishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+VocPl+Obv: [gibagwaaniiginoonsimishiwaadig, gibagwaaniiginoonsimishiwaadog]
-     2+bagwaaniigin+NI+Dim+Pos+Pej+2Pl+VocPl+Pl: [gibagwaaniiginoonsimishiwaadig, gibagwaaniiginoonsimishiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Pret+Loc: obagwaaniiginoonyimishiniibaniing
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Pret+Obv: obagwaaniiginoonyimishiniibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+Pret+Pl: obagwaaniiginoonyimishiniibaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+VocPl+Loc: [obagwaaniiginoonyimishiniidig, obagwaaniiginoonyimishiniidog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+VocPl+Obv: [obagwaaniiginoonyimishiniidig, obagwaaniiginoonyimishiniidog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Obv+VocPl+Pl: [obagwaaniiginoonyimishiniidig, obagwaaniiginoonyimishiniidog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Pret+Loc: obagwaaniiginoonyimishiwaabaniing
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Pret+Obv: obagwaaniiginoonyimishiwaabaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+Pret+Pl: obagwaaniiginoonyimishiwaabaniin
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+VocPl+Loc: [obagwaaniiginoonyimishiwaadig, obagwaaniiginoonyimishiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+VocPl+Obv: [obagwaaniiginoonyimishiwaadig, obagwaaniiginoonyimishiwaadog]
-     3+bagwaaniigin+NI+Con+Pos+Pej+3Pl+VocPl+Pl: [obagwaaniiginoonyimishiwaadig, obagwaaniiginoonyimishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Pret+Loc: obagwaaniiginoonsimishiniibaniing
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Pret+Obv: obagwaaniiginoonsimishiniibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+Pret+Pl: obagwaaniiginoonsimishiniibaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+VocPl+Loc: [obagwaaniiginoonsimishiniidig, obagwaaniiginoonsimishiniidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+VocPl+Obv: [obagwaaniiginoonsimishiniidig, obagwaaniiginoonsimishiniidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Obv+VocPl+Pl: [obagwaaniiginoonsimishiniidig, obagwaaniiginoonsimishiniidog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Pret+Loc: obagwaaniiginoonsimishiwaabaniing
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Pret+Obv: obagwaaniiginoonsimishiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+Pret+Pl: obagwaaniiginoonsimishiwaabaniin
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+VocPl+Loc: [obagwaaniiginoonsimishiwaadig, obagwaaniiginoonsimishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+VocPl+Obv: [obagwaaniiginoonsimishiwaadig, obagwaaniiginoonsimishiwaadog]
-     3+bagwaaniigin+NI+Dim+Pos+Pej+3Pl+VocPl+Pl: [obagwaaniiginoonsimishiwaadig, obagwaaniiginoonsimishiwaadog]
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Loc: nibagwaaniiginoonyimishinaanibaniing
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Obv: nibagwaaniiginoonyimishinaanibaniin
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Pl: nibagwaaniiginoonyimishinaanibaniig
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonyimishinaanidiging
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonyimishinaanidigan
+     1+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonyimishinaanidigag
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Loc: nibagwaaniiginoonsimishinaanibaniing
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Obv: nibagwaaniiginoonsimishinaanibaniin
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Pl: nibagwaaniiginoonsimishinaanibaniig
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: nibagwaaniiginoonsimishinaanidiging
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: nibagwaaniiginoonsimishinaanidigan
+     1+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: nibagwaaniiginoonsimishinaanidigag
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Loc: gibagwaaniiginoonyimishinaanibaniing
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Obv: gibagwaaniiginoonyimishinaanibaniin
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Prt+Pl: gibagwaaniiginoonyimishinaanibaniig
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonyimishinaanidiging
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonyimishinaanidigan
+     2+bagwaaniigin+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonyimishinaanidigag
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Loc: gibagwaaniiginoonyimishiwaabaniing
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Obv: gibagwaaniiginoonyimishiwaabaniin
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Pl: gibagwaaniiginoonyimishiwaabaniig
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonyimishiwaadiging
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonyimishiwaadigan
+     2+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonyimishiwaadigag
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Loc: gibagwaaniiginoonsimishinaanibaniing
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Obv: gibagwaaniiginoonsimishinaanibaniin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Prt+Pl: gibagwaaniiginoonsimishinaanibaniig
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: gibagwaaniiginoonsimishinaanidiging
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: gibagwaaniiginoonsimishinaanidigan
+     2+bagwaaniigin+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: gibagwaaniiginoonsimishinaanidigag
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Loc: gibagwaaniiginoonsimishiwaabaniing
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Obv: gibagwaaniiginoonsimishiwaabaniin
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Pl: gibagwaaniiginoonsimishiwaabaniig
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: gibagwaaniiginoonsimishiwaadiging
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: gibagwaaniiginoonsimishiwaadigan
+     2+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: gibagwaaniiginoonsimishiwaadigag
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Prt+Loc: obagwaaniiginoonyimishiniibaniing
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Prt+Obv: obagwaaniiginoonyimishiniibaniin
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Prt+Pl: obagwaaniiginoonyimishiniibaniin
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginoonyimishiniidiging
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginoonyimishiniidigan
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginoonyimishiniidigan
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Loc: obagwaaniiginoonyimishiwaabaniing
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Obv: obagwaaniiginoonyimishiwaabaniin
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Prt+Pl: obagwaaniiginoonyimishiwaabaniig
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginoonyimishiwaadiging
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginoonyimishiwaadigan
+     3+bagwaaniigin+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginoonyimishiwaadigag
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Prt+Loc: obagwaaniiginoonsimishiniibaniing
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Prt+Obv: obagwaaniiginoonsimishiniibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Prt+Pl: obagwaaniiginoonsimishiniibaniin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Loc: obagwaaniiginoonsimishiniidiging
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Obv: obagwaaniiginoonsimishiniidigan
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Pl: obagwaaniiginoonsimishiniidigan
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Loc: obagwaaniiginoonsimishiwaabaniing
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Obv: obagwaaniiginoonsimishiwaabaniin
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Prt+Pl: obagwaaniiginoonsimishiwaabaniig
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: obagwaaniiginoonsimishiwaadiging
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: obagwaaniiginoonsimishiwaadigan
+     3+bagwaaniigin+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: obagwaaniiginoonsimishiwaadigag
      
