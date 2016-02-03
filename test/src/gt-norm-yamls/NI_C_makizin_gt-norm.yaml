@@ -15,7 +15,7 @@ Tests:
   #1	2	3	4	5	6	7
   #per	dim	the	pej	pos	mod	num
 
-    3+moozaandag+N+Pos+3Pl: omoozaandagimiwaa
+    3+moozaandag+NI+Pos+3Pl: omoozaandagimiwaa
     
     #Isolation form
     makizin: makizin
@@ -27,95 +27,95 @@ Tests:
     X+makizin: imakizin
     
     #Values from slots numbered: 2
-    makizin+N+Con: makizinenh
-    makizin+N+Dim: makizinens
+    makizin+NI+Con: makizinenh
+    makizin+NI+Dim: makizinens
     
     
     #Values from slots numbered: 4
-    makizin+N+Pej: makizinish
+    makizin+NI+Pej: makizinish
     
     
     #Values from slots numbered: 6
-    makizin+N+Pret: makiziniban
-    makizin+N+VocPl: [makizinidig, makizinidog]
+    makizin+NI+Pret: makiziniban
+    makizin+NI+VocPl: [makizinidig, makizinidog]
     
     #Values from slots numbered: 7
-    makizin+N+Loc: makizining
-    makizin+N+Obv: makizinan
-    makizin+N+Pl: makizinan
+    makizin+NI+Loc: makizining
+    makizin+NI+Obv: makizinan
+    makizin+NI+Pl: makizinan
     
     #Values from slots numbered: 1, 2
-    1+makizin+N+Con: nimakizinenh
-    1+makizin+N+Dim: nimakizinens
-    2+makizin+N+Con: gimakizinenh
-    2+makizin+N+Dim: gimakizinens
-    3+makizin+N+Con: omakizinenh
-    3+makizin+N+Dim: omakizinens
-    X+makizin+N+Con: imakizinenh
-    X+makizin+N+Dim: imakizinens
+    1+makizin+NI+Con: nimakizinenh
+    1+makizin+NI+Dim: nimakizinens
+    2+makizin+NI+Con: gimakizinenh
+    2+makizin+NI+Dim: gimakizinens
+    3+makizin+NI+Con: omakizinenh
+    3+makizin+NI+Dim: omakizinens
+    X+makizin+NI+Con: imakizinenh
+    X+makizin+NI+Dim: imakizinens
     
     #Values from slots numbered: 1, 3
-    1+makizin+N+Pos: nimakizinim
-    2+makizin+N+Pos: gimakizinim
-    3+makizin+N+Pos: omakizinim
-    X+makizin+N+Pos: imakizinim
+    1+makizin+NI+Pos: nimakizinim
+    2+makizin+NI+Pos: gimakizinim
+    3+makizin+NI+Pos: omakizinim
+    X+makizin+NI+Pos: imakizinim
     
     #Values from slots numbered: 1, 4
-    1+makizin+N+Pej: nimakizinish
-    2+makizin+N+Pej: gimakizinish
-    3+makizin+N+Pej: omakizinish
-    X+makizin+N+Pej: imakizinish
+    1+makizin+NI+Pej: nimakizinish
+    2+makizin+NI+Pej: gimakizinish
+    3+makizin+NI+Pej: omakizinish
+    X+makizin+NI+Pej: imakizinish
     
     #Values from slots numbered: 1, 5
-    1+makizin+N+1Pl: nimakizininaan
-    2+makizin+N+21: gimakizininaan
-    2+makizin+N+2Pl: gimakiziniwaa
-    3+makizin+N+3Obv: omakizinini
-    3+makizin+N+3Pl: omakiziniwaa
+    1+makizin+NI+1Pl: nimakizininaan
+    2+makizin+NI+21: gimakizininaan
+    2+makizin+NI+2Pl: gimakiziniwaa
+    3+makizin+NI+3Obv: omakizinini
+    3+makizin+NI+3Pl: omakiziniwaa
     
     #Values from slots numbered: 1, 6
-    1+makizin+N+Pret: nimakiziniban
-    1+makizin+N+VocPl: [nimakizinidig, nimakizinidog]
-    2+makizin+N+Pret: gimakiziniban
-    2+makizin+N+VocPl: [gimakizinidig, gimakizinidog]
-    3+makizin+N+Pret: omakiziniban
-    3+makizin+N+VocPl: [omakizinidig, omakizinidog]
-    X+makizin+N+Pret: imakiziniban
-    X+makizin+N+VocPl: [imakizinidig, imakizinidog]
+    1+makizin+NI+Pret: nimakiziniban
+    1+makizin+NI+VocPl: [nimakizinidig, nimakizinidog]
+    2+makizin+NI+Pret: gimakiziniban
+    2+makizin+NI+VocPl: [gimakizinidig, gimakizinidog]
+    3+makizin+NI+Pret: omakiziniban
+    3+makizin+NI+VocPl: [omakizinidig, omakizinidog]
+    X+makizin+NI+Pret: imakiziniban
+    X+makizin+NI+VocPl: [imakizinidig, imakizinidog]
     
     #Values from slots numbered: 1, 7
-    1+makizin+N+Loc: nimakizining
-    1+makizin+N+Obv: nimakizinan
-    1+makizin+N+Pl: nimakizinan
-    2+makizin+N+Loc: gimakizining
-    2+makizin+N+Obv: gimakizinan
-    2+makizin+N+Pl: gimakizinan
-    3+makizin+N+Loc: omakizining
-    3+makizin+N+Obv: omakizinan
-    3+makizin+N+Pl: omakizinan
-    X+makizin+N+Loc: imakizining
-    X+makizin+N+Obv: imakizinan
-    X+makizin+N+Pl: imakizinan
+    1+makizin+NI+Loc: nimakizining
+    1+makizin+NI+Obv: nimakizinan
+    1+makizin+NI+Pl: nimakizinan
+    2+makizin+NI+Loc: gimakizining
+    2+makizin+NI+Obv: gimakizinan
+    2+makizin+NI+Pl: gimakizinan
+    3+makizin+NI+Loc: omakizining
+    3+makizin+NI+Obv: omakizinan
+    3+makizin+NI+Pl: omakizinan
+    X+makizin+NI+Loc: imakizining
+    X+makizin+NI+Obv: imakizinan
+    X+makizin+NI+Pl: imakizinan
     
     
     #Values from slots numbered: 2, 4
-    makizin+N+Con+Pej: makizinenyish
-    makizin+N+Dim+Pej: makizinensish
+    makizin+NI+Con+Pej: makizinenyish
+    makizin+NI+Dim+Pej: makizinensish
     
     
     #Values from slots numbered: 2, 6
-    makizin+N+Con+Pret: makizinenyiban
-    makizin+N+Con+VocPl: [makizinenyidig, makizinenyidog]
-    makizin+N+Dim+Pret: makizinensiban
-    makizin+N+Dim+VocPl: [makizinensidig, makizinensidog]
+    makizin+NI+Con+Pret: makizinenyiban
+    makizin+NI+Con+VocPl: [makizinenyidig, makizinenyidog]
+    makizin+NI+Dim+Pret: makizinensiban
+    makizin+NI+Dim+VocPl: [makizinensidig, makizinensidog]
     
     #Values from slots numbered: 2, 7
-    makizin+N+Con+Loc: makizinenying
-    makizin+N+Con+Obv: makizinenyin
-    makizin+N+Con+Pl: makizinenyin
-    makizin+N+Dim+Loc: makizinensing
-    makizin+N+Dim+Obv: makizinensan
-    makizin+N+Dim+Pl: makizinensan
+    makizin+NI+Con+Loc: makizinenying
+    makizin+NI+Con+Obv: makizinenyin
+    makizin+NI+Con+Pl: makizinenyin
+    makizin+NI+Dim+Loc: makizinensing
+    makizin+NI+Dim+Obv: makizinensan
+    makizin+NI+Dim+Pl: makizinensan
     
     
     
@@ -123,207 +123,207 @@ Tests:
     
     
     #Values from slots numbered: 4, 6
-    makizin+N+Pej+Pret: makizinishiban
-    makizin+N+Pej+VocPl: [makizinishidig, makizinishidog]
+    makizin+NI+Pej+Pret: makizinishiban
+    makizin+NI+Pej+VocPl: [makizinishidig, makizinishidog]
     
     #Values from slots numbered: 4, 7
-    makizin+N+Pej+Loc: makizinishing
-    makizin+N+Pej+Obv: makizinishan
-    makizin+N+Pej+Pl: makizinishan
+    makizin+NI+Pej+Loc: makizinishing
+    makizin+NI+Pej+Obv: makizinishan
+    makizin+NI+Pej+Pl: makizinishan
     
     
     
     #Values from slots numbered: 6, 7
-    makizin+N+Pret+Loc: makizinibaniing
-    makizin+N+Pret+Obv: makizinibaniin
-    makizin+N+Pret+Pl: makizinibaniin
+    makizin+NI+Pret+Loc: makizinibaniing
+    makizin+NI+Pret+Obv: makizinibaniin
+    makizin+NI+Pret+Pl: makizinibaniin
     
     #Values from slots numbered: 1, 2, 3
-    1+makizin+N+Con+Pos: nimakizinenyim
-    1+makizin+N+Dim+Pos: nimakizinensim
-    2+makizin+N+Con+Pos: gimakizinenyim
-    2+makizin+N+Dim+Pos: gimakizinensim
-    3+makizin+N+Con+Pos: omakizinenyim
-    3+makizin+N+Dim+Pos: omakizinensim
-    X+makizin+N+Con+Pos: imakizinenyim
-    X+makizin+N+Dim+Pos: imakizinensim
+    1+makizin+NI+Con+Pos: nimakizinenyim
+    1+makizin+NI+Dim+Pos: nimakizinensim
+    2+makizin+NI+Con+Pos: gimakizinenyim
+    2+makizin+NI+Dim+Pos: gimakizinensim
+    3+makizin+NI+Con+Pos: omakizinenyim
+    3+makizin+NI+Dim+Pos: omakizinensim
+    X+makizin+NI+Con+Pos: imakizinenyim
+    X+makizin+NI+Dim+Pos: imakizinensim
     
     #Values from slots numbered: 1, 2, 4
-    1+makizin+N+Con+Pej: nimakizinenyish
-    1+makizin+N+Dim+Pej: nimakizinensish
-    2+makizin+N+Con+Pej: gimakizinenyish
-    2+makizin+N+Dim+Pej: gimakizinensish
-    3+makizin+N+Con+Pej: omakizinenyish
-    3+makizin+N+Dim+Pej: omakizinensish
-    X+makizin+N+Con+Pej: imakizinenyish
-    X+makizin+N+Dim+Pej: imakizinensish
+    1+makizin+NI+Con+Pej: nimakizinenyish
+    1+makizin+NI+Dim+Pej: nimakizinensish
+    2+makizin+NI+Con+Pej: gimakizinenyish
+    2+makizin+NI+Dim+Pej: gimakizinensish
+    3+makizin+NI+Con+Pej: omakizinenyish
+    3+makizin+NI+Dim+Pej: omakizinensish
+    X+makizin+NI+Con+Pej: imakizinenyish
+    X+makizin+NI+Dim+Pej: imakizinensish
     
     #Values from slots numbered: 1, 2, 5
-    1+makizin+N+Con+1Pl: nimakizinenyinaan
-    1+makizin+N+Dim+1Pl: nimakizinensinaan
-    2+makizin+N+Con+21: gimakizinenyinaan
-    2+makizin+N+Con+2Pl: gimakizinenyiwaa
-    2+makizin+N+Dim+21: gimakizinensinaan
-    2+makizin+N+Dim+2Pl: gimakizinensiwaa
-    3+makizin+N+Con+3Obv: omakizinenyini
-    3+makizin+N+Con+3Pl: omakizinenyiwaa
-    3+makizin+N+Dim+3Obv: omakizinensini
-    3+makizin+N+Dim+3Pl: omakizinensiwaa
+    1+makizin+NI+Con+1Pl: nimakizinenyinaan
+    1+makizin+NI+Dim+1Pl: nimakizinensinaan
+    2+makizin+NI+Con+21: gimakizinenyinaan
+    2+makizin+NI+Con+2Pl: gimakizinenyiwaa
+    2+makizin+NI+Dim+21: gimakizinensinaan
+    2+makizin+NI+Dim+2Pl: gimakizinensiwaa
+    3+makizin+NI+Con+3Obv: omakizinenyini
+    3+makizin+NI+Con+3Pl: omakizinenyiwaa
+    3+makizin+NI+Dim+3Obv: omakizinensini
+    3+makizin+NI+Dim+3Pl: omakizinensiwaa
     
     #Values from slots numbered: 1, 2, 6
-    1+makizin+N+Con+Pret: nimakizinenyiban
-    1+makizin+N+Con+VocPl: [nimakizinenyidig, nimakizinenyidog]
-    1+makizin+N+Dim+Pret: nimakizinensiban
-    1+makizin+N+Dim+VocPl: [nimakizinensidig, nimakizinensidog]
-    2+makizin+N+Con+Pret: gimakizinenyiban
-    2+makizin+N+Con+VocPl: [gimakizinenyidig, gimakizinenyidog]
-    2+makizin+N+Dim+Pret: gimakizinensiban
-    2+makizin+N+Dim+VocPl: [gimakizinensidig, gimakizinensidog]
-    3+makizin+N+Con+Pret: omakizinenyiban
-    3+makizin+N+Con+VocPl: [omakizinenyidig, omakizinenyidog]
-    3+makizin+N+Dim+Pret: omakizinensiban
-    3+makizin+N+Dim+VocPl: [omakizinensidig, omakizinensidog]
-    X+makizin+N+Con+Pret: imakizinenyiban
-    X+makizin+N+Con+VocPl: [imakizinenyidig, imakizinenyidog]
-    X+makizin+N+Dim+Pret: imakizinensiban
-    X+makizin+N+Dim+VocPl: [imakizinensidig, imakizinensidog]
+    1+makizin+NI+Con+Pret: nimakizinenyiban
+    1+makizin+NI+Con+VocPl: [nimakizinenyidig, nimakizinenyidog]
+    1+makizin+NI+Dim+Pret: nimakizinensiban
+    1+makizin+NI+Dim+VocPl: [nimakizinensidig, nimakizinensidog]
+    2+makizin+NI+Con+Pret: gimakizinenyiban
+    2+makizin+NI+Con+VocPl: [gimakizinenyidig, gimakizinenyidog]
+    2+makizin+NI+Dim+Pret: gimakizinensiban
+    2+makizin+NI+Dim+VocPl: [gimakizinensidig, gimakizinensidog]
+    3+makizin+NI+Con+Pret: omakizinenyiban
+    3+makizin+NI+Con+VocPl: [omakizinenyidig, omakizinenyidog]
+    3+makizin+NI+Dim+Pret: omakizinensiban
+    3+makizin+NI+Dim+VocPl: [omakizinensidig, omakizinensidog]
+    X+makizin+NI+Con+Pret: imakizinenyiban
+    X+makizin+NI+Con+VocPl: [imakizinenyidig, imakizinenyidog]
+    X+makizin+NI+Dim+Pret: imakizinensiban
+    X+makizin+NI+Dim+VocPl: [imakizinensidig, imakizinensidog]
     
     #Values from slots numbered: 1, 2, 7
-    1+makizin+N+Con+Loc: nimakizinenying
-    1+makizin+N+Con+Obv: nimakizinenyin
-    1+makizin+N+Con+Pl: nimakizinenyin
-    1+makizin+N+Dim+Loc: nimakizinensing
-    1+makizin+N+Dim+Obv: nimakizinensan
-    1+makizin+N+Dim+Pl: nimakizinensan
-    2+makizin+N+Con+Loc: gimakizinenying
-    2+makizin+N+Con+Obv: gimakizinenyin
-    2+makizin+N+Con+Pl: gimakizinenyin
-    2+makizin+N+Dim+Loc: gimakizinensing
-    2+makizin+N+Dim+Obv: gimakizinensan
-    2+makizin+N+Dim+Pl: gimakizinensan
-    3+makizin+N+Con+Loc: omakizinenying
-    3+makizin+N+Con+Obv: omakizinenyin
-    3+makizin+N+Con+Pl: omakizinenyin
-    3+makizin+N+Dim+Loc: omakizinensing
-    3+makizin+N+Dim+Obv: omakizinensan
-    3+makizin+N+Dim+Pl: omakizinensan
-    X+makizin+N+Con+Loc: imakizinenying
-    X+makizin+N+Con+Obv: imakizinenyin
-    X+makizin+N+Con+Pl: imakizinenyin
-    X+makizin+N+Dim+Loc: imakizinensing
-    X+makizin+N+Dim+Obv: imakizinensan
-    X+makizin+N+Dim+Pl: imakizinensan
+    1+makizin+NI+Con+Loc: nimakizinenying
+    1+makizin+NI+Con+Obv: nimakizinenyin
+    1+makizin+NI+Con+Pl: nimakizinenyin
+    1+makizin+NI+Dim+Loc: nimakizinensing
+    1+makizin+NI+Dim+Obv: nimakizinensan
+    1+makizin+NI+Dim+Pl: nimakizinensan
+    2+makizin+NI+Con+Loc: gimakizinenying
+    2+makizin+NI+Con+Obv: gimakizinenyin
+    2+makizin+NI+Con+Pl: gimakizinenyin
+    2+makizin+NI+Dim+Loc: gimakizinensing
+    2+makizin+NI+Dim+Obv: gimakizinensan
+    2+makizin+NI+Dim+Pl: gimakizinensan
+    3+makizin+NI+Con+Loc: omakizinenying
+    3+makizin+NI+Con+Obv: omakizinenyin
+    3+makizin+NI+Con+Pl: omakizinenyin
+    3+makizin+NI+Dim+Loc: omakizinensing
+    3+makizin+NI+Dim+Obv: omakizinensan
+    3+makizin+NI+Dim+Pl: omakizinensan
+    X+makizin+NI+Con+Loc: imakizinenying
+    X+makizin+NI+Con+Obv: imakizinenyin
+    X+makizin+NI+Con+Pl: imakizinenyin
+    X+makizin+NI+Dim+Loc: imakizinensing
+    X+makizin+NI+Dim+Obv: imakizinensan
+    X+makizin+NI+Dim+Pl: imakizinensan
     
     #Values from slots numbered: 1, 3, 4
-    1+makizin+N+Pos+Pej: nimakizinimish
-    2+makizin+N+Pos+Pej: gimakizinimish
-    3+makizin+N+Pos+Pej: omakizinimish
-    X+makizin+N+Pos+Pej: imakizinimish
+    1+makizin+NI+Pos+Pej: nimakizinimish
+    2+makizin+NI+Pos+Pej: gimakizinimish
+    3+makizin+NI+Pos+Pej: omakizinimish
+    X+makizin+NI+Pos+Pej: imakizinimish
     
     #Values from slots numbered: 1, 3, 5
-    1+makizin+N+Pos+1Pl: nimakiziniminaan
-    2+makizin+N+Pos+21: gimakiziniminaan
-    2+makizin+N+Pos+2Pl: gimakizinimiwaa
-    3+makizin+N+Pos+3Obv: omakizinimini
-    3+makizin+N+Pos+3Pl: omakizinimiwaa
+    1+makizin+NI+Pos+1Pl: nimakiziniminaan
+    2+makizin+NI+Pos+21: gimakiziniminaan
+    2+makizin+NI+Pos+2Pl: gimakizinimiwaa
+    3+makizin+NI+Pos+3Obv: omakizinimini
+    3+makizin+NI+Pos+3Pl: omakizinimiwaa
     
     #Values from slots numbered: 1, 3, 6
-    1+makizin+N+Pos+Pret: nimakizinimiban
-    1+makizin+N+Pos+VocPl: [nimakizinimidig, nimakizinimidog]
-    2+makizin+N+Pos+Pret: gimakizinimiban
-    2+makizin+N+Pos+VocPl: [gimakizinimidig, gimakizinimidog]
-    3+makizin+N+Pos+Pret: omakizinimiban
-    3+makizin+N+Pos+VocPl: [omakizinimidig, omakizinimidog]
-    X+makizin+N+Pos+Pret: imakizinimiban
-    X+makizin+N+Pos+VocPl: [imakizinimidig, imakizinimidog]
+    1+makizin+NI+Pos+Pret: nimakizinimiban
+    1+makizin+NI+Pos+VocPl: [nimakizinimidig, nimakizinimidog]
+    2+makizin+NI+Pos+Pret: gimakizinimiban
+    2+makizin+NI+Pos+VocPl: [gimakizinimidig, gimakizinimidog]
+    3+makizin+NI+Pos+Pret: omakizinimiban
+    3+makizin+NI+Pos+VocPl: [omakizinimidig, omakizinimidog]
+    X+makizin+NI+Pos+Pret: imakizinimiban
+    X+makizin+NI+Pos+VocPl: [imakizinimidig, imakizinimidog]
     
     #Values from slots numbered: 1, 3, 7
-    1+makizin+N+Pos+Loc: nimakiziniming
-    1+makizin+N+Pos+Obv: nimakiziniman
-    1+makizin+N+Pos+Pl: nimakiziniman
-    2+makizin+N+Pos+Loc: gimakiziniming
-    2+makizin+N+Pos+Obv: gimakiziniman
-    2+makizin+N+Pos+Pl: gimakiziniman
-    3+makizin+N+Pos+Loc: omakiziniming
-    3+makizin+N+Pos+Obv: omakiziniman
-    3+makizin+N+Pos+Pl: omakiziniman
-    X+makizin+N+Pos+Loc: imakiziniming
-    X+makizin+N+Pos+Obv: imakiziniman
-    X+makizin+N+Pos+Pl: imakiziniman
+    1+makizin+NI+Pos+Loc: nimakiziniming
+    1+makizin+NI+Pos+Obv: nimakiziniman
+    1+makizin+NI+Pos+Pl: nimakiziniman
+    2+makizin+NI+Pos+Loc: gimakiziniming
+    2+makizin+NI+Pos+Obv: gimakiziniman
+    2+makizin+NI+Pos+Pl: gimakiziniman
+    3+makizin+NI+Pos+Loc: omakiziniming
+    3+makizin+NI+Pos+Obv: omakiziniman
+    3+makizin+NI+Pos+Pl: omakiziniman
+    X+makizin+NI+Pos+Loc: imakiziniming
+    X+makizin+NI+Pos+Obv: imakiziniman
+    X+makizin+NI+Pos+Pl: imakiziniman
     
     #Values from slots numbered: 1, 4, 5
-    1+makizin+N+Pej+1Pl: nimakizinishinaan
-    2+makizin+N+Pej+21: gimakizinishinaan
-    2+makizin+N+Pej+2Pl: gimakizinishiwaa
-    3+makizin+N+Pej+3Obv: omakizinishini
-    3+makizin+N+Pej+3Pl: omakizinishiwaa
+    1+makizin+NI+Pej+1Pl: nimakizinishinaan
+    2+makizin+NI+Pej+21: gimakizinishinaan
+    2+makizin+NI+Pej+2Pl: gimakizinishiwaa
+    3+makizin+NI+Pej+3Obv: omakizinishini
+    3+makizin+NI+Pej+3Pl: omakizinishiwaa
     
     #Values from slots numbered: 1, 4, 6
-    1+makizin+N+Pej+Pret: nimakizinishiban
-    1+makizin+N+Pej+VocPl: [nimakizinishidig, nimakizinishidog]
-    2+makizin+N+Pej+Pret: gimakizinishiban
-    2+makizin+N+Pej+VocPl: [gimakizinishidig, gimakizinishidog]
-    3+makizin+N+Pej+Pret: omakizinishiban
-    3+makizin+N+Pej+VocPl: [omakizinishidig, omakizinishidog]
-    X+makizin+N+Pej+Pret: imakizinishiban
-    X+makizin+N+Pej+VocPl: [imakizinishidig, imakizinishidog]
+    1+makizin+NI+Pej+Pret: nimakizinishiban
+    1+makizin+NI+Pej+VocPl: [nimakizinishidig, nimakizinishidog]
+    2+makizin+NI+Pej+Pret: gimakizinishiban
+    2+makizin+NI+Pej+VocPl: [gimakizinishidig, gimakizinishidog]
+    3+makizin+NI+Pej+Pret: omakizinishiban
+    3+makizin+NI+Pej+VocPl: [omakizinishidig, omakizinishidog]
+    X+makizin+NI+Pej+Pret: imakizinishiban
+    X+makizin+NI+Pej+VocPl: [imakizinishidig, imakizinishidog]
     
     #Values from slots numbered: 1, 4, 7
-    1+makizin+N+Pej+Loc: nimakizinishing
-    1+makizin+N+Pej+Obv: nimakizinishan
-    1+makizin+N+Pej+Pl: nimakizinishan
-    2+makizin+N+Pej+Loc: gimakizinishing
-    2+makizin+N+Pej+Obv: gimakizinishan
-    2+makizin+N+Pej+Pl: gimakizinishan
-    3+makizin+N+Pej+Loc: omakizinishing
-    3+makizin+N+Pej+Obv: omakizinishan
-    3+makizin+N+Pej+Pl: omakizinishan
-    X+makizin+N+Pej+Loc: imakizinishing
-    X+makizin+N+Pej+Obv: imakizinishan
-    X+makizin+N+Pej+Pl: imakizinishan
+    1+makizin+NI+Pej+Loc: nimakizinishing
+    1+makizin+NI+Pej+Obv: nimakizinishan
+    1+makizin+NI+Pej+Pl: nimakizinishan
+    2+makizin+NI+Pej+Loc: gimakizinishing
+    2+makizin+NI+Pej+Obv: gimakizinishan
+    2+makizin+NI+Pej+Pl: gimakizinishan
+    3+makizin+NI+Pej+Loc: omakizinishing
+    3+makizin+NI+Pej+Obv: omakizinishan
+    3+makizin+NI+Pej+Pl: omakizinishan
+    X+makizin+NI+Pej+Loc: imakizinishing
+    X+makizin+NI+Pej+Obv: imakizinishan
+    X+makizin+NI+Pej+Pl: imakizinishan
     
     #Values from slots numbered: 1, 5, 6
-    1+makizin+N+1Pl+Pret: nimakizininaaniban
-    1+makizin+N+1Pl+VocPl: [nimakizininaanidig, nimakizininaanidog]
-    2+makizin+N+21+Pret: gimakizininaaniban
-    2+makizin+N+21+VocPl: [gimakizininaanidig, gimakizininaanidog]
-    2+makizin+N+2Pl+Pret: gimakiziniwaaban
-    2+makizin+N+2Pl+VocPl: [gimakiziniwaadig, gimakiziniwaadog]
-    3+makizin+N+3Obv+Pret: omakizininiiban
-    3+makizin+N+3Obv+VocPl: [omakizininiidig, omakizininiidog]
-    3+makizin+N+3Pl+Pret: omakiziniwaaban
-    3+makizin+N+3Pl+VocPl: [omakiziniwaadig, omakiziniwaadog]
+    1+makizin+NI+1Pl+Pret: nimakizininaaniban
+    1+makizin+NI+1Pl+VocPl: [nimakizininaanidig, nimakizininaanidog]
+    2+makizin+NI+21+Pret: gimakizininaaniban
+    2+makizin+NI+21+VocPl: [gimakizininaanidig, gimakizininaanidog]
+    2+makizin+NI+2Pl+Pret: gimakiziniwaaban
+    2+makizin+NI+2Pl+VocPl: [gimakiziniwaadig, gimakiziniwaadog]
+    3+makizin+NI+3Obv+Pret: omakizininiiban
+    3+makizin+NI+3Obv+VocPl: [omakizininiidig, omakizininiidog]
+    3+makizin+NI+3Pl+Pret: omakiziniwaaban
+    3+makizin+NI+3Pl+VocPl: [omakiziniwaadig, omakiziniwaadog]
     
     #Values from slots numbered: 1, 5, 7
-    1+makizin+N+1Pl+Loc: nimakizininaaning
-    1+makizin+N+1Pl+Obv: nimakizininaanin
-    1+makizin+N+1Pl+Pl: nimakizininaanin
-    2+makizin+N+21+Loc: gimakizininaaning
-    2+makizin+N+21+Obv: gimakizininaanin
-    2+makizin+N+21+Pl: gimakizininaanin
-    2+makizin+N+2Pl+Loc: gimakiziniwaang
-    2+makizin+N+2Pl+Obv: gimakiziniwaan
-    2+makizin+N+2Pl+Pl: gimakiziniwaan
-    3+makizin+N+3Obv+Loc: omakizininiing
-    3+makizin+N+3Obv+Obv: omakizininiin
-    3+makizin+N+3Obv+Pl: omakizininiin
-    3+makizin+N+3Pl+Loc: omakiziniwaang
-    3+makizin+N+3Pl+Obv: omakiziniwaan
-    3+makizin+N+3Pl+Pl: omakiziniwaan
+    1+makizin+NI+1Pl+Loc: nimakizininaaning
+    1+makizin+NI+1Pl+Obv: nimakizininaanin
+    1+makizin+NI+1Pl+Pl: nimakizininaanin
+    2+makizin+NI+21+Loc: gimakizininaaning
+    2+makizin+NI+21+Obv: gimakizininaanin
+    2+makizin+NI+21+Pl: gimakizininaanin
+    2+makizin+NI+2Pl+Loc: gimakiziniwaang
+    2+makizin+NI+2Pl+Obv: gimakiziniwaan
+    2+makizin+NI+2Pl+Pl: gimakiziniwaan
+    3+makizin+NI+3Obv+Loc: omakizininiing
+    3+makizin+NI+3Obv+Obv: omakizininiin
+    3+makizin+NI+3Obv+Pl: omakizininiin
+    3+makizin+NI+3Pl+Loc: omakiziniwaang
+    3+makizin+NI+3Pl+Obv: omakiziniwaan
+    3+makizin+NI+3Pl+Pl: omakiziniwaan
     
     #Values from slots numbered: 1, 6, 7
-    1+makizin+N+Pret+Loc: nimakizinibaniing
-    1+makizin+N+Pret+Obv: nimakizinibaniin
-    1+makizin+N+Pret+Pl: nimakizinibaniin
-    2+makizin+N+Pret+Loc: gimakizinibaniing
-    2+makizin+N+Pret+Obv: gimakizinibaniin
-    2+makizin+N+Pret+Pl: gimakizinibaniin
-    3+makizin+N+Pret+Loc: omakizinibaniing
-    3+makizin+N+Pret+Obv: omakizinibaniin
-    3+makizin+N+Pret+Pl: omakizinibaniin
-    X+makizin+N+Pret+Loc: imakizinibaniing
-    X+makizin+N+Pret+Obv: imakizinibaniin
-    X+makizin+N+Pret+Pl: imakizinibaniin
+    1+makizin+NI+Pret+Loc: nimakizinibaniing
+    1+makizin+NI+Pret+Obv: nimakizinibaniin
+    1+makizin+NI+Pret+Pl: nimakizinibaniin
+    2+makizin+NI+Pret+Loc: gimakizinibaniing
+    2+makizin+NI+Pret+Obv: gimakizinibaniin
+    2+makizin+NI+Pret+Pl: gimakizinibaniin
+    3+makizin+NI+Pret+Loc: omakizinibaniing
+    3+makizin+NI+Pret+Obv: omakizinibaniin
+    3+makizin+NI+Pret+Pl: omakizinibaniin
+    X+makizin+NI+Pret+Loc: imakizinibaniing
+    X+makizin+NI+Pret+Obv: imakizinibaniin
+    X+makizin+NI+Pret+Pl: imakizinibaniin
     
     
     
@@ -331,28 +331,28 @@ Tests:
     
     
     #Values from slots numbered: 2, 4, 6
-    makizin+N+Con+Pej+Pret: makizinenyishiban
-    makizin+N+Con+Pej+VocPl: [makizinenyishidig, makizinenyishidog]
-    makizin+N+Dim+Pej+Pret: makizinensishiban
-    makizin+N+Dim+Pej+VocPl: [makizinensishidig, makizinensishidog]
+    makizin+NI+Con+Pej+Pret: makizinenyishiban
+    makizin+NI+Con+Pej+VocPl: [makizinenyishidig, makizinenyishidog]
+    makizin+NI+Dim+Pej+Pret: makizinensishiban
+    makizin+NI+Dim+Pej+VocPl: [makizinensishidig, makizinensishidog]
     
     #Values from slots numbered: 2, 4, 7
-    makizin+N+Con+Pej+Loc: makizinenyishing
-    makizin+N+Con+Pej+Obv: makizinenyishan
-    makizin+N+Con+Pej+Pl: makizinenyishan
-    makizin+N+Dim+Pej+Loc: makizinensishing
-    makizin+N+Dim+Pej+Obv: makizinensishan
-    makizin+N+Dim+Pej+Pl: makizinensishan
+    makizin+NI+Con+Pej+Loc: makizinenyishing
+    makizin+NI+Con+Pej+Obv: makizinenyishan
+    makizin+NI+Con+Pej+Pl: makizinenyishan
+    makizin+NI+Dim+Pej+Loc: makizinensishing
+    makizin+NI+Dim+Pej+Obv: makizinensishan
+    makizin+NI+Dim+Pej+Pl: makizinensishan
     
     
     
     #Values from slots numbered: 2, 6, 7
-    makizin+N+Con+Pret+Loc: makizinenyibaniing
-    makizin+N+Con+Pret+Obv: makizinenyibaniin
-    makizin+N+Con+Pret+Pl: makizinenyibaniin
-    makizin+N+Dim+Pret+Loc: makizinensibaniing
-    makizin+N+Dim+Pret+Obv: makizinensibaniin
-    makizin+N+Dim+Pret+Pl: makizinensibaniin
+    makizin+NI+Con+Pret+Loc: makizinenyibaniing
+    makizin+NI+Con+Pret+Obv: makizinenyibaniin
+    makizin+NI+Con+Pret+Pl: makizinenyibaniin
+    makizin+NI+Dim+Pret+Loc: makizinensibaniing
+    makizin+NI+Dim+Pret+Obv: makizinensibaniin
+    makizin+NI+Dim+Pret+Pl: makizinensibaniin
     
     
     
@@ -363,361 +363,361 @@ Tests:
     
     
     #Values from slots numbered: 4, 6, 7
-    makizin+N+Pej+Pret+Loc: makizinishibaniing
-    makizin+N+Pej+Pret+Obv: makizinishibaniin
-    makizin+N+Pej+Pret+Pl: makizinishibaniin
+    makizin+NI+Pej+Pret+Loc: makizinishibaniing
+    makizin+NI+Pej+Pret+Obv: makizinishibaniin
+    makizin+NI+Pej+Pret+Pl: makizinishibaniin
     
     
     #Values from slots numbered: 1, 2, 3, 4
-    1+makizin+N+Con+Pos+Pej: nimakizinenyimish
-    1+makizin+N+Dim+Pos+Pej: nimakizinensimish
-    2+makizin+N+Con+Pos+Pej: gimakizinenyimish
-    2+makizin+N+Dim+Pos+Pej: gimakizinensimish
-    3+makizin+N+Con+Pos+Pej: omakizinenyimish
-    3+makizin+N+Dim+Pos+Pej: omakizinensimish
-    X+makizin+N+Con+Pos+Pej: imakizinenyimish
-    X+makizin+N+Dim+Pos+Pej: imakizinensimish
+    1+makizin+NI+Con+Pos+Pej: nimakizinenyimish
+    1+makizin+NI+Dim+Pos+Pej: nimakizinensimish
+    2+makizin+NI+Con+Pos+Pej: gimakizinenyimish
+    2+makizin+NI+Dim+Pos+Pej: gimakizinensimish
+    3+makizin+NI+Con+Pos+Pej: omakizinenyimish
+    3+makizin+NI+Dim+Pos+Pej: omakizinensimish
+    X+makizin+NI+Con+Pos+Pej: imakizinenyimish
+    X+makizin+NI+Dim+Pos+Pej: imakizinensimish
     
     #Values from slots numbered: 1, 2, 3, 5
-    1+makizin+N+Con+Pos+1Pl: nimakizinenyiminaan
-    1+makizin+N+Dim+Pos+1Pl: nimakizinensiminaan
-    2+makizin+N+Con+Pos+21: gimakizinenyiminaan
-    2+makizin+N+Con+Pos+2Pl: gimakizinenyimiwaa
-    2+makizin+N+Dim+Pos+21: gimakizinensiminaan
-    2+makizin+N+Dim+Pos+2Pl: gimakizinensimiwaa
-    3+makizin+N+Con+Pos+3Obv: omakizinenyimini
-    3+makizin+N+Con+Pos+3Pl: omakizinenyimiwaa
-    3+makizin+N+Dim+Pos+3Obv: omakizinensimini
-    3+makizin+N+Dim+Pos+3Pl: omakizinensimiwaa
+    1+makizin+NI+Con+Pos+1Pl: nimakizinenyiminaan
+    1+makizin+NI+Dim+Pos+1Pl: nimakizinensiminaan
+    2+makizin+NI+Con+Pos+21: gimakizinenyiminaan
+    2+makizin+NI+Con+Pos+2Pl: gimakizinenyimiwaa
+    2+makizin+NI+Dim+Pos+21: gimakizinensiminaan
+    2+makizin+NI+Dim+Pos+2Pl: gimakizinensimiwaa
+    3+makizin+NI+Con+Pos+3Obv: omakizinenyimini
+    3+makizin+NI+Con+Pos+3Pl: omakizinenyimiwaa
+    3+makizin+NI+Dim+Pos+3Obv: omakizinensimini
+    3+makizin+NI+Dim+Pos+3Pl: omakizinensimiwaa
     
     #Values from slots numbered: 1, 2, 3, 6
-    1+makizin+N+Con+Pos+Pret: nimakizinenyimiban
-    1+makizin+N+Con+Pos+VocPl: [nimakizinenyimidig, nimakizinenyimidog]
-    1+makizin+N+Dim+Pos+Pret: nimakizinensimiban
-    1+makizin+N+Dim+Pos+VocPl: [nimakizinensimidig, nimakizinensimidog]
-    2+makizin+N+Con+Pos+Pret: gimakizinenyimiban
-    2+makizin+N+Con+Pos+VocPl: [gimakizinenyimidig, gimakizinenyimidog]
-    2+makizin+N+Dim+Pos+Pret: gimakizinensimiban
-    2+makizin+N+Dim+Pos+VocPl: [gimakizinensimidig, gimakizinensimidog]
-    3+makizin+N+Con+Pos+Pret: omakizinenyimiban
-    3+makizin+N+Con+Pos+VocPl: [omakizinenyimidig, omakizinenyimidog]
-    3+makizin+N+Dim+Pos+Pret: omakizinensimiban
-    3+makizin+N+Dim+Pos+VocPl: [omakizinensimidig, omakizinensimidog]
-    X+makizin+N+Con+Pos+Pret: imakizinenyimiban
-    X+makizin+N+Con+Pos+VocPl: [imakizinenyimidig, imakizinenyimidog]
-    X+makizin+N+Dim+Pos+Pret: imakizinensimiban
-    X+makizin+N+Dim+Pos+VocPl: [imakizinensimidig, imakizinensimidog]
+    1+makizin+NI+Con+Pos+Pret: nimakizinenyimiban
+    1+makizin+NI+Con+Pos+VocPl: [nimakizinenyimidig, nimakizinenyimidog]
+    1+makizin+NI+Dim+Pos+Pret: nimakizinensimiban
+    1+makizin+NI+Dim+Pos+VocPl: [nimakizinensimidig, nimakizinensimidog]
+    2+makizin+NI+Con+Pos+Pret: gimakizinenyimiban
+    2+makizin+NI+Con+Pos+VocPl: [gimakizinenyimidig, gimakizinenyimidog]
+    2+makizin+NI+Dim+Pos+Pret: gimakizinensimiban
+    2+makizin+NI+Dim+Pos+VocPl: [gimakizinensimidig, gimakizinensimidog]
+    3+makizin+NI+Con+Pos+Pret: omakizinenyimiban
+    3+makizin+NI+Con+Pos+VocPl: [omakizinenyimidig, omakizinenyimidog]
+    3+makizin+NI+Dim+Pos+Pret: omakizinensimiban
+    3+makizin+NI+Dim+Pos+VocPl: [omakizinensimidig, omakizinensimidog]
+    X+makizin+NI+Con+Pos+Pret: imakizinenyimiban
+    X+makizin+NI+Con+Pos+VocPl: [imakizinenyimidig, imakizinenyimidog]
+    X+makizin+NI+Dim+Pos+Pret: imakizinensimiban
+    X+makizin+NI+Dim+Pos+VocPl: [imakizinensimidig, imakizinensimidog]
     
     #Values from slots numbered: 1, 2, 3, 7
-    1+makizin+N+Con+Pos+Loc: nimakizinenyiming
-    1+makizin+N+Con+Pos+Obv: nimakizinenyiman
-    1+makizin+N+Con+Pos+Pl: nimakizinenyiman
-    1+makizin+N+Dim+Pos+Loc: nimakizinensiming
-    1+makizin+N+Dim+Pos+Obv: nimakizinensiman
-    1+makizin+N+Dim+Pos+Pl: nimakizinensiman
-    2+makizin+N+Con+Pos+Loc: gimakizinenyiming
-    2+makizin+N+Con+Pos+Obv: gimakizinenyiman
-    2+makizin+N+Con+Pos+Pl: gimakizinenyiman
-    2+makizin+N+Dim+Pos+Loc: gimakizinensiming
-    2+makizin+N+Dim+Pos+Obv: gimakizinensiman
-    2+makizin+N+Dim+Pos+Pl: gimakizinensiman
-    3+makizin+N+Con+Pos+Loc: omakizinenyiming
-    3+makizin+N+Con+Pos+Obv: omakizinenyiman
-    3+makizin+N+Con+Pos+Pl: omakizinenyiman
-    3+makizin+N+Dim+Pos+Loc: omakizinensiming
-    3+makizin+N+Dim+Pos+Obv: omakizinensiman
-    3+makizin+N+Dim+Pos+Pl: omakizinensiman
-    X+makizin+N+Con+Pos+Loc: imakizinenyiming
-    X+makizin+N+Con+Pos+Obv: imakizinenyiman
-    X+makizin+N+Con+Pos+Pl: imakizinenyiman
-    X+makizin+N+Dim+Pos+Loc: imakizinensiming
-    X+makizin+N+Dim+Pos+Obv: imakizinensiman
-    X+makizin+N+Dim+Pos+Pl: imakizinensiman
+    1+makizin+NI+Con+Pos+Loc: nimakizinenyiming
+    1+makizin+NI+Con+Pos+Obv: nimakizinenyiman
+    1+makizin+NI+Con+Pos+Pl: nimakizinenyiman
+    1+makizin+NI+Dim+Pos+Loc: nimakizinensiming
+    1+makizin+NI+Dim+Pos+Obv: nimakizinensiman
+    1+makizin+NI+Dim+Pos+Pl: nimakizinensiman
+    2+makizin+NI+Con+Pos+Loc: gimakizinenyiming
+    2+makizin+NI+Con+Pos+Obv: gimakizinenyiman
+    2+makizin+NI+Con+Pos+Pl: gimakizinenyiman
+    2+makizin+NI+Dim+Pos+Loc: gimakizinensiming
+    2+makizin+NI+Dim+Pos+Obv: gimakizinensiman
+    2+makizin+NI+Dim+Pos+Pl: gimakizinensiman
+    3+makizin+NI+Con+Pos+Loc: omakizinenyiming
+    3+makizin+NI+Con+Pos+Obv: omakizinenyiman
+    3+makizin+NI+Con+Pos+Pl: omakizinenyiman
+    3+makizin+NI+Dim+Pos+Loc: omakizinensiming
+    3+makizin+NI+Dim+Pos+Obv: omakizinensiman
+    3+makizin+NI+Dim+Pos+Pl: omakizinensiman
+    X+makizin+NI+Con+Pos+Loc: imakizinenyiming
+    X+makizin+NI+Con+Pos+Obv: imakizinenyiman
+    X+makizin+NI+Con+Pos+Pl: imakizinenyiman
+    X+makizin+NI+Dim+Pos+Loc: imakizinensiming
+    X+makizin+NI+Dim+Pos+Obv: imakizinensiman
+    X+makizin+NI+Dim+Pos+Pl: imakizinensiman
     
     #Values from slots numbered: 1, 2, 4, 5
-    1+makizin+N+Con+Pej+1Pl: nimakizinenyishinaan
-    1+makizin+N+Dim+Pej+1Pl: nimakizinensishinaan
-    2+makizin+N+Con+Pej+21: gimakizinenyishinaan
-    2+makizin+N+Con+Pej+2Pl: gimakizinenyishiwaa
-    2+makizin+N+Dim+Pej+21: gimakizinensishinaan
-    2+makizin+N+Dim+Pej+2Pl: gimakizinensishiwaa
-    3+makizin+N+Con+Pej+3Obv: omakizinenyishini
-    3+makizin+N+Con+Pej+3Pl: omakizinenyishiwaa
-    3+makizin+N+Dim+Pej+3Obv: omakizinensishini
-    3+makizin+N+Dim+Pej+3Pl: omakizinensishiwaa
+    1+makizin+NI+Con+Pej+1Pl: nimakizinenyishinaan
+    1+makizin+NI+Dim+Pej+1Pl: nimakizinensishinaan
+    2+makizin+NI+Con+Pej+21: gimakizinenyishinaan
+    2+makizin+NI+Con+Pej+2Pl: gimakizinenyishiwaa
+    2+makizin+NI+Dim+Pej+21: gimakizinensishinaan
+    2+makizin+NI+Dim+Pej+2Pl: gimakizinensishiwaa
+    3+makizin+NI+Con+Pej+3Obv: omakizinenyishini
+    3+makizin+NI+Con+Pej+3Pl: omakizinenyishiwaa
+    3+makizin+NI+Dim+Pej+3Obv: omakizinensishini
+    3+makizin+NI+Dim+Pej+3Pl: omakizinensishiwaa
     
     #Values from slots numbered: 1, 2, 4, 6
-    1+makizin+N+Con+Pej+Pret: nimakizinenyishiban
-    1+makizin+N+Con+Pej+VocPl: [nimakizinenyishidig, nimakizinenyishidog]
-    1+makizin+N+Dim+Pej+Pret: nimakizinensishiban
-    1+makizin+N+Dim+Pej+VocPl: [nimakizinensishidig, nimakizinensishidog]
-    2+makizin+N+Con+Pej+Pret: gimakizinenyishiban
-    2+makizin+N+Con+Pej+VocPl: [gimakizinenyishidig, gimakizinenyishidog]
-    2+makizin+N+Dim+Pej+Pret: gimakizinensishiban
-    2+makizin+N+Dim+Pej+VocPl: [gimakizinensishidig, gimakizinensishidog]
-    3+makizin+N+Con+Pej+Pret: omakizinenyishiban
-    3+makizin+N+Con+Pej+VocPl: [omakizinenyishidig, omakizinenyishidog]
-    3+makizin+N+Dim+Pej+Pret: omakizinensishiban
-    3+makizin+N+Dim+Pej+VocPl: [omakizinensishidig, omakizinensishidog]
-    X+makizin+N+Con+Pej+Pret: imakizinenyishiban
-    X+makizin+N+Con+Pej+VocPl: [imakizinenyishidig, imakizinenyishidog]
-    X+makizin+N+Dim+Pej+Pret: imakizinensishiban
-    X+makizin+N+Dim+Pej+VocPl: [imakizinensishidig, imakizinensishidog]
+    1+makizin+NI+Con+Pej+Pret: nimakizinenyishiban
+    1+makizin+NI+Con+Pej+VocPl: [nimakizinenyishidig, nimakizinenyishidog]
+    1+makizin+NI+Dim+Pej+Pret: nimakizinensishiban
+    1+makizin+NI+Dim+Pej+VocPl: [nimakizinensishidig, nimakizinensishidog]
+    2+makizin+NI+Con+Pej+Pret: gimakizinenyishiban
+    2+makizin+NI+Con+Pej+VocPl: [gimakizinenyishidig, gimakizinenyishidog]
+    2+makizin+NI+Dim+Pej+Pret: gimakizinensishiban
+    2+makizin+NI+Dim+Pej+VocPl: [gimakizinensishidig, gimakizinensishidog]
+    3+makizin+NI+Con+Pej+Pret: omakizinenyishiban
+    3+makizin+NI+Con+Pej+VocPl: [omakizinenyishidig, omakizinenyishidog]
+    3+makizin+NI+Dim+Pej+Pret: omakizinensishiban
+    3+makizin+NI+Dim+Pej+VocPl: [omakizinensishidig, omakizinensishidog]
+    X+makizin+NI+Con+Pej+Pret: imakizinenyishiban
+    X+makizin+NI+Con+Pej+VocPl: [imakizinenyishidig, imakizinenyishidog]
+    X+makizin+NI+Dim+Pej+Pret: imakizinensishiban
+    X+makizin+NI+Dim+Pej+VocPl: [imakizinensishidig, imakizinensishidog]
     
     #Values from slots numbered: 1, 2, 4, 7
-    1+makizin+N+Con+Pej+Loc: nimakizinenyishing
-    1+makizin+N+Con+Pej+Obv: nimakizinenyishan
-    1+makizin+N+Con+Pej+Pl: nimakizinenyishan
-    1+makizin+N+Dim+Pej+Loc: nimakizinensishing
-    1+makizin+N+Dim+Pej+Obv: nimakizinensishan
-    1+makizin+N+Dim+Pej+Pl: nimakizinensishan
-    2+makizin+N+Con+Pej+Loc: gimakizinenyishing
-    2+makizin+N+Con+Pej+Obv: gimakizinenyishan
-    2+makizin+N+Con+Pej+Pl: gimakizinenyishan
-    2+makizin+N+Dim+Pej+Loc: gimakizinensishing
-    2+makizin+N+Dim+Pej+Obv: gimakizinensishan
-    2+makizin+N+Dim+Pej+Pl: gimakizinensishan
-    3+makizin+N+Con+Pej+Loc: omakizinenyishing
-    3+makizin+N+Con+Pej+Obv: omakizinenyishan
-    3+makizin+N+Con+Pej+Pl: omakizinenyishan
-    3+makizin+N+Dim+Pej+Loc: omakizinensishing
-    3+makizin+N+Dim+Pej+Obv: omakizinensishan
-    3+makizin+N+Dim+Pej+Pl: omakizinensishan
-    X+makizin+N+Con+Pej+Loc: imakizinenyishing
-    X+makizin+N+Con+Pej+Obv: imakizinenyishan
-    X+makizin+N+Con+Pej+Pl: imakizinenyishan
-    X+makizin+N+Dim+Pej+Loc: imakizinensishing
-    X+makizin+N+Dim+Pej+Obv: imakizinensishan
-    X+makizin+N+Dim+Pej+Pl: imakizinensishan
+    1+makizin+NI+Con+Pej+Loc: nimakizinenyishing
+    1+makizin+NI+Con+Pej+Obv: nimakizinenyishan
+    1+makizin+NI+Con+Pej+Pl: nimakizinenyishan
+    1+makizin+NI+Dim+Pej+Loc: nimakizinensishing
+    1+makizin+NI+Dim+Pej+Obv: nimakizinensishan
+    1+makizin+NI+Dim+Pej+Pl: nimakizinensishan
+    2+makizin+NI+Con+Pej+Loc: gimakizinenyishing
+    2+makizin+NI+Con+Pej+Obv: gimakizinenyishan
+    2+makizin+NI+Con+Pej+Pl: gimakizinenyishan
+    2+makizin+NI+Dim+Pej+Loc: gimakizinensishing
+    2+makizin+NI+Dim+Pej+Obv: gimakizinensishan
+    2+makizin+NI+Dim+Pej+Pl: gimakizinensishan
+    3+makizin+NI+Con+Pej+Loc: omakizinenyishing
+    3+makizin+NI+Con+Pej+Obv: omakizinenyishan
+    3+makizin+NI+Con+Pej+Pl: omakizinenyishan
+    3+makizin+NI+Dim+Pej+Loc: omakizinensishing
+    3+makizin+NI+Dim+Pej+Obv: omakizinensishan
+    3+makizin+NI+Dim+Pej+Pl: omakizinensishan
+    X+makizin+NI+Con+Pej+Loc: imakizinenyishing
+    X+makizin+NI+Con+Pej+Obv: imakizinenyishan
+    X+makizin+NI+Con+Pej+Pl: imakizinenyishan
+    X+makizin+NI+Dim+Pej+Loc: imakizinensishing
+    X+makizin+NI+Dim+Pej+Obv: imakizinensishan
+    X+makizin+NI+Dim+Pej+Pl: imakizinensishan
     
     #Values from slots numbered: 1, 2, 5, 6
-    1+makizin+N+Con+1Pl+Pret: nimakizinenyinaaniban
-    1+makizin+N+Con+1Pl+VocPl: [nimakizinenyinaanidig, nimakizinenyinaanidog]
-    1+makizin+N+Dim+1Pl+Pret: nimakizinensinaaniban
-    1+makizin+N+Dim+1Pl+VocPl: [nimakizinensinaanidig, nimakizinensinaanidog]
-    2+makizin+N+Con+21+Pret: gimakizinenyinaaniban
-    2+makizin+N+Con+21+VocPl: [gimakizinenyinaanidig, gimakizinenyinaanidog]
-    2+makizin+N+Con+2Pl+Pret: gimakizinenyiwaaban
-    2+makizin+N+Con+2Pl+VocPl: [gimakizinenyiwaadig, gimakizinenyiwaadog]
-    2+makizin+N+Dim+21+Pret: gimakizinensinaaniban
-    2+makizin+N+Dim+21+VocPl: [gimakizinensinaanidig, gimakizinensinaanidog]
-    2+makizin+N+Dim+2Pl+Pret: gimakizinensiwaaban
-    2+makizin+N+Dim+2Pl+VocPl: [gimakizinensiwaadig, gimakizinensiwaadog]
-    3+makizin+N+Con+3Obv+Pret: omakizinenyiniiban
-    3+makizin+N+Con+3Obv+VocPl: [omakizinenyiniidig, omakizinenyiniidog]
-    3+makizin+N+Con+3Pl+Pret: omakizinenyiwaaban
-    3+makizin+N+Con+3Pl+VocPl: [omakizinenyiwaadig, omakizinenyiwaadog]
-    3+makizin+N+Dim+3Obv+Pret: omakizinensiniiban
-    3+makizin+N+Dim+3Obv+VocPl: [omakizinensiniidig, omakizinensiniidog]
-    3+makizin+N+Dim+3Pl+Pret: omakizinensiwaaban
-    3+makizin+N+Dim+3Pl+VocPl: [omakizinensiwaadig, omakizinensiwaadog]
+    1+makizin+NI+Con+1Pl+Pret: nimakizinenyinaaniban
+    1+makizin+NI+Con+1Pl+VocPl: [nimakizinenyinaanidig, nimakizinenyinaanidog]
+    1+makizin+NI+Dim+1Pl+Pret: nimakizinensinaaniban
+    1+makizin+NI+Dim+1Pl+VocPl: [nimakizinensinaanidig, nimakizinensinaanidog]
+    2+makizin+NI+Con+21+Pret: gimakizinenyinaaniban
+    2+makizin+NI+Con+21+VocPl: [gimakizinenyinaanidig, gimakizinenyinaanidog]
+    2+makizin+NI+Con+2Pl+Pret: gimakizinenyiwaaban
+    2+makizin+NI+Con+2Pl+VocPl: [gimakizinenyiwaadig, gimakizinenyiwaadog]
+    2+makizin+NI+Dim+21+Pret: gimakizinensinaaniban
+    2+makizin+NI+Dim+21+VocPl: [gimakizinensinaanidig, gimakizinensinaanidog]
+    2+makizin+NI+Dim+2Pl+Pret: gimakizinensiwaaban
+    2+makizin+NI+Dim+2Pl+VocPl: [gimakizinensiwaadig, gimakizinensiwaadog]
+    3+makizin+NI+Con+3Obv+Pret: omakizinenyiniiban
+    3+makizin+NI+Con+3Obv+VocPl: [omakizinenyiniidig, omakizinenyiniidog]
+    3+makizin+NI+Con+3Pl+Pret: omakizinenyiwaaban
+    3+makizin+NI+Con+3Pl+VocPl: [omakizinenyiwaadig, omakizinenyiwaadog]
+    3+makizin+NI+Dim+3Obv+Pret: omakizinensiniiban
+    3+makizin+NI+Dim+3Obv+VocPl: [omakizinensiniidig, omakizinensiniidog]
+    3+makizin+NI+Dim+3Pl+Pret: omakizinensiwaaban
+    3+makizin+NI+Dim+3Pl+VocPl: [omakizinensiwaadig, omakizinensiwaadog]
     
     #Values from slots numbered: 1, 2, 5, 7
-    1+makizin+N+Con+1Pl+Loc: nimakizinenyinaaning
-    1+makizin+N+Con+1Pl+Obv: nimakizinenyinaanin
-    1+makizin+N+Con+1Pl+Pl: nimakizinenyinaanin
-    1+makizin+N+Dim+1Pl+Loc: nimakizinensinaaning
-    1+makizin+N+Dim+1Pl+Obv: nimakizinensinaanin
-    1+makizin+N+Dim+1Pl+Pl: nimakizinensinaanin
-    2+makizin+N+Con+21+Loc: gimakizinenyinaaning
-    2+makizin+N+Con+21+Obv: gimakizinenyinaanin
-    2+makizin+N+Con+21+Pl: gimakizinenyinaanin
-    2+makizin+N+Con+2Pl+Loc: gimakizinenyiwaang
-    2+makizin+N+Con+2Pl+Obv: gimakizinenyiwaan
-    2+makizin+N+Con+2Pl+Pl: gimakizinenyiwaan
-    2+makizin+N+Dim+21+Loc: gimakizinensinaaning
-    2+makizin+N+Dim+21+Obv: gimakizinensinaanin
-    2+makizin+N+Dim+21+Pl: gimakizinensinaanin
-    2+makizin+N+Dim+2Pl+Loc: gimakizinensiwaang
-    2+makizin+N+Dim+2Pl+Obv: gimakizinensiwaan
-    2+makizin+N+Dim+2Pl+Pl: gimakizinensiwaan
-    3+makizin+N+Con+3Obv+Loc: omakizinenyiniing
-    3+makizin+N+Con+3Obv+Obv: omakizinenyiniin
-    3+makizin+N+Con+3Obv+Pl: omakizinenyiniin
-    3+makizin+N+Con+3Pl+Loc: omakizinenyiwaang
-    3+makizin+N+Con+3Pl+Obv: omakizinenyiwaan
-    3+makizin+N+Con+3Pl+Pl: omakizinenyiwaan
-    3+makizin+N+Dim+3Obv+Loc: omakizinensiniing
-    3+makizin+N+Dim+3Obv+Obv: omakizinensiniin
-    3+makizin+N+Dim+3Obv+Pl: omakizinensiniin
-    3+makizin+N+Dim+3Pl+Loc: omakizinensiwaang
-    3+makizin+N+Dim+3Pl+Obv: omakizinensiwaan
-    3+makizin+N+Dim+3Pl+Pl: omakizinensiwaan
+    1+makizin+NI+Con+1Pl+Loc: nimakizinenyinaaning
+    1+makizin+NI+Con+1Pl+Obv: nimakizinenyinaanin
+    1+makizin+NI+Con+1Pl+Pl: nimakizinenyinaanin
+    1+makizin+NI+Dim+1Pl+Loc: nimakizinensinaaning
+    1+makizin+NI+Dim+1Pl+Obv: nimakizinensinaanin
+    1+makizin+NI+Dim+1Pl+Pl: nimakizinensinaanin
+    2+makizin+NI+Con+21+Loc: gimakizinenyinaaning
+    2+makizin+NI+Con+21+Obv: gimakizinenyinaanin
+    2+makizin+NI+Con+21+Pl: gimakizinenyinaanin
+    2+makizin+NI+Con+2Pl+Loc: gimakizinenyiwaang
+    2+makizin+NI+Con+2Pl+Obv: gimakizinenyiwaan
+    2+makizin+NI+Con+2Pl+Pl: gimakizinenyiwaan
+    2+makizin+NI+Dim+21+Loc: gimakizinensinaaning
+    2+makizin+NI+Dim+21+Obv: gimakizinensinaanin
+    2+makizin+NI+Dim+21+Pl: gimakizinensinaanin
+    2+makizin+NI+Dim+2Pl+Loc: gimakizinensiwaang
+    2+makizin+NI+Dim+2Pl+Obv: gimakizinensiwaan
+    2+makizin+NI+Dim+2Pl+Pl: gimakizinensiwaan
+    3+makizin+NI+Con+3Obv+Loc: omakizinenyiniing
+    3+makizin+NI+Con+3Obv+Obv: omakizinenyiniin
+    3+makizin+NI+Con+3Obv+Pl: omakizinenyiniin
+    3+makizin+NI+Con+3Pl+Loc: omakizinenyiwaang
+    3+makizin+NI+Con+3Pl+Obv: omakizinenyiwaan
+    3+makizin+NI+Con+3Pl+Pl: omakizinenyiwaan
+    3+makizin+NI+Dim+3Obv+Loc: omakizinensiniing
+    3+makizin+NI+Dim+3Obv+Obv: omakizinensiniin
+    3+makizin+NI+Dim+3Obv+Pl: omakizinensiniin
+    3+makizin+NI+Dim+3Pl+Loc: omakizinensiwaang
+    3+makizin+NI+Dim+3Pl+Obv: omakizinensiwaan
+    3+makizin+NI+Dim+3Pl+Pl: omakizinensiwaan
     
     #Values from slots numbered: 1, 2, 6, 7
-    1+makizin+N+Con+Pret+Loc: nimakizinenyibaniing
-    1+makizin+N+Con+Pret+Obv: nimakizinenyibaniin
-    1+makizin+N+Con+Pret+Pl: nimakizinenyibaniin
-    1+makizin+N+Dim+Pret+Loc: nimakizinensibaniing
-    1+makizin+N+Dim+Pret+Obv: nimakizinensibaniin
-    1+makizin+N+Dim+Pret+Pl: nimakizinensibaniin
-    2+makizin+N+Con+Pret+Loc: gimakizinenyibaniing
-    2+makizin+N+Con+Pret+Obv: gimakizinenyibaniin
-    2+makizin+N+Con+Pret+Pl: gimakizinenyibaniin
-    2+makizin+N+Dim+Pret+Loc: gimakizinensibaniing
-    2+makizin+N+Dim+Pret+Obv: gimakizinensibaniin
-    2+makizin+N+Dim+Pret+Pl: gimakizinensibaniin
-    3+makizin+N+Con+Pret+Loc: omakizinenyibaniing
-    3+makizin+N+Con+Pret+Obv: omakizinenyibaniin
-    3+makizin+N+Con+Pret+Pl: omakizinenyibaniin
-    3+makizin+N+Dim+Pret+Loc: omakizinensibaniing
-    3+makizin+N+Dim+Pret+Obv: omakizinensibaniin
-    3+makizin+N+Dim+Pret+Pl: omakizinensibaniin
-    X+makizin+N+Con+Pret+Loc: imakizinenyibaniing
-    X+makizin+N+Con+Pret+Obv: imakizinenyibaniin
-    X+makizin+N+Con+Pret+Pl: imakizinenyibaniin
-    X+makizin+N+Dim+Pret+Loc: imakizinensibaniing
-    X+makizin+N+Dim+Pret+Obv: imakizinensibaniin
-    X+makizin+N+Dim+Pret+Pl: imakizinensibaniin
+    1+makizin+NI+Con+Pret+Loc: nimakizinenyibaniing
+    1+makizin+NI+Con+Pret+Obv: nimakizinenyibaniin
+    1+makizin+NI+Con+Pret+Pl: nimakizinenyibaniin
+    1+makizin+NI+Dim+Pret+Loc: nimakizinensibaniing
+    1+makizin+NI+Dim+Pret+Obv: nimakizinensibaniin
+    1+makizin+NI+Dim+Pret+Pl: nimakizinensibaniin
+    2+makizin+NI+Con+Pret+Loc: gimakizinenyibaniing
+    2+makizin+NI+Con+Pret+Obv: gimakizinenyibaniin
+    2+makizin+NI+Con+Pret+Pl: gimakizinenyibaniin
+    2+makizin+NI+Dim+Pret+Loc: gimakizinensibaniing
+    2+makizin+NI+Dim+Pret+Obv: gimakizinensibaniin
+    2+makizin+NI+Dim+Pret+Pl: gimakizinensibaniin
+    3+makizin+NI+Con+Pret+Loc: omakizinenyibaniing
+    3+makizin+NI+Con+Pret+Obv: omakizinenyibaniin
+    3+makizin+NI+Con+Pret+Pl: omakizinenyibaniin
+    3+makizin+NI+Dim+Pret+Loc: omakizinensibaniing
+    3+makizin+NI+Dim+Pret+Obv: omakizinensibaniin
+    3+makizin+NI+Dim+Pret+Pl: omakizinensibaniin
+    X+makizin+NI+Con+Pret+Loc: imakizinenyibaniing
+    X+makizin+NI+Con+Pret+Obv: imakizinenyibaniin
+    X+makizin+NI+Con+Pret+Pl: imakizinenyibaniin
+    X+makizin+NI+Dim+Pret+Loc: imakizinensibaniing
+    X+makizin+NI+Dim+Pret+Obv: imakizinensibaniin
+    X+makizin+NI+Dim+Pret+Pl: imakizinensibaniin
     
     #Values from slots numbered: 1, 3, 4, 5
-    1+makizin+N+Pos+Pej+1Pl: nimakizinimishinaan
-    2+makizin+N+Pos+Pej+21: gimakizinimishinaan
-    2+makizin+N+Pos+Pej+2Pl: gimakizinimishiwaa
-    3+makizin+N+Pos+Pej+3Obv: omakizinimishini
-    3+makizin+N+Pos+Pej+3Pl: omakizinimishiwaa
+    1+makizin+NI+Pos+Pej+1Pl: nimakizinimishinaan
+    2+makizin+NI+Pos+Pej+21: gimakizinimishinaan
+    2+makizin+NI+Pos+Pej+2Pl: gimakizinimishiwaa
+    3+makizin+NI+Pos+Pej+3Obv: omakizinimishini
+    3+makizin+NI+Pos+Pej+3Pl: omakizinimishiwaa
     
     #Values from slots numbered: 1, 3, 4, 6
-    1+makizin+N+Pos+Pej+Pret: nimakizinimishiban
-    1+makizin+N+Pos+Pej+VocPl: [nimakizinimishidig, nimakizinimishidog]
-    2+makizin+N+Pos+Pej+Pret: gimakizinimishiban
-    2+makizin+N+Pos+Pej+VocPl: [gimakizinimishidig, gimakizinimishidog]
-    3+makizin+N+Pos+Pej+Pret: omakizinimishiban
-    3+makizin+N+Pos+Pej+VocPl: [omakizinimishidig, omakizinimishidog]
-    X+makizin+N+Pos+Pej+Pret: imakizinimishiban
-    X+makizin+N+Pos+Pej+VocPl: [imakizinimishidig, imakizinimishidog]
+    1+makizin+NI+Pos+Pej+Pret: nimakizinimishiban
+    1+makizin+NI+Pos+Pej+VocPl: [nimakizinimishidig, nimakizinimishidog]
+    2+makizin+NI+Pos+Pej+Pret: gimakizinimishiban
+    2+makizin+NI+Pos+Pej+VocPl: [gimakizinimishidig, gimakizinimishidog]
+    3+makizin+NI+Pos+Pej+Pret: omakizinimishiban
+    3+makizin+NI+Pos+Pej+VocPl: [omakizinimishidig, omakizinimishidog]
+    X+makizin+NI+Pos+Pej+Pret: imakizinimishiban
+    X+makizin+NI+Pos+Pej+VocPl: [imakizinimishidig, imakizinimishidog]
     
     #Values from slots numbered: 1, 3, 4, 7
-    1+makizin+N+Pos+Pej+Loc: nimakizinimishing
-    1+makizin+N+Pos+Pej+Obv: nimakizinimishan
-    1+makizin+N+Pos+Pej+Pl: nimakizinimishan
-    2+makizin+N+Pos+Pej+Loc: gimakizinimishing
-    2+makizin+N+Pos+Pej+Obv: gimakizinimishan
-    2+makizin+N+Pos+Pej+Pl: gimakizinimishan
-    3+makizin+N+Pos+Pej+Loc: omakizinimishing
-    3+makizin+N+Pos+Pej+Obv: omakizinimishan
-    3+makizin+N+Pos+Pej+Pl: omakizinimishan
-    X+makizin+N+Pos+Pej+Loc: imakizinimishing
-    X+makizin+N+Pos+Pej+Obv: imakizinimishan
-    X+makizin+N+Pos+Pej+Pl: imakizinimishan
+    1+makizin+NI+Pos+Pej+Loc: nimakizinimishing
+    1+makizin+NI+Pos+Pej+Obv: nimakizinimishan
+    1+makizin+NI+Pos+Pej+Pl: nimakizinimishan
+    2+makizin+NI+Pos+Pej+Loc: gimakizinimishing
+    2+makizin+NI+Pos+Pej+Obv: gimakizinimishan
+    2+makizin+NI+Pos+Pej+Pl: gimakizinimishan
+    3+makizin+NI+Pos+Pej+Loc: omakizinimishing
+    3+makizin+NI+Pos+Pej+Obv: omakizinimishan
+    3+makizin+NI+Pos+Pej+Pl: omakizinimishan
+    X+makizin+NI+Pos+Pej+Loc: imakizinimishing
+    X+makizin+NI+Pos+Pej+Obv: imakizinimishan
+    X+makizin+NI+Pos+Pej+Pl: imakizinimishan
     
     #Values from slots numbered: 1, 3, 5, 6
-    1+makizin+N+Pos+1Pl+Pret: nimakiziniminaaniban
-    1+makizin+N+Pos+1Pl+VocPl: [nimakiziniminaanidig, nimakiziniminaanidog]
-    2+makizin+N+Pos+21+Pret: gimakiziniminaaniban
-    2+makizin+N+Pos+21+VocPl: [gimakiziniminaanidig, gimakiziniminaanidog]
-    2+makizin+N+Pos+2Pl+Pret: gimakizinimiwaaban
-    2+makizin+N+Pos+2Pl+VocPl: [gimakizinimiwaadig, gimakizinimiwaadog]
-    3+makizin+N+Pos+3Obv+Pret: omakiziniminiiban
-    3+makizin+N+Pos+3Obv+VocPl: [omakiziniminiidig, omakiziniminiidog]
-    3+makizin+N+Pos+3Pl+Pret: omakizinimiwaaban
-    3+makizin+N+Pos+3Pl+VocPl: [omakizinimiwaadig, omakizinimiwaadog]
+    1+makizin+NI+Pos+1Pl+Pret: nimakiziniminaaniban
+    1+makizin+NI+Pos+1Pl+VocPl: [nimakiziniminaanidig, nimakiziniminaanidog]
+    2+makizin+NI+Pos+21+Pret: gimakiziniminaaniban
+    2+makizin+NI+Pos+21+VocPl: [gimakiziniminaanidig, gimakiziniminaanidog]
+    2+makizin+NI+Pos+2Pl+Pret: gimakizinimiwaaban
+    2+makizin+NI+Pos+2Pl+VocPl: [gimakizinimiwaadig, gimakizinimiwaadog]
+    3+makizin+NI+Pos+3Obv+Pret: omakiziniminiiban
+    3+makizin+NI+Pos+3Obv+VocPl: [omakiziniminiidig, omakiziniminiidog]
+    3+makizin+NI+Pos+3Pl+Pret: omakizinimiwaaban
+    3+makizin+NI+Pos+3Pl+VocPl: [omakizinimiwaadig, omakizinimiwaadog]
     
     #Values from slots numbered: 1, 3, 5, 7
-    1+makizin+N+Pos+1Pl+Loc: nimakiziniminaaning
-    1+makizin+N+Pos+1Pl+Obv: nimakiziniminaanin
-    1+makizin+N+Pos+1Pl+Pl: nimakiziniminaanin
-    2+makizin+N+Pos+21+Loc: gimakiziniminaaning
-    2+makizin+N+Pos+21+Obv: gimakiziniminaanin
-    2+makizin+N+Pos+21+Pl: gimakiziniminaanin
-    2+makizin+N+Pos+2Pl+Loc: gimakizinimiwaang
-    2+makizin+N+Pos+2Pl+Obv: gimakizinimiwaan
-    2+makizin+N+Pos+2Pl+Pl: gimakizinimiwaan
-    3+makizin+N+Pos+3Obv+Loc: omakiziniminiing
-    3+makizin+N+Pos+3Obv+Obv: omakiziniminiin
-    3+makizin+N+Pos+3Obv+Pl: omakiziniminiin
-    3+makizin+N+Pos+3Pl+Loc: omakizinimiwaang
-    3+makizin+N+Pos+3Pl+Obv: omakizinimiwaan
-    3+makizin+N+Pos+3Pl+Pl: omakizinimiwaan
+    1+makizin+NI+Pos+1Pl+Loc: nimakiziniminaaning
+    1+makizin+NI+Pos+1Pl+Obv: nimakiziniminaanin
+    1+makizin+NI+Pos+1Pl+Pl: nimakiziniminaanin
+    2+makizin+NI+Pos+21+Loc: gimakiziniminaaning
+    2+makizin+NI+Pos+21+Obv: gimakiziniminaanin
+    2+makizin+NI+Pos+21+Pl: gimakiziniminaanin
+    2+makizin+NI+Pos+2Pl+Loc: gimakizinimiwaang
+    2+makizin+NI+Pos+2Pl+Obv: gimakizinimiwaan
+    2+makizin+NI+Pos+2Pl+Pl: gimakizinimiwaan
+    3+makizin+NI+Pos+3Obv+Loc: omakiziniminiing
+    3+makizin+NI+Pos+3Obv+Obv: omakiziniminiin
+    3+makizin+NI+Pos+3Obv+Pl: omakiziniminiin
+    3+makizin+NI+Pos+3Pl+Loc: omakizinimiwaang
+    3+makizin+NI+Pos+3Pl+Obv: omakizinimiwaan
+    3+makizin+NI+Pos+3Pl+Pl: omakizinimiwaan
     
     #Values from slots numbered: 1, 3, 6, 7
-    1+makizin+N+Pos+Pret+Loc: nimakizinimibaniing
-    1+makizin+N+Pos+Pret+Obv: nimakizinimibaniin
-    1+makizin+N+Pos+Pret+Pl: nimakizinimibaniin
-    2+makizin+N+Pos+Pret+Loc: gimakizinimibaniing
-    2+makizin+N+Pos+Pret+Obv: gimakizinimibaniin
-    2+makizin+N+Pos+Pret+Pl: gimakizinimibaniin
-    3+makizin+N+Pos+Pret+Loc: omakizinimibaniing
-    3+makizin+N+Pos+Pret+Obv: omakizinimibaniin
-    3+makizin+N+Pos+Pret+Pl: omakizinimibaniin
-    X+makizin+N+Pos+Pret+Loc: imakizinimibaniing
-    X+makizin+N+Pos+Pret+Obv: imakizinimibaniin
-    X+makizin+N+Pos+Pret+Pl: imakizinimibaniin
+    1+makizin+NI+Pos+Pret+Loc: nimakizinimibaniing
+    1+makizin+NI+Pos+Pret+Obv: nimakizinimibaniin
+    1+makizin+NI+Pos+Pret+Pl: nimakizinimibaniin
+    2+makizin+NI+Pos+Pret+Loc: gimakizinimibaniing
+    2+makizin+NI+Pos+Pret+Obv: gimakizinimibaniin
+    2+makizin+NI+Pos+Pret+Pl: gimakizinimibaniin
+    3+makizin+NI+Pos+Pret+Loc: omakizinimibaniing
+    3+makizin+NI+Pos+Pret+Obv: omakizinimibaniin
+    3+makizin+NI+Pos+Pret+Pl: omakizinimibaniin
+    X+makizin+NI+Pos+Pret+Loc: imakizinimibaniing
+    X+makizin+NI+Pos+Pret+Obv: imakizinimibaniin
+    X+makizin+NI+Pos+Pret+Pl: imakizinimibaniin
     
     #Values from slots numbered: 1, 4, 5, 6
-    1+makizin+N+Pej+1Pl+Pret: nimakizinishinaaniban
-    1+makizin+N+Pej+1Pl+VocPl: [nimakizinishinaanidig, nimakizinishinaanidog]
-    2+makizin+N+Pej+21+Pret: gimakizinishinaaniban
-    2+makizin+N+Pej+21+VocPl: [gimakizinishinaanidig, gimakizinishinaanidog]
-    2+makizin+N+Pej+2Pl+Pret: gimakizinishiwaaban
-    2+makizin+N+Pej+2Pl+VocPl: [gimakizinishiwaadig, gimakizinishiwaadog]
-    3+makizin+N+Pej+3Obv+Pret: omakizinishiniiban
-    3+makizin+N+Pej+3Obv+VocPl: [omakizinishiniidig, omakizinishiniidog]
-    3+makizin+N+Pej+3Pl+Pret: omakizinishiwaaban
-    3+makizin+N+Pej+3Pl+VocPl: [omakizinishiwaadig, omakizinishiwaadog]
+    1+makizin+NI+Pej+1Pl+Pret: nimakizinishinaaniban
+    1+makizin+NI+Pej+1Pl+VocPl: [nimakizinishinaanidig, nimakizinishinaanidog]
+    2+makizin+NI+Pej+21+Pret: gimakizinishinaaniban
+    2+makizin+NI+Pej+21+VocPl: [gimakizinishinaanidig, gimakizinishinaanidog]
+    2+makizin+NI+Pej+2Pl+Pret: gimakizinishiwaaban
+    2+makizin+NI+Pej+2Pl+VocPl: [gimakizinishiwaadig, gimakizinishiwaadog]
+    3+makizin+NI+Pej+3Obv+Pret: omakizinishiniiban
+    3+makizin+NI+Pej+3Obv+VocPl: [omakizinishiniidig, omakizinishiniidog]
+    3+makizin+NI+Pej+3Pl+Pret: omakizinishiwaaban
+    3+makizin+NI+Pej+3Pl+VocPl: [omakizinishiwaadig, omakizinishiwaadog]
     
     #Values from slots numbered: 1, 4, 5, 7
-    1+makizin+N+Pej+1Pl+Loc: nimakizinishinaaning
-    1+makizin+N+Pej+1Pl+Obv: nimakizinishinaanin
-    1+makizin+N+Pej+1Pl+Pl: nimakizinishinaanin
-    2+makizin+N+Pej+21+Loc: gimakizinishinaaning
-    2+makizin+N+Pej+21+Obv: gimakizinishinaanin
-    2+makizin+N+Pej+21+Pl: gimakizinishinaanin
-    2+makizin+N+Pej+2Pl+Loc: gimakizinishiwaang
-    2+makizin+N+Pej+2Pl+Obv: gimakizinishiwaan
-    2+makizin+N+Pej+2Pl+Pl: gimakizinishiwaan
-    3+makizin+N+Pej+3Obv+Loc: omakizinishiniing
-    3+makizin+N+Pej+3Obv+Obv: omakizinishiniin
-    3+makizin+N+Pej+3Obv+Pl: omakizinishiniin
-    3+makizin+N+Pej+3Pl+Loc: omakizinishiwaang
-    3+makizin+N+Pej+3Pl+Obv: omakizinishiwaan
-    3+makizin+N+Pej+3Pl+Pl: omakizinishiwaan
+    1+makizin+NI+Pej+1Pl+Loc: nimakizinishinaaning
+    1+makizin+NI+Pej+1Pl+Obv: nimakizinishinaanin
+    1+makizin+NI+Pej+1Pl+Pl: nimakizinishinaanin
+    2+makizin+NI+Pej+21+Loc: gimakizinishinaaning
+    2+makizin+NI+Pej+21+Obv: gimakizinishinaanin
+    2+makizin+NI+Pej+21+Pl: gimakizinishinaanin
+    2+makizin+NI+Pej+2Pl+Loc: gimakizinishiwaang
+    2+makizin+NI+Pej+2Pl+Obv: gimakizinishiwaan
+    2+makizin+NI+Pej+2Pl+Pl: gimakizinishiwaan
+    3+makizin+NI+Pej+3Obv+Loc: omakizinishiniing
+    3+makizin+NI+Pej+3Obv+Obv: omakizinishiniin
+    3+makizin+NI+Pej+3Obv+Pl: omakizinishiniin
+    3+makizin+NI+Pej+3Pl+Loc: omakizinishiwaang
+    3+makizin+NI+Pej+3Pl+Obv: omakizinishiwaan
+    3+makizin+NI+Pej+3Pl+Pl: omakizinishiwaan
     
     #Values from slots numbered: 1, 4, 6, 7
-    1+makizin+N+Pej+Pret+Loc: nimakizinishibaniing
-    1+makizin+N+Pej+Pret+Obv: nimakizinishibaniin
-    1+makizin+N+Pej+Pret+Pl: nimakizinishibaniin
-    2+makizin+N+Pej+Pret+Loc: gimakizinishibaniing
-    2+makizin+N+Pej+Pret+Obv: gimakizinishibaniin
-    2+makizin+N+Pej+Pret+Pl: gimakizinishibaniin
-    3+makizin+N+Pej+Pret+Loc: omakizinishibaniing
-    3+makizin+N+Pej+Pret+Obv: omakizinishibaniin
-    3+makizin+N+Pej+Pret+Pl: omakizinishibaniin
-    X+makizin+N+Pej+Pret+Loc: imakizinishibaniing
-    X+makizin+N+Pej+Pret+Obv: imakizinishibaniin
-    X+makizin+N+Pej+Pret+Pl: imakizinishibaniin
+    1+makizin+NI+Pej+Pret+Loc: nimakizinishibaniing
+    1+makizin+NI+Pej+Pret+Obv: nimakizinishibaniin
+    1+makizin+NI+Pej+Pret+Pl: nimakizinishibaniin
+    2+makizin+NI+Pej+Pret+Loc: gimakizinishibaniing
+    2+makizin+NI+Pej+Pret+Obv: gimakizinishibaniin
+    2+makizin+NI+Pej+Pret+Pl: gimakizinishibaniin
+    3+makizin+NI+Pej+Pret+Loc: omakizinishibaniing
+    3+makizin+NI+Pej+Pret+Obv: omakizinishibaniin
+    3+makizin+NI+Pej+Pret+Pl: omakizinishibaniin
+    X+makizin+NI+Pej+Pret+Loc: imakizinishibaniing
+    X+makizin+NI+Pej+Pret+Obv: imakizinishibaniin
+    X+makizin+NI+Pej+Pret+Pl: imakizinishibaniin
     
     #Values from slots numbered: 1, 5, 6, 7
-    1+makizin+N+1Pl+Pret+Loc: nimakizininaanibaniing
-    1+makizin+N+1Pl+Pret+Obv: nimakizininaanibaniin
-    1+makizin+N+1Pl+Pret+Pl: nimakizininaanibaniin
-    1+makizin+N+1Pl+VocPl+Loc: [nimakizininaanidig, nimakizininaanidog]
-    1+makizin+N+1Pl+VocPl+Obv: [nimakizininaanidig, nimakizininaanidog]
-    1+makizin+N+1Pl+VocPl+Pl: [nimakizininaanidig, nimakizininaanidog]
-    2+makizin+N+21+Pret+Loc: gimakizininaanibaniing
-    2+makizin+N+21+Pret+Obv: gimakizininaanibaniin
-    2+makizin+N+21+Pret+Pl: gimakizininaanibaniin
-    2+makizin+N+21+VocPl+Loc: [gimakizininaanidig, gimakizininaanidog]
-    2+makizin+N+21+VocPl+Obv: [gimakizininaanidig, gimakizininaanidog]
-    2+makizin+N+21+VocPl+Pl: [gimakizininaanidig, gimakizininaanidog]
-    2+makizin+N+2Pl+Pret+Loc: gimakiziniwaabaniing
-    2+makizin+N+2Pl+Pret+Obv: gimakiziniwaabaniin
-    2+makizin+N+2Pl+Pret+Pl: gimakiziniwaabaniin
-    2+makizin+N+2Pl+VocPl+Loc: [gimakiziniwaadig, gimakiziniwaadog]
-    2+makizin+N+2Pl+VocPl+Obv: [gimakiziniwaadig, gimakiziniwaadog]
-    2+makizin+N+2Pl+VocPl+Pl: [gimakiziniwaadig, gimakiziniwaadog]
-    3+makizin+N+3Obv+Pret+Loc: omakizininiibaniing
-    3+makizin+N+3Obv+Pret+Obv: omakizininiibaniin
-    3+makizin+N+3Obv+Pret+Pl: omakizininiibaniin
-    3+makizin+N+3Obv+VocPl+Loc: [omakizininiidig, omakizininiidog]
-    3+makizin+N+3Obv+VocPl+Obv: [omakizininiidig, omakizininiidog]
-    3+makizin+N+3Obv+VocPl+Pl: [omakizininiidig, omakizininiidog]
-    3+makizin+N+3Pl+Pret+Loc: omakiziniwaabaniing
-    3+makizin+N+3Pl+Pret+Obv: omakiziniwaabaniin
-    3+makizin+N+3Pl+Pret+Pl: omakiziniwaabaniin
-    3+makizin+N+3Pl+VocPl+Loc: [omakiziniwaadig, omakiziniwaadog]
-    3+makizin+N+3Pl+VocPl+Obv: [omakiziniwaadig, omakiziniwaadog]
-    3+makizin+N+3Pl+VocPl+Pl: [omakiziniwaadig, omakiziniwaadog]
+    1+makizin+NI+1Pl+Pret+Loc: nimakizininaanibaniing
+    1+makizin+NI+1Pl+Pret+Obv: nimakizininaanibaniin
+    1+makizin+NI+1Pl+Pret+Pl: nimakizininaanibaniin
+    1+makizin+NI+1Pl+VocPl+Loc: [nimakizininaanidig, nimakizininaanidog]
+    1+makizin+NI+1Pl+VocPl+Obv: [nimakizininaanidig, nimakizininaanidog]
+    1+makizin+NI+1Pl+VocPl+Pl: [nimakizininaanidig, nimakizininaanidog]
+    2+makizin+NI+21+Pret+Loc: gimakizininaanibaniing
+    2+makizin+NI+21+Pret+Obv: gimakizininaanibaniin
+    2+makizin+NI+21+Pret+Pl: gimakizininaanibaniin
+    2+makizin+NI+21+VocPl+Loc: [gimakizininaanidig, gimakizininaanidog]
+    2+makizin+NI+21+VocPl+Obv: [gimakizininaanidig, gimakizininaanidog]
+    2+makizin+NI+21+VocPl+Pl: [gimakizininaanidig, gimakizininaanidog]
+    2+makizin+NI+2Pl+Pret+Loc: gimakiziniwaabaniing
+    2+makizin+NI+2Pl+Pret+Obv: gimakiziniwaabaniin
+    2+makizin+NI+2Pl+Pret+Pl: gimakiziniwaabaniin
+    2+makizin+NI+2Pl+VocPl+Loc: [gimakiziniwaadig, gimakiziniwaadog]
+    2+makizin+NI+2Pl+VocPl+Obv: [gimakiziniwaadig, gimakiziniwaadog]
+    2+makizin+NI+2Pl+VocPl+Pl: [gimakiziniwaadig, gimakiziniwaadog]
+    3+makizin+NI+3Obv+Pret+Loc: omakizininiibaniing
+    3+makizin+NI+3Obv+Pret+Obv: omakizininiibaniin
+    3+makizin+NI+3Obv+Pret+Pl: omakizininiibaniin
+    3+makizin+NI+3Obv+VocPl+Loc: [omakizininiidig, omakizininiidog]
+    3+makizin+NI+3Obv+VocPl+Obv: [omakizininiidig, omakizininiidog]
+    3+makizin+NI+3Obv+VocPl+Pl: [omakizininiidig, omakizininiidog]
+    3+makizin+NI+3Pl+Pret+Loc: omakiziniwaabaniing
+    3+makizin+NI+3Pl+Pret+Obv: omakiziniwaabaniin
+    3+makizin+NI+3Pl+Pret+Pl: omakiziniwaabaniin
+    3+makizin+NI+3Pl+VocPl+Loc: [omakiziniwaadig, omakiziniwaadog]
+    3+makizin+NI+3Pl+VocPl+Obv: [omakiziniwaadig, omakiziniwaadog]
+    3+makizin+NI+3Pl+VocPl+Pl: [omakiziniwaadig, omakiziniwaadog]
     
     
     
@@ -728,12 +728,12 @@ Tests:
     
     
     #Values from slots numbered: 2, 4, 6, 7
-    makizin+N+Con+Pej+Pret+Loc: makizinenyishibaniing
-    makizin+N+Con+Pej+Pret+Obv: makizinenyishibaniin
-    makizin+N+Con+Pej+Pret+Pl: makizinenyishibaniin
-    makizin+N+Dim+Pej+Pret+Loc: makizinensishibaniing
-    makizin+N+Dim+Pej+Pret+Obv: makizinensishibaniin
-    makizin+N+Dim+Pej+Pret+Pl: makizinensishibaniin
+    makizin+NI+Con+Pej+Pret+Loc: makizinenyishibaniing
+    makizin+NI+Con+Pej+Pret+Obv: makizinenyishibaniin
+    makizin+NI+Con+Pej+Pret+Pl: makizinenyishibaniin
+    makizin+NI+Dim+Pej+Pret+Loc: makizinensishibaniing
+    makizin+NI+Dim+Pej+Pret+Obv: makizinensishibaniin
+    makizin+NI+Dim+Pej+Pret+Pl: makizinensishibaniin
     
     
     
@@ -742,389 +742,389 @@ Tests:
     
     
     #Values from slots numbered: 1, 2, 3, 4, 5
-    1+makizin+N+Con+Pos+Pej+1Pl: nimakizinenyimishinaan
-    1+makizin+N+Dim+Pos+Pej+1Pl: nimakizinensimishinaan
-    2+makizin+N+Con+Pos+Pej+21: gimakizinenyimishinaan
-    2+makizin+N+Con+Pos+Pej+2Pl: gimakizinenyimishiwaa
-    2+makizin+N+Dim+Pos+Pej+21: gimakizinensimishinaan
-    2+makizin+N+Dim+Pos+Pej+2Pl: gimakizinensimishiwaa
-    3+makizin+N+Con+Pos+Pej+3Obv: omakizinenyimishini
-    3+makizin+N+Con+Pos+Pej+3Pl: omakizinenyimishiwaa
-    3+makizin+N+Dim+Pos+Pej+3Obv: omakizinensimishini
-    3+makizin+N+Dim+Pos+Pej+3Pl: omakizinensimishiwaa
+    1+makizin+NI+Con+Pos+Pej+1Pl: nimakizinenyimishinaan
+    1+makizin+NI+Dim+Pos+Pej+1Pl: nimakizinensimishinaan
+    2+makizin+NI+Con+Pos+Pej+21: gimakizinenyimishinaan
+    2+makizin+NI+Con+Pos+Pej+2Pl: gimakizinenyimishiwaa
+    2+makizin+NI+Dim+Pos+Pej+21: gimakizinensimishinaan
+    2+makizin+NI+Dim+Pos+Pej+2Pl: gimakizinensimishiwaa
+    3+makizin+NI+Con+Pos+Pej+3Obv: omakizinenyimishini
+    3+makizin+NI+Con+Pos+Pej+3Pl: omakizinenyimishiwaa
+    3+makizin+NI+Dim+Pos+Pej+3Obv: omakizinensimishini
+    3+makizin+NI+Dim+Pos+Pej+3Pl: omakizinensimishiwaa
     
     #Values from slots numbered: 1, 2, 3, 4, 6
-    1+makizin+N+Con+Pos+Pej+Pret: nimakizinenyimishiban
-    1+makizin+N+Con+Pos+Pej+VocPl: [nimakizinenyimishidig, nimakizinenyimishidog]
-    1+makizin+N+Dim+Pos+Pej+Pret: nimakizinensimishiban
-    1+makizin+N+Dim+Pos+Pej+VocPl: [nimakizinensimishidig, nimakizinensimishidog]
-    2+makizin+N+Con+Pos+Pej+Pret: gimakizinenyimishiban
-    2+makizin+N+Con+Pos+Pej+VocPl: [gimakizinenyimishidig, gimakizinenyimishidog]
-    2+makizin+N+Dim+Pos+Pej+Pret: gimakizinensimishiban
-    2+makizin+N+Dim+Pos+Pej+VocPl: [gimakizinensimishidig, gimakizinensimishidog]
-    3+makizin+N+Con+Pos+Pej+Pret: omakizinenyimishiban
-    3+makizin+N+Con+Pos+Pej+VocPl: [omakizinenyimishidig, omakizinenyimishidog]
-    3+makizin+N+Dim+Pos+Pej+Pret: omakizinensimishiban
-    3+makizin+N+Dim+Pos+Pej+VocPl: [omakizinensimishidig, omakizinensimishidog]
-    X+makizin+N+Con+Pos+Pej+Pret: imakizinenyimishiban
-    X+makizin+N+Con+Pos+Pej+VocPl: [imakizinenyimishidig, imakizinenyimishidog]
-    X+makizin+N+Dim+Pos+Pej+Pret: imakizinensimishiban
-    X+makizin+N+Dim+Pos+Pej+VocPl: [imakizinensimishidig, imakizinensimishidog]
+    1+makizin+NI+Con+Pos+Pej+Pret: nimakizinenyimishiban
+    1+makizin+NI+Con+Pos+Pej+VocPl: [nimakizinenyimishidig, nimakizinenyimishidog]
+    1+makizin+NI+Dim+Pos+Pej+Pret: nimakizinensimishiban
+    1+makizin+NI+Dim+Pos+Pej+VocPl: [nimakizinensimishidig, nimakizinensimishidog]
+    2+makizin+NI+Con+Pos+Pej+Pret: gimakizinenyimishiban
+    2+makizin+NI+Con+Pos+Pej+VocPl: [gimakizinenyimishidig, gimakizinenyimishidog]
+    2+makizin+NI+Dim+Pos+Pej+Pret: gimakizinensimishiban
+    2+makizin+NI+Dim+Pos+Pej+VocPl: [gimakizinensimishidig, gimakizinensimishidog]
+    3+makizin+NI+Con+Pos+Pej+Pret: omakizinenyimishiban
+    3+makizin+NI+Con+Pos+Pej+VocPl: [omakizinenyimishidig, omakizinenyimishidog]
+    3+makizin+NI+Dim+Pos+Pej+Pret: omakizinensimishiban
+    3+makizin+NI+Dim+Pos+Pej+VocPl: [omakizinensimishidig, omakizinensimishidog]
+    X+makizin+NI+Con+Pos+Pej+Pret: imakizinenyimishiban
+    X+makizin+NI+Con+Pos+Pej+VocPl: [imakizinenyimishidig, imakizinenyimishidog]
+    X+makizin+NI+Dim+Pos+Pej+Pret: imakizinensimishiban
+    X+makizin+NI+Dim+Pos+Pej+VocPl: [imakizinensimishidig, imakizinensimishidog]
     
     #Values from slots numbered: 1, 2, 3, 4, 7
-    1+makizin+N+Con+Pos+Pej+Loc: nimakizinenyimishing
-    1+makizin+N+Con+Pos+Pej+Obv: nimakizinenyimishan
-    1+makizin+N+Con+Pos+Pej+Pl: nimakizinenyimishan
-    1+makizin+N+Dim+Pos+Pej+Loc: nimakizinensimishing
-    1+makizin+N+Dim+Pos+Pej+Obv: nimakizinensimishan
-    1+makizin+N+Dim+Pos+Pej+Pl: nimakizinensimishan
-    2+makizin+N+Con+Pos+Pej+Loc: gimakizinenyimishing
-    2+makizin+N+Con+Pos+Pej+Obv: gimakizinenyimishan
-    2+makizin+N+Con+Pos+Pej+Pl: gimakizinenyimishan
-    2+makizin+N+Dim+Pos+Pej+Loc: gimakizinensimishing
-    2+makizin+N+Dim+Pos+Pej+Obv: gimakizinensimishan
-    2+makizin+N+Dim+Pos+Pej+Pl: gimakizinensimishan
-    3+makizin+N+Con+Pos+Pej+Loc: omakizinenyimishing
-    3+makizin+N+Con+Pos+Pej+Obv: omakizinenyimishan
-    3+makizin+N+Con+Pos+Pej+Pl: omakizinenyimishan
-    3+makizin+N+Dim+Pos+Pej+Loc: omakizinensimishing
-    3+makizin+N+Dim+Pos+Pej+Obv: omakizinensimishan
-    3+makizin+N+Dim+Pos+Pej+Pl: omakizinensimishan
-    X+makizin+N+Con+Pos+Pej+Loc: imakizinenyimishing
-    X+makizin+N+Con+Pos+Pej+Obv: imakizinenyimishan
-    X+makizin+N+Con+Pos+Pej+Pl: imakizinenyimishan
-    X+makizin+N+Dim+Pos+Pej+Loc: imakizinensimishing
-    X+makizin+N+Dim+Pos+Pej+Obv: imakizinensimishan
-    X+makizin+N+Dim+Pos+Pej+Pl: imakizinensimishan
+    1+makizin+NI+Con+Pos+Pej+Loc: nimakizinenyimishing
+    1+makizin+NI+Con+Pos+Pej+Obv: nimakizinenyimishan
+    1+makizin+NI+Con+Pos+Pej+Pl: nimakizinenyimishan
+    1+makizin+NI+Dim+Pos+Pej+Loc: nimakizinensimishing
+    1+makizin+NI+Dim+Pos+Pej+Obv: nimakizinensimishan
+    1+makizin+NI+Dim+Pos+Pej+Pl: nimakizinensimishan
+    2+makizin+NI+Con+Pos+Pej+Loc: gimakizinenyimishing
+    2+makizin+NI+Con+Pos+Pej+Obv: gimakizinenyimishan
+    2+makizin+NI+Con+Pos+Pej+Pl: gimakizinenyimishan
+    2+makizin+NI+Dim+Pos+Pej+Loc: gimakizinensimishing
+    2+makizin+NI+Dim+Pos+Pej+Obv: gimakizinensimishan
+    2+makizin+NI+Dim+Pos+Pej+Pl: gimakizinensimishan
+    3+makizin+NI+Con+Pos+Pej+Loc: omakizinenyimishing
+    3+makizin+NI+Con+Pos+Pej+Obv: omakizinenyimishan
+    3+makizin+NI+Con+Pos+Pej+Pl: omakizinenyimishan
+    3+makizin+NI+Dim+Pos+Pej+Loc: omakizinensimishing
+    3+makizin+NI+Dim+Pos+Pej+Obv: omakizinensimishan
+    3+makizin+NI+Dim+Pos+Pej+Pl: omakizinensimishan
+    X+makizin+NI+Con+Pos+Pej+Loc: imakizinenyimishing
+    X+makizin+NI+Con+Pos+Pej+Obv: imakizinenyimishan
+    X+makizin+NI+Con+Pos+Pej+Pl: imakizinenyimishan
+    X+makizin+NI+Dim+Pos+Pej+Loc: imakizinensimishing
+    X+makizin+NI+Dim+Pos+Pej+Obv: imakizinensimishan
+    X+makizin+NI+Dim+Pos+Pej+Pl: imakizinensimishan
     
     #Values from slots numbered: 1, 2, 3, 5, 6
-    1+makizin+N+Con+Pos+1Pl+Pret: nimakizinenyiminaaniban
-    1+makizin+N+Con+Pos+1Pl+VocPl: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
-    1+makizin+N+Dim+Pos+1Pl+Pret: nimakizinensiminaaniban
-    1+makizin+N+Dim+Pos+1Pl+VocPl: [nimakizinensiminaanidig, nimakizinensiminaanidog]
-    2+makizin+N+Con+Pos+21+Pret: gimakizinenyiminaaniban
-    2+makizin+N+Con+Pos+21+VocPl: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
-    2+makizin+N+Con+Pos+2Pl+Pret: gimakizinenyimiwaaban
-    2+makizin+N+Con+Pos+2Pl+VocPl: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
-    2+makizin+N+Dim+Pos+21+Pret: gimakizinensiminaaniban
-    2+makizin+N+Dim+Pos+21+VocPl: [gimakizinensiminaanidig, gimakizinensiminaanidog]
-    2+makizin+N+Dim+Pos+2Pl+Pret: gimakizinensimiwaaban
-    2+makizin+N+Dim+Pos+2Pl+VocPl: [gimakizinensimiwaadig, gimakizinensimiwaadog]
-    3+makizin+N+Con+Pos+3Obv+Pret: omakizinenyiminiiban
-    3+makizin+N+Con+Pos+3Obv+VocPl: [omakizinenyiminiidig, omakizinenyiminiidog]
-    3+makizin+N+Con+Pos+3Pl+Pret: omakizinenyimiwaaban
-    3+makizin+N+Con+Pos+3Pl+VocPl: [omakizinenyimiwaadig, omakizinenyimiwaadog]
-    3+makizin+N+Dim+Pos+3Obv+Pret: omakizinensiminiiban
-    3+makizin+N+Dim+Pos+3Obv+VocPl: [omakizinensiminiidig, omakizinensiminiidog]
-    3+makizin+N+Dim+Pos+3Pl+Pret: omakizinensimiwaaban
-    3+makizin+N+Dim+Pos+3Pl+VocPl: [omakizinensimiwaadig, omakizinensimiwaadog]
+    1+makizin+NI+Con+Pos+1Pl+Pret: nimakizinenyiminaaniban
+    1+makizin+NI+Con+Pos+1Pl+VocPl: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
+    1+makizin+NI+Dim+Pos+1Pl+Pret: nimakizinensiminaaniban
+    1+makizin+NI+Dim+Pos+1Pl+VocPl: [nimakizinensiminaanidig, nimakizinensiminaanidog]
+    2+makizin+NI+Con+Pos+21+Pret: gimakizinenyiminaaniban
+    2+makizin+NI+Con+Pos+21+VocPl: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
+    2+makizin+NI+Con+Pos+2Pl+Pret: gimakizinenyimiwaaban
+    2+makizin+NI+Con+Pos+2Pl+VocPl: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
+    2+makizin+NI+Dim+Pos+21+Pret: gimakizinensiminaaniban
+    2+makizin+NI+Dim+Pos+21+VocPl: [gimakizinensiminaanidig, gimakizinensiminaanidog]
+    2+makizin+NI+Dim+Pos+2Pl+Pret: gimakizinensimiwaaban
+    2+makizin+NI+Dim+Pos+2Pl+VocPl: [gimakizinensimiwaadig, gimakizinensimiwaadog]
+    3+makizin+NI+Con+Pos+3Obv+Pret: omakizinenyiminiiban
+    3+makizin+NI+Con+Pos+3Obv+VocPl: [omakizinenyiminiidig, omakizinenyiminiidog]
+    3+makizin+NI+Con+Pos+3Pl+Pret: omakizinenyimiwaaban
+    3+makizin+NI+Con+Pos+3Pl+VocPl: [omakizinenyimiwaadig, omakizinenyimiwaadog]
+    3+makizin+NI+Dim+Pos+3Obv+Pret: omakizinensiminiiban
+    3+makizin+NI+Dim+Pos+3Obv+VocPl: [omakizinensiminiidig, omakizinensiminiidog]
+    3+makizin+NI+Dim+Pos+3Pl+Pret: omakizinensimiwaaban
+    3+makizin+NI+Dim+Pos+3Pl+VocPl: [omakizinensimiwaadig, omakizinensimiwaadog]
     
     #Values from slots numbered: 1, 2, 3, 5, 7
-    1+makizin+N+Con+Pos+1Pl+Loc: nimakizinenyiminaaning
-    1+makizin+N+Con+Pos+1Pl+Obv: nimakizinenyiminaanin
-    1+makizin+N+Con+Pos+1Pl+Pl: nimakizinenyiminaanin
-    1+makizin+N+Dim+Pos+1Pl+Loc: nimakizinensiminaaning
-    1+makizin+N+Dim+Pos+1Pl+Obv: nimakizinensiminaanin
-    1+makizin+N+Dim+Pos+1Pl+Pl: nimakizinensiminaanin
-    2+makizin+N+Con+Pos+21+Loc: gimakizinenyiminaaning
-    2+makizin+N+Con+Pos+21+Obv: gimakizinenyiminaanin
-    2+makizin+N+Con+Pos+21+Pl: gimakizinenyiminaanin
-    2+makizin+N+Con+Pos+2Pl+Loc: gimakizinenyimiwaang
-    2+makizin+N+Con+Pos+2Pl+Obv: gimakizinenyimiwaan
-    2+makizin+N+Con+Pos+2Pl+Pl: gimakizinenyimiwaan
-    2+makizin+N+Dim+Pos+21+Loc: gimakizinensiminaaning
-    2+makizin+N+Dim+Pos+21+Obv: gimakizinensiminaanin
-    2+makizin+N+Dim+Pos+21+Pl: gimakizinensiminaanin
-    2+makizin+N+Dim+Pos+2Pl+Loc: gimakizinensimiwaang
-    2+makizin+N+Dim+Pos+2Pl+Obv: gimakizinensimiwaan
-    2+makizin+N+Dim+Pos+2Pl+Pl: gimakizinensimiwaan
-    3+makizin+N+Con+Pos+3Obv+Loc: omakizinenyiminiing
-    3+makizin+N+Con+Pos+3Obv+Obv: omakizinenyiminiin
-    3+makizin+N+Con+Pos+3Obv+Pl: omakizinenyiminiin
-    3+makizin+N+Con+Pos+3Pl+Loc: omakizinenyimiwaang
-    3+makizin+N+Con+Pos+3Pl+Obv: omakizinenyimiwaan
-    3+makizin+N+Con+Pos+3Pl+Pl: omakizinenyimiwaan
-    3+makizin+N+Dim+Pos+3Obv+Loc: omakizinensiminiing
-    3+makizin+N+Dim+Pos+3Obv+Obv: omakizinensiminiin
-    3+makizin+N+Dim+Pos+3Obv+Pl: omakizinensiminiin
-    3+makizin+N+Dim+Pos+3Pl+Loc: omakizinensimiwaang
-    3+makizin+N+Dim+Pos+3Pl+Obv: omakizinensimiwaan
-    3+makizin+N+Dim+Pos+3Pl+Pl: omakizinensimiwaan
+    1+makizin+NI+Con+Pos+1Pl+Loc: nimakizinenyiminaaning
+    1+makizin+NI+Con+Pos+1Pl+Obv: nimakizinenyiminaanin
+    1+makizin+NI+Con+Pos+1Pl+Pl: nimakizinenyiminaanin
+    1+makizin+NI+Dim+Pos+1Pl+Loc: nimakizinensiminaaning
+    1+makizin+NI+Dim+Pos+1Pl+Obv: nimakizinensiminaanin
+    1+makizin+NI+Dim+Pos+1Pl+Pl: nimakizinensiminaanin
+    2+makizin+NI+Con+Pos+21+Loc: gimakizinenyiminaaning
+    2+makizin+NI+Con+Pos+21+Obv: gimakizinenyiminaanin
+    2+makizin+NI+Con+Pos+21+Pl: gimakizinenyiminaanin
+    2+makizin+NI+Con+Pos+2Pl+Loc: gimakizinenyimiwaang
+    2+makizin+NI+Con+Pos+2Pl+Obv: gimakizinenyimiwaan
+    2+makizin+NI+Con+Pos+2Pl+Pl: gimakizinenyimiwaan
+    2+makizin+NI+Dim+Pos+21+Loc: gimakizinensiminaaning
+    2+makizin+NI+Dim+Pos+21+Obv: gimakizinensiminaanin
+    2+makizin+NI+Dim+Pos+21+Pl: gimakizinensiminaanin
+    2+makizin+NI+Dim+Pos+2Pl+Loc: gimakizinensimiwaang
+    2+makizin+NI+Dim+Pos+2Pl+Obv: gimakizinensimiwaan
+    2+makizin+NI+Dim+Pos+2Pl+Pl: gimakizinensimiwaan
+    3+makizin+NI+Con+Pos+3Obv+Loc: omakizinenyiminiing
+    3+makizin+NI+Con+Pos+3Obv+Obv: omakizinenyiminiin
+    3+makizin+NI+Con+Pos+3Obv+Pl: omakizinenyiminiin
+    3+makizin+NI+Con+Pos+3Pl+Loc: omakizinenyimiwaang
+    3+makizin+NI+Con+Pos+3Pl+Obv: omakizinenyimiwaan
+    3+makizin+NI+Con+Pos+3Pl+Pl: omakizinenyimiwaan
+    3+makizin+NI+Dim+Pos+3Obv+Loc: omakizinensiminiing
+    3+makizin+NI+Dim+Pos+3Obv+Obv: omakizinensiminiin
+    3+makizin+NI+Dim+Pos+3Obv+Pl: omakizinensiminiin
+    3+makizin+NI+Dim+Pos+3Pl+Loc: omakizinensimiwaang
+    3+makizin+NI+Dim+Pos+3Pl+Obv: omakizinensimiwaan
+    3+makizin+NI+Dim+Pos+3Pl+Pl: omakizinensimiwaan
     
     #Values from slots numbered: 1, 2, 3, 6, 7
-    1+makizin+N+Con+Pos+Pret+Loc: nimakizinenyimibaniing
-    1+makizin+N+Con+Pos+Pret+Obv: nimakizinenyimibaniin
-    1+makizin+N+Con+Pos+Pret+Pl: nimakizinenyimibaniin
-    1+makizin+N+Dim+Pos+Pret+Loc: nimakizinensimibaniing
-    1+makizin+N+Dim+Pos+Pret+Obv: nimakizinensimibaniin
-    1+makizin+N+Dim+Pos+Pret+Pl: nimakizinensimibaniin
-    2+makizin+N+Con+Pos+Pret+Loc: gimakizinenyimibaniing
-    2+makizin+N+Con+Pos+Pret+Obv: gimakizinenyimibaniin
-    2+makizin+N+Con+Pos+Pret+Pl: gimakizinenyimibaniin
-    2+makizin+N+Dim+Pos+Pret+Loc: gimakizinensimibaniing
-    2+makizin+N+Dim+Pos+Pret+Obv: gimakizinensimibaniin
-    2+makizin+N+Dim+Pos+Pret+Pl: gimakizinensimibaniin
-    3+makizin+N+Con+Pos+Pret+Loc: omakizinenyimibaniing
-    3+makizin+N+Con+Pos+Pret+Obv: omakizinenyimibaniin
-    3+makizin+N+Con+Pos+Pret+Pl: omakizinenyimibaniin
-    3+makizin+N+Dim+Pos+Pret+Loc: omakizinensimibaniing
-    3+makizin+N+Dim+Pos+Pret+Obv: omakizinensimibaniin
-    3+makizin+N+Dim+Pos+Pret+Pl: omakizinensimibaniin
-    X+makizin+N+Con+Pos+Pret+Loc: imakizinenyimibaniing
-    X+makizin+N+Con+Pos+Pret+Obv: imakizinenyimibaniin
-    X+makizin+N+Con+Pos+Pret+Pl: imakizinenyimibaniin
-    X+makizin+N+Dim+Pos+Pret+Loc: imakizinensimibaniing
-    X+makizin+N+Dim+Pos+Pret+Obv: imakizinensimibaniin
-    X+makizin+N+Dim+Pos+Pret+Pl: imakizinensimibaniin
+    1+makizin+NI+Con+Pos+Pret+Loc: nimakizinenyimibaniing
+    1+makizin+NI+Con+Pos+Pret+Obv: nimakizinenyimibaniin
+    1+makizin+NI+Con+Pos+Pret+Pl: nimakizinenyimibaniin
+    1+makizin+NI+Dim+Pos+Pret+Loc: nimakizinensimibaniing
+    1+makizin+NI+Dim+Pos+Pret+Obv: nimakizinensimibaniin
+    1+makizin+NI+Dim+Pos+Pret+Pl: nimakizinensimibaniin
+    2+makizin+NI+Con+Pos+Pret+Loc: gimakizinenyimibaniing
+    2+makizin+NI+Con+Pos+Pret+Obv: gimakizinenyimibaniin
+    2+makizin+NI+Con+Pos+Pret+Pl: gimakizinenyimibaniin
+    2+makizin+NI+Dim+Pos+Pret+Loc: gimakizinensimibaniing
+    2+makizin+NI+Dim+Pos+Pret+Obv: gimakizinensimibaniin
+    2+makizin+NI+Dim+Pos+Pret+Pl: gimakizinensimibaniin
+    3+makizin+NI+Con+Pos+Pret+Loc: omakizinenyimibaniing
+    3+makizin+NI+Con+Pos+Pret+Obv: omakizinenyimibaniin
+    3+makizin+NI+Con+Pos+Pret+Pl: omakizinenyimibaniin
+    3+makizin+NI+Dim+Pos+Pret+Loc: omakizinensimibaniing
+    3+makizin+NI+Dim+Pos+Pret+Obv: omakizinensimibaniin
+    3+makizin+NI+Dim+Pos+Pret+Pl: omakizinensimibaniin
+    X+makizin+NI+Con+Pos+Pret+Loc: imakizinenyimibaniing
+    X+makizin+NI+Con+Pos+Pret+Obv: imakizinenyimibaniin
+    X+makizin+NI+Con+Pos+Pret+Pl: imakizinenyimibaniin
+    X+makizin+NI+Dim+Pos+Pret+Loc: imakizinensimibaniing
+    X+makizin+NI+Dim+Pos+Pret+Obv: imakizinensimibaniin
+    X+makizin+NI+Dim+Pos+Pret+Pl: imakizinensimibaniin
     
     #Values from slots numbered: 1, 2, 4, 5, 6
-    1+makizin+N+Con+Pej+1Pl+Pret: nimakizinenyishinaaniban
-    1+makizin+N+Con+Pej+1Pl+VocPl: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
-    1+makizin+N+Dim+Pej+1Pl+Pret: nimakizinensishinaaniban
-    1+makizin+N+Dim+Pej+1Pl+VocPl: [nimakizinensishinaanidig, nimakizinensishinaanidog]
-    2+makizin+N+Con+Pej+21+Pret: gimakizinenyishinaaniban
-    2+makizin+N+Con+Pej+21+VocPl: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
-    2+makizin+N+Con+Pej+2Pl+Pret: gimakizinenyishiwaaban
-    2+makizin+N+Con+Pej+2Pl+VocPl: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
-    2+makizin+N+Dim+Pej+21+Pret: gimakizinensishinaaniban
-    2+makizin+N+Dim+Pej+21+VocPl: [gimakizinensishinaanidig, gimakizinensishinaanidog]
-    2+makizin+N+Dim+Pej+2Pl+Pret: gimakizinensishiwaaban
-    2+makizin+N+Dim+Pej+2Pl+VocPl: [gimakizinensishiwaadig, gimakizinensishiwaadog]
-    3+makizin+N+Con+Pej+3Obv+Pret: omakizinenyishiniiban
-    3+makizin+N+Con+Pej+3Obv+VocPl: [omakizinenyishiniidig, omakizinenyishiniidog]
-    3+makizin+N+Con+Pej+3Pl+Pret: omakizinenyishiwaaban
-    3+makizin+N+Con+Pej+3Pl+VocPl: [omakizinenyishiwaadig, omakizinenyishiwaadog]
-    3+makizin+N+Dim+Pej+3Obv+Pret: omakizinensishiniiban
-    3+makizin+N+Dim+Pej+3Obv+VocPl: [omakizinensishiniidig, omakizinensishiniidog]
-    3+makizin+N+Dim+Pej+3Pl+Pret: omakizinensishiwaaban
-    3+makizin+N+Dim+Pej+3Pl+VocPl: [omakizinensishiwaadig, omakizinensishiwaadog]
+    1+makizin+NI+Con+Pej+1Pl+Pret: nimakizinenyishinaaniban
+    1+makizin+NI+Con+Pej+1Pl+VocPl: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
+    1+makizin+NI+Dim+Pej+1Pl+Pret: nimakizinensishinaaniban
+    1+makizin+NI+Dim+Pej+1Pl+VocPl: [nimakizinensishinaanidig, nimakizinensishinaanidog]
+    2+makizin+NI+Con+Pej+21+Pret: gimakizinenyishinaaniban
+    2+makizin+NI+Con+Pej+21+VocPl: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
+    2+makizin+NI+Con+Pej+2Pl+Pret: gimakizinenyishiwaaban
+    2+makizin+NI+Con+Pej+2Pl+VocPl: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
+    2+makizin+NI+Dim+Pej+21+Pret: gimakizinensishinaaniban
+    2+makizin+NI+Dim+Pej+21+VocPl: [gimakizinensishinaanidig, gimakizinensishinaanidog]
+    2+makizin+NI+Dim+Pej+2Pl+Pret: gimakizinensishiwaaban
+    2+makizin+NI+Dim+Pej+2Pl+VocPl: [gimakizinensishiwaadig, gimakizinensishiwaadog]
+    3+makizin+NI+Con+Pej+3Obv+Pret: omakizinenyishiniiban
+    3+makizin+NI+Con+Pej+3Obv+VocPl: [omakizinenyishiniidig, omakizinenyishiniidog]
+    3+makizin+NI+Con+Pej+3Pl+Pret: omakizinenyishiwaaban
+    3+makizin+NI+Con+Pej+3Pl+VocPl: [omakizinenyishiwaadig, omakizinenyishiwaadog]
+    3+makizin+NI+Dim+Pej+3Obv+Pret: omakizinensishiniiban
+    3+makizin+NI+Dim+Pej+3Obv+VocPl: [omakizinensishiniidig, omakizinensishiniidog]
+    3+makizin+NI+Dim+Pej+3Pl+Pret: omakizinensishiwaaban
+    3+makizin+NI+Dim+Pej+3Pl+VocPl: [omakizinensishiwaadig, omakizinensishiwaadog]
     
     #Values from slots numbered: 1, 2, 4, 5, 7
-    1+makizin+N+Con+Pej+1Pl+Loc: nimakizinenyishinaaning
-    1+makizin+N+Con+Pej+1Pl+Obv: nimakizinenyishinaanin
-    1+makizin+N+Con+Pej+1Pl+Pl: nimakizinenyishinaanin
-    1+makizin+N+Dim+Pej+1Pl+Loc: nimakizinensishinaaning
-    1+makizin+N+Dim+Pej+1Pl+Obv: nimakizinensishinaanin
-    1+makizin+N+Dim+Pej+1Pl+Pl: nimakizinensishinaanin
-    2+makizin+N+Con+Pej+21+Loc: gimakizinenyishinaaning
-    2+makizin+N+Con+Pej+21+Obv: gimakizinenyishinaanin
-    2+makizin+N+Con+Pej+21+Pl: gimakizinenyishinaanin
-    2+makizin+N+Con+Pej+2Pl+Loc: gimakizinenyishiwaang
-    2+makizin+N+Con+Pej+2Pl+Obv: gimakizinenyishiwaan
-    2+makizin+N+Con+Pej+2Pl+Pl: gimakizinenyishiwaan
-    2+makizin+N+Dim+Pej+21+Loc: gimakizinensishinaaning
-    2+makizin+N+Dim+Pej+21+Obv: gimakizinensishinaanin
-    2+makizin+N+Dim+Pej+21+Pl: gimakizinensishinaanin
-    2+makizin+N+Dim+Pej+2Pl+Loc: gimakizinensishiwaang
-    2+makizin+N+Dim+Pej+2Pl+Obv: gimakizinensishiwaan
-    2+makizin+N+Dim+Pej+2Pl+Pl: gimakizinensishiwaan
-    3+makizin+N+Con+Pej+3Obv+Loc: omakizinenyishiniing
-    3+makizin+N+Con+Pej+3Obv+Obv: omakizinenyishiniin
-    3+makizin+N+Con+Pej+3Obv+Pl: omakizinenyishiniin
-    3+makizin+N+Con+Pej+3Pl+Loc: omakizinenyishiwaang
-    3+makizin+N+Con+Pej+3Pl+Obv: omakizinenyishiwaan
-    3+makizin+N+Con+Pej+3Pl+Pl: omakizinenyishiwaan
-    3+makizin+N+Dim+Pej+3Obv+Loc: omakizinensishiniing
-    3+makizin+N+Dim+Pej+3Obv+Obv: omakizinensishiniin
-    3+makizin+N+Dim+Pej+3Obv+Pl: omakizinensishiniin
-    3+makizin+N+Dim+Pej+3Pl+Loc: omakizinensishiwaang
-    3+makizin+N+Dim+Pej+3Pl+Obv: omakizinensishiwaan
-    3+makizin+N+Dim+Pej+3Pl+Pl: omakizinensishiwaan
+    1+makizin+NI+Con+Pej+1Pl+Loc: nimakizinenyishinaaning
+    1+makizin+NI+Con+Pej+1Pl+Obv: nimakizinenyishinaanin
+    1+makizin+NI+Con+Pej+1Pl+Pl: nimakizinenyishinaanin
+    1+makizin+NI+Dim+Pej+1Pl+Loc: nimakizinensishinaaning
+    1+makizin+NI+Dim+Pej+1Pl+Obv: nimakizinensishinaanin
+    1+makizin+NI+Dim+Pej+1Pl+Pl: nimakizinensishinaanin
+    2+makizin+NI+Con+Pej+21+Loc: gimakizinenyishinaaning
+    2+makizin+NI+Con+Pej+21+Obv: gimakizinenyishinaanin
+    2+makizin+NI+Con+Pej+21+Pl: gimakizinenyishinaanin
+    2+makizin+NI+Con+Pej+2Pl+Loc: gimakizinenyishiwaang
+    2+makizin+NI+Con+Pej+2Pl+Obv: gimakizinenyishiwaan
+    2+makizin+NI+Con+Pej+2Pl+Pl: gimakizinenyishiwaan
+    2+makizin+NI+Dim+Pej+21+Loc: gimakizinensishinaaning
+    2+makizin+NI+Dim+Pej+21+Obv: gimakizinensishinaanin
+    2+makizin+NI+Dim+Pej+21+Pl: gimakizinensishinaanin
+    2+makizin+NI+Dim+Pej+2Pl+Loc: gimakizinensishiwaang
+    2+makizin+NI+Dim+Pej+2Pl+Obv: gimakizinensishiwaan
+    2+makizin+NI+Dim+Pej+2Pl+Pl: gimakizinensishiwaan
+    3+makizin+NI+Con+Pej+3Obv+Loc: omakizinenyishiniing
+    3+makizin+NI+Con+Pej+3Obv+Obv: omakizinenyishiniin
+    3+makizin+NI+Con+Pej+3Obv+Pl: omakizinenyishiniin
+    3+makizin+NI+Con+Pej+3Pl+Loc: omakizinenyishiwaang
+    3+makizin+NI+Con+Pej+3Pl+Obv: omakizinenyishiwaan
+    3+makizin+NI+Con+Pej+3Pl+Pl: omakizinenyishiwaan
+    3+makizin+NI+Dim+Pej+3Obv+Loc: omakizinensishiniing
+    3+makizin+NI+Dim+Pej+3Obv+Obv: omakizinensishiniin
+    3+makizin+NI+Dim+Pej+3Obv+Pl: omakizinensishiniin
+    3+makizin+NI+Dim+Pej+3Pl+Loc: omakizinensishiwaang
+    3+makizin+NI+Dim+Pej+3Pl+Obv: omakizinensishiwaan
+    3+makizin+NI+Dim+Pej+3Pl+Pl: omakizinensishiwaan
     
     #Values from slots numbered: 1, 2, 4, 6, 7
-    1+makizin+N+Con+Pej+Pret+Loc: nimakizinenyishibaniing
-    1+makizin+N+Con+Pej+Pret+Obv: nimakizinenyishibaniin
-    1+makizin+N+Con+Pej+Pret+Pl: nimakizinenyishibaniin
-    1+makizin+N+Dim+Pej+Pret+Loc: nimakizinensishibaniing
-    1+makizin+N+Dim+Pej+Pret+Obv: nimakizinensishibaniin
-    1+makizin+N+Dim+Pej+Pret+Pl: nimakizinensishibaniin
-    2+makizin+N+Con+Pej+Pret+Loc: gimakizinenyishibaniing
-    2+makizin+N+Con+Pej+Pret+Obv: gimakizinenyishibaniin
-    2+makizin+N+Con+Pej+Pret+Pl: gimakizinenyishibaniin
-    2+makizin+N+Dim+Pej+Pret+Loc: gimakizinensishibaniing
-    2+makizin+N+Dim+Pej+Pret+Obv: gimakizinensishibaniin
-    2+makizin+N+Dim+Pej+Pret+Pl: gimakizinensishibaniin
-    3+makizin+N+Con+Pej+Pret+Loc: omakizinenyishibaniing
-    3+makizin+N+Con+Pej+Pret+Obv: omakizinenyishibaniin
-    3+makizin+N+Con+Pej+Pret+Pl: omakizinenyishibaniin
-    3+makizin+N+Dim+Pej+Pret+Loc: omakizinensishibaniing
-    3+makizin+N+Dim+Pej+Pret+Obv: omakizinensishibaniin
-    3+makizin+N+Dim+Pej+Pret+Pl: omakizinensishibaniin
-    X+makizin+N+Con+Pej+Pret+Loc: imakizinenyishibaniing
-    X+makizin+N+Con+Pej+Pret+Obv: imakizinenyishibaniin
-    X+makizin+N+Con+Pej+Pret+Pl: imakizinenyishibaniin
-    X+makizin+N+Dim+Pej+Pret+Loc: imakizinensishibaniing
-    X+makizin+N+Dim+Pej+Pret+Obv: imakizinensishibaniin
-    X+makizin+N+Dim+Pej+Pret+Pl: imakizinensishibaniin
+    1+makizin+NI+Con+Pej+Pret+Loc: nimakizinenyishibaniing
+    1+makizin+NI+Con+Pej+Pret+Obv: nimakizinenyishibaniin
+    1+makizin+NI+Con+Pej+Pret+Pl: nimakizinenyishibaniin
+    1+makizin+NI+Dim+Pej+Pret+Loc: nimakizinensishibaniing
+    1+makizin+NI+Dim+Pej+Pret+Obv: nimakizinensishibaniin
+    1+makizin+NI+Dim+Pej+Pret+Pl: nimakizinensishibaniin
+    2+makizin+NI+Con+Pej+Pret+Loc: gimakizinenyishibaniing
+    2+makizin+NI+Con+Pej+Pret+Obv: gimakizinenyishibaniin
+    2+makizin+NI+Con+Pej+Pret+Pl: gimakizinenyishibaniin
+    2+makizin+NI+Dim+Pej+Pret+Loc: gimakizinensishibaniing
+    2+makizin+NI+Dim+Pej+Pret+Obv: gimakizinensishibaniin
+    2+makizin+NI+Dim+Pej+Pret+Pl: gimakizinensishibaniin
+    3+makizin+NI+Con+Pej+Pret+Loc: omakizinenyishibaniing
+    3+makizin+NI+Con+Pej+Pret+Obv: omakizinenyishibaniin
+    3+makizin+NI+Con+Pej+Pret+Pl: omakizinenyishibaniin
+    3+makizin+NI+Dim+Pej+Pret+Loc: omakizinensishibaniing
+    3+makizin+NI+Dim+Pej+Pret+Obv: omakizinensishibaniin
+    3+makizin+NI+Dim+Pej+Pret+Pl: omakizinensishibaniin
+    X+makizin+NI+Con+Pej+Pret+Loc: imakizinenyishibaniing
+    X+makizin+NI+Con+Pej+Pret+Obv: imakizinenyishibaniin
+    X+makizin+NI+Con+Pej+Pret+Pl: imakizinenyishibaniin
+    X+makizin+NI+Dim+Pej+Pret+Loc: imakizinensishibaniing
+    X+makizin+NI+Dim+Pej+Pret+Obv: imakizinensishibaniin
+    X+makizin+NI+Dim+Pej+Pret+Pl: imakizinensishibaniin
     
     #Values from slots numbered: 1, 2, 5, 6, 7
-    1+makizin+N+Con+1Pl+Pret+Loc: nimakizinenyinaanibaniing
-    1+makizin+N+Con+1Pl+Pret+Obv: nimakizinenyinaanibaniin
-    1+makizin+N+Con+1Pl+Pret+Pl: nimakizinenyinaanibaniin
-    1+makizin+N+Con+1Pl+VocPl+Loc: [nimakizinenyinaanidig, nimakizinenyinaanidog]
-    1+makizin+N+Con+1Pl+VocPl+Obv: [nimakizinenyinaanidig, nimakizinenyinaanidog]
-    1+makizin+N+Con+1Pl+VocPl+Pl: [nimakizinenyinaanidig, nimakizinenyinaanidog]
-    1+makizin+N+Dim+1Pl+Pret+Loc: nimakizinensinaanibaniing
-    1+makizin+N+Dim+1Pl+Pret+Obv: nimakizinensinaanibaniin
-    1+makizin+N+Dim+1Pl+Pret+Pl: nimakizinensinaanibaniin
-    1+makizin+N+Dim+1Pl+VocPl+Loc: [nimakizinensinaanidig, nimakizinensinaanidog]
-    1+makizin+N+Dim+1Pl+VocPl+Obv: [nimakizinensinaanidig, nimakizinensinaanidog]
-    1+makizin+N+Dim+1Pl+VocPl+Pl: [nimakizinensinaanidig, nimakizinensinaanidog]
-    2+makizin+N+Con+21+Pret+Loc: gimakizinenyinaanibaniing
-    2+makizin+N+Con+21+Pret+Obv: gimakizinenyinaanibaniin
-    2+makizin+N+Con+21+Pret+Pl: gimakizinenyinaanibaniin
-    2+makizin+N+Con+21+VocPl+Loc: [gimakizinenyinaanidig, gimakizinenyinaanidog]
-    2+makizin+N+Con+21+VocPl+Obv: [gimakizinenyinaanidig, gimakizinenyinaanidog]
-    2+makizin+N+Con+21+VocPl+Pl: [gimakizinenyinaanidig, gimakizinenyinaanidog]
-    2+makizin+N+Con+2Pl+Pret+Loc: gimakizinenyiwaabaniing
-    2+makizin+N+Con+2Pl+Pret+Obv: gimakizinenyiwaabaniin
-    2+makizin+N+Con+2Pl+Pret+Pl: gimakizinenyiwaabaniin
-    2+makizin+N+Con+2Pl+VocPl+Loc: [gimakizinenyiwaadig, gimakizinenyiwaadog]
-    2+makizin+N+Con+2Pl+VocPl+Obv: [gimakizinenyiwaadig, gimakizinenyiwaadog]
-    2+makizin+N+Con+2Pl+VocPl+Pl: [gimakizinenyiwaadig, gimakizinenyiwaadog]
-    2+makizin+N+Dim+21+Pret+Loc: gimakizinensinaanibaniing
-    2+makizin+N+Dim+21+Pret+Obv: gimakizinensinaanibaniin
-    2+makizin+N+Dim+21+Pret+Pl: gimakizinensinaanibaniin
-    2+makizin+N+Dim+21+VocPl+Loc: [gimakizinensinaanidig, gimakizinensinaanidog]
-    2+makizin+N+Dim+21+VocPl+Obv: [gimakizinensinaanidig, gimakizinensinaanidog]
-    2+makizin+N+Dim+21+VocPl+Pl: [gimakizinensinaanidig, gimakizinensinaanidog]
-    2+makizin+N+Dim+2Pl+Pret+Loc: gimakizinensiwaabaniing
-    2+makizin+N+Dim+2Pl+Pret+Obv: gimakizinensiwaabaniin
-    2+makizin+N+Dim+2Pl+Pret+Pl: gimakizinensiwaabaniin
-    2+makizin+N+Dim+2Pl+VocPl+Loc: [gimakizinensiwaadig, gimakizinensiwaadog]
-    2+makizin+N+Dim+2Pl+VocPl+Obv: [gimakizinensiwaadig, gimakizinensiwaadog]
-    2+makizin+N+Dim+2Pl+VocPl+Pl: [gimakizinensiwaadig, gimakizinensiwaadog]
-    3+makizin+N+Con+3Obv+Pret+Loc: omakizinenyiniibaniing
-    3+makizin+N+Con+3Obv+Pret+Obv: omakizinenyiniibaniin
-    3+makizin+N+Con+3Obv+Pret+Pl: omakizinenyiniibaniin
-    3+makizin+N+Con+3Obv+VocPl+Loc: [omakizinenyiniidig, omakizinenyiniidog]
-    3+makizin+N+Con+3Obv+VocPl+Obv: [omakizinenyiniidig, omakizinenyiniidog]
-    3+makizin+N+Con+3Obv+VocPl+Pl: [omakizinenyiniidig, omakizinenyiniidog]
-    3+makizin+N+Con+3Pl+Pret+Loc: omakizinenyiwaabaniing
-    3+makizin+N+Con+3Pl+Pret+Obv: omakizinenyiwaabaniin
-    3+makizin+N+Con+3Pl+Pret+Pl: omakizinenyiwaabaniin
-    3+makizin+N+Con+3Pl+VocPl+Loc: [omakizinenyiwaadig, omakizinenyiwaadog]
-    3+makizin+N+Con+3Pl+VocPl+Obv: [omakizinenyiwaadig, omakizinenyiwaadog]
-    3+makizin+N+Con+3Pl+VocPl+Pl: [omakizinenyiwaadig, omakizinenyiwaadog]
-    3+makizin+N+Dim+3Obv+Pret+Loc: omakizinensiniibaniing
-    3+makizin+N+Dim+3Obv+Pret+Obv: omakizinensiniibaniin
-    3+makizin+N+Dim+3Obv+Pret+Pl: omakizinensiniibaniin
-    3+makizin+N+Dim+3Obv+VocPl+Loc: [omakizinensiniidig, omakizinensiniidog]
-    3+makizin+N+Dim+3Obv+VocPl+Obv: [omakizinensiniidig, omakizinensiniidog]
-    3+makizin+N+Dim+3Obv+VocPl+Pl: [omakizinensiniidig, omakizinensiniidog]
-    3+makizin+N+Dim+3Pl+Pret+Loc: omakizinensiwaabaniing
-    3+makizin+N+Dim+3Pl+Pret+Obv: omakizinensiwaabaniin
-    3+makizin+N+Dim+3Pl+Pret+Pl: omakizinensiwaabaniin
-    3+makizin+N+Dim+3Pl+VocPl+Loc: [omakizinensiwaadig, omakizinensiwaadog]
-    3+makizin+N+Dim+3Pl+VocPl+Obv: [omakizinensiwaadig, omakizinensiwaadog]
-    3+makizin+N+Dim+3Pl+VocPl+Pl: [omakizinensiwaadig, omakizinensiwaadog]
+    1+makizin+NI+Con+1Pl+Pret+Loc: nimakizinenyinaanibaniing
+    1+makizin+NI+Con+1Pl+Pret+Obv: nimakizinenyinaanibaniin
+    1+makizin+NI+Con+1Pl+Pret+Pl: nimakizinenyinaanibaniin
+    1+makizin+NI+Con+1Pl+VocPl+Loc: [nimakizinenyinaanidig, nimakizinenyinaanidog]
+    1+makizin+NI+Con+1Pl+VocPl+Obv: [nimakizinenyinaanidig, nimakizinenyinaanidog]
+    1+makizin+NI+Con+1Pl+VocPl+Pl: [nimakizinenyinaanidig, nimakizinenyinaanidog]
+    1+makizin+NI+Dim+1Pl+Pret+Loc: nimakizinensinaanibaniing
+    1+makizin+NI+Dim+1Pl+Pret+Obv: nimakizinensinaanibaniin
+    1+makizin+NI+Dim+1Pl+Pret+Pl: nimakizinensinaanibaniin
+    1+makizin+NI+Dim+1Pl+VocPl+Loc: [nimakizinensinaanidig, nimakizinensinaanidog]
+    1+makizin+NI+Dim+1Pl+VocPl+Obv: [nimakizinensinaanidig, nimakizinensinaanidog]
+    1+makizin+NI+Dim+1Pl+VocPl+Pl: [nimakizinensinaanidig, nimakizinensinaanidog]
+    2+makizin+NI+Con+21+Pret+Loc: gimakizinenyinaanibaniing
+    2+makizin+NI+Con+21+Pret+Obv: gimakizinenyinaanibaniin
+    2+makizin+NI+Con+21+Pret+Pl: gimakizinenyinaanibaniin
+    2+makizin+NI+Con+21+VocPl+Loc: [gimakizinenyinaanidig, gimakizinenyinaanidog]
+    2+makizin+NI+Con+21+VocPl+Obv: [gimakizinenyinaanidig, gimakizinenyinaanidog]
+    2+makizin+NI+Con+21+VocPl+Pl: [gimakizinenyinaanidig, gimakizinenyinaanidog]
+    2+makizin+NI+Con+2Pl+Pret+Loc: gimakizinenyiwaabaniing
+    2+makizin+NI+Con+2Pl+Pret+Obv: gimakizinenyiwaabaniin
+    2+makizin+NI+Con+2Pl+Pret+Pl: gimakizinenyiwaabaniin
+    2+makizin+NI+Con+2Pl+VocPl+Loc: [gimakizinenyiwaadig, gimakizinenyiwaadog]
+    2+makizin+NI+Con+2Pl+VocPl+Obv: [gimakizinenyiwaadig, gimakizinenyiwaadog]
+    2+makizin+NI+Con+2Pl+VocPl+Pl: [gimakizinenyiwaadig, gimakizinenyiwaadog]
+    2+makizin+NI+Dim+21+Pret+Loc: gimakizinensinaanibaniing
+    2+makizin+NI+Dim+21+Pret+Obv: gimakizinensinaanibaniin
+    2+makizin+NI+Dim+21+Pret+Pl: gimakizinensinaanibaniin
+    2+makizin+NI+Dim+21+VocPl+Loc: [gimakizinensinaanidig, gimakizinensinaanidog]
+    2+makizin+NI+Dim+21+VocPl+Obv: [gimakizinensinaanidig, gimakizinensinaanidog]
+    2+makizin+NI+Dim+21+VocPl+Pl: [gimakizinensinaanidig, gimakizinensinaanidog]
+    2+makizin+NI+Dim+2Pl+Pret+Loc: gimakizinensiwaabaniing
+    2+makizin+NI+Dim+2Pl+Pret+Obv: gimakizinensiwaabaniin
+    2+makizin+NI+Dim+2Pl+Pret+Pl: gimakizinensiwaabaniin
+    2+makizin+NI+Dim+2Pl+VocPl+Loc: [gimakizinensiwaadig, gimakizinensiwaadog]
+    2+makizin+NI+Dim+2Pl+VocPl+Obv: [gimakizinensiwaadig, gimakizinensiwaadog]
+    2+makizin+NI+Dim+2Pl+VocPl+Pl: [gimakizinensiwaadig, gimakizinensiwaadog]
+    3+makizin+NI+Con+3Obv+Pret+Loc: omakizinenyiniibaniing
+    3+makizin+NI+Con+3Obv+Pret+Obv: omakizinenyiniibaniin
+    3+makizin+NI+Con+3Obv+Pret+Pl: omakizinenyiniibaniin
+    3+makizin+NI+Con+3Obv+VocPl+Loc: [omakizinenyiniidig, omakizinenyiniidog]
+    3+makizin+NI+Con+3Obv+VocPl+Obv: [omakizinenyiniidig, omakizinenyiniidog]
+    3+makizin+NI+Con+3Obv+VocPl+Pl: [omakizinenyiniidig, omakizinenyiniidog]
+    3+makizin+NI+Con+3Pl+Pret+Loc: omakizinenyiwaabaniing
+    3+makizin+NI+Con+3Pl+Pret+Obv: omakizinenyiwaabaniin
+    3+makizin+NI+Con+3Pl+Pret+Pl: omakizinenyiwaabaniin
+    3+makizin+NI+Con+3Pl+VocPl+Loc: [omakizinenyiwaadig, omakizinenyiwaadog]
+    3+makizin+NI+Con+3Pl+VocPl+Obv: [omakizinenyiwaadig, omakizinenyiwaadog]
+    3+makizin+NI+Con+3Pl+VocPl+Pl: [omakizinenyiwaadig, omakizinenyiwaadog]
+    3+makizin+NI+Dim+3Obv+Pret+Loc: omakizinensiniibaniing
+    3+makizin+NI+Dim+3Obv+Pret+Obv: omakizinensiniibaniin
+    3+makizin+NI+Dim+3Obv+Pret+Pl: omakizinensiniibaniin
+    3+makizin+NI+Dim+3Obv+VocPl+Loc: [omakizinensiniidig, omakizinensiniidog]
+    3+makizin+NI+Dim+3Obv+VocPl+Obv: [omakizinensiniidig, omakizinensiniidog]
+    3+makizin+NI+Dim+3Obv+VocPl+Pl: [omakizinensiniidig, omakizinensiniidog]
+    3+makizin+NI+Dim+3Pl+Pret+Loc: omakizinensiwaabaniing
+    3+makizin+NI+Dim+3Pl+Pret+Obv: omakizinensiwaabaniin
+    3+makizin+NI+Dim+3Pl+Pret+Pl: omakizinensiwaabaniin
+    3+makizin+NI+Dim+3Pl+VocPl+Loc: [omakizinensiwaadig, omakizinensiwaadog]
+    3+makizin+NI+Dim+3Pl+VocPl+Obv: [omakizinensiwaadig, omakizinensiwaadog]
+    3+makizin+NI+Dim+3Pl+VocPl+Pl: [omakizinensiwaadig, omakizinensiwaadog]
     
     #Values from slots numbered: 1, 3, 4, 5, 6
-    1+makizin+N+Pos+Pej+1Pl+Pret: nimakizinimishinaaniban
-    1+makizin+N+Pos+Pej+1Pl+VocPl: [nimakizinimishinaanidig, nimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+21+Pret: gimakizinimishinaaniban
-    2+makizin+N+Pos+Pej+21+VocPl: [gimakizinimishinaanidig, gimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+2Pl+Pret: gimakizinimishiwaaban
-    2+makizin+N+Pos+Pej+2Pl+VocPl: [gimakizinimishiwaadig, gimakizinimishiwaadog]
-    3+makizin+N+Pos+Pej+3Obv+Pret: omakizinimishiniiban
-    3+makizin+N+Pos+Pej+3Obv+VocPl: [omakizinimishiniidig, omakizinimishiniidog]
-    3+makizin+N+Pos+Pej+3Pl+Pret: omakizinimishiwaaban
-    3+makizin+N+Pos+Pej+3Pl+VocPl: [omakizinimishiwaadig, omakizinimishiwaadog]
+    1+makizin+NI+Pos+Pej+1Pl+Pret: nimakizinimishinaaniban
+    1+makizin+NI+Pos+Pej+1Pl+VocPl: [nimakizinimishinaanidig, nimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+21+Pret: gimakizinimishinaaniban
+    2+makizin+NI+Pos+Pej+21+VocPl: [gimakizinimishinaanidig, gimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+2Pl+Pret: gimakizinimishiwaaban
+    2+makizin+NI+Pos+Pej+2Pl+VocPl: [gimakizinimishiwaadig, gimakizinimishiwaadog]
+    3+makizin+NI+Pos+Pej+3Obv+Pret: omakizinimishiniiban
+    3+makizin+NI+Pos+Pej+3Obv+VocPl: [omakizinimishiniidig, omakizinimishiniidog]
+    3+makizin+NI+Pos+Pej+3Pl+Pret: omakizinimishiwaaban
+    3+makizin+NI+Pos+Pej+3Pl+VocPl: [omakizinimishiwaadig, omakizinimishiwaadog]
     
     #Values from slots numbered: 1, 3, 4, 5, 7
-    1+makizin+N+Pos+Pej+1Pl+Loc: nimakizinimishinaaning
-    1+makizin+N+Pos+Pej+1Pl+Obv: nimakizinimishinaanin
-    1+makizin+N+Pos+Pej+1Pl+Pl: nimakizinimishinaanin
-    2+makizin+N+Pos+Pej+21+Loc: gimakizinimishinaaning
-    2+makizin+N+Pos+Pej+21+Obv: gimakizinimishinaanin
-    2+makizin+N+Pos+Pej+21+Pl: gimakizinimishinaanin
-    2+makizin+N+Pos+Pej+2Pl+Loc: gimakizinimishiwaang
-    2+makizin+N+Pos+Pej+2Pl+Obv: gimakizinimishiwaan
-    2+makizin+N+Pos+Pej+2Pl+Pl: gimakizinimishiwaan
-    3+makizin+N+Pos+Pej+3Obv+Loc: omakizinimishiniing
-    3+makizin+N+Pos+Pej+3Obv+Obv: omakizinimishiniin
-    3+makizin+N+Pos+Pej+3Obv+Pl: omakizinimishiniin
-    3+makizin+N+Pos+Pej+3Pl+Loc: omakizinimishiwaang
-    3+makizin+N+Pos+Pej+3Pl+Obv: omakizinimishiwaan
-    3+makizin+N+Pos+Pej+3Pl+Pl: omakizinimishiwaan
+    1+makizin+NI+Pos+Pej+1Pl+Loc: nimakizinimishinaaning
+    1+makizin+NI+Pos+Pej+1Pl+Obv: nimakizinimishinaanin
+    1+makizin+NI+Pos+Pej+1Pl+Pl: nimakizinimishinaanin
+    2+makizin+NI+Pos+Pej+21+Loc: gimakizinimishinaaning
+    2+makizin+NI+Pos+Pej+21+Obv: gimakizinimishinaanin
+    2+makizin+NI+Pos+Pej+21+Pl: gimakizinimishinaanin
+    2+makizin+NI+Pos+Pej+2Pl+Loc: gimakizinimishiwaang
+    2+makizin+NI+Pos+Pej+2Pl+Obv: gimakizinimishiwaan
+    2+makizin+NI+Pos+Pej+2Pl+Pl: gimakizinimishiwaan
+    3+makizin+NI+Pos+Pej+3Obv+Loc: omakizinimishiniing
+    3+makizin+NI+Pos+Pej+3Obv+Obv: omakizinimishiniin
+    3+makizin+NI+Pos+Pej+3Obv+Pl: omakizinimishiniin
+    3+makizin+NI+Pos+Pej+3Pl+Loc: omakizinimishiwaang
+    3+makizin+NI+Pos+Pej+3Pl+Obv: omakizinimishiwaan
+    3+makizin+NI+Pos+Pej+3Pl+Pl: omakizinimishiwaan
     
     #Values from slots numbered: 1, 3, 4, 6, 7
-    1+makizin+N+Pos+Pej+Pret+Loc: nimakizinimishibaniing
-    1+makizin+N+Pos+Pej+Pret+Obv: nimakizinimishibaniin
-    1+makizin+N+Pos+Pej+Pret+Pl: nimakizinimishibaniin
-    2+makizin+N+Pos+Pej+Pret+Loc: gimakizinimishibaniing
-    2+makizin+N+Pos+Pej+Pret+Obv: gimakizinimishibaniin
-    2+makizin+N+Pos+Pej+Pret+Pl: gimakizinimishibaniin
-    3+makizin+N+Pos+Pej+Pret+Loc: omakizinimishibaniing
-    3+makizin+N+Pos+Pej+Pret+Obv: omakizinimishibaniin
-    3+makizin+N+Pos+Pej+Pret+Pl: omakizinimishibaniin
-    X+makizin+N+Pos+Pej+Pret+Loc: imakizinimishibaniing
-    X+makizin+N+Pos+Pej+Pret+Obv: imakizinimishibaniin
-    X+makizin+N+Pos+Pej+Pret+Pl: imakizinimishibaniin
+    1+makizin+NI+Pos+Pej+Pret+Loc: nimakizinimishibaniing
+    1+makizin+NI+Pos+Pej+Pret+Obv: nimakizinimishibaniin
+    1+makizin+NI+Pos+Pej+Pret+Pl: nimakizinimishibaniin
+    2+makizin+NI+Pos+Pej+Pret+Loc: gimakizinimishibaniing
+    2+makizin+NI+Pos+Pej+Pret+Obv: gimakizinimishibaniin
+    2+makizin+NI+Pos+Pej+Pret+Pl: gimakizinimishibaniin
+    3+makizin+NI+Pos+Pej+Pret+Loc: omakizinimishibaniing
+    3+makizin+NI+Pos+Pej+Pret+Obv: omakizinimishibaniin
+    3+makizin+NI+Pos+Pej+Pret+Pl: omakizinimishibaniin
+    X+makizin+NI+Pos+Pej+Pret+Loc: imakizinimishibaniing
+    X+makizin+NI+Pos+Pej+Pret+Obv: imakizinimishibaniin
+    X+makizin+NI+Pos+Pej+Pret+Pl: imakizinimishibaniin
     
     #Values from slots numbered: 1, 3, 5, 6, 7
-    1+makizin+N+Pos+1Pl+Pret+Loc: nimakiziniminaanibaniing
-    1+makizin+N+Pos+1Pl+Pret+Obv: nimakiziniminaanibaniin
-    1+makizin+N+Pos+1Pl+Pret+Pl: nimakiziniminaanibaniin
-    1+makizin+N+Pos+1Pl+VocPl+Loc: [nimakiziniminaanidig, nimakiziniminaanidog]
-    1+makizin+N+Pos+1Pl+VocPl+Obv: [nimakiziniminaanidig, nimakiziniminaanidog]
-    1+makizin+N+Pos+1Pl+VocPl+Pl: [nimakiziniminaanidig, nimakiziniminaanidog]
-    2+makizin+N+Pos+21+Pret+Loc: gimakiziniminaanibaniing
-    2+makizin+N+Pos+21+Pret+Obv: gimakiziniminaanibaniin
-    2+makizin+N+Pos+21+Pret+Pl: gimakiziniminaanibaniin
-    2+makizin+N+Pos+21+VocPl+Loc: [gimakiziniminaanidig, gimakiziniminaanidog]
-    2+makizin+N+Pos+21+VocPl+Obv: [gimakiziniminaanidig, gimakiziniminaanidog]
-    2+makizin+N+Pos+21+VocPl+Pl: [gimakiziniminaanidig, gimakiziniminaanidog]
-    2+makizin+N+Pos+2Pl+Pret+Loc: gimakizinimiwaabaniing
-    2+makizin+N+Pos+2Pl+Pret+Obv: gimakizinimiwaabaniin
-    2+makizin+N+Pos+2Pl+Pret+Pl: gimakizinimiwaabaniin
-    2+makizin+N+Pos+2Pl+VocPl+Loc: [gimakizinimiwaadig, gimakizinimiwaadog]
-    2+makizin+N+Pos+2Pl+VocPl+Obv: [gimakizinimiwaadig, gimakizinimiwaadog]
-    2+makizin+N+Pos+2Pl+VocPl+Pl: [gimakizinimiwaadig, gimakizinimiwaadog]
-    3+makizin+N+Pos+3Obv+Pret+Loc: omakiziniminiibaniing
-    3+makizin+N+Pos+3Obv+Pret+Obv: omakiziniminiibaniin
-    3+makizin+N+Pos+3Obv+Pret+Pl: omakiziniminiibaniin
-    3+makizin+N+Pos+3Obv+VocPl+Loc: [omakiziniminiidig, omakiziniminiidog]
-    3+makizin+N+Pos+3Obv+VocPl+Obv: [omakiziniminiidig, omakiziniminiidog]
-    3+makizin+N+Pos+3Obv+VocPl+Pl: [omakiziniminiidig, omakiziniminiidog]
-    3+makizin+N+Pos+3Pl+Pret+Loc: omakizinimiwaabaniing
-    3+makizin+N+Pos+3Pl+Pret+Obv: omakizinimiwaabaniin
-    3+makizin+N+Pos+3Pl+Pret+Pl: omakizinimiwaabaniin
-    3+makizin+N+Pos+3Pl+VocPl+Loc: [omakizinimiwaadig, omakizinimiwaadog]
-    3+makizin+N+Pos+3Pl+VocPl+Obv: [omakizinimiwaadig, omakizinimiwaadog]
-    3+makizin+N+Pos+3Pl+VocPl+Pl: [omakizinimiwaadig, omakizinimiwaadog]
+    1+makizin+NI+Pos+1Pl+Pret+Loc: nimakiziniminaanibaniing
+    1+makizin+NI+Pos+1Pl+Pret+Obv: nimakiziniminaanibaniin
+    1+makizin+NI+Pos+1Pl+Pret+Pl: nimakiziniminaanibaniin
+    1+makizin+NI+Pos+1Pl+VocPl+Loc: [nimakiziniminaanidig, nimakiziniminaanidog]
+    1+makizin+NI+Pos+1Pl+VocPl+Obv: [nimakiziniminaanidig, nimakiziniminaanidog]
+    1+makizin+NI+Pos+1Pl+VocPl+Pl: [nimakiziniminaanidig, nimakiziniminaanidog]
+    2+makizin+NI+Pos+21+Pret+Loc: gimakiziniminaanibaniing
+    2+makizin+NI+Pos+21+Pret+Obv: gimakiziniminaanibaniin
+    2+makizin+NI+Pos+21+Pret+Pl: gimakiziniminaanibaniin
+    2+makizin+NI+Pos+21+VocPl+Loc: [gimakiziniminaanidig, gimakiziniminaanidog]
+    2+makizin+NI+Pos+21+VocPl+Obv: [gimakiziniminaanidig, gimakiziniminaanidog]
+    2+makizin+NI+Pos+21+VocPl+Pl: [gimakiziniminaanidig, gimakiziniminaanidog]
+    2+makizin+NI+Pos+2Pl+Pret+Loc: gimakizinimiwaabaniing
+    2+makizin+NI+Pos+2Pl+Pret+Obv: gimakizinimiwaabaniin
+    2+makizin+NI+Pos+2Pl+Pret+Pl: gimakizinimiwaabaniin
+    2+makizin+NI+Pos+2Pl+VocPl+Loc: [gimakizinimiwaadig, gimakizinimiwaadog]
+    2+makizin+NI+Pos+2Pl+VocPl+Obv: [gimakizinimiwaadig, gimakizinimiwaadog]
+    2+makizin+NI+Pos+2Pl+VocPl+Pl: [gimakizinimiwaadig, gimakizinimiwaadog]
+    3+makizin+NI+Pos+3Obv+Pret+Loc: omakiziniminiibaniing
+    3+makizin+NI+Pos+3Obv+Pret+Obv: omakiziniminiibaniin
+    3+makizin+NI+Pos+3Obv+Pret+Pl: omakiziniminiibaniin
+    3+makizin+NI+Pos+3Obv+VocPl+Loc: [omakiziniminiidig, omakiziniminiidog]
+    3+makizin+NI+Pos+3Obv+VocPl+Obv: [omakiziniminiidig, omakiziniminiidog]
+    3+makizin+NI+Pos+3Obv+VocPl+Pl: [omakiziniminiidig, omakiziniminiidog]
+    3+makizin+NI+Pos+3Pl+Pret+Loc: omakizinimiwaabaniing
+    3+makizin+NI+Pos+3Pl+Pret+Obv: omakizinimiwaabaniin
+    3+makizin+NI+Pos+3Pl+Pret+Pl: omakizinimiwaabaniin
+    3+makizin+NI+Pos+3Pl+VocPl+Loc: [omakizinimiwaadig, omakizinimiwaadog]
+    3+makizin+NI+Pos+3Pl+VocPl+Obv: [omakizinimiwaadig, omakizinimiwaadog]
+    3+makizin+NI+Pos+3Pl+VocPl+Pl: [omakizinimiwaadig, omakizinimiwaadog]
     
     #Values from slots numbered: 1, 4, 5, 6, 7
-    1+makizin+N+Pej+1Pl+Pret+Loc: nimakizinishinaanibaniing
-    1+makizin+N+Pej+1Pl+Pret+Obv: nimakizinishinaanibaniin
-    1+makizin+N+Pej+1Pl+Pret+Pl: nimakizinishinaanibaniin
-    1+makizin+N+Pej+1Pl+VocPl+Loc: [nimakizinishinaanidig, nimakizinishinaanidog]
-    1+makizin+N+Pej+1Pl+VocPl+Obv: [nimakizinishinaanidig, nimakizinishinaanidog]
-    1+makizin+N+Pej+1Pl+VocPl+Pl: [nimakizinishinaanidig, nimakizinishinaanidog]
-    2+makizin+N+Pej+21+Pret+Loc: gimakizinishinaanibaniing
-    2+makizin+N+Pej+21+Pret+Obv: gimakizinishinaanibaniin
-    2+makizin+N+Pej+21+Pret+Pl: gimakizinishinaanibaniin
-    2+makizin+N+Pej+21+VocPl+Loc: [gimakizinishinaanidig, gimakizinishinaanidog]
-    2+makizin+N+Pej+21+VocPl+Obv: [gimakizinishinaanidig, gimakizinishinaanidog]
-    2+makizin+N+Pej+21+VocPl+Pl: [gimakizinishinaanidig, gimakizinishinaanidog]
-    2+makizin+N+Pej+2Pl+Pret+Loc: gimakizinishiwaabaniing
-    2+makizin+N+Pej+2Pl+Pret+Obv: gimakizinishiwaabaniin
-    2+makizin+N+Pej+2Pl+Pret+Pl: gimakizinishiwaabaniin
-    2+makizin+N+Pej+2Pl+VocPl+Loc: [gimakizinishiwaadig, gimakizinishiwaadog]
-    2+makizin+N+Pej+2Pl+VocPl+Obv: [gimakizinishiwaadig, gimakizinishiwaadog]
-    2+makizin+N+Pej+2Pl+VocPl+Pl: [gimakizinishiwaadig, gimakizinishiwaadog]
-    3+makizin+N+Pej+3Obv+Pret+Loc: omakizinishiniibaniing
-    3+makizin+N+Pej+3Obv+Pret+Obv: omakizinishiniibaniin
-    3+makizin+N+Pej+3Obv+Pret+Pl: omakizinishiniibaniin
-    3+makizin+N+Pej+3Obv+VocPl+Loc: [omakizinishiniidig, omakizinishiniidog]
-    3+makizin+N+Pej+3Obv+VocPl+Obv: [omakizinishiniidig, omakizinishiniidog]
-    3+makizin+N+Pej+3Obv+VocPl+Pl: [omakizinishiniidig, omakizinishiniidog]
-    3+makizin+N+Pej+3Pl+Pret+Loc: omakizinishiwaabaniing
-    3+makizin+N+Pej+3Pl+Pret+Obv: omakizinishiwaabaniin
-    3+makizin+N+Pej+3Pl+Pret+Pl: omakizinishiwaabaniin
-    3+makizin+N+Pej+3Pl+VocPl+Loc: [omakizinishiwaadig, omakizinishiwaadog]
-    3+makizin+N+Pej+3Pl+VocPl+Obv: [omakizinishiwaadig, omakizinishiwaadog]
-    3+makizin+N+Pej+3Pl+VocPl+Pl: [omakizinishiwaadig, omakizinishiwaadog]
+    1+makizin+NI+Pej+1Pl+Pret+Loc: nimakizinishinaanibaniing
+    1+makizin+NI+Pej+1Pl+Pret+Obv: nimakizinishinaanibaniin
+    1+makizin+NI+Pej+1Pl+Pret+Pl: nimakizinishinaanibaniin
+    1+makizin+NI+Pej+1Pl+VocPl+Loc: [nimakizinishinaanidig, nimakizinishinaanidog]
+    1+makizin+NI+Pej+1Pl+VocPl+Obv: [nimakizinishinaanidig, nimakizinishinaanidog]
+    1+makizin+NI+Pej+1Pl+VocPl+Pl: [nimakizinishinaanidig, nimakizinishinaanidog]
+    2+makizin+NI+Pej+21+Pret+Loc: gimakizinishinaanibaniing
+    2+makizin+NI+Pej+21+Pret+Obv: gimakizinishinaanibaniin
+    2+makizin+NI+Pej+21+Pret+Pl: gimakizinishinaanibaniin
+    2+makizin+NI+Pej+21+VocPl+Loc: [gimakizinishinaanidig, gimakizinishinaanidog]
+    2+makizin+NI+Pej+21+VocPl+Obv: [gimakizinishinaanidig, gimakizinishinaanidog]
+    2+makizin+NI+Pej+21+VocPl+Pl: [gimakizinishinaanidig, gimakizinishinaanidog]
+    2+makizin+NI+Pej+2Pl+Pret+Loc: gimakizinishiwaabaniing
+    2+makizin+NI+Pej+2Pl+Pret+Obv: gimakizinishiwaabaniin
+    2+makizin+NI+Pej+2Pl+Pret+Pl: gimakizinishiwaabaniin
+    2+makizin+NI+Pej+2Pl+VocPl+Loc: [gimakizinishiwaadig, gimakizinishiwaadog]
+    2+makizin+NI+Pej+2Pl+VocPl+Obv: [gimakizinishiwaadig, gimakizinishiwaadog]
+    2+makizin+NI+Pej+2Pl+VocPl+Pl: [gimakizinishiwaadig, gimakizinishiwaadog]
+    3+makizin+NI+Pej+3Obv+Pret+Loc: omakizinishiniibaniing
+    3+makizin+NI+Pej+3Obv+Pret+Obv: omakizinishiniibaniin
+    3+makizin+NI+Pej+3Obv+Pret+Pl: omakizinishiniibaniin
+    3+makizin+NI+Pej+3Obv+VocPl+Loc: [omakizinishiniidig, omakizinishiniidog]
+    3+makizin+NI+Pej+3Obv+VocPl+Obv: [omakizinishiniidig, omakizinishiniidog]
+    3+makizin+NI+Pej+3Obv+VocPl+Pl: [omakizinishiniidig, omakizinishiniidog]
+    3+makizin+NI+Pej+3Pl+Pret+Loc: omakizinishiwaabaniing
+    3+makizin+NI+Pej+3Pl+Pret+Obv: omakizinishiwaabaniin
+    3+makizin+NI+Pej+3Pl+Pret+Pl: omakizinishiwaabaniin
+    3+makizin+NI+Pej+3Pl+VocPl+Loc: [omakizinishiwaadig, omakizinishiwaadog]
+    3+makizin+NI+Pej+3Pl+VocPl+Obv: [omakizinishiwaadig, omakizinishiwaadog]
+    3+makizin+NI+Pej+3Pl+VocPl+Pl: [omakizinishiwaadig, omakizinishiwaadog]
     
     
     
@@ -1133,301 +1133,301 @@ Tests:
     
     
     #Values from slots numbered: 1, 2, 3, 4, 5, 6
-    1+makizin+N+Con+Pos+Pej+1Pl+Pret: nimakizinenyimishinaaniban
-    1+makizin+N+Con+Pos+Pej+1Pl+VocPl: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
-    1+makizin+N+Dim+Pos+Pej+1Pl+Pret: nimakizinensimishinaaniban
-    1+makizin+N+Dim+Pos+Pej+1Pl+VocPl: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+21+Pret: gimakizinenyimishinaaniban
-    2+makizin+N+Con+Pos+Pej+21+VocPl: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+2Pl+Pret: gimakizinenyimishiwaaban
-    2+makizin+N+Con+Pos+Pej+2Pl+VocPl: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
-    2+makizin+N+Dim+Pos+Pej+21+Pret: gimakizinensimishinaaniban
-    2+makizin+N+Dim+Pos+Pej+21+VocPl: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
-    2+makizin+N+Dim+Pos+Pej+2Pl+Pret: gimakizinensimishiwaaban
-    2+makizin+N+Dim+Pos+Pej+2Pl+VocPl: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
-    3+makizin+N+Con+Pos+Pej+3Obv+Pret: omakizinenyimishiniiban
-    3+makizin+N+Con+Pos+Pej+3Obv+VocPl: [omakizinenyimishiniidig, omakizinenyimishiniidog]
-    3+makizin+N+Con+Pos+Pej+3Pl+Pret: omakizinenyimishiwaaban
-    3+makizin+N+Con+Pos+Pej+3Pl+VocPl: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
-    3+makizin+N+Dim+Pos+Pej+3Obv+Pret: omakizinensimishiniiban
-    3+makizin+N+Dim+Pos+Pej+3Obv+VocPl: [omakizinensimishiniidig, omakizinensimishiniidog]
-    3+makizin+N+Dim+Pos+Pej+3Pl+Pret: omakizinensimishiwaaban
-    3+makizin+N+Dim+Pos+Pej+3Pl+VocPl: [omakizinensimishiwaadig, omakizinensimishiwaadog]
+    1+makizin+NI+Con+Pos+Pej+1Pl+Pret: nimakizinenyimishinaaniban
+    1+makizin+NI+Con+Pos+Pej+1Pl+VocPl: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Pret: nimakizinensimishinaaniban
+    1+makizin+NI+Dim+Pos+Pej+1Pl+VocPl: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+21+Pret: gimakizinenyimishinaaniban
+    2+makizin+NI+Con+Pos+Pej+21+VocPl: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+2Pl+Pret: gimakizinenyimishiwaaban
+    2+makizin+NI+Con+Pos+Pej+2Pl+VocPl: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
+    2+makizin+NI+Dim+Pos+Pej+21+Pret: gimakizinensimishinaaniban
+    2+makizin+NI+Dim+Pos+Pej+21+VocPl: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Pret: gimakizinensimishiwaaban
+    2+makizin+NI+Dim+Pos+Pej+2Pl+VocPl: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
+    3+makizin+NI+Con+Pos+Pej+3Obv+Pret: omakizinenyimishiniiban
+    3+makizin+NI+Con+Pos+Pej+3Obv+VocPl: [omakizinenyimishiniidig, omakizinenyimishiniidog]
+    3+makizin+NI+Con+Pos+Pej+3Pl+Pret: omakizinenyimishiwaaban
+    3+makizin+NI+Con+Pos+Pej+3Pl+VocPl: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Pret: omakizinensimishiniiban
+    3+makizin+NI+Dim+Pos+Pej+3Obv+VocPl: [omakizinensimishiniidig, omakizinensimishiniidog]
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Pret: omakizinensimishiwaaban
+    3+makizin+NI+Dim+Pos+Pej+3Pl+VocPl: [omakizinensimishiwaadig, omakizinensimishiwaadog]
     
     #Values from slots numbered: 1, 2, 3, 4, 5, 7
-    1+makizin+N+Con+Pos+Pej+1Pl+Loc: nimakizinenyimishinaaning
-    1+makizin+N+Con+Pos+Pej+1Pl+Obv: nimakizinenyimishinaanin
-    1+makizin+N+Con+Pos+Pej+1Pl+Pl: nimakizinenyimishinaanin
-    1+makizin+N+Dim+Pos+Pej+1Pl+Loc: nimakizinensimishinaaning
-    1+makizin+N+Dim+Pos+Pej+1Pl+Obv: nimakizinensimishinaanin
-    1+makizin+N+Dim+Pos+Pej+1Pl+Pl: nimakizinensimishinaanin
-    2+makizin+N+Con+Pos+Pej+21+Loc: gimakizinenyimishinaaning
-    2+makizin+N+Con+Pos+Pej+21+Obv: gimakizinenyimishinaanin
-    2+makizin+N+Con+Pos+Pej+21+Pl: gimakizinenyimishinaanin
-    2+makizin+N+Con+Pos+Pej+2Pl+Loc: gimakizinenyimishiwaang
-    2+makizin+N+Con+Pos+Pej+2Pl+Obv: gimakizinenyimishiwaan
-    2+makizin+N+Con+Pos+Pej+2Pl+Pl: gimakizinenyimishiwaan
-    2+makizin+N+Dim+Pos+Pej+21+Loc: gimakizinensimishinaaning
-    2+makizin+N+Dim+Pos+Pej+21+Obv: gimakizinensimishinaanin
-    2+makizin+N+Dim+Pos+Pej+21+Pl: gimakizinensimishinaanin
-    2+makizin+N+Dim+Pos+Pej+2Pl+Loc: gimakizinensimishiwaang
-    2+makizin+N+Dim+Pos+Pej+2Pl+Obv: gimakizinensimishiwaan
-    2+makizin+N+Dim+Pos+Pej+2Pl+Pl: gimakizinensimishiwaan
-    3+makizin+N+Con+Pos+Pej+3Obv+Loc: omakizinenyimishiniing
-    3+makizin+N+Con+Pos+Pej+3Obv+Obv: omakizinenyimishiniin
-    3+makizin+N+Con+Pos+Pej+3Obv+Pl: omakizinenyimishiniin
-    3+makizin+N+Con+Pos+Pej+3Pl+Loc: omakizinenyimishiwaang
-    3+makizin+N+Con+Pos+Pej+3Pl+Obv: omakizinenyimishiwaan
-    3+makizin+N+Con+Pos+Pej+3Pl+Pl: omakizinenyimishiwaan
-    3+makizin+N+Dim+Pos+Pej+3Obv+Loc: omakizinensimishiniing
-    3+makizin+N+Dim+Pos+Pej+3Obv+Obv: omakizinensimishiniin
-    3+makizin+N+Dim+Pos+Pej+3Obv+Pl: omakizinensimishiniin
-    3+makizin+N+Dim+Pos+Pej+3Pl+Loc: omakizinensimishiwaang
-    3+makizin+N+Dim+Pos+Pej+3Pl+Obv: omakizinensimishiwaan
-    3+makizin+N+Dim+Pos+Pej+3Pl+Pl: omakizinensimishiwaan
+    1+makizin+NI+Con+Pos+Pej+1Pl+Loc: nimakizinenyimishinaaning
+    1+makizin+NI+Con+Pos+Pej+1Pl+Obv: nimakizinenyimishinaanin
+    1+makizin+NI+Con+Pos+Pej+1Pl+Pl: nimakizinenyimishinaanin
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Loc: nimakizinensimishinaaning
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Obv: nimakizinensimishinaanin
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Pl: nimakizinensimishinaanin
+    2+makizin+NI+Con+Pos+Pej+21+Loc: gimakizinenyimishinaaning
+    2+makizin+NI+Con+Pos+Pej+21+Obv: gimakizinenyimishinaanin
+    2+makizin+NI+Con+Pos+Pej+21+Pl: gimakizinenyimishinaanin
+    2+makizin+NI+Con+Pos+Pej+2Pl+Loc: gimakizinenyimishiwaang
+    2+makizin+NI+Con+Pos+Pej+2Pl+Obv: gimakizinenyimishiwaan
+    2+makizin+NI+Con+Pos+Pej+2Pl+Pl: gimakizinenyimishiwaan
+    2+makizin+NI+Dim+Pos+Pej+21+Loc: gimakizinensimishinaaning
+    2+makizin+NI+Dim+Pos+Pej+21+Obv: gimakizinensimishinaanin
+    2+makizin+NI+Dim+Pos+Pej+21+Pl: gimakizinensimishinaanin
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Loc: gimakizinensimishiwaang
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Obv: gimakizinensimishiwaan
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Pl: gimakizinensimishiwaan
+    3+makizin+NI+Con+Pos+Pej+3Obv+Loc: omakizinenyimishiniing
+    3+makizin+NI+Con+Pos+Pej+3Obv+Obv: omakizinenyimishiniin
+    3+makizin+NI+Con+Pos+Pej+3Obv+Pl: omakizinenyimishiniin
+    3+makizin+NI+Con+Pos+Pej+3Pl+Loc: omakizinenyimishiwaang
+    3+makizin+NI+Con+Pos+Pej+3Pl+Obv: omakizinenyimishiwaan
+    3+makizin+NI+Con+Pos+Pej+3Pl+Pl: omakizinenyimishiwaan
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Loc: omakizinensimishiniing
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Obv: omakizinensimishiniin
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Pl: omakizinensimishiniin
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Loc: omakizinensimishiwaang
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Obv: omakizinensimishiwaan
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Pl: omakizinensimishiwaan
     
     #Values from slots numbered: 1, 2, 3, 4, 6, 7
-    1+makizin+N+Con+Pos+Pej+Pret+Loc: nimakizinenyimishibaniing
-    1+makizin+N+Con+Pos+Pej+Pret+Obv: nimakizinenyimishibaniin
-    1+makizin+N+Con+Pos+Pej+Pret+Pl: nimakizinenyimishibaniin
-    1+makizin+N+Dim+Pos+Pej+Pret+Loc: nimakizinensimishibaniing
-    1+makizin+N+Dim+Pos+Pej+Pret+Obv: nimakizinensimishibaniin
-    1+makizin+N+Dim+Pos+Pej+Pret+Pl: nimakizinensimishibaniin
-    2+makizin+N+Con+Pos+Pej+Pret+Loc: gimakizinenyimishibaniing
-    2+makizin+N+Con+Pos+Pej+Pret+Obv: gimakizinenyimishibaniin
-    2+makizin+N+Con+Pos+Pej+Pret+Pl: gimakizinenyimishibaniin
-    2+makizin+N+Dim+Pos+Pej+Pret+Loc: gimakizinensimishibaniing
-    2+makizin+N+Dim+Pos+Pej+Pret+Obv: gimakizinensimishibaniin
-    2+makizin+N+Dim+Pos+Pej+Pret+Pl: gimakizinensimishibaniin
-    3+makizin+N+Con+Pos+Pej+Pret+Loc: omakizinenyimishibaniing
-    3+makizin+N+Con+Pos+Pej+Pret+Obv: omakizinenyimishibaniin
-    3+makizin+N+Con+Pos+Pej+Pret+Pl: omakizinenyimishibaniin
-    3+makizin+N+Dim+Pos+Pej+Pret+Loc: omakizinensimishibaniing
-    3+makizin+N+Dim+Pos+Pej+Pret+Obv: omakizinensimishibaniin
-    3+makizin+N+Dim+Pos+Pej+Pret+Pl: omakizinensimishibaniin
-    X+makizin+N+Con+Pos+Pej+Pret+Loc: imakizinenyimishibaniing
-    X+makizin+N+Con+Pos+Pej+Pret+Obv: imakizinenyimishibaniin
-    X+makizin+N+Con+Pos+Pej+Pret+Pl: imakizinenyimishibaniin
-    X+makizin+N+Dim+Pos+Pej+Pret+Loc: imakizinensimishibaniing
-    X+makizin+N+Dim+Pos+Pej+Pret+Obv: imakizinensimishibaniin
-    X+makizin+N+Dim+Pos+Pej+Pret+Pl: imakizinensimishibaniin
+    1+makizin+NI+Con+Pos+Pej+Pret+Loc: nimakizinenyimishibaniing
+    1+makizin+NI+Con+Pos+Pej+Pret+Obv: nimakizinenyimishibaniin
+    1+makizin+NI+Con+Pos+Pej+Pret+Pl: nimakizinenyimishibaniin
+    1+makizin+NI+Dim+Pos+Pej+Pret+Loc: nimakizinensimishibaniing
+    1+makizin+NI+Dim+Pos+Pej+Pret+Obv: nimakizinensimishibaniin
+    1+makizin+NI+Dim+Pos+Pej+Pret+Pl: nimakizinensimishibaniin
+    2+makizin+NI+Con+Pos+Pej+Pret+Loc: gimakizinenyimishibaniing
+    2+makizin+NI+Con+Pos+Pej+Pret+Obv: gimakizinenyimishibaniin
+    2+makizin+NI+Con+Pos+Pej+Pret+Pl: gimakizinenyimishibaniin
+    2+makizin+NI+Dim+Pos+Pej+Pret+Loc: gimakizinensimishibaniing
+    2+makizin+NI+Dim+Pos+Pej+Pret+Obv: gimakizinensimishibaniin
+    2+makizin+NI+Dim+Pos+Pej+Pret+Pl: gimakizinensimishibaniin
+    3+makizin+NI+Con+Pos+Pej+Pret+Loc: omakizinenyimishibaniing
+    3+makizin+NI+Con+Pos+Pej+Pret+Obv: omakizinenyimishibaniin
+    3+makizin+NI+Con+Pos+Pej+Pret+Pl: omakizinenyimishibaniin
+    3+makizin+NI+Dim+Pos+Pej+Pret+Loc: omakizinensimishibaniing
+    3+makizin+NI+Dim+Pos+Pej+Pret+Obv: omakizinensimishibaniin
+    3+makizin+NI+Dim+Pos+Pej+Pret+Pl: omakizinensimishibaniin
+    X+makizin+NI+Con+Pos+Pej+Pret+Loc: imakizinenyimishibaniing
+    X+makizin+NI+Con+Pos+Pej+Pret+Obv: imakizinenyimishibaniin
+    X+makizin+NI+Con+Pos+Pej+Pret+Pl: imakizinenyimishibaniin
+    X+makizin+NI+Dim+Pos+Pej+Pret+Loc: imakizinensimishibaniing
+    X+makizin+NI+Dim+Pos+Pej+Pret+Obv: imakizinensimishibaniin
+    X+makizin+NI+Dim+Pos+Pej+Pret+Pl: imakizinensimishibaniin
     
     #Values from slots numbered: 1, 2, 3, 5, 6, 7
-    1+makizin+N+Con+Pos+1Pl+Pret+Loc: nimakizinenyiminaanibaniing
-    1+makizin+N+Con+Pos+1Pl+Pret+Obv: nimakizinenyiminaanibaniin
-    1+makizin+N+Con+Pos+1Pl+Pret+Pl: nimakizinenyiminaanibaniin
-    1+makizin+N+Con+Pos+1Pl+VocPl+Loc: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
-    1+makizin+N+Con+Pos+1Pl+VocPl+Obv: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
-    1+makizin+N+Con+Pos+1Pl+VocPl+Pl: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
-    1+makizin+N+Dim+Pos+1Pl+Pret+Loc: nimakizinensiminaanibaniing
-    1+makizin+N+Dim+Pos+1Pl+Pret+Obv: nimakizinensiminaanibaniin
-    1+makizin+N+Dim+Pos+1Pl+Pret+Pl: nimakizinensiminaanibaniin
-    1+makizin+N+Dim+Pos+1Pl+VocPl+Loc: [nimakizinensiminaanidig, nimakizinensiminaanidog]
-    1+makizin+N+Dim+Pos+1Pl+VocPl+Obv: [nimakizinensiminaanidig, nimakizinensiminaanidog]
-    1+makizin+N+Dim+Pos+1Pl+VocPl+Pl: [nimakizinensiminaanidig, nimakizinensiminaanidog]
-    2+makizin+N+Con+Pos+21+Pret+Loc: gimakizinenyiminaanibaniing
-    2+makizin+N+Con+Pos+21+Pret+Obv: gimakizinenyiminaanibaniin
-    2+makizin+N+Con+Pos+21+Pret+Pl: gimakizinenyiminaanibaniin
-    2+makizin+N+Con+Pos+21+VocPl+Loc: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
-    2+makizin+N+Con+Pos+21+VocPl+Obv: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
-    2+makizin+N+Con+Pos+21+VocPl+Pl: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
-    2+makizin+N+Con+Pos+2Pl+Pret+Loc: gimakizinenyimiwaabaniing
-    2+makizin+N+Con+Pos+2Pl+Pret+Obv: gimakizinenyimiwaabaniin
-    2+makizin+N+Con+Pos+2Pl+Pret+Pl: gimakizinenyimiwaabaniin
-    2+makizin+N+Con+Pos+2Pl+VocPl+Loc: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
-    2+makizin+N+Con+Pos+2Pl+VocPl+Obv: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
-    2+makizin+N+Con+Pos+2Pl+VocPl+Pl: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
-    2+makizin+N+Dim+Pos+21+Pret+Loc: gimakizinensiminaanibaniing
-    2+makizin+N+Dim+Pos+21+Pret+Obv: gimakizinensiminaanibaniin
-    2+makizin+N+Dim+Pos+21+Pret+Pl: gimakizinensiminaanibaniin
-    2+makizin+N+Dim+Pos+21+VocPl+Loc: [gimakizinensiminaanidig, gimakizinensiminaanidog]
-    2+makizin+N+Dim+Pos+21+VocPl+Obv: [gimakizinensiminaanidig, gimakizinensiminaanidog]
-    2+makizin+N+Dim+Pos+21+VocPl+Pl: [gimakizinensiminaanidig, gimakizinensiminaanidog]
-    2+makizin+N+Dim+Pos+2Pl+Pret+Loc: gimakizinensimiwaabaniing
-    2+makizin+N+Dim+Pos+2Pl+Pret+Obv: gimakizinensimiwaabaniin
-    2+makizin+N+Dim+Pos+2Pl+Pret+Pl: gimakizinensimiwaabaniin
-    2+makizin+N+Dim+Pos+2Pl+VocPl+Loc: [gimakizinensimiwaadig, gimakizinensimiwaadog]
-    2+makizin+N+Dim+Pos+2Pl+VocPl+Obv: [gimakizinensimiwaadig, gimakizinensimiwaadog]
-    2+makizin+N+Dim+Pos+2Pl+VocPl+Pl: [gimakizinensimiwaadig, gimakizinensimiwaadog]
-    3+makizin+N+Con+Pos+3Obv+Pret+Loc: omakizinenyiminiibaniing
-    3+makizin+N+Con+Pos+3Obv+Pret+Obv: omakizinenyiminiibaniin
-    3+makizin+N+Con+Pos+3Obv+Pret+Pl: omakizinenyiminiibaniin
-    3+makizin+N+Con+Pos+3Obv+VocPl+Loc: [omakizinenyiminiidig, omakizinenyiminiidog]
-    3+makizin+N+Con+Pos+3Obv+VocPl+Obv: [omakizinenyiminiidig, omakizinenyiminiidog]
-    3+makizin+N+Con+Pos+3Obv+VocPl+Pl: [omakizinenyiminiidig, omakizinenyiminiidog]
-    3+makizin+N+Con+Pos+3Pl+Pret+Loc: omakizinenyimiwaabaniing
-    3+makizin+N+Con+Pos+3Pl+Pret+Obv: omakizinenyimiwaabaniin
-    3+makizin+N+Con+Pos+3Pl+Pret+Pl: omakizinenyimiwaabaniin
-    3+makizin+N+Con+Pos+3Pl+VocPl+Loc: [omakizinenyimiwaadig, omakizinenyimiwaadog]
-    3+makizin+N+Con+Pos+3Pl+VocPl+Obv: [omakizinenyimiwaadig, omakizinenyimiwaadog]
-    3+makizin+N+Con+Pos+3Pl+VocPl+Pl: [omakizinenyimiwaadig, omakizinenyimiwaadog]
-    3+makizin+N+Dim+Pos+3Obv+Pret+Loc: omakizinensiminiibaniing
-    3+makizin+N+Dim+Pos+3Obv+Pret+Obv: omakizinensiminiibaniin
-    3+makizin+N+Dim+Pos+3Obv+Pret+Pl: omakizinensiminiibaniin
-    3+makizin+N+Dim+Pos+3Obv+VocPl+Loc: [omakizinensiminiidig, omakizinensiminiidog]
-    3+makizin+N+Dim+Pos+3Obv+VocPl+Obv: [omakizinensiminiidig, omakizinensiminiidog]
-    3+makizin+N+Dim+Pos+3Obv+VocPl+Pl: [omakizinensiminiidig, omakizinensiminiidog]
-    3+makizin+N+Dim+Pos+3Pl+Pret+Loc: omakizinensimiwaabaniing
-    3+makizin+N+Dim+Pos+3Pl+Pret+Obv: omakizinensimiwaabaniin
-    3+makizin+N+Dim+Pos+3Pl+Pret+Pl: omakizinensimiwaabaniin
-    3+makizin+N+Dim+Pos+3Pl+VocPl+Loc: [omakizinensimiwaadig, omakizinensimiwaadog]
-    3+makizin+N+Dim+Pos+3Pl+VocPl+Obv: [omakizinensimiwaadig, omakizinensimiwaadog]
-    3+makizin+N+Dim+Pos+3Pl+VocPl+Pl: [omakizinensimiwaadig, omakizinensimiwaadog]
+    1+makizin+NI+Con+Pos+1Pl+Pret+Loc: nimakizinenyiminaanibaniing
+    1+makizin+NI+Con+Pos+1Pl+Pret+Obv: nimakizinenyiminaanibaniin
+    1+makizin+NI+Con+Pos+1Pl+Pret+Pl: nimakizinenyiminaanibaniin
+    1+makizin+NI+Con+Pos+1Pl+VocPl+Loc: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
+    1+makizin+NI+Con+Pos+1Pl+VocPl+Obv: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
+    1+makizin+NI+Con+Pos+1Pl+VocPl+Pl: [nimakizinenyiminaanidig, nimakizinenyiminaanidog]
+    1+makizin+NI+Dim+Pos+1Pl+Pret+Loc: nimakizinensiminaanibaniing
+    1+makizin+NI+Dim+Pos+1Pl+Pret+Obv: nimakizinensiminaanibaniin
+    1+makizin+NI+Dim+Pos+1Pl+Pret+Pl: nimakizinensiminaanibaniin
+    1+makizin+NI+Dim+Pos+1Pl+VocPl+Loc: [nimakizinensiminaanidig, nimakizinensiminaanidog]
+    1+makizin+NI+Dim+Pos+1Pl+VocPl+Obv: [nimakizinensiminaanidig, nimakizinensiminaanidog]
+    1+makizin+NI+Dim+Pos+1Pl+VocPl+Pl: [nimakizinensiminaanidig, nimakizinensiminaanidog]
+    2+makizin+NI+Con+Pos+21+Pret+Loc: gimakizinenyiminaanibaniing
+    2+makizin+NI+Con+Pos+21+Pret+Obv: gimakizinenyiminaanibaniin
+    2+makizin+NI+Con+Pos+21+Pret+Pl: gimakizinenyiminaanibaniin
+    2+makizin+NI+Con+Pos+21+VocPl+Loc: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
+    2+makizin+NI+Con+Pos+21+VocPl+Obv: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
+    2+makizin+NI+Con+Pos+21+VocPl+Pl: [gimakizinenyiminaanidig, gimakizinenyiminaanidog]
+    2+makizin+NI+Con+Pos+2Pl+Pret+Loc: gimakizinenyimiwaabaniing
+    2+makizin+NI+Con+Pos+2Pl+Pret+Obv: gimakizinenyimiwaabaniin
+    2+makizin+NI+Con+Pos+2Pl+Pret+Pl: gimakizinenyimiwaabaniin
+    2+makizin+NI+Con+Pos+2Pl+VocPl+Loc: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
+    2+makizin+NI+Con+Pos+2Pl+VocPl+Obv: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
+    2+makizin+NI+Con+Pos+2Pl+VocPl+Pl: [gimakizinenyimiwaadig, gimakizinenyimiwaadog]
+    2+makizin+NI+Dim+Pos+21+Pret+Loc: gimakizinensiminaanibaniing
+    2+makizin+NI+Dim+Pos+21+Pret+Obv: gimakizinensiminaanibaniin
+    2+makizin+NI+Dim+Pos+21+Pret+Pl: gimakizinensiminaanibaniin
+    2+makizin+NI+Dim+Pos+21+VocPl+Loc: [gimakizinensiminaanidig, gimakizinensiminaanidog]
+    2+makizin+NI+Dim+Pos+21+VocPl+Obv: [gimakizinensiminaanidig, gimakizinensiminaanidog]
+    2+makizin+NI+Dim+Pos+21+VocPl+Pl: [gimakizinensiminaanidig, gimakizinensiminaanidog]
+    2+makizin+NI+Dim+Pos+2Pl+Pret+Loc: gimakizinensimiwaabaniing
+    2+makizin+NI+Dim+Pos+2Pl+Pret+Obv: gimakizinensimiwaabaniin
+    2+makizin+NI+Dim+Pos+2Pl+Pret+Pl: gimakizinensimiwaabaniin
+    2+makizin+NI+Dim+Pos+2Pl+VocPl+Loc: [gimakizinensimiwaadig, gimakizinensimiwaadog]
+    2+makizin+NI+Dim+Pos+2Pl+VocPl+Obv: [gimakizinensimiwaadig, gimakizinensimiwaadog]
+    2+makizin+NI+Dim+Pos+2Pl+VocPl+Pl: [gimakizinensimiwaadig, gimakizinensimiwaadog]
+    3+makizin+NI+Con+Pos+3Obv+Pret+Loc: omakizinenyiminiibaniing
+    3+makizin+NI+Con+Pos+3Obv+Pret+Obv: omakizinenyiminiibaniin
+    3+makizin+NI+Con+Pos+3Obv+Pret+Pl: omakizinenyiminiibaniin
+    3+makizin+NI+Con+Pos+3Obv+VocPl+Loc: [omakizinenyiminiidig, omakizinenyiminiidog]
+    3+makizin+NI+Con+Pos+3Obv+VocPl+Obv: [omakizinenyiminiidig, omakizinenyiminiidog]
+    3+makizin+NI+Con+Pos+3Obv+VocPl+Pl: [omakizinenyiminiidig, omakizinenyiminiidog]
+    3+makizin+NI+Con+Pos+3Pl+Pret+Loc: omakizinenyimiwaabaniing
+    3+makizin+NI+Con+Pos+3Pl+Pret+Obv: omakizinenyimiwaabaniin
+    3+makizin+NI+Con+Pos+3Pl+Pret+Pl: omakizinenyimiwaabaniin
+    3+makizin+NI+Con+Pos+3Pl+VocPl+Loc: [omakizinenyimiwaadig, omakizinenyimiwaadog]
+    3+makizin+NI+Con+Pos+3Pl+VocPl+Obv: [omakizinenyimiwaadig, omakizinenyimiwaadog]
+    3+makizin+NI+Con+Pos+3Pl+VocPl+Pl: [omakizinenyimiwaadig, omakizinenyimiwaadog]
+    3+makizin+NI+Dim+Pos+3Obv+Pret+Loc: omakizinensiminiibaniing
+    3+makizin+NI+Dim+Pos+3Obv+Pret+Obv: omakizinensiminiibaniin
+    3+makizin+NI+Dim+Pos+3Obv+Pret+Pl: omakizinensiminiibaniin
+    3+makizin+NI+Dim+Pos+3Obv+VocPl+Loc: [omakizinensiminiidig, omakizinensiminiidog]
+    3+makizin+NI+Dim+Pos+3Obv+VocPl+Obv: [omakizinensiminiidig, omakizinensiminiidog]
+    3+makizin+NI+Dim+Pos+3Obv+VocPl+Pl: [omakizinensiminiidig, omakizinensiminiidog]
+    3+makizin+NI+Dim+Pos+3Pl+Pret+Loc: omakizinensimiwaabaniing
+    3+makizin+NI+Dim+Pos+3Pl+Pret+Obv: omakizinensimiwaabaniin
+    3+makizin+NI+Dim+Pos+3Pl+Pret+Pl: omakizinensimiwaabaniin
+    3+makizin+NI+Dim+Pos+3Pl+VocPl+Loc: [omakizinensimiwaadig, omakizinensimiwaadog]
+    3+makizin+NI+Dim+Pos+3Pl+VocPl+Obv: [omakizinensimiwaadig, omakizinensimiwaadog]
+    3+makizin+NI+Dim+Pos+3Pl+VocPl+Pl: [omakizinensimiwaadig, omakizinensimiwaadog]
     
     #Values from slots numbered: 1, 2, 4, 5, 6, 7
-    1+makizin+N+Con+Pej+1Pl+Pret+Loc: nimakizinenyishinaanibaniing
-    1+makizin+N+Con+Pej+1Pl+Pret+Obv: nimakizinenyishinaanibaniin
-    1+makizin+N+Con+Pej+1Pl+Pret+Pl: nimakizinenyishinaanibaniin
-    1+makizin+N+Con+Pej+1Pl+VocPl+Loc: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
-    1+makizin+N+Con+Pej+1Pl+VocPl+Obv: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
-    1+makizin+N+Con+Pej+1Pl+VocPl+Pl: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
-    1+makizin+N+Dim+Pej+1Pl+Pret+Loc: nimakizinensishinaanibaniing
-    1+makizin+N+Dim+Pej+1Pl+Pret+Obv: nimakizinensishinaanibaniin
-    1+makizin+N+Dim+Pej+1Pl+Pret+Pl: nimakizinensishinaanibaniin
-    1+makizin+N+Dim+Pej+1Pl+VocPl+Loc: [nimakizinensishinaanidig, nimakizinensishinaanidog]
-    1+makizin+N+Dim+Pej+1Pl+VocPl+Obv: [nimakizinensishinaanidig, nimakizinensishinaanidog]
-    1+makizin+N+Dim+Pej+1Pl+VocPl+Pl: [nimakizinensishinaanidig, nimakizinensishinaanidog]
-    2+makizin+N+Con+Pej+21+Pret+Loc: gimakizinenyishinaanibaniing
-    2+makizin+N+Con+Pej+21+Pret+Obv: gimakizinenyishinaanibaniin
-    2+makizin+N+Con+Pej+21+Pret+Pl: gimakizinenyishinaanibaniin
-    2+makizin+N+Con+Pej+21+VocPl+Loc: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
-    2+makizin+N+Con+Pej+21+VocPl+Obv: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
-    2+makizin+N+Con+Pej+21+VocPl+Pl: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
-    2+makizin+N+Con+Pej+2Pl+Pret+Loc: gimakizinenyishiwaabaniing
-    2+makizin+N+Con+Pej+2Pl+Pret+Obv: gimakizinenyishiwaabaniin
-    2+makizin+N+Con+Pej+2Pl+Pret+Pl: gimakizinenyishiwaabaniin
-    2+makizin+N+Con+Pej+2Pl+VocPl+Loc: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
-    2+makizin+N+Con+Pej+2Pl+VocPl+Obv: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
-    2+makizin+N+Con+Pej+2Pl+VocPl+Pl: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
-    2+makizin+N+Dim+Pej+21+Pret+Loc: gimakizinensishinaanibaniing
-    2+makizin+N+Dim+Pej+21+Pret+Obv: gimakizinensishinaanibaniin
-    2+makizin+N+Dim+Pej+21+Pret+Pl: gimakizinensishinaanibaniin
-    2+makizin+N+Dim+Pej+21+VocPl+Loc: [gimakizinensishinaanidig, gimakizinensishinaanidog]
-    2+makizin+N+Dim+Pej+21+VocPl+Obv: [gimakizinensishinaanidig, gimakizinensishinaanidog]
-    2+makizin+N+Dim+Pej+21+VocPl+Pl: [gimakizinensishinaanidig, gimakizinensishinaanidog]
-    2+makizin+N+Dim+Pej+2Pl+Pret+Loc: gimakizinensishiwaabaniing
-    2+makizin+N+Dim+Pej+2Pl+Pret+Obv: gimakizinensishiwaabaniin
-    2+makizin+N+Dim+Pej+2Pl+Pret+Pl: gimakizinensishiwaabaniin
-    2+makizin+N+Dim+Pej+2Pl+VocPl+Loc: [gimakizinensishiwaadig, gimakizinensishiwaadog]
-    2+makizin+N+Dim+Pej+2Pl+VocPl+Obv: [gimakizinensishiwaadig, gimakizinensishiwaadog]
-    2+makizin+N+Dim+Pej+2Pl+VocPl+Pl: [gimakizinensishiwaadig, gimakizinensishiwaadog]
-    3+makizin+N+Con+Pej+3Obv+Pret+Loc: omakizinenyishiniibaniing
-    3+makizin+N+Con+Pej+3Obv+Pret+Obv: omakizinenyishiniibaniin
-    3+makizin+N+Con+Pej+3Obv+Pret+Pl: omakizinenyishiniibaniin
-    3+makizin+N+Con+Pej+3Obv+VocPl+Loc: [omakizinenyishiniidig, omakizinenyishiniidog]
-    3+makizin+N+Con+Pej+3Obv+VocPl+Obv: [omakizinenyishiniidig, omakizinenyishiniidog]
-    3+makizin+N+Con+Pej+3Obv+VocPl+Pl: [omakizinenyishiniidig, omakizinenyishiniidog]
-    3+makizin+N+Con+Pej+3Pl+Pret+Loc: omakizinenyishiwaabaniing
-    3+makizin+N+Con+Pej+3Pl+Pret+Obv: omakizinenyishiwaabaniin
-    3+makizin+N+Con+Pej+3Pl+Pret+Pl: omakizinenyishiwaabaniin
-    3+makizin+N+Con+Pej+3Pl+VocPl+Loc: [omakizinenyishiwaadig, omakizinenyishiwaadog]
-    3+makizin+N+Con+Pej+3Pl+VocPl+Obv: [omakizinenyishiwaadig, omakizinenyishiwaadog]
-    3+makizin+N+Con+Pej+3Pl+VocPl+Pl: [omakizinenyishiwaadig, omakizinenyishiwaadog]
-    3+makizin+N+Dim+Pej+3Obv+Pret+Loc: omakizinensishiniibaniing
-    3+makizin+N+Dim+Pej+3Obv+Pret+Obv: omakizinensishiniibaniin
-    3+makizin+N+Dim+Pej+3Obv+Pret+Pl: omakizinensishiniibaniin
-    3+makizin+N+Dim+Pej+3Obv+VocPl+Loc: [omakizinensishiniidig, omakizinensishiniidog]
-    3+makizin+N+Dim+Pej+3Obv+VocPl+Obv: [omakizinensishiniidig, omakizinensishiniidog]
-    3+makizin+N+Dim+Pej+3Obv+VocPl+Pl: [omakizinensishiniidig, omakizinensishiniidog]
-    3+makizin+N+Dim+Pej+3Pl+Pret+Loc: omakizinensishiwaabaniing
-    3+makizin+N+Dim+Pej+3Pl+Pret+Obv: omakizinensishiwaabaniin
-    3+makizin+N+Dim+Pej+3Pl+Pret+Pl: omakizinensishiwaabaniin
-    3+makizin+N+Dim+Pej+3Pl+VocPl+Loc: [omakizinensishiwaadig, omakizinensishiwaadog]
-    3+makizin+N+Dim+Pej+3Pl+VocPl+Obv: [omakizinensishiwaadig, omakizinensishiwaadog]
-    3+makizin+N+Dim+Pej+3Pl+VocPl+Pl: [omakizinensishiwaadig, omakizinensishiwaadog]
+    1+makizin+NI+Con+Pej+1Pl+Pret+Loc: nimakizinenyishinaanibaniing
+    1+makizin+NI+Con+Pej+1Pl+Pret+Obv: nimakizinenyishinaanibaniin
+    1+makizin+NI+Con+Pej+1Pl+Pret+Pl: nimakizinenyishinaanibaniin
+    1+makizin+NI+Con+Pej+1Pl+VocPl+Loc: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
+    1+makizin+NI+Con+Pej+1Pl+VocPl+Obv: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
+    1+makizin+NI+Con+Pej+1Pl+VocPl+Pl: [nimakizinenyishinaanidig, nimakizinenyishinaanidog]
+    1+makizin+NI+Dim+Pej+1Pl+Pret+Loc: nimakizinensishinaanibaniing
+    1+makizin+NI+Dim+Pej+1Pl+Pret+Obv: nimakizinensishinaanibaniin
+    1+makizin+NI+Dim+Pej+1Pl+Pret+Pl: nimakizinensishinaanibaniin
+    1+makizin+NI+Dim+Pej+1Pl+VocPl+Loc: [nimakizinensishinaanidig, nimakizinensishinaanidog]
+    1+makizin+NI+Dim+Pej+1Pl+VocPl+Obv: [nimakizinensishinaanidig, nimakizinensishinaanidog]
+    1+makizin+NI+Dim+Pej+1Pl+VocPl+Pl: [nimakizinensishinaanidig, nimakizinensishinaanidog]
+    2+makizin+NI+Con+Pej+21+Pret+Loc: gimakizinenyishinaanibaniing
+    2+makizin+NI+Con+Pej+21+Pret+Obv: gimakizinenyishinaanibaniin
+    2+makizin+NI+Con+Pej+21+Pret+Pl: gimakizinenyishinaanibaniin
+    2+makizin+NI+Con+Pej+21+VocPl+Loc: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
+    2+makizin+NI+Con+Pej+21+VocPl+Obv: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
+    2+makizin+NI+Con+Pej+21+VocPl+Pl: [gimakizinenyishinaanidig, gimakizinenyishinaanidog]
+    2+makizin+NI+Con+Pej+2Pl+Pret+Loc: gimakizinenyishiwaabaniing
+    2+makizin+NI+Con+Pej+2Pl+Pret+Obv: gimakizinenyishiwaabaniin
+    2+makizin+NI+Con+Pej+2Pl+Pret+Pl: gimakizinenyishiwaabaniin
+    2+makizin+NI+Con+Pej+2Pl+VocPl+Loc: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
+    2+makizin+NI+Con+Pej+2Pl+VocPl+Obv: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
+    2+makizin+NI+Con+Pej+2Pl+VocPl+Pl: [gimakizinenyishiwaadig, gimakizinenyishiwaadog]
+    2+makizin+NI+Dim+Pej+21+Pret+Loc: gimakizinensishinaanibaniing
+    2+makizin+NI+Dim+Pej+21+Pret+Obv: gimakizinensishinaanibaniin
+    2+makizin+NI+Dim+Pej+21+Pret+Pl: gimakizinensishinaanibaniin
+    2+makizin+NI+Dim+Pej+21+VocPl+Loc: [gimakizinensishinaanidig, gimakizinensishinaanidog]
+    2+makizin+NI+Dim+Pej+21+VocPl+Obv: [gimakizinensishinaanidig, gimakizinensishinaanidog]
+    2+makizin+NI+Dim+Pej+21+VocPl+Pl: [gimakizinensishinaanidig, gimakizinensishinaanidog]
+    2+makizin+NI+Dim+Pej+2Pl+Pret+Loc: gimakizinensishiwaabaniing
+    2+makizin+NI+Dim+Pej+2Pl+Pret+Obv: gimakizinensishiwaabaniin
+    2+makizin+NI+Dim+Pej+2Pl+Pret+Pl: gimakizinensishiwaabaniin
+    2+makizin+NI+Dim+Pej+2Pl+VocPl+Loc: [gimakizinensishiwaadig, gimakizinensishiwaadog]
+    2+makizin+NI+Dim+Pej+2Pl+VocPl+Obv: [gimakizinensishiwaadig, gimakizinensishiwaadog]
+    2+makizin+NI+Dim+Pej+2Pl+VocPl+Pl: [gimakizinensishiwaadig, gimakizinensishiwaadog]
+    3+makizin+NI+Con+Pej+3Obv+Pret+Loc: omakizinenyishiniibaniing
+    3+makizin+NI+Con+Pej+3Obv+Pret+Obv: omakizinenyishiniibaniin
+    3+makizin+NI+Con+Pej+3Obv+Pret+Pl: omakizinenyishiniibaniin
+    3+makizin+NI+Con+Pej+3Obv+VocPl+Loc: [omakizinenyishiniidig, omakizinenyishiniidog]
+    3+makizin+NI+Con+Pej+3Obv+VocPl+Obv: [omakizinenyishiniidig, omakizinenyishiniidog]
+    3+makizin+NI+Con+Pej+3Obv+VocPl+Pl: [omakizinenyishiniidig, omakizinenyishiniidog]
+    3+makizin+NI+Con+Pej+3Pl+Pret+Loc: omakizinenyishiwaabaniing
+    3+makizin+NI+Con+Pej+3Pl+Pret+Obv: omakizinenyishiwaabaniin
+    3+makizin+NI+Con+Pej+3Pl+Pret+Pl: omakizinenyishiwaabaniin
+    3+makizin+NI+Con+Pej+3Pl+VocPl+Loc: [omakizinenyishiwaadig, omakizinenyishiwaadog]
+    3+makizin+NI+Con+Pej+3Pl+VocPl+Obv: [omakizinenyishiwaadig, omakizinenyishiwaadog]
+    3+makizin+NI+Con+Pej+3Pl+VocPl+Pl: [omakizinenyishiwaadig, omakizinenyishiwaadog]
+    3+makizin+NI+Dim+Pej+3Obv+Pret+Loc: omakizinensishiniibaniing
+    3+makizin+NI+Dim+Pej+3Obv+Pret+Obv: omakizinensishiniibaniin
+    3+makizin+NI+Dim+Pej+3Obv+Pret+Pl: omakizinensishiniibaniin
+    3+makizin+NI+Dim+Pej+3Obv+VocPl+Loc: [omakizinensishiniidig, omakizinensishiniidog]
+    3+makizin+NI+Dim+Pej+3Obv+VocPl+Obv: [omakizinensishiniidig, omakizinensishiniidog]
+    3+makizin+NI+Dim+Pej+3Obv+VocPl+Pl: [omakizinensishiniidig, omakizinensishiniidog]
+    3+makizin+NI+Dim+Pej+3Pl+Pret+Loc: omakizinensishiwaabaniing
+    3+makizin+NI+Dim+Pej+3Pl+Pret+Obv: omakizinensishiwaabaniin
+    3+makizin+NI+Dim+Pej+3Pl+Pret+Pl: omakizinensishiwaabaniin
+    3+makizin+NI+Dim+Pej+3Pl+VocPl+Loc: [omakizinensishiwaadig, omakizinensishiwaadog]
+    3+makizin+NI+Dim+Pej+3Pl+VocPl+Obv: [omakizinensishiwaadig, omakizinensishiwaadog]
+    3+makizin+NI+Dim+Pej+3Pl+VocPl+Pl: [omakizinensishiwaadig, omakizinensishiwaadog]
     
     #Values from slots numbered: 1, 3, 4, 5, 6, 7
-    1+makizin+N+Pos+Pej+1Pl+Pret+Loc: nimakizinimishinaanibaniing
-    1+makizin+N+Pos+Pej+1Pl+Pret+Obv: nimakizinimishinaanibaniin
-    1+makizin+N+Pos+Pej+1Pl+Pret+Pl: nimakizinimishinaanibaniin
-    1+makizin+N+Pos+Pej+1Pl+VocPl+Loc: [nimakizinimishinaanidig, nimakizinimishinaanidog]
-    1+makizin+N+Pos+Pej+1Pl+VocPl+Obv: [nimakizinimishinaanidig, nimakizinimishinaanidog]
-    1+makizin+N+Pos+Pej+1Pl+VocPl+Pl: [nimakizinimishinaanidig, nimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+21+Pret+Loc: gimakizinimishinaanibaniing
-    2+makizin+N+Pos+Pej+21+Pret+Obv: gimakizinimishinaanibaniin
-    2+makizin+N+Pos+Pej+21+Pret+Pl: gimakizinimishinaanibaniin
-    2+makizin+N+Pos+Pej+21+VocPl+Loc: [gimakizinimishinaanidig, gimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+21+VocPl+Obv: [gimakizinimishinaanidig, gimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+21+VocPl+Pl: [gimakizinimishinaanidig, gimakizinimishinaanidog]
-    2+makizin+N+Pos+Pej+2Pl+Pret+Loc: gimakizinimishiwaabaniing
-    2+makizin+N+Pos+Pej+2Pl+Pret+Obv: gimakizinimishiwaabaniin
-    2+makizin+N+Pos+Pej+2Pl+Pret+Pl: gimakizinimishiwaabaniin
-    2+makizin+N+Pos+Pej+2Pl+VocPl+Loc: [gimakizinimishiwaadig, gimakizinimishiwaadog]
-    2+makizin+N+Pos+Pej+2Pl+VocPl+Obv: [gimakizinimishiwaadig, gimakizinimishiwaadog]
-    2+makizin+N+Pos+Pej+2Pl+VocPl+Pl: [gimakizinimishiwaadig, gimakizinimishiwaadog]
-    3+makizin+N+Pos+Pej+3Obv+Pret+Loc: omakizinimishiniibaniing
-    3+makizin+N+Pos+Pej+3Obv+Pret+Obv: omakizinimishiniibaniin
-    3+makizin+N+Pos+Pej+3Obv+Pret+Pl: omakizinimishiniibaniin
-    3+makizin+N+Pos+Pej+3Obv+VocPl+Loc: [omakizinimishiniidig, omakizinimishiniidog]
-    3+makizin+N+Pos+Pej+3Obv+VocPl+Obv: [omakizinimishiniidig, omakizinimishiniidog]
-    3+makizin+N+Pos+Pej+3Obv+VocPl+Pl: [omakizinimishiniidig, omakizinimishiniidog]
-    3+makizin+N+Pos+Pej+3Pl+Pret+Loc: omakizinimishiwaabaniing
-    3+makizin+N+Pos+Pej+3Pl+Pret+Obv: omakizinimishiwaabaniin
-    3+makizin+N+Pos+Pej+3Pl+Pret+Pl: omakizinimishiwaabaniin
-    3+makizin+N+Pos+Pej+3Pl+VocPl+Loc: [omakizinimishiwaadig, omakizinimishiwaadog]
-    3+makizin+N+Pos+Pej+3Pl+VocPl+Obv: [omakizinimishiwaadig, omakizinimishiwaadog]
-    3+makizin+N+Pos+Pej+3Pl+VocPl+Pl: [omakizinimishiwaadig, omakizinimishiwaadog]
+    1+makizin+NI+Pos+Pej+1Pl+Pret+Loc: nimakizinimishinaanibaniing
+    1+makizin+NI+Pos+Pej+1Pl+Pret+Obv: nimakizinimishinaanibaniin
+    1+makizin+NI+Pos+Pej+1Pl+Pret+Pl: nimakizinimishinaanibaniin
+    1+makizin+NI+Pos+Pej+1Pl+VocPl+Loc: [nimakizinimishinaanidig, nimakizinimishinaanidog]
+    1+makizin+NI+Pos+Pej+1Pl+VocPl+Obv: [nimakizinimishinaanidig, nimakizinimishinaanidog]
+    1+makizin+NI+Pos+Pej+1Pl+VocPl+Pl: [nimakizinimishinaanidig, nimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+21+Pret+Loc: gimakizinimishinaanibaniing
+    2+makizin+NI+Pos+Pej+21+Pret+Obv: gimakizinimishinaanibaniin
+    2+makizin+NI+Pos+Pej+21+Pret+Pl: gimakizinimishinaanibaniin
+    2+makizin+NI+Pos+Pej+21+VocPl+Loc: [gimakizinimishinaanidig, gimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+21+VocPl+Obv: [gimakizinimishinaanidig, gimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+21+VocPl+Pl: [gimakizinimishinaanidig, gimakizinimishinaanidog]
+    2+makizin+NI+Pos+Pej+2Pl+Pret+Loc: gimakizinimishiwaabaniing
+    2+makizin+NI+Pos+Pej+2Pl+Pret+Obv: gimakizinimishiwaabaniin
+    2+makizin+NI+Pos+Pej+2Pl+Pret+Pl: gimakizinimishiwaabaniin
+    2+makizin+NI+Pos+Pej+2Pl+VocPl+Loc: [gimakizinimishiwaadig, gimakizinimishiwaadog]
+    2+makizin+NI+Pos+Pej+2Pl+VocPl+Obv: [gimakizinimishiwaadig, gimakizinimishiwaadog]
+    2+makizin+NI+Pos+Pej+2Pl+VocPl+Pl: [gimakizinimishiwaadig, gimakizinimishiwaadog]
+    3+makizin+NI+Pos+Pej+3Obv+Pret+Loc: omakizinimishiniibaniing
+    3+makizin+NI+Pos+Pej+3Obv+Pret+Obv: omakizinimishiniibaniin
+    3+makizin+NI+Pos+Pej+3Obv+Pret+Pl: omakizinimishiniibaniin
+    3+makizin+NI+Pos+Pej+3Obv+VocPl+Loc: [omakizinimishiniidig, omakizinimishiniidog]
+    3+makizin+NI+Pos+Pej+3Obv+VocPl+Obv: [omakizinimishiniidig, omakizinimishiniidog]
+    3+makizin+NI+Pos+Pej+3Obv+VocPl+Pl: [omakizinimishiniidig, omakizinimishiniidog]
+    3+makizin+NI+Pos+Pej+3Pl+Pret+Loc: omakizinimishiwaabaniing
+    3+makizin+NI+Pos+Pej+3Pl+Pret+Obv: omakizinimishiwaabaniin
+    3+makizin+NI+Pos+Pej+3Pl+Pret+Pl: omakizinimishiwaabaniin
+    3+makizin+NI+Pos+Pej+3Pl+VocPl+Loc: [omakizinimishiwaadig, omakizinimishiwaadog]
+    3+makizin+NI+Pos+Pej+3Pl+VocPl+Obv: [omakizinimishiwaadig, omakizinimishiwaadog]
+    3+makizin+NI+Pos+Pej+3Pl+VocPl+Pl: [omakizinimishiwaadig, omakizinimishiwaadog]
     
     
     #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
-    1+makizin+N+Con+Pos+Pej+1Pl+Pret+Loc: nimakizinenyimishinaanibaniing
-    1+makizin+N+Con+Pos+Pej+1Pl+Pret+Obv: nimakizinenyimishinaanibaniin
-    1+makizin+N+Con+Pos+Pej+1Pl+Pret+Pl: nimakizinenyimishinaanibaniin
-    1+makizin+N+Con+Pos+Pej+1Pl+VocPl+Loc: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
-    1+makizin+N+Con+Pos+Pej+1Pl+VocPl+Obv: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
-    1+makizin+N+Con+Pos+Pej+1Pl+VocPl+Pl: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
-    1+makizin+N+Dim+Pos+Pej+1Pl+Pret+Loc: nimakizinensimishinaanibaniing
-    1+makizin+N+Dim+Pos+Pej+1Pl+Pret+Obv: nimakizinensimishinaanibaniin
-    1+makizin+N+Dim+Pos+Pej+1Pl+Pret+Pl: nimakizinensimishinaanibaniin
-    1+makizin+N+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
-    1+makizin+N+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
-    1+makizin+N+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+21+Pret+Loc: gimakizinenyimishinaanibaniing
-    2+makizin+N+Con+Pos+Pej+21+Pret+Obv: gimakizinenyimishinaanibaniin
-    2+makizin+N+Con+Pos+Pej+21+Pret+Pl: gimakizinenyimishinaanibaniin
-    2+makizin+N+Con+Pos+Pej+21+VocPl+Loc: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+21+VocPl+Obv: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+21+VocPl+Pl: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
-    2+makizin+N+Con+Pos+Pej+2Pl+Pret+Loc: gimakizinenyimishiwaabaniing
-    2+makizin+N+Con+Pos+Pej+2Pl+Pret+Obv: gimakizinenyimishiwaabaniin
-    2+makizin+N+Con+Pos+Pej+2Pl+Pret+Pl: gimakizinenyimishiwaabaniin
-    2+makizin+N+Con+Pos+Pej+2Pl+VocPl+Loc: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
-    2+makizin+N+Con+Pos+Pej+2Pl+VocPl+Obv: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
-    2+makizin+N+Con+Pos+Pej+2Pl+VocPl+Pl: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
-    2+makizin+N+Dim+Pos+Pej+21+Pret+Loc: gimakizinensimishinaanibaniing
-    2+makizin+N+Dim+Pos+Pej+21+Pret+Obv: gimakizinensimishinaanibaniin
-    2+makizin+N+Dim+Pos+Pej+21+Pret+Pl: gimakizinensimishinaanibaniin
-    2+makizin+N+Dim+Pos+Pej+21+VocPl+Loc: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
-    2+makizin+N+Dim+Pos+Pej+21+VocPl+Obv: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
-    2+makizin+N+Dim+Pos+Pej+21+VocPl+Pl: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
-    2+makizin+N+Dim+Pos+Pej+2Pl+Pret+Loc: gimakizinensimishiwaabaniing
-    2+makizin+N+Dim+Pos+Pej+2Pl+Pret+Obv: gimakizinensimishiwaabaniin
-    2+makizin+N+Dim+Pos+Pej+2Pl+Pret+Pl: gimakizinensimishiwaabaniin
-    2+makizin+N+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
-    2+makizin+N+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
-    2+makizin+N+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
-    3+makizin+N+Con+Pos+Pej+3Obv+Pret+Loc: omakizinenyimishiniibaniing
-    3+makizin+N+Con+Pos+Pej+3Obv+Pret+Obv: omakizinenyimishiniibaniin
-    3+makizin+N+Con+Pos+Pej+3Obv+Pret+Pl: omakizinenyimishiniibaniin
-    3+makizin+N+Con+Pos+Pej+3Obv+VocPl+Loc: [omakizinenyimishiniidig, omakizinenyimishiniidog]
-    3+makizin+N+Con+Pos+Pej+3Obv+VocPl+Obv: [omakizinenyimishiniidig, omakizinenyimishiniidog]
-    3+makizin+N+Con+Pos+Pej+3Obv+VocPl+Pl: [omakizinenyimishiniidig, omakizinenyimishiniidog]
-    3+makizin+N+Con+Pos+Pej+3Pl+Pret+Loc: omakizinenyimishiwaabaniing
-    3+makizin+N+Con+Pos+Pej+3Pl+Pret+Obv: omakizinenyimishiwaabaniin
-    3+makizin+N+Con+Pos+Pej+3Pl+Pret+Pl: omakizinenyimishiwaabaniin
-    3+makizin+N+Con+Pos+Pej+3Pl+VocPl+Loc: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
-    3+makizin+N+Con+Pos+Pej+3Pl+VocPl+Obv: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
-    3+makizin+N+Con+Pos+Pej+3Pl+VocPl+Pl: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
-    3+makizin+N+Dim+Pos+Pej+3Obv+Pret+Loc: omakizinensimishiniibaniing
-    3+makizin+N+Dim+Pos+Pej+3Obv+Pret+Obv: omakizinensimishiniibaniin
-    3+makizin+N+Dim+Pos+Pej+3Obv+Pret+Pl: omakizinensimishiniibaniin
-    3+makizin+N+Dim+Pos+Pej+3Obv+VocPl+Loc: [omakizinensimishiniidig, omakizinensimishiniidog]
-    3+makizin+N+Dim+Pos+Pej+3Obv+VocPl+Obv: [omakizinensimishiniidig, omakizinensimishiniidog]
-    3+makizin+N+Dim+Pos+Pej+3Obv+VocPl+Pl: [omakizinensimishiniidig, omakizinensimishiniidog]
-    3+makizin+N+Dim+Pos+Pej+3Pl+Pret+Loc: omakizinensimishiwaabaniing
-    3+makizin+N+Dim+Pos+Pej+3Pl+Pret+Obv: omakizinensimishiwaabaniin
-    3+makizin+N+Dim+Pos+Pej+3Pl+Pret+Pl: omakizinensimishiwaabaniin
-    3+makizin+N+Dim+Pos+Pej+3Pl+VocPl+Loc: [omakizinensimishiwaadig, omakizinensimishiwaadog]
-    3+makizin+N+Dim+Pos+Pej+3Pl+VocPl+Obv: [omakizinensimishiwaadig, omakizinensimishiwaadog]
-    3+makizin+N+Dim+Pos+Pej+3Pl+VocPl+Pl: [omakizinensimishiwaadig, omakizinensimishiwaadog]
+    1+makizin+NI+Con+Pos+Pej+1Pl+Pret+Loc: nimakizinenyimishinaanibaniing
+    1+makizin+NI+Con+Pos+Pej+1Pl+Pret+Obv: nimakizinenyimishinaanibaniin
+    1+makizin+NI+Con+Pos+Pej+1Pl+Pret+Pl: nimakizinenyimishinaanibaniin
+    1+makizin+NI+Con+Pos+Pej+1Pl+VocPl+Loc: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
+    1+makizin+NI+Con+Pos+Pej+1Pl+VocPl+Obv: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
+    1+makizin+NI+Con+Pos+Pej+1Pl+VocPl+Pl: [nimakizinenyimishinaanidig, nimakizinenyimishinaanidog]
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Pret+Loc: nimakizinensimishinaanibaniing
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Pret+Obv: nimakizinensimishinaanibaniin
+    1+makizin+NI+Dim+Pos+Pej+1Pl+Pret+Pl: nimakizinensimishinaanibaniin
+    1+makizin+NI+Dim+Pos+Pej+1Pl+VocPl+Loc: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
+    1+makizin+NI+Dim+Pos+Pej+1Pl+VocPl+Obv: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
+    1+makizin+NI+Dim+Pos+Pej+1Pl+VocPl+Pl: [nimakizinensimishinaanidig, nimakizinensimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+21+Pret+Loc: gimakizinenyimishinaanibaniing
+    2+makizin+NI+Con+Pos+Pej+21+Pret+Obv: gimakizinenyimishinaanibaniin
+    2+makizin+NI+Con+Pos+Pej+21+Pret+Pl: gimakizinenyimishinaanibaniin
+    2+makizin+NI+Con+Pos+Pej+21+VocPl+Loc: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+21+VocPl+Obv: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+21+VocPl+Pl: [gimakizinenyimishinaanidig, gimakizinenyimishinaanidog]
+    2+makizin+NI+Con+Pos+Pej+2Pl+Pret+Loc: gimakizinenyimishiwaabaniing
+    2+makizin+NI+Con+Pos+Pej+2Pl+Pret+Obv: gimakizinenyimishiwaabaniin
+    2+makizin+NI+Con+Pos+Pej+2Pl+Pret+Pl: gimakizinenyimishiwaabaniin
+    2+makizin+NI+Con+Pos+Pej+2Pl+VocPl+Loc: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
+    2+makizin+NI+Con+Pos+Pej+2Pl+VocPl+Obv: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
+    2+makizin+NI+Con+Pos+Pej+2Pl+VocPl+Pl: [gimakizinenyimishiwaadig, gimakizinenyimishiwaadog]
+    2+makizin+NI+Dim+Pos+Pej+21+Pret+Loc: gimakizinensimishinaanibaniing
+    2+makizin+NI+Dim+Pos+Pej+21+Pret+Obv: gimakizinensimishinaanibaniin
+    2+makizin+NI+Dim+Pos+Pej+21+Pret+Pl: gimakizinensimishinaanibaniin
+    2+makizin+NI+Dim+Pos+Pej+21+VocPl+Loc: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
+    2+makizin+NI+Dim+Pos+Pej+21+VocPl+Obv: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
+    2+makizin+NI+Dim+Pos+Pej+21+VocPl+Pl: [gimakizinensimishinaanidig, gimakizinensimishinaanidog]
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Pret+Loc: gimakizinensimishiwaabaniing
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Pret+Obv: gimakizinensimishiwaabaniin
+    2+makizin+NI+Dim+Pos+Pej+2Pl+Pret+Pl: gimakizinensimishiwaabaniin
+    2+makizin+NI+Dim+Pos+Pej+2Pl+VocPl+Loc: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
+    2+makizin+NI+Dim+Pos+Pej+2Pl+VocPl+Obv: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
+    2+makizin+NI+Dim+Pos+Pej+2Pl+VocPl+Pl: [gimakizinensimishiwaadig, gimakizinensimishiwaadog]
+    3+makizin+NI+Con+Pos+Pej+3Obv+Pret+Loc: omakizinenyimishiniibaniing
+    3+makizin+NI+Con+Pos+Pej+3Obv+Pret+Obv: omakizinenyimishiniibaniin
+    3+makizin+NI+Con+Pos+Pej+3Obv+Pret+Pl: omakizinenyimishiniibaniin
+    3+makizin+NI+Con+Pos+Pej+3Obv+VocPl+Loc: [omakizinenyimishiniidig, omakizinenyimishiniidog]
+    3+makizin+NI+Con+Pos+Pej+3Obv+VocPl+Obv: [omakizinenyimishiniidig, omakizinenyimishiniidog]
+    3+makizin+NI+Con+Pos+Pej+3Obv+VocPl+Pl: [omakizinenyimishiniidig, omakizinenyimishiniidog]
+    3+makizin+NI+Con+Pos+Pej+3Pl+Pret+Loc: omakizinenyimishiwaabaniing
+    3+makizin+NI+Con+Pos+Pej+3Pl+Pret+Obv: omakizinenyimishiwaabaniin
+    3+makizin+NI+Con+Pos+Pej+3Pl+Pret+Pl: omakizinenyimishiwaabaniin
+    3+makizin+NI+Con+Pos+Pej+3Pl+VocPl+Loc: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
+    3+makizin+NI+Con+Pos+Pej+3Pl+VocPl+Obv: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
+    3+makizin+NI+Con+Pos+Pej+3Pl+VocPl+Pl: [omakizinenyimishiwaadig, omakizinenyimishiwaadog]
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Pret+Loc: omakizinensimishiniibaniing
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Pret+Obv: omakizinensimishiniibaniin
+    3+makizin+NI+Dim+Pos+Pej+3Obv+Pret+Pl: omakizinensimishiniibaniin
+    3+makizin+NI+Dim+Pos+Pej+3Obv+VocPl+Loc: [omakizinensimishiniidig, omakizinensimishiniidog]
+    3+makizin+NI+Dim+Pos+Pej+3Obv+VocPl+Obv: [omakizinensimishiniidig, omakizinensimishiniidog]
+    3+makizin+NI+Dim+Pos+Pej+3Obv+VocPl+Pl: [omakizinensimishiniidig, omakizinensimishiniidog]
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Pret+Loc: omakizinensimishiwaabaniing
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Pret+Obv: omakizinensimishiwaabaniin
+    3+makizin+NI+Dim+Pos+Pej+3Pl+Pret+Pl: omakizinensimishiwaabaniin
+    3+makizin+NI+Dim+Pos+Pej+3Pl+VocPl+Loc: [omakizinensimishiwaadig, omakizinensimishiwaadog]
+    3+makizin+NI+Dim+Pos+Pej+3Pl+VocPl+Obv: [omakizinensimishiwaadig, omakizinensimishiwaadog]
+    3+makizin+NI+Dim+Pos+Pej+3Pl+VocPl+Pl: [omakizinensimishiwaadig, omakizinensimishiwaadog]
     
