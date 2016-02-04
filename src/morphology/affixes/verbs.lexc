@@ -64,11 +64,11 @@ LEXICON V_THIRD_PERSON_SET
 !looking like gateway but not labeled as such, stems will have to be edited too
 
 LEXICON VAI_ORDERS 
-            VAI_INDEP_NEG ; !not specifying +Indep
+@D.Person.3@  VAI_INDEP_NEG ; !no 3 pre for vai indep
 @D.Person@    VAI_NON_INDEP ;
 
 LEXICON VAI_NON_INDEP 
-+Cnj:0     VAI_CONJ_NEG ;
++Cnj:0     VAI_CNJ_NEG ;
 +Imp:0    VAI_IMPER ;
 
 !#####
@@ -78,11 +78,11 @@ LEXICON VAI_NON_INDEP
 !negative slot
 
 LEXICON VAI_INDEP_NEG 
-+Neg:sii    VAI_INDEP_PERSNUM_GATEWAY ;
-            VAI_INDEP_PERSNUM_GATEWAY ;!intended ... no suffix, just go to persnum
++Neg:sii    VAI_INDEP_PERSNUM_GET ;
+            VAI_INDEP_PERSNUM_GET ;!intended ... no suffix, just go to persnum
 
 !number slot
-LEXICON VAI_INDEP_PERSNUM_GATEWAY 
+LEXICON VAI_INDEP_PERSNUM_GET 
 !<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
 @R.Person.2@  VAI_INDEP_LOCALNUM ;
 @R.Person.1@  VAI_INDEP_LOCALNUM ;
@@ -102,7 +102,7 @@ LEXICON VAI_INDEP_THIRD_PERSON_FLAG
 LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
 <["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
 @R.Person.2@          VAI_INDEP_LOCALNUM_2PL ;
-            VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GATEWAY
+            VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GET
 
 LEXICON VAI_INDEP_LOCALNUM_2PL 
 +2Pl:mw   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
@@ -110,13 +110,13 @@ LEXICON VAI_INDEP_LOCALNUM_2PL
 
 !mood slot
 LEXICON VAI_INDEP_MOOD 
-+Prt:ban       VAI_INDEP_PERS_GATEWAY ;
-+Dub:dig        VAI_INDEP_PERS_GATEWAY ; 
-+Prt+Dub:goban VAI_INDEP_PERS_GATEWAY ;
-                VAI_INDEP_PERS_GATEWAY ; !intended ... no suffix, just go to gateway
++Prt:ban       VAI_INDEP_PERS_GET ;
++Dub:dig        VAI_INDEP_PERS_GET ; 
++Prt+Dub:goban VAI_INDEP_PERS_GET ;
+                VAI_INDEP_PERS_GET ; !intended ... no suffix, just go to gateway
 
 !non-local number slot
-LEXICON VAI_INDEP_PERS_GATEWAY !add GATEWAY to style
+LEXICON VAI_INDEP_PERS_GET !add GET to style
 @D.Person.3@  # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
 @R.Person.3@  VAI_INDEP_NONLOCNUM ;
 
@@ -137,37 +137,37 @@ LEXICON VAI_INDEP_NONLOCNUM
 !Insert schematic template here (also update style guide)
 
 !negative slot
-LEXICON VAI_CONJ_NEG 
-+Neg:ziw        VAI_CONJ_PERSNUM ; !nas morph
+LEXICON VAI_CNJ_NEG 
++Neg:ziw        VAI_CNJ_PERSNUM ; !nas morph
 !is this next legal? will it make incorrect zigwaawaad or ziwaad?
-+Neg+3Pl:zigwaa VAI_CONJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
-                VAI_CONJ_PERSNUM ;
++Neg+3Pl:zigwaa VAI_CNJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
+                VAI_CNJ_PERSNUM ;
 
 !need to be able to adjust the [w]
 
 !person and number slot
-LEXICON VAI_CONJ_PERSNUM 
+LEXICON VAI_CNJ_PERSNUM 
 !adjustments for context needed once move past nas
-+1Sg:aanh      VAI_CONJ_PRET ; 
-+2Sg:in        VAI_CONJ_PRET ; 
-+3Sg:g         VAI_CONJ_PRET ; !nas morph
-+1Pl:aang      VAI_CONJ_PRET ;
-+2Pl:ing       VAI_CONJ_PRET ;
-+21:eg         VAI_CONJ_PRET ;
-+3Pl:waad      VAI_CONJ_PRET ;
-+3Obv:inid     VAI_CONJ_PRET ; !nas morph
-+X:ang         VAI_CONJ_PRET ; !nas morph
++1Sg:aanh      VAI_CNJ_PRET ; 
++2Sg:in        VAI_CNJ_PRET ; 
++3Sg:g         VAI_CNJ_PRET ; !nas morph
++1Pl:aang      VAI_CNJ_PRET ;
++2Pl:ing       VAI_CNJ_PRET ;
++21:eg         VAI_CNJ_PRET ;
++3Pl:waad      VAI_CNJ_PRET ;
++3Obv:inid     VAI_CNJ_PRET ; !nas morph
++X:ang         VAI_CNJ_PRET ; !nas morph
 
 !need to be able to end or move on ...
 !doesn't seem right to delay decision to end until the next sublexicon
 
 !preterite slot
-LEXICON VAI_CONJ_PRET 
-+Prt:ban   VAI_CONJ_DUB ;
-            VAI_CONJ_DUB ;
+LEXICON VAI_CNJ_PRET 
++Prt:ban   VAI_CNJ_DUB ;
+            VAI_CNJ_DUB ;
 
 !dubitative slot
-LEXICON VAI_CONJ_DUB 
+LEXICON VAI_CNJ_DUB 
 +Dub:en # ;
         # ;
 
@@ -205,7 +205,7 @@ LEXICON VAI_IMPER
 !so this is obsolete
 !as with VAI's much of this will probably be transferred to VERBS
 !LEXICON TRANS_INDEP 
-!+VTA+Indep:0        VTA_INDEP_THEME_GATEWAY ;
+!+VTA+Indep:0        VTA_INDEP_THEME_GET ;
 !+VTI+Indep:0        VTI_INDEP ;!name needs to be followed by morpheme slot
 
 !#####
@@ -552,9 +552,9 @@ LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
 !now it is just for non-independent order VTA sorting
 LEXICON VTA_NON_INDEP_GATEWAY 
 # ;
-!+VTA+Cnj:0        VTA_CONJ ; !name needs to be followed by morpheme slot
+!+VTA+Cnj:0        VTA_CNJ ; !name needs to be followed by morpheme slot
 !+VTA+Imp:0       VTA_IMPER ; !name needs to be followed by morpheme slot
-!+VTI+Cnj:0        VTI_CONJ ;!name needs to be followed by morpheme slot
+!+VTI+Cnj:0        VTI_CNJ ;!name needs to be followed by morpheme slot
 !+VTI+Imp:0       VTI_IMPER ;!name needs to be followed by morpheme slot
 
 LEXICON VTI_INDEP !name needs to be followed with a morpheme slot
