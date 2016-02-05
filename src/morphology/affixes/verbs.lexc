@@ -64,7 +64,7 @@ LEXICON V_THIRD_PERSON_SET
 !looking like gateway but not labeled as such, stems will have to be edited too
 
 LEXICON VAI_ORDERS 
-@D.Person.3@  VAI_INDEP_NEG ; !no 3 pre for vai indep
+              VAI_INDEP_NEG ; !1,2, no 3 pre for vai indep, 3 checked in stems/verbs
 @D.Person@    VAI_NON_INDEP ;
 
 LEXICON VAI_NON_INDEP 
@@ -84,8 +84,7 @@ LEXICON VAI_INDEP_NEG
 !number slot
 LEXICON VAI_INDEP_PERSNUM_GET 
 !<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
-@R.Person.2@  VAI_INDEP_LOCALNUM ;
-@R.Person.1@  VAI_INDEP_LOCALNUM ;
+@R.Person@      VAI_INDEP_LOCALNUM ;
 @D.Person@      VAI_INDEP_NONLOCAL ;
 
 LEXICON VAI_INDEP_NONLOCAL 
@@ -100,12 +99,13 @@ LEXICON VAI_INDEP_THIRD_PERSON_FLAG
 @P.Person.3@  VAI_INDEP_MOOD ;
 
 LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
-<["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
-@R.Person.2@          VAI_INDEP_LOCALNUM_2PL ;
-            VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GET
++1+Pl:min       VAI_INDEP_MOOD ;
+!<["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
+@R.Person.2@    VAI_INDEP_LOCALNUM_2PL ;
+                VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GET
 
 LEXICON VAI_INDEP_LOCALNUM_2PL 
-+2Pl:mw   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
++2+Pl:mw   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
 
 
 !mood slot
@@ -121,9 +121,9 @@ LEXICON VAI_INDEP_PERS_GET !add GET to style
 @R.Person.3@  VAI_INDEP_NONLOCNUM ;
 
 LEXICON VAI_INDEP_NONLOCNUM 
-+3Obv:an    # ;
-+3Pl:ag     # ;
-            # ;
++3+Obv:an    # ;
++3+Pl:ag     # ;
+             # ;
 
 !#####
 !#VAI Conjunct suffixes
@@ -140,7 +140,7 @@ LEXICON VAI_INDEP_NONLOCNUM
 LEXICON VAI_CNJ_NEG 
 +Neg:ziw        VAI_CNJ_PERSNUM ; !nas morph
 !is this next legal? will it make incorrect zigwaawaad or ziwaad?
-+Neg+3Pl:zigwaa VAI_CNJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
++Neg+3+Pl:zigwaa VAI_CNJ_PERSNUM ; !nas morph, neg 3pl diff from pos 3pl
                 VAI_CNJ_PERSNUM ;
 
 !need to be able to adjust the [w]
@@ -148,18 +148,15 @@ LEXICON VAI_CNJ_NEG
 !person and number slot
 LEXICON VAI_CNJ_PERSNUM 
 !adjustments for context needed once move past nas
-+1Sg:aanh      VAI_CNJ_PRET ; 
-+2Sg:in        VAI_CNJ_PRET ; 
-+3Sg:g         VAI_CNJ_PRET ; !nas morph
-+1Pl:aang      VAI_CNJ_PRET ;
-+2Pl:ing       VAI_CNJ_PRET ;
-+21:eg         VAI_CNJ_PRET ;
-+3Pl:waad      VAI_CNJ_PRET ;
-+3Obv:inid     VAI_CNJ_PRET ; !nas morph
++1:aanh      VAI_CNJ_PRET ; 
++2:in        VAI_CNJ_PRET ; 
++3:g         VAI_CNJ_PRET ; !nas morph
++1+Pl:aang      VAI_CNJ_PRET ;
++2+Pl:ing       VAI_CNJ_PRET ;
++2+1+Pl:eg         VAI_CNJ_PRET ;
++3+Pl:waad      VAI_CNJ_PRET ;
++3+Obv:inid     VAI_CNJ_PRET ; !nas morph
 +X:ang         VAI_CNJ_PRET ; !nas morph
-
-!need to be able to end or move on ...
-!doesn't seem right to delay decision to end until the next sublexicon
 
 !preterite slot
 LEXICON VAI_CNJ_PRET 
@@ -178,14 +175,14 @@ LEXICON VAI_CNJ_DUB
 
 !just one slot under our analysis
 LEXICON VAI_IMPER 
-+Imm+2Sg:n       # ;
-+Imm+2Pl:g       # ;
-+Imm+21:daa      # ;
-+Del+2Sg:kan     # ;
-+Del+2Pl:kag     # ;
-+Proh+2Sg:ken    # ;
-+Proh+2Pl:kegon  # ;
-+Proh+21:siidaa  # ;
++Imm+2:n       # ;
++Imm+2+Pl:g       # ;
++Imm+2+1+Pl:daa      # ;
++Del+2:kan     # ;
++Del+2+Pl:kag     # ;
++Proh+2:ken    # ;
++Proh+2+Pl:kegon  # ;
++Proh+2+1+Pl:siidaa  # ;
 
 !#####
 !# VII Morphological sub-classes
@@ -534,6 +531,7 @@ LEXICON VTA_INDEP_INAN_SUB_OBV_NEG
 +3Obv:ini   #;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV 
+!-in here is the marking obv when periph can't ... -an in periph is inan agr!
 +3Obv:inaa VTA_INDEP_MODE_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
