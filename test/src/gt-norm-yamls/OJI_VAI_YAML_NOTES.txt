@@ -19,17 +19,6 @@ distribution of iterative morpheme is not currently known (conjunct only??)
 #Sins of comission (remove them)
 ####
 
-Negative and positive 3rd person conjuncts written as:
-    +3PlPos
-    +3PlNeg
-Should be:
-    +3Pl
-    +3Pl+Neg
-
-Indefinite as +Indef or +X?
-First person inclusive as +21 or +1Inc?
-No +V feature
-
 ####
 #Content-specific points (consult text)
 ####
@@ -75,7 +64,7 @@ X       /boodwe-m{a}-ban/  -> [boodwemba]* (prob not /iban/)
 1Pl     /n-boodwe-min<aa>-ban/  -> [nboodwemnaaba]*
 1Incl   /g-boodwe-min<aa>-ban/  -> [gboodwemnaaba]*
 2Pl     /g-boodwe-m{w}<aa>-ban/ -> [gboodwemwaaba]*
-3Pl     /boodwe-w{i}-ban-an/    -> [boodwebniig]**
+3Pl     /boodwe-w{i}-ban-ag/    -> [boodwebniig]**
 #Indep Dub Pos
 1Sg     /n-boodwe-<naa>-dig/    -> [nboodwenaadig]
 2Sg     /g-boodwe-<naa>-dig/    -> [gboodwenaadig]
@@ -90,12 +79,12 @@ X       /boodwe-m{i}-dig/    -> [boodwemdig]
 1Sg     /n-boodwe-<naa>-goban/    -> GAP
 2Sg     /g-boodwe-<naa>-goban/    -> GAP
 3Sg     /boodwe-w{i}-goban/    -> [boodwegba]** (p 232 omits /w{i}/ here, 230 doesn't list goban for n-loss)
-3Obv    /boodwe-{ni}-goban/    -> [boodwen'goba] 
+3Obv    /boodwe-{ni}-goban/    -> [boodwen'goba] #ni obv-> when periph is full (TAs)
 X       /boodwe-m{i}-goban/    -> [boodwemgoba]
 1Pl     /n-boodwe-min<aa>-goban/    -> GAP
 1Incl   /g-boodwe-min<aa>-goban/    -> GAP
 2Pl     /g-boodwe-m{w}<aa>-goban/    -> GAP
-3Pl     /boodwe-w{aa}-goban/    -> [boodwewaagba]
+3Pl     /boodwe-w{aa}-goban/    -> [boodwewaagba] #waa is 3pl morpheme (periph full)
 
 ## text line by line 233 column 1
 
