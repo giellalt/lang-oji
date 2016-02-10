@@ -339,8 +339,8 @@ LEXICON VTA_INDEP_2V1_NEG
             VTA_INDEP_2V1_GATEWAY ;
 
 LEXICON VTA_INDEP_2V1_GATEWAY 
-+21Pl:min  VTA_INDEP_LOCAL_PLURAL_PREMODE ;
-+23Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++1+Pl:min  VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !}
 
@@ -350,12 +350,12 @@ LEXICON VTA_INDEP_1PLV2_NEG
             VTA_INDEP_1PLV2_GATEWAY ;
 
 LEXICON VTA_INDEP_1PLV2_GATEWAY 
-+23Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2+Pl:mw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 !}
 
 LEXICON VTA_INDEP_1SGV2 
-+23Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
++2+Pl:inimw   VTA_INDEP_LOCAL_PLURAL_PREMODE ;
             VTA_INDEP_LOCAL_SINGULAR_PREMODE ;
 
 !####
@@ -432,20 +432,20 @@ LEXICON VTA_INDEP_NUMBER_GET
 LEXICON VTA_INDEP_NUMBER_LOCAL_GATEWAY 
 !what exactly is driving me to diverge from a strict mirroring of graphviz?
 !feature style, and whether incoming arcs in graphviz read different strings
-+21Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
++1+Pl:minaa    VTA_INDEP_MODE_GATEWAY ;
                 VTA_INDEP_NUMBER_IFULL ;
                 VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY ;
 
 !fed by VTA_INDEP_NUMBER_GET, direct plural negation
 LEXICON VTA_INDEP_NUMBER_IFULL 
 !style should include recommendations for marking when predication info is being collapsed
-+21Pl:naan VTA_INDEP_IFULL_PERIPH_GET ;
++1+Pl:naan VTA_INDEP_IFULL_PERIPH_GET ;
 !new tag
 !}
 
 !#second person "I-less" plurality {
 LEXICON VTA_INDEP_NUMBER_ILESS
-+23Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
++3+Pl:waa  VTA_INDEP_ILESS_GATEWAY ;
 !new tag
 
 LEXICON VTA_INDEP_ILESS_GATEWAY 
@@ -462,7 +462,7 @@ LEXICON VTA_INDEP_NUMBER_1_2_SINGULAR_GATEWAY
 !#third person number {
 !fed by VTA_INDEP_NUMBER_GET, direct plural negation
 LEXICON VTA_INDEP_NUMBER_3
-+23Pl:waa  VTA_INDEP_3_GATEWAY ;
++3+Pl:waa  VTA_INDEP_3_GATEWAY ;
 
 !fed by VTA_INDEP_NUMBER_GET, direct singular negation
 LEXICON VTA_INDEP_3_GATEWAY
@@ -487,24 +487,24 @@ LEXICON VTA_INDEP_MODE_GATEWAY
 !#first person pl/inclusive naan {
 LEXICON VTA_INDEP_IFULL_PERIPH_GET
 @R.Inverse@ VTA_INDEP_IFULL_PERIPH_INAN ;
-+3Pl:ig # ; !/ag/->[ig]/naan_
++3+Pl:ig # ; !/ag/->[ig]/naan_
 # ; !3rd person singular/obv
 
 LEXICON VTA_INDEP_IFULL_PERIPH_INAN 
-+0Pl:in # ; !/an/->[in]
++0+Pl:in # ; !/an/->[in]
 !}
 
 LEXICON VTA_INDEP_ILESS_PERIPH
-+3Pl:g # ; !/ag/->[g]/VV_
++3+Pl:g # ; !/ag/->[g]/VV_
 # ; !3rd person singular/obv
 
 LEXICON VTA_INDEP_SINGULAR_PERIPH
-+3Pl:ag # ; !/ag/->[g]/VV_, some other allomorphy here
++3+Pl:ag # ; !/ag/->[g]/VV_, some other allomorphy here
 # ; !3rd person singular/obv
 !careful! negation can't be last in word, n inserted then!
 
 LEXICON VTA_INDEP_3_PERIPH
-+3Obv:an # ; !surely plenty of allomorphy here
++3+Obv:an # ; !surely plenty of allomorphy here
 
 !#dubitative {
 LEXICON VTA_INDEP_DUB_PERIPH_GET
@@ -514,17 +514,17 @@ LEXICON VTA_INDEP_DUB_PERIPH_GET
 @R.Inanimate@               VTA_INDEP_DUB_INAN ;
 
 LEXICON VTA_INDEP_DUB_PERIPH_NON_3
-+3Pl:enag # ;
++3+Pl:enag # ;
 # ;
 
 LEXICON VTA_INDEP_DUB_PERIPH_3
-+3Obv:enan # ;
++3+Obv:enan # ;
 
 LEXICON VTA_INDEP_DUB_PERIPH_INV
-+0Pl:enan # ;
++0+Pl:enan # ;
 
 LEXICON VTA_INDEP_DUB_INAN 
-+0Pl:enan # ;
++0+Pl:enan # ;
 #;
 !}
 
@@ -536,17 +536,17 @@ LEXICON VTA_INDEP_PRET_PERIPH_GET
 @R.Inanimate@               VTA_INDEP_PRET_INAN ;
 
 LEXICON VTA_INDEP_PRET_PERIPH_NON_3
-+3Pl:iig # ;
++3+Pl:iig # ;
 # ;
 
 LEXICON VTA_INDEP_PRET_PERIPH_3 
-+3Obv:iin # ;
++3+Obv:iin # ;
 
 LEXICON VTA_INDEP_PRET_PERIPH_INV 
-+0Pl:iin # ;
++0+Pl:iin # ;
 
 LEXICON VTA_INDEP_PRET_INAN 
-+0Pl:iin # ;
++0+Pl:iin # ;
 #;
 !}
 
@@ -571,21 +571,21 @@ LEXICON VTA_INDEP_INAN_SUB_GET
 !##Number
 LEXICON VTA_INDEP_INAN_SUB_SG_OBJ 
 0:aa    VTA_INDEP_MODE_GATEWAY;
-+0Pl:an # ;
++0+Pl:an # ;
 # ;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV_NEG 
-+3Obv:ini   #;
++3+Obv:ini   #;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV 
 !-in here is the marking obv when periph can't ... -an in periph is inan agr!
-+3Obv:inaa VTA_INDEP_MODE_GATEWAY;
++3+Obv:inaa VTA_INDEP_MODE_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
-+23Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
++3+Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY
-+0Pl:an #;
++0+Pl:an #;
     VTA_INDEP_MODE_GATEWAY;
 #;
 
