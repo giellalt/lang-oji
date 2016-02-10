@@ -64,7 +64,7 @@ LEXICON V_THIRD_PERSON_SET
 !looking like gateway but not labeled as such, stems will have to be edited too
 
 LEXICON VAI_ORDERS 
-              VAI_INDEP_NEG ; !1,2, no 3 pre for vai indep, 3 checked in stems/verbs
+              VAI_INDEP_GET ; !1,2, no 3 pre for vai indep, 3 checked in stems/verbs
 @D.Person@    VAI_NON_INDEP ;
 
 LEXICON VAI_NON_INDEP 
@@ -75,55 +75,102 @@ LEXICON VAI_NON_INDEP
 !#VAI Independent suffixes
 !#####
 
-!negative slot
+LEXICON VAI_INDEP_GET 
+@R.Person@      VAI_INDEP_1_OR_2_GATEWAY ;
+@R.Person@      # ; !redundancy seemed a tolerable price for clarity
+@R.Person.2@    VAI_INDEP_2_PL ;
+@D.Person@      VAI_INDEP_3_OR_X_GATEWAY_1 ;
+                VAI_INDEP_NEG ;
 
+!#negative slot {
 LEXICON VAI_INDEP_NEG 
-+Neg:sii    VAI_INDEP_PERSNUM_GET ;
-            VAI_INDEP_PERSNUM_GET ;!intended ... no suffix, just go to persnum
++Neg:sii    VAI_INDEP_NEG_GET ;
 
-!number slot
-LEXICON VAI_INDEP_PERSNUM_GET 
-!<"+"[1|2]Sg>       VAI_INDEP_MOOD ; !Good move? do we want to specify the interpretation of null morphs?
-@R.Person@      VAI_INDEP_LOCALNUM ;
-@D.Person@      VAI_INDEP_NONLOCAL ;
+LEXICON VAI_INDEP_NEG_GET
+@R.Person@      VAI_INDEP_1_OR_2_GATEWAY ;  
+@R.Person@      # ; 
+@R.Person.2@    VAI_INDEP_2_PL ;
+@D.Person@      VAI_INDEP_3_OR_X_GATEWAY_2 ; 
+!}
 
-LEXICON VAI_INDEP_NONLOCAL 
-+3:w        VAI_INDEP_THIRD_PERSON_FLAG ;
-@D.Passive@ VAI_INDEP_X ;
-!only one value of passive is possible (Dec 2015)
+!#number slot {
+LEXICON VAI_INDEP_1_OR_2_GATEWAY 
++1+Pl:min   VAI_INDEP_NUMBER ;
+0:naa       VAI_INDEP_LOCAL_MODE ;
 
-LEXICON VAI_INDEP_X
-+X:m        VAI_INDEP_THIRD_PERSON_FLAG ;
+LEXICON VAI_INDEP_2_PL
++2+Pl:mw    VAI_INDEP_NUMBER ;
 
-LEXICON VAI_INDEP_THIRD_PERSON_FLAG 
-@P.Person.3@  VAI_INDEP_MOOD ;
+LEXICON VAI_INDEP_NUMBER
+0:aa        VAI_INDEP_LOCAL_MODE ;
+    # ;
 
-LEXICON VAI_INDEP_LOCALNUM !style on linearizing nested sublexica? does this count as a gateway?
-+1+Pl:min       VAI_INDEP_MOOD ;
-!<["+1Pl"|"+21"] .x. [m i n]>   VAI_INDEP_MOOD ; !Good move? do we want to specify a particular value or let the combination of prefix and suffix do the work?
-@R.Person.2@    VAI_INDEP_LOCALNUM_2PL ;
-                VAI_INDEP_MOOD ; !just go to mood, note that failure to pick up suffix in slot not managed in GET
+LEXICON VAI_INDEP_3_OR_X_GATEWAY_1
++3+Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3:w        VAI_INDEP_3 ;
++X:m        VAI_INDEP_X_NO_NEG ;
 
-LEXICON VAI_INDEP_LOCALNUM_2PL 
-+2+Pl:mw   VAI_INDEP_MOOD ;!UR = mw (surfaces prevocalically)
+LEXICON VAI_INDEP_3_OR_X_GATEWAY_2
++3+Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3:w        VAI_INDEP_3 ;
++X:m        VAI_INDEP_X_NEG ;
 
+LEXICON VAI_INDEP_3
+        # ; !figured ability to stop here made sublex part of number, not periph/mood
++Pl:ag  # ;
++Obv:an # ;
+0:i     VAI_INDEP_3_MODE ;
 
-!mood slot
-LEXICON VAI_INDEP_MOOD 
-+Prt:ban       VAI_INDEP_PERS_GET ;
-+Dub:dig        VAI_INDEP_PERS_GET ; 
-+Prt+Dub:goban VAI_INDEP_PERS_GET ;
-                VAI_INDEP_PERS_GET ; !intended ... no suffix, just go to gateway
+LEXICON VAI_INDEP_X_NO_NEG 
+        # ;
+0:i     VAI_INDEP_X_NO_NEG_DUB_PRT_DUB ;
+0:a     VAI_INDEP_X_NO_NEG_PRT ;
 
-!non-local number slot
-LEXICON VAI_INDEP_PERS_GET !add GET to style
-@D.Person.3@  # ; !should ending be an option earlier? we currently have two sublexica that can be exited with epsilon transitions before this ending
-@R.Person.3@  VAI_INDEP_NONLOCNUM ;
+LEXICON VAI_INDEP_X_NEG 
+        # ;
+0:i     VAI_INDEP_X_NEG_MODE ;
 
-LEXICON VAI_INDEP_NONLOCNUM 
-+3+Obv:an    # ;
-+3+Pl:ag     # ;
-             # ;
+!}
+
+!#mode slot {
+LEXICON VAI_INDEP_LOCAL_MODE
++Prt:ban # ;
++Dub:dig # ;
+
+LEXICON VAI_INDEP_NUM_MARKED_PRT_DUB
++Prt+Dub:goban # ;
+
+LEXICON VAI_INDEP_3_MODE
++Prt:ban    VAI_INDEP_3_PRT_PERIPH ;
++Dub:dig    VAI_INDEP_3_DUB_PERIPH ;
++Prt+Dub:goban # ;
+
+LEXICON VAI_INDEP_X_NO_NEG_DUB_PRT_DUB
++Dub:dig # ;
++Prt+Dub:goban # ;
+
+LEXICON VAI_INDEP_X_NO_NEG_PRT
++Prt:ban # ;
+
+LEXICON VAI_INDEP_X_NEG_MODE
++Dub:dig # ;
++Prt:ban # ;
++Prt+Dub:goban # ;
+!}
+
+!#periph slot (such as has not been cannibalized by earlier slots) {
+LEXICON VAI_INDEP_3_PRT_PERIPH 
++Obv:iin # ;
++Pl:iig  # ;
+         # ;
+
+LEXICON VAI_INDEP_3_DUB_PERIPH 
++Obv:enan # ;
++Pl:enag  # ;
+          # ;
+!}
 
 !#####
 !#VAI Conjunct suffixes
