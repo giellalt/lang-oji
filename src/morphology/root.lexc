@@ -37,24 +37,12 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !Simple Person
 1+ 2+ 3+ X+   !prefixes, last is only used on nouns
 +3 +X       !suffixes, if used, occur in Local Person Number slot
++0          !not really a person, but inanimates sometimes trigger special agreement
 
 !! Verb Negation
 +Neg ! ( abs: +Pos / +Aff )
 
 !! Local Person Number
-+21Pl ! Pl for preceding 2/1 prefix
-        !trad name: "I-full"
-        !aka: plurality that includes speaker
-        !2...21Pl = 1.pl.incl
-        !1...21Pl = 1.pl.excl
-+23Pl ! Pl for preceding 2/3 prefix
-        !trad name: "I-less" 
-        !aka: a plurality that excludes speaker
-        !2...23pl = 2.pl
-        !3...23pl = 3.pl
-        !there are 3.pls in another slot
-        !such 3.pls don't overlap with 2.pl
-        !so a 3Pl tag is necessary
 
 !simplest theory of person/number tags is probably:
 !3 person tags:
@@ -111,22 +99,22 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !DEPRECATED (conjunct order, imperative order might require)
 !could do +1+21Pl, +2+21Pl, +2+23Pl
-+1Pl +21 +2Pl
+!+1Pl +21 +2Pl
 
 !instantiating simple number theory
 !recommend all composite person number tags be dropped
 !first ensure affixes/*.lexc, yaml scripts are up to date
 !Pretty sure these are duplicated elsewhere in this doc
-+Pl +Sg +Obv
++Pl +Obv
 
 !Mood
 +Prt +Dub ! abs: Prt, Neu
 +Voc  !only nouns, though form is quite like dub
 
 !Non-Local Person Number/Obviation
-+3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
-+0Sg +0Pl   ! verbs
-+Obv +Loc +Pl   !Nouns
+!+3Obv +3Pl  ! verbs 4? (no 5) Does one indicate ambiguity explicitly or not: 4Sg/Pl?
+!+0Sg +0Pl   ! verbs
++Loc !Nouns (other periph suffs (Pl, Obv) immediately above)
 
 !VTA features (used in deciding theme sign)
 +ThmDir  !aa        (3rd obj) 
@@ -138,11 +126,11 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +ThmPas  !igoo, aa  (passive)
 
 !DEPRECATED!
-+2Sub +2Obj
-+1Sub +1Obj +1PlSub !this last is only used twice!!
-+3Sub +3Obj +3ObvSub +3ObvObj
-+0Sub
-+XSub
+!+2Sub +2Obj
+!+1Sub +1Obj +1PlSub !this last is only used twice!!
+!+3Sub +3Obj +3ObvSub +3ObvObj
+!+0Sub
+!+XSub
 
 !Noun tags
 +NA +NI +NAD +NID 
@@ -154,7 +142,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !##Conjunct order tags
 
 !Verb Other Person/Number combinations (conjunct order crosses person with number)
-+1Sg +2Sg +3Sg
+!+1Sg +2Sg +3Sg
 
 ! VAI, VTI, VTA: 1Sg, 2Sg, 3Sg, 1Pl denotes Subject, add O for objects
 
@@ -202,23 +190,23 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !####
 
 !## setting flags
-@P.LowPerson.1@
-@P.LowPerson.3@
-@P.LowPerson.X@
-@P.LowPerson.0@
-
-!## checking flags
-@D.LowPerson.1@
-@D.LowPerson.3@
-@D.LowPerson.X@
-@D.LowPerson.0@
-@D.LowPerson@
-
-@R.LowPerson.1@
-@R.LowPerson.3@
-@R.LowPerson.X@
-@R.LowPerson.0@
-@R.LowPerson@
+!@P.LowPerson.1@
+!@P.LowPerson.3@
+!@P.LowPerson.X@
+!@P.LowPerson.0@
+!
+!!## checking flags
+!@D.LowPerson.1@
+!@D.LowPerson.3@
+!@D.LowPerson.X@
+!@D.LowPerson.0@
+!@D.LowPerson@
+!
+!@R.LowPerson.1@
+!@R.LowPerson.3@
+!@R.LowPerson.X@
+!@R.LowPerson.0@
+!@R.LowPerson@
 
 !####
 !#Animacy flags (animacy is inherent to nouns)
@@ -260,6 +248,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @P.Inverse.1@
 
 !get
+@D.Inverse.1@
+@D.Inverse@
+
 @R.Inverse.1@
 @R.Inverse@
 
@@ -271,7 +262,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @P.Negation.1@
 
 !get
+@D.Negation@
+@D.Negation.1@
 @R.Negation@
+@R.Negation.1@
 
 !####
 !#Inanimate flag (verbs (VTA!) with inanimate subjects)
