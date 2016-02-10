@@ -106,13 +106,13 @@ LEXICON VAI_INDEP_NUMBER
     # ;
 
 LEXICON VAI_INDEP_3_OR_X_GATEWAY_1
-+3+Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+4:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
 +3+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;
 +3:w        VAI_INDEP_3 ;
 +X:m        VAI_INDEP_X_NO_NEG ;
 
 LEXICON VAI_INDEP_3_OR_X_GATEWAY_2
-+3+Obv:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
++3+4:ini  VAI_INDEP_NUM_MARKED_PRT_DUB ;
 +3+Pl:waa   VAI_INDEP_NUM_MARKED_PRT_DUB ;
 +3:w        VAI_INDEP_3 ;
 +X:m        VAI_INDEP_X_NEG ;
@@ -120,7 +120,7 @@ LEXICON VAI_INDEP_3_OR_X_GATEWAY_2
 LEXICON VAI_INDEP_3
         # ; !figured ability to stop here made sublex part of number, not periph/mood
 +Pl:ag  # ;
-+Obv:an # ;
++4:an # ;
 0:i     VAI_INDEP_3_MODE ;
 
 LEXICON VAI_INDEP_X_NO_NEG 
@@ -162,12 +162,12 @@ LEXICON VAI_INDEP_X_NEG_MODE
 
 !#periph slot (such as has not been cannibalized by earlier slots) {
 LEXICON VAI_INDEP_3_PRT_PERIPH 
-+Obv:iin # ;
++4:iin # ;
 +Pl:iig  # ;
          # ;
 
 LEXICON VAI_INDEP_3_DUB_PERIPH 
-+Obv:enan # ;
++4:enan # ;
 +Pl:enag  # ;
           # ;
 !}
@@ -202,7 +202,7 @@ LEXICON VAI_CNJ_PERSNUM
 +2+Pl:ing       VAI_CNJ_PRET ;
 +2+1+Pl:eg         VAI_CNJ_PRET ;
 +3+Pl:waad      VAI_CNJ_PRET ;
-+3+Obv:inid     VAI_CNJ_PRET ; !nas morph
++3+4:inid     VAI_CNJ_PRET ; !nas morph
 +X:ang         VAI_CNJ_PRET ; !nas morph
 
 !preterite slot
@@ -504,7 +504,7 @@ LEXICON VTA_INDEP_SINGULAR_PERIPH
 !careful! negation can't be last in word, n inserted then!
 
 LEXICON VTA_INDEP_3_PERIPH
-+3+Obv:an # ; !surely plenty of allomorphy here
++3+4:an # ; !surely plenty of allomorphy here
 
 !#dubitative {
 LEXICON VTA_INDEP_DUB_PERIPH_GET
@@ -518,7 +518,7 @@ LEXICON VTA_INDEP_DUB_PERIPH_NON_3
 # ;
 
 LEXICON VTA_INDEP_DUB_PERIPH_3
-+3+Obv:enan # ;
++3+4:enan # ;
 
 LEXICON VTA_INDEP_DUB_PERIPH_INV
 +0+Pl:enan # ;
@@ -540,7 +540,7 @@ LEXICON VTA_INDEP_PRET_PERIPH_NON_3
 # ;
 
 LEXICON VTA_INDEP_PRET_PERIPH_3 
-+3+Obv:iin # ;
++3+4:iin # ;
 
 LEXICON VTA_INDEP_PRET_PERIPH_INV 
 +0+Pl:iin # ;
@@ -575,11 +575,11 @@ LEXICON VTA_INDEP_INAN_SUB_SG_OBJ
 # ;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV_NEG 
-+3+Obv:ini   #;
++3+4:ini   #;
 
 LEXICON VTA_INDEP_INAN_SUB_OBV 
 !-in here is the marking obv when periph can't ... -an in periph is inan agr!
-+3+Obv:inaa VTA_INDEP_MODE_GATEWAY;
++3+4:inaa VTA_INDEP_MODE_GATEWAY;
 
 LEXICON VTA_INDEP_INAN_SUB_ILESS_PL
 +3+Pl:aawaa    VTA_INDEP_INAN_SUB_ILESS_PL_GATEWAY;

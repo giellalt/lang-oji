@@ -80,7 +80,7 @@ LEXICON N_POS_NUM_2_3
 +3+Pl:iwaa   N_MOOD_GET ;
 
 LEXICON N_POS_NUM_3
-+3+Obv:ini   N_MOOD_GET ;
++3+4:ini   N_MOOD_GET ;
 
 !style/syntax note
 !the following might be intuitive, but it is wrong
@@ -106,7 +106,7 @@ LEXICON NA_VOCPL !Long feat name
 LEXICON N_NUM_GET 
 @R.Animate.1@   NA_NUM ;
 @R.Animate.0@   NI_NUM ;
-+Obv:an              # ;
++4:an              # ;
 +Loc:ing             # ;
                 # ;
 !intended: take one or none  of obv, loc, pl suffs, but no more
