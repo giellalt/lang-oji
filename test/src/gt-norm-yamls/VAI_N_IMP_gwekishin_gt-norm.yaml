@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - N - gwekishin - IMP :
+
+  #Template Key
+  #1
+  #imperative
+
+     #Values from slots numbered: 1
+     gwekishin+VAI+Imp+Del+2: gwekishinkan
+     gwekishin+VAI+Imp+Del+2+Pl: gwekishinkag
+     gwekishin+VAI+Imp+Imm+2: gwekishinn
+     gwekishin+VAI+Imp+Imm+2+1+Pl: gwekishindaa
+     gwekishin+VAI+Imp+Imm+2+Pl: gwekishing
+     gwekishin+VAI+Imp+Proh+2: gwekishinken
+     gwekishin+VAI+Imp+Proh+2+1+Pl: gwekishinsiidaa
+     gwekishin+VAI+Imp+Proh+2+Pl: gwekishinkegon
+     

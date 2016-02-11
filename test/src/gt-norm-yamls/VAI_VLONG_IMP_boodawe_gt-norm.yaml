@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfs
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  VAI - VLONG - boodawe - IMP :
+
+  #Template Key
+  #1
+  #imperative
+
+     #Values from slots numbered: 1
+     boodawe+VAI+Imp+Del+2: boodawekan
+     boodawe+VAI+Imp+Del+2+Pl: boodawekag
+     boodawe+VAI+Imp+Imm+2: boodawen
+     boodawe+VAI+Imp+Imm+2+1+Pl: boodawedaa
+     boodawe+VAI+Imp+Imm+2+Pl: boodaweg
+     boodawe+VAI+Imp+Proh+2: boodaweken
+     boodawe+VAI+Imp+Proh+2+1+Pl: boodawesiidaa
+     boodawe+VAI+Imp+Proh+2+Pl: boodawekegon
+     
