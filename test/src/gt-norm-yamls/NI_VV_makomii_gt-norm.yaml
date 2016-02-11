@@ -38,8 +38,8 @@ Tests:
      makomii+NI+Voc+Pl: makomiidin
      
      #Values from slots numbered: 7
+     makomii+NI+4: makomiin
      makomii+NI+Loc: makomiing
-     makomii+NI+Obv: makomiin
      makomii+NI+Pl: makomiin
      
      #Values from slots numbered: 1, 2
@@ -68,7 +68,7 @@ Tests:
      1+makomii+NI+1+Pl: nimakomiinaan
      2+makomii+NI+1+Pl: gimakomiinaan
      2+makomii+NI+3+Pl: gimakomiiwaa
-     3+makomii+NI+3+Obv: omakomiini
+     3+makomii+NI+3+4: omakomiini
      3+makomii+NI+3+Pl: omakomiiwaa
      
      #Values from slots numbered: 1, 6
@@ -82,17 +82,17 @@ Tests:
      X+makomii+NI+Voc+Pl: imakomiidin
      
      #Values from slots numbered: 1, 7
+     1+makomii+NI+4: nimakomiin
      1+makomii+NI+Loc: nimakomiing
-     1+makomii+NI+Obv: nimakomiin
      1+makomii+NI+Pl: nimakomiin
+     2+makomii+NI+4: gimakomiin
      2+makomii+NI+Loc: gimakomiing
-     2+makomii+NI+Obv: gimakomiin
      2+makomii+NI+Pl: gimakomiin
+     3+makomii+NI+4: omakomiin
      3+makomii+NI+Loc: omakomiing
-     3+makomii+NI+Obv: omakomiin
      3+makomii+NI+Pl: omakomiin
+     X+makomii+NI+4: imakomiin
      X+makomii+NI+Loc: imakomiing
-     X+makomii+NI+Obv: imakomiin
      X+makomii+NI+Pl: imakomiin
      
      
@@ -108,11 +108,11 @@ Tests:
      makomii+NI+Dim+Voc+Pl: makomiinsidin
      
      #Values from slots numbered: 2, 7
+     makomii+NI+Con+4: makomiinyin
      makomii+NI+Con+Loc: makomiinying
-     makomii+NI+Con+Obv: makomiinyin
      makomii+NI+Con+Pl: makomiinyin
+     makomii+NI+Dim+4: makomiinsan
      makomii+NI+Dim+Loc: makomiinsing
-     makomii+NI+Dim+Obv: makomiinsan
      makomii+NI+Dim+Pl: makomiinsan
      
      
@@ -125,15 +125,15 @@ Tests:
      makomii+NI+Pej+Voc+Pl: makomiishidin
      
      #Values from slots numbered: 4, 7
+     makomii+NI+Pej+4: makomiishan
      makomii+NI+Pej+Loc: makomiishing
-     makomii+NI+Pej+Obv: makomiishan
      makomii+NI+Pej+Pl: makomiishan
      
      
      
      #Values from slots numbered: 6, 7
+     makomii+NI+Prt+4: makomiibaniin
      makomii+NI+Prt+Loc: makomiibaniing
-     makomii+NI+Prt+Obv: makomiibaniin
      makomii+NI+Prt+Pl: makomiibaniin
      
      #Values from slots numbered: 1, 2, 3
@@ -163,9 +163,9 @@ Tests:
      2+makomii+NI+Con+3+Pl: gimakomiinyiwaa
      2+makomii+NI+Dim+1+Pl: gimakomiinsinaan
      2+makomii+NI+Dim+3+Pl: gimakomiinsiwaa
-     3+makomii+NI+Con+3+Obv: omakomiinyini
+     3+makomii+NI+Con+3+4: omakomiinyini
      3+makomii+NI+Con+3+Pl: omakomiinyiwaa
-     3+makomii+NI+Dim+3+Obv: omakomiinsini
+     3+makomii+NI+Dim+3+4: omakomiinsini
      3+makomii+NI+Dim+3+Pl: omakomiinsiwaa
      
      #Values from slots numbered: 1, 2, 6
@@ -187,29 +187,29 @@ Tests:
      X+makomii+NI+Dim+Voc+Pl: imakomiinsidin
      
      #Values from slots numbered: 1, 2, 7
+     1+makomii+NI+Con+4: nimakomiinyin
      1+makomii+NI+Con+Loc: nimakomiinying
-     1+makomii+NI+Con+Obv: nimakomiinyin
      1+makomii+NI+Con+Pl: nimakomiinyin
+     1+makomii+NI+Dim+4: nimakomiinsan
      1+makomii+NI+Dim+Loc: nimakomiinsing
-     1+makomii+NI+Dim+Obv: nimakomiinsan
      1+makomii+NI+Dim+Pl: nimakomiinsan
+     2+makomii+NI+Con+4: gimakomiinyin
      2+makomii+NI+Con+Loc: gimakomiinying
-     2+makomii+NI+Con+Obv: gimakomiinyin
      2+makomii+NI+Con+Pl: gimakomiinyin
+     2+makomii+NI+Dim+4: gimakomiinsan
      2+makomii+NI+Dim+Loc: gimakomiinsing
-     2+makomii+NI+Dim+Obv: gimakomiinsan
      2+makomii+NI+Dim+Pl: gimakomiinsan
+     3+makomii+NI+Con+4: omakomiinyin
      3+makomii+NI+Con+Loc: omakomiinying
-     3+makomii+NI+Con+Obv: omakomiinyin
      3+makomii+NI+Con+Pl: omakomiinyin
+     3+makomii+NI+Dim+4: omakomiinsan
      3+makomii+NI+Dim+Loc: omakomiinsing
-     3+makomii+NI+Dim+Obv: omakomiinsan
      3+makomii+NI+Dim+Pl: omakomiinsan
+     X+makomii+NI+Con+4: imakomiinyin
      X+makomii+NI+Con+Loc: imakomiinying
-     X+makomii+NI+Con+Obv: imakomiinyin
      X+makomii+NI+Con+Pl: imakomiinyin
+     X+makomii+NI+Dim+4: imakomiinsan
      X+makomii+NI+Dim+Loc: imakomiinsing
-     X+makomii+NI+Dim+Obv: imakomiinsan
      X+makomii+NI+Dim+Pl: imakomiinsan
      
      #Values from slots numbered: 1, 3, 4
@@ -222,7 +222,7 @@ Tests:
      1+makomii+NI+Pos+1+Pl: nimakomiiminaan
      2+makomii+NI+Pos+1+Pl: gimakomiiminaan
      2+makomii+NI+Pos+3+Pl: gimakomiimiwaa
-     3+makomii+NI+Pos+3+Obv: omakomiimini
+     3+makomii+NI+Pos+3+4: omakomiimini
      3+makomii+NI+Pos+3+Pl: omakomiimiwaa
      
      #Values from slots numbered: 1, 3, 6
@@ -236,24 +236,24 @@ Tests:
      X+makomii+NI+Pos+Voc+Pl: imakomiimidin
      
      #Values from slots numbered: 1, 3, 7
+     1+makomii+NI+Pos+4: nimakomiiman
      1+makomii+NI+Pos+Loc: nimakomiiming
-     1+makomii+NI+Pos+Obv: nimakomiiman
      1+makomii+NI+Pos+Pl: nimakomiiman
+     2+makomii+NI+Pos+4: gimakomiiman
      2+makomii+NI+Pos+Loc: gimakomiiming
-     2+makomii+NI+Pos+Obv: gimakomiiman
      2+makomii+NI+Pos+Pl: gimakomiiman
+     3+makomii+NI+Pos+4: omakomiiman
      3+makomii+NI+Pos+Loc: omakomiiming
-     3+makomii+NI+Pos+Obv: omakomiiman
      3+makomii+NI+Pos+Pl: omakomiiman
+     X+makomii+NI+Pos+4: imakomiiman
      X+makomii+NI+Pos+Loc: imakomiiming
-     X+makomii+NI+Pos+Obv: imakomiiman
      X+makomii+NI+Pos+Pl: imakomiiman
      
      #Values from slots numbered: 1, 4, 5
      1+makomii+NI+Pej+1+Pl: nimakomiishinaan
      2+makomii+NI+Pej+1+Pl: gimakomiishinaan
      2+makomii+NI+Pej+3+Pl: gimakomiishiwaa
-     3+makomii+NI+Pej+3+Obv: omakomiishini
+     3+makomii+NI+Pej+3+4: omakomiishini
      3+makomii+NI+Pej+3+Pl: omakomiishiwaa
      
      #Values from slots numbered: 1, 4, 6
@@ -267,17 +267,17 @@ Tests:
      X+makomii+NI+Pej+Voc+Pl: imakomiishidin
      
      #Values from slots numbered: 1, 4, 7
+     1+makomii+NI+Pej+4: nimakomiishan
      1+makomii+NI+Pej+Loc: nimakomiishing
-     1+makomii+NI+Pej+Obv: nimakomiishan
      1+makomii+NI+Pej+Pl: nimakomiishan
+     2+makomii+NI+Pej+4: gimakomiishan
      2+makomii+NI+Pej+Loc: gimakomiishing
-     2+makomii+NI+Pej+Obv: gimakomiishan
      2+makomii+NI+Pej+Pl: gimakomiishan
+     3+makomii+NI+Pej+4: omakomiishan
      3+makomii+NI+Pej+Loc: omakomiishing
-     3+makomii+NI+Pej+Obv: omakomiishan
      3+makomii+NI+Pej+Pl: omakomiishan
+     X+makomii+NI+Pej+4: imakomiishan
      X+makomii+NI+Pej+Loc: imakomiishing
-     X+makomii+NI+Pej+Obv: imakomiishan
      X+makomii+NI+Pej+Pl: imakomiishan
      
      #Values from slots numbered: 1, 5, 6
@@ -287,40 +287,40 @@ Tests:
      2+makomii+NI+1+Pl+Voc+Pl: gimakomiinaanidig
      2+makomii+NI+3+Pl+Prt: gimakomiiwaaban
      2+makomii+NI+3+Pl+Voc+Pl: gimakomiiwaadig
-     3+makomii+NI+3+Obv+Prt: omakomiiniiban
-     3+makomii+NI+3+Obv+Voc+Pl: omakomiiniidin
+     3+makomii+NI+3+4+Prt: omakomiiniiban
+     3+makomii+NI+3+4+Voc+Pl: omakomiiniidin
      3+makomii+NI+3+Pl+Prt: omakomiiwaaban
      3+makomii+NI+3+Pl+Voc+Pl: omakomiiwaadig
      
      #Values from slots numbered: 1, 5, 7
+     1+makomii+NI+1+Pl+4: nimakomiinaanin
      1+makomii+NI+1+Pl+Loc: nimakomiinaaning
-     1+makomii+NI+1+Pl+Obv: nimakomiinaanin
      1+makomii+NI+1+Pl+Pl: nimakomiinaanig
+     2+makomii+NI+1+Pl+4: gimakomiinaanin
      2+makomii+NI+1+Pl+Loc: gimakomiinaaning
-     2+makomii+NI+1+Pl+Obv: gimakomiinaanin
      2+makomii+NI+1+Pl+Pl: gimakomiinaanig
+     2+makomii+NI+3+Pl+4: gimakomiiwaan
      2+makomii+NI+3+Pl+Loc: gimakomiiwaang
-     2+makomii+NI+3+Pl+Obv: gimakomiiwaan
      2+makomii+NI+3+Pl+Pl: gimakomiiwaag
-     3+makomii+NI+3+Obv+Loc: omakomiiniing
-     3+makomii+NI+3+Obv+Obv: omakomiiniwa
-     3+makomii+NI+3+Obv+Pl: omakomiiniwa
+     3+makomii+NI+3+4+4: omakomiiniwa
+     3+makomii+NI+3+4+Loc: omakomiiniing
+     3+makomii+NI+3+4+Pl: omakomiiniwa
+     3+makomii+NI+3+Pl+4: omakomiiwaan
      3+makomii+NI+3+Pl+Loc: omakomiiwaang
-     3+makomii+NI+3+Pl+Obv: omakomiiwaan
      3+makomii+NI+3+Pl+Pl: omakomiiwaag
      
      #Values from slots numbered: 1, 6, 7
+     1+makomii+NI+Prt+4: nimakomiibaniin
      1+makomii+NI+Prt+Loc: nimakomiibaniing
-     1+makomii+NI+Prt+Obv: nimakomiibaniin
      1+makomii+NI+Prt+Pl: nimakomiibaniin
+     2+makomii+NI+Prt+4: gimakomiibaniin
      2+makomii+NI+Prt+Loc: gimakomiibaniing
-     2+makomii+NI+Prt+Obv: gimakomiibaniin
      2+makomii+NI+Prt+Pl: gimakomiibaniin
+     3+makomii+NI+Prt+4: omakomiibaniin
      3+makomii+NI+Prt+Loc: omakomiibaniing
-     3+makomii+NI+Prt+Obv: omakomiibaniin
      3+makomii+NI+Prt+Pl: omakomiibaniin
+     X+makomii+NI+Prt+4: imakomiibaniin
      X+makomii+NI+Prt+Loc: imakomiibaniing
-     X+makomii+NI+Prt+Obv: imakomiibaniin
      X+makomii+NI+Prt+Pl: imakomiibaniin
      
      
@@ -335,21 +335,21 @@ Tests:
      makomii+NI+Dim+Pej+Voc+Pl: makomiinsishidin
      
      #Values from slots numbered: 2, 4, 7
+     makomii+NI+Con+Pej+4: makomiinyishan
      makomii+NI+Con+Pej+Loc: makomiinyishing
-     makomii+NI+Con+Pej+Obv: makomiinyishan
      makomii+NI+Con+Pej+Pl: makomiinyishan
+     makomii+NI+Dim+Pej+4: makomiinsishan
      makomii+NI+Dim+Pej+Loc: makomiinsishing
-     makomii+NI+Dim+Pej+Obv: makomiinsishan
      makomii+NI+Dim+Pej+Pl: makomiinsishan
      
      
      
      #Values from slots numbered: 2, 6, 7
+     makomii+NI+Con+Prt+4: makomiinyibaniin
      makomii+NI+Con+Prt+Loc: makomiinyibaniing
-     makomii+NI+Con+Prt+Obv: makomiinyibaniin
      makomii+NI+Con+Prt+Pl: makomiinyibaniin
+     makomii+NI+Dim+Prt+4: makomiinsibaniin
      makomii+NI+Dim+Prt+Loc: makomiinsibaniing
-     makomii+NI+Dim+Prt+Obv: makomiinsibaniin
      makomii+NI+Dim+Prt+Pl: makomiinsibaniin
      
      
@@ -361,8 +361,8 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
+     makomii+NI+Pej+Prt+4: makomiishibaniin
      makomii+NI+Pej+Prt+Loc: makomiishibaniing
-     makomii+NI+Pej+Prt+Obv: makomiishibaniin
      makomii+NI+Pej+Prt+Pl: makomiishibaniin
      
      
@@ -383,9 +383,9 @@ Tests:
      2+makomii+NI+Con+Pos+3+Pl: gimakomiinyimiwaa
      2+makomii+NI+Dim+Pos+1+Pl: gimakomiinsiminaan
      2+makomii+NI+Dim+Pos+3+Pl: gimakomiinsimiwaa
-     3+makomii+NI+Con+Pos+3+Obv: omakomiinyimini
+     3+makomii+NI+Con+Pos+3+4: omakomiinyimini
      3+makomii+NI+Con+Pos+3+Pl: omakomiinyimiwaa
-     3+makomii+NI+Dim+Pos+3+Obv: omakomiinsimini
+     3+makomii+NI+Dim+Pos+3+4: omakomiinsimini
      3+makomii+NI+Dim+Pos+3+Pl: omakomiinsimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
@@ -407,29 +407,29 @@ Tests:
      X+makomii+NI+Dim+Pos+Voc+Pl: imakomiinsimidin
      
      #Values from slots numbered: 1, 2, 3, 7
+     1+makomii+NI+Con+Pos+4: nimakomiinyiman
      1+makomii+NI+Con+Pos+Loc: nimakomiinyiming
-     1+makomii+NI+Con+Pos+Obv: nimakomiinyiman
      1+makomii+NI+Con+Pos+Pl: nimakomiinyiman
+     1+makomii+NI+Dim+Pos+4: nimakomiinsiman
      1+makomii+NI+Dim+Pos+Loc: nimakomiinsiming
-     1+makomii+NI+Dim+Pos+Obv: nimakomiinsiman
      1+makomii+NI+Dim+Pos+Pl: nimakomiinsiman
+     2+makomii+NI+Con+Pos+4: gimakomiinyiman
      2+makomii+NI+Con+Pos+Loc: gimakomiinyiming
-     2+makomii+NI+Con+Pos+Obv: gimakomiinyiman
      2+makomii+NI+Con+Pos+Pl: gimakomiinyiman
+     2+makomii+NI+Dim+Pos+4: gimakomiinsiman
      2+makomii+NI+Dim+Pos+Loc: gimakomiinsiming
-     2+makomii+NI+Dim+Pos+Obv: gimakomiinsiman
      2+makomii+NI+Dim+Pos+Pl: gimakomiinsiman
+     3+makomii+NI+Con+Pos+4: omakomiinyiman
      3+makomii+NI+Con+Pos+Loc: omakomiinyiming
-     3+makomii+NI+Con+Pos+Obv: omakomiinyiman
      3+makomii+NI+Con+Pos+Pl: omakomiinyiman
+     3+makomii+NI+Dim+Pos+4: omakomiinsiman
      3+makomii+NI+Dim+Pos+Loc: omakomiinsiming
-     3+makomii+NI+Dim+Pos+Obv: omakomiinsiman
      3+makomii+NI+Dim+Pos+Pl: omakomiinsiman
+     X+makomii+NI+Con+Pos+4: imakomiinyiman
      X+makomii+NI+Con+Pos+Loc: imakomiinyiming
-     X+makomii+NI+Con+Pos+Obv: imakomiinyiman
      X+makomii+NI+Con+Pos+Pl: imakomiinyiman
+     X+makomii+NI+Dim+Pos+4: imakomiinsiman
      X+makomii+NI+Dim+Pos+Loc: imakomiinsiming
-     X+makomii+NI+Dim+Pos+Obv: imakomiinsiman
      X+makomii+NI+Dim+Pos+Pl: imakomiinsiman
      
      #Values from slots numbered: 1, 2, 4, 5
@@ -439,9 +439,9 @@ Tests:
      2+makomii+NI+Con+Pej+3+Pl: gimakomiinyishiwaa
      2+makomii+NI+Dim+Pej+1+Pl: gimakomiinsishinaan
      2+makomii+NI+Dim+Pej+3+Pl: gimakomiinsishiwaa
-     3+makomii+NI+Con+Pej+3+Obv: omakomiinyishini
+     3+makomii+NI+Con+Pej+3+4: omakomiinyishini
      3+makomii+NI+Con+Pej+3+Pl: omakomiinyishiwaa
-     3+makomii+NI+Dim+Pej+3+Obv: omakomiinsishini
+     3+makomii+NI+Dim+Pej+3+4: omakomiinsishini
      3+makomii+NI+Dim+Pej+3+Pl: omakomiinsishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
@@ -463,29 +463,29 @@ Tests:
      X+makomii+NI+Dim+Pej+Voc+Pl: imakomiinsishidin
      
      #Values from slots numbered: 1, 2, 4, 7
+     1+makomii+NI+Con+Pej+4: nimakomiinyishan
      1+makomii+NI+Con+Pej+Loc: nimakomiinyishing
-     1+makomii+NI+Con+Pej+Obv: nimakomiinyishan
      1+makomii+NI+Con+Pej+Pl: nimakomiinyishan
+     1+makomii+NI+Dim+Pej+4: nimakomiinsishan
      1+makomii+NI+Dim+Pej+Loc: nimakomiinsishing
-     1+makomii+NI+Dim+Pej+Obv: nimakomiinsishan
      1+makomii+NI+Dim+Pej+Pl: nimakomiinsishan
+     2+makomii+NI+Con+Pej+4: gimakomiinyishan
      2+makomii+NI+Con+Pej+Loc: gimakomiinyishing
-     2+makomii+NI+Con+Pej+Obv: gimakomiinyishan
      2+makomii+NI+Con+Pej+Pl: gimakomiinyishan
+     2+makomii+NI+Dim+Pej+4: gimakomiinsishan
      2+makomii+NI+Dim+Pej+Loc: gimakomiinsishing
-     2+makomii+NI+Dim+Pej+Obv: gimakomiinsishan
      2+makomii+NI+Dim+Pej+Pl: gimakomiinsishan
+     3+makomii+NI+Con+Pej+4: omakomiinyishan
      3+makomii+NI+Con+Pej+Loc: omakomiinyishing
-     3+makomii+NI+Con+Pej+Obv: omakomiinyishan
      3+makomii+NI+Con+Pej+Pl: omakomiinyishan
+     3+makomii+NI+Dim+Pej+4: omakomiinsishan
      3+makomii+NI+Dim+Pej+Loc: omakomiinsishing
-     3+makomii+NI+Dim+Pej+Obv: omakomiinsishan
      3+makomii+NI+Dim+Pej+Pl: omakomiinsishan
+     X+makomii+NI+Con+Pej+4: imakomiinyishan
      X+makomii+NI+Con+Pej+Loc: imakomiinyishing
-     X+makomii+NI+Con+Pej+Obv: imakomiinyishan
      X+makomii+NI+Con+Pej+Pl: imakomiinyishan
+     X+makomii+NI+Dim+Pej+4: imakomiinsishan
      X+makomii+NI+Dim+Pej+Loc: imakomiinsishing
-     X+makomii+NI+Dim+Pej+Obv: imakomiinsishan
      X+makomii+NI+Dim+Pej+Pl: imakomiinsishan
      
      #Values from slots numbered: 1, 2, 5, 6
@@ -501,78 +501,78 @@ Tests:
      2+makomii+NI+Dim+1+Pl+Voc+Pl: gimakomiinsinaanidig
      2+makomii+NI+Dim+3+Pl+Prt: gimakomiinsiwaaban
      2+makomii+NI+Dim+3+Pl+Voc+Pl: gimakomiinsiwaadig
-     3+makomii+NI+Con+3+Obv+Prt: omakomiinyiniiban
-     3+makomii+NI+Con+3+Obv+Voc+Pl: omakomiinyiniidin
+     3+makomii+NI+Con+3+4+Prt: omakomiinyiniiban
+     3+makomii+NI+Con+3+4+Voc+Pl: omakomiinyiniidin
      3+makomii+NI+Con+3+Pl+Prt: omakomiinyiwaaban
      3+makomii+NI+Con+3+Pl+Voc+Pl: omakomiinyiwaadig
-     3+makomii+NI+Dim+3+Obv+Prt: omakomiinsiniiban
-     3+makomii+NI+Dim+3+Obv+Voc+Pl: omakomiinsiniidin
+     3+makomii+NI+Dim+3+4+Prt: omakomiinsiniiban
+     3+makomii+NI+Dim+3+4+Voc+Pl: omakomiinsiniidin
      3+makomii+NI+Dim+3+Pl+Prt: omakomiinsiwaaban
      3+makomii+NI+Dim+3+Pl+Voc+Pl: omakomiinsiwaadig
      
      #Values from slots numbered: 1, 2, 5, 7
+     1+makomii+NI+Con+1+Pl+4: nimakomiinyinaanin
      1+makomii+NI+Con+1+Pl+Loc: nimakomiinyinaaning
-     1+makomii+NI+Con+1+Pl+Obv: nimakomiinyinaanin
      1+makomii+NI+Con+1+Pl+Pl: nimakomiinyinaanig
+     1+makomii+NI+Dim+1+Pl+4: nimakomiinsinaanin
      1+makomii+NI+Dim+1+Pl+Loc: nimakomiinsinaaning
-     1+makomii+NI+Dim+1+Pl+Obv: nimakomiinsinaanin
      1+makomii+NI+Dim+1+Pl+Pl: nimakomiinsinaanig
+     2+makomii+NI+Con+1+Pl+4: gimakomiinyinaanin
      2+makomii+NI+Con+1+Pl+Loc: gimakomiinyinaaning
-     2+makomii+NI+Con+1+Pl+Obv: gimakomiinyinaanin
      2+makomii+NI+Con+1+Pl+Pl: gimakomiinyinaanig
+     2+makomii+NI+Con+3+Pl+4: gimakomiinyiwaan
      2+makomii+NI+Con+3+Pl+Loc: gimakomiinyiwaang
-     2+makomii+NI+Con+3+Pl+Obv: gimakomiinyiwaan
      2+makomii+NI+Con+3+Pl+Pl: gimakomiinyiwaag
+     2+makomii+NI+Dim+1+Pl+4: gimakomiinsinaanin
      2+makomii+NI+Dim+1+Pl+Loc: gimakomiinsinaaning
-     2+makomii+NI+Dim+1+Pl+Obv: gimakomiinsinaanin
      2+makomii+NI+Dim+1+Pl+Pl: gimakomiinsinaanig
+     2+makomii+NI+Dim+3+Pl+4: gimakomiinsiwaan
      2+makomii+NI+Dim+3+Pl+Loc: gimakomiinsiwaang
-     2+makomii+NI+Dim+3+Pl+Obv: gimakomiinsiwaan
      2+makomii+NI+Dim+3+Pl+Pl: gimakomiinsiwaag
-     3+makomii+NI+Con+3+Obv+Loc: omakomiinyiniing
-     3+makomii+NI+Con+3+Obv+Obv: omakomiinyiniwa
-     3+makomii+NI+Con+3+Obv+Pl: omakomiinyiniwa
+     3+makomii+NI+Con+3+4+4: omakomiinyiniwa
+     3+makomii+NI+Con+3+4+Loc: omakomiinyiniing
+     3+makomii+NI+Con+3+4+Pl: omakomiinyiniwa
+     3+makomii+NI+Con+3+Pl+4: omakomiinyiwaan
      3+makomii+NI+Con+3+Pl+Loc: omakomiinyiwaang
-     3+makomii+NI+Con+3+Pl+Obv: omakomiinyiwaan
      3+makomii+NI+Con+3+Pl+Pl: omakomiinyiwaag
-     3+makomii+NI+Dim+3+Obv+Loc: omakomiinsiniing
-     3+makomii+NI+Dim+3+Obv+Obv: omakomiinsiniwa
-     3+makomii+NI+Dim+3+Obv+Pl: omakomiinsiniwa
+     3+makomii+NI+Dim+3+4+4: omakomiinsiniwa
+     3+makomii+NI+Dim+3+4+Loc: omakomiinsiniing
+     3+makomii+NI+Dim+3+4+Pl: omakomiinsiniwa
+     3+makomii+NI+Dim+3+Pl+4: omakomiinsiwaan
      3+makomii+NI+Dim+3+Pl+Loc: omakomiinsiwaang
-     3+makomii+NI+Dim+3+Pl+Obv: omakomiinsiwaan
      3+makomii+NI+Dim+3+Pl+Pl: omakomiinsiwaag
      
      #Values from slots numbered: 1, 2, 6, 7
+     1+makomii+NI+Con+Prt+4: nimakomiinyibaniin
      1+makomii+NI+Con+Prt+Loc: nimakomiinyibaniing
-     1+makomii+NI+Con+Prt+Obv: nimakomiinyibaniin
      1+makomii+NI+Con+Prt+Pl: nimakomiinyibaniin
+     1+makomii+NI+Dim+Prt+4: nimakomiinsibaniin
      1+makomii+NI+Dim+Prt+Loc: nimakomiinsibaniing
-     1+makomii+NI+Dim+Prt+Obv: nimakomiinsibaniin
      1+makomii+NI+Dim+Prt+Pl: nimakomiinsibaniin
+     2+makomii+NI+Con+Prt+4: gimakomiinyibaniin
      2+makomii+NI+Con+Prt+Loc: gimakomiinyibaniing
-     2+makomii+NI+Con+Prt+Obv: gimakomiinyibaniin
      2+makomii+NI+Con+Prt+Pl: gimakomiinyibaniin
+     2+makomii+NI+Dim+Prt+4: gimakomiinsibaniin
      2+makomii+NI+Dim+Prt+Loc: gimakomiinsibaniing
-     2+makomii+NI+Dim+Prt+Obv: gimakomiinsibaniin
      2+makomii+NI+Dim+Prt+Pl: gimakomiinsibaniin
+     3+makomii+NI+Con+Prt+4: omakomiinyibaniin
      3+makomii+NI+Con+Prt+Loc: omakomiinyibaniing
-     3+makomii+NI+Con+Prt+Obv: omakomiinyibaniin
      3+makomii+NI+Con+Prt+Pl: omakomiinyibaniin
+     3+makomii+NI+Dim+Prt+4: omakomiinsibaniin
      3+makomii+NI+Dim+Prt+Loc: omakomiinsibaniing
-     3+makomii+NI+Dim+Prt+Obv: omakomiinsibaniin
      3+makomii+NI+Dim+Prt+Pl: omakomiinsibaniin
+     X+makomii+NI+Con+Prt+4: imakomiinyibaniin
      X+makomii+NI+Con+Prt+Loc: imakomiinyibaniing
-     X+makomii+NI+Con+Prt+Obv: imakomiinyibaniin
      X+makomii+NI+Con+Prt+Pl: imakomiinyibaniin
+     X+makomii+NI+Dim+Prt+4: imakomiinsibaniin
      X+makomii+NI+Dim+Prt+Loc: imakomiinsibaniing
-     X+makomii+NI+Dim+Prt+Obv: imakomiinsibaniin
      X+makomii+NI+Dim+Prt+Pl: imakomiinsibaniin
      
      #Values from slots numbered: 1, 3, 4, 5
      1+makomii+NI+Pos+Pej+1+Pl: nimakomiimishinaan
      2+makomii+NI+Pos+Pej+1+Pl: gimakomiimishinaan
      2+makomii+NI+Pos+Pej+3+Pl: gimakomiimishiwaa
-     3+makomii+NI+Pos+Pej+3+Obv: omakomiimishini
+     3+makomii+NI+Pos+Pej+3+4: omakomiimishini
      3+makomii+NI+Pos+Pej+3+Pl: omakomiimishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
@@ -586,17 +586,17 @@ Tests:
      X+makomii+NI+Pos+Pej+Voc+Pl: imakomiimishidin
      
      #Values from slots numbered: 1, 3, 4, 7
+     1+makomii+NI+Pos+Pej+4: nimakomiimishan
      1+makomii+NI+Pos+Pej+Loc: nimakomiimishing
-     1+makomii+NI+Pos+Pej+Obv: nimakomiimishan
      1+makomii+NI+Pos+Pej+Pl: nimakomiimishan
+     2+makomii+NI+Pos+Pej+4: gimakomiimishan
      2+makomii+NI+Pos+Pej+Loc: gimakomiimishing
-     2+makomii+NI+Pos+Pej+Obv: gimakomiimishan
      2+makomii+NI+Pos+Pej+Pl: gimakomiimishan
+     3+makomii+NI+Pos+Pej+4: omakomiimishan
      3+makomii+NI+Pos+Pej+Loc: omakomiimishing
-     3+makomii+NI+Pos+Pej+Obv: omakomiimishan
      3+makomii+NI+Pos+Pej+Pl: omakomiimishan
+     X+makomii+NI+Pos+Pej+4: imakomiimishan
      X+makomii+NI+Pos+Pej+Loc: imakomiimishing
-     X+makomii+NI+Pos+Pej+Obv: imakomiimishan
      X+makomii+NI+Pos+Pej+Pl: imakomiimishan
      
      #Values from slots numbered: 1, 3, 5, 6
@@ -606,40 +606,40 @@ Tests:
      2+makomii+NI+Pos+1+Pl+Voc+Pl: gimakomiiminaanidig
      2+makomii+NI+Pos+3+Pl+Prt: gimakomiimiwaaban
      2+makomii+NI+Pos+3+Pl+Voc+Pl: gimakomiimiwaadig
-     3+makomii+NI+Pos+3+Obv+Prt: omakomiiminiiban
-     3+makomii+NI+Pos+3+Obv+Voc+Pl: omakomiiminiidin
+     3+makomii+NI+Pos+3+4+Prt: omakomiiminiiban
+     3+makomii+NI+Pos+3+4+Voc+Pl: omakomiiminiidin
      3+makomii+NI+Pos+3+Pl+Prt: omakomiimiwaaban
      3+makomii+NI+Pos+3+Pl+Voc+Pl: omakomiimiwaadig
      
      #Values from slots numbered: 1, 3, 5, 7
+     1+makomii+NI+Pos+1+Pl+4: nimakomiiminaanin
      1+makomii+NI+Pos+1+Pl+Loc: nimakomiiminaaning
-     1+makomii+NI+Pos+1+Pl+Obv: nimakomiiminaanin
      1+makomii+NI+Pos+1+Pl+Pl: nimakomiiminaanig
+     2+makomii+NI+Pos+1+Pl+4: gimakomiiminaanin
      2+makomii+NI+Pos+1+Pl+Loc: gimakomiiminaaning
-     2+makomii+NI+Pos+1+Pl+Obv: gimakomiiminaanin
      2+makomii+NI+Pos+1+Pl+Pl: gimakomiiminaanig
+     2+makomii+NI+Pos+3+Pl+4: gimakomiimiwaan
      2+makomii+NI+Pos+3+Pl+Loc: gimakomiimiwaang
-     2+makomii+NI+Pos+3+Pl+Obv: gimakomiimiwaan
      2+makomii+NI+Pos+3+Pl+Pl: gimakomiimiwaag
-     3+makomii+NI+Pos+3+Obv+Loc: omakomiiminiing
-     3+makomii+NI+Pos+3+Obv+Obv: omakomiiminiwa
-     3+makomii+NI+Pos+3+Obv+Pl: omakomiiminiwa
+     3+makomii+NI+Pos+3+4+4: omakomiiminiwa
+     3+makomii+NI+Pos+3+4+Loc: omakomiiminiing
+     3+makomii+NI+Pos+3+4+Pl: omakomiiminiwa
+     3+makomii+NI+Pos+3+Pl+4: omakomiimiwaan
      3+makomii+NI+Pos+3+Pl+Loc: omakomiimiwaang
-     3+makomii+NI+Pos+3+Pl+Obv: omakomiimiwaan
      3+makomii+NI+Pos+3+Pl+Pl: omakomiimiwaag
      
      #Values from slots numbered: 1, 3, 6, 7
+     1+makomii+NI+Pos+Prt+4: nimakomiimibaniin
      1+makomii+NI+Pos+Prt+Loc: nimakomiimibaniing
-     1+makomii+NI+Pos+Prt+Obv: nimakomiimibaniin
      1+makomii+NI+Pos+Prt+Pl: nimakomiimibaniin
+     2+makomii+NI+Pos+Prt+4: gimakomiimibaniin
      2+makomii+NI+Pos+Prt+Loc: gimakomiimibaniing
-     2+makomii+NI+Pos+Prt+Obv: gimakomiimibaniin
      2+makomii+NI+Pos+Prt+Pl: gimakomiimibaniin
+     3+makomii+NI+Pos+Prt+4: omakomiimibaniin
      3+makomii+NI+Pos+Prt+Loc: omakomiimibaniing
-     3+makomii+NI+Pos+Prt+Obv: omakomiimibaniin
      3+makomii+NI+Pos+Prt+Pl: omakomiimibaniin
+     X+makomii+NI+Pos+Prt+4: imakomiimibaniin
      X+makomii+NI+Pos+Prt+Loc: imakomiimibaniing
-     X+makomii+NI+Pos+Prt+Obv: imakomiimibaniin
      X+makomii+NI+Pos+Prt+Pl: imakomiimibaniin
      
      #Values from slots numbered: 1, 4, 5, 6
@@ -649,72 +649,72 @@ Tests:
      2+makomii+NI+Pej+1+Pl+Voc+Pl: gimakomiishinaanidig
      2+makomii+NI+Pej+3+Pl+Prt: gimakomiishiwaaban
      2+makomii+NI+Pej+3+Pl+Voc+Pl: gimakomiishiwaadig
-     3+makomii+NI+Pej+3+Obv+Prt: omakomiishiniiban
-     3+makomii+NI+Pej+3+Obv+Voc+Pl: omakomiishiniidin
+     3+makomii+NI+Pej+3+4+Prt: omakomiishiniiban
+     3+makomii+NI+Pej+3+4+Voc+Pl: omakomiishiniidin
      3+makomii+NI+Pej+3+Pl+Prt: omakomiishiwaaban
      3+makomii+NI+Pej+3+Pl+Voc+Pl: omakomiishiwaadig
      
      #Values from slots numbered: 1, 4, 5, 7
+     1+makomii+NI+Pej+1+Pl+4: nimakomiishinaanin
      1+makomii+NI+Pej+1+Pl+Loc: nimakomiishinaaning
-     1+makomii+NI+Pej+1+Pl+Obv: nimakomiishinaanin
      1+makomii+NI+Pej+1+Pl+Pl: nimakomiishinaanig
+     2+makomii+NI+Pej+1+Pl+4: gimakomiishinaanin
      2+makomii+NI+Pej+1+Pl+Loc: gimakomiishinaaning
-     2+makomii+NI+Pej+1+Pl+Obv: gimakomiishinaanin
      2+makomii+NI+Pej+1+Pl+Pl: gimakomiishinaanig
+     2+makomii+NI+Pej+3+Pl+4: gimakomiishiwaan
      2+makomii+NI+Pej+3+Pl+Loc: gimakomiishiwaang
-     2+makomii+NI+Pej+3+Pl+Obv: gimakomiishiwaan
      2+makomii+NI+Pej+3+Pl+Pl: gimakomiishiwaag
-     3+makomii+NI+Pej+3+Obv+Loc: omakomiishiniing
-     3+makomii+NI+Pej+3+Obv+Obv: omakomiishiniwa
-     3+makomii+NI+Pej+3+Obv+Pl: omakomiishiniwa
+     3+makomii+NI+Pej+3+4+4: omakomiishiniwa
+     3+makomii+NI+Pej+3+4+Loc: omakomiishiniing
+     3+makomii+NI+Pej+3+4+Pl: omakomiishiniwa
+     3+makomii+NI+Pej+3+Pl+4: omakomiishiwaan
      3+makomii+NI+Pej+3+Pl+Loc: omakomiishiwaang
-     3+makomii+NI+Pej+3+Pl+Obv: omakomiishiwaan
      3+makomii+NI+Pej+3+Pl+Pl: omakomiishiwaag
      
      #Values from slots numbered: 1, 4, 6, 7
+     1+makomii+NI+Pej+Prt+4: nimakomiishibaniin
      1+makomii+NI+Pej+Prt+Loc: nimakomiishibaniing
-     1+makomii+NI+Pej+Prt+Obv: nimakomiishibaniin
      1+makomii+NI+Pej+Prt+Pl: nimakomiishibaniin
+     2+makomii+NI+Pej+Prt+4: gimakomiishibaniin
      2+makomii+NI+Pej+Prt+Loc: gimakomiishibaniing
-     2+makomii+NI+Pej+Prt+Obv: gimakomiishibaniin
      2+makomii+NI+Pej+Prt+Pl: gimakomiishibaniin
+     3+makomii+NI+Pej+Prt+4: omakomiishibaniin
      3+makomii+NI+Pej+Prt+Loc: omakomiishibaniing
-     3+makomii+NI+Pej+Prt+Obv: omakomiishibaniin
      3+makomii+NI+Pej+Prt+Pl: omakomiishibaniin
+     X+makomii+NI+Pej+Prt+4: imakomiishibaniin
      X+makomii+NI+Pej+Prt+Loc: imakomiishibaniing
-     X+makomii+NI+Pej+Prt+Obv: imakomiishibaniin
      X+makomii+NI+Pej+Prt+Pl: imakomiishibaniin
      
      #Values from slots numbered: 1, 5, 6, 7
+     1+makomii+NI+1+Pl+Prt+4: nimakomiinaanibaniin
      1+makomii+NI+1+Pl+Prt+Loc: nimakomiinaanibaniing
-     1+makomii+NI+1+Pl+Prt+Obv: nimakomiinaanibaniin
      1+makomii+NI+1+Pl+Prt+Pl: nimakomiinaanibaniig
+     1+makomii+NI+1+Pl+Voc+Pl+4: nimakomiinaanidigan
      1+makomii+NI+1+Pl+Voc+Pl+Loc: nimakomiinaanidiging
-     1+makomii+NI+1+Pl+Voc+Pl+Obv: nimakomiinaanidigan
      1+makomii+NI+1+Pl+Voc+Pl+Pl: nimakomiinaanidigag
+     2+makomii+NI+1+Pl+Prt+4: gimakomiinaanibaniin
      2+makomii+NI+1+Pl+Prt+Loc: gimakomiinaanibaniing
-     2+makomii+NI+1+Pl+Prt+Obv: gimakomiinaanibaniin
      2+makomii+NI+1+Pl+Prt+Pl: gimakomiinaanibaniig
+     2+makomii+NI+1+Pl+Voc+Pl+4: gimakomiinaanidigan
      2+makomii+NI+1+Pl+Voc+Pl+Loc: gimakomiinaanidiging
-     2+makomii+NI+1+Pl+Voc+Pl+Obv: gimakomiinaanidigan
      2+makomii+NI+1+Pl+Voc+Pl+Pl: gimakomiinaanidigag
+     2+makomii+NI+3+Pl+Prt+4: gimakomiiwaabaniin
      2+makomii+NI+3+Pl+Prt+Loc: gimakomiiwaabaniing
-     2+makomii+NI+3+Pl+Prt+Obv: gimakomiiwaabaniin
      2+makomii+NI+3+Pl+Prt+Pl: gimakomiiwaabaniig
+     2+makomii+NI+3+Pl+Voc+Pl+4: gimakomiiwaadigan
      2+makomii+NI+3+Pl+Voc+Pl+Loc: gimakomiiwaadiging
-     2+makomii+NI+3+Pl+Voc+Pl+Obv: gimakomiiwaadigan
      2+makomii+NI+3+Pl+Voc+Pl+Pl: gimakomiiwaadigag
-     3+makomii+NI+3+Obv+Prt+Loc: omakomiiniibaniing
-     3+makomii+NI+3+Obv+Prt+Obv: omakomiiniibaniin
-     3+makomii+NI+3+Obv+Prt+Pl: omakomiiniibaniin
-     3+makomii+NI+3+Obv+Voc+Pl+Loc: omakomiiniidiging
-     3+makomii+NI+3+Obv+Voc+Pl+Obv: omakomiiniidigan
-     3+makomii+NI+3+Obv+Voc+Pl+Pl: omakomiiniidigan
+     3+makomii+NI+3+4+Prt+4: omakomiiniibaniin
+     3+makomii+NI+3+4+Prt+Loc: omakomiiniibaniing
+     3+makomii+NI+3+4+Prt+Pl: omakomiiniibaniin
+     3+makomii+NI+3+4+Voc+Pl+4: omakomiiniidigan
+     3+makomii+NI+3+4+Voc+Pl+Loc: omakomiiniidiging
+     3+makomii+NI+3+4+Voc+Pl+Pl: omakomiiniidigan
+     3+makomii+NI+3+Pl+Prt+4: omakomiiwaabaniin
      3+makomii+NI+3+Pl+Prt+Loc: omakomiiwaabaniing
-     3+makomii+NI+3+Pl+Prt+Obv: omakomiiwaabaniin
      3+makomii+NI+3+Pl+Prt+Pl: omakomiiwaabaniig
+     3+makomii+NI+3+Pl+Voc+Pl+4: omakomiiwaadigan
      3+makomii+NI+3+Pl+Voc+Pl+Loc: omakomiiwaadiging
-     3+makomii+NI+3+Pl+Voc+Pl+Obv: omakomiiwaadigan
      3+makomii+NI+3+Pl+Voc+Pl+Pl: omakomiiwaadigag
      
      
@@ -726,11 +726,11 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
+     makomii+NI+Con+Pej+Prt+4: makomiinyishibaniin
      makomii+NI+Con+Pej+Prt+Loc: makomiinyishibaniing
-     makomii+NI+Con+Pej+Prt+Obv: makomiinyishibaniin
      makomii+NI+Con+Pej+Prt+Pl: makomiinyishibaniin
+     makomii+NI+Dim+Pej+Prt+4: makomiinsishibaniin
      makomii+NI+Dim+Pej+Prt+Loc: makomiinsishibaniing
-     makomii+NI+Dim+Pej+Prt+Obv: makomiinsishibaniin
      makomii+NI+Dim+Pej+Prt+Pl: makomiinsishibaniin
      
      
@@ -746,9 +746,9 @@ Tests:
      2+makomii+NI+Con+Pos+Pej+3+Pl: gimakomiinyimishiwaa
      2+makomii+NI+Dim+Pos+Pej+1+Pl: gimakomiinsimishinaan
      2+makomii+NI+Dim+Pos+Pej+3+Pl: gimakomiinsimishiwaa
-     3+makomii+NI+Con+Pos+Pej+3+Obv: omakomiinyimishini
+     3+makomii+NI+Con+Pos+Pej+3+4: omakomiinyimishini
      3+makomii+NI+Con+Pos+Pej+3+Pl: omakomiinyimishiwaa
-     3+makomii+NI+Dim+Pos+Pej+3+Obv: omakomiinsimishini
+     3+makomii+NI+Dim+Pos+Pej+3+4: omakomiinsimishini
      3+makomii+NI+Dim+Pos+Pej+3+Pl: omakomiinsimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
@@ -770,29 +770,29 @@ Tests:
      X+makomii+NI+Dim+Pos+Pej+Voc+Pl: imakomiinsimishidin
      
      #Values from slots numbered: 1, 2, 3, 4, 7
+     1+makomii+NI+Con+Pos+Pej+4: nimakomiinyimishan
      1+makomii+NI+Con+Pos+Pej+Loc: nimakomiinyimishing
-     1+makomii+NI+Con+Pos+Pej+Obv: nimakomiinyimishan
      1+makomii+NI+Con+Pos+Pej+Pl: nimakomiinyimishan
+     1+makomii+NI+Dim+Pos+Pej+4: nimakomiinsimishan
      1+makomii+NI+Dim+Pos+Pej+Loc: nimakomiinsimishing
-     1+makomii+NI+Dim+Pos+Pej+Obv: nimakomiinsimishan
      1+makomii+NI+Dim+Pos+Pej+Pl: nimakomiinsimishan
+     2+makomii+NI+Con+Pos+Pej+4: gimakomiinyimishan
      2+makomii+NI+Con+Pos+Pej+Loc: gimakomiinyimishing
-     2+makomii+NI+Con+Pos+Pej+Obv: gimakomiinyimishan
      2+makomii+NI+Con+Pos+Pej+Pl: gimakomiinyimishan
+     2+makomii+NI+Dim+Pos+Pej+4: gimakomiinsimishan
      2+makomii+NI+Dim+Pos+Pej+Loc: gimakomiinsimishing
-     2+makomii+NI+Dim+Pos+Pej+Obv: gimakomiinsimishan
      2+makomii+NI+Dim+Pos+Pej+Pl: gimakomiinsimishan
+     3+makomii+NI+Con+Pos+Pej+4: omakomiinyimishan
      3+makomii+NI+Con+Pos+Pej+Loc: omakomiinyimishing
-     3+makomii+NI+Con+Pos+Pej+Obv: omakomiinyimishan
      3+makomii+NI+Con+Pos+Pej+Pl: omakomiinyimishan
+     3+makomii+NI+Dim+Pos+Pej+4: omakomiinsimishan
      3+makomii+NI+Dim+Pos+Pej+Loc: omakomiinsimishing
-     3+makomii+NI+Dim+Pos+Pej+Obv: omakomiinsimishan
      3+makomii+NI+Dim+Pos+Pej+Pl: omakomiinsimishan
+     X+makomii+NI+Con+Pos+Pej+4: imakomiinyimishan
      X+makomii+NI+Con+Pos+Pej+Loc: imakomiinyimishing
-     X+makomii+NI+Con+Pos+Pej+Obv: imakomiinyimishan
      X+makomii+NI+Con+Pos+Pej+Pl: imakomiinyimishan
+     X+makomii+NI+Dim+Pos+Pej+4: imakomiinsimishan
      X+makomii+NI+Dim+Pos+Pej+Loc: imakomiinsimishing
-     X+makomii+NI+Dim+Pos+Pej+Obv: imakomiinsimishan
      X+makomii+NI+Dim+Pos+Pej+Pl: imakomiinsimishan
      
      #Values from slots numbered: 1, 2, 3, 5, 6
@@ -808,71 +808,71 @@ Tests:
      2+makomii+NI+Dim+Pos+1+Pl+Voc+Pl: gimakomiinsiminaanidig
      2+makomii+NI+Dim+Pos+3+Pl+Prt: gimakomiinsimiwaaban
      2+makomii+NI+Dim+Pos+3+Pl+Voc+Pl: gimakomiinsimiwaadig
-     3+makomii+NI+Con+Pos+3+Obv+Prt: omakomiinyiminiiban
-     3+makomii+NI+Con+Pos+3+Obv+Voc+Pl: omakomiinyiminiidin
+     3+makomii+NI+Con+Pos+3+4+Prt: omakomiinyiminiiban
+     3+makomii+NI+Con+Pos+3+4+Voc+Pl: omakomiinyiminiidin
      3+makomii+NI+Con+Pos+3+Pl+Prt: omakomiinyimiwaaban
      3+makomii+NI+Con+Pos+3+Pl+Voc+Pl: omakomiinyimiwaadig
-     3+makomii+NI+Dim+Pos+3+Obv+Prt: omakomiinsiminiiban
-     3+makomii+NI+Dim+Pos+3+Obv+Voc+Pl: omakomiinsiminiidin
+     3+makomii+NI+Dim+Pos+3+4+Prt: omakomiinsiminiiban
+     3+makomii+NI+Dim+Pos+3+4+Voc+Pl: omakomiinsiminiidin
      3+makomii+NI+Dim+Pos+3+Pl+Prt: omakomiinsimiwaaban
      3+makomii+NI+Dim+Pos+3+Pl+Voc+Pl: omakomiinsimiwaadig
      
      #Values from slots numbered: 1, 2, 3, 5, 7
+     1+makomii+NI+Con+Pos+1+Pl+4: nimakomiinyiminaanin
      1+makomii+NI+Con+Pos+1+Pl+Loc: nimakomiinyiminaaning
-     1+makomii+NI+Con+Pos+1+Pl+Obv: nimakomiinyiminaanin
      1+makomii+NI+Con+Pos+1+Pl+Pl: nimakomiinyiminaanig
+     1+makomii+NI+Dim+Pos+1+Pl+4: nimakomiinsiminaanin
      1+makomii+NI+Dim+Pos+1+Pl+Loc: nimakomiinsiminaaning
-     1+makomii+NI+Dim+Pos+1+Pl+Obv: nimakomiinsiminaanin
      1+makomii+NI+Dim+Pos+1+Pl+Pl: nimakomiinsiminaanig
+     2+makomii+NI+Con+Pos+1+Pl+4: gimakomiinyiminaanin
      2+makomii+NI+Con+Pos+1+Pl+Loc: gimakomiinyiminaaning
-     2+makomii+NI+Con+Pos+1+Pl+Obv: gimakomiinyiminaanin
      2+makomii+NI+Con+Pos+1+Pl+Pl: gimakomiinyiminaanig
+     2+makomii+NI+Con+Pos+3+Pl+4: gimakomiinyimiwaan
      2+makomii+NI+Con+Pos+3+Pl+Loc: gimakomiinyimiwaang
-     2+makomii+NI+Con+Pos+3+Pl+Obv: gimakomiinyimiwaan
      2+makomii+NI+Con+Pos+3+Pl+Pl: gimakomiinyimiwaag
+     2+makomii+NI+Dim+Pos+1+Pl+4: gimakomiinsiminaanin
      2+makomii+NI+Dim+Pos+1+Pl+Loc: gimakomiinsiminaaning
-     2+makomii+NI+Dim+Pos+1+Pl+Obv: gimakomiinsiminaanin
      2+makomii+NI+Dim+Pos+1+Pl+Pl: gimakomiinsiminaanig
+     2+makomii+NI+Dim+Pos+3+Pl+4: gimakomiinsimiwaan
      2+makomii+NI+Dim+Pos+3+Pl+Loc: gimakomiinsimiwaang
-     2+makomii+NI+Dim+Pos+3+Pl+Obv: gimakomiinsimiwaan
      2+makomii+NI+Dim+Pos+3+Pl+Pl: gimakomiinsimiwaag
-     3+makomii+NI+Con+Pos+3+Obv+Loc: omakomiinyiminiing
-     3+makomii+NI+Con+Pos+3+Obv+Obv: omakomiinyiminiwa
-     3+makomii+NI+Con+Pos+3+Obv+Pl: omakomiinyiminiwa
+     3+makomii+NI+Con+Pos+3+4+4: omakomiinyiminiwa
+     3+makomii+NI+Con+Pos+3+4+Loc: omakomiinyiminiing
+     3+makomii+NI+Con+Pos+3+4+Pl: omakomiinyiminiwa
+     3+makomii+NI+Con+Pos+3+Pl+4: omakomiinyimiwaan
      3+makomii+NI+Con+Pos+3+Pl+Loc: omakomiinyimiwaang
-     3+makomii+NI+Con+Pos+3+Pl+Obv: omakomiinyimiwaan
      3+makomii+NI+Con+Pos+3+Pl+Pl: omakomiinyimiwaag
-     3+makomii+NI+Dim+Pos+3+Obv+Loc: omakomiinsiminiing
-     3+makomii+NI+Dim+Pos+3+Obv+Obv: omakomiinsiminiwa
-     3+makomii+NI+Dim+Pos+3+Obv+Pl: omakomiinsiminiwa
+     3+makomii+NI+Dim+Pos+3+4+4: omakomiinsiminiwa
+     3+makomii+NI+Dim+Pos+3+4+Loc: omakomiinsiminiing
+     3+makomii+NI+Dim+Pos+3+4+Pl: omakomiinsiminiwa
+     3+makomii+NI+Dim+Pos+3+Pl+4: omakomiinsimiwaan
      3+makomii+NI+Dim+Pos+3+Pl+Loc: omakomiinsimiwaang
-     3+makomii+NI+Dim+Pos+3+Pl+Obv: omakomiinsimiwaan
      3+makomii+NI+Dim+Pos+3+Pl+Pl: omakomiinsimiwaag
      
      #Values from slots numbered: 1, 2, 3, 6, 7
+     1+makomii+NI+Con+Pos+Prt+4: nimakomiinyimibaniin
      1+makomii+NI+Con+Pos+Prt+Loc: nimakomiinyimibaniing
-     1+makomii+NI+Con+Pos+Prt+Obv: nimakomiinyimibaniin
      1+makomii+NI+Con+Pos+Prt+Pl: nimakomiinyimibaniin
+     1+makomii+NI+Dim+Pos+Prt+4: nimakomiinsimibaniin
      1+makomii+NI+Dim+Pos+Prt+Loc: nimakomiinsimibaniing
-     1+makomii+NI+Dim+Pos+Prt+Obv: nimakomiinsimibaniin
      1+makomii+NI+Dim+Pos+Prt+Pl: nimakomiinsimibaniin
+     2+makomii+NI+Con+Pos+Prt+4: gimakomiinyimibaniin
      2+makomii+NI+Con+Pos+Prt+Loc: gimakomiinyimibaniing
-     2+makomii+NI+Con+Pos+Prt+Obv: gimakomiinyimibaniin
      2+makomii+NI+Con+Pos+Prt+Pl: gimakomiinyimibaniin
+     2+makomii+NI+Dim+Pos+Prt+4: gimakomiinsimibaniin
      2+makomii+NI+Dim+Pos+Prt+Loc: gimakomiinsimibaniing
-     2+makomii+NI+Dim+Pos+Prt+Obv: gimakomiinsimibaniin
      2+makomii+NI+Dim+Pos+Prt+Pl: gimakomiinsimibaniin
+     3+makomii+NI+Con+Pos+Prt+4: omakomiinyimibaniin
      3+makomii+NI+Con+Pos+Prt+Loc: omakomiinyimibaniing
-     3+makomii+NI+Con+Pos+Prt+Obv: omakomiinyimibaniin
      3+makomii+NI+Con+Pos+Prt+Pl: omakomiinyimibaniin
+     3+makomii+NI+Dim+Pos+Prt+4: omakomiinsimibaniin
      3+makomii+NI+Dim+Pos+Prt+Loc: omakomiinsimibaniing
-     3+makomii+NI+Dim+Pos+Prt+Obv: omakomiinsimibaniin
      3+makomii+NI+Dim+Pos+Prt+Pl: omakomiinsimibaniin
+     X+makomii+NI+Con+Pos+Prt+4: imakomiinyimibaniin
      X+makomii+NI+Con+Pos+Prt+Loc: imakomiinyimibaniing
-     X+makomii+NI+Con+Pos+Prt+Obv: imakomiinyimibaniin
      X+makomii+NI+Con+Pos+Prt+Pl: imakomiinyimibaniin
+     X+makomii+NI+Dim+Pos+Prt+4: imakomiinsimibaniin
      X+makomii+NI+Dim+Pos+Prt+Loc: imakomiinsimibaniing
-     X+makomii+NI+Dim+Pos+Prt+Obv: imakomiinsimibaniin
      X+makomii+NI+Dim+Pos+Prt+Pl: imakomiinsimibaniin
      
      #Values from slots numbered: 1, 2, 4, 5, 6
@@ -888,133 +888,133 @@ Tests:
      2+makomii+NI+Dim+Pej+1+Pl+Voc+Pl: gimakomiinsishinaanidig
      2+makomii+NI+Dim+Pej+3+Pl+Prt: gimakomiinsishiwaaban
      2+makomii+NI+Dim+Pej+3+Pl+Voc+Pl: gimakomiinsishiwaadig
-     3+makomii+NI+Con+Pej+3+Obv+Prt: omakomiinyishiniiban
-     3+makomii+NI+Con+Pej+3+Obv+Voc+Pl: omakomiinyishiniidin
+     3+makomii+NI+Con+Pej+3+4+Prt: omakomiinyishiniiban
+     3+makomii+NI+Con+Pej+3+4+Voc+Pl: omakomiinyishiniidin
      3+makomii+NI+Con+Pej+3+Pl+Prt: omakomiinyishiwaaban
      3+makomii+NI+Con+Pej+3+Pl+Voc+Pl: omakomiinyishiwaadig
-     3+makomii+NI+Dim+Pej+3+Obv+Prt: omakomiinsishiniiban
-     3+makomii+NI+Dim+Pej+3+Obv+Voc+Pl: omakomiinsishiniidin
+     3+makomii+NI+Dim+Pej+3+4+Prt: omakomiinsishiniiban
+     3+makomii+NI+Dim+Pej+3+4+Voc+Pl: omakomiinsishiniidin
      3+makomii+NI+Dim+Pej+3+Pl+Prt: omakomiinsishiwaaban
      3+makomii+NI+Dim+Pej+3+Pl+Voc+Pl: omakomiinsishiwaadig
      
      #Values from slots numbered: 1, 2, 4, 5, 7
+     1+makomii+NI+Con+Pej+1+Pl+4: nimakomiinyishinaanin
      1+makomii+NI+Con+Pej+1+Pl+Loc: nimakomiinyishinaaning
-     1+makomii+NI+Con+Pej+1+Pl+Obv: nimakomiinyishinaanin
      1+makomii+NI+Con+Pej+1+Pl+Pl: nimakomiinyishinaanig
+     1+makomii+NI+Dim+Pej+1+Pl+4: nimakomiinsishinaanin
      1+makomii+NI+Dim+Pej+1+Pl+Loc: nimakomiinsishinaaning
-     1+makomii+NI+Dim+Pej+1+Pl+Obv: nimakomiinsishinaanin
      1+makomii+NI+Dim+Pej+1+Pl+Pl: nimakomiinsishinaanig
+     2+makomii+NI+Con+Pej+1+Pl+4: gimakomiinyishinaanin
      2+makomii+NI+Con+Pej+1+Pl+Loc: gimakomiinyishinaaning
-     2+makomii+NI+Con+Pej+1+Pl+Obv: gimakomiinyishinaanin
      2+makomii+NI+Con+Pej+1+Pl+Pl: gimakomiinyishinaanig
+     2+makomii+NI+Con+Pej+3+Pl+4: gimakomiinyishiwaan
      2+makomii+NI+Con+Pej+3+Pl+Loc: gimakomiinyishiwaang
-     2+makomii+NI+Con+Pej+3+Pl+Obv: gimakomiinyishiwaan
      2+makomii+NI+Con+Pej+3+Pl+Pl: gimakomiinyishiwaag
+     2+makomii+NI+Dim+Pej+1+Pl+4: gimakomiinsishinaanin
      2+makomii+NI+Dim+Pej+1+Pl+Loc: gimakomiinsishinaaning
-     2+makomii+NI+Dim+Pej+1+Pl+Obv: gimakomiinsishinaanin
      2+makomii+NI+Dim+Pej+1+Pl+Pl: gimakomiinsishinaanig
+     2+makomii+NI+Dim+Pej+3+Pl+4: gimakomiinsishiwaan
      2+makomii+NI+Dim+Pej+3+Pl+Loc: gimakomiinsishiwaang
-     2+makomii+NI+Dim+Pej+3+Pl+Obv: gimakomiinsishiwaan
      2+makomii+NI+Dim+Pej+3+Pl+Pl: gimakomiinsishiwaag
-     3+makomii+NI+Con+Pej+3+Obv+Loc: omakomiinyishiniing
-     3+makomii+NI+Con+Pej+3+Obv+Obv: omakomiinyishiniwa
-     3+makomii+NI+Con+Pej+3+Obv+Pl: omakomiinyishiniwa
+     3+makomii+NI+Con+Pej+3+4+4: omakomiinyishiniwa
+     3+makomii+NI+Con+Pej+3+4+Loc: omakomiinyishiniing
+     3+makomii+NI+Con+Pej+3+4+Pl: omakomiinyishiniwa
+     3+makomii+NI+Con+Pej+3+Pl+4: omakomiinyishiwaan
      3+makomii+NI+Con+Pej+3+Pl+Loc: omakomiinyishiwaang
-     3+makomii+NI+Con+Pej+3+Pl+Obv: omakomiinyishiwaan
      3+makomii+NI+Con+Pej+3+Pl+Pl: omakomiinyishiwaag
-     3+makomii+NI+Dim+Pej+3+Obv+Loc: omakomiinsishiniing
-     3+makomii+NI+Dim+Pej+3+Obv+Obv: omakomiinsishiniwa
-     3+makomii+NI+Dim+Pej+3+Obv+Pl: omakomiinsishiniwa
+     3+makomii+NI+Dim+Pej+3+4+4: omakomiinsishiniwa
+     3+makomii+NI+Dim+Pej+3+4+Loc: omakomiinsishiniing
+     3+makomii+NI+Dim+Pej+3+4+Pl: omakomiinsishiniwa
+     3+makomii+NI+Dim+Pej+3+Pl+4: omakomiinsishiwaan
      3+makomii+NI+Dim+Pej+3+Pl+Loc: omakomiinsishiwaang
-     3+makomii+NI+Dim+Pej+3+Pl+Obv: omakomiinsishiwaan
      3+makomii+NI+Dim+Pej+3+Pl+Pl: omakomiinsishiwaag
      
      #Values from slots numbered: 1, 2, 4, 6, 7
+     1+makomii+NI+Con+Pej+Prt+4: nimakomiinyishibaniin
      1+makomii+NI+Con+Pej+Prt+Loc: nimakomiinyishibaniing
-     1+makomii+NI+Con+Pej+Prt+Obv: nimakomiinyishibaniin
      1+makomii+NI+Con+Pej+Prt+Pl: nimakomiinyishibaniin
+     1+makomii+NI+Dim+Pej+Prt+4: nimakomiinsishibaniin
      1+makomii+NI+Dim+Pej+Prt+Loc: nimakomiinsishibaniing
-     1+makomii+NI+Dim+Pej+Prt+Obv: nimakomiinsishibaniin
      1+makomii+NI+Dim+Pej+Prt+Pl: nimakomiinsishibaniin
+     2+makomii+NI+Con+Pej+Prt+4: gimakomiinyishibaniin
      2+makomii+NI+Con+Pej+Prt+Loc: gimakomiinyishibaniing
-     2+makomii+NI+Con+Pej+Prt+Obv: gimakomiinyishibaniin
      2+makomii+NI+Con+Pej+Prt+Pl: gimakomiinyishibaniin
+     2+makomii+NI+Dim+Pej+Prt+4: gimakomiinsishibaniin
      2+makomii+NI+Dim+Pej+Prt+Loc: gimakomiinsishibaniing
-     2+makomii+NI+Dim+Pej+Prt+Obv: gimakomiinsishibaniin
      2+makomii+NI+Dim+Pej+Prt+Pl: gimakomiinsishibaniin
+     3+makomii+NI+Con+Pej+Prt+4: omakomiinyishibaniin
      3+makomii+NI+Con+Pej+Prt+Loc: omakomiinyishibaniing
-     3+makomii+NI+Con+Pej+Prt+Obv: omakomiinyishibaniin
      3+makomii+NI+Con+Pej+Prt+Pl: omakomiinyishibaniin
+     3+makomii+NI+Dim+Pej+Prt+4: omakomiinsishibaniin
      3+makomii+NI+Dim+Pej+Prt+Loc: omakomiinsishibaniing
-     3+makomii+NI+Dim+Pej+Prt+Obv: omakomiinsishibaniin
      3+makomii+NI+Dim+Pej+Prt+Pl: omakomiinsishibaniin
+     X+makomii+NI+Con+Pej+Prt+4: imakomiinyishibaniin
      X+makomii+NI+Con+Pej+Prt+Loc: imakomiinyishibaniing
-     X+makomii+NI+Con+Pej+Prt+Obv: imakomiinyishibaniin
      X+makomii+NI+Con+Pej+Prt+Pl: imakomiinyishibaniin
+     X+makomii+NI+Dim+Pej+Prt+4: imakomiinsishibaniin
      X+makomii+NI+Dim+Pej+Prt+Loc: imakomiinsishibaniing
-     X+makomii+NI+Dim+Pej+Prt+Obv: imakomiinsishibaniin
      X+makomii+NI+Dim+Pej+Prt+Pl: imakomiinsishibaniin
      
      #Values from slots numbered: 1, 2, 5, 6, 7
+     1+makomii+NI+Con+1+Pl+Prt+4: nimakomiinyinaanibaniin
      1+makomii+NI+Con+1+Pl+Prt+Loc: nimakomiinyinaanibaniing
-     1+makomii+NI+Con+1+Pl+Prt+Obv: nimakomiinyinaanibaniin
      1+makomii+NI+Con+1+Pl+Prt+Pl: nimakomiinyinaanibaniig
+     1+makomii+NI+Con+1+Pl+Voc+Pl+4: nimakomiinyinaanidigan
      1+makomii+NI+Con+1+Pl+Voc+Pl+Loc: nimakomiinyinaanidiging
-     1+makomii+NI+Con+1+Pl+Voc+Pl+Obv: nimakomiinyinaanidigan
      1+makomii+NI+Con+1+Pl+Voc+Pl+Pl: nimakomiinyinaanidigag
+     1+makomii+NI+Dim+1+Pl+Prt+4: nimakomiinsinaanibaniin
      1+makomii+NI+Dim+1+Pl+Prt+Loc: nimakomiinsinaanibaniing
-     1+makomii+NI+Dim+1+Pl+Prt+Obv: nimakomiinsinaanibaniin
      1+makomii+NI+Dim+1+Pl+Prt+Pl: nimakomiinsinaanibaniig
+     1+makomii+NI+Dim+1+Pl+Voc+Pl+4: nimakomiinsinaanidigan
      1+makomii+NI+Dim+1+Pl+Voc+Pl+Loc: nimakomiinsinaanidiging
-     1+makomii+NI+Dim+1+Pl+Voc+Pl+Obv: nimakomiinsinaanidigan
      1+makomii+NI+Dim+1+Pl+Voc+Pl+Pl: nimakomiinsinaanidigag
+     2+makomii+NI+Con+1+Pl+Prt+4: gimakomiinyinaanibaniin
      2+makomii+NI+Con+1+Pl+Prt+Loc: gimakomiinyinaanibaniing
-     2+makomii+NI+Con+1+Pl+Prt+Obv: gimakomiinyinaanibaniin
      2+makomii+NI+Con+1+Pl+Prt+Pl: gimakomiinyinaanibaniig
+     2+makomii+NI+Con+1+Pl+Voc+Pl+4: gimakomiinyinaanidigan
      2+makomii+NI+Con+1+Pl+Voc+Pl+Loc: gimakomiinyinaanidiging
-     2+makomii+NI+Con+1+Pl+Voc+Pl+Obv: gimakomiinyinaanidigan
      2+makomii+NI+Con+1+Pl+Voc+Pl+Pl: gimakomiinyinaanidigag
+     2+makomii+NI+Con+3+Pl+Prt+4: gimakomiinyiwaabaniin
      2+makomii+NI+Con+3+Pl+Prt+Loc: gimakomiinyiwaabaniing
-     2+makomii+NI+Con+3+Pl+Prt+Obv: gimakomiinyiwaabaniin
      2+makomii+NI+Con+3+Pl+Prt+Pl: gimakomiinyiwaabaniig
+     2+makomii+NI+Con+3+Pl+Voc+Pl+4: gimakomiinyiwaadigan
      2+makomii+NI+Con+3+Pl+Voc+Pl+Loc: gimakomiinyiwaadiging
-     2+makomii+NI+Con+3+Pl+Voc+Pl+Obv: gimakomiinyiwaadigan
      2+makomii+NI+Con+3+Pl+Voc+Pl+Pl: gimakomiinyiwaadigag
+     2+makomii+NI+Dim+1+Pl+Prt+4: gimakomiinsinaanibaniin
      2+makomii+NI+Dim+1+Pl+Prt+Loc: gimakomiinsinaanibaniing
-     2+makomii+NI+Dim+1+Pl+Prt+Obv: gimakomiinsinaanibaniin
      2+makomii+NI+Dim+1+Pl+Prt+Pl: gimakomiinsinaanibaniig
+     2+makomii+NI+Dim+1+Pl+Voc+Pl+4: gimakomiinsinaanidigan
      2+makomii+NI+Dim+1+Pl+Voc+Pl+Loc: gimakomiinsinaanidiging
-     2+makomii+NI+Dim+1+Pl+Voc+Pl+Obv: gimakomiinsinaanidigan
      2+makomii+NI+Dim+1+Pl+Voc+Pl+Pl: gimakomiinsinaanidigag
+     2+makomii+NI+Dim+3+Pl+Prt+4: gimakomiinsiwaabaniin
      2+makomii+NI+Dim+3+Pl+Prt+Loc: gimakomiinsiwaabaniing
-     2+makomii+NI+Dim+3+Pl+Prt+Obv: gimakomiinsiwaabaniin
      2+makomii+NI+Dim+3+Pl+Prt+Pl: gimakomiinsiwaabaniig
+     2+makomii+NI+Dim+3+Pl+Voc+Pl+4: gimakomiinsiwaadigan
      2+makomii+NI+Dim+3+Pl+Voc+Pl+Loc: gimakomiinsiwaadiging
-     2+makomii+NI+Dim+3+Pl+Voc+Pl+Obv: gimakomiinsiwaadigan
      2+makomii+NI+Dim+3+Pl+Voc+Pl+Pl: gimakomiinsiwaadigag
-     3+makomii+NI+Con+3+Obv+Prt+Loc: omakomiinyiniibaniing
-     3+makomii+NI+Con+3+Obv+Prt+Obv: omakomiinyiniibaniin
-     3+makomii+NI+Con+3+Obv+Prt+Pl: omakomiinyiniibaniin
-     3+makomii+NI+Con+3+Obv+Voc+Pl+Loc: omakomiinyiniidiging
-     3+makomii+NI+Con+3+Obv+Voc+Pl+Obv: omakomiinyiniidigan
-     3+makomii+NI+Con+3+Obv+Voc+Pl+Pl: omakomiinyiniidigan
+     3+makomii+NI+Con+3+4+Prt+4: omakomiinyiniibaniin
+     3+makomii+NI+Con+3+4+Prt+Loc: omakomiinyiniibaniing
+     3+makomii+NI+Con+3+4+Prt+Pl: omakomiinyiniibaniin
+     3+makomii+NI+Con+3+4+Voc+Pl+4: omakomiinyiniidigan
+     3+makomii+NI+Con+3+4+Voc+Pl+Loc: omakomiinyiniidiging
+     3+makomii+NI+Con+3+4+Voc+Pl+Pl: omakomiinyiniidigan
+     3+makomii+NI+Con+3+Pl+Prt+4: omakomiinyiwaabaniin
      3+makomii+NI+Con+3+Pl+Prt+Loc: omakomiinyiwaabaniing
-     3+makomii+NI+Con+3+Pl+Prt+Obv: omakomiinyiwaabaniin
      3+makomii+NI+Con+3+Pl+Prt+Pl: omakomiinyiwaabaniig
+     3+makomii+NI+Con+3+Pl+Voc+Pl+4: omakomiinyiwaadigan
      3+makomii+NI+Con+3+Pl+Voc+Pl+Loc: omakomiinyiwaadiging
-     3+makomii+NI+Con+3+Pl+Voc+Pl+Obv: omakomiinyiwaadigan
      3+makomii+NI+Con+3+Pl+Voc+Pl+Pl: omakomiinyiwaadigag
-     3+makomii+NI+Dim+3+Obv+Prt+Loc: omakomiinsiniibaniing
-     3+makomii+NI+Dim+3+Obv+Prt+Obv: omakomiinsiniibaniin
-     3+makomii+NI+Dim+3+Obv+Prt+Pl: omakomiinsiniibaniin
-     3+makomii+NI+Dim+3+Obv+Voc+Pl+Loc: omakomiinsiniidiging
-     3+makomii+NI+Dim+3+Obv+Voc+Pl+Obv: omakomiinsiniidigan
-     3+makomii+NI+Dim+3+Obv+Voc+Pl+Pl: omakomiinsiniidigan
+     3+makomii+NI+Dim+3+4+Prt+4: omakomiinsiniibaniin
+     3+makomii+NI+Dim+3+4+Prt+Loc: omakomiinsiniibaniing
+     3+makomii+NI+Dim+3+4+Prt+Pl: omakomiinsiniibaniin
+     3+makomii+NI+Dim+3+4+Voc+Pl+4: omakomiinsiniidigan
+     3+makomii+NI+Dim+3+4+Voc+Pl+Loc: omakomiinsiniidiging
+     3+makomii+NI+Dim+3+4+Voc+Pl+Pl: omakomiinsiniidigan
+     3+makomii+NI+Dim+3+Pl+Prt+4: omakomiinsiwaabaniin
      3+makomii+NI+Dim+3+Pl+Prt+Loc: omakomiinsiwaabaniing
-     3+makomii+NI+Dim+3+Pl+Prt+Obv: omakomiinsiwaabaniin
      3+makomii+NI+Dim+3+Pl+Prt+Pl: omakomiinsiwaabaniig
+     3+makomii+NI+Dim+3+Pl+Voc+Pl+4: omakomiinsiwaadigan
      3+makomii+NI+Dim+3+Pl+Voc+Pl+Loc: omakomiinsiwaadiging
-     3+makomii+NI+Dim+3+Pl+Voc+Pl+Obv: omakomiinsiwaadigan
      3+makomii+NI+Dim+3+Pl+Voc+Pl+Pl: omakomiinsiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6
@@ -1024,104 +1024,104 @@ Tests:
      2+makomii+NI+Pos+Pej+1+Pl+Voc+Pl: gimakomiimishinaanidig
      2+makomii+NI+Pos+Pej+3+Pl+Prt: gimakomiimishiwaaban
      2+makomii+NI+Pos+Pej+3+Pl+Voc+Pl: gimakomiimishiwaadig
-     3+makomii+NI+Pos+Pej+3+Obv+Prt: omakomiimishiniiban
-     3+makomii+NI+Pos+Pej+3+Obv+Voc+Pl: omakomiimishiniidin
+     3+makomii+NI+Pos+Pej+3+4+Prt: omakomiimishiniiban
+     3+makomii+NI+Pos+Pej+3+4+Voc+Pl: omakomiimishiniidin
      3+makomii+NI+Pos+Pej+3+Pl+Prt: omakomiimishiwaaban
      3+makomii+NI+Pos+Pej+3+Pl+Voc+Pl: omakomiimishiwaadig
      
      #Values from slots numbered: 1, 3, 4, 5, 7
+     1+makomii+NI+Pos+Pej+1+Pl+4: nimakomiimishinaanin
      1+makomii+NI+Pos+Pej+1+Pl+Loc: nimakomiimishinaaning
-     1+makomii+NI+Pos+Pej+1+Pl+Obv: nimakomiimishinaanin
      1+makomii+NI+Pos+Pej+1+Pl+Pl: nimakomiimishinaanig
+     2+makomii+NI+Pos+Pej+1+Pl+4: gimakomiimishinaanin
      2+makomii+NI+Pos+Pej+1+Pl+Loc: gimakomiimishinaaning
-     2+makomii+NI+Pos+Pej+1+Pl+Obv: gimakomiimishinaanin
      2+makomii+NI+Pos+Pej+1+Pl+Pl: gimakomiimishinaanig
+     2+makomii+NI+Pos+Pej+3+Pl+4: gimakomiimishiwaan
      2+makomii+NI+Pos+Pej+3+Pl+Loc: gimakomiimishiwaang
-     2+makomii+NI+Pos+Pej+3+Pl+Obv: gimakomiimishiwaan
      2+makomii+NI+Pos+Pej+3+Pl+Pl: gimakomiimishiwaag
-     3+makomii+NI+Pos+Pej+3+Obv+Loc: omakomiimishiniing
-     3+makomii+NI+Pos+Pej+3+Obv+Obv: omakomiimishiniwa
-     3+makomii+NI+Pos+Pej+3+Obv+Pl: omakomiimishiniwa
+     3+makomii+NI+Pos+Pej+3+4+4: omakomiimishiniwa
+     3+makomii+NI+Pos+Pej+3+4+Loc: omakomiimishiniing
+     3+makomii+NI+Pos+Pej+3+4+Pl: omakomiimishiniwa
+     3+makomii+NI+Pos+Pej+3+Pl+4: omakomiimishiwaan
      3+makomii+NI+Pos+Pej+3+Pl+Loc: omakomiimishiwaang
-     3+makomii+NI+Pos+Pej+3+Pl+Obv: omakomiimishiwaan
      3+makomii+NI+Pos+Pej+3+Pl+Pl: omakomiimishiwaag
      
      #Values from slots numbered: 1, 3, 4, 6, 7
+     1+makomii+NI+Pos+Pej+Prt+4: nimakomiimishibaniin
      1+makomii+NI+Pos+Pej+Prt+Loc: nimakomiimishibaniing
-     1+makomii+NI+Pos+Pej+Prt+Obv: nimakomiimishibaniin
      1+makomii+NI+Pos+Pej+Prt+Pl: nimakomiimishibaniin
+     2+makomii+NI+Pos+Pej+Prt+4: gimakomiimishibaniin
      2+makomii+NI+Pos+Pej+Prt+Loc: gimakomiimishibaniing
-     2+makomii+NI+Pos+Pej+Prt+Obv: gimakomiimishibaniin
      2+makomii+NI+Pos+Pej+Prt+Pl: gimakomiimishibaniin
+     3+makomii+NI+Pos+Pej+Prt+4: omakomiimishibaniin
      3+makomii+NI+Pos+Pej+Prt+Loc: omakomiimishibaniing
-     3+makomii+NI+Pos+Pej+Prt+Obv: omakomiimishibaniin
      3+makomii+NI+Pos+Pej+Prt+Pl: omakomiimishibaniin
+     X+makomii+NI+Pos+Pej+Prt+4: imakomiimishibaniin
      X+makomii+NI+Pos+Pej+Prt+Loc: imakomiimishibaniing
-     X+makomii+NI+Pos+Pej+Prt+Obv: imakomiimishibaniin
      X+makomii+NI+Pos+Pej+Prt+Pl: imakomiimishibaniin
      
      #Values from slots numbered: 1, 3, 5, 6, 7
+     1+makomii+NI+Pos+1+Pl+Prt+4: nimakomiiminaanibaniin
      1+makomii+NI+Pos+1+Pl+Prt+Loc: nimakomiiminaanibaniing
-     1+makomii+NI+Pos+1+Pl+Prt+Obv: nimakomiiminaanibaniin
      1+makomii+NI+Pos+1+Pl+Prt+Pl: nimakomiiminaanibaniig
+     1+makomii+NI+Pos+1+Pl+Voc+Pl+4: nimakomiiminaanidigan
      1+makomii+NI+Pos+1+Pl+Voc+Pl+Loc: nimakomiiminaanidiging
-     1+makomii+NI+Pos+1+Pl+Voc+Pl+Obv: nimakomiiminaanidigan
      1+makomii+NI+Pos+1+Pl+Voc+Pl+Pl: nimakomiiminaanidigag
+     2+makomii+NI+Pos+1+Pl+Prt+4: gimakomiiminaanibaniin
      2+makomii+NI+Pos+1+Pl+Prt+Loc: gimakomiiminaanibaniing
-     2+makomii+NI+Pos+1+Pl+Prt+Obv: gimakomiiminaanibaniin
      2+makomii+NI+Pos+1+Pl+Prt+Pl: gimakomiiminaanibaniig
+     2+makomii+NI+Pos+1+Pl+Voc+Pl+4: gimakomiiminaanidigan
      2+makomii+NI+Pos+1+Pl+Voc+Pl+Loc: gimakomiiminaanidiging
-     2+makomii+NI+Pos+1+Pl+Voc+Pl+Obv: gimakomiiminaanidigan
      2+makomii+NI+Pos+1+Pl+Voc+Pl+Pl: gimakomiiminaanidigag
+     2+makomii+NI+Pos+3+Pl+Prt+4: gimakomiimiwaabaniin
      2+makomii+NI+Pos+3+Pl+Prt+Loc: gimakomiimiwaabaniing
-     2+makomii+NI+Pos+3+Pl+Prt+Obv: gimakomiimiwaabaniin
      2+makomii+NI+Pos+3+Pl+Prt+Pl: gimakomiimiwaabaniig
+     2+makomii+NI+Pos+3+Pl+Voc+Pl+4: gimakomiimiwaadigan
      2+makomii+NI+Pos+3+Pl+Voc+Pl+Loc: gimakomiimiwaadiging
-     2+makomii+NI+Pos+3+Pl+Voc+Pl+Obv: gimakomiimiwaadigan
      2+makomii+NI+Pos+3+Pl+Voc+Pl+Pl: gimakomiimiwaadigag
-     3+makomii+NI+Pos+3+Obv+Prt+Loc: omakomiiminiibaniing
-     3+makomii+NI+Pos+3+Obv+Prt+Obv: omakomiiminiibaniin
-     3+makomii+NI+Pos+3+Obv+Prt+Pl: omakomiiminiibaniin
-     3+makomii+NI+Pos+3+Obv+Voc+Pl+Loc: omakomiiminiidiging
-     3+makomii+NI+Pos+3+Obv+Voc+Pl+Obv: omakomiiminiidigan
-     3+makomii+NI+Pos+3+Obv+Voc+Pl+Pl: omakomiiminiidigan
+     3+makomii+NI+Pos+3+4+Prt+4: omakomiiminiibaniin
+     3+makomii+NI+Pos+3+4+Prt+Loc: omakomiiminiibaniing
+     3+makomii+NI+Pos+3+4+Prt+Pl: omakomiiminiibaniin
+     3+makomii+NI+Pos+3+4+Voc+Pl+4: omakomiiminiidigan
+     3+makomii+NI+Pos+3+4+Voc+Pl+Loc: omakomiiminiidiging
+     3+makomii+NI+Pos+3+4+Voc+Pl+Pl: omakomiiminiidigan
+     3+makomii+NI+Pos+3+Pl+Prt+4: omakomiimiwaabaniin
      3+makomii+NI+Pos+3+Pl+Prt+Loc: omakomiimiwaabaniing
-     3+makomii+NI+Pos+3+Pl+Prt+Obv: omakomiimiwaabaniin
      3+makomii+NI+Pos+3+Pl+Prt+Pl: omakomiimiwaabaniig
+     3+makomii+NI+Pos+3+Pl+Voc+Pl+4: omakomiimiwaadigan
      3+makomii+NI+Pos+3+Pl+Voc+Pl+Loc: omakomiimiwaadiging
-     3+makomii+NI+Pos+3+Pl+Voc+Pl+Obv: omakomiimiwaadigan
      3+makomii+NI+Pos+3+Pl+Voc+Pl+Pl: omakomiimiwaadigag
      
      #Values from slots numbered: 1, 4, 5, 6, 7
+     1+makomii+NI+Pej+1+Pl+Prt+4: nimakomiishinaanibaniin
      1+makomii+NI+Pej+1+Pl+Prt+Loc: nimakomiishinaanibaniing
-     1+makomii+NI+Pej+1+Pl+Prt+Obv: nimakomiishinaanibaniin
      1+makomii+NI+Pej+1+Pl+Prt+Pl: nimakomiishinaanibaniig
+     1+makomii+NI+Pej+1+Pl+Voc+Pl+4: nimakomiishinaanidigan
      1+makomii+NI+Pej+1+Pl+Voc+Pl+Loc: nimakomiishinaanidiging
-     1+makomii+NI+Pej+1+Pl+Voc+Pl+Obv: nimakomiishinaanidigan
      1+makomii+NI+Pej+1+Pl+Voc+Pl+Pl: nimakomiishinaanidigag
+     2+makomii+NI+Pej+1+Pl+Prt+4: gimakomiishinaanibaniin
      2+makomii+NI+Pej+1+Pl+Prt+Loc: gimakomiishinaanibaniing
-     2+makomii+NI+Pej+1+Pl+Prt+Obv: gimakomiishinaanibaniin
      2+makomii+NI+Pej+1+Pl+Prt+Pl: gimakomiishinaanibaniig
+     2+makomii+NI+Pej+1+Pl+Voc+Pl+4: gimakomiishinaanidigan
      2+makomii+NI+Pej+1+Pl+Voc+Pl+Loc: gimakomiishinaanidiging
-     2+makomii+NI+Pej+1+Pl+Voc+Pl+Obv: gimakomiishinaanidigan
      2+makomii+NI+Pej+1+Pl+Voc+Pl+Pl: gimakomiishinaanidigag
+     2+makomii+NI+Pej+3+Pl+Prt+4: gimakomiishiwaabaniin
      2+makomii+NI+Pej+3+Pl+Prt+Loc: gimakomiishiwaabaniing
-     2+makomii+NI+Pej+3+Pl+Prt+Obv: gimakomiishiwaabaniin
      2+makomii+NI+Pej+3+Pl+Prt+Pl: gimakomiishiwaabaniig
+     2+makomii+NI+Pej+3+Pl+Voc+Pl+4: gimakomiishiwaadigan
      2+makomii+NI+Pej+3+Pl+Voc+Pl+Loc: gimakomiishiwaadiging
-     2+makomii+NI+Pej+3+Pl+Voc+Pl+Obv: gimakomiishiwaadigan
      2+makomii+NI+Pej+3+Pl+Voc+Pl+Pl: gimakomiishiwaadigag
-     3+makomii+NI+Pej+3+Obv+Prt+Loc: omakomiishiniibaniing
-     3+makomii+NI+Pej+3+Obv+Prt+Obv: omakomiishiniibaniin
-     3+makomii+NI+Pej+3+Obv+Prt+Pl: omakomiishiniibaniin
-     3+makomii+NI+Pej+3+Obv+Voc+Pl+Loc: omakomiishiniidiging
-     3+makomii+NI+Pej+3+Obv+Voc+Pl+Obv: omakomiishiniidigan
-     3+makomii+NI+Pej+3+Obv+Voc+Pl+Pl: omakomiishiniidigan
+     3+makomii+NI+Pej+3+4+Prt+4: omakomiishiniibaniin
+     3+makomii+NI+Pej+3+4+Prt+Loc: omakomiishiniibaniing
+     3+makomii+NI+Pej+3+4+Prt+Pl: omakomiishiniibaniin
+     3+makomii+NI+Pej+3+4+Voc+Pl+4: omakomiishiniidigan
+     3+makomii+NI+Pej+3+4+Voc+Pl+Loc: omakomiishiniidiging
+     3+makomii+NI+Pej+3+4+Voc+Pl+Pl: omakomiishiniidigan
+     3+makomii+NI+Pej+3+Pl+Prt+4: omakomiishiwaabaniin
      3+makomii+NI+Pej+3+Pl+Prt+Loc: omakomiishiwaabaniing
-     3+makomii+NI+Pej+3+Pl+Prt+Obv: omakomiishiwaabaniin
      3+makomii+NI+Pej+3+Pl+Prt+Pl: omakomiishiwaabaniig
+     3+makomii+NI+Pej+3+Pl+Voc+Pl+4: omakomiishiwaadigan
      3+makomii+NI+Pej+3+Pl+Voc+Pl+Loc: omakomiishiwaadiging
-     3+makomii+NI+Pej+3+Pl+Voc+Pl+Obv: omakomiishiwaadigan
      3+makomii+NI+Pej+3+Pl+Voc+Pl+Pl: omakomiishiwaadigag
      
      
@@ -1143,289 +1143,289 @@ Tests:
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl: gimakomiinsimishinaanidig
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Prt: gimakomiinsimishiwaaban
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl: gimakomiinsimishiwaadig
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Prt: omakomiinyimishiniiban
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Voc+Pl: omakomiinyimishiniidin
+     3+makomii+NI+Con+Pos+Pej+3+4+Prt: omakomiinyimishiniiban
+     3+makomii+NI+Con+Pos+Pej+3+4+Voc+Pl: omakomiinyimishiniidin
      3+makomii+NI+Con+Pos+Pej+3+Pl+Prt: omakomiinyimishiwaaban
      3+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl: omakomiinyimishiwaadig
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Prt: omakomiinsimishiniiban
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Voc+Pl: omakomiinsimishiniidin
+     3+makomii+NI+Dim+Pos+Pej+3+4+Prt: omakomiinsimishiniiban
+     3+makomii+NI+Dim+Pos+Pej+3+4+Voc+Pl: omakomiinsimishiniidin
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Prt: omakomiinsimishiwaaban
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl: omakomiinsimishiwaadig
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     1+makomii+NI+Con+Pos+Pej+1+Pl+4: nimakomiinyimishinaanin
      1+makomii+NI+Con+Pos+Pej+1+Pl+Loc: nimakomiinyimishinaaning
-     1+makomii+NI+Con+Pos+Pej+1+Pl+Obv: nimakomiinyimishinaanin
      1+makomii+NI+Con+Pos+Pej+1+Pl+Pl: nimakomiinyimishinaanig
+     1+makomii+NI+Dim+Pos+Pej+1+Pl+4: nimakomiinsimishinaanin
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Loc: nimakomiinsimishinaaning
-     1+makomii+NI+Dim+Pos+Pej+1+Pl+Obv: nimakomiinsimishinaanin
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Pl: nimakomiinsimishinaanig
+     2+makomii+NI+Con+Pos+Pej+1+Pl+4: gimakomiinyimishinaanin
      2+makomii+NI+Con+Pos+Pej+1+Pl+Loc: gimakomiinyimishinaaning
-     2+makomii+NI+Con+Pos+Pej+1+Pl+Obv: gimakomiinyimishinaanin
      2+makomii+NI+Con+Pos+Pej+1+Pl+Pl: gimakomiinyimishinaanig
+     2+makomii+NI+Con+Pos+Pej+3+Pl+4: gimakomiinyimishiwaan
      2+makomii+NI+Con+Pos+Pej+3+Pl+Loc: gimakomiinyimishiwaang
-     2+makomii+NI+Con+Pos+Pej+3+Pl+Obv: gimakomiinyimishiwaan
      2+makomii+NI+Con+Pos+Pej+3+Pl+Pl: gimakomiinyimishiwaag
+     2+makomii+NI+Dim+Pos+Pej+1+Pl+4: gimakomiinsimishinaanin
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Loc: gimakomiinsimishinaaning
-     2+makomii+NI+Dim+Pos+Pej+1+Pl+Obv: gimakomiinsimishinaanin
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Pl: gimakomiinsimishinaanig
+     2+makomii+NI+Dim+Pos+Pej+3+Pl+4: gimakomiinsimishiwaan
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Loc: gimakomiinsimishiwaang
-     2+makomii+NI+Dim+Pos+Pej+3+Pl+Obv: gimakomiinsimishiwaan
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Pl: gimakomiinsimishiwaag
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Loc: omakomiinyimishiniing
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Obv: omakomiinyimishiniwa
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Pl: omakomiinyimishiniwa
+     3+makomii+NI+Con+Pos+Pej+3+4+4: omakomiinyimishiniwa
+     3+makomii+NI+Con+Pos+Pej+3+4+Loc: omakomiinyimishiniing
+     3+makomii+NI+Con+Pos+Pej+3+4+Pl: omakomiinyimishiniwa
+     3+makomii+NI+Con+Pos+Pej+3+Pl+4: omakomiinyimishiwaan
      3+makomii+NI+Con+Pos+Pej+3+Pl+Loc: omakomiinyimishiwaang
-     3+makomii+NI+Con+Pos+Pej+3+Pl+Obv: omakomiinyimishiwaan
      3+makomii+NI+Con+Pos+Pej+3+Pl+Pl: omakomiinyimishiwaag
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Loc: omakomiinsimishiniing
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Obv: omakomiinsimishiniwa
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Pl: omakomiinsimishiniwa
+     3+makomii+NI+Dim+Pos+Pej+3+4+4: omakomiinsimishiniwa
+     3+makomii+NI+Dim+Pos+Pej+3+4+Loc: omakomiinsimishiniing
+     3+makomii+NI+Dim+Pos+Pej+3+4+Pl: omakomiinsimishiniwa
+     3+makomii+NI+Dim+Pos+Pej+3+Pl+4: omakomiinsimishiwaan
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Loc: omakomiinsimishiwaang
-     3+makomii+NI+Dim+Pos+Pej+3+Pl+Obv: omakomiinsimishiwaan
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Pl: omakomiinsimishiwaag
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     1+makomii+NI+Con+Pos+Pej+Prt+4: nimakomiinyimishibaniin
      1+makomii+NI+Con+Pos+Pej+Prt+Loc: nimakomiinyimishibaniing
-     1+makomii+NI+Con+Pos+Pej+Prt+Obv: nimakomiinyimishibaniin
      1+makomii+NI+Con+Pos+Pej+Prt+Pl: nimakomiinyimishibaniin
+     1+makomii+NI+Dim+Pos+Pej+Prt+4: nimakomiinsimishibaniin
      1+makomii+NI+Dim+Pos+Pej+Prt+Loc: nimakomiinsimishibaniing
-     1+makomii+NI+Dim+Pos+Pej+Prt+Obv: nimakomiinsimishibaniin
      1+makomii+NI+Dim+Pos+Pej+Prt+Pl: nimakomiinsimishibaniin
+     2+makomii+NI+Con+Pos+Pej+Prt+4: gimakomiinyimishibaniin
      2+makomii+NI+Con+Pos+Pej+Prt+Loc: gimakomiinyimishibaniing
-     2+makomii+NI+Con+Pos+Pej+Prt+Obv: gimakomiinyimishibaniin
      2+makomii+NI+Con+Pos+Pej+Prt+Pl: gimakomiinyimishibaniin
+     2+makomii+NI+Dim+Pos+Pej+Prt+4: gimakomiinsimishibaniin
      2+makomii+NI+Dim+Pos+Pej+Prt+Loc: gimakomiinsimishibaniing
-     2+makomii+NI+Dim+Pos+Pej+Prt+Obv: gimakomiinsimishibaniin
      2+makomii+NI+Dim+Pos+Pej+Prt+Pl: gimakomiinsimishibaniin
+     3+makomii+NI+Con+Pos+Pej+Prt+4: omakomiinyimishibaniin
      3+makomii+NI+Con+Pos+Pej+Prt+Loc: omakomiinyimishibaniing
-     3+makomii+NI+Con+Pos+Pej+Prt+Obv: omakomiinyimishibaniin
      3+makomii+NI+Con+Pos+Pej+Prt+Pl: omakomiinyimishibaniin
+     3+makomii+NI+Dim+Pos+Pej+Prt+4: omakomiinsimishibaniin
      3+makomii+NI+Dim+Pos+Pej+Prt+Loc: omakomiinsimishibaniing
-     3+makomii+NI+Dim+Pos+Pej+Prt+Obv: omakomiinsimishibaniin
      3+makomii+NI+Dim+Pos+Pej+Prt+Pl: omakomiinsimishibaniin
+     X+makomii+NI+Con+Pos+Pej+Prt+4: imakomiinyimishibaniin
      X+makomii+NI+Con+Pos+Pej+Prt+Loc: imakomiinyimishibaniing
-     X+makomii+NI+Con+Pos+Pej+Prt+Obv: imakomiinyimishibaniin
      X+makomii+NI+Con+Pos+Pej+Prt+Pl: imakomiinyimishibaniin
+     X+makomii+NI+Dim+Pos+Pej+Prt+4: imakomiinsimishibaniin
      X+makomii+NI+Dim+Pos+Pej+Prt+Loc: imakomiinsimishibaniing
-     X+makomii+NI+Dim+Pos+Pej+Prt+Obv: imakomiinsimishibaniin
      X+makomii+NI+Dim+Pos+Pej+Prt+Pl: imakomiinsimishibaniin
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     1+makomii+NI+Con+Pos+1+Pl+Prt+4: nimakomiinyiminaanibaniin
      1+makomii+NI+Con+Pos+1+Pl+Prt+Loc: nimakomiinyiminaanibaniing
-     1+makomii+NI+Con+Pos+1+Pl+Prt+Obv: nimakomiinyiminaanibaniin
      1+makomii+NI+Con+Pos+1+Pl+Prt+Pl: nimakomiinyiminaanibaniig
+     1+makomii+NI+Con+Pos+1+Pl+Voc+Pl+4: nimakomiinyiminaanidigan
      1+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Loc: nimakomiinyiminaanidiging
-     1+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Obv: nimakomiinyiminaanidigan
      1+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Pl: nimakomiinyiminaanidigag
+     1+makomii+NI+Dim+Pos+1+Pl+Prt+4: nimakomiinsiminaanibaniin
      1+makomii+NI+Dim+Pos+1+Pl+Prt+Loc: nimakomiinsiminaanibaniing
-     1+makomii+NI+Dim+Pos+1+Pl+Prt+Obv: nimakomiinsiminaanibaniin
      1+makomii+NI+Dim+Pos+1+Pl+Prt+Pl: nimakomiinsiminaanibaniig
+     1+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+4: nimakomiinsiminaanidigan
      1+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Loc: nimakomiinsiminaanidiging
-     1+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Obv: nimakomiinsiminaanidigan
      1+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Pl: nimakomiinsiminaanidigag
+     2+makomii+NI+Con+Pos+1+Pl+Prt+4: gimakomiinyiminaanibaniin
      2+makomii+NI+Con+Pos+1+Pl+Prt+Loc: gimakomiinyiminaanibaniing
-     2+makomii+NI+Con+Pos+1+Pl+Prt+Obv: gimakomiinyiminaanibaniin
      2+makomii+NI+Con+Pos+1+Pl+Prt+Pl: gimakomiinyiminaanibaniig
+     2+makomii+NI+Con+Pos+1+Pl+Voc+Pl+4: gimakomiinyiminaanidigan
      2+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Loc: gimakomiinyiminaanidiging
-     2+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Obv: gimakomiinyiminaanidigan
      2+makomii+NI+Con+Pos+1+Pl+Voc+Pl+Pl: gimakomiinyiminaanidigag
+     2+makomii+NI+Con+Pos+3+Pl+Prt+4: gimakomiinyimiwaabaniin
      2+makomii+NI+Con+Pos+3+Pl+Prt+Loc: gimakomiinyimiwaabaniing
-     2+makomii+NI+Con+Pos+3+Pl+Prt+Obv: gimakomiinyimiwaabaniin
      2+makomii+NI+Con+Pos+3+Pl+Prt+Pl: gimakomiinyimiwaabaniig
+     2+makomii+NI+Con+Pos+3+Pl+Voc+Pl+4: gimakomiinyimiwaadigan
      2+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Loc: gimakomiinyimiwaadiging
-     2+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Obv: gimakomiinyimiwaadigan
      2+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Pl: gimakomiinyimiwaadigag
+     2+makomii+NI+Dim+Pos+1+Pl+Prt+4: gimakomiinsiminaanibaniin
      2+makomii+NI+Dim+Pos+1+Pl+Prt+Loc: gimakomiinsiminaanibaniing
-     2+makomii+NI+Dim+Pos+1+Pl+Prt+Obv: gimakomiinsiminaanibaniin
      2+makomii+NI+Dim+Pos+1+Pl+Prt+Pl: gimakomiinsiminaanibaniig
+     2+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+4: gimakomiinsiminaanidigan
      2+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Loc: gimakomiinsiminaanidiging
-     2+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Obv: gimakomiinsiminaanidigan
      2+makomii+NI+Dim+Pos+1+Pl+Voc+Pl+Pl: gimakomiinsiminaanidigag
+     2+makomii+NI+Dim+Pos+3+Pl+Prt+4: gimakomiinsimiwaabaniin
      2+makomii+NI+Dim+Pos+3+Pl+Prt+Loc: gimakomiinsimiwaabaniing
-     2+makomii+NI+Dim+Pos+3+Pl+Prt+Obv: gimakomiinsimiwaabaniin
      2+makomii+NI+Dim+Pos+3+Pl+Prt+Pl: gimakomiinsimiwaabaniig
+     2+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+4: gimakomiinsimiwaadigan
      2+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Loc: gimakomiinsimiwaadiging
-     2+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Obv: gimakomiinsimiwaadigan
      2+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Pl: gimakomiinsimiwaadigag
-     3+makomii+NI+Con+Pos+3+Obv+Prt+Loc: omakomiinyiminiibaniing
-     3+makomii+NI+Con+Pos+3+Obv+Prt+Obv: omakomiinyiminiibaniin
-     3+makomii+NI+Con+Pos+3+Obv+Prt+Pl: omakomiinyiminiibaniin
-     3+makomii+NI+Con+Pos+3+Obv+Voc+Pl+Loc: omakomiinyiminiidiging
-     3+makomii+NI+Con+Pos+3+Obv+Voc+Pl+Obv: omakomiinyiminiidigan
-     3+makomii+NI+Con+Pos+3+Obv+Voc+Pl+Pl: omakomiinyiminiidigan
+     3+makomii+NI+Con+Pos+3+4+Prt+4: omakomiinyiminiibaniin
+     3+makomii+NI+Con+Pos+3+4+Prt+Loc: omakomiinyiminiibaniing
+     3+makomii+NI+Con+Pos+3+4+Prt+Pl: omakomiinyiminiibaniin
+     3+makomii+NI+Con+Pos+3+4+Voc+Pl+4: omakomiinyiminiidigan
+     3+makomii+NI+Con+Pos+3+4+Voc+Pl+Loc: omakomiinyiminiidiging
+     3+makomii+NI+Con+Pos+3+4+Voc+Pl+Pl: omakomiinyiminiidigan
+     3+makomii+NI+Con+Pos+3+Pl+Prt+4: omakomiinyimiwaabaniin
      3+makomii+NI+Con+Pos+3+Pl+Prt+Loc: omakomiinyimiwaabaniing
-     3+makomii+NI+Con+Pos+3+Pl+Prt+Obv: omakomiinyimiwaabaniin
      3+makomii+NI+Con+Pos+3+Pl+Prt+Pl: omakomiinyimiwaabaniig
+     3+makomii+NI+Con+Pos+3+Pl+Voc+Pl+4: omakomiinyimiwaadigan
      3+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Loc: omakomiinyimiwaadiging
-     3+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Obv: omakomiinyimiwaadigan
      3+makomii+NI+Con+Pos+3+Pl+Voc+Pl+Pl: omakomiinyimiwaadigag
-     3+makomii+NI+Dim+Pos+3+Obv+Prt+Loc: omakomiinsiminiibaniing
-     3+makomii+NI+Dim+Pos+3+Obv+Prt+Obv: omakomiinsiminiibaniin
-     3+makomii+NI+Dim+Pos+3+Obv+Prt+Pl: omakomiinsiminiibaniin
-     3+makomii+NI+Dim+Pos+3+Obv+Voc+Pl+Loc: omakomiinsiminiidiging
-     3+makomii+NI+Dim+Pos+3+Obv+Voc+Pl+Obv: omakomiinsiminiidigan
-     3+makomii+NI+Dim+Pos+3+Obv+Voc+Pl+Pl: omakomiinsiminiidigan
+     3+makomii+NI+Dim+Pos+3+4+Prt+4: omakomiinsiminiibaniin
+     3+makomii+NI+Dim+Pos+3+4+Prt+Loc: omakomiinsiminiibaniing
+     3+makomii+NI+Dim+Pos+3+4+Prt+Pl: omakomiinsiminiibaniin
+     3+makomii+NI+Dim+Pos+3+4+Voc+Pl+4: omakomiinsiminiidigan
+     3+makomii+NI+Dim+Pos+3+4+Voc+Pl+Loc: omakomiinsiminiidiging
+     3+makomii+NI+Dim+Pos+3+4+Voc+Pl+Pl: omakomiinsiminiidigan
+     3+makomii+NI+Dim+Pos+3+Pl+Prt+4: omakomiinsimiwaabaniin
      3+makomii+NI+Dim+Pos+3+Pl+Prt+Loc: omakomiinsimiwaabaniing
-     3+makomii+NI+Dim+Pos+3+Pl+Prt+Obv: omakomiinsimiwaabaniin
      3+makomii+NI+Dim+Pos+3+Pl+Prt+Pl: omakomiinsimiwaabaniig
+     3+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+4: omakomiinsimiwaadigan
      3+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Loc: omakomiinsimiwaadiging
-     3+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Obv: omakomiinsimiwaadigan
      3+makomii+NI+Dim+Pos+3+Pl+Voc+Pl+Pl: omakomiinsimiwaadigag
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     1+makomii+NI+Con+Pej+1+Pl+Prt+4: nimakomiinyishinaanibaniin
      1+makomii+NI+Con+Pej+1+Pl+Prt+Loc: nimakomiinyishinaanibaniing
-     1+makomii+NI+Con+Pej+1+Pl+Prt+Obv: nimakomiinyishinaanibaniin
      1+makomii+NI+Con+Pej+1+Pl+Prt+Pl: nimakomiinyishinaanibaniig
+     1+makomii+NI+Con+Pej+1+Pl+Voc+Pl+4: nimakomiinyishinaanidigan
      1+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Loc: nimakomiinyishinaanidiging
-     1+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Obv: nimakomiinyishinaanidigan
      1+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Pl: nimakomiinyishinaanidigag
+     1+makomii+NI+Dim+Pej+1+Pl+Prt+4: nimakomiinsishinaanibaniin
      1+makomii+NI+Dim+Pej+1+Pl+Prt+Loc: nimakomiinsishinaanibaniing
-     1+makomii+NI+Dim+Pej+1+Pl+Prt+Obv: nimakomiinsishinaanibaniin
      1+makomii+NI+Dim+Pej+1+Pl+Prt+Pl: nimakomiinsishinaanibaniig
+     1+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+4: nimakomiinsishinaanidigan
      1+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Loc: nimakomiinsishinaanidiging
-     1+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Obv: nimakomiinsishinaanidigan
      1+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Pl: nimakomiinsishinaanidigag
+     2+makomii+NI+Con+Pej+1+Pl+Prt+4: gimakomiinyishinaanibaniin
      2+makomii+NI+Con+Pej+1+Pl+Prt+Loc: gimakomiinyishinaanibaniing
-     2+makomii+NI+Con+Pej+1+Pl+Prt+Obv: gimakomiinyishinaanibaniin
      2+makomii+NI+Con+Pej+1+Pl+Prt+Pl: gimakomiinyishinaanibaniig
+     2+makomii+NI+Con+Pej+1+Pl+Voc+Pl+4: gimakomiinyishinaanidigan
      2+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Loc: gimakomiinyishinaanidiging
-     2+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Obv: gimakomiinyishinaanidigan
      2+makomii+NI+Con+Pej+1+Pl+Voc+Pl+Pl: gimakomiinyishinaanidigag
+     2+makomii+NI+Con+Pej+3+Pl+Prt+4: gimakomiinyishiwaabaniin
      2+makomii+NI+Con+Pej+3+Pl+Prt+Loc: gimakomiinyishiwaabaniing
-     2+makomii+NI+Con+Pej+3+Pl+Prt+Obv: gimakomiinyishiwaabaniin
      2+makomii+NI+Con+Pej+3+Pl+Prt+Pl: gimakomiinyishiwaabaniig
+     2+makomii+NI+Con+Pej+3+Pl+Voc+Pl+4: gimakomiinyishiwaadigan
      2+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Loc: gimakomiinyishiwaadiging
-     2+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Obv: gimakomiinyishiwaadigan
      2+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Pl: gimakomiinyishiwaadigag
+     2+makomii+NI+Dim+Pej+1+Pl+Prt+4: gimakomiinsishinaanibaniin
      2+makomii+NI+Dim+Pej+1+Pl+Prt+Loc: gimakomiinsishinaanibaniing
-     2+makomii+NI+Dim+Pej+1+Pl+Prt+Obv: gimakomiinsishinaanibaniin
      2+makomii+NI+Dim+Pej+1+Pl+Prt+Pl: gimakomiinsishinaanibaniig
+     2+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+4: gimakomiinsishinaanidigan
      2+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Loc: gimakomiinsishinaanidiging
-     2+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Obv: gimakomiinsishinaanidigan
      2+makomii+NI+Dim+Pej+1+Pl+Voc+Pl+Pl: gimakomiinsishinaanidigag
+     2+makomii+NI+Dim+Pej+3+Pl+Prt+4: gimakomiinsishiwaabaniin
      2+makomii+NI+Dim+Pej+3+Pl+Prt+Loc: gimakomiinsishiwaabaniing
-     2+makomii+NI+Dim+Pej+3+Pl+Prt+Obv: gimakomiinsishiwaabaniin
      2+makomii+NI+Dim+Pej+3+Pl+Prt+Pl: gimakomiinsishiwaabaniig
+     2+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+4: gimakomiinsishiwaadigan
      2+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Loc: gimakomiinsishiwaadiging
-     2+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Obv: gimakomiinsishiwaadigan
      2+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Pl: gimakomiinsishiwaadigag
-     3+makomii+NI+Con+Pej+3+Obv+Prt+Loc: omakomiinyishiniibaniing
-     3+makomii+NI+Con+Pej+3+Obv+Prt+Obv: omakomiinyishiniibaniin
-     3+makomii+NI+Con+Pej+3+Obv+Prt+Pl: omakomiinyishiniibaniin
-     3+makomii+NI+Con+Pej+3+Obv+Voc+Pl+Loc: omakomiinyishiniidiging
-     3+makomii+NI+Con+Pej+3+Obv+Voc+Pl+Obv: omakomiinyishiniidigan
-     3+makomii+NI+Con+Pej+3+Obv+Voc+Pl+Pl: omakomiinyishiniidigan
+     3+makomii+NI+Con+Pej+3+4+Prt+4: omakomiinyishiniibaniin
+     3+makomii+NI+Con+Pej+3+4+Prt+Loc: omakomiinyishiniibaniing
+     3+makomii+NI+Con+Pej+3+4+Prt+Pl: omakomiinyishiniibaniin
+     3+makomii+NI+Con+Pej+3+4+Voc+Pl+4: omakomiinyishiniidigan
+     3+makomii+NI+Con+Pej+3+4+Voc+Pl+Loc: omakomiinyishiniidiging
+     3+makomii+NI+Con+Pej+3+4+Voc+Pl+Pl: omakomiinyishiniidigan
+     3+makomii+NI+Con+Pej+3+Pl+Prt+4: omakomiinyishiwaabaniin
      3+makomii+NI+Con+Pej+3+Pl+Prt+Loc: omakomiinyishiwaabaniing
-     3+makomii+NI+Con+Pej+3+Pl+Prt+Obv: omakomiinyishiwaabaniin
      3+makomii+NI+Con+Pej+3+Pl+Prt+Pl: omakomiinyishiwaabaniig
+     3+makomii+NI+Con+Pej+3+Pl+Voc+Pl+4: omakomiinyishiwaadigan
      3+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Loc: omakomiinyishiwaadiging
-     3+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Obv: omakomiinyishiwaadigan
      3+makomii+NI+Con+Pej+3+Pl+Voc+Pl+Pl: omakomiinyishiwaadigag
-     3+makomii+NI+Dim+Pej+3+Obv+Prt+Loc: omakomiinsishiniibaniing
-     3+makomii+NI+Dim+Pej+3+Obv+Prt+Obv: omakomiinsishiniibaniin
-     3+makomii+NI+Dim+Pej+3+Obv+Prt+Pl: omakomiinsishiniibaniin
-     3+makomii+NI+Dim+Pej+3+Obv+Voc+Pl+Loc: omakomiinsishiniidiging
-     3+makomii+NI+Dim+Pej+3+Obv+Voc+Pl+Obv: omakomiinsishiniidigan
-     3+makomii+NI+Dim+Pej+3+Obv+Voc+Pl+Pl: omakomiinsishiniidigan
+     3+makomii+NI+Dim+Pej+3+4+Prt+4: omakomiinsishiniibaniin
+     3+makomii+NI+Dim+Pej+3+4+Prt+Loc: omakomiinsishiniibaniing
+     3+makomii+NI+Dim+Pej+3+4+Prt+Pl: omakomiinsishiniibaniin
+     3+makomii+NI+Dim+Pej+3+4+Voc+Pl+4: omakomiinsishiniidigan
+     3+makomii+NI+Dim+Pej+3+4+Voc+Pl+Loc: omakomiinsishiniidiging
+     3+makomii+NI+Dim+Pej+3+4+Voc+Pl+Pl: omakomiinsishiniidigan
+     3+makomii+NI+Dim+Pej+3+Pl+Prt+4: omakomiinsishiwaabaniin
      3+makomii+NI+Dim+Pej+3+Pl+Prt+Loc: omakomiinsishiwaabaniing
-     3+makomii+NI+Dim+Pej+3+Pl+Prt+Obv: omakomiinsishiwaabaniin
      3+makomii+NI+Dim+Pej+3+Pl+Prt+Pl: omakomiinsishiwaabaniig
+     3+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+4: omakomiinsishiwaadigan
      3+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Loc: omakomiinsishiwaadiging
-     3+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Obv: omakomiinsishiwaadigan
      3+makomii+NI+Dim+Pej+3+Pl+Voc+Pl+Pl: omakomiinsishiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     1+makomii+NI+Pos+Pej+1+Pl+Prt+4: nimakomiimishinaanibaniin
      1+makomii+NI+Pos+Pej+1+Pl+Prt+Loc: nimakomiimishinaanibaniing
-     1+makomii+NI+Pos+Pej+1+Pl+Prt+Obv: nimakomiimishinaanibaniin
      1+makomii+NI+Pos+Pej+1+Pl+Prt+Pl: nimakomiimishinaanibaniig
+     1+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+4: nimakomiimishinaanidigan
      1+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Loc: nimakomiimishinaanidiging
-     1+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Obv: nimakomiimishinaanidigan
      1+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Pl: nimakomiimishinaanidigag
+     2+makomii+NI+Pos+Pej+1+Pl+Prt+4: gimakomiimishinaanibaniin
      2+makomii+NI+Pos+Pej+1+Pl+Prt+Loc: gimakomiimishinaanibaniing
-     2+makomii+NI+Pos+Pej+1+Pl+Prt+Obv: gimakomiimishinaanibaniin
      2+makomii+NI+Pos+Pej+1+Pl+Prt+Pl: gimakomiimishinaanibaniig
+     2+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+4: gimakomiimishinaanidigan
      2+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Loc: gimakomiimishinaanidiging
-     2+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Obv: gimakomiimishinaanidigan
      2+makomii+NI+Pos+Pej+1+Pl+Voc+Pl+Pl: gimakomiimishinaanidigag
+     2+makomii+NI+Pos+Pej+3+Pl+Prt+4: gimakomiimishiwaabaniin
      2+makomii+NI+Pos+Pej+3+Pl+Prt+Loc: gimakomiimishiwaabaniing
-     2+makomii+NI+Pos+Pej+3+Pl+Prt+Obv: gimakomiimishiwaabaniin
      2+makomii+NI+Pos+Pej+3+Pl+Prt+Pl: gimakomiimishiwaabaniig
+     2+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+4: gimakomiimishiwaadigan
      2+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Loc: gimakomiimishiwaadiging
-     2+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Obv: gimakomiimishiwaadigan
      2+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Pl: gimakomiimishiwaadigag
-     3+makomii+NI+Pos+Pej+3+Obv+Prt+Loc: omakomiimishiniibaniing
-     3+makomii+NI+Pos+Pej+3+Obv+Prt+Obv: omakomiimishiniibaniin
-     3+makomii+NI+Pos+Pej+3+Obv+Prt+Pl: omakomiimishiniibaniin
-     3+makomii+NI+Pos+Pej+3+Obv+Voc+Pl+Loc: omakomiimishiniidiging
-     3+makomii+NI+Pos+Pej+3+Obv+Voc+Pl+Obv: omakomiimishiniidigan
-     3+makomii+NI+Pos+Pej+3+Obv+Voc+Pl+Pl: omakomiimishiniidigan
+     3+makomii+NI+Pos+Pej+3+4+Prt+4: omakomiimishiniibaniin
+     3+makomii+NI+Pos+Pej+3+4+Prt+Loc: omakomiimishiniibaniing
+     3+makomii+NI+Pos+Pej+3+4+Prt+Pl: omakomiimishiniibaniin
+     3+makomii+NI+Pos+Pej+3+4+Voc+Pl+4: omakomiimishiniidigan
+     3+makomii+NI+Pos+Pej+3+4+Voc+Pl+Loc: omakomiimishiniidiging
+     3+makomii+NI+Pos+Pej+3+4+Voc+Pl+Pl: omakomiimishiniidigan
+     3+makomii+NI+Pos+Pej+3+Pl+Prt+4: omakomiimishiwaabaniin
      3+makomii+NI+Pos+Pej+3+Pl+Prt+Loc: omakomiimishiwaabaniing
-     3+makomii+NI+Pos+Pej+3+Pl+Prt+Obv: omakomiimishiwaabaniin
      3+makomii+NI+Pos+Pej+3+Pl+Prt+Pl: omakomiimishiwaabaniig
+     3+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+4: omakomiimishiwaadigan
      3+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Loc: omakomiimishiwaadiging
-     3+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Obv: omakomiimishiwaadigan
      3+makomii+NI+Pos+Pej+3+Pl+Voc+Pl+Pl: omakomiimishiwaadigag
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     1+makomii+NI+Con+Pos+Pej+1+Pl+Prt+4: nimakomiinyimishinaanibaniin
      1+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Loc: nimakomiinyimishinaanibaniing
-     1+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Obv: nimakomiinyimishinaanibaniin
      1+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Pl: nimakomiinyimishinaanibaniig
+     1+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+4: nimakomiinyimishinaanidigan
      1+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: nimakomiinyimishinaanidiging
-     1+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: nimakomiinyimishinaanidigan
      1+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: nimakomiinyimishinaanidigag
+     1+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+4: nimakomiinsimishinaanibaniin
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Loc: nimakomiinsimishinaanibaniing
-     1+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Obv: nimakomiinsimishinaanibaniin
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Pl: nimakomiinsimishinaanibaniig
+     1+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+4: nimakomiinsimishinaanidigan
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: nimakomiinsimishinaanidiging
-     1+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: nimakomiinsimishinaanidigan
      1+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: nimakomiinsimishinaanidigag
+     2+makomii+NI+Con+Pos+Pej+1+Pl+Prt+4: gimakomiinyimishinaanibaniin
      2+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Loc: gimakomiinyimishinaanibaniing
-     2+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Obv: gimakomiinyimishinaanibaniin
      2+makomii+NI+Con+Pos+Pej+1+Pl+Prt+Pl: gimakomiinyimishinaanibaniig
+     2+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+4: gimakomiinyimishinaanidigan
      2+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: gimakomiinyimishinaanidiging
-     2+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: gimakomiinyimishinaanidigan
      2+makomii+NI+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: gimakomiinyimishinaanidigag
+     2+makomii+NI+Con+Pos+Pej+3+Pl+Prt+4: gimakomiinyimishiwaabaniin
      2+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Loc: gimakomiinyimishiwaabaniing
-     2+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Obv: gimakomiinyimishiwaabaniin
      2+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Pl: gimakomiinyimishiwaabaniig
+     2+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+4: gimakomiinyimishiwaadigan
      2+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: gimakomiinyimishiwaadiging
-     2+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: gimakomiinyimishiwaadigan
      2+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: gimakomiinyimishiwaadigag
+     2+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+4: gimakomiinsimishinaanibaniin
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Loc: gimakomiinsimishinaanibaniing
-     2+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Obv: gimakomiinsimishinaanibaniin
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Prt+Pl: gimakomiinsimishinaanibaniig
+     2+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+4: gimakomiinsimishinaanidigan
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: gimakomiinsimishinaanidiging
-     2+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: gimakomiinsimishinaanidigan
      2+makomii+NI+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: gimakomiinsimishinaanidigag
+     2+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+4: gimakomiinsimishiwaabaniin
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Loc: gimakomiinsimishiwaabaniing
-     2+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Obv: gimakomiinsimishiwaabaniin
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Pl: gimakomiinsimishiwaabaniig
+     2+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+4: gimakomiinsimishiwaadigan
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: gimakomiinsimishiwaadiging
-     2+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: gimakomiinsimishiwaadigan
      2+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: gimakomiinsimishiwaadigag
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Prt+Loc: omakomiinyimishiniibaniing
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Prt+Obv: omakomiinyimishiniibaniin
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Prt+Pl: omakomiinyimishiniibaniin
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Loc: omakomiinyimishiniidiging
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Obv: omakomiinyimishiniidigan
-     3+makomii+NI+Con+Pos+Pej+3+Obv+Voc+Pl+Pl: omakomiinyimishiniidigan
+     3+makomii+NI+Con+Pos+Pej+3+4+Prt+4: omakomiinyimishiniibaniin
+     3+makomii+NI+Con+Pos+Pej+3+4+Prt+Loc: omakomiinyimishiniibaniing
+     3+makomii+NI+Con+Pos+Pej+3+4+Prt+Pl: omakomiinyimishiniibaniin
+     3+makomii+NI+Con+Pos+Pej+3+4+Voc+Pl+4: omakomiinyimishiniidigan
+     3+makomii+NI+Con+Pos+Pej+3+4+Voc+Pl+Loc: omakomiinyimishiniidiging
+     3+makomii+NI+Con+Pos+Pej+3+4+Voc+Pl+Pl: omakomiinyimishiniidigan
+     3+makomii+NI+Con+Pos+Pej+3+Pl+Prt+4: omakomiinyimishiwaabaniin
      3+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Loc: omakomiinyimishiwaabaniing
-     3+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Obv: omakomiinyimishiwaabaniin
      3+makomii+NI+Con+Pos+Pej+3+Pl+Prt+Pl: omakomiinyimishiwaabaniig
+     3+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+4: omakomiinyimishiwaadigan
      3+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: omakomiinyimishiwaadiging
-     3+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: omakomiinyimishiwaadigan
      3+makomii+NI+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: omakomiinyimishiwaadigag
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Prt+Loc: omakomiinsimishiniibaniing
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Prt+Obv: omakomiinsimishiniibaniin
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Prt+Pl: omakomiinsimishiniibaniin
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Loc: omakomiinsimishiniidiging
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Obv: omakomiinsimishiniidigan
-     3+makomii+NI+Dim+Pos+Pej+3+Obv+Voc+Pl+Pl: omakomiinsimishiniidigan
+     3+makomii+NI+Dim+Pos+Pej+3+4+Prt+4: omakomiinsimishiniibaniin
+     3+makomii+NI+Dim+Pos+Pej+3+4+Prt+Loc: omakomiinsimishiniibaniing
+     3+makomii+NI+Dim+Pos+Pej+3+4+Prt+Pl: omakomiinsimishiniibaniin
+     3+makomii+NI+Dim+Pos+Pej+3+4+Voc+Pl+4: omakomiinsimishiniidigan
+     3+makomii+NI+Dim+Pos+Pej+3+4+Voc+Pl+Loc: omakomiinsimishiniidiging
+     3+makomii+NI+Dim+Pos+Pej+3+4+Voc+Pl+Pl: omakomiinsimishiniidigan
+     3+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+4: omakomiinsimishiwaabaniin
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Loc: omakomiinsimishiwaabaniing
-     3+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Obv: omakomiinsimishiwaabaniin
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Prt+Pl: omakomiinsimishiwaabaniig
+     3+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+4: omakomiinsimishiwaadigan
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: omakomiinsimishiwaadiging
-     3+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: omakomiinsimishiwaadigan
      3+makomii+NI+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: omakomiinsimishiwaadigag
      

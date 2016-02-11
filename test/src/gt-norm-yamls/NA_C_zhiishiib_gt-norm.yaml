@@ -38,8 +38,8 @@ Tests:
      zhiishiib+NA+Voc+Pl: zhiishiibidig
      
      #Values from slots numbered: 7
+     zhiishiib+NA+4: zhiishiiban
      zhiishiib+NA+Loc: zhiishiibing
-     zhiishiib+NA+Obv: zhiishiiban
      zhiishiib+NA+Pl: zhiishiibag
      
      #Values from slots numbered: 1, 2
@@ -68,7 +68,7 @@ Tests:
      1+zhiishiib+NA+1+Pl: nizhiishiibinaan
      2+zhiishiib+NA+1+Pl: gizhiishiibinaan
      2+zhiishiib+NA+3+Pl: gizhiishiibiwaa
-     3+zhiishiib+NA+3+Obv: ozhiishiibini
+     3+zhiishiib+NA+3+4: ozhiishiibini
      3+zhiishiib+NA+3+Pl: ozhiishiibiwaa
      
      #Values from slots numbered: 1, 6
@@ -82,17 +82,17 @@ Tests:
      X+zhiishiib+NA+Voc+Pl: izhiishiibidig
      
      #Values from slots numbered: 1, 7
+     1+zhiishiib+NA+4: nizhiishiiban
      1+zhiishiib+NA+Loc: nizhiishiibing
-     1+zhiishiib+NA+Obv: nizhiishiiban
      1+zhiishiib+NA+Pl: nizhiishiibag
+     2+zhiishiib+NA+4: gizhiishiiban
      2+zhiishiib+NA+Loc: gizhiishiibing
-     2+zhiishiib+NA+Obv: gizhiishiiban
      2+zhiishiib+NA+Pl: gizhiishiibag
+     3+zhiishiib+NA+4: ozhiishiiban
      3+zhiishiib+NA+Loc: ozhiishiibing
-     3+zhiishiib+NA+Obv: ozhiishiiban
      3+zhiishiib+NA+Pl: ozhiishiibag
+     X+zhiishiib+NA+4: izhiishiiban
      X+zhiishiib+NA+Loc: izhiishiibing
-     X+zhiishiib+NA+Obv: izhiishiiban
      X+zhiishiib+NA+Pl: izhiishiibag
      
      
@@ -108,11 +108,11 @@ Tests:
      zhiishiib+NA+Dim+Voc+Pl: zhiishiibensidig
      
      #Values from slots numbered: 2, 7
+     zhiishiib+NA+Con+4: zhiishiibenyin
      zhiishiib+NA+Con+Loc: zhiishiibenying
-     zhiishiib+NA+Con+Obv: zhiishiibenyin
      zhiishiib+NA+Con+Pl: zhiishiibenyig
+     zhiishiib+NA+Dim+4: zhiishiibensan
      zhiishiib+NA+Dim+Loc: zhiishiibensing
-     zhiishiib+NA+Dim+Obv: zhiishiibensan
      zhiishiib+NA+Dim+Pl: zhiishiibensag
      
      
@@ -125,15 +125,15 @@ Tests:
      zhiishiib+NA+Pej+Voc+Pl: zhiishiibishidig
      
      #Values from slots numbered: 4, 7
+     zhiishiib+NA+Pej+4: zhiishiibishan
      zhiishiib+NA+Pej+Loc: zhiishiibishing
-     zhiishiib+NA+Pej+Obv: zhiishiibishan
      zhiishiib+NA+Pej+Pl: zhiishiibishag
      
      
      
      #Values from slots numbered: 6, 7
+     zhiishiib+NA+Prt+4: zhiishiibibaniin
      zhiishiib+NA+Prt+Loc: zhiishiibibaniing
-     zhiishiib+NA+Prt+Obv: zhiishiibibaniin
      zhiishiib+NA+Prt+Pl: zhiishiibibaniig
      
      #Values from slots numbered: 1, 2, 3
@@ -163,9 +163,9 @@ Tests:
      2+zhiishiib+NA+Con+3+Pl: gizhiishiibenyiwaa
      2+zhiishiib+NA+Dim+1+Pl: gizhiishiibensinaan
      2+zhiishiib+NA+Dim+3+Pl: gizhiishiibensiwaa
-     3+zhiishiib+NA+Con+3+Obv: ozhiishiibenyini
+     3+zhiishiib+NA+Con+3+4: ozhiishiibenyini
      3+zhiishiib+NA+Con+3+Pl: ozhiishiibenyiwaa
-     3+zhiishiib+NA+Dim+3+Obv: ozhiishiibensini
+     3+zhiishiib+NA+Dim+3+4: ozhiishiibensini
      3+zhiishiib+NA+Dim+3+Pl: ozhiishiibensiwaa
      
      #Values from slots numbered: 1, 2, 6
@@ -187,29 +187,29 @@ Tests:
      X+zhiishiib+NA+Dim+Voc+Pl: izhiishiibensidig
      
      #Values from slots numbered: 1, 2, 7
+     1+zhiishiib+NA+Con+4: nizhiishiibenyin
      1+zhiishiib+NA+Con+Loc: nizhiishiibenying
-     1+zhiishiib+NA+Con+Obv: nizhiishiibenyin
      1+zhiishiib+NA+Con+Pl: nizhiishiibenyig
+     1+zhiishiib+NA+Dim+4: nizhiishiibensan
      1+zhiishiib+NA+Dim+Loc: nizhiishiibensing
-     1+zhiishiib+NA+Dim+Obv: nizhiishiibensan
      1+zhiishiib+NA+Dim+Pl: nizhiishiibensag
+     2+zhiishiib+NA+Con+4: gizhiishiibenyin
      2+zhiishiib+NA+Con+Loc: gizhiishiibenying
-     2+zhiishiib+NA+Con+Obv: gizhiishiibenyin
      2+zhiishiib+NA+Con+Pl: gizhiishiibenyig
+     2+zhiishiib+NA+Dim+4: gizhiishiibensan
      2+zhiishiib+NA+Dim+Loc: gizhiishiibensing
-     2+zhiishiib+NA+Dim+Obv: gizhiishiibensan
      2+zhiishiib+NA+Dim+Pl: gizhiishiibensag
+     3+zhiishiib+NA+Con+4: ozhiishiibenyin
      3+zhiishiib+NA+Con+Loc: ozhiishiibenying
-     3+zhiishiib+NA+Con+Obv: ozhiishiibenyin
      3+zhiishiib+NA+Con+Pl: ozhiishiibenyig
+     3+zhiishiib+NA+Dim+4: ozhiishiibensan
      3+zhiishiib+NA+Dim+Loc: ozhiishiibensing
-     3+zhiishiib+NA+Dim+Obv: ozhiishiibensan
      3+zhiishiib+NA+Dim+Pl: ozhiishiibensag
+     X+zhiishiib+NA+Con+4: izhiishiibenyin
      X+zhiishiib+NA+Con+Loc: izhiishiibenying
-     X+zhiishiib+NA+Con+Obv: izhiishiibenyin
      X+zhiishiib+NA+Con+Pl: izhiishiibenyig
+     X+zhiishiib+NA+Dim+4: izhiishiibensan
      X+zhiishiib+NA+Dim+Loc: izhiishiibensing
-     X+zhiishiib+NA+Dim+Obv: izhiishiibensan
      X+zhiishiib+NA+Dim+Pl: izhiishiibensag
      
      #Values from slots numbered: 1, 3, 4
@@ -222,7 +222,7 @@ Tests:
      1+zhiishiib+NA+Pos+1+Pl: nizhiishiibiminaan
      2+zhiishiib+NA+Pos+1+Pl: gizhiishiibiminaan
      2+zhiishiib+NA+Pos+3+Pl: gizhiishiibimiwaa
-     3+zhiishiib+NA+Pos+3+Obv: ozhiishiibimini
+     3+zhiishiib+NA+Pos+3+4: ozhiishiibimini
      3+zhiishiib+NA+Pos+3+Pl: ozhiishiibimiwaa
      
      #Values from slots numbered: 1, 3, 6
@@ -236,24 +236,24 @@ Tests:
      X+zhiishiib+NA+Pos+Voc+Pl: izhiishiibimidig
      
      #Values from slots numbered: 1, 3, 7
+     1+zhiishiib+NA+Pos+4: nizhiishiibiman
      1+zhiishiib+NA+Pos+Loc: nizhiishiibiming
-     1+zhiishiib+NA+Pos+Obv: nizhiishiibiman
      1+zhiishiib+NA+Pos+Pl: nizhiishiibimag
+     2+zhiishiib+NA+Pos+4: gizhiishiibiman
      2+zhiishiib+NA+Pos+Loc: gizhiishiibiming
-     2+zhiishiib+NA+Pos+Obv: gizhiishiibiman
      2+zhiishiib+NA+Pos+Pl: gizhiishiibimag
+     3+zhiishiib+NA+Pos+4: ozhiishiibiman
      3+zhiishiib+NA+Pos+Loc: ozhiishiibiming
-     3+zhiishiib+NA+Pos+Obv: ozhiishiibiman
      3+zhiishiib+NA+Pos+Pl: ozhiishiibimag
+     X+zhiishiib+NA+Pos+4: izhiishiibiman
      X+zhiishiib+NA+Pos+Loc: izhiishiibiming
-     X+zhiishiib+NA+Pos+Obv: izhiishiibiman
      X+zhiishiib+NA+Pos+Pl: izhiishiibimag
      
      #Values from slots numbered: 1, 4, 5
      1+zhiishiib+NA+Pej+1+Pl: nizhiishiibishinaan
      2+zhiishiib+NA+Pej+1+Pl: gizhiishiibishinaan
      2+zhiishiib+NA+Pej+3+Pl: gizhiishiibishiwaa
-     3+zhiishiib+NA+Pej+3+Obv: ozhiishiibishini
+     3+zhiishiib+NA+Pej+3+4: ozhiishiibishini
      3+zhiishiib+NA+Pej+3+Pl: ozhiishiibishiwaa
      
      #Values from slots numbered: 1, 4, 6
@@ -267,17 +267,17 @@ Tests:
      X+zhiishiib+NA+Pej+Voc+Pl: izhiishiibishidig
      
      #Values from slots numbered: 1, 4, 7
+     1+zhiishiib+NA+Pej+4: nizhiishiibishan
      1+zhiishiib+NA+Pej+Loc: nizhiishiibishing
-     1+zhiishiib+NA+Pej+Obv: nizhiishiibishan
      1+zhiishiib+NA+Pej+Pl: nizhiishiibishag
+     2+zhiishiib+NA+Pej+4: gizhiishiibishan
      2+zhiishiib+NA+Pej+Loc: gizhiishiibishing
-     2+zhiishiib+NA+Pej+Obv: gizhiishiibishan
      2+zhiishiib+NA+Pej+Pl: gizhiishiibishag
+     3+zhiishiib+NA+Pej+4: ozhiishiibishan
      3+zhiishiib+NA+Pej+Loc: ozhiishiibishing
-     3+zhiishiib+NA+Pej+Obv: ozhiishiibishan
      3+zhiishiib+NA+Pej+Pl: ozhiishiibishag
+     X+zhiishiib+NA+Pej+4: izhiishiibishan
      X+zhiishiib+NA+Pej+Loc: izhiishiibishing
-     X+zhiishiib+NA+Pej+Obv: izhiishiibishan
      X+zhiishiib+NA+Pej+Pl: izhiishiibishag
      
      #Values from slots numbered: 1, 5, 6
@@ -287,40 +287,40 @@ Tests:
      2+zhiishiib+NA+1+Pl+Voc+Pl: gizhiishiibinaanidig
      2+zhiishiib+NA+3+Pl+Prt: gizhiishiibiwaaban
      2+zhiishiib+NA+3+Pl+Voc+Pl: gizhiishiibiwaadig
-     3+zhiishiib+NA+3+Obv+Prt: ozhiishiibiniiban
-     3+zhiishiib+NA+3+Obv+Voc+Pl: ozhiishiibiniidig
+     3+zhiishiib+NA+3+4+Prt: ozhiishiibiniiban
+     3+zhiishiib+NA+3+4+Voc+Pl: ozhiishiibiniidig
      3+zhiishiib+NA+3+Pl+Prt: ozhiishiibiwaaban
      3+zhiishiib+NA+3+Pl+Voc+Pl: ozhiishiibiwaadig
      
      #Values from slots numbered: 1, 5, 7
+     1+zhiishiib+NA+1+Pl+4: nizhiishiibinaanin
      1+zhiishiib+NA+1+Pl+Loc: nizhiishiibinaaning
-     1+zhiishiib+NA+1+Pl+Obv: nizhiishiibinaanin
      1+zhiishiib+NA+1+Pl+Pl: nizhiishiibinaanig
+     2+zhiishiib+NA+1+Pl+4: gizhiishiibinaanin
      2+zhiishiib+NA+1+Pl+Loc: gizhiishiibinaaning
-     2+zhiishiib+NA+1+Pl+Obv: gizhiishiibinaanin
      2+zhiishiib+NA+1+Pl+Pl: gizhiishiibinaanig
+     2+zhiishiib+NA+3+Pl+4: gizhiishiibiwaan
      2+zhiishiib+NA+3+Pl+Loc: gizhiishiibiwaang
-     2+zhiishiib+NA+3+Pl+Obv: gizhiishiibiwaan
      2+zhiishiib+NA+3+Pl+Pl: gizhiishiibiwaag
-     3+zhiishiib+NA+3+Obv+Loc: ozhiishiibiniing
-     3+zhiishiib+NA+3+Obv+Obv: ozhiishiibiniwa
-     3+zhiishiib+NA+3+Obv+Pl: ozhiishiibiniwa
+     3+zhiishiib+NA+3+4+4: ozhiishiibiniwa
+     3+zhiishiib+NA+3+4+Loc: ozhiishiibiniing
+     3+zhiishiib+NA+3+4+Pl: ozhiishiibiniwa
+     3+zhiishiib+NA+3+Pl+4: ozhiishiibiwaan
      3+zhiishiib+NA+3+Pl+Loc: ozhiishiibiwaang
-     3+zhiishiib+NA+3+Pl+Obv: ozhiishiibiwaan
      3+zhiishiib+NA+3+Pl+Pl: ozhiishiibiwaag
      
      #Values from slots numbered: 1, 6, 7
+     1+zhiishiib+NA+Prt+4: nizhiishiibibaniin
      1+zhiishiib+NA+Prt+Loc: nizhiishiibibaniing
-     1+zhiishiib+NA+Prt+Obv: nizhiishiibibaniin
      1+zhiishiib+NA+Prt+Pl: nizhiishiibibaniig
+     2+zhiishiib+NA+Prt+4: gizhiishiibibaniin
      2+zhiishiib+NA+Prt+Loc: gizhiishiibibaniing
-     2+zhiishiib+NA+Prt+Obv: gizhiishiibibaniin
      2+zhiishiib+NA+Prt+Pl: gizhiishiibibaniig
+     3+zhiishiib+NA+Prt+4: ozhiishiibibaniin
      3+zhiishiib+NA+Prt+Loc: ozhiishiibibaniing
-     3+zhiishiib+NA+Prt+Obv: ozhiishiibibaniin
      3+zhiishiib+NA+Prt+Pl: ozhiishiibibaniig
+     X+zhiishiib+NA+Prt+4: izhiishiibibaniin
      X+zhiishiib+NA+Prt+Loc: izhiishiibibaniing
-     X+zhiishiib+NA+Prt+Obv: izhiishiibibaniin
      X+zhiishiib+NA+Prt+Pl: izhiishiibibaniig
      
      
@@ -335,21 +335,21 @@ Tests:
      zhiishiib+NA+Dim+Pej+Voc+Pl: zhiishiibensishidig
      
      #Values from slots numbered: 2, 4, 7
+     zhiishiib+NA+Con+Pej+4: zhiishiibenyishan
      zhiishiib+NA+Con+Pej+Loc: zhiishiibenyishing
-     zhiishiib+NA+Con+Pej+Obv: zhiishiibenyishan
      zhiishiib+NA+Con+Pej+Pl: zhiishiibenyishag
+     zhiishiib+NA+Dim+Pej+4: zhiishiibensishan
      zhiishiib+NA+Dim+Pej+Loc: zhiishiibensishing
-     zhiishiib+NA+Dim+Pej+Obv: zhiishiibensishan
      zhiishiib+NA+Dim+Pej+Pl: zhiishiibensishag
      
      
      
      #Values from slots numbered: 2, 6, 7
+     zhiishiib+NA+Con+Prt+4: zhiishiibenyibaniin
      zhiishiib+NA+Con+Prt+Loc: zhiishiibenyibaniing
-     zhiishiib+NA+Con+Prt+Obv: zhiishiibenyibaniin
      zhiishiib+NA+Con+Prt+Pl: zhiishiibenyibaniig
+     zhiishiib+NA+Dim+Prt+4: zhiishiibensibaniin
      zhiishiib+NA+Dim+Prt+Loc: zhiishiibensibaniing
-     zhiishiib+NA+Dim+Prt+Obv: zhiishiibensibaniin
      zhiishiib+NA+Dim+Prt+Pl: zhiishiibensibaniig
      
      
@@ -361,8 +361,8 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
+     zhiishiib+NA+Pej+Prt+4: zhiishiibishibaniin
      zhiishiib+NA+Pej+Prt+Loc: zhiishiibishibaniing
-     zhiishiib+NA+Pej+Prt+Obv: zhiishiibishibaniin
      zhiishiib+NA+Pej+Prt+Pl: zhiishiibishibaniig
      
      
@@ -383,9 +383,9 @@ Tests:
      2+zhiishiib+NA+Con+Pos+3+Pl: gizhiishiibenyimiwaa
      2+zhiishiib+NA+Dim+Pos+1+Pl: gizhiishiibensiminaan
      2+zhiishiib+NA+Dim+Pos+3+Pl: gizhiishiibensimiwaa
-     3+zhiishiib+NA+Con+Pos+3+Obv: ozhiishiibenyimini
+     3+zhiishiib+NA+Con+Pos+3+4: ozhiishiibenyimini
      3+zhiishiib+NA+Con+Pos+3+Pl: ozhiishiibenyimiwaa
-     3+zhiishiib+NA+Dim+Pos+3+Obv: ozhiishiibensimini
+     3+zhiishiib+NA+Dim+Pos+3+4: ozhiishiibensimini
      3+zhiishiib+NA+Dim+Pos+3+Pl: ozhiishiibensimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
@@ -407,29 +407,29 @@ Tests:
      X+zhiishiib+NA+Dim+Pos+Voc+Pl: izhiishiibensimidig
      
      #Values from slots numbered: 1, 2, 3, 7
+     1+zhiishiib+NA+Con+Pos+4: nizhiishiibenyiman
      1+zhiishiib+NA+Con+Pos+Loc: nizhiishiibenyiming
-     1+zhiishiib+NA+Con+Pos+Obv: nizhiishiibenyiman
      1+zhiishiib+NA+Con+Pos+Pl: nizhiishiibenyimag
+     1+zhiishiib+NA+Dim+Pos+4: nizhiishiibensiman
      1+zhiishiib+NA+Dim+Pos+Loc: nizhiishiibensiming
-     1+zhiishiib+NA+Dim+Pos+Obv: nizhiishiibensiman
      1+zhiishiib+NA+Dim+Pos+Pl: nizhiishiibensimag
+     2+zhiishiib+NA+Con+Pos+4: gizhiishiibenyiman
      2+zhiishiib+NA+Con+Pos+Loc: gizhiishiibenyiming
-     2+zhiishiib+NA+Con+Pos+Obv: gizhiishiibenyiman
      2+zhiishiib+NA+Con+Pos+Pl: gizhiishiibenyimag
+     2+zhiishiib+NA+Dim+Pos+4: gizhiishiibensiman
      2+zhiishiib+NA+Dim+Pos+Loc: gizhiishiibensiming
-     2+zhiishiib+NA+Dim+Pos+Obv: gizhiishiibensiman
      2+zhiishiib+NA+Dim+Pos+Pl: gizhiishiibensimag
+     3+zhiishiib+NA+Con+Pos+4: ozhiishiibenyiman
      3+zhiishiib+NA+Con+Pos+Loc: ozhiishiibenyiming
-     3+zhiishiib+NA+Con+Pos+Obv: ozhiishiibenyiman
      3+zhiishiib+NA+Con+Pos+Pl: ozhiishiibenyimag
+     3+zhiishiib+NA+Dim+Pos+4: ozhiishiibensiman
      3+zhiishiib+NA+Dim+Pos+Loc: ozhiishiibensiming
-     3+zhiishiib+NA+Dim+Pos+Obv: ozhiishiibensiman
      3+zhiishiib+NA+Dim+Pos+Pl: ozhiishiibensimag
+     X+zhiishiib+NA+Con+Pos+4: izhiishiibenyiman
      X+zhiishiib+NA+Con+Pos+Loc: izhiishiibenyiming
-     X+zhiishiib+NA+Con+Pos+Obv: izhiishiibenyiman
      X+zhiishiib+NA+Con+Pos+Pl: izhiishiibenyimag
+     X+zhiishiib+NA+Dim+Pos+4: izhiishiibensiman
      X+zhiishiib+NA+Dim+Pos+Loc: izhiishiibensiming
-     X+zhiishiib+NA+Dim+Pos+Obv: izhiishiibensiman
      X+zhiishiib+NA+Dim+Pos+Pl: izhiishiibensimag
      
      #Values from slots numbered: 1, 2, 4, 5
@@ -439,9 +439,9 @@ Tests:
      2+zhiishiib+NA+Con+Pej+3+Pl: gizhiishiibenyishiwaa
      2+zhiishiib+NA+Dim+Pej+1+Pl: gizhiishiibensishinaan
      2+zhiishiib+NA+Dim+Pej+3+Pl: gizhiishiibensishiwaa
-     3+zhiishiib+NA+Con+Pej+3+Obv: ozhiishiibenyishini
+     3+zhiishiib+NA+Con+Pej+3+4: ozhiishiibenyishini
      3+zhiishiib+NA+Con+Pej+3+Pl: ozhiishiibenyishiwaa
-     3+zhiishiib+NA+Dim+Pej+3+Obv: ozhiishiibensishini
+     3+zhiishiib+NA+Dim+Pej+3+4: ozhiishiibensishini
      3+zhiishiib+NA+Dim+Pej+3+Pl: ozhiishiibensishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
@@ -463,29 +463,29 @@ Tests:
      X+zhiishiib+NA+Dim+Pej+Voc+Pl: izhiishiibensishidig
      
      #Values from slots numbered: 1, 2, 4, 7
+     1+zhiishiib+NA+Con+Pej+4: nizhiishiibenyishan
      1+zhiishiib+NA+Con+Pej+Loc: nizhiishiibenyishing
-     1+zhiishiib+NA+Con+Pej+Obv: nizhiishiibenyishan
      1+zhiishiib+NA+Con+Pej+Pl: nizhiishiibenyishag
+     1+zhiishiib+NA+Dim+Pej+4: nizhiishiibensishan
      1+zhiishiib+NA+Dim+Pej+Loc: nizhiishiibensishing
-     1+zhiishiib+NA+Dim+Pej+Obv: nizhiishiibensishan
      1+zhiishiib+NA+Dim+Pej+Pl: nizhiishiibensishag
+     2+zhiishiib+NA+Con+Pej+4: gizhiishiibenyishan
      2+zhiishiib+NA+Con+Pej+Loc: gizhiishiibenyishing
-     2+zhiishiib+NA+Con+Pej+Obv: gizhiishiibenyishan
      2+zhiishiib+NA+Con+Pej+Pl: gizhiishiibenyishag
+     2+zhiishiib+NA+Dim+Pej+4: gizhiishiibensishan
      2+zhiishiib+NA+Dim+Pej+Loc: gizhiishiibensishing
-     2+zhiishiib+NA+Dim+Pej+Obv: gizhiishiibensishan
      2+zhiishiib+NA+Dim+Pej+Pl: gizhiishiibensishag
+     3+zhiishiib+NA+Con+Pej+4: ozhiishiibenyishan
      3+zhiishiib+NA+Con+Pej+Loc: ozhiishiibenyishing
-     3+zhiishiib+NA+Con+Pej+Obv: ozhiishiibenyishan
      3+zhiishiib+NA+Con+Pej+Pl: ozhiishiibenyishag
+     3+zhiishiib+NA+Dim+Pej+4: ozhiishiibensishan
      3+zhiishiib+NA+Dim+Pej+Loc: ozhiishiibensishing
-     3+zhiishiib+NA+Dim+Pej+Obv: ozhiishiibensishan
      3+zhiishiib+NA+Dim+Pej+Pl: ozhiishiibensishag
+     X+zhiishiib+NA+Con+Pej+4: izhiishiibenyishan
      X+zhiishiib+NA+Con+Pej+Loc: izhiishiibenyishing
-     X+zhiishiib+NA+Con+Pej+Obv: izhiishiibenyishan
      X+zhiishiib+NA+Con+Pej+Pl: izhiishiibenyishag
+     X+zhiishiib+NA+Dim+Pej+4: izhiishiibensishan
      X+zhiishiib+NA+Dim+Pej+Loc: izhiishiibensishing
-     X+zhiishiib+NA+Dim+Pej+Obv: izhiishiibensishan
      X+zhiishiib+NA+Dim+Pej+Pl: izhiishiibensishag
      
      #Values from slots numbered: 1, 2, 5, 6
@@ -501,78 +501,78 @@ Tests:
      2+zhiishiib+NA+Dim+1+Pl+Voc+Pl: gizhiishiibensinaanidig
      2+zhiishiib+NA+Dim+3+Pl+Prt: gizhiishiibensiwaaban
      2+zhiishiib+NA+Dim+3+Pl+Voc+Pl: gizhiishiibensiwaadig
-     3+zhiishiib+NA+Con+3+Obv+Prt: ozhiishiibenyiniiban
-     3+zhiishiib+NA+Con+3+Obv+Voc+Pl: ozhiishiibenyiniidig
+     3+zhiishiib+NA+Con+3+4+Prt: ozhiishiibenyiniiban
+     3+zhiishiib+NA+Con+3+4+Voc+Pl: ozhiishiibenyiniidig
      3+zhiishiib+NA+Con+3+Pl+Prt: ozhiishiibenyiwaaban
      3+zhiishiib+NA+Con+3+Pl+Voc+Pl: ozhiishiibenyiwaadig
-     3+zhiishiib+NA+Dim+3+Obv+Prt: ozhiishiibensiniiban
-     3+zhiishiib+NA+Dim+3+Obv+Voc+Pl: ozhiishiibensiniidig
+     3+zhiishiib+NA+Dim+3+4+Prt: ozhiishiibensiniiban
+     3+zhiishiib+NA+Dim+3+4+Voc+Pl: ozhiishiibensiniidig
      3+zhiishiib+NA+Dim+3+Pl+Prt: ozhiishiibensiwaaban
      3+zhiishiib+NA+Dim+3+Pl+Voc+Pl: ozhiishiibensiwaadig
      
      #Values from slots numbered: 1, 2, 5, 7
+     1+zhiishiib+NA+Con+1+Pl+4: nizhiishiibenyinaanin
      1+zhiishiib+NA+Con+1+Pl+Loc: nizhiishiibenyinaaning
-     1+zhiishiib+NA+Con+1+Pl+Obv: nizhiishiibenyinaanin
      1+zhiishiib+NA+Con+1+Pl+Pl: nizhiishiibenyinaanig
+     1+zhiishiib+NA+Dim+1+Pl+4: nizhiishiibensinaanin
      1+zhiishiib+NA+Dim+1+Pl+Loc: nizhiishiibensinaaning
-     1+zhiishiib+NA+Dim+1+Pl+Obv: nizhiishiibensinaanin
      1+zhiishiib+NA+Dim+1+Pl+Pl: nizhiishiibensinaanig
+     2+zhiishiib+NA+Con+1+Pl+4: gizhiishiibenyinaanin
      2+zhiishiib+NA+Con+1+Pl+Loc: gizhiishiibenyinaaning
-     2+zhiishiib+NA+Con+1+Pl+Obv: gizhiishiibenyinaanin
      2+zhiishiib+NA+Con+1+Pl+Pl: gizhiishiibenyinaanig
+     2+zhiishiib+NA+Con+3+Pl+4: gizhiishiibenyiwaan
      2+zhiishiib+NA+Con+3+Pl+Loc: gizhiishiibenyiwaang
-     2+zhiishiib+NA+Con+3+Pl+Obv: gizhiishiibenyiwaan
      2+zhiishiib+NA+Con+3+Pl+Pl: gizhiishiibenyiwaag
+     2+zhiishiib+NA+Dim+1+Pl+4: gizhiishiibensinaanin
      2+zhiishiib+NA+Dim+1+Pl+Loc: gizhiishiibensinaaning
-     2+zhiishiib+NA+Dim+1+Pl+Obv: gizhiishiibensinaanin
      2+zhiishiib+NA+Dim+1+Pl+Pl: gizhiishiibensinaanig
+     2+zhiishiib+NA+Dim+3+Pl+4: gizhiishiibensiwaan
      2+zhiishiib+NA+Dim+3+Pl+Loc: gizhiishiibensiwaang
-     2+zhiishiib+NA+Dim+3+Pl+Obv: gizhiishiibensiwaan
      2+zhiishiib+NA+Dim+3+Pl+Pl: gizhiishiibensiwaag
-     3+zhiishiib+NA+Con+3+Obv+Loc: ozhiishiibenyiniing
-     3+zhiishiib+NA+Con+3+Obv+Obv: ozhiishiibenyiniwa
-     3+zhiishiib+NA+Con+3+Obv+Pl: ozhiishiibenyiniwa
+     3+zhiishiib+NA+Con+3+4+4: ozhiishiibenyiniwa
+     3+zhiishiib+NA+Con+3+4+Loc: ozhiishiibenyiniing
+     3+zhiishiib+NA+Con+3+4+Pl: ozhiishiibenyiniwa
+     3+zhiishiib+NA+Con+3+Pl+4: ozhiishiibenyiwaan
      3+zhiishiib+NA+Con+3+Pl+Loc: ozhiishiibenyiwaang
-     3+zhiishiib+NA+Con+3+Pl+Obv: ozhiishiibenyiwaan
      3+zhiishiib+NA+Con+3+Pl+Pl: ozhiishiibenyiwaag
-     3+zhiishiib+NA+Dim+3+Obv+Loc: ozhiishiibensiniing
-     3+zhiishiib+NA+Dim+3+Obv+Obv: ozhiishiibensiniwa
-     3+zhiishiib+NA+Dim+3+Obv+Pl: ozhiishiibensiniwa
+     3+zhiishiib+NA+Dim+3+4+4: ozhiishiibensiniwa
+     3+zhiishiib+NA+Dim+3+4+Loc: ozhiishiibensiniing
+     3+zhiishiib+NA+Dim+3+4+Pl: ozhiishiibensiniwa
+     3+zhiishiib+NA+Dim+3+Pl+4: ozhiishiibensiwaan
      3+zhiishiib+NA+Dim+3+Pl+Loc: ozhiishiibensiwaang
-     3+zhiishiib+NA+Dim+3+Pl+Obv: ozhiishiibensiwaan
      3+zhiishiib+NA+Dim+3+Pl+Pl: ozhiishiibensiwaag
      
      #Values from slots numbered: 1, 2, 6, 7
+     1+zhiishiib+NA+Con+Prt+4: nizhiishiibenyibaniin
      1+zhiishiib+NA+Con+Prt+Loc: nizhiishiibenyibaniing
-     1+zhiishiib+NA+Con+Prt+Obv: nizhiishiibenyibaniin
      1+zhiishiib+NA+Con+Prt+Pl: nizhiishiibenyibaniig
+     1+zhiishiib+NA+Dim+Prt+4: nizhiishiibensibaniin
      1+zhiishiib+NA+Dim+Prt+Loc: nizhiishiibensibaniing
-     1+zhiishiib+NA+Dim+Prt+Obv: nizhiishiibensibaniin
      1+zhiishiib+NA+Dim+Prt+Pl: nizhiishiibensibaniig
+     2+zhiishiib+NA+Con+Prt+4: gizhiishiibenyibaniin
      2+zhiishiib+NA+Con+Prt+Loc: gizhiishiibenyibaniing
-     2+zhiishiib+NA+Con+Prt+Obv: gizhiishiibenyibaniin
      2+zhiishiib+NA+Con+Prt+Pl: gizhiishiibenyibaniig
+     2+zhiishiib+NA+Dim+Prt+4: gizhiishiibensibaniin
      2+zhiishiib+NA+Dim+Prt+Loc: gizhiishiibensibaniing
-     2+zhiishiib+NA+Dim+Prt+Obv: gizhiishiibensibaniin
      2+zhiishiib+NA+Dim+Prt+Pl: gizhiishiibensibaniig
+     3+zhiishiib+NA+Con+Prt+4: ozhiishiibenyibaniin
      3+zhiishiib+NA+Con+Prt+Loc: ozhiishiibenyibaniing
-     3+zhiishiib+NA+Con+Prt+Obv: ozhiishiibenyibaniin
      3+zhiishiib+NA+Con+Prt+Pl: ozhiishiibenyibaniig
+     3+zhiishiib+NA+Dim+Prt+4: ozhiishiibensibaniin
      3+zhiishiib+NA+Dim+Prt+Loc: ozhiishiibensibaniing
-     3+zhiishiib+NA+Dim+Prt+Obv: ozhiishiibensibaniin
      3+zhiishiib+NA+Dim+Prt+Pl: ozhiishiibensibaniig
+     X+zhiishiib+NA+Con+Prt+4: izhiishiibenyibaniin
      X+zhiishiib+NA+Con+Prt+Loc: izhiishiibenyibaniing
-     X+zhiishiib+NA+Con+Prt+Obv: izhiishiibenyibaniin
      X+zhiishiib+NA+Con+Prt+Pl: izhiishiibenyibaniig
+     X+zhiishiib+NA+Dim+Prt+4: izhiishiibensibaniin
      X+zhiishiib+NA+Dim+Prt+Loc: izhiishiibensibaniing
-     X+zhiishiib+NA+Dim+Prt+Obv: izhiishiibensibaniin
      X+zhiishiib+NA+Dim+Prt+Pl: izhiishiibensibaniig
      
      #Values from slots numbered: 1, 3, 4, 5
      1+zhiishiib+NA+Pos+Pej+1+Pl: nizhiishiibimishinaan
      2+zhiishiib+NA+Pos+Pej+1+Pl: gizhiishiibimishinaan
      2+zhiishiib+NA+Pos+Pej+3+Pl: gizhiishiibimishiwaa
-     3+zhiishiib+NA+Pos+Pej+3+Obv: ozhiishiibimishini
+     3+zhiishiib+NA+Pos+Pej+3+4: ozhiishiibimishini
      3+zhiishiib+NA+Pos+Pej+3+Pl: ozhiishiibimishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
@@ -586,17 +586,17 @@ Tests:
      X+zhiishiib+NA+Pos+Pej+Voc+Pl: izhiishiibimishidig
      
      #Values from slots numbered: 1, 3, 4, 7
+     1+zhiishiib+NA+Pos+Pej+4: nizhiishiibimishan
      1+zhiishiib+NA+Pos+Pej+Loc: nizhiishiibimishing
-     1+zhiishiib+NA+Pos+Pej+Obv: nizhiishiibimishan
      1+zhiishiib+NA+Pos+Pej+Pl: nizhiishiibimishag
+     2+zhiishiib+NA+Pos+Pej+4: gizhiishiibimishan
      2+zhiishiib+NA+Pos+Pej+Loc: gizhiishiibimishing
-     2+zhiishiib+NA+Pos+Pej+Obv: gizhiishiibimishan
      2+zhiishiib+NA+Pos+Pej+Pl: gizhiishiibimishag
+     3+zhiishiib+NA+Pos+Pej+4: ozhiishiibimishan
      3+zhiishiib+NA+Pos+Pej+Loc: ozhiishiibimishing
-     3+zhiishiib+NA+Pos+Pej+Obv: ozhiishiibimishan
      3+zhiishiib+NA+Pos+Pej+Pl: ozhiishiibimishag
+     X+zhiishiib+NA+Pos+Pej+4: izhiishiibimishan
      X+zhiishiib+NA+Pos+Pej+Loc: izhiishiibimishing
-     X+zhiishiib+NA+Pos+Pej+Obv: izhiishiibimishan
      X+zhiishiib+NA+Pos+Pej+Pl: izhiishiibimishag
      
      #Values from slots numbered: 1, 3, 5, 6
@@ -606,40 +606,40 @@ Tests:
      2+zhiishiib+NA+Pos+1+Pl+Voc+Pl: gizhiishiibiminaanidig
      2+zhiishiib+NA+Pos+3+Pl+Prt: gizhiishiibimiwaaban
      2+zhiishiib+NA+Pos+3+Pl+Voc+Pl: gizhiishiibimiwaadig
-     3+zhiishiib+NA+Pos+3+Obv+Prt: ozhiishiibiminiiban
-     3+zhiishiib+NA+Pos+3+Obv+Voc+Pl: ozhiishiibiminiidig
+     3+zhiishiib+NA+Pos+3+4+Prt: ozhiishiibiminiiban
+     3+zhiishiib+NA+Pos+3+4+Voc+Pl: ozhiishiibiminiidig
      3+zhiishiib+NA+Pos+3+Pl+Prt: ozhiishiibimiwaaban
      3+zhiishiib+NA+Pos+3+Pl+Voc+Pl: ozhiishiibimiwaadig
      
      #Values from slots numbered: 1, 3, 5, 7
+     1+zhiishiib+NA+Pos+1+Pl+4: nizhiishiibiminaanin
      1+zhiishiib+NA+Pos+1+Pl+Loc: nizhiishiibiminaaning
-     1+zhiishiib+NA+Pos+1+Pl+Obv: nizhiishiibiminaanin
      1+zhiishiib+NA+Pos+1+Pl+Pl: nizhiishiibiminaanig
+     2+zhiishiib+NA+Pos+1+Pl+4: gizhiishiibiminaanin
      2+zhiishiib+NA+Pos+1+Pl+Loc: gizhiishiibiminaaning
-     2+zhiishiib+NA+Pos+1+Pl+Obv: gizhiishiibiminaanin
      2+zhiishiib+NA+Pos+1+Pl+Pl: gizhiishiibiminaanig
+     2+zhiishiib+NA+Pos+3+Pl+4: gizhiishiibimiwaan
      2+zhiishiib+NA+Pos+3+Pl+Loc: gizhiishiibimiwaang
-     2+zhiishiib+NA+Pos+3+Pl+Obv: gizhiishiibimiwaan
      2+zhiishiib+NA+Pos+3+Pl+Pl: gizhiishiibimiwaag
-     3+zhiishiib+NA+Pos+3+Obv+Loc: ozhiishiibiminiing
-     3+zhiishiib+NA+Pos+3+Obv+Obv: ozhiishiibiminiwa
-     3+zhiishiib+NA+Pos+3+Obv+Pl: ozhiishiibiminiwa
+     3+zhiishiib+NA+Pos+3+4+4: ozhiishiibiminiwa
+     3+zhiishiib+NA+Pos+3+4+Loc: ozhiishiibiminiing
+     3+zhiishiib+NA+Pos+3+4+Pl: ozhiishiibiminiwa
+     3+zhiishiib+NA+Pos+3+Pl+4: ozhiishiibimiwaan
      3+zhiishiib+NA+Pos+3+Pl+Loc: ozhiishiibimiwaang
-     3+zhiishiib+NA+Pos+3+Pl+Obv: ozhiishiibimiwaan
      3+zhiishiib+NA+Pos+3+Pl+Pl: ozhiishiibimiwaag
      
      #Values from slots numbered: 1, 3, 6, 7
+     1+zhiishiib+NA+Pos+Prt+4: nizhiishiibimibaniin
      1+zhiishiib+NA+Pos+Prt+Loc: nizhiishiibimibaniing
-     1+zhiishiib+NA+Pos+Prt+Obv: nizhiishiibimibaniin
      1+zhiishiib+NA+Pos+Prt+Pl: nizhiishiibimibaniig
+     2+zhiishiib+NA+Pos+Prt+4: gizhiishiibimibaniin
      2+zhiishiib+NA+Pos+Prt+Loc: gizhiishiibimibaniing
-     2+zhiishiib+NA+Pos+Prt+Obv: gizhiishiibimibaniin
      2+zhiishiib+NA+Pos+Prt+Pl: gizhiishiibimibaniig
+     3+zhiishiib+NA+Pos+Prt+4: ozhiishiibimibaniin
      3+zhiishiib+NA+Pos+Prt+Loc: ozhiishiibimibaniing
-     3+zhiishiib+NA+Pos+Prt+Obv: ozhiishiibimibaniin
      3+zhiishiib+NA+Pos+Prt+Pl: ozhiishiibimibaniig
+     X+zhiishiib+NA+Pos+Prt+4: izhiishiibimibaniin
      X+zhiishiib+NA+Pos+Prt+Loc: izhiishiibimibaniing
-     X+zhiishiib+NA+Pos+Prt+Obv: izhiishiibimibaniin
      X+zhiishiib+NA+Pos+Prt+Pl: izhiishiibimibaniig
      
      #Values from slots numbered: 1, 4, 5, 6
@@ -649,72 +649,72 @@ Tests:
      2+zhiishiib+NA+Pej+1+Pl+Voc+Pl: gizhiishiibishinaanidig
      2+zhiishiib+NA+Pej+3+Pl+Prt: gizhiishiibishiwaaban
      2+zhiishiib+NA+Pej+3+Pl+Voc+Pl: gizhiishiibishiwaadig
-     3+zhiishiib+NA+Pej+3+Obv+Prt: ozhiishiibishiniiban
-     3+zhiishiib+NA+Pej+3+Obv+Voc+Pl: ozhiishiibishiniidig
+     3+zhiishiib+NA+Pej+3+4+Prt: ozhiishiibishiniiban
+     3+zhiishiib+NA+Pej+3+4+Voc+Pl: ozhiishiibishiniidig
      3+zhiishiib+NA+Pej+3+Pl+Prt: ozhiishiibishiwaaban
      3+zhiishiib+NA+Pej+3+Pl+Voc+Pl: ozhiishiibishiwaadig
      
      #Values from slots numbered: 1, 4, 5, 7
+     1+zhiishiib+NA+Pej+1+Pl+4: nizhiishiibishinaanin
      1+zhiishiib+NA+Pej+1+Pl+Loc: nizhiishiibishinaaning
-     1+zhiishiib+NA+Pej+1+Pl+Obv: nizhiishiibishinaanin
      1+zhiishiib+NA+Pej+1+Pl+Pl: nizhiishiibishinaanig
+     2+zhiishiib+NA+Pej+1+Pl+4: gizhiishiibishinaanin
      2+zhiishiib+NA+Pej+1+Pl+Loc: gizhiishiibishinaaning
-     2+zhiishiib+NA+Pej+1+Pl+Obv: gizhiishiibishinaanin
      2+zhiishiib+NA+Pej+1+Pl+Pl: gizhiishiibishinaanig
+     2+zhiishiib+NA+Pej+3+Pl+4: gizhiishiibishiwaan
      2+zhiishiib+NA+Pej+3+Pl+Loc: gizhiishiibishiwaang
-     2+zhiishiib+NA+Pej+3+Pl+Obv: gizhiishiibishiwaan
      2+zhiishiib+NA+Pej+3+Pl+Pl: gizhiishiibishiwaag
-     3+zhiishiib+NA+Pej+3+Obv+Loc: ozhiishiibishiniing
-     3+zhiishiib+NA+Pej+3+Obv+Obv: ozhiishiibishiniwa
-     3+zhiishiib+NA+Pej+3+Obv+Pl: ozhiishiibishiniwa
+     3+zhiishiib+NA+Pej+3+4+4: ozhiishiibishiniwa
+     3+zhiishiib+NA+Pej+3+4+Loc: ozhiishiibishiniing
+     3+zhiishiib+NA+Pej+3+4+Pl: ozhiishiibishiniwa
+     3+zhiishiib+NA+Pej+3+Pl+4: ozhiishiibishiwaan
      3+zhiishiib+NA+Pej+3+Pl+Loc: ozhiishiibishiwaang
-     3+zhiishiib+NA+Pej+3+Pl+Obv: ozhiishiibishiwaan
      3+zhiishiib+NA+Pej+3+Pl+Pl: ozhiishiibishiwaag
      
      #Values from slots numbered: 1, 4, 6, 7
+     1+zhiishiib+NA+Pej+Prt+4: nizhiishiibishibaniin
      1+zhiishiib+NA+Pej+Prt+Loc: nizhiishiibishibaniing
-     1+zhiishiib+NA+Pej+Prt+Obv: nizhiishiibishibaniin
      1+zhiishiib+NA+Pej+Prt+Pl: nizhiishiibishibaniig
+     2+zhiishiib+NA+Pej+Prt+4: gizhiishiibishibaniin
      2+zhiishiib+NA+Pej+Prt+Loc: gizhiishiibishibaniing
-     2+zhiishiib+NA+Pej+Prt+Obv: gizhiishiibishibaniin
      2+zhiishiib+NA+Pej+Prt+Pl: gizhiishiibishibaniig
+     3+zhiishiib+NA+Pej+Prt+4: ozhiishiibishibaniin
      3+zhiishiib+NA+Pej+Prt+Loc: ozhiishiibishibaniing
-     3+zhiishiib+NA+Pej+Prt+Obv: ozhiishiibishibaniin
      3+zhiishiib+NA+Pej+Prt+Pl: ozhiishiibishibaniig
+     X+zhiishiib+NA+Pej+Prt+4: izhiishiibishibaniin
      X+zhiishiib+NA+Pej+Prt+Loc: izhiishiibishibaniing
-     X+zhiishiib+NA+Pej+Prt+Obv: izhiishiibishibaniin
      X+zhiishiib+NA+Pej+Prt+Pl: izhiishiibishibaniig
      
      #Values from slots numbered: 1, 5, 6, 7
+     1+zhiishiib+NA+1+Pl+Prt+4: nizhiishiibinaanibaniin
      1+zhiishiib+NA+1+Pl+Prt+Loc: nizhiishiibinaanibaniing
-     1+zhiishiib+NA+1+Pl+Prt+Obv: nizhiishiibinaanibaniin
      1+zhiishiib+NA+1+Pl+Prt+Pl: nizhiishiibinaanibaniig
+     1+zhiishiib+NA+1+Pl+Voc+Pl+4: nizhiishiibinaanidigan
      1+zhiishiib+NA+1+Pl+Voc+Pl+Loc: nizhiishiibinaanidiging
-     1+zhiishiib+NA+1+Pl+Voc+Pl+Obv: nizhiishiibinaanidigan
      1+zhiishiib+NA+1+Pl+Voc+Pl+Pl: nizhiishiibinaanidigag
+     2+zhiishiib+NA+1+Pl+Prt+4: gizhiishiibinaanibaniin
      2+zhiishiib+NA+1+Pl+Prt+Loc: gizhiishiibinaanibaniing
-     2+zhiishiib+NA+1+Pl+Prt+Obv: gizhiishiibinaanibaniin
      2+zhiishiib+NA+1+Pl+Prt+Pl: gizhiishiibinaanibaniig
+     2+zhiishiib+NA+1+Pl+Voc+Pl+4: gizhiishiibinaanidigan
      2+zhiishiib+NA+1+Pl+Voc+Pl+Loc: gizhiishiibinaanidiging
-     2+zhiishiib+NA+1+Pl+Voc+Pl+Obv: gizhiishiibinaanidigan
      2+zhiishiib+NA+1+Pl+Voc+Pl+Pl: gizhiishiibinaanidigag
+     2+zhiishiib+NA+3+Pl+Prt+4: gizhiishiibiwaabaniin
      2+zhiishiib+NA+3+Pl+Prt+Loc: gizhiishiibiwaabaniing
-     2+zhiishiib+NA+3+Pl+Prt+Obv: gizhiishiibiwaabaniin
      2+zhiishiib+NA+3+Pl+Prt+Pl: gizhiishiibiwaabaniig
+     2+zhiishiib+NA+3+Pl+Voc+Pl+4: gizhiishiibiwaadigan
      2+zhiishiib+NA+3+Pl+Voc+Pl+Loc: gizhiishiibiwaadiging
-     2+zhiishiib+NA+3+Pl+Voc+Pl+Obv: gizhiishiibiwaadigan
      2+zhiishiib+NA+3+Pl+Voc+Pl+Pl: gizhiishiibiwaadigag
-     3+zhiishiib+NA+3+Obv+Prt+Loc: ozhiishiibiniibaniing
-     3+zhiishiib+NA+3+Obv+Prt+Obv: ozhiishiibiniibaniin
-     3+zhiishiib+NA+3+Obv+Prt+Pl: ozhiishiibiniibaniig
-     3+zhiishiib+NA+3+Obv+Voc+Pl+Loc: ozhiishiibiniidiging
-     3+zhiishiib+NA+3+Obv+Voc+Pl+Obv: ozhiishiibiniidigan
-     3+zhiishiib+NA+3+Obv+Voc+Pl+Pl: ozhiishiibiniidigag
+     3+zhiishiib+NA+3+4+Prt+4: ozhiishiibiniibaniin
+     3+zhiishiib+NA+3+4+Prt+Loc: ozhiishiibiniibaniing
+     3+zhiishiib+NA+3+4+Prt+Pl: ozhiishiibiniibaniig
+     3+zhiishiib+NA+3+4+Voc+Pl+4: ozhiishiibiniidigan
+     3+zhiishiib+NA+3+4+Voc+Pl+Loc: ozhiishiibiniidiging
+     3+zhiishiib+NA+3+4+Voc+Pl+Pl: ozhiishiibiniidigag
+     3+zhiishiib+NA+3+Pl+Prt+4: ozhiishiibiwaabaniin
      3+zhiishiib+NA+3+Pl+Prt+Loc: ozhiishiibiwaabaniing
-     3+zhiishiib+NA+3+Pl+Prt+Obv: ozhiishiibiwaabaniin
      3+zhiishiib+NA+3+Pl+Prt+Pl: ozhiishiibiwaabaniig
+     3+zhiishiib+NA+3+Pl+Voc+Pl+4: ozhiishiibiwaadigan
      3+zhiishiib+NA+3+Pl+Voc+Pl+Loc: ozhiishiibiwaadiging
-     3+zhiishiib+NA+3+Pl+Voc+Pl+Obv: ozhiishiibiwaadigan
      3+zhiishiib+NA+3+Pl+Voc+Pl+Pl: ozhiishiibiwaadigag
      
      
@@ -726,11 +726,11 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
+     zhiishiib+NA+Con+Pej+Prt+4: zhiishiibenyishibaniin
      zhiishiib+NA+Con+Pej+Prt+Loc: zhiishiibenyishibaniing
-     zhiishiib+NA+Con+Pej+Prt+Obv: zhiishiibenyishibaniin
      zhiishiib+NA+Con+Pej+Prt+Pl: zhiishiibenyishibaniig
+     zhiishiib+NA+Dim+Pej+Prt+4: zhiishiibensishibaniin
      zhiishiib+NA+Dim+Pej+Prt+Loc: zhiishiibensishibaniing
-     zhiishiib+NA+Dim+Pej+Prt+Obv: zhiishiibensishibaniin
      zhiishiib+NA+Dim+Pej+Prt+Pl: zhiishiibensishibaniig
      
      
@@ -746,9 +746,9 @@ Tests:
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl: gizhiishiibenyimishiwaa
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl: gizhiishiibensimishinaan
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl: gizhiishiibensimishiwaa
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv: ozhiishiibenyimishini
+     3+zhiishiib+NA+Con+Pos+Pej+3+4: ozhiishiibenyimishini
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl: ozhiishiibenyimishiwaa
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv: ozhiishiibensimishini
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4: ozhiishiibensimishini
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl: ozhiishiibensimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
@@ -770,29 +770,29 @@ Tests:
      X+zhiishiib+NA+Dim+Pos+Pej+Voc+Pl: izhiishiibensimishidig
      
      #Values from slots numbered: 1, 2, 3, 4, 7
+     1+zhiishiib+NA+Con+Pos+Pej+4: nizhiishiibenyimishan
      1+zhiishiib+NA+Con+Pos+Pej+Loc: nizhiishiibenyimishing
-     1+zhiishiib+NA+Con+Pos+Pej+Obv: nizhiishiibenyimishan
      1+zhiishiib+NA+Con+Pos+Pej+Pl: nizhiishiibenyimishag
+     1+zhiishiib+NA+Dim+Pos+Pej+4: nizhiishiibensimishan
      1+zhiishiib+NA+Dim+Pos+Pej+Loc: nizhiishiibensimishing
-     1+zhiishiib+NA+Dim+Pos+Pej+Obv: nizhiishiibensimishan
      1+zhiishiib+NA+Dim+Pos+Pej+Pl: nizhiishiibensimishag
+     2+zhiishiib+NA+Con+Pos+Pej+4: gizhiishiibenyimishan
      2+zhiishiib+NA+Con+Pos+Pej+Loc: gizhiishiibenyimishing
-     2+zhiishiib+NA+Con+Pos+Pej+Obv: gizhiishiibenyimishan
      2+zhiishiib+NA+Con+Pos+Pej+Pl: gizhiishiibenyimishag
+     2+zhiishiib+NA+Dim+Pos+Pej+4: gizhiishiibensimishan
      2+zhiishiib+NA+Dim+Pos+Pej+Loc: gizhiishiibensimishing
-     2+zhiishiib+NA+Dim+Pos+Pej+Obv: gizhiishiibensimishan
      2+zhiishiib+NA+Dim+Pos+Pej+Pl: gizhiishiibensimishag
+     3+zhiishiib+NA+Con+Pos+Pej+4: ozhiishiibenyimishan
      3+zhiishiib+NA+Con+Pos+Pej+Loc: ozhiishiibenyimishing
-     3+zhiishiib+NA+Con+Pos+Pej+Obv: ozhiishiibenyimishan
      3+zhiishiib+NA+Con+Pos+Pej+Pl: ozhiishiibenyimishag
+     3+zhiishiib+NA+Dim+Pos+Pej+4: ozhiishiibensimishan
      3+zhiishiib+NA+Dim+Pos+Pej+Loc: ozhiishiibensimishing
-     3+zhiishiib+NA+Dim+Pos+Pej+Obv: ozhiishiibensimishan
      3+zhiishiib+NA+Dim+Pos+Pej+Pl: ozhiishiibensimishag
+     X+zhiishiib+NA+Con+Pos+Pej+4: izhiishiibenyimishan
      X+zhiishiib+NA+Con+Pos+Pej+Loc: izhiishiibenyimishing
-     X+zhiishiib+NA+Con+Pos+Pej+Obv: izhiishiibenyimishan
      X+zhiishiib+NA+Con+Pos+Pej+Pl: izhiishiibenyimishag
+     X+zhiishiib+NA+Dim+Pos+Pej+4: izhiishiibensimishan
      X+zhiishiib+NA+Dim+Pos+Pej+Loc: izhiishiibensimishing
-     X+zhiishiib+NA+Dim+Pos+Pej+Obv: izhiishiibensimishan
      X+zhiishiib+NA+Dim+Pos+Pej+Pl: izhiishiibensimishag
      
      #Values from slots numbered: 1, 2, 3, 5, 6
@@ -808,71 +808,71 @@ Tests:
      2+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl: gizhiishiibensiminaanidig
      2+zhiishiib+NA+Dim+Pos+3+Pl+Prt: gizhiishiibensimiwaaban
      2+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl: gizhiishiibensimiwaadig
-     3+zhiishiib+NA+Con+Pos+3+Obv+Prt: ozhiishiibenyiminiiban
-     3+zhiishiib+NA+Con+Pos+3+Obv+Voc+Pl: ozhiishiibenyiminiidig
+     3+zhiishiib+NA+Con+Pos+3+4+Prt: ozhiishiibenyiminiiban
+     3+zhiishiib+NA+Con+Pos+3+4+Voc+Pl: ozhiishiibenyiminiidig
      3+zhiishiib+NA+Con+Pos+3+Pl+Prt: ozhiishiibenyimiwaaban
      3+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl: ozhiishiibenyimiwaadig
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Prt: ozhiishiibensiminiiban
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Voc+Pl: ozhiishiibensiminiidig
+     3+zhiishiib+NA+Dim+Pos+3+4+Prt: ozhiishiibensiminiiban
+     3+zhiishiib+NA+Dim+Pos+3+4+Voc+Pl: ozhiishiibensiminiidig
      3+zhiishiib+NA+Dim+Pos+3+Pl+Prt: ozhiishiibensimiwaaban
      3+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl: ozhiishiibensimiwaadig
      
      #Values from slots numbered: 1, 2, 3, 5, 7
+     1+zhiishiib+NA+Con+Pos+1+Pl+4: nizhiishiibenyiminaanin
      1+zhiishiib+NA+Con+Pos+1+Pl+Loc: nizhiishiibenyiminaaning
-     1+zhiishiib+NA+Con+Pos+1+Pl+Obv: nizhiishiibenyiminaanin
      1+zhiishiib+NA+Con+Pos+1+Pl+Pl: nizhiishiibenyiminaanig
+     1+zhiishiib+NA+Dim+Pos+1+Pl+4: nizhiishiibensiminaanin
      1+zhiishiib+NA+Dim+Pos+1+Pl+Loc: nizhiishiibensiminaaning
-     1+zhiishiib+NA+Dim+Pos+1+Pl+Obv: nizhiishiibensiminaanin
      1+zhiishiib+NA+Dim+Pos+1+Pl+Pl: nizhiishiibensiminaanig
+     2+zhiishiib+NA+Con+Pos+1+Pl+4: gizhiishiibenyiminaanin
      2+zhiishiib+NA+Con+Pos+1+Pl+Loc: gizhiishiibenyiminaaning
-     2+zhiishiib+NA+Con+Pos+1+Pl+Obv: gizhiishiibenyiminaanin
      2+zhiishiib+NA+Con+Pos+1+Pl+Pl: gizhiishiibenyiminaanig
+     2+zhiishiib+NA+Con+Pos+3+Pl+4: gizhiishiibenyimiwaan
      2+zhiishiib+NA+Con+Pos+3+Pl+Loc: gizhiishiibenyimiwaang
-     2+zhiishiib+NA+Con+Pos+3+Pl+Obv: gizhiishiibenyimiwaan
      2+zhiishiib+NA+Con+Pos+3+Pl+Pl: gizhiishiibenyimiwaag
+     2+zhiishiib+NA+Dim+Pos+1+Pl+4: gizhiishiibensiminaanin
      2+zhiishiib+NA+Dim+Pos+1+Pl+Loc: gizhiishiibensiminaaning
-     2+zhiishiib+NA+Dim+Pos+1+Pl+Obv: gizhiishiibensiminaanin
      2+zhiishiib+NA+Dim+Pos+1+Pl+Pl: gizhiishiibensiminaanig
+     2+zhiishiib+NA+Dim+Pos+3+Pl+4: gizhiishiibensimiwaan
      2+zhiishiib+NA+Dim+Pos+3+Pl+Loc: gizhiishiibensimiwaang
-     2+zhiishiib+NA+Dim+Pos+3+Pl+Obv: gizhiishiibensimiwaan
      2+zhiishiib+NA+Dim+Pos+3+Pl+Pl: gizhiishiibensimiwaag
-     3+zhiishiib+NA+Con+Pos+3+Obv+Loc: ozhiishiibenyiminiing
-     3+zhiishiib+NA+Con+Pos+3+Obv+Obv: ozhiishiibenyiminiwa
-     3+zhiishiib+NA+Con+Pos+3+Obv+Pl: ozhiishiibenyiminiwa
+     3+zhiishiib+NA+Con+Pos+3+4+4: ozhiishiibenyiminiwa
+     3+zhiishiib+NA+Con+Pos+3+4+Loc: ozhiishiibenyiminiing
+     3+zhiishiib+NA+Con+Pos+3+4+Pl: ozhiishiibenyiminiwa
+     3+zhiishiib+NA+Con+Pos+3+Pl+4: ozhiishiibenyimiwaan
      3+zhiishiib+NA+Con+Pos+3+Pl+Loc: ozhiishiibenyimiwaang
-     3+zhiishiib+NA+Con+Pos+3+Pl+Obv: ozhiishiibenyimiwaan
      3+zhiishiib+NA+Con+Pos+3+Pl+Pl: ozhiishiibenyimiwaag
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Loc: ozhiishiibensiminiing
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Obv: ozhiishiibensiminiwa
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Pl: ozhiishiibensiminiwa
+     3+zhiishiib+NA+Dim+Pos+3+4+4: ozhiishiibensiminiwa
+     3+zhiishiib+NA+Dim+Pos+3+4+Loc: ozhiishiibensiminiing
+     3+zhiishiib+NA+Dim+Pos+3+4+Pl: ozhiishiibensiminiwa
+     3+zhiishiib+NA+Dim+Pos+3+Pl+4: ozhiishiibensimiwaan
      3+zhiishiib+NA+Dim+Pos+3+Pl+Loc: ozhiishiibensimiwaang
-     3+zhiishiib+NA+Dim+Pos+3+Pl+Obv: ozhiishiibensimiwaan
      3+zhiishiib+NA+Dim+Pos+3+Pl+Pl: ozhiishiibensimiwaag
      
      #Values from slots numbered: 1, 2, 3, 6, 7
+     1+zhiishiib+NA+Con+Pos+Prt+4: nizhiishiibenyimibaniin
      1+zhiishiib+NA+Con+Pos+Prt+Loc: nizhiishiibenyimibaniing
-     1+zhiishiib+NA+Con+Pos+Prt+Obv: nizhiishiibenyimibaniin
      1+zhiishiib+NA+Con+Pos+Prt+Pl: nizhiishiibenyimibaniig
+     1+zhiishiib+NA+Dim+Pos+Prt+4: nizhiishiibensimibaniin
      1+zhiishiib+NA+Dim+Pos+Prt+Loc: nizhiishiibensimibaniing
-     1+zhiishiib+NA+Dim+Pos+Prt+Obv: nizhiishiibensimibaniin
      1+zhiishiib+NA+Dim+Pos+Prt+Pl: nizhiishiibensimibaniig
+     2+zhiishiib+NA+Con+Pos+Prt+4: gizhiishiibenyimibaniin
      2+zhiishiib+NA+Con+Pos+Prt+Loc: gizhiishiibenyimibaniing
-     2+zhiishiib+NA+Con+Pos+Prt+Obv: gizhiishiibenyimibaniin
      2+zhiishiib+NA+Con+Pos+Prt+Pl: gizhiishiibenyimibaniig
+     2+zhiishiib+NA+Dim+Pos+Prt+4: gizhiishiibensimibaniin
      2+zhiishiib+NA+Dim+Pos+Prt+Loc: gizhiishiibensimibaniing
-     2+zhiishiib+NA+Dim+Pos+Prt+Obv: gizhiishiibensimibaniin
      2+zhiishiib+NA+Dim+Pos+Prt+Pl: gizhiishiibensimibaniig
+     3+zhiishiib+NA+Con+Pos+Prt+4: ozhiishiibenyimibaniin
      3+zhiishiib+NA+Con+Pos+Prt+Loc: ozhiishiibenyimibaniing
-     3+zhiishiib+NA+Con+Pos+Prt+Obv: ozhiishiibenyimibaniin
      3+zhiishiib+NA+Con+Pos+Prt+Pl: ozhiishiibenyimibaniig
+     3+zhiishiib+NA+Dim+Pos+Prt+4: ozhiishiibensimibaniin
      3+zhiishiib+NA+Dim+Pos+Prt+Loc: ozhiishiibensimibaniing
-     3+zhiishiib+NA+Dim+Pos+Prt+Obv: ozhiishiibensimibaniin
      3+zhiishiib+NA+Dim+Pos+Prt+Pl: ozhiishiibensimibaniig
+     X+zhiishiib+NA+Con+Pos+Prt+4: izhiishiibenyimibaniin
      X+zhiishiib+NA+Con+Pos+Prt+Loc: izhiishiibenyimibaniing
-     X+zhiishiib+NA+Con+Pos+Prt+Obv: izhiishiibenyimibaniin
      X+zhiishiib+NA+Con+Pos+Prt+Pl: izhiishiibenyimibaniig
+     X+zhiishiib+NA+Dim+Pos+Prt+4: izhiishiibensimibaniin
      X+zhiishiib+NA+Dim+Pos+Prt+Loc: izhiishiibensimibaniing
-     X+zhiishiib+NA+Dim+Pos+Prt+Obv: izhiishiibensimibaniin
      X+zhiishiib+NA+Dim+Pos+Prt+Pl: izhiishiibensimibaniig
      
      #Values from slots numbered: 1, 2, 4, 5, 6
@@ -888,133 +888,133 @@ Tests:
      2+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl: gizhiishiibensishinaanidig
      2+zhiishiib+NA+Dim+Pej+3+Pl+Prt: gizhiishiibensishiwaaban
      2+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl: gizhiishiibensishiwaadig
-     3+zhiishiib+NA+Con+Pej+3+Obv+Prt: ozhiishiibenyishiniiban
-     3+zhiishiib+NA+Con+Pej+3+Obv+Voc+Pl: ozhiishiibenyishiniidig
+     3+zhiishiib+NA+Con+Pej+3+4+Prt: ozhiishiibenyishiniiban
+     3+zhiishiib+NA+Con+Pej+3+4+Voc+Pl: ozhiishiibenyishiniidig
      3+zhiishiib+NA+Con+Pej+3+Pl+Prt: ozhiishiibenyishiwaaban
      3+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl: ozhiishiibenyishiwaadig
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Prt: ozhiishiibensishiniiban
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Voc+Pl: ozhiishiibensishiniidig
+     3+zhiishiib+NA+Dim+Pej+3+4+Prt: ozhiishiibensishiniiban
+     3+zhiishiib+NA+Dim+Pej+3+4+Voc+Pl: ozhiishiibensishiniidig
      3+zhiishiib+NA+Dim+Pej+3+Pl+Prt: ozhiishiibensishiwaaban
      3+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl: ozhiishiibensishiwaadig
      
      #Values from slots numbered: 1, 2, 4, 5, 7
+     1+zhiishiib+NA+Con+Pej+1+Pl+4: nizhiishiibenyishinaanin
      1+zhiishiib+NA+Con+Pej+1+Pl+Loc: nizhiishiibenyishinaaning
-     1+zhiishiib+NA+Con+Pej+1+Pl+Obv: nizhiishiibenyishinaanin
      1+zhiishiib+NA+Con+Pej+1+Pl+Pl: nizhiishiibenyishinaanig
+     1+zhiishiib+NA+Dim+Pej+1+Pl+4: nizhiishiibensishinaanin
      1+zhiishiib+NA+Dim+Pej+1+Pl+Loc: nizhiishiibensishinaaning
-     1+zhiishiib+NA+Dim+Pej+1+Pl+Obv: nizhiishiibensishinaanin
      1+zhiishiib+NA+Dim+Pej+1+Pl+Pl: nizhiishiibensishinaanig
+     2+zhiishiib+NA+Con+Pej+1+Pl+4: gizhiishiibenyishinaanin
      2+zhiishiib+NA+Con+Pej+1+Pl+Loc: gizhiishiibenyishinaaning
-     2+zhiishiib+NA+Con+Pej+1+Pl+Obv: gizhiishiibenyishinaanin
      2+zhiishiib+NA+Con+Pej+1+Pl+Pl: gizhiishiibenyishinaanig
+     2+zhiishiib+NA+Con+Pej+3+Pl+4: gizhiishiibenyishiwaan
      2+zhiishiib+NA+Con+Pej+3+Pl+Loc: gizhiishiibenyishiwaang
-     2+zhiishiib+NA+Con+Pej+3+Pl+Obv: gizhiishiibenyishiwaan
      2+zhiishiib+NA+Con+Pej+3+Pl+Pl: gizhiishiibenyishiwaag
+     2+zhiishiib+NA+Dim+Pej+1+Pl+4: gizhiishiibensishinaanin
      2+zhiishiib+NA+Dim+Pej+1+Pl+Loc: gizhiishiibensishinaaning
-     2+zhiishiib+NA+Dim+Pej+1+Pl+Obv: gizhiishiibensishinaanin
      2+zhiishiib+NA+Dim+Pej+1+Pl+Pl: gizhiishiibensishinaanig
+     2+zhiishiib+NA+Dim+Pej+3+Pl+4: gizhiishiibensishiwaan
      2+zhiishiib+NA+Dim+Pej+3+Pl+Loc: gizhiishiibensishiwaang
-     2+zhiishiib+NA+Dim+Pej+3+Pl+Obv: gizhiishiibensishiwaan
      2+zhiishiib+NA+Dim+Pej+3+Pl+Pl: gizhiishiibensishiwaag
-     3+zhiishiib+NA+Con+Pej+3+Obv+Loc: ozhiishiibenyishiniing
-     3+zhiishiib+NA+Con+Pej+3+Obv+Obv: ozhiishiibenyishiniwa
-     3+zhiishiib+NA+Con+Pej+3+Obv+Pl: ozhiishiibenyishiniwa
+     3+zhiishiib+NA+Con+Pej+3+4+4: ozhiishiibenyishiniwa
+     3+zhiishiib+NA+Con+Pej+3+4+Loc: ozhiishiibenyishiniing
+     3+zhiishiib+NA+Con+Pej+3+4+Pl: ozhiishiibenyishiniwa
+     3+zhiishiib+NA+Con+Pej+3+Pl+4: ozhiishiibenyishiwaan
      3+zhiishiib+NA+Con+Pej+3+Pl+Loc: ozhiishiibenyishiwaang
-     3+zhiishiib+NA+Con+Pej+3+Pl+Obv: ozhiishiibenyishiwaan
      3+zhiishiib+NA+Con+Pej+3+Pl+Pl: ozhiishiibenyishiwaag
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Loc: ozhiishiibensishiniing
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Obv: ozhiishiibensishiniwa
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Pl: ozhiishiibensishiniwa
+     3+zhiishiib+NA+Dim+Pej+3+4+4: ozhiishiibensishiniwa
+     3+zhiishiib+NA+Dim+Pej+3+4+Loc: ozhiishiibensishiniing
+     3+zhiishiib+NA+Dim+Pej+3+4+Pl: ozhiishiibensishiniwa
+     3+zhiishiib+NA+Dim+Pej+3+Pl+4: ozhiishiibensishiwaan
      3+zhiishiib+NA+Dim+Pej+3+Pl+Loc: ozhiishiibensishiwaang
-     3+zhiishiib+NA+Dim+Pej+3+Pl+Obv: ozhiishiibensishiwaan
      3+zhiishiib+NA+Dim+Pej+3+Pl+Pl: ozhiishiibensishiwaag
      
      #Values from slots numbered: 1, 2, 4, 6, 7
+     1+zhiishiib+NA+Con+Pej+Prt+4: nizhiishiibenyishibaniin
      1+zhiishiib+NA+Con+Pej+Prt+Loc: nizhiishiibenyishibaniing
-     1+zhiishiib+NA+Con+Pej+Prt+Obv: nizhiishiibenyishibaniin
      1+zhiishiib+NA+Con+Pej+Prt+Pl: nizhiishiibenyishibaniig
+     1+zhiishiib+NA+Dim+Pej+Prt+4: nizhiishiibensishibaniin
      1+zhiishiib+NA+Dim+Pej+Prt+Loc: nizhiishiibensishibaniing
-     1+zhiishiib+NA+Dim+Pej+Prt+Obv: nizhiishiibensishibaniin
      1+zhiishiib+NA+Dim+Pej+Prt+Pl: nizhiishiibensishibaniig
+     2+zhiishiib+NA+Con+Pej+Prt+4: gizhiishiibenyishibaniin
      2+zhiishiib+NA+Con+Pej+Prt+Loc: gizhiishiibenyishibaniing
-     2+zhiishiib+NA+Con+Pej+Prt+Obv: gizhiishiibenyishibaniin
      2+zhiishiib+NA+Con+Pej+Prt+Pl: gizhiishiibenyishibaniig
+     2+zhiishiib+NA+Dim+Pej+Prt+4: gizhiishiibensishibaniin
      2+zhiishiib+NA+Dim+Pej+Prt+Loc: gizhiishiibensishibaniing
-     2+zhiishiib+NA+Dim+Pej+Prt+Obv: gizhiishiibensishibaniin
      2+zhiishiib+NA+Dim+Pej+Prt+Pl: gizhiishiibensishibaniig
+     3+zhiishiib+NA+Con+Pej+Prt+4: ozhiishiibenyishibaniin
      3+zhiishiib+NA+Con+Pej+Prt+Loc: ozhiishiibenyishibaniing
-     3+zhiishiib+NA+Con+Pej+Prt+Obv: ozhiishiibenyishibaniin
      3+zhiishiib+NA+Con+Pej+Prt+Pl: ozhiishiibenyishibaniig
+     3+zhiishiib+NA+Dim+Pej+Prt+4: ozhiishiibensishibaniin
      3+zhiishiib+NA+Dim+Pej+Prt+Loc: ozhiishiibensishibaniing
-     3+zhiishiib+NA+Dim+Pej+Prt+Obv: ozhiishiibensishibaniin
      3+zhiishiib+NA+Dim+Pej+Prt+Pl: ozhiishiibensishibaniig
+     X+zhiishiib+NA+Con+Pej+Prt+4: izhiishiibenyishibaniin
      X+zhiishiib+NA+Con+Pej+Prt+Loc: izhiishiibenyishibaniing
-     X+zhiishiib+NA+Con+Pej+Prt+Obv: izhiishiibenyishibaniin
      X+zhiishiib+NA+Con+Pej+Prt+Pl: izhiishiibenyishibaniig
+     X+zhiishiib+NA+Dim+Pej+Prt+4: izhiishiibensishibaniin
      X+zhiishiib+NA+Dim+Pej+Prt+Loc: izhiishiibensishibaniing
-     X+zhiishiib+NA+Dim+Pej+Prt+Obv: izhiishiibensishibaniin
      X+zhiishiib+NA+Dim+Pej+Prt+Pl: izhiishiibensishibaniig
      
      #Values from slots numbered: 1, 2, 5, 6, 7
+     1+zhiishiib+NA+Con+1+Pl+Prt+4: nizhiishiibenyinaanibaniin
      1+zhiishiib+NA+Con+1+Pl+Prt+Loc: nizhiishiibenyinaanibaniing
-     1+zhiishiib+NA+Con+1+Pl+Prt+Obv: nizhiishiibenyinaanibaniin
      1+zhiishiib+NA+Con+1+Pl+Prt+Pl: nizhiishiibenyinaanibaniig
+     1+zhiishiib+NA+Con+1+Pl+Voc+Pl+4: nizhiishiibenyinaanidigan
      1+zhiishiib+NA+Con+1+Pl+Voc+Pl+Loc: nizhiishiibenyinaanidiging
-     1+zhiishiib+NA+Con+1+Pl+Voc+Pl+Obv: nizhiishiibenyinaanidigan
      1+zhiishiib+NA+Con+1+Pl+Voc+Pl+Pl: nizhiishiibenyinaanidigag
+     1+zhiishiib+NA+Dim+1+Pl+Prt+4: nizhiishiibensinaanibaniin
      1+zhiishiib+NA+Dim+1+Pl+Prt+Loc: nizhiishiibensinaanibaniing
-     1+zhiishiib+NA+Dim+1+Pl+Prt+Obv: nizhiishiibensinaanibaniin
      1+zhiishiib+NA+Dim+1+Pl+Prt+Pl: nizhiishiibensinaanibaniig
+     1+zhiishiib+NA+Dim+1+Pl+Voc+Pl+4: nizhiishiibensinaanidigan
      1+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Loc: nizhiishiibensinaanidiging
-     1+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Obv: nizhiishiibensinaanidigan
      1+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Pl: nizhiishiibensinaanidigag
+     2+zhiishiib+NA+Con+1+Pl+Prt+4: gizhiishiibenyinaanibaniin
      2+zhiishiib+NA+Con+1+Pl+Prt+Loc: gizhiishiibenyinaanibaniing
-     2+zhiishiib+NA+Con+1+Pl+Prt+Obv: gizhiishiibenyinaanibaniin
      2+zhiishiib+NA+Con+1+Pl+Prt+Pl: gizhiishiibenyinaanibaniig
+     2+zhiishiib+NA+Con+1+Pl+Voc+Pl+4: gizhiishiibenyinaanidigan
      2+zhiishiib+NA+Con+1+Pl+Voc+Pl+Loc: gizhiishiibenyinaanidiging
-     2+zhiishiib+NA+Con+1+Pl+Voc+Pl+Obv: gizhiishiibenyinaanidigan
      2+zhiishiib+NA+Con+1+Pl+Voc+Pl+Pl: gizhiishiibenyinaanidigag
+     2+zhiishiib+NA+Con+3+Pl+Prt+4: gizhiishiibenyiwaabaniin
      2+zhiishiib+NA+Con+3+Pl+Prt+Loc: gizhiishiibenyiwaabaniing
-     2+zhiishiib+NA+Con+3+Pl+Prt+Obv: gizhiishiibenyiwaabaniin
      2+zhiishiib+NA+Con+3+Pl+Prt+Pl: gizhiishiibenyiwaabaniig
+     2+zhiishiib+NA+Con+3+Pl+Voc+Pl+4: gizhiishiibenyiwaadigan
      2+zhiishiib+NA+Con+3+Pl+Voc+Pl+Loc: gizhiishiibenyiwaadiging
-     2+zhiishiib+NA+Con+3+Pl+Voc+Pl+Obv: gizhiishiibenyiwaadigan
      2+zhiishiib+NA+Con+3+Pl+Voc+Pl+Pl: gizhiishiibenyiwaadigag
+     2+zhiishiib+NA+Dim+1+Pl+Prt+4: gizhiishiibensinaanibaniin
      2+zhiishiib+NA+Dim+1+Pl+Prt+Loc: gizhiishiibensinaanibaniing
-     2+zhiishiib+NA+Dim+1+Pl+Prt+Obv: gizhiishiibensinaanibaniin
      2+zhiishiib+NA+Dim+1+Pl+Prt+Pl: gizhiishiibensinaanibaniig
+     2+zhiishiib+NA+Dim+1+Pl+Voc+Pl+4: gizhiishiibensinaanidigan
      2+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Loc: gizhiishiibensinaanidiging
-     2+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Obv: gizhiishiibensinaanidigan
      2+zhiishiib+NA+Dim+1+Pl+Voc+Pl+Pl: gizhiishiibensinaanidigag
+     2+zhiishiib+NA+Dim+3+Pl+Prt+4: gizhiishiibensiwaabaniin
      2+zhiishiib+NA+Dim+3+Pl+Prt+Loc: gizhiishiibensiwaabaniing
-     2+zhiishiib+NA+Dim+3+Pl+Prt+Obv: gizhiishiibensiwaabaniin
      2+zhiishiib+NA+Dim+3+Pl+Prt+Pl: gizhiishiibensiwaabaniig
+     2+zhiishiib+NA+Dim+3+Pl+Voc+Pl+4: gizhiishiibensiwaadigan
      2+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Loc: gizhiishiibensiwaadiging
-     2+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Obv: gizhiishiibensiwaadigan
      2+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Pl: gizhiishiibensiwaadigag
-     3+zhiishiib+NA+Con+3+Obv+Prt+Loc: ozhiishiibenyiniibaniing
-     3+zhiishiib+NA+Con+3+Obv+Prt+Obv: ozhiishiibenyiniibaniin
-     3+zhiishiib+NA+Con+3+Obv+Prt+Pl: ozhiishiibenyiniibaniig
-     3+zhiishiib+NA+Con+3+Obv+Voc+Pl+Loc: ozhiishiibenyiniidiging
-     3+zhiishiib+NA+Con+3+Obv+Voc+Pl+Obv: ozhiishiibenyiniidigan
-     3+zhiishiib+NA+Con+3+Obv+Voc+Pl+Pl: ozhiishiibenyiniidigag
+     3+zhiishiib+NA+Con+3+4+Prt+4: ozhiishiibenyiniibaniin
+     3+zhiishiib+NA+Con+3+4+Prt+Loc: ozhiishiibenyiniibaniing
+     3+zhiishiib+NA+Con+3+4+Prt+Pl: ozhiishiibenyiniibaniig
+     3+zhiishiib+NA+Con+3+4+Voc+Pl+4: ozhiishiibenyiniidigan
+     3+zhiishiib+NA+Con+3+4+Voc+Pl+Loc: ozhiishiibenyiniidiging
+     3+zhiishiib+NA+Con+3+4+Voc+Pl+Pl: ozhiishiibenyiniidigag
+     3+zhiishiib+NA+Con+3+Pl+Prt+4: ozhiishiibenyiwaabaniin
      3+zhiishiib+NA+Con+3+Pl+Prt+Loc: ozhiishiibenyiwaabaniing
-     3+zhiishiib+NA+Con+3+Pl+Prt+Obv: ozhiishiibenyiwaabaniin
      3+zhiishiib+NA+Con+3+Pl+Prt+Pl: ozhiishiibenyiwaabaniig
+     3+zhiishiib+NA+Con+3+Pl+Voc+Pl+4: ozhiishiibenyiwaadigan
      3+zhiishiib+NA+Con+3+Pl+Voc+Pl+Loc: ozhiishiibenyiwaadiging
-     3+zhiishiib+NA+Con+3+Pl+Voc+Pl+Obv: ozhiishiibenyiwaadigan
      3+zhiishiib+NA+Con+3+Pl+Voc+Pl+Pl: ozhiishiibenyiwaadigag
-     3+zhiishiib+NA+Dim+3+Obv+Prt+Loc: ozhiishiibensiniibaniing
-     3+zhiishiib+NA+Dim+3+Obv+Prt+Obv: ozhiishiibensiniibaniin
-     3+zhiishiib+NA+Dim+3+Obv+Prt+Pl: ozhiishiibensiniibaniig
-     3+zhiishiib+NA+Dim+3+Obv+Voc+Pl+Loc: ozhiishiibensiniidiging
-     3+zhiishiib+NA+Dim+3+Obv+Voc+Pl+Obv: ozhiishiibensiniidigan
-     3+zhiishiib+NA+Dim+3+Obv+Voc+Pl+Pl: ozhiishiibensiniidigag
+     3+zhiishiib+NA+Dim+3+4+Prt+4: ozhiishiibensiniibaniin
+     3+zhiishiib+NA+Dim+3+4+Prt+Loc: ozhiishiibensiniibaniing
+     3+zhiishiib+NA+Dim+3+4+Prt+Pl: ozhiishiibensiniibaniig
+     3+zhiishiib+NA+Dim+3+4+Voc+Pl+4: ozhiishiibensiniidigan
+     3+zhiishiib+NA+Dim+3+4+Voc+Pl+Loc: ozhiishiibensiniidiging
+     3+zhiishiib+NA+Dim+3+4+Voc+Pl+Pl: ozhiishiibensiniidigag
+     3+zhiishiib+NA+Dim+3+Pl+Prt+4: ozhiishiibensiwaabaniin
      3+zhiishiib+NA+Dim+3+Pl+Prt+Loc: ozhiishiibensiwaabaniing
-     3+zhiishiib+NA+Dim+3+Pl+Prt+Obv: ozhiishiibensiwaabaniin
      3+zhiishiib+NA+Dim+3+Pl+Prt+Pl: ozhiishiibensiwaabaniig
+     3+zhiishiib+NA+Dim+3+Pl+Voc+Pl+4: ozhiishiibensiwaadigan
      3+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Loc: ozhiishiibensiwaadiging
-     3+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Obv: ozhiishiibensiwaadigan
      3+zhiishiib+NA+Dim+3+Pl+Voc+Pl+Pl: ozhiishiibensiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6
@@ -1024,104 +1024,104 @@ Tests:
      2+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl: gizhiishiibimishinaanidig
      2+zhiishiib+NA+Pos+Pej+3+Pl+Prt: gizhiishiibimishiwaaban
      2+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl: gizhiishiibimishiwaadig
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Prt: ozhiishiibimishiniiban
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Voc+Pl: ozhiishiibimishiniidig
+     3+zhiishiib+NA+Pos+Pej+3+4+Prt: ozhiishiibimishiniiban
+     3+zhiishiib+NA+Pos+Pej+3+4+Voc+Pl: ozhiishiibimishiniidig
      3+zhiishiib+NA+Pos+Pej+3+Pl+Prt: ozhiishiibimishiwaaban
      3+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl: ozhiishiibimishiwaadig
      
      #Values from slots numbered: 1, 3, 4, 5, 7
+     1+zhiishiib+NA+Pos+Pej+1+Pl+4: nizhiishiibimishinaanin
      1+zhiishiib+NA+Pos+Pej+1+Pl+Loc: nizhiishiibimishinaaning
-     1+zhiishiib+NA+Pos+Pej+1+Pl+Obv: nizhiishiibimishinaanin
      1+zhiishiib+NA+Pos+Pej+1+Pl+Pl: nizhiishiibimishinaanig
+     2+zhiishiib+NA+Pos+Pej+1+Pl+4: gizhiishiibimishinaanin
      2+zhiishiib+NA+Pos+Pej+1+Pl+Loc: gizhiishiibimishinaaning
-     2+zhiishiib+NA+Pos+Pej+1+Pl+Obv: gizhiishiibimishinaanin
      2+zhiishiib+NA+Pos+Pej+1+Pl+Pl: gizhiishiibimishinaanig
+     2+zhiishiib+NA+Pos+Pej+3+Pl+4: gizhiishiibimishiwaan
      2+zhiishiib+NA+Pos+Pej+3+Pl+Loc: gizhiishiibimishiwaang
-     2+zhiishiib+NA+Pos+Pej+3+Pl+Obv: gizhiishiibimishiwaan
      2+zhiishiib+NA+Pos+Pej+3+Pl+Pl: gizhiishiibimishiwaag
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Loc: ozhiishiibimishiniing
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Obv: ozhiishiibimishiniwa
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Pl: ozhiishiibimishiniwa
+     3+zhiishiib+NA+Pos+Pej+3+4+4: ozhiishiibimishiniwa
+     3+zhiishiib+NA+Pos+Pej+3+4+Loc: ozhiishiibimishiniing
+     3+zhiishiib+NA+Pos+Pej+3+4+Pl: ozhiishiibimishiniwa
+     3+zhiishiib+NA+Pos+Pej+3+Pl+4: ozhiishiibimishiwaan
      3+zhiishiib+NA+Pos+Pej+3+Pl+Loc: ozhiishiibimishiwaang
-     3+zhiishiib+NA+Pos+Pej+3+Pl+Obv: ozhiishiibimishiwaan
      3+zhiishiib+NA+Pos+Pej+3+Pl+Pl: ozhiishiibimishiwaag
      
      #Values from slots numbered: 1, 3, 4, 6, 7
+     1+zhiishiib+NA+Pos+Pej+Prt+4: nizhiishiibimishibaniin
      1+zhiishiib+NA+Pos+Pej+Prt+Loc: nizhiishiibimishibaniing
-     1+zhiishiib+NA+Pos+Pej+Prt+Obv: nizhiishiibimishibaniin
      1+zhiishiib+NA+Pos+Pej+Prt+Pl: nizhiishiibimishibaniig
+     2+zhiishiib+NA+Pos+Pej+Prt+4: gizhiishiibimishibaniin
      2+zhiishiib+NA+Pos+Pej+Prt+Loc: gizhiishiibimishibaniing
-     2+zhiishiib+NA+Pos+Pej+Prt+Obv: gizhiishiibimishibaniin
      2+zhiishiib+NA+Pos+Pej+Prt+Pl: gizhiishiibimishibaniig
+     3+zhiishiib+NA+Pos+Pej+Prt+4: ozhiishiibimishibaniin
      3+zhiishiib+NA+Pos+Pej+Prt+Loc: ozhiishiibimishibaniing
-     3+zhiishiib+NA+Pos+Pej+Prt+Obv: ozhiishiibimishibaniin
      3+zhiishiib+NA+Pos+Pej+Prt+Pl: ozhiishiibimishibaniig
+     X+zhiishiib+NA+Pos+Pej+Prt+4: izhiishiibimishibaniin
      X+zhiishiib+NA+Pos+Pej+Prt+Loc: izhiishiibimishibaniing
-     X+zhiishiib+NA+Pos+Pej+Prt+Obv: izhiishiibimishibaniin
      X+zhiishiib+NA+Pos+Pej+Prt+Pl: izhiishiibimishibaniig
      
      #Values from slots numbered: 1, 3, 5, 6, 7
+     1+zhiishiib+NA+Pos+1+Pl+Prt+4: nizhiishiibiminaanibaniin
      1+zhiishiib+NA+Pos+1+Pl+Prt+Loc: nizhiishiibiminaanibaniing
-     1+zhiishiib+NA+Pos+1+Pl+Prt+Obv: nizhiishiibiminaanibaniin
      1+zhiishiib+NA+Pos+1+Pl+Prt+Pl: nizhiishiibiminaanibaniig
+     1+zhiishiib+NA+Pos+1+Pl+Voc+Pl+4: nizhiishiibiminaanidigan
      1+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Loc: nizhiishiibiminaanidiging
-     1+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Obv: nizhiishiibiminaanidigan
      1+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Pl: nizhiishiibiminaanidigag
+     2+zhiishiib+NA+Pos+1+Pl+Prt+4: gizhiishiibiminaanibaniin
      2+zhiishiib+NA+Pos+1+Pl+Prt+Loc: gizhiishiibiminaanibaniing
-     2+zhiishiib+NA+Pos+1+Pl+Prt+Obv: gizhiishiibiminaanibaniin
      2+zhiishiib+NA+Pos+1+Pl+Prt+Pl: gizhiishiibiminaanibaniig
+     2+zhiishiib+NA+Pos+1+Pl+Voc+Pl+4: gizhiishiibiminaanidigan
      2+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Loc: gizhiishiibiminaanidiging
-     2+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Obv: gizhiishiibiminaanidigan
      2+zhiishiib+NA+Pos+1+Pl+Voc+Pl+Pl: gizhiishiibiminaanidigag
+     2+zhiishiib+NA+Pos+3+Pl+Prt+4: gizhiishiibimiwaabaniin
      2+zhiishiib+NA+Pos+3+Pl+Prt+Loc: gizhiishiibimiwaabaniing
-     2+zhiishiib+NA+Pos+3+Pl+Prt+Obv: gizhiishiibimiwaabaniin
      2+zhiishiib+NA+Pos+3+Pl+Prt+Pl: gizhiishiibimiwaabaniig
+     2+zhiishiib+NA+Pos+3+Pl+Voc+Pl+4: gizhiishiibimiwaadigan
      2+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Loc: gizhiishiibimiwaadiging
-     2+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Obv: gizhiishiibimiwaadigan
      2+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Pl: gizhiishiibimiwaadigag
-     3+zhiishiib+NA+Pos+3+Obv+Prt+Loc: ozhiishiibiminiibaniing
-     3+zhiishiib+NA+Pos+3+Obv+Prt+Obv: ozhiishiibiminiibaniin
-     3+zhiishiib+NA+Pos+3+Obv+Prt+Pl: ozhiishiibiminiibaniig
-     3+zhiishiib+NA+Pos+3+Obv+Voc+Pl+Loc: ozhiishiibiminiidiging
-     3+zhiishiib+NA+Pos+3+Obv+Voc+Pl+Obv: ozhiishiibiminiidigan
-     3+zhiishiib+NA+Pos+3+Obv+Voc+Pl+Pl: ozhiishiibiminiidigag
+     3+zhiishiib+NA+Pos+3+4+Prt+4: ozhiishiibiminiibaniin
+     3+zhiishiib+NA+Pos+3+4+Prt+Loc: ozhiishiibiminiibaniing
+     3+zhiishiib+NA+Pos+3+4+Prt+Pl: ozhiishiibiminiibaniig
+     3+zhiishiib+NA+Pos+3+4+Voc+Pl+4: ozhiishiibiminiidigan
+     3+zhiishiib+NA+Pos+3+4+Voc+Pl+Loc: ozhiishiibiminiidiging
+     3+zhiishiib+NA+Pos+3+4+Voc+Pl+Pl: ozhiishiibiminiidigag
+     3+zhiishiib+NA+Pos+3+Pl+Prt+4: ozhiishiibimiwaabaniin
      3+zhiishiib+NA+Pos+3+Pl+Prt+Loc: ozhiishiibimiwaabaniing
-     3+zhiishiib+NA+Pos+3+Pl+Prt+Obv: ozhiishiibimiwaabaniin
      3+zhiishiib+NA+Pos+3+Pl+Prt+Pl: ozhiishiibimiwaabaniig
+     3+zhiishiib+NA+Pos+3+Pl+Voc+Pl+4: ozhiishiibimiwaadigan
      3+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Loc: ozhiishiibimiwaadiging
-     3+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Obv: ozhiishiibimiwaadigan
      3+zhiishiib+NA+Pos+3+Pl+Voc+Pl+Pl: ozhiishiibimiwaadigag
      
      #Values from slots numbered: 1, 4, 5, 6, 7
+     1+zhiishiib+NA+Pej+1+Pl+Prt+4: nizhiishiibishinaanibaniin
      1+zhiishiib+NA+Pej+1+Pl+Prt+Loc: nizhiishiibishinaanibaniing
-     1+zhiishiib+NA+Pej+1+Pl+Prt+Obv: nizhiishiibishinaanibaniin
      1+zhiishiib+NA+Pej+1+Pl+Prt+Pl: nizhiishiibishinaanibaniig
+     1+zhiishiib+NA+Pej+1+Pl+Voc+Pl+4: nizhiishiibishinaanidigan
      1+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibishinaanidiging
-     1+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibishinaanidigan
      1+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibishinaanidigag
+     2+zhiishiib+NA+Pej+1+Pl+Prt+4: gizhiishiibishinaanibaniin
      2+zhiishiib+NA+Pej+1+Pl+Prt+Loc: gizhiishiibishinaanibaniing
-     2+zhiishiib+NA+Pej+1+Pl+Prt+Obv: gizhiishiibishinaanibaniin
      2+zhiishiib+NA+Pej+1+Pl+Prt+Pl: gizhiishiibishinaanibaniig
+     2+zhiishiib+NA+Pej+1+Pl+Voc+Pl+4: gizhiishiibishinaanidigan
      2+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibishinaanidiging
-     2+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibishinaanidigan
      2+zhiishiib+NA+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibishinaanidigag
+     2+zhiishiib+NA+Pej+3+Pl+Prt+4: gizhiishiibishiwaabaniin
      2+zhiishiib+NA+Pej+3+Pl+Prt+Loc: gizhiishiibishiwaabaniing
-     2+zhiishiib+NA+Pej+3+Pl+Prt+Obv: gizhiishiibishiwaabaniin
      2+zhiishiib+NA+Pej+3+Pl+Prt+Pl: gizhiishiibishiwaabaniig
+     2+zhiishiib+NA+Pej+3+Pl+Voc+Pl+4: gizhiishiibishiwaadigan
      2+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibishiwaadiging
-     2+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibishiwaadigan
      2+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibishiwaadigag
-     3+zhiishiib+NA+Pej+3+Obv+Prt+Loc: ozhiishiibishiniibaniing
-     3+zhiishiib+NA+Pej+3+Obv+Prt+Obv: ozhiishiibishiniibaniin
-     3+zhiishiib+NA+Pej+3+Obv+Prt+Pl: ozhiishiibishiniibaniig
-     3+zhiishiib+NA+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibishiniidiging
-     3+zhiishiib+NA+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibishiniidigan
-     3+zhiishiib+NA+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibishiniidigag
+     3+zhiishiib+NA+Pej+3+4+Prt+4: ozhiishiibishiniibaniin
+     3+zhiishiib+NA+Pej+3+4+Prt+Loc: ozhiishiibishiniibaniing
+     3+zhiishiib+NA+Pej+3+4+Prt+Pl: ozhiishiibishiniibaniig
+     3+zhiishiib+NA+Pej+3+4+Voc+Pl+4: ozhiishiibishiniidigan
+     3+zhiishiib+NA+Pej+3+4+Voc+Pl+Loc: ozhiishiibishiniidiging
+     3+zhiishiib+NA+Pej+3+4+Voc+Pl+Pl: ozhiishiibishiniidigag
+     3+zhiishiib+NA+Pej+3+Pl+Prt+4: ozhiishiibishiwaabaniin
      3+zhiishiib+NA+Pej+3+Pl+Prt+Loc: ozhiishiibishiwaabaniing
-     3+zhiishiib+NA+Pej+3+Pl+Prt+Obv: ozhiishiibishiwaabaniin
      3+zhiishiib+NA+Pej+3+Pl+Prt+Pl: ozhiishiibishiwaabaniig
+     3+zhiishiib+NA+Pej+3+Pl+Voc+Pl+4: ozhiishiibishiwaadigan
      3+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibishiwaadiging
-     3+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibishiwaadigan
      3+zhiishiib+NA+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibishiwaadigag
      
      
@@ -1143,289 +1143,289 @@ Tests:
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl: gizhiishiibensimishinaanidig
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt: gizhiishiibensimishiwaaban
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl: gizhiishiibensimishiwaadig
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Prt: ozhiishiibenyimishiniiban
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Voc+Pl: ozhiishiibenyimishiniidig
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Prt: ozhiishiibenyimishiniiban
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Voc+Pl: ozhiishiibenyimishiniidig
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt: ozhiishiibenyimishiwaaban
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl: ozhiishiibenyimishiwaadig
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Prt: ozhiishiibensimishiniiban
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Voc+Pl: ozhiishiibensimishiniidig
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Prt: ozhiishiibensimishiniiban
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Voc+Pl: ozhiishiibensimishiniidig
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt: ozhiishiibensimishiwaaban
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl: ozhiishiibensimishiwaadig
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+4: nizhiishiibenyimishinaanin
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Loc: nizhiishiibenyimishinaaning
-     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Obv: nizhiishiibenyimishinaanin
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Pl: nizhiishiibenyimishinaanig
+     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+4: nizhiishiibensimishinaanin
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Loc: nizhiishiibensimishinaaning
-     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Obv: nizhiishiibensimishinaanin
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Pl: nizhiishiibensimishinaanig
+     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+4: gizhiishiibenyimishinaanin
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Loc: gizhiishiibenyimishinaaning
-     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Obv: gizhiishiibenyimishinaanin
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Pl: gizhiishiibenyimishinaanig
+     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+4: gizhiishiibenyimishiwaan
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Loc: gizhiishiibenyimishiwaang
-     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Obv: gizhiishiibenyimishiwaan
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Pl: gizhiishiibenyimishiwaag
+     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+4: gizhiishiibensimishinaanin
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Loc: gizhiishiibensimishinaaning
-     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Obv: gizhiishiibensimishinaanin
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Pl: gizhiishiibensimishinaanig
+     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+4: gizhiishiibensimishiwaan
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Loc: gizhiishiibensimishiwaang
-     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Obv: gizhiishiibensimishiwaan
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Pl: gizhiishiibensimishiwaag
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Loc: ozhiishiibenyimishiniing
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Obv: ozhiishiibenyimishiniwa
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Pl: ozhiishiibenyimishiniwa
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+4: ozhiishiibenyimishiniwa
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Loc: ozhiishiibenyimishiniing
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Pl: ozhiishiibenyimishiniwa
+     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+4: ozhiishiibenyimishiwaan
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Loc: ozhiishiibenyimishiwaang
-     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Obv: ozhiishiibenyimishiwaan
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Pl: ozhiishiibenyimishiwaag
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Loc: ozhiishiibensimishiniing
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Obv: ozhiishiibensimishiniwa
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Pl: ozhiishiibensimishiniwa
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+4: ozhiishiibensimishiniwa
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Loc: ozhiishiibensimishiniing
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Pl: ozhiishiibensimishiniwa
+     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+4: ozhiishiibensimishiwaan
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Loc: ozhiishiibensimishiwaang
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Obv: ozhiishiibensimishiwaan
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Pl: ozhiishiibensimishiwaag
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     1+zhiishiib+NA+Con+Pos+Pej+Prt+4: nizhiishiibenyimishibaniin
      1+zhiishiib+NA+Con+Pos+Pej+Prt+Loc: nizhiishiibenyimishibaniing
-     1+zhiishiib+NA+Con+Pos+Pej+Prt+Obv: nizhiishiibenyimishibaniin
      1+zhiishiib+NA+Con+Pos+Pej+Prt+Pl: nizhiishiibenyimishibaniig
+     1+zhiishiib+NA+Dim+Pos+Pej+Prt+4: nizhiishiibensimishibaniin
      1+zhiishiib+NA+Dim+Pos+Pej+Prt+Loc: nizhiishiibensimishibaniing
-     1+zhiishiib+NA+Dim+Pos+Pej+Prt+Obv: nizhiishiibensimishibaniin
      1+zhiishiib+NA+Dim+Pos+Pej+Prt+Pl: nizhiishiibensimishibaniig
+     2+zhiishiib+NA+Con+Pos+Pej+Prt+4: gizhiishiibenyimishibaniin
      2+zhiishiib+NA+Con+Pos+Pej+Prt+Loc: gizhiishiibenyimishibaniing
-     2+zhiishiib+NA+Con+Pos+Pej+Prt+Obv: gizhiishiibenyimishibaniin
      2+zhiishiib+NA+Con+Pos+Pej+Prt+Pl: gizhiishiibenyimishibaniig
+     2+zhiishiib+NA+Dim+Pos+Pej+Prt+4: gizhiishiibensimishibaniin
      2+zhiishiib+NA+Dim+Pos+Pej+Prt+Loc: gizhiishiibensimishibaniing
-     2+zhiishiib+NA+Dim+Pos+Pej+Prt+Obv: gizhiishiibensimishibaniin
      2+zhiishiib+NA+Dim+Pos+Pej+Prt+Pl: gizhiishiibensimishibaniig
+     3+zhiishiib+NA+Con+Pos+Pej+Prt+4: ozhiishiibenyimishibaniin
      3+zhiishiib+NA+Con+Pos+Pej+Prt+Loc: ozhiishiibenyimishibaniing
-     3+zhiishiib+NA+Con+Pos+Pej+Prt+Obv: ozhiishiibenyimishibaniin
      3+zhiishiib+NA+Con+Pos+Pej+Prt+Pl: ozhiishiibenyimishibaniig
+     3+zhiishiib+NA+Dim+Pos+Pej+Prt+4: ozhiishiibensimishibaniin
      3+zhiishiib+NA+Dim+Pos+Pej+Prt+Loc: ozhiishiibensimishibaniing
-     3+zhiishiib+NA+Dim+Pos+Pej+Prt+Obv: ozhiishiibensimishibaniin
      3+zhiishiib+NA+Dim+Pos+Pej+Prt+Pl: ozhiishiibensimishibaniig
+     X+zhiishiib+NA+Con+Pos+Pej+Prt+4: izhiishiibenyimishibaniin
      X+zhiishiib+NA+Con+Pos+Pej+Prt+Loc: izhiishiibenyimishibaniing
-     X+zhiishiib+NA+Con+Pos+Pej+Prt+Obv: izhiishiibenyimishibaniin
      X+zhiishiib+NA+Con+Pos+Pej+Prt+Pl: izhiishiibenyimishibaniig
+     X+zhiishiib+NA+Dim+Pos+Pej+Prt+4: izhiishiibensimishibaniin
      X+zhiishiib+NA+Dim+Pos+Pej+Prt+Loc: izhiishiibensimishibaniing
-     X+zhiishiib+NA+Dim+Pos+Pej+Prt+Obv: izhiishiibensimishibaniin
      X+zhiishiib+NA+Dim+Pos+Pej+Prt+Pl: izhiishiibensimishibaniig
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     1+zhiishiib+NA+Con+Pos+1+Pl+Prt+4: nizhiishiibenyiminaanibaniin
      1+zhiishiib+NA+Con+Pos+1+Pl+Prt+Loc: nizhiishiibenyiminaanibaniing
-     1+zhiishiib+NA+Con+Pos+1+Pl+Prt+Obv: nizhiishiibenyiminaanibaniin
      1+zhiishiib+NA+Con+Pos+1+Pl+Prt+Pl: nizhiishiibenyiminaanibaniig
+     1+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+4: nizhiishiibenyiminaanidigan
      1+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Loc: nizhiishiibenyiminaanidiging
-     1+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Obv: nizhiishiibenyiminaanidigan
      1+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Pl: nizhiishiibenyiminaanidigag
+     1+zhiishiib+NA+Dim+Pos+1+Pl+Prt+4: nizhiishiibensiminaanibaniin
      1+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Loc: nizhiishiibensiminaanibaniing
-     1+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Obv: nizhiishiibensiminaanibaniin
      1+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Pl: nizhiishiibensiminaanibaniig
+     1+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+4: nizhiishiibensiminaanidigan
      1+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Loc: nizhiishiibensiminaanidiging
-     1+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Obv: nizhiishiibensiminaanidigan
      1+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Pl: nizhiishiibensiminaanidigag
+     2+zhiishiib+NA+Con+Pos+1+Pl+Prt+4: gizhiishiibenyiminaanibaniin
      2+zhiishiib+NA+Con+Pos+1+Pl+Prt+Loc: gizhiishiibenyiminaanibaniing
-     2+zhiishiib+NA+Con+Pos+1+Pl+Prt+Obv: gizhiishiibenyiminaanibaniin
      2+zhiishiib+NA+Con+Pos+1+Pl+Prt+Pl: gizhiishiibenyiminaanibaniig
+     2+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+4: gizhiishiibenyiminaanidigan
      2+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Loc: gizhiishiibenyiminaanidiging
-     2+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Obv: gizhiishiibenyiminaanidigan
      2+zhiishiib+NA+Con+Pos+1+Pl+Voc+Pl+Pl: gizhiishiibenyiminaanidigag
+     2+zhiishiib+NA+Con+Pos+3+Pl+Prt+4: gizhiishiibenyimiwaabaniin
      2+zhiishiib+NA+Con+Pos+3+Pl+Prt+Loc: gizhiishiibenyimiwaabaniing
-     2+zhiishiib+NA+Con+Pos+3+Pl+Prt+Obv: gizhiishiibenyimiwaabaniin
      2+zhiishiib+NA+Con+Pos+3+Pl+Prt+Pl: gizhiishiibenyimiwaabaniig
+     2+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+4: gizhiishiibenyimiwaadigan
      2+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Loc: gizhiishiibenyimiwaadiging
-     2+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Obv: gizhiishiibenyimiwaadigan
      2+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Pl: gizhiishiibenyimiwaadigag
+     2+zhiishiib+NA+Dim+Pos+1+Pl+Prt+4: gizhiishiibensiminaanibaniin
      2+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Loc: gizhiishiibensiminaanibaniing
-     2+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Obv: gizhiishiibensiminaanibaniin
      2+zhiishiib+NA+Dim+Pos+1+Pl+Prt+Pl: gizhiishiibensiminaanibaniig
+     2+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+4: gizhiishiibensiminaanidigan
      2+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Loc: gizhiishiibensiminaanidiging
-     2+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Obv: gizhiishiibensiminaanidigan
      2+zhiishiib+NA+Dim+Pos+1+Pl+Voc+Pl+Pl: gizhiishiibensiminaanidigag
+     2+zhiishiib+NA+Dim+Pos+3+Pl+Prt+4: gizhiishiibensimiwaabaniin
      2+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Loc: gizhiishiibensimiwaabaniing
-     2+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Obv: gizhiishiibensimiwaabaniin
      2+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Pl: gizhiishiibensimiwaabaniig
+     2+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+4: gizhiishiibensimiwaadigan
      2+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Loc: gizhiishiibensimiwaadiging
-     2+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Obv: gizhiishiibensimiwaadigan
      2+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Pl: gizhiishiibensimiwaadigag
-     3+zhiishiib+NA+Con+Pos+3+Obv+Prt+Loc: ozhiishiibenyiminiibaniing
-     3+zhiishiib+NA+Con+Pos+3+Obv+Prt+Obv: ozhiishiibenyiminiibaniin
-     3+zhiishiib+NA+Con+Pos+3+Obv+Prt+Pl: ozhiishiibenyiminiibaniig
-     3+zhiishiib+NA+Con+Pos+3+Obv+Voc+Pl+Loc: ozhiishiibenyiminiidiging
-     3+zhiishiib+NA+Con+Pos+3+Obv+Voc+Pl+Obv: ozhiishiibenyiminiidigan
-     3+zhiishiib+NA+Con+Pos+3+Obv+Voc+Pl+Pl: ozhiishiibenyiminiidigag
+     3+zhiishiib+NA+Con+Pos+3+4+Prt+4: ozhiishiibenyiminiibaniin
+     3+zhiishiib+NA+Con+Pos+3+4+Prt+Loc: ozhiishiibenyiminiibaniing
+     3+zhiishiib+NA+Con+Pos+3+4+Prt+Pl: ozhiishiibenyiminiibaniig
+     3+zhiishiib+NA+Con+Pos+3+4+Voc+Pl+4: ozhiishiibenyiminiidigan
+     3+zhiishiib+NA+Con+Pos+3+4+Voc+Pl+Loc: ozhiishiibenyiminiidiging
+     3+zhiishiib+NA+Con+Pos+3+4+Voc+Pl+Pl: ozhiishiibenyiminiidigag
+     3+zhiishiib+NA+Con+Pos+3+Pl+Prt+4: ozhiishiibenyimiwaabaniin
      3+zhiishiib+NA+Con+Pos+3+Pl+Prt+Loc: ozhiishiibenyimiwaabaniing
-     3+zhiishiib+NA+Con+Pos+3+Pl+Prt+Obv: ozhiishiibenyimiwaabaniin
      3+zhiishiib+NA+Con+Pos+3+Pl+Prt+Pl: ozhiishiibenyimiwaabaniig
+     3+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+4: ozhiishiibenyimiwaadigan
      3+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Loc: ozhiishiibenyimiwaadiging
-     3+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Obv: ozhiishiibenyimiwaadigan
      3+zhiishiib+NA+Con+Pos+3+Pl+Voc+Pl+Pl: ozhiishiibenyimiwaadigag
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Prt+Loc: ozhiishiibensiminiibaniing
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Prt+Obv: ozhiishiibensiminiibaniin
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Prt+Pl: ozhiishiibensiminiibaniig
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Voc+Pl+Loc: ozhiishiibensiminiidiging
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Voc+Pl+Obv: ozhiishiibensiminiidigan
-     3+zhiishiib+NA+Dim+Pos+3+Obv+Voc+Pl+Pl: ozhiishiibensiminiidigag
+     3+zhiishiib+NA+Dim+Pos+3+4+Prt+4: ozhiishiibensiminiibaniin
+     3+zhiishiib+NA+Dim+Pos+3+4+Prt+Loc: ozhiishiibensiminiibaniing
+     3+zhiishiib+NA+Dim+Pos+3+4+Prt+Pl: ozhiishiibensiminiibaniig
+     3+zhiishiib+NA+Dim+Pos+3+4+Voc+Pl+4: ozhiishiibensiminiidigan
+     3+zhiishiib+NA+Dim+Pos+3+4+Voc+Pl+Loc: ozhiishiibensiminiidiging
+     3+zhiishiib+NA+Dim+Pos+3+4+Voc+Pl+Pl: ozhiishiibensiminiidigag
+     3+zhiishiib+NA+Dim+Pos+3+Pl+Prt+4: ozhiishiibensimiwaabaniin
      3+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Loc: ozhiishiibensimiwaabaniing
-     3+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Obv: ozhiishiibensimiwaabaniin
      3+zhiishiib+NA+Dim+Pos+3+Pl+Prt+Pl: ozhiishiibensimiwaabaniig
+     3+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+4: ozhiishiibensimiwaadigan
      3+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Loc: ozhiishiibensimiwaadiging
-     3+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Obv: ozhiishiibensimiwaadigan
      3+zhiishiib+NA+Dim+Pos+3+Pl+Voc+Pl+Pl: ozhiishiibensimiwaadigag
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     1+zhiishiib+NA+Con+Pej+1+Pl+Prt+4: nizhiishiibenyishinaanibaniin
      1+zhiishiib+NA+Con+Pej+1+Pl+Prt+Loc: nizhiishiibenyishinaanibaniing
-     1+zhiishiib+NA+Con+Pej+1+Pl+Prt+Obv: nizhiishiibenyishinaanibaniin
      1+zhiishiib+NA+Con+Pej+1+Pl+Prt+Pl: nizhiishiibenyishinaanibaniig
+     1+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+4: nizhiishiibenyishinaanidigan
      1+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibenyishinaanidiging
-     1+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibenyishinaanidigan
      1+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibenyishinaanidigag
+     1+zhiishiib+NA+Dim+Pej+1+Pl+Prt+4: nizhiishiibensishinaanibaniin
      1+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Loc: nizhiishiibensishinaanibaniing
-     1+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Obv: nizhiishiibensishinaanibaniin
      1+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Pl: nizhiishiibensishinaanibaniig
+     1+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+4: nizhiishiibensishinaanidigan
      1+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibensishinaanidiging
-     1+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibensishinaanidigan
      1+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibensishinaanidigag
+     2+zhiishiib+NA+Con+Pej+1+Pl+Prt+4: gizhiishiibenyishinaanibaniin
      2+zhiishiib+NA+Con+Pej+1+Pl+Prt+Loc: gizhiishiibenyishinaanibaniing
-     2+zhiishiib+NA+Con+Pej+1+Pl+Prt+Obv: gizhiishiibenyishinaanibaniin
      2+zhiishiib+NA+Con+Pej+1+Pl+Prt+Pl: gizhiishiibenyishinaanibaniig
+     2+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+4: gizhiishiibenyishinaanidigan
      2+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibenyishinaanidiging
-     2+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibenyishinaanidigan
      2+zhiishiib+NA+Con+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibenyishinaanidigag
+     2+zhiishiib+NA+Con+Pej+3+Pl+Prt+4: gizhiishiibenyishiwaabaniin
      2+zhiishiib+NA+Con+Pej+3+Pl+Prt+Loc: gizhiishiibenyishiwaabaniing
-     2+zhiishiib+NA+Con+Pej+3+Pl+Prt+Obv: gizhiishiibenyishiwaabaniin
      2+zhiishiib+NA+Con+Pej+3+Pl+Prt+Pl: gizhiishiibenyishiwaabaniig
+     2+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+4: gizhiishiibenyishiwaadigan
      2+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibenyishiwaadiging
-     2+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibenyishiwaadigan
      2+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibenyishiwaadigag
+     2+zhiishiib+NA+Dim+Pej+1+Pl+Prt+4: gizhiishiibensishinaanibaniin
      2+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Loc: gizhiishiibensishinaanibaniing
-     2+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Obv: gizhiishiibensishinaanibaniin
      2+zhiishiib+NA+Dim+Pej+1+Pl+Prt+Pl: gizhiishiibensishinaanibaniig
+     2+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+4: gizhiishiibensishinaanidigan
      2+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibensishinaanidiging
-     2+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibensishinaanidigan
      2+zhiishiib+NA+Dim+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibensishinaanidigag
+     2+zhiishiib+NA+Dim+Pej+3+Pl+Prt+4: gizhiishiibensishiwaabaniin
      2+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Loc: gizhiishiibensishiwaabaniing
-     2+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Obv: gizhiishiibensishiwaabaniin
      2+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Pl: gizhiishiibensishiwaabaniig
+     2+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+4: gizhiishiibensishiwaadigan
      2+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibensishiwaadiging
-     2+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibensishiwaadigan
      2+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibensishiwaadigag
-     3+zhiishiib+NA+Con+Pej+3+Obv+Prt+Loc: ozhiishiibenyishiniibaniing
-     3+zhiishiib+NA+Con+Pej+3+Obv+Prt+Obv: ozhiishiibenyishiniibaniin
-     3+zhiishiib+NA+Con+Pej+3+Obv+Prt+Pl: ozhiishiibenyishiniibaniig
-     3+zhiishiib+NA+Con+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibenyishiniidiging
-     3+zhiishiib+NA+Con+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibenyishiniidigan
-     3+zhiishiib+NA+Con+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibenyishiniidigag
+     3+zhiishiib+NA+Con+Pej+3+4+Prt+4: ozhiishiibenyishiniibaniin
+     3+zhiishiib+NA+Con+Pej+3+4+Prt+Loc: ozhiishiibenyishiniibaniing
+     3+zhiishiib+NA+Con+Pej+3+4+Prt+Pl: ozhiishiibenyishiniibaniig
+     3+zhiishiib+NA+Con+Pej+3+4+Voc+Pl+4: ozhiishiibenyishiniidigan
+     3+zhiishiib+NA+Con+Pej+3+4+Voc+Pl+Loc: ozhiishiibenyishiniidiging
+     3+zhiishiib+NA+Con+Pej+3+4+Voc+Pl+Pl: ozhiishiibenyishiniidigag
+     3+zhiishiib+NA+Con+Pej+3+Pl+Prt+4: ozhiishiibenyishiwaabaniin
      3+zhiishiib+NA+Con+Pej+3+Pl+Prt+Loc: ozhiishiibenyishiwaabaniing
-     3+zhiishiib+NA+Con+Pej+3+Pl+Prt+Obv: ozhiishiibenyishiwaabaniin
      3+zhiishiib+NA+Con+Pej+3+Pl+Prt+Pl: ozhiishiibenyishiwaabaniig
+     3+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+4: ozhiishiibenyishiwaadigan
      3+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibenyishiwaadiging
-     3+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibenyishiwaadigan
      3+zhiishiib+NA+Con+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibenyishiwaadigag
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Prt+Loc: ozhiishiibensishiniibaniing
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Prt+Obv: ozhiishiibensishiniibaniin
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Prt+Pl: ozhiishiibensishiniibaniig
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibensishiniidiging
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibensishiniidigan
-     3+zhiishiib+NA+Dim+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibensishiniidigag
+     3+zhiishiib+NA+Dim+Pej+3+4+Prt+4: ozhiishiibensishiniibaniin
+     3+zhiishiib+NA+Dim+Pej+3+4+Prt+Loc: ozhiishiibensishiniibaniing
+     3+zhiishiib+NA+Dim+Pej+3+4+Prt+Pl: ozhiishiibensishiniibaniig
+     3+zhiishiib+NA+Dim+Pej+3+4+Voc+Pl+4: ozhiishiibensishiniidigan
+     3+zhiishiib+NA+Dim+Pej+3+4+Voc+Pl+Loc: ozhiishiibensishiniidiging
+     3+zhiishiib+NA+Dim+Pej+3+4+Voc+Pl+Pl: ozhiishiibensishiniidigag
+     3+zhiishiib+NA+Dim+Pej+3+Pl+Prt+4: ozhiishiibensishiwaabaniin
      3+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Loc: ozhiishiibensishiwaabaniing
-     3+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Obv: ozhiishiibensishiwaabaniin
      3+zhiishiib+NA+Dim+Pej+3+Pl+Prt+Pl: ozhiishiibensishiwaabaniig
+     3+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+4: ozhiishiibensishiwaadigan
      3+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibensishiwaadiging
-     3+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibensishiwaadigan
      3+zhiishiib+NA+Dim+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibensishiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     1+zhiishiib+NA+Pos+Pej+1+Pl+Prt+4: nizhiishiibimishinaanibaniin
      1+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Loc: nizhiishiibimishinaanibaniing
-     1+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Obv: nizhiishiibimishinaanibaniin
      1+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Pl: nizhiishiibimishinaanibaniig
+     1+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+4: nizhiishiibimishinaanidigan
      1+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibimishinaanidiging
-     1+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibimishinaanidigan
      1+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibimishinaanidigag
+     2+zhiishiib+NA+Pos+Pej+1+Pl+Prt+4: gizhiishiibimishinaanibaniin
      2+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Loc: gizhiishiibimishinaanibaniing
-     2+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Obv: gizhiishiibimishinaanibaniin
      2+zhiishiib+NA+Pos+Pej+1+Pl+Prt+Pl: gizhiishiibimishinaanibaniig
+     2+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+4: gizhiishiibimishinaanidigan
      2+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibimishinaanidiging
-     2+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibimishinaanidigan
      2+zhiishiib+NA+Pos+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibimishinaanidigag
+     2+zhiishiib+NA+Pos+Pej+3+Pl+Prt+4: gizhiishiibimishiwaabaniin
      2+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Loc: gizhiishiibimishiwaabaniing
-     2+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Obv: gizhiishiibimishiwaabaniin
      2+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Pl: gizhiishiibimishiwaabaniig
+     2+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+4: gizhiishiibimishiwaadigan
      2+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibimishiwaadiging
-     2+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibimishiwaadigan
      2+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibimishiwaadigag
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Prt+Loc: ozhiishiibimishiniibaniing
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Prt+Obv: ozhiishiibimishiniibaniin
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Prt+Pl: ozhiishiibimishiniibaniig
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibimishiniidiging
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibimishiniidigan
-     3+zhiishiib+NA+Pos+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibimishiniidigag
+     3+zhiishiib+NA+Pos+Pej+3+4+Prt+4: ozhiishiibimishiniibaniin
+     3+zhiishiib+NA+Pos+Pej+3+4+Prt+Loc: ozhiishiibimishiniibaniing
+     3+zhiishiib+NA+Pos+Pej+3+4+Prt+Pl: ozhiishiibimishiniibaniig
+     3+zhiishiib+NA+Pos+Pej+3+4+Voc+Pl+4: ozhiishiibimishiniidigan
+     3+zhiishiib+NA+Pos+Pej+3+4+Voc+Pl+Loc: ozhiishiibimishiniidiging
+     3+zhiishiib+NA+Pos+Pej+3+4+Voc+Pl+Pl: ozhiishiibimishiniidigag
+     3+zhiishiib+NA+Pos+Pej+3+Pl+Prt+4: ozhiishiibimishiwaabaniin
      3+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Loc: ozhiishiibimishiwaabaniing
-     3+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Obv: ozhiishiibimishiwaabaniin
      3+zhiishiib+NA+Pos+Pej+3+Pl+Prt+Pl: ozhiishiibimishiwaabaniig
+     3+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+4: ozhiishiibimishiwaadigan
      3+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibimishiwaadiging
-     3+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibimishiwaadigan
      3+zhiishiib+NA+Pos+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibimishiwaadigag
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+4: nizhiishiibenyimishinaanibaniin
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Loc: nizhiishiibenyimishinaanibaniing
-     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Obv: nizhiishiibenyimishinaanibaniin
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Pl: nizhiishiibenyimishinaanibaniig
+     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+4: nizhiishiibenyimishinaanidigan
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibenyimishinaanidiging
-     1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibenyimishinaanidigan
      1+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibenyimishinaanidigag
+     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+4: nizhiishiibensimishinaanibaniin
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Loc: nizhiishiibensimishinaanibaniing
-     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Obv: nizhiishiibensimishinaanibaniin
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Pl: nizhiishiibensimishinaanibaniig
+     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+4: nizhiishiibensimishinaanidigan
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: nizhiishiibensimishinaanidiging
-     1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: nizhiishiibensimishinaanidigan
      1+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: nizhiishiibensimishinaanidigag
+     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+4: gizhiishiibenyimishinaanibaniin
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Loc: gizhiishiibenyimishinaanibaniing
-     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Obv: gizhiishiibenyimishinaanibaniin
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Prt+Pl: gizhiishiibenyimishinaanibaniig
+     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+4: gizhiishiibenyimishinaanidigan
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibenyimishinaanidiging
-     2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibenyimishinaanidigan
      2+zhiishiib+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibenyimishinaanidigag
+     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+4: gizhiishiibenyimishiwaabaniin
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Loc: gizhiishiibenyimishiwaabaniing
-     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Obv: gizhiishiibenyimishiwaabaniin
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Pl: gizhiishiibenyimishiwaabaniig
+     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+4: gizhiishiibenyimishiwaadigan
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibenyimishiwaadiging
-     2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibenyimishiwaadigan
      2+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibenyimishiwaadigag
+     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+4: gizhiishiibensimishinaanibaniin
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Loc: gizhiishiibensimishinaanibaniing
-     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Obv: gizhiishiibensimishinaanibaniin
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Prt+Pl: gizhiishiibensimishinaanibaniig
+     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+4: gizhiishiibensimishinaanidigan
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: gizhiishiibensimishinaanidiging
-     2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: gizhiishiibensimishinaanidigan
      2+zhiishiib+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: gizhiishiibensimishinaanidigag
+     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+4: gizhiishiibensimishiwaabaniin
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Loc: gizhiishiibensimishiwaabaniing
-     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Obv: gizhiishiibensimishiwaabaniin
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Pl: gizhiishiibensimishiwaabaniig
+     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+4: gizhiishiibensimishiwaadigan
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: gizhiishiibensimishiwaadiging
-     2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: gizhiishiibensimishiwaadigan
      2+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: gizhiishiibensimishiwaadigag
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Prt+Loc: ozhiishiibenyimishiniibaniing
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Prt+Obv: ozhiishiibenyimishiniibaniin
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Prt+Pl: ozhiishiibenyimishiniibaniig
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibenyimishiniidiging
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibenyimishiniidigan
-     3+zhiishiib+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibenyimishiniidigag
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Prt+4: ozhiishiibenyimishiniibaniin
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Prt+Loc: ozhiishiibenyimishiniibaniing
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Prt+Pl: ozhiishiibenyimishiniibaniig
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Voc+Pl+4: ozhiishiibenyimishiniidigan
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Voc+Pl+Loc: ozhiishiibenyimishiniidiging
+     3+zhiishiib+NA+Con+Pos+Pej+3+4+Voc+Pl+Pl: ozhiishiibenyimishiniidigag
+     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+4: ozhiishiibenyimishiwaabaniin
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Loc: ozhiishiibenyimishiwaabaniing
-     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Obv: ozhiishiibenyimishiwaabaniin
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Prt+Pl: ozhiishiibenyimishiwaabaniig
+     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+4: ozhiishiibenyimishiwaadigan
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibenyimishiwaadiging
-     3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibenyimishiwaadigan
      3+zhiishiib+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibenyimishiwaadigag
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Prt+Loc: ozhiishiibensimishiniibaniing
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Prt+Obv: ozhiishiibensimishiniibaniin
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Prt+Pl: ozhiishiibensimishiniibaniig
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Loc: ozhiishiibensimishiniidiging
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Obv: ozhiishiibensimishiniidigan
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Pl: ozhiishiibensimishiniidigag
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Prt+4: ozhiishiibensimishiniibaniin
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Prt+Loc: ozhiishiibensimishiniibaniing
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Prt+Pl: ozhiishiibensimishiniibaniig
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Voc+Pl+4: ozhiishiibensimishiniidigan
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Voc+Pl+Loc: ozhiishiibensimishiniidiging
+     3+zhiishiib+NA+Dim+Pos+Pej+3+4+Voc+Pl+Pl: ozhiishiibensimishiniidigag
+     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+4: ozhiishiibensimishiwaabaniin
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Loc: ozhiishiibensimishiwaabaniing
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Obv: ozhiishiibensimishiwaabaniin
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Prt+Pl: ozhiishiibensimishiwaabaniig
+     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+4: ozhiishiibensimishiwaadigan
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: ozhiishiibensimishiwaadiging
-     3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: ozhiishiibensimishiwaadigan
      3+zhiishiib+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: ozhiishiibensimishiwaadigag
      
