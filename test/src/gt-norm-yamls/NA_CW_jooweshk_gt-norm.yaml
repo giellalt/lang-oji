@@ -38,8 +38,8 @@ Tests:
      jooweshk+NA+Voc+Pl: jooweshkodig
      
      #Values from slots numbered: 7
+     jooweshk+NA+4: jooweshkwan
      jooweshk+NA+Loc: jooweshkong
-     jooweshk+NA+Obv: jooweshkwan
      jooweshk+NA+Pl: jooweshkwag
      
      #Values from slots numbered: 1, 2
@@ -68,7 +68,7 @@ Tests:
      1+jooweshk+NA+1+Pl: nijooweshkonaan
      2+jooweshk+NA+1+Pl: gijooweshkonaan
      2+jooweshk+NA+3+Pl: gijooweshkowaa
-     3+jooweshk+NA+3+Obv: ojooweshkoni
+     3+jooweshk+NA+3+4: ojooweshkoni
      3+jooweshk+NA+3+Pl: ojooweshkowaa
      
      #Values from slots numbered: 1, 6
@@ -82,17 +82,17 @@ Tests:
      X+jooweshk+NA+Voc+Pl: ijooweshkodig
      
      #Values from slots numbered: 1, 7
+     1+jooweshk+NA+4: nijooweshkwan
      1+jooweshk+NA+Loc: nijooweshkong
-     1+jooweshk+NA+Obv: nijooweshkwan
      1+jooweshk+NA+Pl: nijooweshkwag
+     2+jooweshk+NA+4: gijooweshkwan
      2+jooweshk+NA+Loc: gijooweshkong
-     2+jooweshk+NA+Obv: gijooweshkwan
      2+jooweshk+NA+Pl: gijooweshkwag
+     3+jooweshk+NA+4: ojooweshkwan
      3+jooweshk+NA+Loc: ojooweshkong
-     3+jooweshk+NA+Obv: ojooweshkwan
      3+jooweshk+NA+Pl: ojooweshkwag
+     X+jooweshk+NA+4: ijooweshkwan
      X+jooweshk+NA+Loc: ijooweshkong
-     X+jooweshk+NA+Obv: ijooweshkwan
      X+jooweshk+NA+Pl: ijooweshkwag
      
      
@@ -108,11 +108,11 @@ Tests:
      jooweshk+NA+Dim+Voc+Pl: jooweshkoonsidig
      
      #Values from slots numbered: 2, 7
+     jooweshk+NA+Con+4: jooweshkoonyin
      jooweshk+NA+Con+Loc: jooweshkoonying
-     jooweshk+NA+Con+Obv: jooweshkoonyin
      jooweshk+NA+Con+Pl: jooweshkoonyig
+     jooweshk+NA+Dim+4: jooweshkoonsan
      jooweshk+NA+Dim+Loc: jooweshkoonsing
-     jooweshk+NA+Dim+Obv: jooweshkoonsan
      jooweshk+NA+Dim+Pl: jooweshkoonsag
      
      
@@ -125,15 +125,15 @@ Tests:
      jooweshk+NA+Pej+Voc+Pl: jooweshkoshidig
      
      #Values from slots numbered: 4, 7
+     jooweshk+NA+Pej+4: jooweshkoshan
      jooweshk+NA+Pej+Loc: jooweshkoshing
-     jooweshk+NA+Pej+Obv: jooweshkoshan
      jooweshk+NA+Pej+Pl: jooweshkoshag
      
      
      
      #Values from slots numbered: 6, 7
+     jooweshk+NA+Prt+4: jooweshkobaniin
      jooweshk+NA+Prt+Loc: jooweshkobaniing
-     jooweshk+NA+Prt+Obv: jooweshkobaniin
      jooweshk+NA+Prt+Pl: jooweshkobaniig
      
      #Values from slots numbered: 1, 2, 3
@@ -163,9 +163,9 @@ Tests:
      2+jooweshk+NA+Con+3+Pl: gijooweshkoonyiwaa
      2+jooweshk+NA+Dim+1+Pl: gijooweshkoonsinaan
      2+jooweshk+NA+Dim+3+Pl: gijooweshkoonsiwaa
-     3+jooweshk+NA+Con+3+Obv: ojooweshkoonyini
+     3+jooweshk+NA+Con+3+4: ojooweshkoonyini
      3+jooweshk+NA+Con+3+Pl: ojooweshkoonyiwaa
-     3+jooweshk+NA+Dim+3+Obv: ojooweshkoonsini
+     3+jooweshk+NA+Dim+3+4: ojooweshkoonsini
      3+jooweshk+NA+Dim+3+Pl: ojooweshkoonsiwaa
      
      #Values from slots numbered: 1, 2, 6
@@ -187,29 +187,29 @@ Tests:
      X+jooweshk+NA+Dim+Voc+Pl: ijooweshkoonsidig
      
      #Values from slots numbered: 1, 2, 7
+     1+jooweshk+NA+Con+4: nijooweshkoonyin
      1+jooweshk+NA+Con+Loc: nijooweshkoonying
-     1+jooweshk+NA+Con+Obv: nijooweshkoonyin
      1+jooweshk+NA+Con+Pl: nijooweshkoonyig
+     1+jooweshk+NA+Dim+4: nijooweshkoonsan
      1+jooweshk+NA+Dim+Loc: nijooweshkoonsing
-     1+jooweshk+NA+Dim+Obv: nijooweshkoonsan
      1+jooweshk+NA+Dim+Pl: nijooweshkoonsag
+     2+jooweshk+NA+Con+4: gijooweshkoonyin
      2+jooweshk+NA+Con+Loc: gijooweshkoonying
-     2+jooweshk+NA+Con+Obv: gijooweshkoonyin
      2+jooweshk+NA+Con+Pl: gijooweshkoonyig
+     2+jooweshk+NA+Dim+4: gijooweshkoonsan
      2+jooweshk+NA+Dim+Loc: gijooweshkoonsing
-     2+jooweshk+NA+Dim+Obv: gijooweshkoonsan
      2+jooweshk+NA+Dim+Pl: gijooweshkoonsag
+     3+jooweshk+NA+Con+4: ojooweshkoonyin
      3+jooweshk+NA+Con+Loc: ojooweshkoonying
-     3+jooweshk+NA+Con+Obv: ojooweshkoonyin
      3+jooweshk+NA+Con+Pl: ojooweshkoonyig
+     3+jooweshk+NA+Dim+4: ojooweshkoonsan
      3+jooweshk+NA+Dim+Loc: ojooweshkoonsing
-     3+jooweshk+NA+Dim+Obv: ojooweshkoonsan
      3+jooweshk+NA+Dim+Pl: ojooweshkoonsag
+     X+jooweshk+NA+Con+4: ijooweshkoonyin
      X+jooweshk+NA+Con+Loc: ijooweshkoonying
-     X+jooweshk+NA+Con+Obv: ijooweshkoonyin
      X+jooweshk+NA+Con+Pl: ijooweshkoonyig
+     X+jooweshk+NA+Dim+4: ijooweshkoonsan
      X+jooweshk+NA+Dim+Loc: ijooweshkoonsing
-     X+jooweshk+NA+Dim+Obv: ijooweshkoonsan
      X+jooweshk+NA+Dim+Pl: ijooweshkoonsag
      
      #Values from slots numbered: 1, 3, 4
@@ -222,7 +222,7 @@ Tests:
      1+jooweshk+NA+Pos+1+Pl: nijooweshkominaan
      2+jooweshk+NA+Pos+1+Pl: gijooweshkominaan
      2+jooweshk+NA+Pos+3+Pl: gijooweshkomiwaa
-     3+jooweshk+NA+Pos+3+Obv: ojooweshkomini
+     3+jooweshk+NA+Pos+3+4: ojooweshkomini
      3+jooweshk+NA+Pos+3+Pl: ojooweshkomiwaa
      
      #Values from slots numbered: 1, 3, 6
@@ -236,24 +236,24 @@ Tests:
      X+jooweshk+NA+Pos+Voc+Pl: ijooweshkomidig
      
      #Values from slots numbered: 1, 3, 7
+     1+jooweshk+NA+Pos+4: nijooweshkoman
      1+jooweshk+NA+Pos+Loc: nijooweshkoming
-     1+jooweshk+NA+Pos+Obv: nijooweshkoman
      1+jooweshk+NA+Pos+Pl: nijooweshkomag
+     2+jooweshk+NA+Pos+4: gijooweshkoman
      2+jooweshk+NA+Pos+Loc: gijooweshkoming
-     2+jooweshk+NA+Pos+Obv: gijooweshkoman
      2+jooweshk+NA+Pos+Pl: gijooweshkomag
+     3+jooweshk+NA+Pos+4: ojooweshkoman
      3+jooweshk+NA+Pos+Loc: ojooweshkoming
-     3+jooweshk+NA+Pos+Obv: ojooweshkoman
      3+jooweshk+NA+Pos+Pl: ojooweshkomag
+     X+jooweshk+NA+Pos+4: ijooweshkoman
      X+jooweshk+NA+Pos+Loc: ijooweshkoming
-     X+jooweshk+NA+Pos+Obv: ijooweshkoman
      X+jooweshk+NA+Pos+Pl: ijooweshkomag
      
      #Values from slots numbered: 1, 4, 5
      1+jooweshk+NA+Pej+1+Pl: nijooweshkoshinaan
      2+jooweshk+NA+Pej+1+Pl: gijooweshkoshinaan
      2+jooweshk+NA+Pej+3+Pl: gijooweshkoshiwaa
-     3+jooweshk+NA+Pej+3+Obv: ojooweshkoshini
+     3+jooweshk+NA+Pej+3+4: ojooweshkoshini
      3+jooweshk+NA+Pej+3+Pl: ojooweshkoshiwaa
      
      #Values from slots numbered: 1, 4, 6
@@ -267,17 +267,17 @@ Tests:
      X+jooweshk+NA+Pej+Voc+Pl: ijooweshkoshidig
      
      #Values from slots numbered: 1, 4, 7
+     1+jooweshk+NA+Pej+4: nijooweshkoshan
      1+jooweshk+NA+Pej+Loc: nijooweshkoshing
-     1+jooweshk+NA+Pej+Obv: nijooweshkoshan
      1+jooweshk+NA+Pej+Pl: nijooweshkoshag
+     2+jooweshk+NA+Pej+4: gijooweshkoshan
      2+jooweshk+NA+Pej+Loc: gijooweshkoshing
-     2+jooweshk+NA+Pej+Obv: gijooweshkoshan
      2+jooweshk+NA+Pej+Pl: gijooweshkoshag
+     3+jooweshk+NA+Pej+4: ojooweshkoshan
      3+jooweshk+NA+Pej+Loc: ojooweshkoshing
-     3+jooweshk+NA+Pej+Obv: ojooweshkoshan
      3+jooweshk+NA+Pej+Pl: ojooweshkoshag
+     X+jooweshk+NA+Pej+4: ijooweshkoshan
      X+jooweshk+NA+Pej+Loc: ijooweshkoshing
-     X+jooweshk+NA+Pej+Obv: ijooweshkoshan
      X+jooweshk+NA+Pej+Pl: ijooweshkoshag
      
      #Values from slots numbered: 1, 5, 6
@@ -287,40 +287,40 @@ Tests:
      2+jooweshk+NA+1+Pl+Voc+Pl: gijooweshkonaanidig
      2+jooweshk+NA+3+Pl+Prt: gijooweshkowaaban
      2+jooweshk+NA+3+Pl+Voc+Pl: gijooweshkowaadig
-     3+jooweshk+NA+3+Obv+Prt: ojooweshkoniiban
-     3+jooweshk+NA+3+Obv+Voc+Pl: ojooweshkoniidig
+     3+jooweshk+NA+3+4+Prt: ojooweshkoniiban
+     3+jooweshk+NA+3+4+Voc+Pl: ojooweshkoniidig
      3+jooweshk+NA+3+Pl+Prt: ojooweshkowaaban
      3+jooweshk+NA+3+Pl+Voc+Pl: ojooweshkowaadig
      
      #Values from slots numbered: 1, 5, 7
+     1+jooweshk+NA+1+Pl+4: nijooweshkonaanin
      1+jooweshk+NA+1+Pl+Loc: nijooweshkonaaning
-     1+jooweshk+NA+1+Pl+Obv: nijooweshkonaanin
      1+jooweshk+NA+1+Pl+Pl: nijooweshkonaanig
+     2+jooweshk+NA+1+Pl+4: gijooweshkonaanin
      2+jooweshk+NA+1+Pl+Loc: gijooweshkonaaning
-     2+jooweshk+NA+1+Pl+Obv: gijooweshkonaanin
      2+jooweshk+NA+1+Pl+Pl: gijooweshkonaanig
+     2+jooweshk+NA+3+Pl+4: gijooweshkowaan
      2+jooweshk+NA+3+Pl+Loc: gijooweshkowaang
-     2+jooweshk+NA+3+Pl+Obv: gijooweshkowaan
      2+jooweshk+NA+3+Pl+Pl: gijooweshkowaag
-     3+jooweshk+NA+3+Obv+Loc: ojooweshkoniing
-     3+jooweshk+NA+3+Obv+Obv: ojooweshkoniwa
-     3+jooweshk+NA+3+Obv+Pl: ojooweshkoniwa
+     3+jooweshk+NA+3+4+4: ojooweshkoniwa
+     3+jooweshk+NA+3+4+Loc: ojooweshkoniing
+     3+jooweshk+NA+3+4+Pl: ojooweshkoniwa
+     3+jooweshk+NA+3+Pl+4: ojooweshkowaan
      3+jooweshk+NA+3+Pl+Loc: ojooweshkowaang
-     3+jooweshk+NA+3+Pl+Obv: ojooweshkowaan
      3+jooweshk+NA+3+Pl+Pl: ojooweshkowaag
      
      #Values from slots numbered: 1, 6, 7
+     1+jooweshk+NA+Prt+4: nijooweshkobaniin
      1+jooweshk+NA+Prt+Loc: nijooweshkobaniing
-     1+jooweshk+NA+Prt+Obv: nijooweshkobaniin
      1+jooweshk+NA+Prt+Pl: nijooweshkobaniig
+     2+jooweshk+NA+Prt+4: gijooweshkobaniin
      2+jooweshk+NA+Prt+Loc: gijooweshkobaniing
-     2+jooweshk+NA+Prt+Obv: gijooweshkobaniin
      2+jooweshk+NA+Prt+Pl: gijooweshkobaniig
+     3+jooweshk+NA+Prt+4: ojooweshkobaniin
      3+jooweshk+NA+Prt+Loc: ojooweshkobaniing
-     3+jooweshk+NA+Prt+Obv: ojooweshkobaniin
      3+jooweshk+NA+Prt+Pl: ojooweshkobaniig
+     X+jooweshk+NA+Prt+4: ijooweshkobaniin
      X+jooweshk+NA+Prt+Loc: ijooweshkobaniing
-     X+jooweshk+NA+Prt+Obv: ijooweshkobaniin
      X+jooweshk+NA+Prt+Pl: ijooweshkobaniig
      
      
@@ -335,21 +335,21 @@ Tests:
      jooweshk+NA+Dim+Pej+Voc+Pl: jooweshkoonsishidig
      
      #Values from slots numbered: 2, 4, 7
+     jooweshk+NA+Con+Pej+4: jooweshkoonyishan
      jooweshk+NA+Con+Pej+Loc: jooweshkoonyishing
-     jooweshk+NA+Con+Pej+Obv: jooweshkoonyishan
      jooweshk+NA+Con+Pej+Pl: jooweshkoonyishag
+     jooweshk+NA+Dim+Pej+4: jooweshkoonsishan
      jooweshk+NA+Dim+Pej+Loc: jooweshkoonsishing
-     jooweshk+NA+Dim+Pej+Obv: jooweshkoonsishan
      jooweshk+NA+Dim+Pej+Pl: jooweshkoonsishag
      
      
      
      #Values from slots numbered: 2, 6, 7
+     jooweshk+NA+Con+Prt+4: jooweshkoonyibaniin
      jooweshk+NA+Con+Prt+Loc: jooweshkoonyibaniing
-     jooweshk+NA+Con+Prt+Obv: jooweshkoonyibaniin
      jooweshk+NA+Con+Prt+Pl: jooweshkoonyibaniig
+     jooweshk+NA+Dim+Prt+4: jooweshkoonsibaniin
      jooweshk+NA+Dim+Prt+Loc: jooweshkoonsibaniing
-     jooweshk+NA+Dim+Prt+Obv: jooweshkoonsibaniin
      jooweshk+NA+Dim+Prt+Pl: jooweshkoonsibaniig
      
      
@@ -361,8 +361,8 @@ Tests:
      
      
      #Values from slots numbered: 4, 6, 7
+     jooweshk+NA+Pej+Prt+4: jooweshkoshibaniin
      jooweshk+NA+Pej+Prt+Loc: jooweshkoshibaniing
-     jooweshk+NA+Pej+Prt+Obv: jooweshkoshibaniin
      jooweshk+NA+Pej+Prt+Pl: jooweshkoshibaniig
      
      
@@ -383,9 +383,9 @@ Tests:
      2+jooweshk+NA+Con+Pos+3+Pl: gijooweshkoonyimiwaa
      2+jooweshk+NA+Dim+Pos+1+Pl: gijooweshkoonsiminaan
      2+jooweshk+NA+Dim+Pos+3+Pl: gijooweshkoonsimiwaa
-     3+jooweshk+NA+Con+Pos+3+Obv: ojooweshkoonyimini
+     3+jooweshk+NA+Con+Pos+3+4: ojooweshkoonyimini
      3+jooweshk+NA+Con+Pos+3+Pl: ojooweshkoonyimiwaa
-     3+jooweshk+NA+Dim+Pos+3+Obv: ojooweshkoonsimini
+     3+jooweshk+NA+Dim+Pos+3+4: ojooweshkoonsimini
      3+jooweshk+NA+Dim+Pos+3+Pl: ojooweshkoonsimiwaa
      
      #Values from slots numbered: 1, 2, 3, 6
@@ -407,29 +407,29 @@ Tests:
      X+jooweshk+NA+Dim+Pos+Voc+Pl: ijooweshkoonsimidig
      
      #Values from slots numbered: 1, 2, 3, 7
+     1+jooweshk+NA+Con+Pos+4: nijooweshkoonyiman
      1+jooweshk+NA+Con+Pos+Loc: nijooweshkoonyiming
-     1+jooweshk+NA+Con+Pos+Obv: nijooweshkoonyiman
      1+jooweshk+NA+Con+Pos+Pl: nijooweshkoonyimag
+     1+jooweshk+NA+Dim+Pos+4: nijooweshkoonsiman
      1+jooweshk+NA+Dim+Pos+Loc: nijooweshkoonsiming
-     1+jooweshk+NA+Dim+Pos+Obv: nijooweshkoonsiman
      1+jooweshk+NA+Dim+Pos+Pl: nijooweshkoonsimag
+     2+jooweshk+NA+Con+Pos+4: gijooweshkoonyiman
      2+jooweshk+NA+Con+Pos+Loc: gijooweshkoonyiming
-     2+jooweshk+NA+Con+Pos+Obv: gijooweshkoonyiman
      2+jooweshk+NA+Con+Pos+Pl: gijooweshkoonyimag
+     2+jooweshk+NA+Dim+Pos+4: gijooweshkoonsiman
      2+jooweshk+NA+Dim+Pos+Loc: gijooweshkoonsiming
-     2+jooweshk+NA+Dim+Pos+Obv: gijooweshkoonsiman
      2+jooweshk+NA+Dim+Pos+Pl: gijooweshkoonsimag
+     3+jooweshk+NA+Con+Pos+4: ojooweshkoonyiman
      3+jooweshk+NA+Con+Pos+Loc: ojooweshkoonyiming
-     3+jooweshk+NA+Con+Pos+Obv: ojooweshkoonyiman
      3+jooweshk+NA+Con+Pos+Pl: ojooweshkoonyimag
+     3+jooweshk+NA+Dim+Pos+4: ojooweshkoonsiman
      3+jooweshk+NA+Dim+Pos+Loc: ojooweshkoonsiming
-     3+jooweshk+NA+Dim+Pos+Obv: ojooweshkoonsiman
      3+jooweshk+NA+Dim+Pos+Pl: ojooweshkoonsimag
+     X+jooweshk+NA+Con+Pos+4: ijooweshkoonyiman
      X+jooweshk+NA+Con+Pos+Loc: ijooweshkoonyiming
-     X+jooweshk+NA+Con+Pos+Obv: ijooweshkoonyiman
      X+jooweshk+NA+Con+Pos+Pl: ijooweshkoonyimag
+     X+jooweshk+NA+Dim+Pos+4: ijooweshkoonsiman
      X+jooweshk+NA+Dim+Pos+Loc: ijooweshkoonsiming
-     X+jooweshk+NA+Dim+Pos+Obv: ijooweshkoonsiman
      X+jooweshk+NA+Dim+Pos+Pl: ijooweshkoonsimag
      
      #Values from slots numbered: 1, 2, 4, 5
@@ -439,9 +439,9 @@ Tests:
      2+jooweshk+NA+Con+Pej+3+Pl: gijooweshkoonyishiwaa
      2+jooweshk+NA+Dim+Pej+1+Pl: gijooweshkoonsishinaan
      2+jooweshk+NA+Dim+Pej+3+Pl: gijooweshkoonsishiwaa
-     3+jooweshk+NA+Con+Pej+3+Obv: ojooweshkoonyishini
+     3+jooweshk+NA+Con+Pej+3+4: ojooweshkoonyishini
      3+jooweshk+NA+Con+Pej+3+Pl: ojooweshkoonyishiwaa
-     3+jooweshk+NA+Dim+Pej+3+Obv: ojooweshkoonsishini
+     3+jooweshk+NA+Dim+Pej+3+4: ojooweshkoonsishini
      3+jooweshk+NA+Dim+Pej+3+Pl: ojooweshkoonsishiwaa
      
      #Values from slots numbered: 1, 2, 4, 6
@@ -463,29 +463,29 @@ Tests:
      X+jooweshk+NA+Dim+Pej+Voc+Pl: ijooweshkoonsishidig
      
      #Values from slots numbered: 1, 2, 4, 7
+     1+jooweshk+NA+Con+Pej+4: nijooweshkoonyishan
      1+jooweshk+NA+Con+Pej+Loc: nijooweshkoonyishing
-     1+jooweshk+NA+Con+Pej+Obv: nijooweshkoonyishan
      1+jooweshk+NA+Con+Pej+Pl: nijooweshkoonyishag
+     1+jooweshk+NA+Dim+Pej+4: nijooweshkoonsishan
      1+jooweshk+NA+Dim+Pej+Loc: nijooweshkoonsishing
-     1+jooweshk+NA+Dim+Pej+Obv: nijooweshkoonsishan
      1+jooweshk+NA+Dim+Pej+Pl: nijooweshkoonsishag
+     2+jooweshk+NA+Con+Pej+4: gijooweshkoonyishan
      2+jooweshk+NA+Con+Pej+Loc: gijooweshkoonyishing
-     2+jooweshk+NA+Con+Pej+Obv: gijooweshkoonyishan
      2+jooweshk+NA+Con+Pej+Pl: gijooweshkoonyishag
+     2+jooweshk+NA+Dim+Pej+4: gijooweshkoonsishan
      2+jooweshk+NA+Dim+Pej+Loc: gijooweshkoonsishing
-     2+jooweshk+NA+Dim+Pej+Obv: gijooweshkoonsishan
      2+jooweshk+NA+Dim+Pej+Pl: gijooweshkoonsishag
+     3+jooweshk+NA+Con+Pej+4: ojooweshkoonyishan
      3+jooweshk+NA+Con+Pej+Loc: ojooweshkoonyishing
-     3+jooweshk+NA+Con+Pej+Obv: ojooweshkoonyishan
      3+jooweshk+NA+Con+Pej+Pl: ojooweshkoonyishag
+     3+jooweshk+NA+Dim+Pej+4: ojooweshkoonsishan
      3+jooweshk+NA+Dim+Pej+Loc: ojooweshkoonsishing
-     3+jooweshk+NA+Dim+Pej+Obv: ojooweshkoonsishan
      3+jooweshk+NA+Dim+Pej+Pl: ojooweshkoonsishag
+     X+jooweshk+NA+Con+Pej+4: ijooweshkoonyishan
      X+jooweshk+NA+Con+Pej+Loc: ijooweshkoonyishing
-     X+jooweshk+NA+Con+Pej+Obv: ijooweshkoonyishan
      X+jooweshk+NA+Con+Pej+Pl: ijooweshkoonyishag
+     X+jooweshk+NA+Dim+Pej+4: ijooweshkoonsishan
      X+jooweshk+NA+Dim+Pej+Loc: ijooweshkoonsishing
-     X+jooweshk+NA+Dim+Pej+Obv: ijooweshkoonsishan
      X+jooweshk+NA+Dim+Pej+Pl: ijooweshkoonsishag
      
      #Values from slots numbered: 1, 2, 5, 6
@@ -501,78 +501,78 @@ Tests:
      2+jooweshk+NA+Dim+1+Pl+Voc+Pl: gijooweshkoonsinaanidig
      2+jooweshk+NA+Dim+3+Pl+Prt: gijooweshkoonsiwaaban
      2+jooweshk+NA+Dim+3+Pl+Voc+Pl: gijooweshkoonsiwaadig
-     3+jooweshk+NA+Con+3+Obv+Prt: ojooweshkoonyiniiban
-     3+jooweshk+NA+Con+3+Obv+Voc+Pl: ojooweshkoonyiniidig
+     3+jooweshk+NA+Con+3+4+Prt: ojooweshkoonyiniiban
+     3+jooweshk+NA+Con+3+4+Voc+Pl: ojooweshkoonyiniidig
      3+jooweshk+NA+Con+3+Pl+Prt: ojooweshkoonyiwaaban
      3+jooweshk+NA+Con+3+Pl+Voc+Pl: ojooweshkoonyiwaadig
-     3+jooweshk+NA+Dim+3+Obv+Prt: ojooweshkoonsiniiban
-     3+jooweshk+NA+Dim+3+Obv+Voc+Pl: ojooweshkoonsiniidig
+     3+jooweshk+NA+Dim+3+4+Prt: ojooweshkoonsiniiban
+     3+jooweshk+NA+Dim+3+4+Voc+Pl: ojooweshkoonsiniidig
      3+jooweshk+NA+Dim+3+Pl+Prt: ojooweshkoonsiwaaban
      3+jooweshk+NA+Dim+3+Pl+Voc+Pl: ojooweshkoonsiwaadig
      
      #Values from slots numbered: 1, 2, 5, 7
+     1+jooweshk+NA+Con+1+Pl+4: nijooweshkoonyinaanin
      1+jooweshk+NA+Con+1+Pl+Loc: nijooweshkoonyinaaning
-     1+jooweshk+NA+Con+1+Pl+Obv: nijooweshkoonyinaanin
      1+jooweshk+NA+Con+1+Pl+Pl: nijooweshkoonyinaanig
+     1+jooweshk+NA+Dim+1+Pl+4: nijooweshkoonsinaanin
      1+jooweshk+NA+Dim+1+Pl+Loc: nijooweshkoonsinaaning
-     1+jooweshk+NA+Dim+1+Pl+Obv: nijooweshkoonsinaanin
      1+jooweshk+NA+Dim+1+Pl+Pl: nijooweshkoonsinaanig
+     2+jooweshk+NA+Con+1+Pl+4: gijooweshkoonyinaanin
      2+jooweshk+NA+Con+1+Pl+Loc: gijooweshkoonyinaaning
-     2+jooweshk+NA+Con+1+Pl+Obv: gijooweshkoonyinaanin
      2+jooweshk+NA+Con+1+Pl+Pl: gijooweshkoonyinaanig
+     2+jooweshk+NA+Con+3+Pl+4: gijooweshkoonyiwaan
      2+jooweshk+NA+Con+3+Pl+Loc: gijooweshkoonyiwaang
-     2+jooweshk+NA+Con+3+Pl+Obv: gijooweshkoonyiwaan
      2+jooweshk+NA+Con+3+Pl+Pl: gijooweshkoonyiwaag
+     2+jooweshk+NA+Dim+1+Pl+4: gijooweshkoonsinaanin
      2+jooweshk+NA+Dim+1+Pl+Loc: gijooweshkoonsinaaning
-     2+jooweshk+NA+Dim+1+Pl+Obv: gijooweshkoonsinaanin
      2+jooweshk+NA+Dim+1+Pl+Pl: gijooweshkoonsinaanig
+     2+jooweshk+NA+Dim+3+Pl+4: gijooweshkoonsiwaan
      2+jooweshk+NA+Dim+3+Pl+Loc: gijooweshkoonsiwaang
-     2+jooweshk+NA+Dim+3+Pl+Obv: gijooweshkoonsiwaan
      2+jooweshk+NA+Dim+3+Pl+Pl: gijooweshkoonsiwaag
-     3+jooweshk+NA+Con+3+Obv+Loc: ojooweshkoonyiniing
-     3+jooweshk+NA+Con+3+Obv+Obv: ojooweshkoonyiniwa
-     3+jooweshk+NA+Con+3+Obv+Pl: ojooweshkoonyiniwa
+     3+jooweshk+NA+Con+3+4+4: ojooweshkoonyiniwa
+     3+jooweshk+NA+Con+3+4+Loc: ojooweshkoonyiniing
+     3+jooweshk+NA+Con+3+4+Pl: ojooweshkoonyiniwa
+     3+jooweshk+NA+Con+3+Pl+4: ojooweshkoonyiwaan
      3+jooweshk+NA+Con+3+Pl+Loc: ojooweshkoonyiwaang
-     3+jooweshk+NA+Con+3+Pl+Obv: ojooweshkoonyiwaan
      3+jooweshk+NA+Con+3+Pl+Pl: ojooweshkoonyiwaag
-     3+jooweshk+NA+Dim+3+Obv+Loc: ojooweshkoonsiniing
-     3+jooweshk+NA+Dim+3+Obv+Obv: ojooweshkoonsiniwa
-     3+jooweshk+NA+Dim+3+Obv+Pl: ojooweshkoonsiniwa
+     3+jooweshk+NA+Dim+3+4+4: ojooweshkoonsiniwa
+     3+jooweshk+NA+Dim+3+4+Loc: ojooweshkoonsiniing
+     3+jooweshk+NA+Dim+3+4+Pl: ojooweshkoonsiniwa
+     3+jooweshk+NA+Dim+3+Pl+4: ojooweshkoonsiwaan
      3+jooweshk+NA+Dim+3+Pl+Loc: ojooweshkoonsiwaang
-     3+jooweshk+NA+Dim+3+Pl+Obv: ojooweshkoonsiwaan
      3+jooweshk+NA+Dim+3+Pl+Pl: ojooweshkoonsiwaag
      
      #Values from slots numbered: 1, 2, 6, 7
+     1+jooweshk+NA+Con+Prt+4: nijooweshkoonyibaniin
      1+jooweshk+NA+Con+Prt+Loc: nijooweshkoonyibaniing
-     1+jooweshk+NA+Con+Prt+Obv: nijooweshkoonyibaniin
      1+jooweshk+NA+Con+Prt+Pl: nijooweshkoonyibaniig
+     1+jooweshk+NA+Dim+Prt+4: nijooweshkoonsibaniin
      1+jooweshk+NA+Dim+Prt+Loc: nijooweshkoonsibaniing
-     1+jooweshk+NA+Dim+Prt+Obv: nijooweshkoonsibaniin
      1+jooweshk+NA+Dim+Prt+Pl: nijooweshkoonsibaniig
+     2+jooweshk+NA+Con+Prt+4: gijooweshkoonyibaniin
      2+jooweshk+NA+Con+Prt+Loc: gijooweshkoonyibaniing
-     2+jooweshk+NA+Con+Prt+Obv: gijooweshkoonyibaniin
      2+jooweshk+NA+Con+Prt+Pl: gijooweshkoonyibaniig
+     2+jooweshk+NA+Dim+Prt+4: gijooweshkoonsibaniin
      2+jooweshk+NA+Dim+Prt+Loc: gijooweshkoonsibaniing
-     2+jooweshk+NA+Dim+Prt+Obv: gijooweshkoonsibaniin
      2+jooweshk+NA+Dim+Prt+Pl: gijooweshkoonsibaniig
+     3+jooweshk+NA+Con+Prt+4: ojooweshkoonyibaniin
      3+jooweshk+NA+Con+Prt+Loc: ojooweshkoonyibaniing
-     3+jooweshk+NA+Con+Prt+Obv: ojooweshkoonyibaniin
      3+jooweshk+NA+Con+Prt+Pl: ojooweshkoonyibaniig
+     3+jooweshk+NA+Dim+Prt+4: ojooweshkoonsibaniin
      3+jooweshk+NA+Dim+Prt+Loc: ojooweshkoonsibaniing
-     3+jooweshk+NA+Dim+Prt+Obv: ojooweshkoonsibaniin
      3+jooweshk+NA+Dim+Prt+Pl: ojooweshkoonsibaniig
+     X+jooweshk+NA+Con+Prt+4: ijooweshkoonyibaniin
      X+jooweshk+NA+Con+Prt+Loc: ijooweshkoonyibaniing
-     X+jooweshk+NA+Con+Prt+Obv: ijooweshkoonyibaniin
      X+jooweshk+NA+Con+Prt+Pl: ijooweshkoonyibaniig
+     X+jooweshk+NA+Dim+Prt+4: ijooweshkoonsibaniin
      X+jooweshk+NA+Dim+Prt+Loc: ijooweshkoonsibaniing
-     X+jooweshk+NA+Dim+Prt+Obv: ijooweshkoonsibaniin
      X+jooweshk+NA+Dim+Prt+Pl: ijooweshkoonsibaniig
      
      #Values from slots numbered: 1, 3, 4, 5
      1+jooweshk+NA+Pos+Pej+1+Pl: nijooweshkomishinaan
      2+jooweshk+NA+Pos+Pej+1+Pl: gijooweshkomishinaan
      2+jooweshk+NA+Pos+Pej+3+Pl: gijooweshkomishiwaa
-     3+jooweshk+NA+Pos+Pej+3+Obv: ojooweshkomishini
+     3+jooweshk+NA+Pos+Pej+3+4: ojooweshkomishini
      3+jooweshk+NA+Pos+Pej+3+Pl: ojooweshkomishiwaa
      
      #Values from slots numbered: 1, 3, 4, 6
@@ -586,17 +586,17 @@ Tests:
      X+jooweshk+NA+Pos+Pej+Voc+Pl: ijooweshkomishidig
      
      #Values from slots numbered: 1, 3, 4, 7
+     1+jooweshk+NA+Pos+Pej+4: nijooweshkomishan
      1+jooweshk+NA+Pos+Pej+Loc: nijooweshkomishing
-     1+jooweshk+NA+Pos+Pej+Obv: nijooweshkomishan
      1+jooweshk+NA+Pos+Pej+Pl: nijooweshkomishag
+     2+jooweshk+NA+Pos+Pej+4: gijooweshkomishan
      2+jooweshk+NA+Pos+Pej+Loc: gijooweshkomishing
-     2+jooweshk+NA+Pos+Pej+Obv: gijooweshkomishan
      2+jooweshk+NA+Pos+Pej+Pl: gijooweshkomishag
+     3+jooweshk+NA+Pos+Pej+4: ojooweshkomishan
      3+jooweshk+NA+Pos+Pej+Loc: ojooweshkomishing
-     3+jooweshk+NA+Pos+Pej+Obv: ojooweshkomishan
      3+jooweshk+NA+Pos+Pej+Pl: ojooweshkomishag
+     X+jooweshk+NA+Pos+Pej+4: ijooweshkomishan
      X+jooweshk+NA+Pos+Pej+Loc: ijooweshkomishing
-     X+jooweshk+NA+Pos+Pej+Obv: ijooweshkomishan
      X+jooweshk+NA+Pos+Pej+Pl: ijooweshkomishag
      
      #Values from slots numbered: 1, 3, 5, 6
@@ -606,40 +606,40 @@ Tests:
      2+jooweshk+NA+Pos+1+Pl+Voc+Pl: gijooweshkominaanidig
      2+jooweshk+NA+Pos+3+Pl+Prt: gijooweshkomiwaaban
      2+jooweshk+NA+Pos+3+Pl+Voc+Pl: gijooweshkomiwaadig
-     3+jooweshk+NA+Pos+3+Obv+Prt: ojooweshkominiiban
-     3+jooweshk+NA+Pos+3+Obv+Voc+Pl: ojooweshkominiidig
+     3+jooweshk+NA+Pos+3+4+Prt: ojooweshkominiiban
+     3+jooweshk+NA+Pos+3+4+Voc+Pl: ojooweshkominiidig
      3+jooweshk+NA+Pos+3+Pl+Prt: ojooweshkomiwaaban
      3+jooweshk+NA+Pos+3+Pl+Voc+Pl: ojooweshkomiwaadig
      
      #Values from slots numbered: 1, 3, 5, 7
+     1+jooweshk+NA+Pos+1+Pl+4: nijooweshkominaanin
      1+jooweshk+NA+Pos+1+Pl+Loc: nijooweshkominaaning
-     1+jooweshk+NA+Pos+1+Pl+Obv: nijooweshkominaanin
      1+jooweshk+NA+Pos+1+Pl+Pl: nijooweshkominaanig
+     2+jooweshk+NA+Pos+1+Pl+4: gijooweshkominaanin
      2+jooweshk+NA+Pos+1+Pl+Loc: gijooweshkominaaning
-     2+jooweshk+NA+Pos+1+Pl+Obv: gijooweshkominaanin
      2+jooweshk+NA+Pos+1+Pl+Pl: gijooweshkominaanig
+     2+jooweshk+NA+Pos+3+Pl+4: gijooweshkomiwaan
      2+jooweshk+NA+Pos+3+Pl+Loc: gijooweshkomiwaang
-     2+jooweshk+NA+Pos+3+Pl+Obv: gijooweshkomiwaan
      2+jooweshk+NA+Pos+3+Pl+Pl: gijooweshkomiwaag
-     3+jooweshk+NA+Pos+3+Obv+Loc: ojooweshkominiing
-     3+jooweshk+NA+Pos+3+Obv+Obv: ojooweshkominiwa
-     3+jooweshk+NA+Pos+3+Obv+Pl: ojooweshkominiwa
+     3+jooweshk+NA+Pos+3+4+4: ojooweshkominiwa
+     3+jooweshk+NA+Pos+3+4+Loc: ojooweshkominiing
+     3+jooweshk+NA+Pos+3+4+Pl: ojooweshkominiwa
+     3+jooweshk+NA+Pos+3+Pl+4: ojooweshkomiwaan
      3+jooweshk+NA+Pos+3+Pl+Loc: ojooweshkomiwaang
-     3+jooweshk+NA+Pos+3+Pl+Obv: ojooweshkomiwaan
      3+jooweshk+NA+Pos+3+Pl+Pl: ojooweshkomiwaag
      
      #Values from slots numbered: 1, 3, 6, 7
+     1+jooweshk+NA+Pos+Prt+4: nijooweshkomibaniin
      1+jooweshk+NA+Pos+Prt+Loc: nijooweshkomibaniing
-     1+jooweshk+NA+Pos+Prt+Obv: nijooweshkomibaniin
      1+jooweshk+NA+Pos+Prt+Pl: nijooweshkomibaniig
+     2+jooweshk+NA+Pos+Prt+4: gijooweshkomibaniin
      2+jooweshk+NA+Pos+Prt+Loc: gijooweshkomibaniing
-     2+jooweshk+NA+Pos+Prt+Obv: gijooweshkomibaniin
      2+jooweshk+NA+Pos+Prt+Pl: gijooweshkomibaniig
+     3+jooweshk+NA+Pos+Prt+4: ojooweshkomibaniin
      3+jooweshk+NA+Pos+Prt+Loc: ojooweshkomibaniing
-     3+jooweshk+NA+Pos+Prt+Obv: ojooweshkomibaniin
      3+jooweshk+NA+Pos+Prt+Pl: ojooweshkomibaniig
+     X+jooweshk+NA+Pos+Prt+4: ijooweshkomibaniin
      X+jooweshk+NA+Pos+Prt+Loc: ijooweshkomibaniing
-     X+jooweshk+NA+Pos+Prt+Obv: ijooweshkomibaniin
      X+jooweshk+NA+Pos+Prt+Pl: ijooweshkomibaniig
      
      #Values from slots numbered: 1, 4, 5, 6
@@ -649,72 +649,72 @@ Tests:
      2+jooweshk+NA+Pej+1+Pl+Voc+Pl: gijooweshkoshinaanidig
      2+jooweshk+NA+Pej+3+Pl+Prt: gijooweshkoshiwaaban
      2+jooweshk+NA+Pej+3+Pl+Voc+Pl: gijooweshkoshiwaadig
-     3+jooweshk+NA+Pej+3+Obv+Prt: ojooweshkoshiniiban
-     3+jooweshk+NA+Pej+3+Obv+Voc+Pl: ojooweshkoshiniidig
+     3+jooweshk+NA+Pej+3+4+Prt: ojooweshkoshiniiban
+     3+jooweshk+NA+Pej+3+4+Voc+Pl: ojooweshkoshiniidig
      3+jooweshk+NA+Pej+3+Pl+Prt: ojooweshkoshiwaaban
      3+jooweshk+NA+Pej+3+Pl+Voc+Pl: ojooweshkoshiwaadig
      
      #Values from slots numbered: 1, 4, 5, 7
+     1+jooweshk+NA+Pej+1+Pl+4: nijooweshkoshinaanin
      1+jooweshk+NA+Pej+1+Pl+Loc: nijooweshkoshinaaning
-     1+jooweshk+NA+Pej+1+Pl+Obv: nijooweshkoshinaanin
      1+jooweshk+NA+Pej+1+Pl+Pl: nijooweshkoshinaanig
+     2+jooweshk+NA+Pej+1+Pl+4: gijooweshkoshinaanin
      2+jooweshk+NA+Pej+1+Pl+Loc: gijooweshkoshinaaning
-     2+jooweshk+NA+Pej+1+Pl+Obv: gijooweshkoshinaanin
      2+jooweshk+NA+Pej+1+Pl+Pl: gijooweshkoshinaanig
+     2+jooweshk+NA+Pej+3+Pl+4: gijooweshkoshiwaan
      2+jooweshk+NA+Pej+3+Pl+Loc: gijooweshkoshiwaang
-     2+jooweshk+NA+Pej+3+Pl+Obv: gijooweshkoshiwaan
      2+jooweshk+NA+Pej+3+Pl+Pl: gijooweshkoshiwaag
-     3+jooweshk+NA+Pej+3+Obv+Loc: ojooweshkoshiniing
-     3+jooweshk+NA+Pej+3+Obv+Obv: ojooweshkoshiniwa
-     3+jooweshk+NA+Pej+3+Obv+Pl: ojooweshkoshiniwa
+     3+jooweshk+NA+Pej+3+4+4: ojooweshkoshiniwa
+     3+jooweshk+NA+Pej+3+4+Loc: ojooweshkoshiniing
+     3+jooweshk+NA+Pej+3+4+Pl: ojooweshkoshiniwa
+     3+jooweshk+NA+Pej+3+Pl+4: ojooweshkoshiwaan
      3+jooweshk+NA+Pej+3+Pl+Loc: ojooweshkoshiwaang
-     3+jooweshk+NA+Pej+3+Pl+Obv: ojooweshkoshiwaan
      3+jooweshk+NA+Pej+3+Pl+Pl: ojooweshkoshiwaag
      
      #Values from slots numbered: 1, 4, 6, 7
+     1+jooweshk+NA+Pej+Prt+4: nijooweshkoshibaniin
      1+jooweshk+NA+Pej+Prt+Loc: nijooweshkoshibaniing
-     1+jooweshk+NA+Pej+Prt+Obv: nijooweshkoshibaniin
      1+jooweshk+NA+Pej+Prt+Pl: nijooweshkoshibaniig
+     2+jooweshk+NA+Pej+Prt+4: gijooweshkoshibaniin
      2+jooweshk+NA+Pej+Prt+Loc: gijooweshkoshibaniing
-     2+jooweshk+NA+Pej+Prt+Obv: gijooweshkoshibaniin
      2+jooweshk+NA+Pej+Prt+Pl: gijooweshkoshibaniig
+     3+jooweshk+NA+Pej+Prt+4: ojooweshkoshibaniin
      3+jooweshk+NA+Pej+Prt+Loc: ojooweshkoshibaniing
-     3+jooweshk+NA+Pej+Prt+Obv: ojooweshkoshibaniin
      3+jooweshk+NA+Pej+Prt+Pl: ojooweshkoshibaniig
+     X+jooweshk+NA+Pej+Prt+4: ijooweshkoshibaniin
      X+jooweshk+NA+Pej+Prt+Loc: ijooweshkoshibaniing
-     X+jooweshk+NA+Pej+Prt+Obv: ijooweshkoshibaniin
      X+jooweshk+NA+Pej+Prt+Pl: ijooweshkoshibaniig
      
      #Values from slots numbered: 1, 5, 6, 7
+     1+jooweshk+NA+1+Pl+Prt+4: nijooweshkonaanibaniin
      1+jooweshk+NA+1+Pl+Prt+Loc: nijooweshkonaanibaniing
-     1+jooweshk+NA+1+Pl+Prt+Obv: nijooweshkonaanibaniin
      1+jooweshk+NA+1+Pl+Prt+Pl: nijooweshkonaanibaniig
+     1+jooweshk+NA+1+Pl+Voc+Pl+4: nijooweshkonaanidigan
      1+jooweshk+NA+1+Pl+Voc+Pl+Loc: nijooweshkonaanidiging
-     1+jooweshk+NA+1+Pl+Voc+Pl+Obv: nijooweshkonaanidigan
      1+jooweshk+NA+1+Pl+Voc+Pl+Pl: nijooweshkonaanidigag
+     2+jooweshk+NA+1+Pl+Prt+4: gijooweshkonaanibaniin
      2+jooweshk+NA+1+Pl+Prt+Loc: gijooweshkonaanibaniing
-     2+jooweshk+NA+1+Pl+Prt+Obv: gijooweshkonaanibaniin
      2+jooweshk+NA+1+Pl+Prt+Pl: gijooweshkonaanibaniig
+     2+jooweshk+NA+1+Pl+Voc+Pl+4: gijooweshkonaanidigan
      2+jooweshk+NA+1+Pl+Voc+Pl+Loc: gijooweshkonaanidiging
-     2+jooweshk+NA+1+Pl+Voc+Pl+Obv: gijooweshkonaanidigan
      2+jooweshk+NA+1+Pl+Voc+Pl+Pl: gijooweshkonaanidigag
+     2+jooweshk+NA+3+Pl+Prt+4: gijooweshkowaabaniin
      2+jooweshk+NA+3+Pl+Prt+Loc: gijooweshkowaabaniing
-     2+jooweshk+NA+3+Pl+Prt+Obv: gijooweshkowaabaniin
      2+jooweshk+NA+3+Pl+Prt+Pl: gijooweshkowaabaniig
+     2+jooweshk+NA+3+Pl+Voc+Pl+4: gijooweshkowaadigan
      2+jooweshk+NA+3+Pl+Voc+Pl+Loc: gijooweshkowaadiging
-     2+jooweshk+NA+3+Pl+Voc+Pl+Obv: gijooweshkowaadigan
      2+jooweshk+NA+3+Pl+Voc+Pl+Pl: gijooweshkowaadigag
-     3+jooweshk+NA+3+Obv+Prt+Loc: ojooweshkoniibaniing
-     3+jooweshk+NA+3+Obv+Prt+Obv: ojooweshkoniibaniin
-     3+jooweshk+NA+3+Obv+Prt+Pl: ojooweshkoniibaniig
-     3+jooweshk+NA+3+Obv+Voc+Pl+Loc: ojooweshkoniidiging
-     3+jooweshk+NA+3+Obv+Voc+Pl+Obv: ojooweshkoniidigan
-     3+jooweshk+NA+3+Obv+Voc+Pl+Pl: ojooweshkoniidigag
+     3+jooweshk+NA+3+4+Prt+4: ojooweshkoniibaniin
+     3+jooweshk+NA+3+4+Prt+Loc: ojooweshkoniibaniing
+     3+jooweshk+NA+3+4+Prt+Pl: ojooweshkoniibaniig
+     3+jooweshk+NA+3+4+Voc+Pl+4: ojooweshkoniidigan
+     3+jooweshk+NA+3+4+Voc+Pl+Loc: ojooweshkoniidiging
+     3+jooweshk+NA+3+4+Voc+Pl+Pl: ojooweshkoniidigag
+     3+jooweshk+NA+3+Pl+Prt+4: ojooweshkowaabaniin
      3+jooweshk+NA+3+Pl+Prt+Loc: ojooweshkowaabaniing
-     3+jooweshk+NA+3+Pl+Prt+Obv: ojooweshkowaabaniin
      3+jooweshk+NA+3+Pl+Prt+Pl: ojooweshkowaabaniig
+     3+jooweshk+NA+3+Pl+Voc+Pl+4: ojooweshkowaadigan
      3+jooweshk+NA+3+Pl+Voc+Pl+Loc: ojooweshkowaadiging
-     3+jooweshk+NA+3+Pl+Voc+Pl+Obv: ojooweshkowaadigan
      3+jooweshk+NA+3+Pl+Voc+Pl+Pl: ojooweshkowaadigag
      
      
@@ -726,11 +726,11 @@ Tests:
      
      
      #Values from slots numbered: 2, 4, 6, 7
+     jooweshk+NA+Con+Pej+Prt+4: jooweshkoonyishibaniin
      jooweshk+NA+Con+Pej+Prt+Loc: jooweshkoonyishibaniing
-     jooweshk+NA+Con+Pej+Prt+Obv: jooweshkoonyishibaniin
      jooweshk+NA+Con+Pej+Prt+Pl: jooweshkoonyishibaniig
+     jooweshk+NA+Dim+Pej+Prt+4: jooweshkoonsishibaniin
      jooweshk+NA+Dim+Pej+Prt+Loc: jooweshkoonsishibaniing
-     jooweshk+NA+Dim+Pej+Prt+Obv: jooweshkoonsishibaniin
      jooweshk+NA+Dim+Pej+Prt+Pl: jooweshkoonsishibaniig
      
      
@@ -746,9 +746,9 @@ Tests:
      2+jooweshk+NA+Con+Pos+Pej+3+Pl: gijooweshkoonyimishiwaa
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl: gijooweshkoonsimishinaan
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl: gijooweshkoonsimishiwaa
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv: ojooweshkoonyimishini
+     3+jooweshk+NA+Con+Pos+Pej+3+4: ojooweshkoonyimishini
      3+jooweshk+NA+Con+Pos+Pej+3+Pl: ojooweshkoonyimishiwaa
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv: ojooweshkoonsimishini
+     3+jooweshk+NA+Dim+Pos+Pej+3+4: ojooweshkoonsimishini
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl: ojooweshkoonsimishiwaa
      
      #Values from slots numbered: 1, 2, 3, 4, 6
@@ -770,29 +770,29 @@ Tests:
      X+jooweshk+NA+Dim+Pos+Pej+Voc+Pl: ijooweshkoonsimishidig
      
      #Values from slots numbered: 1, 2, 3, 4, 7
+     1+jooweshk+NA+Con+Pos+Pej+4: nijooweshkoonyimishan
      1+jooweshk+NA+Con+Pos+Pej+Loc: nijooweshkoonyimishing
-     1+jooweshk+NA+Con+Pos+Pej+Obv: nijooweshkoonyimishan
      1+jooweshk+NA+Con+Pos+Pej+Pl: nijooweshkoonyimishag
+     1+jooweshk+NA+Dim+Pos+Pej+4: nijooweshkoonsimishan
      1+jooweshk+NA+Dim+Pos+Pej+Loc: nijooweshkoonsimishing
-     1+jooweshk+NA+Dim+Pos+Pej+Obv: nijooweshkoonsimishan
      1+jooweshk+NA+Dim+Pos+Pej+Pl: nijooweshkoonsimishag
+     2+jooweshk+NA+Con+Pos+Pej+4: gijooweshkoonyimishan
      2+jooweshk+NA+Con+Pos+Pej+Loc: gijooweshkoonyimishing
-     2+jooweshk+NA+Con+Pos+Pej+Obv: gijooweshkoonyimishan
      2+jooweshk+NA+Con+Pos+Pej+Pl: gijooweshkoonyimishag
+     2+jooweshk+NA+Dim+Pos+Pej+4: gijooweshkoonsimishan
      2+jooweshk+NA+Dim+Pos+Pej+Loc: gijooweshkoonsimishing
-     2+jooweshk+NA+Dim+Pos+Pej+Obv: gijooweshkoonsimishan
      2+jooweshk+NA+Dim+Pos+Pej+Pl: gijooweshkoonsimishag
+     3+jooweshk+NA+Con+Pos+Pej+4: ojooweshkoonyimishan
      3+jooweshk+NA+Con+Pos+Pej+Loc: ojooweshkoonyimishing
-     3+jooweshk+NA+Con+Pos+Pej+Obv: ojooweshkoonyimishan
      3+jooweshk+NA+Con+Pos+Pej+Pl: ojooweshkoonyimishag
+     3+jooweshk+NA+Dim+Pos+Pej+4: ojooweshkoonsimishan
      3+jooweshk+NA+Dim+Pos+Pej+Loc: ojooweshkoonsimishing
-     3+jooweshk+NA+Dim+Pos+Pej+Obv: ojooweshkoonsimishan
      3+jooweshk+NA+Dim+Pos+Pej+Pl: ojooweshkoonsimishag
+     X+jooweshk+NA+Con+Pos+Pej+4: ijooweshkoonyimishan
      X+jooweshk+NA+Con+Pos+Pej+Loc: ijooweshkoonyimishing
-     X+jooweshk+NA+Con+Pos+Pej+Obv: ijooweshkoonyimishan
      X+jooweshk+NA+Con+Pos+Pej+Pl: ijooweshkoonyimishag
+     X+jooweshk+NA+Dim+Pos+Pej+4: ijooweshkoonsimishan
      X+jooweshk+NA+Dim+Pos+Pej+Loc: ijooweshkoonsimishing
-     X+jooweshk+NA+Dim+Pos+Pej+Obv: ijooweshkoonsimishan
      X+jooweshk+NA+Dim+Pos+Pej+Pl: ijooweshkoonsimishag
      
      #Values from slots numbered: 1, 2, 3, 5, 6
@@ -808,71 +808,71 @@ Tests:
      2+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl: gijooweshkoonsiminaanidig
      2+jooweshk+NA+Dim+Pos+3+Pl+Prt: gijooweshkoonsimiwaaban
      2+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl: gijooweshkoonsimiwaadig
-     3+jooweshk+NA+Con+Pos+3+Obv+Prt: ojooweshkoonyiminiiban
-     3+jooweshk+NA+Con+Pos+3+Obv+Voc+Pl: ojooweshkoonyiminiidig
+     3+jooweshk+NA+Con+Pos+3+4+Prt: ojooweshkoonyiminiiban
+     3+jooweshk+NA+Con+Pos+3+4+Voc+Pl: ojooweshkoonyiminiidig
      3+jooweshk+NA+Con+Pos+3+Pl+Prt: ojooweshkoonyimiwaaban
      3+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl: ojooweshkoonyimiwaadig
-     3+jooweshk+NA+Dim+Pos+3+Obv+Prt: ojooweshkoonsiminiiban
-     3+jooweshk+NA+Dim+Pos+3+Obv+Voc+Pl: ojooweshkoonsiminiidig
+     3+jooweshk+NA+Dim+Pos+3+4+Prt: ojooweshkoonsiminiiban
+     3+jooweshk+NA+Dim+Pos+3+4+Voc+Pl: ojooweshkoonsiminiidig
      3+jooweshk+NA+Dim+Pos+3+Pl+Prt: ojooweshkoonsimiwaaban
      3+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl: ojooweshkoonsimiwaadig
      
      #Values from slots numbered: 1, 2, 3, 5, 7
+     1+jooweshk+NA+Con+Pos+1+Pl+4: nijooweshkoonyiminaanin
      1+jooweshk+NA+Con+Pos+1+Pl+Loc: nijooweshkoonyiminaaning
-     1+jooweshk+NA+Con+Pos+1+Pl+Obv: nijooweshkoonyiminaanin
      1+jooweshk+NA+Con+Pos+1+Pl+Pl: nijooweshkoonyiminaanig
+     1+jooweshk+NA+Dim+Pos+1+Pl+4: nijooweshkoonsiminaanin
      1+jooweshk+NA+Dim+Pos+1+Pl+Loc: nijooweshkoonsiminaaning
-     1+jooweshk+NA+Dim+Pos+1+Pl+Obv: nijooweshkoonsiminaanin
      1+jooweshk+NA+Dim+Pos+1+Pl+Pl: nijooweshkoonsiminaanig
+     2+jooweshk+NA+Con+Pos+1+Pl+4: gijooweshkoonyiminaanin
      2+jooweshk+NA+Con+Pos+1+Pl+Loc: gijooweshkoonyiminaaning
-     2+jooweshk+NA+Con+Pos+1+Pl+Obv: gijooweshkoonyiminaanin
      2+jooweshk+NA+Con+Pos+1+Pl+Pl: gijooweshkoonyiminaanig
+     2+jooweshk+NA+Con+Pos+3+Pl+4: gijooweshkoonyimiwaan
      2+jooweshk+NA+Con+Pos+3+Pl+Loc: gijooweshkoonyimiwaang
-     2+jooweshk+NA+Con+Pos+3+Pl+Obv: gijooweshkoonyimiwaan
      2+jooweshk+NA+Con+Pos+3+Pl+Pl: gijooweshkoonyimiwaag
+     2+jooweshk+NA+Dim+Pos+1+Pl+4: gijooweshkoonsiminaanin
      2+jooweshk+NA+Dim+Pos+1+Pl+Loc: gijooweshkoonsiminaaning
-     2+jooweshk+NA+Dim+Pos+1+Pl+Obv: gijooweshkoonsiminaanin
      2+jooweshk+NA+Dim+Pos+1+Pl+Pl: gijooweshkoonsiminaanig
+     2+jooweshk+NA+Dim+Pos+3+Pl+4: gijooweshkoonsimiwaan
      2+jooweshk+NA+Dim+Pos+3+Pl+Loc: gijooweshkoonsimiwaang
-     2+jooweshk+NA+Dim+Pos+3+Pl+Obv: gijooweshkoonsimiwaan
      2+jooweshk+NA+Dim+Pos+3+Pl+Pl: gijooweshkoonsimiwaag
-     3+jooweshk+NA+Con+Pos+3+Obv+Loc: ojooweshkoonyiminiing
-     3+jooweshk+NA+Con+Pos+3+Obv+Obv: ojooweshkoonyiminiwa
-     3+jooweshk+NA+Con+Pos+3+Obv+Pl: ojooweshkoonyiminiwa
+     3+jooweshk+NA+Con+Pos+3+4+4: ojooweshkoonyiminiwa
+     3+jooweshk+NA+Con+Pos+3+4+Loc: ojooweshkoonyiminiing
+     3+jooweshk+NA+Con+Pos+3+4+Pl: ojooweshkoonyiminiwa
+     3+jooweshk+NA+Con+Pos+3+Pl+4: ojooweshkoonyimiwaan
      3+jooweshk+NA+Con+Pos+3+Pl+Loc: ojooweshkoonyimiwaang
-     3+jooweshk+NA+Con+Pos+3+Pl+Obv: ojooweshkoonyimiwaan
      3+jooweshk+NA+Con+Pos+3+Pl+Pl: ojooweshkoonyimiwaag
-     3+jooweshk+NA+Dim+Pos+3+Obv+Loc: ojooweshkoonsiminiing
-     3+jooweshk+NA+Dim+Pos+3+Obv+Obv: ojooweshkoonsiminiwa
-     3+jooweshk+NA+Dim+Pos+3+Obv+Pl: ojooweshkoonsiminiwa
+     3+jooweshk+NA+Dim+Pos+3+4+4: ojooweshkoonsiminiwa
+     3+jooweshk+NA+Dim+Pos+3+4+Loc: ojooweshkoonsiminiing
+     3+jooweshk+NA+Dim+Pos+3+4+Pl: ojooweshkoonsiminiwa
+     3+jooweshk+NA+Dim+Pos+3+Pl+4: ojooweshkoonsimiwaan
      3+jooweshk+NA+Dim+Pos+3+Pl+Loc: ojooweshkoonsimiwaang
-     3+jooweshk+NA+Dim+Pos+3+Pl+Obv: ojooweshkoonsimiwaan
      3+jooweshk+NA+Dim+Pos+3+Pl+Pl: ojooweshkoonsimiwaag
      
      #Values from slots numbered: 1, 2, 3, 6, 7
+     1+jooweshk+NA+Con+Pos+Prt+4: nijooweshkoonyimibaniin
      1+jooweshk+NA+Con+Pos+Prt+Loc: nijooweshkoonyimibaniing
-     1+jooweshk+NA+Con+Pos+Prt+Obv: nijooweshkoonyimibaniin
      1+jooweshk+NA+Con+Pos+Prt+Pl: nijooweshkoonyimibaniig
+     1+jooweshk+NA+Dim+Pos+Prt+4: nijooweshkoonsimibaniin
      1+jooweshk+NA+Dim+Pos+Prt+Loc: nijooweshkoonsimibaniing
-     1+jooweshk+NA+Dim+Pos+Prt+Obv: nijooweshkoonsimibaniin
      1+jooweshk+NA+Dim+Pos+Prt+Pl: nijooweshkoonsimibaniig
+     2+jooweshk+NA+Con+Pos+Prt+4: gijooweshkoonyimibaniin
      2+jooweshk+NA+Con+Pos+Prt+Loc: gijooweshkoonyimibaniing
-     2+jooweshk+NA+Con+Pos+Prt+Obv: gijooweshkoonyimibaniin
      2+jooweshk+NA+Con+Pos+Prt+Pl: gijooweshkoonyimibaniig
+     2+jooweshk+NA+Dim+Pos+Prt+4: gijooweshkoonsimibaniin
      2+jooweshk+NA+Dim+Pos+Prt+Loc: gijooweshkoonsimibaniing
-     2+jooweshk+NA+Dim+Pos+Prt+Obv: gijooweshkoonsimibaniin
      2+jooweshk+NA+Dim+Pos+Prt+Pl: gijooweshkoonsimibaniig
+     3+jooweshk+NA+Con+Pos+Prt+4: ojooweshkoonyimibaniin
      3+jooweshk+NA+Con+Pos+Prt+Loc: ojooweshkoonyimibaniing
-     3+jooweshk+NA+Con+Pos+Prt+Obv: ojooweshkoonyimibaniin
      3+jooweshk+NA+Con+Pos+Prt+Pl: ojooweshkoonyimibaniig
+     3+jooweshk+NA+Dim+Pos+Prt+4: ojooweshkoonsimibaniin
      3+jooweshk+NA+Dim+Pos+Prt+Loc: ojooweshkoonsimibaniing
-     3+jooweshk+NA+Dim+Pos+Prt+Obv: ojooweshkoonsimibaniin
      3+jooweshk+NA+Dim+Pos+Prt+Pl: ojooweshkoonsimibaniig
+     X+jooweshk+NA+Con+Pos+Prt+4: ijooweshkoonyimibaniin
      X+jooweshk+NA+Con+Pos+Prt+Loc: ijooweshkoonyimibaniing
-     X+jooweshk+NA+Con+Pos+Prt+Obv: ijooweshkoonyimibaniin
      X+jooweshk+NA+Con+Pos+Prt+Pl: ijooweshkoonyimibaniig
+     X+jooweshk+NA+Dim+Pos+Prt+4: ijooweshkoonsimibaniin
      X+jooweshk+NA+Dim+Pos+Prt+Loc: ijooweshkoonsimibaniing
-     X+jooweshk+NA+Dim+Pos+Prt+Obv: ijooweshkoonsimibaniin
      X+jooweshk+NA+Dim+Pos+Prt+Pl: ijooweshkoonsimibaniig
      
      #Values from slots numbered: 1, 2, 4, 5, 6
@@ -888,133 +888,133 @@ Tests:
      2+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl: gijooweshkoonsishinaanidig
      2+jooweshk+NA+Dim+Pej+3+Pl+Prt: gijooweshkoonsishiwaaban
      2+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl: gijooweshkoonsishiwaadig
-     3+jooweshk+NA+Con+Pej+3+Obv+Prt: ojooweshkoonyishiniiban
-     3+jooweshk+NA+Con+Pej+3+Obv+Voc+Pl: ojooweshkoonyishiniidig
+     3+jooweshk+NA+Con+Pej+3+4+Prt: ojooweshkoonyishiniiban
+     3+jooweshk+NA+Con+Pej+3+4+Voc+Pl: ojooweshkoonyishiniidig
      3+jooweshk+NA+Con+Pej+3+Pl+Prt: ojooweshkoonyishiwaaban
      3+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl: ojooweshkoonyishiwaadig
-     3+jooweshk+NA+Dim+Pej+3+Obv+Prt: ojooweshkoonsishiniiban
-     3+jooweshk+NA+Dim+Pej+3+Obv+Voc+Pl: ojooweshkoonsishiniidig
+     3+jooweshk+NA+Dim+Pej+3+4+Prt: ojooweshkoonsishiniiban
+     3+jooweshk+NA+Dim+Pej+3+4+Voc+Pl: ojooweshkoonsishiniidig
      3+jooweshk+NA+Dim+Pej+3+Pl+Prt: ojooweshkoonsishiwaaban
      3+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl: ojooweshkoonsishiwaadig
      
      #Values from slots numbered: 1, 2, 4, 5, 7
+     1+jooweshk+NA+Con+Pej+1+Pl+4: nijooweshkoonyishinaanin
      1+jooweshk+NA+Con+Pej+1+Pl+Loc: nijooweshkoonyishinaaning
-     1+jooweshk+NA+Con+Pej+1+Pl+Obv: nijooweshkoonyishinaanin
      1+jooweshk+NA+Con+Pej+1+Pl+Pl: nijooweshkoonyishinaanig
+     1+jooweshk+NA+Dim+Pej+1+Pl+4: nijooweshkoonsishinaanin
      1+jooweshk+NA+Dim+Pej+1+Pl+Loc: nijooweshkoonsishinaaning
-     1+jooweshk+NA+Dim+Pej+1+Pl+Obv: nijooweshkoonsishinaanin
      1+jooweshk+NA+Dim+Pej+1+Pl+Pl: nijooweshkoonsishinaanig
+     2+jooweshk+NA+Con+Pej+1+Pl+4: gijooweshkoonyishinaanin
      2+jooweshk+NA+Con+Pej+1+Pl+Loc: gijooweshkoonyishinaaning
-     2+jooweshk+NA+Con+Pej+1+Pl+Obv: gijooweshkoonyishinaanin
      2+jooweshk+NA+Con+Pej+1+Pl+Pl: gijooweshkoonyishinaanig
+     2+jooweshk+NA+Con+Pej+3+Pl+4: gijooweshkoonyishiwaan
      2+jooweshk+NA+Con+Pej+3+Pl+Loc: gijooweshkoonyishiwaang
-     2+jooweshk+NA+Con+Pej+3+Pl+Obv: gijooweshkoonyishiwaan
      2+jooweshk+NA+Con+Pej+3+Pl+Pl: gijooweshkoonyishiwaag
+     2+jooweshk+NA+Dim+Pej+1+Pl+4: gijooweshkoonsishinaanin
      2+jooweshk+NA+Dim+Pej+1+Pl+Loc: gijooweshkoonsishinaaning
-     2+jooweshk+NA+Dim+Pej+1+Pl+Obv: gijooweshkoonsishinaanin
      2+jooweshk+NA+Dim+Pej+1+Pl+Pl: gijooweshkoonsishinaanig
+     2+jooweshk+NA+Dim+Pej+3+Pl+4: gijooweshkoonsishiwaan
      2+jooweshk+NA+Dim+Pej+3+Pl+Loc: gijooweshkoonsishiwaang
-     2+jooweshk+NA+Dim+Pej+3+Pl+Obv: gijooweshkoonsishiwaan
      2+jooweshk+NA+Dim+Pej+3+Pl+Pl: gijooweshkoonsishiwaag
-     3+jooweshk+NA+Con+Pej+3+Obv+Loc: ojooweshkoonyishiniing
-     3+jooweshk+NA+Con+Pej+3+Obv+Obv: ojooweshkoonyishiniwa
-     3+jooweshk+NA+Con+Pej+3+Obv+Pl: ojooweshkoonyishiniwa
+     3+jooweshk+NA+Con+Pej+3+4+4: ojooweshkoonyishiniwa
+     3+jooweshk+NA+Con+Pej+3+4+Loc: ojooweshkoonyishiniing
+     3+jooweshk+NA+Con+Pej+3+4+Pl: ojooweshkoonyishiniwa
+     3+jooweshk+NA+Con+Pej+3+Pl+4: ojooweshkoonyishiwaan
      3+jooweshk+NA+Con+Pej+3+Pl+Loc: ojooweshkoonyishiwaang
-     3+jooweshk+NA+Con+Pej+3+Pl+Obv: ojooweshkoonyishiwaan
      3+jooweshk+NA+Con+Pej+3+Pl+Pl: ojooweshkoonyishiwaag
-     3+jooweshk+NA+Dim+Pej+3+Obv+Loc: ojooweshkoonsishiniing
-     3+jooweshk+NA+Dim+Pej+3+Obv+Obv: ojooweshkoonsishiniwa
-     3+jooweshk+NA+Dim+Pej+3+Obv+Pl: ojooweshkoonsishiniwa
+     3+jooweshk+NA+Dim+Pej+3+4+4: ojooweshkoonsishiniwa
+     3+jooweshk+NA+Dim+Pej+3+4+Loc: ojooweshkoonsishiniing
+     3+jooweshk+NA+Dim+Pej+3+4+Pl: ojooweshkoonsishiniwa
+     3+jooweshk+NA+Dim+Pej+3+Pl+4: ojooweshkoonsishiwaan
      3+jooweshk+NA+Dim+Pej+3+Pl+Loc: ojooweshkoonsishiwaang
-     3+jooweshk+NA+Dim+Pej+3+Pl+Obv: ojooweshkoonsishiwaan
      3+jooweshk+NA+Dim+Pej+3+Pl+Pl: ojooweshkoonsishiwaag
      
      #Values from slots numbered: 1, 2, 4, 6, 7
+     1+jooweshk+NA+Con+Pej+Prt+4: nijooweshkoonyishibaniin
      1+jooweshk+NA+Con+Pej+Prt+Loc: nijooweshkoonyishibaniing
-     1+jooweshk+NA+Con+Pej+Prt+Obv: nijooweshkoonyishibaniin
      1+jooweshk+NA+Con+Pej+Prt+Pl: nijooweshkoonyishibaniig
+     1+jooweshk+NA+Dim+Pej+Prt+4: nijooweshkoonsishibaniin
      1+jooweshk+NA+Dim+Pej+Prt+Loc: nijooweshkoonsishibaniing
-     1+jooweshk+NA+Dim+Pej+Prt+Obv: nijooweshkoonsishibaniin
      1+jooweshk+NA+Dim+Pej+Prt+Pl: nijooweshkoonsishibaniig
+     2+jooweshk+NA+Con+Pej+Prt+4: gijooweshkoonyishibaniin
      2+jooweshk+NA+Con+Pej+Prt+Loc: gijooweshkoonyishibaniing
-     2+jooweshk+NA+Con+Pej+Prt+Obv: gijooweshkoonyishibaniin
      2+jooweshk+NA+Con+Pej+Prt+Pl: gijooweshkoonyishibaniig
+     2+jooweshk+NA+Dim+Pej+Prt+4: gijooweshkoonsishibaniin
      2+jooweshk+NA+Dim+Pej+Prt+Loc: gijooweshkoonsishibaniing
-     2+jooweshk+NA+Dim+Pej+Prt+Obv: gijooweshkoonsishibaniin
      2+jooweshk+NA+Dim+Pej+Prt+Pl: gijooweshkoonsishibaniig
+     3+jooweshk+NA+Con+Pej+Prt+4: ojooweshkoonyishibaniin
      3+jooweshk+NA+Con+Pej+Prt+Loc: ojooweshkoonyishibaniing
-     3+jooweshk+NA+Con+Pej+Prt+Obv: ojooweshkoonyishibaniin
      3+jooweshk+NA+Con+Pej+Prt+Pl: ojooweshkoonyishibaniig
+     3+jooweshk+NA+Dim+Pej+Prt+4: ojooweshkoonsishibaniin
      3+jooweshk+NA+Dim+Pej+Prt+Loc: ojooweshkoonsishibaniing
-     3+jooweshk+NA+Dim+Pej+Prt+Obv: ojooweshkoonsishibaniin
      3+jooweshk+NA+Dim+Pej+Prt+Pl: ojooweshkoonsishibaniig
+     X+jooweshk+NA+Con+Pej+Prt+4: ijooweshkoonyishibaniin
      X+jooweshk+NA+Con+Pej+Prt+Loc: ijooweshkoonyishibaniing
-     X+jooweshk+NA+Con+Pej+Prt+Obv: ijooweshkoonyishibaniin
      X+jooweshk+NA+Con+Pej+Prt+Pl: ijooweshkoonyishibaniig
+     X+jooweshk+NA+Dim+Pej+Prt+4: ijooweshkoonsishibaniin
      X+jooweshk+NA+Dim+Pej+Prt+Loc: ijooweshkoonsishibaniing
-     X+jooweshk+NA+Dim+Pej+Prt+Obv: ijooweshkoonsishibaniin
      X+jooweshk+NA+Dim+Pej+Prt+Pl: ijooweshkoonsishibaniig
      
      #Values from slots numbered: 1, 2, 5, 6, 7
+     1+jooweshk+NA+Con+1+Pl+Prt+4: nijooweshkoonyinaanibaniin
      1+jooweshk+NA+Con+1+Pl+Prt+Loc: nijooweshkoonyinaanibaniing
-     1+jooweshk+NA+Con+1+Pl+Prt+Obv: nijooweshkoonyinaanibaniin
      1+jooweshk+NA+Con+1+Pl+Prt+Pl: nijooweshkoonyinaanibaniig
+     1+jooweshk+NA+Con+1+Pl+Voc+Pl+4: nijooweshkoonyinaanidigan
      1+jooweshk+NA+Con+1+Pl+Voc+Pl+Loc: nijooweshkoonyinaanidiging
-     1+jooweshk+NA+Con+1+Pl+Voc+Pl+Obv: nijooweshkoonyinaanidigan
      1+jooweshk+NA+Con+1+Pl+Voc+Pl+Pl: nijooweshkoonyinaanidigag
+     1+jooweshk+NA+Dim+1+Pl+Prt+4: nijooweshkoonsinaanibaniin
      1+jooweshk+NA+Dim+1+Pl+Prt+Loc: nijooweshkoonsinaanibaniing
-     1+jooweshk+NA+Dim+1+Pl+Prt+Obv: nijooweshkoonsinaanibaniin
      1+jooweshk+NA+Dim+1+Pl+Prt+Pl: nijooweshkoonsinaanibaniig
+     1+jooweshk+NA+Dim+1+Pl+Voc+Pl+4: nijooweshkoonsinaanidigan
      1+jooweshk+NA+Dim+1+Pl+Voc+Pl+Loc: nijooweshkoonsinaanidiging
-     1+jooweshk+NA+Dim+1+Pl+Voc+Pl+Obv: nijooweshkoonsinaanidigan
      1+jooweshk+NA+Dim+1+Pl+Voc+Pl+Pl: nijooweshkoonsinaanidigag
+     2+jooweshk+NA+Con+1+Pl+Prt+4: gijooweshkoonyinaanibaniin
      2+jooweshk+NA+Con+1+Pl+Prt+Loc: gijooweshkoonyinaanibaniing
-     2+jooweshk+NA+Con+1+Pl+Prt+Obv: gijooweshkoonyinaanibaniin
      2+jooweshk+NA+Con+1+Pl+Prt+Pl: gijooweshkoonyinaanibaniig
+     2+jooweshk+NA+Con+1+Pl+Voc+Pl+4: gijooweshkoonyinaanidigan
      2+jooweshk+NA+Con+1+Pl+Voc+Pl+Loc: gijooweshkoonyinaanidiging
-     2+jooweshk+NA+Con+1+Pl+Voc+Pl+Obv: gijooweshkoonyinaanidigan
      2+jooweshk+NA+Con+1+Pl+Voc+Pl+Pl: gijooweshkoonyinaanidigag
+     2+jooweshk+NA+Con+3+Pl+Prt+4: gijooweshkoonyiwaabaniin
      2+jooweshk+NA+Con+3+Pl+Prt+Loc: gijooweshkoonyiwaabaniing
-     2+jooweshk+NA+Con+3+Pl+Prt+Obv: gijooweshkoonyiwaabaniin
      2+jooweshk+NA+Con+3+Pl+Prt+Pl: gijooweshkoonyiwaabaniig
+     2+jooweshk+NA+Con+3+Pl+Voc+Pl+4: gijooweshkoonyiwaadigan
      2+jooweshk+NA+Con+3+Pl+Voc+Pl+Loc: gijooweshkoonyiwaadiging
-     2+jooweshk+NA+Con+3+Pl+Voc+Pl+Obv: gijooweshkoonyiwaadigan
      2+jooweshk+NA+Con+3+Pl+Voc+Pl+Pl: gijooweshkoonyiwaadigag
+     2+jooweshk+NA+Dim+1+Pl+Prt+4: gijooweshkoonsinaanibaniin
      2+jooweshk+NA+Dim+1+Pl+Prt+Loc: gijooweshkoonsinaanibaniing
-     2+jooweshk+NA+Dim+1+Pl+Prt+Obv: gijooweshkoonsinaanibaniin
      2+jooweshk+NA+Dim+1+Pl+Prt+Pl: gijooweshkoonsinaanibaniig
+     2+jooweshk+NA+Dim+1+Pl+Voc+Pl+4: gijooweshkoonsinaanidigan
      2+jooweshk+NA+Dim+1+Pl+Voc+Pl+Loc: gijooweshkoonsinaanidiging
-     2+jooweshk+NA+Dim+1+Pl+Voc+Pl+Obv: gijooweshkoonsinaanidigan
      2+jooweshk+NA+Dim+1+Pl+Voc+Pl+Pl: gijooweshkoonsinaanidigag
+     2+jooweshk+NA+Dim+3+Pl+Prt+4: gijooweshkoonsiwaabaniin
      2+jooweshk+NA+Dim+3+Pl+Prt+Loc: gijooweshkoonsiwaabaniing
-     2+jooweshk+NA+Dim+3+Pl+Prt+Obv: gijooweshkoonsiwaabaniin
      2+jooweshk+NA+Dim+3+Pl+Prt+Pl: gijooweshkoonsiwaabaniig
+     2+jooweshk+NA+Dim+3+Pl+Voc+Pl+4: gijooweshkoonsiwaadigan
      2+jooweshk+NA+Dim+3+Pl+Voc+Pl+Loc: gijooweshkoonsiwaadiging
-     2+jooweshk+NA+Dim+3+Pl+Voc+Pl+Obv: gijooweshkoonsiwaadigan
      2+jooweshk+NA+Dim+3+Pl+Voc+Pl+Pl: gijooweshkoonsiwaadigag
-     3+jooweshk+NA+Con+3+Obv+Prt+Loc: ojooweshkoonyiniibaniing
-     3+jooweshk+NA+Con+3+Obv+Prt+Obv: ojooweshkoonyiniibaniin
-     3+jooweshk+NA+Con+3+Obv+Prt+Pl: ojooweshkoonyiniibaniig
-     3+jooweshk+NA+Con+3+Obv+Voc+Pl+Loc: ojooweshkoonyiniidiging
-     3+jooweshk+NA+Con+3+Obv+Voc+Pl+Obv: ojooweshkoonyiniidigan
-     3+jooweshk+NA+Con+3+Obv+Voc+Pl+Pl: ojooweshkoonyiniidigag
+     3+jooweshk+NA+Con+3+4+Prt+4: ojooweshkoonyiniibaniin
+     3+jooweshk+NA+Con+3+4+Prt+Loc: ojooweshkoonyiniibaniing
+     3+jooweshk+NA+Con+3+4+Prt+Pl: ojooweshkoonyiniibaniig
+     3+jooweshk+NA+Con+3+4+Voc+Pl+4: ojooweshkoonyiniidigan
+     3+jooweshk+NA+Con+3+4+Voc+Pl+Loc: ojooweshkoonyiniidiging
+     3+jooweshk+NA+Con+3+4+Voc+Pl+Pl: ojooweshkoonyiniidigag
+     3+jooweshk+NA+Con+3+Pl+Prt+4: ojooweshkoonyiwaabaniin
      3+jooweshk+NA+Con+3+Pl+Prt+Loc: ojooweshkoonyiwaabaniing
-     3+jooweshk+NA+Con+3+Pl+Prt+Obv: ojooweshkoonyiwaabaniin
      3+jooweshk+NA+Con+3+Pl+Prt+Pl: ojooweshkoonyiwaabaniig
+     3+jooweshk+NA+Con+3+Pl+Voc+Pl+4: ojooweshkoonyiwaadigan
      3+jooweshk+NA+Con+3+Pl+Voc+Pl+Loc: ojooweshkoonyiwaadiging
-     3+jooweshk+NA+Con+3+Pl+Voc+Pl+Obv: ojooweshkoonyiwaadigan
      3+jooweshk+NA+Con+3+Pl+Voc+Pl+Pl: ojooweshkoonyiwaadigag
-     3+jooweshk+NA+Dim+3+Obv+Prt+Loc: ojooweshkoonsiniibaniing
-     3+jooweshk+NA+Dim+3+Obv+Prt+Obv: ojooweshkoonsiniibaniin
-     3+jooweshk+NA+Dim+3+Obv+Prt+Pl: ojooweshkoonsiniibaniig
-     3+jooweshk+NA+Dim+3+Obv+Voc+Pl+Loc: ojooweshkoonsiniidiging
-     3+jooweshk+NA+Dim+3+Obv+Voc+Pl+Obv: ojooweshkoonsiniidigan
-     3+jooweshk+NA+Dim+3+Obv+Voc+Pl+Pl: ojooweshkoonsiniidigag
+     3+jooweshk+NA+Dim+3+4+Prt+4: ojooweshkoonsiniibaniin
+     3+jooweshk+NA+Dim+3+4+Prt+Loc: ojooweshkoonsiniibaniing
+     3+jooweshk+NA+Dim+3+4+Prt+Pl: ojooweshkoonsiniibaniig
+     3+jooweshk+NA+Dim+3+4+Voc+Pl+4: ojooweshkoonsiniidigan
+     3+jooweshk+NA+Dim+3+4+Voc+Pl+Loc: ojooweshkoonsiniidiging
+     3+jooweshk+NA+Dim+3+4+Voc+Pl+Pl: ojooweshkoonsiniidigag
+     3+jooweshk+NA+Dim+3+Pl+Prt+4: ojooweshkoonsiwaabaniin
      3+jooweshk+NA+Dim+3+Pl+Prt+Loc: ojooweshkoonsiwaabaniing
-     3+jooweshk+NA+Dim+3+Pl+Prt+Obv: ojooweshkoonsiwaabaniin
      3+jooweshk+NA+Dim+3+Pl+Prt+Pl: ojooweshkoonsiwaabaniig
+     3+jooweshk+NA+Dim+3+Pl+Voc+Pl+4: ojooweshkoonsiwaadigan
      3+jooweshk+NA+Dim+3+Pl+Voc+Pl+Loc: ojooweshkoonsiwaadiging
-     3+jooweshk+NA+Dim+3+Pl+Voc+Pl+Obv: ojooweshkoonsiwaadigan
      3+jooweshk+NA+Dim+3+Pl+Voc+Pl+Pl: ojooweshkoonsiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6
@@ -1024,104 +1024,104 @@ Tests:
      2+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl: gijooweshkomishinaanidig
      2+jooweshk+NA+Pos+Pej+3+Pl+Prt: gijooweshkomishiwaaban
      2+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl: gijooweshkomishiwaadig
-     3+jooweshk+NA+Pos+Pej+3+Obv+Prt: ojooweshkomishiniiban
-     3+jooweshk+NA+Pos+Pej+3+Obv+Voc+Pl: ojooweshkomishiniidig
+     3+jooweshk+NA+Pos+Pej+3+4+Prt: ojooweshkomishiniiban
+     3+jooweshk+NA+Pos+Pej+3+4+Voc+Pl: ojooweshkomishiniidig
      3+jooweshk+NA+Pos+Pej+3+Pl+Prt: ojooweshkomishiwaaban
      3+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl: ojooweshkomishiwaadig
      
      #Values from slots numbered: 1, 3, 4, 5, 7
+     1+jooweshk+NA+Pos+Pej+1+Pl+4: nijooweshkomishinaanin
      1+jooweshk+NA+Pos+Pej+1+Pl+Loc: nijooweshkomishinaaning
-     1+jooweshk+NA+Pos+Pej+1+Pl+Obv: nijooweshkomishinaanin
      1+jooweshk+NA+Pos+Pej+1+Pl+Pl: nijooweshkomishinaanig
+     2+jooweshk+NA+Pos+Pej+1+Pl+4: gijooweshkomishinaanin
      2+jooweshk+NA+Pos+Pej+1+Pl+Loc: gijooweshkomishinaaning
-     2+jooweshk+NA+Pos+Pej+1+Pl+Obv: gijooweshkomishinaanin
      2+jooweshk+NA+Pos+Pej+1+Pl+Pl: gijooweshkomishinaanig
+     2+jooweshk+NA+Pos+Pej+3+Pl+4: gijooweshkomishiwaan
      2+jooweshk+NA+Pos+Pej+3+Pl+Loc: gijooweshkomishiwaang
-     2+jooweshk+NA+Pos+Pej+3+Pl+Obv: gijooweshkomishiwaan
      2+jooweshk+NA+Pos+Pej+3+Pl+Pl: gijooweshkomishiwaag
-     3+jooweshk+NA+Pos+Pej+3+Obv+Loc: ojooweshkomishiniing
-     3+jooweshk+NA+Pos+Pej+3+Obv+Obv: ojooweshkomishiniwa
-     3+jooweshk+NA+Pos+Pej+3+Obv+Pl: ojooweshkomishiniwa
+     3+jooweshk+NA+Pos+Pej+3+4+4: ojooweshkomishiniwa
+     3+jooweshk+NA+Pos+Pej+3+4+Loc: ojooweshkomishiniing
+     3+jooweshk+NA+Pos+Pej+3+4+Pl: ojooweshkomishiniwa
+     3+jooweshk+NA+Pos+Pej+3+Pl+4: ojooweshkomishiwaan
      3+jooweshk+NA+Pos+Pej+3+Pl+Loc: ojooweshkomishiwaang
-     3+jooweshk+NA+Pos+Pej+3+Pl+Obv: ojooweshkomishiwaan
      3+jooweshk+NA+Pos+Pej+3+Pl+Pl: ojooweshkomishiwaag
      
      #Values from slots numbered: 1, 3, 4, 6, 7
+     1+jooweshk+NA+Pos+Pej+Prt+4: nijooweshkomishibaniin
      1+jooweshk+NA+Pos+Pej+Prt+Loc: nijooweshkomishibaniing
-     1+jooweshk+NA+Pos+Pej+Prt+Obv: nijooweshkomishibaniin
      1+jooweshk+NA+Pos+Pej+Prt+Pl: nijooweshkomishibaniig
+     2+jooweshk+NA+Pos+Pej+Prt+4: gijooweshkomishibaniin
      2+jooweshk+NA+Pos+Pej+Prt+Loc: gijooweshkomishibaniing
-     2+jooweshk+NA+Pos+Pej+Prt+Obv: gijooweshkomishibaniin
      2+jooweshk+NA+Pos+Pej+Prt+Pl: gijooweshkomishibaniig
+     3+jooweshk+NA+Pos+Pej+Prt+4: ojooweshkomishibaniin
      3+jooweshk+NA+Pos+Pej+Prt+Loc: ojooweshkomishibaniing
-     3+jooweshk+NA+Pos+Pej+Prt+Obv: ojooweshkomishibaniin
      3+jooweshk+NA+Pos+Pej+Prt+Pl: ojooweshkomishibaniig
+     X+jooweshk+NA+Pos+Pej+Prt+4: ijooweshkomishibaniin
      X+jooweshk+NA+Pos+Pej+Prt+Loc: ijooweshkomishibaniing
-     X+jooweshk+NA+Pos+Pej+Prt+Obv: ijooweshkomishibaniin
      X+jooweshk+NA+Pos+Pej+Prt+Pl: ijooweshkomishibaniig
      
      #Values from slots numbered: 1, 3, 5, 6, 7
+     1+jooweshk+NA+Pos+1+Pl+Prt+4: nijooweshkominaanibaniin
      1+jooweshk+NA+Pos+1+Pl+Prt+Loc: nijooweshkominaanibaniing
-     1+jooweshk+NA+Pos+1+Pl+Prt+Obv: nijooweshkominaanibaniin
      1+jooweshk+NA+Pos+1+Pl+Prt+Pl: nijooweshkominaanibaniig
+     1+jooweshk+NA+Pos+1+Pl+Voc+Pl+4: nijooweshkominaanidigan
      1+jooweshk+NA+Pos+1+Pl+Voc+Pl+Loc: nijooweshkominaanidiging
-     1+jooweshk+NA+Pos+1+Pl+Voc+Pl+Obv: nijooweshkominaanidigan
      1+jooweshk+NA+Pos+1+Pl+Voc+Pl+Pl: nijooweshkominaanidigag
+     2+jooweshk+NA+Pos+1+Pl+Prt+4: gijooweshkominaanibaniin
      2+jooweshk+NA+Pos+1+Pl+Prt+Loc: gijooweshkominaanibaniing
-     2+jooweshk+NA+Pos+1+Pl+Prt+Obv: gijooweshkominaanibaniin
      2+jooweshk+NA+Pos+1+Pl+Prt+Pl: gijooweshkominaanibaniig
+     2+jooweshk+NA+Pos+1+Pl+Voc+Pl+4: gijooweshkominaanidigan
      2+jooweshk+NA+Pos+1+Pl+Voc+Pl+Loc: gijooweshkominaanidiging
-     2+jooweshk+NA+Pos+1+Pl+Voc+Pl+Obv: gijooweshkominaanidigan
      2+jooweshk+NA+Pos+1+Pl+Voc+Pl+Pl: gijooweshkominaanidigag
+     2+jooweshk+NA+Pos+3+Pl+Prt+4: gijooweshkomiwaabaniin
      2+jooweshk+NA+Pos+3+Pl+Prt+Loc: gijooweshkomiwaabaniing
-     2+jooweshk+NA+Pos+3+Pl+Prt+Obv: gijooweshkomiwaabaniin
      2+jooweshk+NA+Pos+3+Pl+Prt+Pl: gijooweshkomiwaabaniig
+     2+jooweshk+NA+Pos+3+Pl+Voc+Pl+4: gijooweshkomiwaadigan
      2+jooweshk+NA+Pos+3+Pl+Voc+Pl+Loc: gijooweshkomiwaadiging
-     2+jooweshk+NA+Pos+3+Pl+Voc+Pl+Obv: gijooweshkomiwaadigan
      2+jooweshk+NA+Pos+3+Pl+Voc+Pl+Pl: gijooweshkomiwaadigag
-     3+jooweshk+NA+Pos+3+Obv+Prt+Loc: ojooweshkominiibaniing
-     3+jooweshk+NA+Pos+3+Obv+Prt+Obv: ojooweshkominiibaniin
-     3+jooweshk+NA+Pos+3+Obv+Prt+Pl: ojooweshkominiibaniig
-     3+jooweshk+NA+Pos+3+Obv+Voc+Pl+Loc: ojooweshkominiidiging
-     3+jooweshk+NA+Pos+3+Obv+Voc+Pl+Obv: ojooweshkominiidigan
-     3+jooweshk+NA+Pos+3+Obv+Voc+Pl+Pl: ojooweshkominiidigag
+     3+jooweshk+NA+Pos+3+4+Prt+4: ojooweshkominiibaniin
+     3+jooweshk+NA+Pos+3+4+Prt+Loc: ojooweshkominiibaniing
+     3+jooweshk+NA+Pos+3+4+Prt+Pl: ojooweshkominiibaniig
+     3+jooweshk+NA+Pos+3+4+Voc+Pl+4: ojooweshkominiidigan
+     3+jooweshk+NA+Pos+3+4+Voc+Pl+Loc: ojooweshkominiidiging
+     3+jooweshk+NA+Pos+3+4+Voc+Pl+Pl: ojooweshkominiidigag
+     3+jooweshk+NA+Pos+3+Pl+Prt+4: ojooweshkomiwaabaniin
      3+jooweshk+NA+Pos+3+Pl+Prt+Loc: ojooweshkomiwaabaniing
-     3+jooweshk+NA+Pos+3+Pl+Prt+Obv: ojooweshkomiwaabaniin
      3+jooweshk+NA+Pos+3+Pl+Prt+Pl: ojooweshkomiwaabaniig
+     3+jooweshk+NA+Pos+3+Pl+Voc+Pl+4: ojooweshkomiwaadigan
      3+jooweshk+NA+Pos+3+Pl+Voc+Pl+Loc: ojooweshkomiwaadiging
-     3+jooweshk+NA+Pos+3+Pl+Voc+Pl+Obv: ojooweshkomiwaadigan
      3+jooweshk+NA+Pos+3+Pl+Voc+Pl+Pl: ojooweshkomiwaadigag
      
      #Values from slots numbered: 1, 4, 5, 6, 7
+     1+jooweshk+NA+Pej+1+Pl+Prt+4: nijooweshkoshinaanibaniin
      1+jooweshk+NA+Pej+1+Pl+Prt+Loc: nijooweshkoshinaanibaniing
-     1+jooweshk+NA+Pej+1+Pl+Prt+Obv: nijooweshkoshinaanibaniin
      1+jooweshk+NA+Pej+1+Pl+Prt+Pl: nijooweshkoshinaanibaniig
+     1+jooweshk+NA+Pej+1+Pl+Voc+Pl+4: nijooweshkoshinaanidigan
      1+jooweshk+NA+Pej+1+Pl+Voc+Pl+Loc: nijooweshkoshinaanidiging
-     1+jooweshk+NA+Pej+1+Pl+Voc+Pl+Obv: nijooweshkoshinaanidigan
      1+jooweshk+NA+Pej+1+Pl+Voc+Pl+Pl: nijooweshkoshinaanidigag
+     2+jooweshk+NA+Pej+1+Pl+Prt+4: gijooweshkoshinaanibaniin
      2+jooweshk+NA+Pej+1+Pl+Prt+Loc: gijooweshkoshinaanibaniing
-     2+jooweshk+NA+Pej+1+Pl+Prt+Obv: gijooweshkoshinaanibaniin
      2+jooweshk+NA+Pej+1+Pl+Prt+Pl: gijooweshkoshinaanibaniig
+     2+jooweshk+NA+Pej+1+Pl+Voc+Pl+4: gijooweshkoshinaanidigan
      2+jooweshk+NA+Pej+1+Pl+Voc+Pl+Loc: gijooweshkoshinaanidiging
-     2+jooweshk+NA+Pej+1+Pl+Voc+Pl+Obv: gijooweshkoshinaanidigan
      2+jooweshk+NA+Pej+1+Pl+Voc+Pl+Pl: gijooweshkoshinaanidigag
+     2+jooweshk+NA+Pej+3+Pl+Prt+4: gijooweshkoshiwaabaniin
      2+jooweshk+NA+Pej+3+Pl+Prt+Loc: gijooweshkoshiwaabaniing
-     2+jooweshk+NA+Pej+3+Pl+Prt+Obv: gijooweshkoshiwaabaniin
      2+jooweshk+NA+Pej+3+Pl+Prt+Pl: gijooweshkoshiwaabaniig
+     2+jooweshk+NA+Pej+3+Pl+Voc+Pl+4: gijooweshkoshiwaadigan
      2+jooweshk+NA+Pej+3+Pl+Voc+Pl+Loc: gijooweshkoshiwaadiging
-     2+jooweshk+NA+Pej+3+Pl+Voc+Pl+Obv: gijooweshkoshiwaadigan
      2+jooweshk+NA+Pej+3+Pl+Voc+Pl+Pl: gijooweshkoshiwaadigag
-     3+jooweshk+NA+Pej+3+Obv+Prt+Loc: ojooweshkoshiniibaniing
-     3+jooweshk+NA+Pej+3+Obv+Prt+Obv: ojooweshkoshiniibaniin
-     3+jooweshk+NA+Pej+3+Obv+Prt+Pl: ojooweshkoshiniibaniig
-     3+jooweshk+NA+Pej+3+Obv+Voc+Pl+Loc: ojooweshkoshiniidiging
-     3+jooweshk+NA+Pej+3+Obv+Voc+Pl+Obv: ojooweshkoshiniidigan
-     3+jooweshk+NA+Pej+3+Obv+Voc+Pl+Pl: ojooweshkoshiniidigag
+     3+jooweshk+NA+Pej+3+4+Prt+4: ojooweshkoshiniibaniin
+     3+jooweshk+NA+Pej+3+4+Prt+Loc: ojooweshkoshiniibaniing
+     3+jooweshk+NA+Pej+3+4+Prt+Pl: ojooweshkoshiniibaniig
+     3+jooweshk+NA+Pej+3+4+Voc+Pl+4: ojooweshkoshiniidigan
+     3+jooweshk+NA+Pej+3+4+Voc+Pl+Loc: ojooweshkoshiniidiging
+     3+jooweshk+NA+Pej+3+4+Voc+Pl+Pl: ojooweshkoshiniidigag
+     3+jooweshk+NA+Pej+3+Pl+Prt+4: ojooweshkoshiwaabaniin
      3+jooweshk+NA+Pej+3+Pl+Prt+Loc: ojooweshkoshiwaabaniing
-     3+jooweshk+NA+Pej+3+Pl+Prt+Obv: ojooweshkoshiwaabaniin
      3+jooweshk+NA+Pej+3+Pl+Prt+Pl: ojooweshkoshiwaabaniig
+     3+jooweshk+NA+Pej+3+Pl+Voc+Pl+4: ojooweshkoshiwaadigan
      3+jooweshk+NA+Pej+3+Pl+Voc+Pl+Loc: ojooweshkoshiwaadiging
-     3+jooweshk+NA+Pej+3+Pl+Voc+Pl+Obv: ojooweshkoshiwaadigan
      3+jooweshk+NA+Pej+3+Pl+Voc+Pl+Pl: ojooweshkoshiwaadigag
      
      
@@ -1143,289 +1143,289 @@ Tests:
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl: gijooweshkoonsimishinaanidig
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt: gijooweshkoonsimishiwaaban
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl: gijooweshkoonsimishiwaadig
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Prt: ojooweshkoonyimishiniiban
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Voc+Pl: ojooweshkoonyimishiniidig
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Prt: ojooweshkoonyimishiniiban
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Voc+Pl: ojooweshkoonyimishiniidig
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt: ojooweshkoonyimishiwaaban
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl: ojooweshkoonyimishiwaadig
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Prt: ojooweshkoonsimishiniiban
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Voc+Pl: ojooweshkoonsimishiniidig
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Prt: ojooweshkoonsimishiniiban
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Voc+Pl: ojooweshkoonsimishiniidig
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt: ojooweshkoonsimishiwaaban
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl: ojooweshkoonsimishiwaadig
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 7
+     1+jooweshk+NA+Con+Pos+Pej+1+Pl+4: nijooweshkoonyimishinaanin
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Loc: nijooweshkoonyimishinaaning
-     1+jooweshk+NA+Con+Pos+Pej+1+Pl+Obv: nijooweshkoonyimishinaanin
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Pl: nijooweshkoonyimishinaanig
+     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+4: nijooweshkoonsimishinaanin
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Loc: nijooweshkoonsimishinaaning
-     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Obv: nijooweshkoonsimishinaanin
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Pl: nijooweshkoonsimishinaanig
+     2+jooweshk+NA+Con+Pos+Pej+1+Pl+4: gijooweshkoonyimishinaanin
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Loc: gijooweshkoonyimishinaaning
-     2+jooweshk+NA+Con+Pos+Pej+1+Pl+Obv: gijooweshkoonyimishinaanin
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Pl: gijooweshkoonyimishinaanig
+     2+jooweshk+NA+Con+Pos+Pej+3+Pl+4: gijooweshkoonyimishiwaan
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Loc: gijooweshkoonyimishiwaang
-     2+jooweshk+NA+Con+Pos+Pej+3+Pl+Obv: gijooweshkoonyimishiwaan
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Pl: gijooweshkoonyimishiwaag
+     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+4: gijooweshkoonsimishinaanin
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Loc: gijooweshkoonsimishinaaning
-     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Obv: gijooweshkoonsimishinaanin
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Pl: gijooweshkoonsimishinaanig
+     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+4: gijooweshkoonsimishiwaan
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Loc: gijooweshkoonsimishiwaang
-     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Obv: gijooweshkoonsimishiwaan
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Pl: gijooweshkoonsimishiwaag
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Loc: ojooweshkoonyimishiniing
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Obv: ojooweshkoonyimishiniwa
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Pl: ojooweshkoonyimishiniwa
+     3+jooweshk+NA+Con+Pos+Pej+3+4+4: ojooweshkoonyimishiniwa
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Loc: ojooweshkoonyimishiniing
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Pl: ojooweshkoonyimishiniwa
+     3+jooweshk+NA+Con+Pos+Pej+3+Pl+4: ojooweshkoonyimishiwaan
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Loc: ojooweshkoonyimishiwaang
-     3+jooweshk+NA+Con+Pos+Pej+3+Pl+Obv: ojooweshkoonyimishiwaan
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Pl: ojooweshkoonyimishiwaag
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Loc: ojooweshkoonsimishiniing
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Obv: ojooweshkoonsimishiniwa
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Pl: ojooweshkoonsimishiniwa
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+4: ojooweshkoonsimishiniwa
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Loc: ojooweshkoonsimishiniing
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Pl: ojooweshkoonsimishiniwa
+     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+4: ojooweshkoonsimishiwaan
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Loc: ojooweshkoonsimishiwaang
-     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Obv: ojooweshkoonsimishiwaan
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Pl: ojooweshkoonsimishiwaag
      
      #Values from slots numbered: 1, 2, 3, 4, 6, 7
+     1+jooweshk+NA+Con+Pos+Pej+Prt+4: nijooweshkoonyimishibaniin
      1+jooweshk+NA+Con+Pos+Pej+Prt+Loc: nijooweshkoonyimishibaniing
-     1+jooweshk+NA+Con+Pos+Pej+Prt+Obv: nijooweshkoonyimishibaniin
      1+jooweshk+NA+Con+Pos+Pej+Prt+Pl: nijooweshkoonyimishibaniig
+     1+jooweshk+NA+Dim+Pos+Pej+Prt+4: nijooweshkoonsimishibaniin
      1+jooweshk+NA+Dim+Pos+Pej+Prt+Loc: nijooweshkoonsimishibaniing
-     1+jooweshk+NA+Dim+Pos+Pej+Prt+Obv: nijooweshkoonsimishibaniin
      1+jooweshk+NA+Dim+Pos+Pej+Prt+Pl: nijooweshkoonsimishibaniig
+     2+jooweshk+NA+Con+Pos+Pej+Prt+4: gijooweshkoonyimishibaniin
      2+jooweshk+NA+Con+Pos+Pej+Prt+Loc: gijooweshkoonyimishibaniing
-     2+jooweshk+NA+Con+Pos+Pej+Prt+Obv: gijooweshkoonyimishibaniin
      2+jooweshk+NA+Con+Pos+Pej+Prt+Pl: gijooweshkoonyimishibaniig
+     2+jooweshk+NA+Dim+Pos+Pej+Prt+4: gijooweshkoonsimishibaniin
      2+jooweshk+NA+Dim+Pos+Pej+Prt+Loc: gijooweshkoonsimishibaniing
-     2+jooweshk+NA+Dim+Pos+Pej+Prt+Obv: gijooweshkoonsimishibaniin
      2+jooweshk+NA+Dim+Pos+Pej+Prt+Pl: gijooweshkoonsimishibaniig
+     3+jooweshk+NA+Con+Pos+Pej+Prt+4: ojooweshkoonyimishibaniin
      3+jooweshk+NA+Con+Pos+Pej+Prt+Loc: ojooweshkoonyimishibaniing
-     3+jooweshk+NA+Con+Pos+Pej+Prt+Obv: ojooweshkoonyimishibaniin
      3+jooweshk+NA+Con+Pos+Pej+Prt+Pl: ojooweshkoonyimishibaniig
+     3+jooweshk+NA+Dim+Pos+Pej+Prt+4: ojooweshkoonsimishibaniin
      3+jooweshk+NA+Dim+Pos+Pej+Prt+Loc: ojooweshkoonsimishibaniing
-     3+jooweshk+NA+Dim+Pos+Pej+Prt+Obv: ojooweshkoonsimishibaniin
      3+jooweshk+NA+Dim+Pos+Pej+Prt+Pl: ojooweshkoonsimishibaniig
+     X+jooweshk+NA+Con+Pos+Pej+Prt+4: ijooweshkoonyimishibaniin
      X+jooweshk+NA+Con+Pos+Pej+Prt+Loc: ijooweshkoonyimishibaniing
-     X+jooweshk+NA+Con+Pos+Pej+Prt+Obv: ijooweshkoonyimishibaniin
      X+jooweshk+NA+Con+Pos+Pej+Prt+Pl: ijooweshkoonyimishibaniig
+     X+jooweshk+NA+Dim+Pos+Pej+Prt+4: ijooweshkoonsimishibaniin
      X+jooweshk+NA+Dim+Pos+Pej+Prt+Loc: ijooweshkoonsimishibaniing
-     X+jooweshk+NA+Dim+Pos+Pej+Prt+Obv: ijooweshkoonsimishibaniin
      X+jooweshk+NA+Dim+Pos+Pej+Prt+Pl: ijooweshkoonsimishibaniig
      
      #Values from slots numbered: 1, 2, 3, 5, 6, 7
+     1+jooweshk+NA+Con+Pos+1+Pl+Prt+4: nijooweshkoonyiminaanibaniin
      1+jooweshk+NA+Con+Pos+1+Pl+Prt+Loc: nijooweshkoonyiminaanibaniing
-     1+jooweshk+NA+Con+Pos+1+Pl+Prt+Obv: nijooweshkoonyiminaanibaniin
      1+jooweshk+NA+Con+Pos+1+Pl+Prt+Pl: nijooweshkoonyiminaanibaniig
+     1+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+4: nijooweshkoonyiminaanidigan
      1+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Loc: nijooweshkoonyiminaanidiging
-     1+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Obv: nijooweshkoonyiminaanidigan
      1+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Pl: nijooweshkoonyiminaanidigag
+     1+jooweshk+NA+Dim+Pos+1+Pl+Prt+4: nijooweshkoonsiminaanibaniin
      1+jooweshk+NA+Dim+Pos+1+Pl+Prt+Loc: nijooweshkoonsiminaanibaniing
-     1+jooweshk+NA+Dim+Pos+1+Pl+Prt+Obv: nijooweshkoonsiminaanibaniin
      1+jooweshk+NA+Dim+Pos+1+Pl+Prt+Pl: nijooweshkoonsiminaanibaniig
+     1+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+4: nijooweshkoonsiminaanidigan
      1+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Loc: nijooweshkoonsiminaanidiging
-     1+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Obv: nijooweshkoonsiminaanidigan
      1+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Pl: nijooweshkoonsiminaanidigag
+     2+jooweshk+NA+Con+Pos+1+Pl+Prt+4: gijooweshkoonyiminaanibaniin
      2+jooweshk+NA+Con+Pos+1+Pl+Prt+Loc: gijooweshkoonyiminaanibaniing
-     2+jooweshk+NA+Con+Pos+1+Pl+Prt+Obv: gijooweshkoonyiminaanibaniin
      2+jooweshk+NA+Con+Pos+1+Pl+Prt+Pl: gijooweshkoonyiminaanibaniig
+     2+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+4: gijooweshkoonyiminaanidigan
      2+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Loc: gijooweshkoonyiminaanidiging
-     2+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Obv: gijooweshkoonyiminaanidigan
      2+jooweshk+NA+Con+Pos+1+Pl+Voc+Pl+Pl: gijooweshkoonyiminaanidigag
+     2+jooweshk+NA+Con+Pos+3+Pl+Prt+4: gijooweshkoonyimiwaabaniin
      2+jooweshk+NA+Con+Pos+3+Pl+Prt+Loc: gijooweshkoonyimiwaabaniing
-     2+jooweshk+NA+Con+Pos+3+Pl+Prt+Obv: gijooweshkoonyimiwaabaniin
      2+jooweshk+NA+Con+Pos+3+Pl+Prt+Pl: gijooweshkoonyimiwaabaniig
+     2+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+4: gijooweshkoonyimiwaadigan
      2+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Loc: gijooweshkoonyimiwaadiging
-     2+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Obv: gijooweshkoonyimiwaadigan
      2+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Pl: gijooweshkoonyimiwaadigag
+     2+jooweshk+NA+Dim+Pos+1+Pl+Prt+4: gijooweshkoonsiminaanibaniin
      2+jooweshk+NA+Dim+Pos+1+Pl+Prt+Loc: gijooweshkoonsiminaanibaniing
-     2+jooweshk+NA+Dim+Pos+1+Pl+Prt+Obv: gijooweshkoonsiminaanibaniin
      2+jooweshk+NA+Dim+Pos+1+Pl+Prt+Pl: gijooweshkoonsiminaanibaniig
+     2+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+4: gijooweshkoonsiminaanidigan
      2+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Loc: gijooweshkoonsiminaanidiging
-     2+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Obv: gijooweshkoonsiminaanidigan
      2+jooweshk+NA+Dim+Pos+1+Pl+Voc+Pl+Pl: gijooweshkoonsiminaanidigag
+     2+jooweshk+NA+Dim+Pos+3+Pl+Prt+4: gijooweshkoonsimiwaabaniin
      2+jooweshk+NA+Dim+Pos+3+Pl+Prt+Loc: gijooweshkoonsimiwaabaniing
-     2+jooweshk+NA+Dim+Pos+3+Pl+Prt+Obv: gijooweshkoonsimiwaabaniin
      2+jooweshk+NA+Dim+Pos+3+Pl+Prt+Pl: gijooweshkoonsimiwaabaniig
+     2+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+4: gijooweshkoonsimiwaadigan
      2+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Loc: gijooweshkoonsimiwaadiging
-     2+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Obv: gijooweshkoonsimiwaadigan
      2+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Pl: gijooweshkoonsimiwaadigag
-     3+jooweshk+NA+Con+Pos+3+Obv+Prt+Loc: ojooweshkoonyiminiibaniing
-     3+jooweshk+NA+Con+Pos+3+Obv+Prt+Obv: ojooweshkoonyiminiibaniin
-     3+jooweshk+NA+Con+Pos+3+Obv+Prt+Pl: ojooweshkoonyiminiibaniig
-     3+jooweshk+NA+Con+Pos+3+Obv+Voc+Pl+Loc: ojooweshkoonyiminiidiging
-     3+jooweshk+NA+Con+Pos+3+Obv+Voc+Pl+Obv: ojooweshkoonyiminiidigan
-     3+jooweshk+NA+Con+Pos+3+Obv+Voc+Pl+Pl: ojooweshkoonyiminiidigag
+     3+jooweshk+NA+Con+Pos+3+4+Prt+4: ojooweshkoonyiminiibaniin
+     3+jooweshk+NA+Con+Pos+3+4+Prt+Loc: ojooweshkoonyiminiibaniing
+     3+jooweshk+NA+Con+Pos+3+4+Prt+Pl: ojooweshkoonyiminiibaniig
+     3+jooweshk+NA+Con+Pos+3+4+Voc+Pl+4: ojooweshkoonyiminiidigan
+     3+jooweshk+NA+Con+Pos+3+4+Voc+Pl+Loc: ojooweshkoonyiminiidiging
+     3+jooweshk+NA+Con+Pos+3+4+Voc+Pl+Pl: ojooweshkoonyiminiidigag
+     3+jooweshk+NA+Con+Pos+3+Pl+Prt+4: ojooweshkoonyimiwaabaniin
      3+jooweshk+NA+Con+Pos+3+Pl+Prt+Loc: ojooweshkoonyimiwaabaniing
-     3+jooweshk+NA+Con+Pos+3+Pl+Prt+Obv: ojooweshkoonyimiwaabaniin
      3+jooweshk+NA+Con+Pos+3+Pl+Prt+Pl: ojooweshkoonyimiwaabaniig
+     3+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+4: ojooweshkoonyimiwaadigan
      3+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Loc: ojooweshkoonyimiwaadiging
-     3+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Obv: ojooweshkoonyimiwaadigan
      3+jooweshk+NA+Con+Pos+3+Pl+Voc+Pl+Pl: ojooweshkoonyimiwaadigag
-     3+jooweshk+NA+Dim+Pos+3+Obv+Prt+Loc: ojooweshkoonsiminiibaniing
-     3+jooweshk+NA+Dim+Pos+3+Obv+Prt+Obv: ojooweshkoonsiminiibaniin
-     3+jooweshk+NA+Dim+Pos+3+Obv+Prt+Pl: ojooweshkoonsiminiibaniig
-     3+jooweshk+NA+Dim+Pos+3+Obv+Voc+Pl+Loc: ojooweshkoonsiminiidiging
-     3+jooweshk+NA+Dim+Pos+3+Obv+Voc+Pl+Obv: ojooweshkoonsiminiidigan
-     3+jooweshk+NA+Dim+Pos+3+Obv+Voc+Pl+Pl: ojooweshkoonsiminiidigag
+     3+jooweshk+NA+Dim+Pos+3+4+Prt+4: ojooweshkoonsiminiibaniin
+     3+jooweshk+NA+Dim+Pos+3+4+Prt+Loc: ojooweshkoonsiminiibaniing
+     3+jooweshk+NA+Dim+Pos+3+4+Prt+Pl: ojooweshkoonsiminiibaniig
+     3+jooweshk+NA+Dim+Pos+3+4+Voc+Pl+4: ojooweshkoonsiminiidigan
+     3+jooweshk+NA+Dim+Pos+3+4+Voc+Pl+Loc: ojooweshkoonsiminiidiging
+     3+jooweshk+NA+Dim+Pos+3+4+Voc+Pl+Pl: ojooweshkoonsiminiidigag
+     3+jooweshk+NA+Dim+Pos+3+Pl+Prt+4: ojooweshkoonsimiwaabaniin
      3+jooweshk+NA+Dim+Pos+3+Pl+Prt+Loc: ojooweshkoonsimiwaabaniing
-     3+jooweshk+NA+Dim+Pos+3+Pl+Prt+Obv: ojooweshkoonsimiwaabaniin
      3+jooweshk+NA+Dim+Pos+3+Pl+Prt+Pl: ojooweshkoonsimiwaabaniig
+     3+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+4: ojooweshkoonsimiwaadigan
      3+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Loc: ojooweshkoonsimiwaadiging
-     3+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Obv: ojooweshkoonsimiwaadigan
      3+jooweshk+NA+Dim+Pos+3+Pl+Voc+Pl+Pl: ojooweshkoonsimiwaadigag
      
      #Values from slots numbered: 1, 2, 4, 5, 6, 7
+     1+jooweshk+NA+Con+Pej+1+Pl+Prt+4: nijooweshkoonyishinaanibaniin
      1+jooweshk+NA+Con+Pej+1+Pl+Prt+Loc: nijooweshkoonyishinaanibaniing
-     1+jooweshk+NA+Con+Pej+1+Pl+Prt+Obv: nijooweshkoonyishinaanibaniin
      1+jooweshk+NA+Con+Pej+1+Pl+Prt+Pl: nijooweshkoonyishinaanibaniig
+     1+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+4: nijooweshkoonyishinaanidigan
      1+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Loc: nijooweshkoonyishinaanidiging
-     1+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Obv: nijooweshkoonyishinaanidigan
      1+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Pl: nijooweshkoonyishinaanidigag
+     1+jooweshk+NA+Dim+Pej+1+Pl+Prt+4: nijooweshkoonsishinaanibaniin
      1+jooweshk+NA+Dim+Pej+1+Pl+Prt+Loc: nijooweshkoonsishinaanibaniing
-     1+jooweshk+NA+Dim+Pej+1+Pl+Prt+Obv: nijooweshkoonsishinaanibaniin
      1+jooweshk+NA+Dim+Pej+1+Pl+Prt+Pl: nijooweshkoonsishinaanibaniig
+     1+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+4: nijooweshkoonsishinaanidigan
      1+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Loc: nijooweshkoonsishinaanidiging
-     1+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Obv: nijooweshkoonsishinaanidigan
      1+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Pl: nijooweshkoonsishinaanidigag
+     2+jooweshk+NA+Con+Pej+1+Pl+Prt+4: gijooweshkoonyishinaanibaniin
      2+jooweshk+NA+Con+Pej+1+Pl+Prt+Loc: gijooweshkoonyishinaanibaniing
-     2+jooweshk+NA+Con+Pej+1+Pl+Prt+Obv: gijooweshkoonyishinaanibaniin
      2+jooweshk+NA+Con+Pej+1+Pl+Prt+Pl: gijooweshkoonyishinaanibaniig
+     2+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+4: gijooweshkoonyishinaanidigan
      2+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Loc: gijooweshkoonyishinaanidiging
-     2+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Obv: gijooweshkoonyishinaanidigan
      2+jooweshk+NA+Con+Pej+1+Pl+Voc+Pl+Pl: gijooweshkoonyishinaanidigag
+     2+jooweshk+NA+Con+Pej+3+Pl+Prt+4: gijooweshkoonyishiwaabaniin
      2+jooweshk+NA+Con+Pej+3+Pl+Prt+Loc: gijooweshkoonyishiwaabaniing
-     2+jooweshk+NA+Con+Pej+3+Pl+Prt+Obv: gijooweshkoonyishiwaabaniin
      2+jooweshk+NA+Con+Pej+3+Pl+Prt+Pl: gijooweshkoonyishiwaabaniig
+     2+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+4: gijooweshkoonyishiwaadigan
      2+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Loc: gijooweshkoonyishiwaadiging
-     2+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Obv: gijooweshkoonyishiwaadigan
      2+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Pl: gijooweshkoonyishiwaadigag
+     2+jooweshk+NA+Dim+Pej+1+Pl+Prt+4: gijooweshkoonsishinaanibaniin
      2+jooweshk+NA+Dim+Pej+1+Pl+Prt+Loc: gijooweshkoonsishinaanibaniing
-     2+jooweshk+NA+Dim+Pej+1+Pl+Prt+Obv: gijooweshkoonsishinaanibaniin
      2+jooweshk+NA+Dim+Pej+1+Pl+Prt+Pl: gijooweshkoonsishinaanibaniig
+     2+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+4: gijooweshkoonsishinaanidigan
      2+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Loc: gijooweshkoonsishinaanidiging
-     2+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Obv: gijooweshkoonsishinaanidigan
      2+jooweshk+NA+Dim+Pej+1+Pl+Voc+Pl+Pl: gijooweshkoonsishinaanidigag
+     2+jooweshk+NA+Dim+Pej+3+Pl+Prt+4: gijooweshkoonsishiwaabaniin
      2+jooweshk+NA+Dim+Pej+3+Pl+Prt+Loc: gijooweshkoonsishiwaabaniing
-     2+jooweshk+NA+Dim+Pej+3+Pl+Prt+Obv: gijooweshkoonsishiwaabaniin
      2+jooweshk+NA+Dim+Pej+3+Pl+Prt+Pl: gijooweshkoonsishiwaabaniig
+     2+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+4: gijooweshkoonsishiwaadigan
      2+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Loc: gijooweshkoonsishiwaadiging
-     2+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Obv: gijooweshkoonsishiwaadigan
      2+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Pl: gijooweshkoonsishiwaadigag
-     3+jooweshk+NA+Con+Pej+3+Obv+Prt+Loc: ojooweshkoonyishiniibaniing
-     3+jooweshk+NA+Con+Pej+3+Obv+Prt+Obv: ojooweshkoonyishiniibaniin
-     3+jooweshk+NA+Con+Pej+3+Obv+Prt+Pl: ojooweshkoonyishiniibaniig
-     3+jooweshk+NA+Con+Pej+3+Obv+Voc+Pl+Loc: ojooweshkoonyishiniidiging
-     3+jooweshk+NA+Con+Pej+3+Obv+Voc+Pl+Obv: ojooweshkoonyishiniidigan
-     3+jooweshk+NA+Con+Pej+3+Obv+Voc+Pl+Pl: ojooweshkoonyishiniidigag
+     3+jooweshk+NA+Con+Pej+3+4+Prt+4: ojooweshkoonyishiniibaniin
+     3+jooweshk+NA+Con+Pej+3+4+Prt+Loc: ojooweshkoonyishiniibaniing
+     3+jooweshk+NA+Con+Pej+3+4+Prt+Pl: ojooweshkoonyishiniibaniig
+     3+jooweshk+NA+Con+Pej+3+4+Voc+Pl+4: ojooweshkoonyishiniidigan
+     3+jooweshk+NA+Con+Pej+3+4+Voc+Pl+Loc: ojooweshkoonyishiniidiging
+     3+jooweshk+NA+Con+Pej+3+4+Voc+Pl+Pl: ojooweshkoonyishiniidigag
+     3+jooweshk+NA+Con+Pej+3+Pl+Prt+4: ojooweshkoonyishiwaabaniin
      3+jooweshk+NA+Con+Pej+3+Pl+Prt+Loc: ojooweshkoonyishiwaabaniing
-     3+jooweshk+NA+Con+Pej+3+Pl+Prt+Obv: ojooweshkoonyishiwaabaniin
      3+jooweshk+NA+Con+Pej+3+Pl+Prt+Pl: ojooweshkoonyishiwaabaniig
+     3+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+4: ojooweshkoonyishiwaadigan
      3+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Loc: ojooweshkoonyishiwaadiging
-     3+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Obv: ojooweshkoonyishiwaadigan
      3+jooweshk+NA+Con+Pej+3+Pl+Voc+Pl+Pl: ojooweshkoonyishiwaadigag
-     3+jooweshk+NA+Dim+Pej+3+Obv+Prt+Loc: ojooweshkoonsishiniibaniing
-     3+jooweshk+NA+Dim+Pej+3+Obv+Prt+Obv: ojooweshkoonsishiniibaniin
-     3+jooweshk+NA+Dim+Pej+3+Obv+Prt+Pl: ojooweshkoonsishiniibaniig
-     3+jooweshk+NA+Dim+Pej+3+Obv+Voc+Pl+Loc: ojooweshkoonsishiniidiging
-     3+jooweshk+NA+Dim+Pej+3+Obv+Voc+Pl+Obv: ojooweshkoonsishiniidigan
-     3+jooweshk+NA+Dim+Pej+3+Obv+Voc+Pl+Pl: ojooweshkoonsishiniidigag
+     3+jooweshk+NA+Dim+Pej+3+4+Prt+4: ojooweshkoonsishiniibaniin
+     3+jooweshk+NA+Dim+Pej+3+4+Prt+Loc: ojooweshkoonsishiniibaniing
+     3+jooweshk+NA+Dim+Pej+3+4+Prt+Pl: ojooweshkoonsishiniibaniig
+     3+jooweshk+NA+Dim+Pej+3+4+Voc+Pl+4: ojooweshkoonsishiniidigan
+     3+jooweshk+NA+Dim+Pej+3+4+Voc+Pl+Loc: ojooweshkoonsishiniidiging
+     3+jooweshk+NA+Dim+Pej+3+4+Voc+Pl+Pl: ojooweshkoonsishiniidigag
+     3+jooweshk+NA+Dim+Pej+3+Pl+Prt+4: ojooweshkoonsishiwaabaniin
      3+jooweshk+NA+Dim+Pej+3+Pl+Prt+Loc: ojooweshkoonsishiwaabaniing
-     3+jooweshk+NA+Dim+Pej+3+Pl+Prt+Obv: ojooweshkoonsishiwaabaniin
      3+jooweshk+NA+Dim+Pej+3+Pl+Prt+Pl: ojooweshkoonsishiwaabaniig
+     3+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+4: ojooweshkoonsishiwaadigan
      3+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Loc: ojooweshkoonsishiwaadiging
-     3+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Obv: ojooweshkoonsishiwaadigan
      3+jooweshk+NA+Dim+Pej+3+Pl+Voc+Pl+Pl: ojooweshkoonsishiwaadigag
      
      #Values from slots numbered: 1, 3, 4, 5, 6, 7
+     1+jooweshk+NA+Pos+Pej+1+Pl+Prt+4: nijooweshkomishinaanibaniin
      1+jooweshk+NA+Pos+Pej+1+Pl+Prt+Loc: nijooweshkomishinaanibaniing
-     1+jooweshk+NA+Pos+Pej+1+Pl+Prt+Obv: nijooweshkomishinaanibaniin
      1+jooweshk+NA+Pos+Pej+1+Pl+Prt+Pl: nijooweshkomishinaanibaniig
+     1+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+4: nijooweshkomishinaanidigan
      1+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Loc: nijooweshkomishinaanidiging
-     1+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Obv: nijooweshkomishinaanidigan
      1+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Pl: nijooweshkomishinaanidigag
+     2+jooweshk+NA+Pos+Pej+1+Pl+Prt+4: gijooweshkomishinaanibaniin
      2+jooweshk+NA+Pos+Pej+1+Pl+Prt+Loc: gijooweshkomishinaanibaniing
-     2+jooweshk+NA+Pos+Pej+1+Pl+Prt+Obv: gijooweshkomishinaanibaniin
      2+jooweshk+NA+Pos+Pej+1+Pl+Prt+Pl: gijooweshkomishinaanibaniig
+     2+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+4: gijooweshkomishinaanidigan
      2+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Loc: gijooweshkomishinaanidiging
-     2+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Obv: gijooweshkomishinaanidigan
      2+jooweshk+NA+Pos+Pej+1+Pl+Voc+Pl+Pl: gijooweshkomishinaanidigag
+     2+jooweshk+NA+Pos+Pej+3+Pl+Prt+4: gijooweshkomishiwaabaniin
      2+jooweshk+NA+Pos+Pej+3+Pl+Prt+Loc: gijooweshkomishiwaabaniing
-     2+jooweshk+NA+Pos+Pej+3+Pl+Prt+Obv: gijooweshkomishiwaabaniin
      2+jooweshk+NA+Pos+Pej+3+Pl+Prt+Pl: gijooweshkomishiwaabaniig
+     2+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+4: gijooweshkomishiwaadigan
      2+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Loc: gijooweshkomishiwaadiging
-     2+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Obv: gijooweshkomishiwaadigan
      2+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Pl: gijooweshkomishiwaadigag
-     3+jooweshk+NA+Pos+Pej+3+Obv+Prt+Loc: ojooweshkomishiniibaniing
-     3+jooweshk+NA+Pos+Pej+3+Obv+Prt+Obv: ojooweshkomishiniibaniin
-     3+jooweshk+NA+Pos+Pej+3+Obv+Prt+Pl: ojooweshkomishiniibaniig
-     3+jooweshk+NA+Pos+Pej+3+Obv+Voc+Pl+Loc: ojooweshkomishiniidiging
-     3+jooweshk+NA+Pos+Pej+3+Obv+Voc+Pl+Obv: ojooweshkomishiniidigan
-     3+jooweshk+NA+Pos+Pej+3+Obv+Voc+Pl+Pl: ojooweshkomishiniidigag
+     3+jooweshk+NA+Pos+Pej+3+4+Prt+4: ojooweshkomishiniibaniin
+     3+jooweshk+NA+Pos+Pej+3+4+Prt+Loc: ojooweshkomishiniibaniing
+     3+jooweshk+NA+Pos+Pej+3+4+Prt+Pl: ojooweshkomishiniibaniig
+     3+jooweshk+NA+Pos+Pej+3+4+Voc+Pl+4: ojooweshkomishiniidigan
+     3+jooweshk+NA+Pos+Pej+3+4+Voc+Pl+Loc: ojooweshkomishiniidiging
+     3+jooweshk+NA+Pos+Pej+3+4+Voc+Pl+Pl: ojooweshkomishiniidigag
+     3+jooweshk+NA+Pos+Pej+3+Pl+Prt+4: ojooweshkomishiwaabaniin
      3+jooweshk+NA+Pos+Pej+3+Pl+Prt+Loc: ojooweshkomishiwaabaniing
-     3+jooweshk+NA+Pos+Pej+3+Pl+Prt+Obv: ojooweshkomishiwaabaniin
      3+jooweshk+NA+Pos+Pej+3+Pl+Prt+Pl: ojooweshkomishiwaabaniig
+     3+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+4: ojooweshkomishiwaadigan
      3+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Loc: ojooweshkomishiwaadiging
-     3+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Obv: ojooweshkomishiwaadigan
      3+jooweshk+NA+Pos+Pej+3+Pl+Voc+Pl+Pl: ojooweshkomishiwaadigag
      
      
      #Values from slots numbered: 1, 2, 3, 4, 5, 6, 7
+     1+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+4: nijooweshkoonyimishinaanibaniin
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Loc: nijooweshkoonyimishinaanibaniing
-     1+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Obv: nijooweshkoonyimishinaanibaniin
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Pl: nijooweshkoonyimishinaanibaniig
+     1+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+4: nijooweshkoonyimishinaanidigan
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: nijooweshkoonyimishinaanidiging
-     1+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: nijooweshkoonyimishinaanidigan
      1+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: nijooweshkoonyimishinaanidigag
+     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+4: nijooweshkoonsimishinaanibaniin
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Loc: nijooweshkoonsimishinaanibaniing
-     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Obv: nijooweshkoonsimishinaanibaniin
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Pl: nijooweshkoonsimishinaanibaniig
+     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+4: nijooweshkoonsimishinaanidigan
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: nijooweshkoonsimishinaanidiging
-     1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: nijooweshkoonsimishinaanidigan
      1+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: nijooweshkoonsimishinaanidigag
+     2+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+4: gijooweshkoonyimishinaanibaniin
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Loc: gijooweshkoonyimishinaanibaniing
-     2+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Obv: gijooweshkoonyimishinaanibaniin
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Prt+Pl: gijooweshkoonyimishinaanibaniig
+     2+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+4: gijooweshkoonyimishinaanidigan
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Loc: gijooweshkoonyimishinaanidiging
-     2+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Obv: gijooweshkoonyimishinaanidigan
      2+jooweshk+NA+Con+Pos+Pej+1+Pl+Voc+Pl+Pl: gijooweshkoonyimishinaanidigag
+     2+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+4: gijooweshkoonyimishiwaabaniin
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Loc: gijooweshkoonyimishiwaabaniing
-     2+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Obv: gijooweshkoonyimishiwaabaniin
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Pl: gijooweshkoonyimishiwaabaniig
+     2+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+4: gijooweshkoonyimishiwaadigan
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: gijooweshkoonyimishiwaadiging
-     2+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: gijooweshkoonyimishiwaadigan
      2+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: gijooweshkoonyimishiwaadigag
+     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+4: gijooweshkoonsimishinaanibaniin
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Loc: gijooweshkoonsimishinaanibaniing
-     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Obv: gijooweshkoonsimishinaanibaniin
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Prt+Pl: gijooweshkoonsimishinaanibaniig
+     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+4: gijooweshkoonsimishinaanidigan
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Loc: gijooweshkoonsimishinaanidiging
-     2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Obv: gijooweshkoonsimishinaanidigan
      2+jooweshk+NA+Dim+Pos+Pej+1+Pl+Voc+Pl+Pl: gijooweshkoonsimishinaanidigag
+     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+4: gijooweshkoonsimishiwaabaniin
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Loc: gijooweshkoonsimishiwaabaniing
-     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Obv: gijooweshkoonsimishiwaabaniin
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Pl: gijooweshkoonsimishiwaabaniig
+     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+4: gijooweshkoonsimishiwaadigan
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: gijooweshkoonsimishiwaadiging
-     2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: gijooweshkoonsimishiwaadigan
      2+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: gijooweshkoonsimishiwaadigag
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Prt+Loc: ojooweshkoonyimishiniibaniing
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Prt+Obv: ojooweshkoonyimishiniibaniin
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Prt+Pl: ojooweshkoonyimishiniibaniig
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Loc: ojooweshkoonyimishiniidiging
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Obv: ojooweshkoonyimishiniidigan
-     3+jooweshk+NA+Con+Pos+Pej+3+Obv+Voc+Pl+Pl: ojooweshkoonyimishiniidigag
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Prt+4: ojooweshkoonyimishiniibaniin
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Prt+Loc: ojooweshkoonyimishiniibaniing
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Prt+Pl: ojooweshkoonyimishiniibaniig
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Voc+Pl+4: ojooweshkoonyimishiniidigan
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Voc+Pl+Loc: ojooweshkoonyimishiniidiging
+     3+jooweshk+NA+Con+Pos+Pej+3+4+Voc+Pl+Pl: ojooweshkoonyimishiniidigag
+     3+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+4: ojooweshkoonyimishiwaabaniin
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Loc: ojooweshkoonyimishiwaabaniing
-     3+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Obv: ojooweshkoonyimishiwaabaniin
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Prt+Pl: ojooweshkoonyimishiwaabaniig
+     3+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+4: ojooweshkoonyimishiwaadigan
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Loc: ojooweshkoonyimishiwaadiging
-     3+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Obv: ojooweshkoonyimishiwaadigan
      3+jooweshk+NA+Con+Pos+Pej+3+Pl+Voc+Pl+Pl: ojooweshkoonyimishiwaadigag
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Prt+Loc: ojooweshkoonsimishiniibaniing
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Prt+Obv: ojooweshkoonsimishiniibaniin
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Prt+Pl: ojooweshkoonsimishiniibaniig
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Loc: ojooweshkoonsimishiniidiging
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Obv: ojooweshkoonsimishiniidigan
-     3+jooweshk+NA+Dim+Pos+Pej+3+Obv+Voc+Pl+Pl: ojooweshkoonsimishiniidigag
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Prt+4: ojooweshkoonsimishiniibaniin
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Prt+Loc: ojooweshkoonsimishiniibaniing
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Prt+Pl: ojooweshkoonsimishiniibaniig
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Voc+Pl+4: ojooweshkoonsimishiniidigan
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Voc+Pl+Loc: ojooweshkoonsimishiniidiging
+     3+jooweshk+NA+Dim+Pos+Pej+3+4+Voc+Pl+Pl: ojooweshkoonsimishiniidigag
+     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+4: ojooweshkoonsimishiwaabaniin
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Loc: ojooweshkoonsimishiwaabaniing
-     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Obv: ojooweshkoonsimishiwaabaniin
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Prt+Pl: ojooweshkoonsimishiwaabaniig
+     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+4: ojooweshkoonsimishiwaadigan
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Loc: ojooweshkoonsimishiwaadiging
-     3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Obv: ojooweshkoonsimishiwaadigan
      3+jooweshk+NA+Dim+Pos+Pej+3+Pl+Voc+Pl+Pl: ojooweshkoonsimishiwaadigag
      
