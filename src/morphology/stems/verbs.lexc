@@ -3,23 +3,23 @@
 !#####
 
 LEXICON VERBS  !this is looking like a gateway, but not so labeled, affixes will need to be edited too
-@D.Person.3@   VAI_GATEWAY ; !VAIs never take third person prefix
-@D.Person@      VII_GATEWAY ;
-                TRANS_GATEWAY ;
+@D.Person.3@   VAI_GET ; !VAIs never take third person prefix
+@D.Person@      VII_GET ;
+                TRANS_GET ;
 
-LEXICON VAI_GATEWAY
+LEXICON VAI_GET
     VAI_DEF ;
     VAI_N ;
     VAI_V ;
     VAI_VV ;
 
-LEXICON VII_GATEWAY
+LEXICON VII_GET
 +VII:0    VII_ORDERS ;
 
 LEXICON VII_ORDERS
 # ; !not done yet
 
-LEXICON TRANS_GATEWAY
+LEXICON TRANS_GET
     VTA_DEF ;
     VTA_AW ;
     VTA_C ;
@@ -4767,8 +4767,8 @@ nishi    VTA_TAG    "kill s.o." ; !line:8459, word:w7515w, sense:s68908757676s
 odishi    VTA_TAG    "reach s.o., arrive at s.o." ; !line:8809, word:w7826w, sense:s68908757991s
 
 LEXICON VTA_TAG
-+VTA:0     VTA_PREORDER_GATEWAY ;
++VTA:0     VTA_PREORDER_GET ;
 
-LEXICON VTA_PREORDER_GATEWAY
-        VTA_INDEP_THEME_GATEWAY ;
-@D.Person@ VTA_NON_INDEP_GATEWAY ;
+LEXICON VTA_PREORDER_GET
+        VTA_INDEP_THEME_GET ;
+@D.Person@ VTA_NON_INDEP_GET ;
