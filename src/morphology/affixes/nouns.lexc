@@ -37,7 +37,7 @@ LEXICON N_THIRD_PERSON_SET
 LEXICON N_X_PERSON_SET 
 @P.Person.X@    NOUNS ;
 
-LEXICON N_CON_DIM   !changed back to N_CON_DIM (with corresponding change in stems/nouns.lexc). There are semantics to the sublexicon names, to help the coder navigate. Please don't change sublexicon names unless you understand the semantic effects it will have. 
+LEXICON N_CON_DIM   
 +Con:enh    N_POS_THEME_GET ;
 +Dim:ens    N_POS_THEME_GET ;
             N_POS_THEME_GET ;
@@ -73,7 +73,7 @@ LEXICON N_POS_NUM_GET
 
 LEXICON N_POS_NUM_2_1
 !2 prefix may be followed by 1pl suff=1.pl.inc
-+1+Pl:inaan N_MOOD_GET ;
++1+Pl:inaan     N_MOOD_GET ;
 
 LEXICON N_POS_NUM_2_3
 !2 prefix may be followed by 3pl suff=2.pl
@@ -105,7 +105,7 @@ LEXICON NA_VOCPL !Long feat name
 
 LEXICON N_NUM_GET 
 @R.Animate.1@   NA_NUM ;
-@R.Animate.0@   NI_NUM ;
+@R.Animate.%0@   NI_NUM ;
 +4:an              # ;
 +Loc:ing             # ;
                 # ;
