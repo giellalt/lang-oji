@@ -36,8 +36,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !Simple Person
 1+ 2+ 3+ X+   !prefixes, last is only used on nouns
-+3 +X       !suffixes, if used, occur in Local Person Number slot
-+0          !not really a person, but inanimates sometimes trigger special agreement
++1 +2 +3 +X       !suffixes, if used, occur in Local Person Number slot
++%0          !not really a person, but inanimates sometimes trigger special agreement
 
 !! Verb Negation
 +Neg ! ( abs: +Pos / +Aff )
@@ -213,15 +213,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !####
 
 !## setting flags
-@P.Animate.0@
+@P.Animate.%0@
 @P.Animate.1@
 
 !## checking flags
-@D.Animate.0@
+@D.Animate.%0@
 @D.Animate.1@
 @D.Animate@
 
-@R.Animate.0@
+@R.Animate.%0@
 @R.Animate.1@
 @R.Animate@
 !style on default flag options to include
