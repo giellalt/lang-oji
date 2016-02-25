@@ -1,0 +1,70 @@
+!todo:  +4 -> Obv
+!       Singular number peripheral suffix
+!       3rd person possession
+!       unspecified possession
+!       vaporize possessed theme suffix's tag
+!       inserting POS as separate from pos-animacy tag
+!       make sure noun rules only apply in nouns!
+
+!###
+!#Moving possessor features to end
+!###
+!NB: extended prefix tags (+Px1Pl) are not in root.lexc, problem?
+
+!intended: write +Px1Pl at end of string if string starts with 1+.*+1+Pl
+define Px1Pl [ [..] -> %+ P x 1 P l || "1+" ?* "+1" "+Pl" ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define Px1Sg [ [..] -> %+ P x 1 S g || "1+" ?* _ .#. ] ; 
+
+define Px2Pl [ [..] -> %+ P x 2 P l || "2+" ?* "+3" "+Pl" ?* _ .#. ] ; 
+define Px21Pl [ [..] -> %+ P x 2 1 P l || "2+" ?* "+1" "+Pl" ?* _ .#. ] ; 
+define Px2Sg  [ [..] -> %+ P x 2 S g || "2+" ?* _ .#. ] ; 
+
+!###
+!#Cleaning (deleting) possessor features
+!###
+
+!intended: delete the triggering information 
+!it would be nice to have sub-rules like delete "1+", delete "+Pl"
+!then they could be combined into bigger rules and deployed when envi is met
+!otherwise the same changes get written out several times, varying only in envi
+
+define Px1Pl_c_1 [ "1+" -> 0 || _ ?* "+1" "+Pl" ] ; 
+!intended: delete  +1+Pl seqs, but only if they are not preceded by 2+
+!would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
+define Px1Pl_c_2 [ "+1" "+Pl" -> 0 || ~[ "2+" ] ?* _  ] ; 
+
+define Px1Sg_c [ "1+" -> 0 ||  _ ] ; 
+
+define Px2Pl_c_1 [ "2+" -> 0 || _ ?* "+3" "+Pl" ] ; 
+define Px2Pl_c_2 [ "+3" "+Pl" -> 0 || ~[ "3+" ] ?* _  ] ; 
+
+define Px21Pl_c_1 [ "2+" -> 0 || _ ?* "+1" "+Pl" ] ; 
+define Px21Pl_c_2 [ "+1" "+Pl" -> 0 || ~[ "1+" ] ?* _  ] ; 
+
+define Px2Sg_c [ "2+" -> 0 ||  _ ] ; 
+!###
+!#Putting it together
+!###
+
+read regex [ 
+    !rule to add +Sg tag to be added here
+    !(need to apply before possessor tags target end of string)
+    !##possessor tags
+    !#first person
+    Px1Pl .o. !move
+    Px1Pl_c_1 .o. !clean
+    Px1Pl_c_2 .o. 
+    Px1Sg .o. !repeat for unmarked
+    Px1Sg_c .o.
+    !#second person
+    Px2Pl .o. !move
+    Px2Pl_c_1 .o. !clean
+    Px2Pl_c_2 .o. 
+    Px21Pl .o. !repeat
+    Px21Pl_c_1 .o. 
+    Px21Pl_c_2 .o. 
+    Px2Sg .o. !repeat for unmarked
+    Px2Sg_c 
+    ] ;
+
+save stack oj_gloss_2_alberta_normal.fsm ;
