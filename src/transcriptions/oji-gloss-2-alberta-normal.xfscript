@@ -12,12 +12,12 @@
 !NB: extended prefix tags (+Px1Pl) are not in root.lexc, problem?
 
 !intended: write +Px1Pl at end of string if string starts with 1+.*+1+Pl
-define Px1Pl [ [..] -> %+ P x 1 P l || "1+" ?* "+1" "+Pl" ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
-define Px1Sg [ [..] -> %+ P x 1 S g || "1+" ?* _ .#. ] ; 
+define Px1Pl [ [..] -> %+Px1Pl || 1%+ ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define Px1Sg [ [..] -> %+Px1Sg || 1%+ ?* _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
 
-define Px2Pl [ [..] -> %+ P x 2 P l || "2+" ?* "+3" "+Pl" ?* _ .#. ] ; 
-define Px21Pl [ [..] -> %+ P x 2 1 P l || "2+" ?* "+1" "+Pl" ?* _ .#. ] ; 
-define Px2Sg  [ [..] -> %+ P x 2 S g || "2+" ?* _ .#. ] ; 
+define Px2Pl [ [..] -> %+Px2Pl || 2%+ ?* %+3 %+Pl ?* _ .#. ] ; 
+define Px21Pl [ [..] -> %+Px21Pl || 2%+ ?* %+1 %+Pl ?* _ .#. ] ; 
+define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?* _ .#. ] ; 
 
 !###
 !#Cleaning (deleting) possessor features
@@ -28,20 +28,20 @@ define Px2Sg  [ [..] -> %+ P x 2 S g || "2+" ?* _ .#. ] ;
 !then they could be combined into bigger rules and deployed when envi is met
 !otherwise the same changes get written out several times, varying only in envi
 
-define Px1Plc1 [ "1+" -> 0 || _ ?* "+1" "+Pl" ] ; 
+define Px1Plc1 [ 1%+ -> 0 || _ ?* %+1 %+Pl ] ; 
 !intended: delete  +1+Pl seqs, but only if they are not preceded by 2+
 !would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
-define Px1Plc2 [ "+1" "+Pl" -> 0 || ~[ "2+" ] ?* _  ] ; 
+define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
 
-define Px1Sgc [ "1+" -> 0 ||  _ ] ; 
+define Px1Sgc [ 1%+ -> 0 ||  _ ] ; 
 
-define Px2Plc1 [ "2+" -> 0 || _ ?* "+3" "+Pl" ] ; 
-define Px2Plc2 [ "+3" "+Pl" -> 0 || ~[ "3+" ] ?* _  ] ; 
+define Px2Plc1 [ 2%+ -> 0 || _ ?* %+3 %+Pl ] ; 
+define Px2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?* _  ] ; 
 
-define Px21Plc1 [ "2+" -> 0 || _ ?* "+1" "+Pl" ] ; 
-define Px21Plc2 [ "+1" "+Pl" -> 0 || ~[ "1+" ] ?* _  ] ; 
+define Px21Plc1 [ 2%+ -> 0 || _ ?* %+1 %+Pl ] ; 
+define Px21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?* _  ] ; 
 
-define Px2Sgc [ "2+" -> 0 ||  _ ] ; 
+define Px2Sgc [ 2%+ -> 0 ||  _ ] ; 
 !###
 !#Putting it together
 !###
@@ -67,4 +67,4 @@ read regex [
     Px2Sgc 
     ] ;
 
-#save stack oj_gloss_2_alberta_normal.fsm ;
+save stack oji-gloss-2-alberta-normal.fsm
