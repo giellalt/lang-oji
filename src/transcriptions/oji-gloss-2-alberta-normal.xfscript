@@ -30,8 +30,10 @@ define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?* _ .#. ] ;
 
 define Px1Plc1 [ 1%+ -> 0 || _ ?* %+1 %+Pl ] ; 
 !intended: delete  +1+Pl seqs, but only if they are not preceded by 2+
-!would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
 define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
+!would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
+!here's an attempt: (https://code.google.com/archive/p/foma/wikis/RegularExpressionReference.wiki)
+define Px1Plc [  1%+ ?* %+1 %+Pl -> 0 ] ; !but I'm not sure that it will only delete them when they occur together 
 
 define Px1Sgc [ 1%+ -> 0 ||  _ ] ; 
 
