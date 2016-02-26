@@ -1,57 +1,78 @@
-!todo:  +4 -> Obv
-!       Singular number peripheral suffix
-!       3rd person possession
-!       unspecified possession
-!       vaporize possessed theme suffix's tag
-!       inserting POS as separate from pos-animacy tag
-!       make sure noun rules only apply in nouns!
+!todo:  
+!   make sure all references to +N tag, +V tag are necessary
+
+define NTag [ [..] -> %+N || _ [%+NA|%+NI|%+NAD|%+NID] ] ;
+define PosThmDel [ %+Pos -> 0 || %+N ?*  _ ] ; !can't remove everywhere, since we flag pos polarity in verbs with +Pos
+
+!###
+!#managing peripheral slot
+!###
+
+define 4toObv [ %+4 -> %+Obv || %+N ?* _ ] ; !noun specific because we use +4 in verb system
+!+3+4 is obviative possessor, precludes number/obv suffs in periph slot
+define SgTag [ .#. -> %+Sg .#. || %+N ?* ~[%+Obv|%+Pl|%+Loc] _ ] ; !see note above for why it is ok to fail to insert +Sg after obv pos suff.
 
 !###
 !#Moving possessor features to end
 !###
-!NB: extended prefix tags (+Px1Pl) are not in root.lexc, problem?
+!NB: extended prefix tags (+Px1Pl) are not in root.lexc, shouldn't be a problem (?)
 
 !intended: write +Px1Pl at end of string if string starts with 1+.*+1+Pl
-define Px1Pl [ [..] -> %+Px1Pl || 1%+ ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
-define Px1Sg [ [..] -> %+Px1Sg || 1%+ ?* _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
+define Px1Pl [ [..] -> %+Px1Pl || 1%+ ?* %+N ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define Px1Sg [ [..] -> %+Px1Sg || 1%+ ?* %+N ?* _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
 
-define Px2Pl [ [..] -> %+Px2Pl || 2%+ ?* %+3 %+Pl ?* _ .#. ] ; 
-define Px21Pl [ [..] -> %+Px21Pl || 2%+ ?* %+1 %+Pl ?* _ .#. ] ; 
-define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?* _ .#. ] ; 
+define Px2Pl [ [..] -> %+Px2Pl || 2%+ ?* %+N ?* %+3 %+Pl ?* _ .#. ] ; 
+define Px21Pl [ [..] -> %+Px21Pl || 2%+ ?* %+N ?* %+1 %+Pl ?* _ .#. ] ; 
+define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?* %+N ?*  _ .#. ] ; 
 
-!###
-!#Cleaning (deleting) possessor features
-!###
+define Px3Pl [ [..] -> %+Px3Pl || 3%+ ?* %+N ?* %+3 %+Pl ?* _ .#. ] ; 
+define PxObv [ [..] -> %+PxObv || 3%+ ?* %+N ?* %+3 %+Obv ?* _ .#. ] ; 
+define Px3Sg [ [..] -> %+Px3Sg || 3%+ ?* %+N ?* _ .#. ] ; 
 
-! Save test cases like this in test.csv
-! 1+xxxx+1Plyyyy
-! 1+xxxx
-! 2+xxxx+3+Plyyyy
-! 2+xxxx+1+Plyyyy
-! Test with
-! cat test.csv | lookup -flags mbTT test.fsm
+define PxX [ [..] -> %+PxX || X%+ ?* %+N ?* _ .#. ] ;
 
+!##Cleaning (deleting) tags
+!these would be prime candidates for allowing them to apply to both nouns and verbs
 !intended: delete the triggering information 
 !it would be nice to have sub-rules like delete "1+", delete "+Pl"
 !then they could be combined into bigger rules and deployed when envi is met
 !otherwise the same changes get written out several times, varying only in envi
 
-define Px1Plc1 [ 1%+ -> 0 || _ ?* %+1 %+Pl ] ; 
-!intended: delete  +1+Pl seqs, but only if they are not preceded by 2+
-define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
+!#1 {
+define Px1Plc1 [ 1%+ -> 0 || _ ?* %+N ?* %+1 %+Pl ] ; 
+define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?* %+N ?* _  ] ; 
 !would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
 !here's an attempt: (https://code.google.com/archive/p/foma/wikis/RegularExpressionReference.wiki)
-define Px1Plc [  1%+ ?* %+1 %+Pl -> 0 ] ; !but I'm not sure that it will only delete them when they occur together 
+!but this deletes them when they occur separately as well as when they occur together
+!define Px1Plc [  1%+ ?* %+1 %+Pl -> 0 ] ; 
 
-define Px1Sgc [ 1%+ -> 0 ||  _ ] ; 
+define Px1Sgc [ 1%+ -> 0 || _ ?* %+N ] ; 
+!}
 
-define Px2Plc1 [ 2%+ -> 0 || _ ?* %+3 %+Pl ] ; 
-define Px2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?* _  ] ; 
+!#2 {
+define Px2Plc1 [ 2%+ -> 0 || _ ?* %+N ?* %+3 %+Pl ] ; 
+define Px2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?* %+N ?* _  ] ; 
 
-define Px21Plc1 [ 2%+ -> 0 || _ ?* %+1 %+Pl ] ; 
-define Px21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?* _  ] ; 
+define Px21Plc1 [ 2%+ -> 0 || _ ?* %+N ?* %+1 %+Pl ] ; 
+define Px21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?* %+N ?* _  ] ; 
 
-define Px2Sgc [ 2%+ -> 0 ||  _ ] ; 
+define Px2Sgc [ 2%+ -> 0 ||  _ ?* %+N ] ; 
+!}
+
+!#3 {
+define Px3Plc1 [ 3%+ -> 0 || _ ?* %+N ?* %+3 %+Pl ] ; 
+define Px3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _ ?* %+N ] ; 
+
+define PxObvc1 [ 3%+ -> 0 || _ ?* %+N ?* %+3 %+Obv ] ; 
+define PxObvc2 [ %+3 %+Obv -> 0 || %+N ?* _ ] ; 
+
+define Px3Sgc [ 3%+ -> 0 ||  _ ?* %+N ] ; 
+!}
+
+!#X {
+define PxXc [ X%+ -> 0 ||  _  ?* %+N ] ; 
+!}
+
 !###
 !#Putting it together
 !###
@@ -59,9 +80,15 @@ define Px2Sgc [ 2%+ -> 0 ||  _ ] ;
 
 
 read regex [ 
-    !rule to add +Sg tag to be added here
+    !####NOUNS
+    NTag .o.
+    PosThmDel .o.
+    !##Peripheral slot
+    !SgTag, PxObv assume +4 has been changed to +Obv in all nouns
+    4toObv .o.
     !(need to apply before possessor tags target end of string)
-    !##possessor tags
+    SgTag .o.
+    !##possessor tags (combine prefix info with suffix info)
     !#first person
     Px1Pl .o. !move
     Px1Plc1 .o. !clean
@@ -76,10 +103,31 @@ read regex [
     Px21Plc1 .o. 
     Px21Plc2 .o. 
     Px2Sg .o. !repeat for unmarked
-    Px2Sgc 
+    Px2Sgc .o.
+    !#third person
+    Px3Pl .o. !move
+    Px3Plc1 .o. !clean
+    Px3Plc2 .o. 
+    PxObv .o. !repeat
+    PxObvc1 .o. 
+    PxObvc2 .o. 
+    Px3Sg .o. !repeat for unmarked
+    Px3Sgc .o.
+    !#unspecified person (a passive possessor :)
+    PxX .o.
+    PxXc
     ] ;
 
 save stack oji-gloss-2-alberta-normal.fsm
+
+! Save test cases like this in test.csv
+! 1+xxxx+1Plyyyy
+! 1+xxxx
+! 2+xxxx+3+Plyyyy
+! 2+xxxx+1+Plyyyy
+! Test with
+! cat test.csv | lookup -flags mbTT test.fsm
+
 invert net
 save stack test.fsm
 
