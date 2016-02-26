@@ -1,6 +1,36 @@
 !todo:  
 !   make sure all references to +N tag, +V tag are necessary
 
+!########### -- Verbs -- ########### 
+define VTag [ [..] -> %+V || _ [%+VAI|%+VII|%+VTI|%+VTA] ] ;
+define POSTrunc [ %+VAI -> %+AI ,, %+VII -> %+II ,, %+VTI -> %+TI ,, %+VTA -> TA ] ;
+define IndepTag [ [..] -> %+Ind || [%+AI|%+II|%+TI|%+TA] _ ~[%+Cnj|%+Imp] ] ;
+
+!###
+!#shifting mode slot left (brings peripheral tags next to number tags)
+!###
+
+define PrtDubCopy [ [..] -> %+Prt %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt %+Dub ] ;
+define PrtDubDel [ %+Prt %+Dub -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ;
+
+define PrtCopy [ [..] -> %+Prt || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt ] ;
+define PrtDel [ %+Prt  -> 0 || %+V ?* ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !copy-delete only happens for verb preterites, not nouns
+
+define DubCopy [ [..] -> %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Dub ] ;
+define DubDel [ %+Dub  -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !no noun preterites, so no POS restriction
+
+define NeuTag [ [..] -> %+Neu || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ~[%+Prt|%+Dub] ;
+
+!###
+!#shifting negative slot left (brings theme sign (obj agr) next to number tags (TA only))
+!###
+
+define NegCopy [ [..] -> %+Neg || [%+Neu|%+Prt|%+Dub] _ ?* %+Neg ] ;
+define NegDel [ %+Neg -> 0 || ~[%+Neu|%+Prt|%+Dub] _ ] ;
+
+define PosTag [ [..] -> %+Pos || [%+Neu|%+Prt|%+Dub] _ ~[%+Neg] ] ;
+
+!########### -- Nouns -- ########### 
 define NTag [ [..] -> %+N || _ [%+NA|%+NI|%+NAD|%+NID] ] ;
 define PosThmDel [ %+Pos -> 0 || %+N ?*  _ ] ; !can't remove everywhere, since we flag pos polarity in verbs with +Pos
 
