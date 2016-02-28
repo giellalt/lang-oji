@@ -1,5 +1,8 @@
 !todo:  
+!   refactor noun code so that possessor person/number is just an elaboration of tags set in generic system
+!   this should simplify rules, as it will just be translation of a tag when it is preceded by +N at some dist
 !   make sure all references to +N tag, +V tag are necessary
+!   only once this is complete should the composition section be updated
 
 !########### -- Verbs -- ########### 
 define VTag [ [..] -> %+V || _ [%+VAI|%+VII|%+VTI|%+VTA] ] ;
@@ -30,6 +33,57 @@ define NegDel [ %+Neg -> 0 || ~[%+Neu|%+Prt|%+Dub] _ ] ;
 
 define PosTag [ [..] -> %+Pos || [%+Neu|%+Prt|%+Dub] _ ~[%+Neg] ] ;
 
+!###
+!#Person number (to cover both nouns and verbs)
+!###
+
+define 1Pl  [ [..] -> %+1Pl || 1%+ ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define 1Sg  [ [..] -> %+1Sg || 1%+ ?*  _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
+
+define 2Pl  [ [..] -> %+2Pl || 2%+ ?*  [%+3|%+2] %+Pl ?* _ .#. ] ; !generally 2pl is signaled by 2+ ... +3+pl (a suff that also appears with third person plurals), except in TAs when a first person is involved
+                                                                    ! then there is never a 3 interpretation for the morpheme, so we call it a dedicated 2pl marker 
+                                                                    ! Hockett's I-full and I-less interpretation is actually very clean in this case (2pl is always signaled by 2 ... I-less-pl)
+define 21Pl [ [..] -> %+21Pl || 2%+ ?*  %+1 %+Pl ?* _ .#. ] ; 
+define 2Sg  [ [..] -> %+2Sg || 2%+ ?*   _ .#. ] ; 
+
+define 3Pl  [ [..] -> %+3Pl || 3%+ ?*  %+3 %+Pl ?* _ .#. ] ; 
+define Obv  [ [..] -> %+Obv || 3%+ ?*  %+3 %+Obv ?* _ .#. ] ; 
+define 3Sg  [ [..] -> %+3Sg || 3%+ ?*  _ .#. ] ; 
+
+define X    [ [..] -> %+X || X%+ ?*  _ .#. ] ;
+
+!##Cleaning (deleting) tags
+
+!#1 {
+define 1Plc1 [ 1%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
+define 1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?*  _  ] ; 
+
+define 1Sgc [ 1%+ -> 0 ] ; 
+!}
+
+!#2 {
+define 2Plc1 [ 2%+ -> 0 || _ ?*  %+3 %+Pl ] ; 
+define 2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?*  _  ] ; 
+
+define 21Plc1 [ 2%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
+define 21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?*  _  ] ; 
+
+define 2Sgc [ 2%+ -> 0 ] ; 
+!}
+
+!#3 {
+define 3Plc1 [ 3%+ -> 0 || _ ?*  %+3 %+Pl ] ; 
+define 3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
+
+define Obvc1 [ 3%+ -> 0 || _ ?*  %+3 %+Obv ] ; 
+define Obvc2 [ %+3 %+Obv -> 0 ||  _ ] ; 
+
+define 3Sgc [ 3%+ -> 0 ] ; 
+!}
+
+!#X {
+define PxXc [ X%+ -> 0 ] ; 
+!}
 !########### -- Nouns -- ########### 
 define NTag [ [..] -> %+N || _ [%+NA|%+NI|%+NAD|%+NID] ] ;
 define PosThmDel [ %+Pos -> 0 || %+N ?*  _ ] ; !can't remove everywhere, since we flag pos polarity in verbs with +Pos
