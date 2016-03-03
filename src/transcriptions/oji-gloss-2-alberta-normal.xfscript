@@ -6,7 +6,10 @@
 
 !########### -- Verbs -- ########### 
 define VTag [ [..] -> %+V || _ [%+VAI|%+VII|%+VTI|%+VTA] ] ;
-define POSTrunc [ %+VAI -> %+AI ,, %+VII -> %+II ,, %+VTI -> %+TI ,, %+VTA -> TA ] ;
+define POSTrunc [ %+VAI -> %+AI ,
+                  %+VII -> %+II ,
+                  %+VTI -> %+TI ,
+                  %+VTA -> %+TA ] ;
 define IndepTag [ [..] -> %+Ind || [%+AI|%+II|%+TI|%+TA] _ ~[%+Cnj|%+Imp] ] ;
 
 !###
@@ -22,7 +25,7 @@ define PrtDel [ %+Prt  -> 0 || %+V ?* ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj]
 define DubCopy [ [..] -> %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Dub ] ;
 define DubDel [ %+Dub  -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !no noun preterites, so no POS restriction
 
-define NeuTag [ [..] -> %+Neu || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ~[%+Prt|%+Dub] ;
+define NeuTag [..] -> %+Neu || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ~[%+Prt|%+Dub] ;
 
 !###
 !#shifting negative slot left (brings theme sign (obj agr) next to number tags (TA only))
@@ -158,7 +161,7 @@ define PxXc [ X%+ -> 0 ||  _  ?* %+N ] ;
 !}
 
 !###
-!#Putting it together
+echo Putting it together
 !###
 
 
@@ -201,6 +204,8 @@ read regex [
     PxX .o.
     PxXc
     ] ;
+
+echo Saving fst
 
 save stack oji-gloss-2-alberta-normal.fsm
 
