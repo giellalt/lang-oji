@@ -51,7 +51,7 @@ LEXICON N_POS_THEME_GET
 LEXICON N_POS_THEME
 !optionality of +Pos instantiated in N_POS_THEME_GET
 !entrance requires a person flag, person flags are not forced to enter
-+Pos:im N_PEJ ;
++ThmPos:im N_PEJ ;
 
 LEXICON N_PEJ 
 +Pej:ish    N_POS_NUM_GET ;
