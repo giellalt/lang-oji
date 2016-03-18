@@ -79,7 +79,7 @@ define 3Plc1 [ 3%+ -> 0 || _ ?*  %+3 %+Pl ] ;
 define 3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
 
 define Obvc1 [ 3%+ -> 0 || _ ?*  %+3 %+Obv ] ; 
-define Obvc2 [ %+3 %+Obv -> 0 ||  _ ] ; 
+define Obvc2 [ %+3 %+Obv -> 0 ] ; 
 
 define 3Sgc [ 3%+ -> 0 ] ; 
 !}
@@ -105,18 +105,18 @@ define SgTag [ .#. -> %+Sg .#. || %+N ?* ~[%+Obv|%+Pl|%+Loc] _ ] ; !see note abo
 !NB: extended prefix tags (+Px1Pl) are not in root.lexc, shouldn't be a problem (?)
 
 !intended: write +Px1Pl at end of string if string starts with 1+.*+1+Pl
-define Px1Pl [ [..] -> %+Px1Pl || 1%+ ?* %+N ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
-define Px1Sg [ [..] -> %+Px1Sg || 1%+ ?* %+N ?* _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
+define Px1Pl [ [..] -> %+Px1Pl || 1%+ ?*  %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define Px1Sg [ [..] -> %+Px1Sg || 1%+ ?*  _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
 
-define Px2Pl [ [..] -> %+Px2Pl || 2%+ ?* %+N ?* %+3 %+Pl ?* _ .#. ] ; 
-define Px21Pl [ [..] -> %+Px21Pl || 2%+ ?* %+N ?* %+1 %+Pl ?* _ .#. ] ; 
-define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?* %+N ?*  _ .#. ] ; 
+define Px2Pl [ [..] -> %+Px2Pl || 2%+ ?*  %+3 %+Pl ?* _ .#. ] ; 
+define Px21Pl [ [..] -> %+Px21Pl || 2%+ ?*  %+1 %+Pl ?* _ .#. ] ; 
+define Px2Sg  [ [..] -> %+Px2Sg || 2%+ ?*   _ .#. ] ; 
 
-define Px3Pl [ [..] -> %+Px3Pl || 3%+ ?* %+N ?* %+3 %+Pl ?* _ .#. ] ; 
-define PxObv [ [..] -> %+PxObv || 3%+ ?* %+N ?* %+3 %+Obv ?* _ .#. ] ; 
-define Px3Sg [ [..] -> %+Px3Sg || 3%+ ?* %+N ?* _ .#. ] ; 
+define Px3Pl [ [..] -> %+Px3Pl || 3%+ ?*  %+3 %+Pl ?* _ .#. ] ; 
+define PxObv [ [..] -> %+PxObv || 3%+ ?*  %+3 %+Obv ?* _ .#. ] ; 
+define Px3Sg [ [..] -> %+Px3Sg || 3%+ ?*  _ .#. ] ; 
 
-define PxX [ [..] -> %+PxX || X%+ ?* %+N ?* _ .#. ] ;
+define PxX [ [..] -> %+PxX || X%+ ?*  _ .#. ] ;
 
 !##Cleaning (deleting) tags
 !these would be prime candidates for allowing them to apply to both nouns and verbs
@@ -126,38 +126,38 @@ define PxX [ [..] -> %+PxX || X%+ ?* %+N ?* _ .#. ] ;
 !otherwise the same changes get written out several times, varying only in envi
 
 !#1 {
-define Px1Plc1 [ 1%+ -> 0 || _ ?* %+N ?* %+1 %+Pl ] ; 
-define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?* %+N ?* _  ] ; 
+define Px1Plc1 [ 1%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
+define Px1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?*  _  ] ; 
 !would be nice if we could have just one rule that zapped 1+ ... +1+Pl when they occurred together
 !here's an attempt: (https://code.google.com/archive/p/foma/wikis/RegularExpressionReference.wiki)
 !but this deletes them when they occur separately as well as when they occur together
 !define Px1Plc [  1%+ ?* %+1 %+Pl -> 0 ] ; 
 
-define Px1Sgc [ 1%+ -> 0 || _ ?* %+N ] ; 
+define Px1Sgc [ 1%+ -> 0 ] ; 
 !}
 
 !#2 {
-define Px2Plc1 [ 2%+ -> 0 || _ ?* %+N ?* %+3 %+Pl ] ; 
-define Px2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?* %+N ?* _  ] ; 
+define Px2Plc1 [ 2%+ -> 0 || _ ?*  %+3 %+Pl ] ; 
+define Px2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?*  _  ] ; 
 
-define Px21Plc1 [ 2%+ -> 0 || _ ?* %+N ?* %+1 %+Pl ] ; 
-define Px21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?* %+N ?* _  ] ; 
+define Px21Plc1 [ 2%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
+define Px21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?*  _  ] ; 
 
-define Px2Sgc [ 2%+ -> 0 ||  _ ?* %+N ] ; 
+define Px2Sgc [ 2%+ -> 0  ] ; 
 !}
 
 !#3 {
-define Px3Plc1 [ 3%+ -> 0 || _ ?* %+N ?* %+3 %+Pl ] ; 
-define Px3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _ ?* %+N ] ; 
+define Px3Plc1 [ 3%+ -> 0 || _  ?* %+3 %+Pl ] ; 
+define Px3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
 
-define PxObvc1 [ 3%+ -> 0 || _ ?* %+N ?* %+3 %+Obv ] ; 
-define PxObvc2 [ %+3 %+Obv -> 0 || %+N ?* _ ] ; 
+define PxObvc1 [ 3%+ -> 0 || _  ?* %+3 %+Obv ] ; 
+define PxObvc2 [ %+3 %+Obv -> 0  ] ; 
 
-define Px3Sgc [ 3%+ -> 0 ||  _ ?* %+N ] ; 
+define Px3Sgc [ 3%+ -> 0  ] ; 
 !}
 
 !#X {
-define PxXc [ X%+ -> 0 ||  _  ?* %+N ] ; 
+define PxXc [ X%+ -> 0  ] ; 
 !}
 
 !###
@@ -177,12 +177,12 @@ read regex [
     SgTag .o.
     !##possessor tags (combine prefix info with suffix info)
     !#first person
-    Px1Pl .o. !move
-    Px1Plc1 .o. !clean
-    Px1Plc2 .o. 
-    Px1Sg .o. !repeat for unmarked
-    Px1Sgc .o.
-    !#second person
+    !Px1Pl .o. !move
+    !Px1Plc1 .o. !clean
+    !Px1Plc2 .o. 
+    !Px1Sg .o. !repeat for unmarked
+    !Px1Sgc .o.
+    !!#second person
     Px2Pl .o. !move
     Px2Plc1 .o. !clean
     Px2Plc2 .o. 
@@ -191,16 +191,16 @@ read regex [
     Px21Plc2 .o. 
     Px2Sg .o. !repeat for unmarked
     Px2Sgc .o.
-    !#third person
-    Px3Pl .o. !move
-    Px3Plc1 .o. !clean
-    Px3Plc2 .o. 
-    PxObv .o. !repeat
-    PxObvc1 .o. 
-    PxObvc2 .o. 
-    Px3Sg .o. !repeat for unmarked
-    Px3Sgc .o.
-    !#unspecified person (a passive possessor :)
+    !!#third person
+    !Px3Pl .o. !move
+    !Px3Plc1 .o. !clean
+    !Px3Plc2 .o. 
+    !PxObv .o. !repeat
+    !PxObvc1 .o. 
+    !PxObvc2 .o. 
+    !Px3Sg .o. !repeat for unmarked
+    !Px3Sgc .o.
+    !!#unspecified person (a passive possessor :)
     PxX .o.
     PxXc
     ] ;
