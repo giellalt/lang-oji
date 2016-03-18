@@ -41,6 +41,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! Verb Negation
 +Neg ! ( abs: +Pos / +Aff )
+!opposed by +Pos in "analysis" mode, but +Pos plays no role in core transducer
 
 !! Local Person Number
 
@@ -137,8 +138,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Con 
 +Dim 
 +Pej
-+Pos ! Must be distinguished from tag for positive polarity
-
+!Possessive theme (plays no role in analysis mode)
++ThmPos
 !##Conjunct order tags
 
 !Verb Other Person/Number combinations (conjunct order crosses person with number)
