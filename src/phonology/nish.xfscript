@@ -32,8 +32,12 @@ define Ow [ O -> w || vowel _ vowel ];
 
 define absDel [ [absv|W|Y] -> 0 || _ .#. ];
 
-define vCoal [[o|O] shortv -> o o, [i|I] shortv -> i i, [a|A] shortv -> a a ];
-define gCoal [Y shortv -> i, W shortv (->) o];
+define vvvDel [ shortv -> 0 || _ longv, longv _ ]; 
+
+define vCoal [[o|O] shortv -> ǒ, [i|I] shortv -> ǐ, [a|A] shortv -> ǎ ];
+!need to think about glides coalescing with vowels
+define gCoal [Y shortv -> i,  W shortv (->) o];
+define nyCoal [shortv -> i || n y _ ];
 
 
 define preEpen [ %^ -> d || _ vowel ];
