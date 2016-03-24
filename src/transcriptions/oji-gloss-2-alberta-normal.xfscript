@@ -5,7 +5,7 @@
 !   only once this is complete should the composition section be updated
 
 !########### -- Verbs -- ########### 
-define VTag [ [..] -> %+V || _ [%+VAI|%+VII|%+VTI|%+VTA] ] ;
+!define VTag [ [..] -> %+V || _ [%+VAI|%+VII|%+VTI|%+VTA] ] ;
 define POSTrunc [ %+VAI -> %+AI ,
                   %+VII -> %+II ,
                   %+VTI -> %+TI ,
@@ -16,14 +16,14 @@ define IndepTag [ [..] -> %+Ind || [%+AI|%+II|%+TI|%+TA] _ ~[%+Cnj|%+Imp] ] ;
 !#shifting mode slot left (brings peripheral tags next to number tags)
 !###
 
-define PrtDubCopy [ [..] -> %+Prt %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt %+Dub ] ;
-define PrtDubDel [ %+Prt %+Dub -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ;
+define cpPrtDub [ [..] -> %+Prt %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt %+Dub ] ;
+define rmPrtDub [ %+Prt %+Dub -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ;
 
-define PrtCopy [ [..] -> %+Prt || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt ] ;
-define PrtDel [ %+Prt  -> 0 || %+V ?* ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !copy-delete only happens for verb preterites, not nouns
+define cpPrt [ [..] -> %+Prt || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Prt ] ;
+define rmPrt [ %+Prt  -> 0 || %+V ?* ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !copy-delete only happens for verb preterites, not nouns
 
-define DubCopy [ [..] -> %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Dub ] ;
-define DubDel [ %+Dub  -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !no noun preterites, so no POS restriction
+define cpDub [ [..] -> %+Dub || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ?* %+Dub ] ;
+define rmDub [ %+Dub  -> 0 || ~[%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ] ; !no noun preterites, so no POS restriction
 
 define NeuTag [..] -> %+Neu || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ~[%+Prt|%+Dub] ;
 
@@ -31,8 +31,8 @@ define NeuTag [..] -> %+Neu || [%+Ind|%+Imp [%+Imm|%+Proh|%+Del] |%+Cnj] _ ~[%+P
 !#shifting negative slot left (brings theme sign (obj agr) next to number tags (TA only))
 !###
 
-define NegCopy [ [..] -> %+Neg || [%+Neu|%+Prt|%+Dub] _ ?* %+Neg ] ;
-define NegDel [ %+Neg -> 0 || ~[%+Neu|%+Prt|%+Dub] _ ] ;
+define cpNeg [ [..] -> %+Neg || [%+Neu|%+Prt|%+Dub] _ ?* %+Neg ] ;
+define rmNeg [ %+Neg -> 0 || ~[%+Neu|%+Prt|%+Dub] _ ] ;
 
 define PosTag [ [..] -> %+Pos || [%+Neu|%+Prt|%+Dub] _ ~[%+Neg] ] ;
 
@@ -40,56 +40,79 @@ define PosTag [ [..] -> %+Pos || [%+Neu|%+Prt|%+Dub] _ ~[%+Neg] ] ;
 !#Person number (to cover both nouns and verbs)
 !###
 
-define 1Pl  [ [..] -> %+1Pl || 1%+ ?* %+1 %+Pl ?* _ .#. ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
-define 1Sg  [ [..] -> %+1Sg || 1%+ ?*  _ .#. ] ; !this rule needs to be ordered after +1+Pl is cleaned out
-
-define 2Pl  [ [..] -> %+2Pl || 2%+ ?*  [%+3|%+2] %+Pl ?* _ .#. ] ; !generally 2pl is signaled by 2+ ... +3+pl (a suff that also appears with third person plurals), except in TAs when a first person is involved
+define 1Pl  [ 1%+ -> %+1Pl || _ ?* %+1 %+Pl  ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
+define 1Sg  [ 1%+ -> %+1Sg ] ; !this rule needs to be ordered after +1+Pl applies
+                 
+define 2Pl  [ 2%+ -> %+2Pl || _  ?*  [%+3|%+2] %+Pl ] ; !generally 2pl is signaled by 2+ ... +3+pl (a suff that also appears with third person plurals), except in TAs when a first person is involved
                                                                     ! then there is never a 3 interpretation for the morpheme, so we call it a dedicated 2pl marker 
                                                                     ! Hockett's I-full and I-less interpretation is actually very clean in this case (2pl is always signaled by 2 ... I-less-pl)
-define 21Pl [ [..] -> %+21Pl || 2%+ ?*  %+1 %+Pl ?* _ .#. ] ; 
-define 2Sg  [ [..] -> %+2Sg || 2%+ ?*   _ .#. ] ; 
+define 21Pl [ 2%+ -> %+21Pl || _  ?*  %+1 %+Pl ] ; 
+define 2Sg  [ 2%+ -> %+2Sg ] ; 
 
-define 3Pl  [ [..] -> %+3Pl || 3%+ ?*  %+3 %+Pl ?* _ .#. ] ; 
-define Obv  [ [..] -> %+Obv || 3%+ ?*  %+3 %+Obv ?* _ .#. ] ; 
-define 3Sg  [ [..] -> %+3Sg || 3%+ ?*  _ .#. ] ; 
+!VTAs are going to be a trick (some fusion, +3+Pl ambiguity
+!need special rules for VAI third persons (where there's a suff)
+!need special rules for VII obviatives (where there's a number diff)
+define 3Pl  [ 3%+ -> %+3Pl || _  ?*  %+3 %+Pl ] ; 
+define Obv  [ 3%+ -> %+4 || _  ?*  %+3 %+4 ] ; 
+define 3Sg  [ 3%+ -> %+3Sg ] ; 
 
-define X    [ [..] -> %+X || X%+ ?*  _ .#. ] ;
+!verbal passives aren't prefixed...
+define X    [ X%+ -> %+X ] ;
 
-!##Cleaning (deleting) tags
+!##removing tag sequences {
+define rm1Pl [ [%+1 %+Pl] -> 0 ] ; 
+define rm2Pl [ [%+2 %+Pl] -> 0 ] ; !only used for a puny sliver of the grammar, which could be recast as +3+Pl
+define rm3Pl [ [%+3 %+Pl] -> 0 ] ; 
+define rm3Obv [ [%+3 %+4] -> 0 ] ; 
 
-!#1 {
-define 1Plc1 [ 1%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
-define 1Plc2 [ %+1 %+Pl -> 0 || ~[ 2%+ ] ?*  _  ] ; 
-
-define 1Sgc [ 1%+ -> 0 ] ; 
 !}
 
-!#2 {
-define 2Plc1 [ 2%+ -> 0 || _ ?*  %+3 %+Pl ] ; 
-define 2Plc2 [ %+3 %+Pl -> 0 || ~[ 3%+ ] ?*  _  ] ; 
+!##moving (copy, remove) tags {
+define cp1Pl  [ [..] -> %+1Pl  || %+1Pl  ?* _ .#.] ;
+define cp2Pl  [ [..] -> %+2Pl  || %+2Pl  ?* _ .#.] ;
+define cp21Pl [ [..] -> %+21Pl || %+21Pl ?* _ .#.] ;
+define cp3Pl  [ [..] -> %+3Pl  || %+3Pl  ?* _ .#.] ;
+define cp4    [ [..] -> %+4    || %+4    ?* _ .#.] ;
+define cp1Sg  [ [..] -> %+1Sg  || %+1Sg  ?* _ .#.] ;
+define cp2Sg  [ [..] -> %+2Sg  || %+2Sg  ?* _ .#.] ;
+define cp3Sg  [ [..] -> %+3Sg  || %+3Sg  ?* _ .#.] ;
+define cpX    [ [..] -> %+X    || %+X    ?* _ .#.] ;
 
-define 21Plc1 [ 2%+ -> 0 || _ ?*  %+1 %+Pl ] ; 
-define 21Plc2 [ %+1 %+Pl -> 0 || ~[ 1%+ ] ?*  _  ] ; 
+define rmpersnum [ [%+1Pl|%+1Sg|%+2Pl|%+21Pl|%+2Sg|%+3Pl|%+4|%+3Sg|%+X] -> 0 || .#. _ ] ;
 
-define 2Sgc [ 2%+ -> 0 ] ; 
 !}
 
-!#3 {
-define 3Plc1 [ 3%+ -> 0 || _ ?*  %+3 %+Pl ] ; 
-define 3Plc2 [ %+3 %+Pl -> 0 || ~[ 2%+ ] ?* _  ] ; 
+echo Putting it together
 
-define Obvc1 [ 3%+ -> 0 || _ ?*  %+3 %+Obv ] ; 
-define Obvc2 [ %+3 %+Obv -> 0 ] ; 
+read regex [
+    1Pl     .o.
+    1Sg     .o.
+    2Pl     .o.
+    21Pl    .o.
+    2Sg     .o.
+    3Pl     .o.
+    Obv     .o.
+    3Sg     .o.
+    X       .o.
+    rm1Pl   .o.
+    rm2Pl   .o.
+    rm3Pl   .o.
+    rm3Obv  !.o. !From 70 kB to 20.1 MB if the following is included
+    !cp1Pl   .o.
+    !cp2Pl   .o.
+    !cp3Pl   .o.
+    !cp4     .o.
+    !cp1Sg   .o.
+    !cp2Sg   .o.
+    !cp3Sg   .o.
+    !cpX     .o.
+    !rmpersnum
+    ] ;
 
-define 3Sgc [ 3%+ -> 0 ] ; 
-!}
 
-!#X {
-define PxXc [ X%+ -> 0 ] ; 
-!}
 !########### -- Nouns -- ########### 
-define NTag [ [..] -> %+N || _ [%+NA|%+NI|%+NAD|%+NID] ] ;
-define PosThmDel [ %+Pos -> 0 || %+N ?*  _ ] ; !can't remove everywhere, since we flag pos polarity in verbs with +Pos
+!define NTag [ [..] -> %+N || _ [%+NA|%+NI|%+NAD|%+NID] ] ;
+define PosThmDel [ %+ThmPos -> 0 || %+N ?*  _ ] ; !can't remove everywhere, since we flag pos polarity in verbs with +Pos
 
 !###
 !#managing peripheral slot
@@ -161,50 +184,50 @@ define PxXc [ X%+ -> 0  ] ;
 !}
 
 !###
-echo Putting it together
+!echo Putting it together
 !###
-
-
-
-read regex [ 
-    !####NOUNS
-    NTag .o.
-    PosThmDel .o.
-    !##Peripheral slot
-    !SgTag, PxObv assume +4 has been changed to +Obv in all nouns
-    4toObv .o.
-    !(need to apply before possessor tags target end of string)
-    SgTag .o.
-    !##possessor tags (combine prefix info with suffix info)
-    !#first person
-    !Px1Pl .o. !move
-    !Px1Plc1 .o. !clean
-    !Px1Plc2 .o. 
-    !Px1Sg .o. !repeat for unmarked
-    !Px1Sgc .o.
-    !!#second person
-    Px2Pl .o. !move
-    Px2Plc1 .o. !clean
-    Px2Plc2 .o. 
-    Px21Pl .o. !repeat
-    Px21Plc1 .o. 
-    Px21Plc2 .o. 
-    Px2Sg .o. !repeat for unmarked
-    Px2Sgc .o.
-    !!#third person
-    !Px3Pl .o. !move
-    !Px3Plc1 .o. !clean
-    !Px3Plc2 .o. 
-    !PxObv .o. !repeat
-    !PxObvc1 .o. 
-    !PxObvc2 .o. 
-    !Px3Sg .o. !repeat for unmarked
-    !Px3Sgc .o.
-    !!#unspecified person (a passive possessor :)
-    PxX .o.
-    PxXc
-    ] ;
-
+!
+!
+!
+!read regex [ 
+!    !####NOUNS
+!    NTag .o.
+!    PosThmDel .o.
+!    !##Peripheral slot
+!    !SgTag, PxObv assume +4 has been changed to +Obv in all nouns
+!    4toObv .o.
+!    !(need to apply before possessor tags target end of string)
+!    SgTag .o.
+!    !##possessor tags (combine prefix info with suffix info)
+!    !#first person
+!    !Px1Pl .o. !move
+!    !Px1Plc1 .o. !clean
+!    !Px1Plc2 .o. 
+!    !Px1Sg .o. !repeat for unmarked
+!    !Px1Sgc .o.
+!    !!#second person
+!    Px2Pl .o. !move
+!    Px2Plc1 .o. !clean
+!    Px2Plc2 .o. 
+!    Px21Pl .o. !repeat
+!    Px21Plc1 .o. 
+!    Px21Plc2 .o. 
+!    Px2Sg .o. !repeat for unmarked
+!    Px2Sgc .o.
+!    !!#third person
+!    !Px3Pl .o. !move
+!    !Px3Plc1 .o. !clean
+!    !Px3Plc2 .o. 
+!    !PxObv .o. !repeat
+!    !PxObvc1 .o. 
+!    !PxObvc2 .o. 
+!    !Px3Sg .o. !repeat for unmarked
+!    !Px3Sgc .o.
+!    !!#unspecified person (a passive possessor :)
+!    PxX .o.
+!    PxXc
+!    ] ;
+!
 echo Saving fst
 
 save stack oji-gloss-2-alberta-normal.fsm
