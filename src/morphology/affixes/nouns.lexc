@@ -58,8 +58,8 @@ LEXICON N_PEJ
             N_POS_NUM_GET ;
 
 LEXICON N_POS_NUM_GET 
-@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
-@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
+@D.Person.X@@D.Person.3@@R.Person@  N_POS_NUM_2_1 ;
+@D.Person.X@@D.Person.1@@R.Person@  N_POS_NUM_2_3 ;
 @R.Person.3@            N_POS_NUM_3 ; 
                         N_MOOD_GET ;
 
