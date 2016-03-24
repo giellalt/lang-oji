@@ -1,0 +1,71 @@
+! *converting digraphs*
+! ch, sh, zh, aa, ii, oo, (not nh, ny, ns)
+! though *sVh != *sh phonologically
+! caps define abstract segments that are useful in morphophon
+define dedigraph [a a -> ǎ, i i -> ǐ, o o -> ǒ, c h -> č, z h -> ž, s h -> š];
+define redigraph invert dedigraph ;
+define cleanse [ [%>|%^|%*|%&] -> 0 ]; 
+
+define bound [%>|%^|%*];
+define sigma [b|d|g|p|t|k|j|č|z|s|ž|š|m|n|w|y|%'|h|a|i|o|ǎ|ǐ|ǒ|e|W|Y|I|O|A|E|N|S]; 
+define cseqs [[b|d|g|p|t|k|j|č|ž|š|[[š|s](p|t|k)]|[m (b)]|[n (d|z|j|ž|g|h|s|y)]](w)|h|%'|w|y]; 
+define codaseqs [b|d|g|p|t|k|j|č|ž|š|w|y|[[š|s](p|t|k)]|[m (b)]|[n (d|z|j|ž|g)]]; 
+define longv [ǎ|e|ǐ|ǒ];
+define shortv [a|i|o|E];
+define absv [A|I|O|E];
+define vowel [a|ǎ|i|ǐ|o|ǒ|e|A|I|O|E];
+
+define Spal [S -> s h || _ i ]; !only lex item with alt has i, never ii
+define Salv [S -> s];
+define Npal [N -> z h || _ [i|ǐ]]; !long and short i?
+define Nalv [N -> n]; 
+
+!handle contemptive/diminutive allomorphy
+define Ee [E -> e || _ n [y|h|s]];
+define Ei [E -> i];
+![E shortv -> e] only needed in Minnesota for preterite /*bane/
+define Ecoal [E shortv -> e] ; 
+
+define ny [y -> h || n _ .#.] ;
+
+define Ow [ O -> w || vowel _ vowel ];
+
+define absDel [ [absv|W|Y] -> 0 || _ .#. ];
+
+define vCoal [[o|O] shortv -> o o, [i|I] shortv -> i i, [a|A] shortv -> a a ];
+define gCoal [Y shortv -> i, W shortv (->) o];
+
+
+define preEpen [ %^ -> d || _ vowel ];
+define preLen [ o  -> ǒ || %^ _ ];
+!for dependent stems
+define preGli [ o -> w || _ %* vowel ];  
+define preDel [ shortv -> 0 || _ %* vowel ];  
+
+!devoicing, final lowering is written by non-Rhodes spelling (i->e not standard)
+!I hope this syntax carries over from foma
+!define devoice [b -> p, d -> t, g -> k || _ .#.];
+!define finlow  [o -> a, i (->) e || _ .#.];
+
+define str1 [[..] -> %& || longv _ ];
+define str2 [[..] -> %& || shortv _ (codaseqs) .#.];
+define str3 [[..] -> %& // shortv cseqs shortv _ ];
+define rsync [vowel -> 0 || _ \%& ]; 
+
+read regex [
+    dedigraph   .o.
+    Spal        .o.
+    Salv        .o.
+    Npal        .o.
+    Nalv        .o.
+    vCoal       .o.
+    gCoal       .o.
+    Ee          .o.
+    Ei          .o.
+    str1        .o.
+    str2        .o.
+    str3        .o.
+    rsync       .o.
+    redigraph   .o.
+    cleanse     
+    ];
