@@ -34,6 +34,8 @@ define absDel [ [absv|W|Y] -> 0 || _ .#. ];
 
 define vvvDel [ shortv -> 0 || _ longv, longv _ ]; 
 
+!need to save contemptives/diminutives from getting aa:
+define blockvCoal [A E -> e];
 define vCoal [[o|O] shortv -> ǒ, [i|I] shortv -> ǐ, [a|A] shortv -> ǎ ];
 !need to think about glides coalescing with vowels
 define gCoal [Y shortv -> i,  W shortv (->) o];
