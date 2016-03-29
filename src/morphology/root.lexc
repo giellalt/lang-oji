@@ -72,7 +72,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
         !one which may also follow 1
             !2+...+1+Pl (=+21Pl above)
         !one which may also follow 3
-            !2+...+3+Pl (=+23Pl above)
+            !2+...+2+Pl (=+23Pl above)
     !3rd person prefix can have 1 flavor:
         !in this case you don't need two 3's
         !obviously wouldn't hurt to include it
@@ -84,9 +84,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !analysis space (including redundant specs):
     !pre    num1      num2
     !1.....(1 pl).....(3 pl) = 1sg/pl & 3sg/pl
-    !2.....([1|3] pl).(3 pl) = 2sg/pl/1.inc & 3sg/pl
+    !2.....([1|2] pl).(3 pl) = 2sg/pl/1.inc & 3sg/pl
         !small wrinkle: VAI num1 slot ...
-    !3.....(3 pl).....(3 ob) = 3sg/pl & 3ob
+    !3.....(2 pl).....(3 ob) = 3sg/pl & 3ob
         !modulo inanimate agr
         !careful with inanimate pl agr in num2
     !one more wrinkle 1 v 2/2 v 1:
@@ -96,7 +96,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !if you like things minimal:
     !pre    num1      num2
     !1.....(pl).......(pl) = 1sg/pl & 3sg/pl
-    !2.....([1|3] pl).(pl) = 2sg/pl/1.inc & 3sg/pl
+    !2.....([1|2] pl).(pl) = 2sg/pl/1.inc & 3sg/pl
     !3.....(pl).......(ob) = 3sg/pl & 3ob
 
 !DEPRECATED (conjunct order, imperative order might require)
