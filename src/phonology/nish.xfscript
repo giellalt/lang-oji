@@ -3,10 +3,10 @@
 ! though *sVh != *sh phonologically
 ! caps define abstract segments that are useful in morphophon
 define dedigraph [a a -> ǎ, i i -> ǐ, o o -> ǒ, c h -> č, z h -> ž, s h -> š];
-define redigraph invert dedigraph ;
-define cleanse [ [%>|%^|%*|%&] -> 0 ]; 
+define redigraph [ǎ -> a a, ǐ -> i i, ǒ -> o o, č -> c h, ž -> z h, š -> s h];
+define cleanse [ [%>|%^|%<|%&] -> 0 ]; 
 
-define bound [%>|%^|%*];
+define bound [%<|%>|%^];
 define sigma [b|d|g|p|t|k|j|č|z|s|ž|š|m|n|w|y|%'|h|a|i|o|ǎ|ǐ|ǒ|e|W|Y|I|O|A|E|N|S]; 
 define cseqs [[b|d|g|p|t|k|j|č|ž|š|[[š|s](p|t|k)]|[m (b)]|[n (d|z|j|ž|g|h|s|y)]](w)|h|%'|w|y]; 
 define codaseqs [b|d|g|p|t|k|j|č|ž|š|w|y|[[š|s](p|t|k)]|[m (b)]|[n (d|z|j|ž|g)]]; 
@@ -35,18 +35,19 @@ define absDel [ [absv|W|Y] -> 0 || _ .#. ];
 define vvvDel [ shortv -> 0 || _ longv, longv _ ]; 
 
 !need to save contemptives/diminutives from getting aa:
-define blockvCoal [A E -> e];
+define bleedvCoal [A E -> e];
 define vCoal [[o|O] shortv -> ǒ, [i|I] shortv -> ǐ, [a|A] shortv -> ǎ ];
 !need to think about glides coalescing with vowels
-define gCoal [Y shortv -> i,  W shortv (->) o];
+define yCoal [Y shortv -> i];
+define wCoal [W shortv (->) o]; !optional in pls by dialect
 define nyCoal [shortv -> i || n y _ ];
 
 
-define preEpen [ %^ -> d || _ vowel ];
-define preLen [ o  -> ǒ || %^ _ ];
+define preEpen [ %< -> d || _ vowel ];
+define preLen [ o  -> ǒ || %< _ ];
 !for dependent stems
-define preGli [ o -> w || _ %* vowel ];  
-define preDel [ shortv -> 0 || _ %* vowel ];  
+define preGli [ o -> w || _ %^ vowel ];  
+define preDel [ shortv -> 0 || _ %^ vowel ];  
 
 !devoicing, final lowering is written by non-Rhodes spelling (i->e not standard)
 !I hope this syntax carries over from foma
@@ -65,7 +66,8 @@ read regex [
     Npal        .o.
     Nalv        .o.
     vCoal       .o.
-    gCoal       .o.
+    yCoal       .o.
+    wCoal       .o.
     Ee          .o.
     Ei          .o.
     str1        .o.
