@@ -40,73 +40,67 @@ define PosTag [ [..] -> %+Pos || [%+Neu|%+Prt|%+Dub] _ ~[%+Neg] ] ;
 !#Person number (to cover both nouns and verbs)
 !###
 
-define 1Pl  [ 1%+ -> %+1Pl || _ ?* %+1 %+Pl  ] ; !could specify leading .#. in envi, but this shouldn't be necessary (1+ is by definition string initial)
-define 1Sg  [ 1%+ -> %+1Sg ] ; !this rule needs to be ordered after +1+Pl applies
+define 1Pla [ %+1 %+Pl -> %+1Pl || 1%+ ?*  _ ] ; 
+define 1Pl  [ %+1 %+Pl -> %+1Pl ] ; 
+define rm1pre [ 1%+ -> 0 || _ ?* %+1 %+Pl ] ;
+define 1Sg  [ [1%+|%+1] -> %+1Sg ] ; !this rule needs to be ordered after rm1Pla
                  
-define 2Pl  [ 2%+ -> %+2Pl || _  ?*  [%+3|%+2] %+Pl ] ; !generally 2pl is signaled by 2+ ... +3+pl (a suff that also appears with third person plurals), except in TAs when a first person is involved
-                                                                    ! then there is never a 3 interpretation for the morpheme, so we call it a dedicated 2pl marker 
-                                                                    ! Hockett's I-full and I-less interpretation is actually very clean in this case (2pl is always signaled by 2 ... I-less-pl)
-define 21Pl [ 2%+ -> %+21Pl || _  ?*  %+1 %+Pl ] ; 
-define 2Sg  [ 2%+ -> %+2Sg ] ; 
+!#second persons {
+define 21Pla [ %+1 %+Pl -> %+21Pl || 2%+ ?* _ ] ; 
+define 21Pl [ %+2 %+1 %+Pl -> %+21Pl ] ; 
 
-!VTAs are going to be a trick (some fusion, +3+Pl ambiguity
-!need special rules for VAI third persons (where there's a suff)
-!need special rules for VII obviatives (where there's a number diff)
-define 3Pl  [ 3%+ -> %+3Pl || _  ?*  %+3 %+Pl ] ; 
-define Obv  [ 3%+ -> %+4 || _  ?*  %+3 %+4 ] ; 
-define 3Sg  [ 3%+ -> %+3Sg ] ; 
-
-!verbal passives aren't prefixed...
-define X    [ X%+ -> %+X ] ;
-
-!##removing tag sequences {
-define rm1Pl [ [%+1 %+Pl] -> 0 ] ; 
-define rm2Pl [ [%+2 %+Pl] -> 0 ] ; !only used for a puny sliver of the grammar, which could be recast as +3+Pl
-define rm3Pl [ [%+3 %+Pl] -> 0 ] ; 
-define rm3Obv [ [%+3 %+4] -> 0 ] ; 
-
+define 2Pla [ %+2 %+Pl -> %+2Pl || 2%+ ?*  _ ] ; 
+define 2Pl  [ %+2 %+Pl -> %+2Pl ] ; 
+define rm2pre [ 2%+ -> 0 || _  ?*  [%+1|%+2] %+Pl ] ; 
+define 2Sg  [ [2%+|%+2] -> %+2Sg ] ; 
 !}
 
+!VTAs are going to be a trick (some fusion)
+!need special rules for VAI third persons (where there's a suff)
+!need special rules for VII obviatives (where there's a number diff)
+define 3Pla [ %+2 %+Pl -> %+3Pl || 3%+ ?*  _ ] ; !3pl may be signaled by 3+ ... +2+pl (a suff that also appears with second person plurals)
+define 3Pl  [ %+3 %+Pl -> %+3Pl ] ; !in TAs when a first or second person is involved, a dedicated +3+Pl marker is used with no prefix
+define rm3pre [ 3%+ -> 0 || _ ?* %+3 [ %+Pl | %+4 ] ] ;
+define Obv  [ %+3 %+4 -> %+4 ] ; 
+define 3Sg  [ [3%+|%+3] -> %+3Sg ] ; 
+
+!verbal passives aren't prefixed... so they will just stay as is, modulo +ThmPas
+define X    [ X%+ -> %+X ] ;
+
 !##moving (copy, remove) tags {
-define cp1Pl  [ [..] -> %+1Pl  || %+1Pl  ?* _ .#.] ;
-define cp2Pl  [ [..] -> %+2Pl  || %+2Pl  ?* _ .#.] ;
-define cp21Pl [ [..] -> %+21Pl || %+21Pl ?* _ .#.] ;
-define cp3Pl  [ [..] -> %+3Pl  || %+3Pl  ?* _ .#.] ;
-define cp4    [ [..] -> %+4    || %+4    ?* _ .#.] ;
 define cp1Sg  [ [..] -> %+1Sg  || %+1Sg  ?* _ .#.] ;
 define cp2Sg  [ [..] -> %+2Sg  || %+2Sg  ?* _ .#.] ;
 define cp3Sg  [ [..] -> %+3Sg  || %+3Sg  ?* _ .#.] ;
 define cpX    [ [..] -> %+X    || %+X    ?* _ .#.] ;
 
-define rmpersnum [ [%+1Pl|%+1Sg|%+2Pl|%+21Pl|%+2Sg|%+3Pl|%+4|%+3Sg|%+X] -> 0 || .#. _ ] ;
+define rmpersnum [ [%+1Sg|%+2Sg|%+3Sg|%+X] -> 0 || .#. _ ] ;
 
 !}
 
 echo Putting it together
 
 read regex [
+    1Pla    .o.
+    21Pla   .o.
+    2Pla    .o.
+    3Pla    .o.
     1Pl     .o.
-    1Sg     .o.
     2Pl     .o.
-    21Pl    .o.
+    3Pl     .o.
+    rm1pre  .o.
+    rm2pre  .o.
+    rm3pre  .o.
+    1Sg     .o.
     2Sg     .o.
     3Pl     .o.
     Obv     .o.
     3Sg     .o.
-    X       .o.
-    rm1Pl   .o.
-    rm2Pl   .o.
-    rm3Pl   .o.
-    rm3Obv  !.o. !From 70 kB to 20.1 MB if the following is included
-    !cp1Pl   .o.
-    !cp2Pl   .o.
-    !cp3Pl   .o.
-    !cp4     .o.
-    !cp1Sg   .o.
-    !cp2Sg   .o.
-    !cp3Sg   .o.
-    !cpX     .o.
-    !rmpersnum
+    X       .o. !this implementation is down to 16 kB from previous 70 kB
+    cp1Sg   .o. !including the copy rules gets it to 120.2 kB (had been 20 mB)
+    cp2Sg   .o.
+    cp3Sg   .o.
+    cpX     .o.
+    rmpersnum
     ] ;
 
 
