@@ -32,6 +32,7 @@ Punctuation
  * +PUNCT   = punctuation tag
  * +LEFT    = punctuation tag
  * +RIGHT   = punctuation tag
+ * +Symbol = independent symbols in the text stream, like £, €, ©
 
 
 
@@ -59,4 +60,3 @@ Punctuation
 
 
  LEXICON Root  points to the other lexica
-
