@@ -165,6 +165,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
+
 !####
 !#Person Flags (person indicated by prefixes)
 !####
