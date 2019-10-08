@@ -93,11 +93,17 @@ for f in $fsttype; do
         let "transducer_found += 1"
 
 ###### Test non-comopunds: #######
-        # generate verbs in infitive, extract the resulting generated lemma,
+        # generate verbs that are VTA, extract the resulting generated lemma,
         # store it:
-        sed 's/$/+V+Inf/' $lemmas | $lookup_tool $generator_file.$suffix \
+        sed 's/$/+VTA/' $lemmas | $lookup_tool $generator_file.$suffix \
             | fgrep -v "+?" | grep -v "^$" | cut -f2 | sort -u \
             > $generated_lemmas.$f.txt 
+        # generate verbs that are VAI, extract the resulting generated lemma,
+        # store it:
+        sed 's/$/+VTA/' $lemmas | $lookup_tool $generator_file.$suffix \
+            | fgrep "+?" | cut -d "+" -f1 | sed 's/$/+VAI/' \
+            | $generator_file.$suffix | fgrep -v "+?" | cut -f2 \ 
+	    | grep -v "^$" >> $generated_lemmas.$f.txt 
 
 ###### Collect results, and generate debug info if FAIL: #######
         # Sort and compare original input with resulting output - the diff is
@@ -108,7 +114,7 @@ for f in $fsttype; do
         # Open the diff file in SubEthaEdit (if there is a diff):
         if [ -s $result_file.$f.txt ]; then
             grep -v '^$' $result_file.$f.txt \
-              | sed 's/$/+V+Inf/' \
+              | sed 's/$/+VTA/' \
               | $lookup_tool $generator_file.$suffix \
               > $gen_result_file.$f.txt
             # If we have an analyser, analyse the missing lemmas as well:
