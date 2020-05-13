@@ -1,0 +1,35 @@
+[package]
+name = "oji"
+human_name = "Ojibwa"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.oji]
+filename = "oj-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-oji"
+platform = "windows"
+uuid = "01789212-1A5F-4C16-9672-59835CF258C4"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.oj"
+package = "speller-oji"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-oji-mso"
+platform = "windows"
+uuid = "C3DD383C-3132-4A05-9382-04C60EC40702"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-oji"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
