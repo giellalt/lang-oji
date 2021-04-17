@@ -13,12 +13,12 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!            !!!Ojibwe morphological analyser                      !
+!! # Ojibwe morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
  
 !todo: make sure LowPerson.X is not an option
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !####
 !#Abstract features (not associated with a particular morpheme)
@@ -165,13 +165,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 
-        !! !!Symbols that need to be escaped on the lower side (towards twolc):
- »7     !!≈ ; @CODE@ : Literal »
- «7     !!≈ ; @CODE@ : Literal «
-        !! {{{
+        !! ## Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ * **@CODE@**:  Literal »
+ «7     !!≈ * **@CODE@**:  Literal «
+        !! ```
  %[%>%] !!= @CODE@ - Literal >
  %[%<%] !!= @CODE@ - Literal <
-        !! }}}
+        !! ```
 
 
 !####
