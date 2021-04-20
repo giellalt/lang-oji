@@ -16,8 +16,12 @@ and dictionary. The data and implementation are licenced under
 directory. The authors named in the AUTHORS file are available to grant
 other licencing choices.
 
-Installation and compilation, and a short note on usage, is documented
-in the file INSTALL.
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
+[![Build Status](https://github.com/giellalt/lang-oji/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-oji/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-oji)](https://raw.githubusercontent.com/giellalt/lang-oji/develop/LICENSE)
+
+Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-oji)
+for the Ojibwa language by using the [Divvun Installer](http://divvun.no)
 
 Documentation can be found here:
 
