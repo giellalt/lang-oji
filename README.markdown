@@ -1,6 +1,10 @@
 The Ojibwa morphology and tools
 ===============================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
+[![Build Status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://raw.githubusercontent.com/giellalt/lang-oji/develop/LICENSE)
+
 NOTE: DEVELOPMENT IN OJI HAS BEEN SUSPENDED (03/29/2016) TEMPORARILY IN
 FAVOR OF OTW. CURRENT MATERIALS ARE APPROPRIATE FOR NON-NORTHERN
 DIALECTS (LEXICON AND MORPHOLOGY), AND THERE HAS BEEN SOME WORK
@@ -15,10 +19,6 @@ and dictionary. The data and implementation are licenced under
 \_\_LICENCE\_\_ licence also detailed in the LICENCE file of this
 directory. The authors named in the AUTHORS file are available to grant
 other licencing choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
-[![Build Status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://raw.githubusercontent.com/giellalt/lang-oji/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-oji)
 for the Ojibwa language by using the [Divvun Installer](http://divvun.no)
