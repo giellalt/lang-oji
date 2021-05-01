@@ -1,3 +1,166 @@
+Noun inflection
+The Ojibwa language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+
+Verb inflection
+The Ojibwa language verbs inflect in persons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Ojibwe morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
@@ -69,6 +232,77 @@ Punctuation
 
 
  LEXICON Root  points to the other lexica
+Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
 
 
 
