@@ -1,3 +1,27 @@
+Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
+Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+
+# Symbol affixes
+
+
+
+
+
 Noun inflection
 The Ojibwa language nouns inflect in cases.
 
@@ -19,13 +43,6 @@ The Ojibwa language nouns inflect in cases.
 
 
 
-
-
-
-
-
-
-# Symbol affixes
 
 
 
@@ -232,21 +249,20 @@ Punctuation
 
 
  LEXICON Root  points to the other lexica
-Prefixes
-Prefixes in the Ojibwa language are bound to beginning of other words.
 
 
 
-Pronouns
-Pronouns in the Ojibwa language are references to things.
+We describe here how abbreviations are in Ojibwa are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Adjectives
-Adjectives in the Ojibwa language describe things.
-
-
-Numerals
-Numerals in the Ojibwa language are numbers.
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -302,20 +318,4 @@ Numerals in the Ojibwa language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Ojibwa are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
