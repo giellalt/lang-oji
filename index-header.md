@@ -1,7 +1,7 @@
 # Ojibwa documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://raw.githubusercontent.com/giellalt/lang-oji/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://raw.githubusercontent.com/giellalt/lang-oji/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
 [![Build status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
 
