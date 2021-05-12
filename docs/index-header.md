@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
 [![Build status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
 
-This page documents the work on the **Ojibwa language model**. 
+This page documents the work on the [Ojibwa language model](http://github.com/giellalt/lang-oji). 
 
 # Project documentation
 
