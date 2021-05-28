@@ -660,56 +660,6 @@ These were the set types.
 
 
 
-Numerals
-Numerals in the Ojibwa language are numbers.
-
-
-Prefixes
-Prefixes in the Ojibwa language are bound to beginning of other words.
-
-
-
-Adjectives
-Adjectives in the Ojibwa language describe things.
-
-
-Pronouns
-Pronouns in the Ojibwa language are references to things.
-
-
-
-# Symbol affixes
-
-
-
-
-
-Noun inflection
-The Ojibwa language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Verb inflection
 The Ojibwa language verbs inflect in persons.
@@ -840,6 +790,56 @@ The Ojibwa language verbs inflect in persons.
 
 
 
+Noun inflection
+The Ojibwa language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
 
 # Ojibwe morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
@@ -914,22 +914,6 @@ Punctuation
 
 
 
-We describe here how abbreviations are in Ojibwa are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -980,6 +964,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Ojibwa are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
