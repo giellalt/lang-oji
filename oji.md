@@ -1,60 +1,5 @@
 
 
-# Plains Cree disambiguator 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -254,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -660,7 +605,171 @@ These were the set types.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/functions.cg3)</small>
 
+# Plains Cree disambiguator 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>
+# Ojibwe morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
+
+ # Definitions for Multichar_Symbols
+
+
+
+
+
+
+Verb Negation
+
+Local Person Number
+
+
+
+
+
+
+
+
+
+
+
+
+Imperative order tags
+
+Punctuation
+
+ * +CLB     = punctuation tag
+ * +PUNCT   = punctuation tag
+ * +LEFT    = punctuation tag
+ * +RIGHT   = punctuation tag
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+ * **»7**:  Literal »
+ * **«7**:  Literal «
+```
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON Root  points to the other lexica
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/root.lexc)</small>Noun inflection
+The Ojibwa language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/symbols.lexc)</small>
 Verb inflection
 The Ojibwa language verbs inflect in persons.
 
@@ -790,128 +899,29 @@ The Ojibwa language verbs inflect in persons.
 
 
 
-Noun inflection
-The Ojibwa language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Pronouns
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>Pronouns
 Pronouns in the Ojibwa language are references to things.
 
 
-Numerals
-Numerals in the Ojibwa language are numbers.
-
-
-Adjectives
-Adjectives in the Ojibwa language describe things.
-
-
-Prefixes
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
 Prefixes in the Ojibwa language are bound to beginning of other words.
 
 
 
-
-# Ojibwe morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
-
- # Definitions for Multichar_Symbols
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
+Adjectives in the Ojibwa language describe things.
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the Ojibwa language are numbers.
 
 
-
-
-Verb Negation
-
-Local Person Number
-
-
-
-
-
-
-
-
-
-
-
-
-Imperative order tags
-
-Punctuation
-
- * +CLB     = punctuation tag
- * +PUNCT   = punctuation tag
- * +LEFT    = punctuation tag
- * +RIGHT   = punctuation tag
- * +Symbol = independent symbols in the text stream, like £, €, ©
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
-```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- LEXICON Root  points to the other lexica
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>
 
 
 
@@ -965,7 +975,8 @@ Punctuation
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Ojibwa are read out, e.g.
@@ -981,8 +992,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1392,3 +1404,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-oji/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
