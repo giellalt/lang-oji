@@ -662,7 +662,28 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>
 # Ojibwe morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
 
@@ -734,42 +755,7 @@ Punctuation
 
  LEXICON Root  points to the other lexica
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/root.lexc)</small>Noun inflection
-The Ojibwa language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/root.lexc)</small>
 Verb inflection
 The Ojibwa language verbs inflect in persons.
 
@@ -900,28 +886,42 @@ The Ojibwa language verbs inflect in persons.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>Pronouns
-Pronouns in the Ojibwa language are references to things.
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
+
+
+
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
-Prefixes in the Ojibwa language are bound to beginning of other words.
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
+The Ojibwa language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
-Adjectives in the Ojibwa language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
-Numerals in the Ojibwa language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/nouns.lexc)</small>
 
 
 
