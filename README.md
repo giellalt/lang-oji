@@ -15,7 +15,7 @@ HAS FULLER VERSIONS OF PHONOLOGY, MORPHOLOGY, TAG ABSTRACTION, AND AN
 OTW-SPECIFIC LEXICON.
 
 This directory contains source files for the Ojibwa language morphology
-and dictionary. The data and implementation are licenced under the __LICENCE__
+and dictionary. The data and implementation are licenced under the __LICENSE__
 licence, also detailed in the
 [LICENSE](https://github.com/giellalt/lang-oji/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
