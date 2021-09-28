@@ -1,61 +1,5 @@
 
 
-# Plains Cree disambiguator 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>
-
 
 
 
@@ -662,7 +606,84 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/functions.cg3)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/functions.cg3)</small>
+
+# Plains Cree disambiguator 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>Noun inflection
 The Ojibwa language nouns inflect in cases.
 
 
@@ -690,6 +711,14 @@ The Ojibwa language nouns inflect in cases.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/symbols.lexc)</small>
 Verb inflection
 The Ojibwa language verbs inflect in persons.
 
@@ -821,14 +850,6 @@ The Ojibwa language verbs inflect in persons.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/symbols.lexc)</small>
 # Ojibwe morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
 
@@ -900,28 +921,24 @@ Punctuation
 
  LEXICON Root  points to the other lexica
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/root.lexc)</small>Adjectives
-Adjectives in the Ojibwa language describe things.
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/root.lexc)</small>
+
+
+We describe here how abbreviations are in Ojibwa are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
-Numerals in the Ojibwa language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>Prefixes
-Prefixes in the Ojibwa language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
-Pronouns in the Ojibwa language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -977,23 +994,6 @@ Pronouns in the Ojibwa language are references to things.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Ojibwa are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
