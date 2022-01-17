@@ -662,32 +662,11 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>Numerals
-Numerals in the Ojibwa language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>Adjectives
-Adjectives in the Ojibwa language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Prefixes
-Prefixes in the Ojibwa language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
-Pronouns in the Ojibwa language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-oji/blob/main/../src/cg3/disambiguator.cg3)</small>
 # Ojibwe morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Ojibwe LANGUAGE.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 
 
@@ -717,12 +696,12 @@ Punctuation
  * +PUNCT   = punctuation tag
  * +LEFT    = punctuation tag
  * +RIGHT   = punctuation tag
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
@@ -921,7 +900,28 @@ The Ojibwa language verbs inflect in persons.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/affixes/verbs.lexc)</small>Prefixes
+Prefixes in the Ojibwa language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
+Adjectives in the Ojibwa language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+Pronouns in the Ojibwa language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/pronouns.lexc)</small>Numerals
+Numerals in the Ojibwa language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-oji/blob/main/../src/fst/stems/numerals.lexc)</small>
 
 
 We describe here how abbreviations are in Ojibwa are read out, e.g.
