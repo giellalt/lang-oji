@@ -6,6 +6,9 @@
 [![Build status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
 
 This page documents the work on the [Ojibwa language model](http://github.com/giellalt/lang-oji). 
+Ojibwa is an Algonquin language spoken in Canada and the United States.
+The analyser contains appr. 7200 stems, and the basic
+verbal and nominal morphology.
 
 # Project documentation
 
