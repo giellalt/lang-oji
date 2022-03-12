@@ -2,7 +2,7 @@ The Ojibwa morphology and tools
 ===============================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
-[![Build Status](https://github.com/giellalt/lang-oji/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-oji/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-oji/main/badge.svg)](https://github.com/giellalt/lang-oji/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/blob/main/LICENSE)
 
 NOTE: DEVELOPMENT IN OJI HAS BEEN SUSPENDED (03/29/2016) TEMPORARILY IN
