@@ -35,13 +35,10 @@ used with [divvunspell](https://github.com/divvun/divvunspell).
 Documentation
 -------------
 
-Documentation can be found here:
+Documentation can be found at:
 
-- [In source documentation generated with github
-   pages](https://gilellalt.github.io/lang-oji/)
 -   <https://giellalt.uit.no/lang/oji/OjibwaDocumentation.html>
-    (analyser)
--   <https://giellalt.uit.no/index.html> (infrastructure)
+-   <https://giellalt.uit.no/index.html>
 
 Core dependencies
 -----------------
