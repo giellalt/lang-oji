@@ -37,7 +37,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/oji/OjibwaDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-oji/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
