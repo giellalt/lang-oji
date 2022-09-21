@@ -38,7 +38,7 @@ Documentation
 Documentation can be found at:
 
 - [Language specific documentation](https://giellalt.github.io/lang-oji/)
--   <https://giellalt.uit.no/index.html>
+- [General documentation](https://giellalt.github.io/)
 
 Core dependencies
 -----------------
