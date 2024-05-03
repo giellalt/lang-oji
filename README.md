@@ -8,10 +8,13 @@ The Ojibwa morphology and tools
 [![Doc Build Status](https://github.com/giellalt/lang-oji/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-oji/actions)
 [![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-oji/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-oji/main/latest)
 
-Download nightly / CI/CD zhfst files for testing:
+Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
+
 [![Windows](https://img.shields.io/badge/download%40latest-Windows--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-oji?platform=windows&channel=nightly)
 [![MacOS](https://img.shields.io/badge/download%40latest-macOS--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-oji?platform=macos&channel=nightly)
 [![Mobile](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-oji?platform=mobile&channel=nightly)
+
+__NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
 NOTE: DEVELOPMENT IN OJI HAS BEEN SUSPENDED (03/29/2016) TEMPORARILY IN
 FAVOR OF OTW. CURRENT MATERIALS ARE APPROPRIATE FOR NON-NORTHERN
