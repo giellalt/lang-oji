@@ -161,7 +161,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +CLB    !!= * @CODE@ = punctuation tag
 +PUNCT  !!= * @CODE@ = punctuation tag
 +LEFT   !!= * @CODE@ = punctuation tag
-+RIGHT  !!= * @CODE@ = punctuation tag
++RIGHT +MIDDLE !!= * @CODE@ = punctuation tag
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 
