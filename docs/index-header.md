@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-oji%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-oji/main/badge.svg)](https://github.com/giellalt/lang-oji/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-oji?label=CI)](https://builds.giellalt.org/pipelines/lang-oji/builds/latest)
 
 This page documents the work on the [Ojibwa language model](http://github.com/giellalt/lang-oji). 
 Ojibwa is an Algonquin language spoken in Canada and the United States.
