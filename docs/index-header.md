@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-oji)](https://github.com/giellalt/lang-oji/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-oji?label=CI)](https://builds.giellalt.org/pipelines/lang-oji/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the [Ojibwa language model](http://github.com/giellalt/lang-oji). 
 Ojibwa is an Algonquin language spoken in Canada and the United States.
