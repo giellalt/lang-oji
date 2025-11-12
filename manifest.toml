@@ -1,6 +1,3 @@
-spellername = "Ojibwa"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "01789212-1A5F-4C16-9672-59835CF258C4", kind = "nsis" },
     { value = "C3DD383C-3132-4A05-9382-04C60EC40702", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Ojibwa"
+version = "0.1.1"
+
+[package.grammar]
+name = "Ojibwa"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Ojibwa"
+version = "0.1.0"
